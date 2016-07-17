@@ -1,0 +1,104 @@
+<html>
+	<head>
+    </head>
+	<body>
+    Search by card name:<br>
+    <input type="text" id="cardname"><br>
+
+    <br>Search by monster type:<br>
+    <select id="monstertype">
+        <option value="">Select Type</option>
+        <option value="Aqua">Aqua</option>
+        <option value="Beast">Beast</option>
+        <option value="Beast-Warrior">Beast-Warrior</option>
+        <option value="Dinosaur">Dinosaur</option>
+        <option value="Dragon">Dragon</option>
+        <option value="Fairy">Fairy</option>
+        <option value="Fiend">Fiend</option>
+        <option value="Fish">Fish</option>
+        <option value="Insect">Insect</option>
+        <option value="Machine">Machine</option>
+        <option value="Plant">Plant</option>
+        <option value="Pyro">Pyro</option>
+        <option value="Reptile">Reptile</option>
+        <option value="Rock">Rock</option>
+        <option value="Sea Serpent">Sea Serpent</option>
+        <option value="SpellCaster">SpellCaster</option>
+        <option value="Thunder">Thunder</option>
+        <option value="Warrior">Warrior</option>
+        <option value="Winged Beast">Winged Beast</option>
+        <option value="Zombie">Zombie</option>
+    </select><br>
+
+    <br>Search by card type:<br>
+    <select id="cardtype">
+        <option value="">Select Type</option>
+        <option value="Equip">Equip</option>
+        <option value="Field">Field</option>
+        <option value="Magic">Magic</option>
+        <option value="Ritual">Ritual</option>
+        <option value="Trap">Trap</option>
+    </select><br>
+
+    <br>
+    <button type="button" id="searchBtn">Search</button>
+    <button type="button" id="resetBtn">Reset</button>
+
+    <br><br>
+    <div id="outputarea"></div>
+
+    <script src="taffydb-master/taffy.js"></script>
+    <script src="ygo_fm_cardDB.js"></script>
+    <script src="ygo_fm_secondaryDB.js"></script>
+    <script src="ygo_fm_genfuseDB.js"></script>
+    <script>
+    var searchButton = document.getElementById("searchBtn");
+
+    var searchName = document.getElementById("cardname");
+    var searchType = document.getElementById("monstertype");
+    var searchCardType = document.getElementById("cardtype");
+
+    var output = document.getElementById("outputarea");
+
+    formatStr = "Left Input:  {left}<br>Right Input: {right}<br>Output: {output} ({attack}/{defense})<br><br>";
+
+    function searchDB() {
+        var term = "";
+        if (searchName.value !== "") {
+            term = searchName.value;
+        }
+
+        if (searchType.value !== "") {
+            term = searchType.value;
+        }
+
+        if (searchCardType.value !== "") {
+            term = searchCardType.value;
+        }
+
+        if (term !== "") {
+            var leftfuses = genfuseDB({left:{isnocase:term}});
+            if (leftfuses) {
+                output.innerHTML = "<h2>As Left Input:</h2>"
+                output.innerHTML += leftfuses.supplant(formatStr);
+            }
+            var rightfuses = genfuseDB({right:{isnocase:term}});
+            if (rightfuses) {
+                output.innerHTML += "<br><h2>As Right Input:</h2>"
+                output.innerHTML += rightfuses.supplant(formatStr);
+            }
+        } else {
+            alert("Please enter a search term");
+        }
+    }
+    searchBtn.onclick = function() { searchDB(); }
+    document.getElementById("resetBtn").onclick = function() {
+        searchName.value = "";
+        searchType.value = "";
+        searchCardType.value = "";
+        output.innerHTML = "";
+    }
+    
+    </script>
+	</body>
+</html>
