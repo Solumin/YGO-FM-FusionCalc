@@ -9,6 +9,8 @@ var formatStr = "<div class='result-div'>Left Input:  {left}<br>Right Input: {ri
 var typeStr = "<div class='result-div'>Left Input:  {left}<br>Right Input: {right}<br>Output: {output} ({type})<br><br></div>";
 
 function searchByName() {
+    resultsClear();
+    
     if (nameInput.value === "") {
         console.log("Please enter a search term");
         $("#search-msg").html("Please enter a search term");
