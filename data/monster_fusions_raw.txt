@@ -1202,7 +1202,7 @@ Castle of Dark Illusions (1200/2500) 083
 Celtic Guardian (1400/1200) = Dark Elf (2000/800)
 Dark-piercing Light (Magic) = Bright Castle (Equip)
 Gemini Elf (1900/900) = Dark Elf (2000/800)
-Job Change Mirror (800/1300) = Summoned Skull (2500/1200)
+Job-Change Mirror (800/1300) = Summoned Skull (2500/1200)
 
 Catapult Turtle (1000/2000) 089
 ------------------------------------------
@@ -1411,7 +1411,7 @@ Crab Turtle (2550/2500) 710
 Crass Clown (1350/1400) 095
 ------------------------------------------
 Grappler (1300/1200) = Soul Hunters (2200/1800)
-Job Change Mirror (800/1300) = Summoned Skull (2500/1200)
+Job-Change Mirror (800/1300) = Summoned Skull (2500/1200)
 Sinister Serpent (300/250) = Soul Hunters (2200/1800)
 
 Crawling Dragon (1600/1400) 094
@@ -2475,7 +2475,7 @@ Embryonic Beast (500/750) 254
 Arlownay (800/1000) = Rose Specter of Dunn (2000/1800)
 Dragon Statue (1100/900) = Koumori Dragon (1500/1200)
 Fungi of the Musk (400/300) = Darkworld Thorns (1200/900)
-Job Change Mirror (800/1300) = Summoned Skull (2500/1200)
+Job-Change Mirror (800/1300) = Summoned Skull (2500/1200)
 One-Eyed Shield Dragon (700/1300) = Koumori Dragon (1500/1200)
 Petit Dragon (600/700) = Koumori Dragon (1500/1200)
 Supporter in the Shadows (1000/1000) = Tiger Axe (1300/1100)
@@ -3653,7 +3653,7 @@ Elegant Egotist (Equip) = Curse of Tri-Horned Dragon (Ritual)
 Horn Imp (1300/1000) 025
 ------------------------------------------
 Arlownay (800/1000) = Rose Specter of Dunn (2000/1800)
-Job Change Mirror (800/1300) = Summoned Skull (2500/1200)
+Job-Change Mirror (800/1300) = Summoned Skull (2500/1200)
 Yamatano Dragon Scroll (900/300) = Koumori Dragon (1500/1200)
 
 Hoshiningen (500/700) 492
@@ -3844,7 +3844,7 @@ Jirai Gumo (2200/100) 367
 ------------------------------------------
 MetalMorph (Equip) = Launcher Spider (2200/2500)
 
-Job Change Mirror (800/1300) 103
+Job-Change Mirror (800/1300) 103
 ------------------------------------------
 Castle of Dark Illusions (1200/2500) = Summoned Skull (2500/1200)
 Crass Clown (1350/1400) = Summoned Skull (2500/1200)
@@ -4239,7 +4239,7 @@ Kwagar Hercules (1900/1700) 533
 
 La Jinn the Mystical Genie (1800/1000) 379
 ------------------------------------------
-Job Change Mirror (800/1300) = Summoned Skull (2500/1200)
+Job-Change Mirror (800/1300) = Summoned Skull (2500/1200)
 
 Labyrinth Tank (2400/2400) 370
 ------------------------------------------
@@ -6624,7 +6624,7 @@ Rude Kaiser (1800/1600) 382
 Ryu-Kishin (1000/500) 005
 ------------------------------------------
 Droll Bird (600/500) = Whiptail Crow (1650/1600)
-Job Change Mirror (800/1300) = Summoned Skull (2500/1200)
+Job-Change Mirror (800/1300) = Summoned Skull (2500/1200)
 Masked Sorceror (900/1400) = Ryu-Kishin Powered (1600/1200)
 Mavelus (1300/900) = Whiptail Crow (1650/1600)
 Nemuriko (800/700) = Ryu-Kishin Powered (1600/1200)
@@ -7606,7 +7606,7 @@ The Shadow that Controls the Dark (800/700) 148
 ------------------------------------------
 Celtic Guardian (1400/1200) = Dark Elf (2000/800)
 Fungi of the Musk (400/300) = Darkworld Thorns (1200/900)
-Job Change Mirror (800/1300) = Summoned Skull (2500/1200)
+Job-Change Mirror (800/1300) = Summoned Skull (2500/1200)
 Mystical Elf (800/2000) = Dark Elf (2000/800)
 Mystical Sheep #2 (800/1000) = Mystical Sheep #1 (1150/900)
 One-eyed Shield Dragon (700/1300) = Blackland Fire Dragon (1500/800)

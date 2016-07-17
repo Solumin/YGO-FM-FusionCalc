@@ -7377,7 +7377,7 @@ var monsterfuseDB = TAFFY([
   },
   {
     "left": "Castle of Dark Illusions",
-    "right": "Job Change Mirror",
+    "right": "Job-Change Mirror",
     "output": "Summoned Skull",
     "attack": 2500,
     "defense": 1200,
@@ -8649,7 +8649,7 @@ var monsterfuseDB = TAFFY([
   },
   {
     "left": "Crass Clown",
-    "right": "Job Change Mirror",
+    "right": "Job-Change Mirror",
     "output": "Summoned Skull",
     "attack": 2500,
     "defense": 1200,
@@ -15217,7 +15217,7 @@ var monsterfuseDB = TAFFY([
   },
   {
     "left": "Embryonic Beast",
-    "right": "Job Change Mirror",
+    "right": "Job-Change Mirror",
     "output": "Summoned Skull",
     "attack": 2500,
     "defense": 1200,
@@ -21801,7 +21801,7 @@ var monsterfuseDB = TAFFY([
   },
   {
     "left": "Horn Imp",
-    "right": "Job Change Mirror",
+    "right": "Job-Change Mirror",
     "output": "Summoned Skull",
     "attack": 2500,
     "defense": 1200,
@@ -22768,7 +22768,7 @@ var monsterfuseDB = TAFFY([
     "type": "Monster"
   },
   {
-    "left": "Job Change Mirror",
+    "left": "Job-Change Mirror",
     "right": "Castle of Dark Illusions",
     "output": "Summoned Skull",
     "attack": 2500,
@@ -22776,7 +22776,7 @@ var monsterfuseDB = TAFFY([
     "type": "Monster"
   },
   {
-    "left": "Job Change Mirror",
+    "left": "Job-Change Mirror",
     "right": "Crass Clown",
     "output": "Summoned Skull",
     "attack": 2500,
@@ -22784,7 +22784,7 @@ var monsterfuseDB = TAFFY([
     "type": "Monster"
   },
   {
-    "left": "Job Change Mirror",
+    "left": "Job-Change Mirror",
     "right": "Embryonic Beast",
     "output": "Summoned Skull",
     "attack": 2500,
@@ -22792,7 +22792,7 @@ var monsterfuseDB = TAFFY([
     "type": "Monster"
   },
   {
-    "left": "Job Change Mirror",
+    "left": "Job-Change Mirror",
     "right": "Horn Imp",
     "output": "Summoned Skull",
     "attack": 2500,
@@ -22800,7 +22800,7 @@ var monsterfuseDB = TAFFY([
     "type": "Monster"
   },
   {
-    "left": "Job Change Mirror",
+    "left": "Job-Change Mirror",
     "right": "La Jinn the Mystical Genie",
     "output": "Summoned Skull",
     "attack": 2500,
@@ -22808,7 +22808,7 @@ var monsterfuseDB = TAFFY([
     "type": "Monster"
   },
   {
-    "left": "Job Change Mirror",
+    "left": "Job-Change Mirror",
     "right": "Ryu-Kishin",
     "output": "Summoned Skull",
     "attack": 2500,
@@ -22816,7 +22816,7 @@ var monsterfuseDB = TAFFY([
     "type": "Monster"
   },
   {
-    "left": "Job Change Mirror",
+    "left": "Job-Change Mirror",
     "right": "The Shadow that Controls the Dark",
     "output": "Summoned Skull",
     "attack": 2500,
@@ -25105,7 +25105,7 @@ var monsterfuseDB = TAFFY([
   },
   {
     "left": "La Jinn the Mystical Genie",
-    "right": "Job Change Mirror",
+    "right": "Job-Change Mirror",
     "output": "Summoned Skull",
     "attack": 2500,
     "defense": 1200,
@@ -39449,7 +39449,7 @@ var monsterfuseDB = TAFFY([
   },
   {
     "left": "Ryu-Kishin",
-    "right": "Job Change Mirror",
+    "right": "Job-Change Mirror",
     "output": "Summoned Skull",
     "attack": 2500,
     "defense": 1200,
@@ -44833,7 +44833,7 @@ var monsterfuseDB = TAFFY([
   },
   {
     "left": "The Shadow that Controls the Dark",
-    "right": "Job Change Mirror",
+    "right": "Job-Change Mirror",
     "output": "Summoned Skull",
     "attack": 2500,
     "defense": 1200,
