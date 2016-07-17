@@ -84,7 +84,8 @@
         if (term !== "") {
             var leftfuses = genfuseDB({left:{isnocase:term}});
             if (card) {
-                leftfuses = leftfuses.filter({attack:{gt:card.attack}});
+                leftfuses =
+                    leftfuses.filter({attack:{gt:card.attack}},{minattack:{lte:card.attack}});
             }
             if (leftfuses) {
                 output.innerHTML = "<h2>As Left Input:</h2>"
@@ -92,7 +93,8 @@
             }
             var rightfuses = genfuseDB({right:{isnocase:term}});
             if (card) {
-                rightfuses = rightfuses.filter({attack:{gt:card.attack}});
+                rightfuses =
+                    rightfuses.filter({attack:{gt:card.attack}},{minattack:{lte:card.attack}});
             }
             if (rightfuses) {
                 output.innerHTML += "<br><h2>As Right Input:</h2>"
