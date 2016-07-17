@@ -3,8 +3,6 @@ require 'json'
 fusions = []
 
 def getName(name)
-    name.strip!
-
     # if the name starts with "[" then it's a group, e.g. [Fish]
     # Return the group as the name
     if name[0] == '['
@@ -21,25 +19,16 @@ def getName(name)
     end
 end
 
-# Expects a "Name (attack/defense)" string
-def getStats(name)
-    m = name.match /\((\d+)\/(\d+)\)/
-    {:attack => m[1].to_i, :defense => m[2].to_i}
-end
-
-
 File.readlines("data/ygo_fm_genfuseDB.txt").each do |line|
-    fields = line.split " + "
-    left = fields[0]
+    fields = line.strip.split ","
 
-    fields = fields[1].split " = "
-    right = fields.shift
-    output = fields.shift
-
-    fuse = getStats(output)
-    fuse[:left] = getName(left)
-    fuse[:right] = getName(right)
-    fuse[:output] = getName(output)
+    fuse = {}
+    fuse[:left] = getName(fields[0])
+    fuse[:right] = getName(fields[1])
+    fuse[:output] = fields[2]
+    fuse[:attack] = fields[3].to_i
+    fuse[:defense] = fields[4].to_i
+    fuse[:minattack] = fields[5].to_i
 
     fusions << fuse
 end
