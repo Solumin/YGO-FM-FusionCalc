@@ -2,7 +2,8 @@ var nameInput = document.getElementById("cardname");
 var typeInput = document.getElementById("monstertype");
 var cardTypeInput = document.getElementById("cardtype");
 
-var output = document.getElementById("outputarea");
+var outputMonster = document.getElementById("outputarealeft");
+var outputGeneral = document.getElementById("outputarearight");
 
 var formatStr = "Left Input:  {left}<br>Right Input: {right}<br>Output: {output} ({attack}/{defense})<br><br>";
 var typeStr = "Left Input:  {left}<br>Right Input: {right}<br>Output: {output} ({type})<br><br>";
@@ -92,4 +93,3 @@ document.getElementById("resetBtn").onclick = function() {
     output.innerHTML = "";
     $("#search-msg").html("");
 }
-
