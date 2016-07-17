@@ -23,9 +23,9 @@ File.readlines("data/ygo_fm_cardDB.txt").each do |line|
         props[:type] = fields[ctindex+1,sindex-(ctindex+1)].join(" ")
         props[:star1] = fields[sindex]
         props[:star2] = fields[sindex+1]
-        props[:level] = fields[sindex+2]
-        props[:attack] = fields[sindex+3]
-        props[:defense] = fields[sindex+4]
+        props[:level] = fields[sindex+2].to_i
+        props[:attack] = fields[sindex+3].to_i
+        props[:defense] = fields[sindex+4].to_i
         # These will be nil if the card doesn't have them
         props[:password] = fields[sindex+5]
         props[:cost] = fields[sindex+6]

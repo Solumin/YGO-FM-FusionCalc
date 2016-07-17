@@ -24,7 +24,7 @@ end
 # Expects a "Name (attack/defense)" string
 def getStats(name)
     m = name.match /\((\d+)\/(\d+)\)/
-    {:attack => m[1], :defense => m[2]}
+    {:attack => m[1].to_i, :defense => m[2].to_i}
 end
 
 
