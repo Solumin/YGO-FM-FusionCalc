@@ -5,8 +5,8 @@ var cardTypeInput = document.getElementById("cardtype");
 var outputMonster = document.getElementById("outputarealeft");
 var outputGeneral = document.getElementById("outputarearight");
 
-var formatStr = "Left Input:  {left}<br>Right Input: {right}<br>Output: {output} ({attack}/{defense})<br><br>";
-var typeStr = "Left Input:  {left}<br>Right Input: {right}<br>Output: {output} ({type})<br><br>";
+var formatStr = "<div class='result-div'>Left Input:  {left}<br>Right Input: {right}<br>Output: {output} ({attack}/{defense})<br><br></div>";
+var typeStr = "<div class='result-div'>Left Input:  {left}<br>Right Input: {right}<br>Output: {output} ({type})<br><br></div>";
 
 function searchByName() {
     if (nameInput.value === "") {
@@ -32,12 +32,12 @@ function searchByName() {
     var genfuses = genfuseDB({left:{isnocase:genterm}},{attack:{gt:card.attack}},{minattack:{lte:card.attack}});
 
     if (monfuses.count() > 0) {
-        output.innerHTML = "<h2>Monster Fuses:</h2>";
-        output.innerHTML += monfuses.supplant(formatStr);
+        outputMonster.innerHTML = "<h2 class='center'>Monster Fuses:</h2>";
+        outputMonster.innerHTML += monfuses.supplant(formatStr);
     }
     if (genfuses.count() > 0) {
-        output.innerHTML += "<h2>General Fuses:</h2>";
-        output.innerHTML += genfuses.supplant(formatStr);
+        outputGeneral.innerHTML += "<h2 class='center'>General Fuses:</h2>";
+        outputGeneral.innerHTML += genfuses.supplant(formatStr);
     }
 }
 
@@ -63,12 +63,12 @@ function searchByType() {
     var genfuses = genfuseDB({left:term});
     console.log(monfuses.count());
     if (monfuses.count() > 0) {
-        output.innerHTML = "<h2>Monster Fuses:</h2>";
-        output.innerHTML += monfuses.supplant(typeStr);
+        outputMonster.innerHTML = "<h2>Monster Fuses:</h2>";
+        outputMonster.innerHTML += monfuses.supplant(typeStr);
     }
     if (genfuses.count() > 0) {
-        output.innerHTML += "<h2>General Fuses:</h2>";
-        output.innerHTML += genfuses.supplant(typeStr);
+        outputGeneral.innerHTML += "<h2>General Fuses:</h2>";
+        outputGeneral.innerHTML += genfuses.supplant(typeStr);
     }
 }
 
