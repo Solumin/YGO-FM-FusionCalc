@@ -146,6 +146,12 @@
     }
     searchBtn.onclick = function() { searchDB(); }
 		var searchField = searchName.value;
+
+		// runs search function on every keypress in #cardname input field
+		$("#cardname").keyup(function (){
+			searchDB();
+		});
+
     document.getElementById("resetBtn").onclick = function() {
         searchName.value = "";
         searchType.value = "";
