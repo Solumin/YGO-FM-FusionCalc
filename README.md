@@ -39,8 +39,9 @@ It's not case sensitive but it is punctuation sensitive, so cards like
 
 - Better support for looking up monsters by name
 - All monster-to-monster fusions
-- More exact fusion checks (some fusions are based on the strengths of the input
-  monsters, for example)
+- More exact fusion checks. Every general fusion limits the attack stat of the
+  inputs, and some also have a minimum attack stat that is based on other
+  fusions of the same input type (see Zombie + Dragon)
 - Better formatting of output, I guess
 - Making all the input files CSVs (may not be possible for secondary DB)
 

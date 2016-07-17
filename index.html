@@ -64,8 +64,13 @@
 
     function searchDB() {
         var term = "";
+        var card = null;
         if (searchName.value !== "") {
-            term = searchName.value;
+            card = cardDB({name:{isnocase:searchName.value}}).first();
+            // Returns an array containing the column contents, which is itself
+            // an array of monster types
+            var secondaries = secondaryDB({name:{isnocase:card.name}}).select("secondarytypes");
+            term = [card.name, card.type].concat(secondaries[0]);
         }
 
         if (searchType.value !== "") {
@@ -78,11 +83,17 @@
 
         if (term !== "") {
             var leftfuses = genfuseDB({left:{isnocase:term}});
+            if (card) {
+                leftfuses = leftfuses.filter({attack:{gt:card.attack}});
+            }
             if (leftfuses) {
                 output.innerHTML = "<h2>As Left Input:</h2>"
                 output.innerHTML += leftfuses.supplant(formatStr);
             }
             var rightfuses = genfuseDB({right:{isnocase:term}});
+            if (card) {
+                rightfuses = rightfuses.filter({attack:{gt:card.attack}});
+            }
             if (rightfuses) {
                 output.innerHTML += "<br><h2>As Right Input:</h2>"
                 output.innerHTML += rightfuses.supplant(formatStr);
