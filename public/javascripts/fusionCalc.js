@@ -74,10 +74,12 @@ function searchByType() {
 
 document.getElementById("searchNameBtn").onclick = function() {
     $("#search-msg").html("");
+    resultsClear();
     searchByName();
 }
 document.getElementById("searchTypeBtn").onclick = function() {
     $("#search-msg").html("");
+    resultsClear();
     searchByType();
 }
 
@@ -90,6 +92,12 @@ document.getElementById("resetBtn").onclick = function() {
     nameInput.value = "";
     typeInput.value = "";
     cardTypeInput.value = "";
-    output.innerHTML = "";
+    outputMonster.innerHTML = "";
+    outputGeneral.innerHTML = "";
     $("#search-msg").html("");
+}
+
+function resultsClear(){
+    outputMonster.innerHTML = "";
+    outputGeneral.innerHTML = "";
 }
