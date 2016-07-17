@@ -13,7 +13,7 @@ end
 puts "Processed #{secondaries.count} cards"
 
 File.open("data/ygo_fm_secondaryDB.js", "w") {|file|
-    file.write("var secondaryDB = TAFFY(#{secondaries.to_json})")
+    file.write("var secondaryDB = TAFFY(#{JSON.pretty_generate(secondaries)})")
 }
 
 puts "Wrote JSON DB js file"

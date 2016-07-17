@@ -42,6 +42,7 @@ It's not case sensitive but it is punctuation sensitive, so cards like
 - More exact fusion checks (some fusions are based on the strengths of the input
   monsters, for example)
 - Better formatting of output, I guess
+- Making all the input files CSVs (may not be possible for secondary DB)
 
 ### Contributing
 
@@ -63,7 +64,9 @@ the script.
 
 These .js scripts are generated using the scripts located in the
 appropriately-named `scripts` directory. They expect to be run from the project
-directory, e.g. `ruby scripts/make_general_fusionDB.rb`.
+directory, e.g. `ruby scripts/make_general_fusionDB.rb`. Since the database
+files are now fairly readable JSON (instead of massive blobs of unreadable JSON)
+these scripts and their inputs should be considered deprecated.
 
 Each Monster card in Forbidden Memories has an associated Type, such as Beast,
 Dragon, Fish, Insect and so on. However, some cards count as multiple types: 
