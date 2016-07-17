@@ -409,7 +409,7 @@
 409 Metal Dragon Monster Machine Mars moon 6 1850 1700 09293977 350
 410 Mechanical Spider Monster Machine Jupiter Mercury 2 400 500 45688586 20
 411 Bat Monster Machine Moon mercury 1 300 350 72076281 15
-412 Giga-tech Wolf Monster Machine Jupiter Uranas 4 1200 1400 08471389 120
+412 Giga-Tech Wolf Monster Machine Jupiter Uranas 4 1200 1400 08471389 120
 413 Cyber Soldier Monster Machine Moon Mars 5 1500 1700 44865098 260
 414 Shovel Crusher Monster Machine Uranus Neptune 3 900 1200 71950093 60
 415 Mechanicalchacer Monster Machine Moon Jupiter 4 1850 800 07359741 120

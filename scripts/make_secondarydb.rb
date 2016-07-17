@@ -12,7 +12,7 @@ end
 
 puts "Processed #{secondaries.count} cards"
 
-File.open("data/ygo_fm_cardDB.js", "w") {|file|
+File.open("data/ygo_fm_secondaryDB.js", "w") {|file|
     file.write("var secondaryDB = TAFFY(#{secondaries.to_json})")
 }
 
