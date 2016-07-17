@@ -10,7 +10,7 @@ var typeStr = "<div class='result-div'>Left Input:  {left}<br>Right Input: {righ
 
 function searchByName() {
     resultsClear();
-    
+
     if (nameInput.value === "") {
         console.log("Please enter a search term");
         $("#search-msg").html("Please enter a search term");
@@ -65,11 +65,11 @@ function searchByType() {
     var genfuses = genfuseDB({left:term});
     console.log(monfuses.count());
     if (monfuses.count() > 0) {
-        outputMonster.innerHTML = "<h2>Monster Fuses:</h2>";
+        outputMonster.innerHTML = "<h2 class='center'>Monster Fuses:</h2>";
         outputMonster.innerHTML += monfuses.supplant(typeStr);
     }
     if (genfuses.count() > 0) {
-        outputGeneral.innerHTML += "<h2>General Fuses:</h2>";
+        outputGeneral.innerHTML += "<h2 class='center'>General Fuses:</h2>";
         outputGeneral.innerHTML += genfuses.supplant(typeStr);
     }
 }
