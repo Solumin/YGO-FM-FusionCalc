@@ -4,7 +4,8 @@ var cardTypeInput = document.getElementById("cardtype");
 
 var output = document.getElementById("outputarea");
 
-formatStr = "Left Input:  {left}<br>Right Input: {right}<br>Output: {output} ({attack}/{defense})<br><br>";
+var formatStr = "Left Input:  {left}<br>Right Input: {right}<br>Output: {output} ({attack}/{defense})<br><br>";
+var typeStr = "Left Input:  {left}<br>Right Input: {right}<br>Output: {output} ({type})<br><br>";
 
 function searchByName() {
     if (nameInput.value === "") {
@@ -56,20 +57,28 @@ function searchByType() {
         return;
     }
 
-    var leftfuses = genfuseDB({left:{isnocase:term}});
-    var rightfuses = genfuseDB({right:{isnocase:term}});
-    if (leftfuses) {
-        output.innerHTML = "<h2>As Left Input:</h2>";
-        output.innerHTML += leftfuses.supplant(formatStr);
+    console.log(term);
+    var monfuses = monsterfuseDB({type:term});
+    var genfuses = genfuseDB({left:term});
+    console.log(monfuses.count());
+    if (monfuses.count() > 0) {
+        output.innerHTML = "<h2>Monster Fuses:</h2>";
+        output.innerHTML += monfuses.supplant(typeStr);
     }
-    if (rightfuses) {
-        output.innerHTML += "<br><h2>As Right Input:</h2>";
-        output.innerHTML += rightfuses.supplant(formatStr);
+    if (genfuses.count() > 0) {
+        output.innerHTML += "<h2>General Fuses:</h2>";
+        output.innerHTML += genfuses.supplant(typeStr);
     }
 }
 
-document.getElementById("searchNameBtn").onclick = function() { searchByName(); }
-document.getElementById("searchTypeBtn").onclick = function() { searchByType(); }
+document.getElementById("searchNameBtn").onclick = function() {
+    $("#search-msg").html("");
+    searchByName();
+}
+document.getElementById("searchTypeBtn").onclick = function() {
+    $("#search-msg").html("");
+    searchByType();
+}
 
 // runs search function on every keypress in #cardname input field
 // $("#cardname").keyup(function (){
