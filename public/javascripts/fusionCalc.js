@@ -4,6 +4,7 @@ var cardTypeInput = document.getElementById("cardtype");
 
 var outputMonster = document.getElementById("outputarealeft");
 var outputGeneral = document.getElementById("outputarearight");
+var outputCard = document.getElementById("outputcard");
 
 var formatStr = "<div class='result-div'>Left Input:  {left}<br>Right Input: {right}<br>Output: {output} ({attack}/{defense})<br><br></div>";
 var typeStr = "<div class='result-div'>Left Input:  {left}<br>Right Input: {right}<br>Output: {output} ({type})<br><br></div>";
@@ -18,12 +19,18 @@ function searchByName() {
     }
 
     var card = cardDB({name:{isnocase:nameInput.value}}).first();
+    console.log(card);
 
     if (!card) {
         console.log(nameInput.value + " is an invalid name");
         $("#search-msg").html("No card for '" + nameInput.value + "' found");
         return;
+    } else {
+      // Display card beside search bar
+        outputCard.innerHTML = "<div class='result-div'>" + "Name: " + card.name + "<br>" + "ATK/DEF: " + card.attack + "/" + card.defense + "<br>" + "Type: " + card.type + "</div>"
     }
+
+
 
     // Get the list of monster-to-monster fusions
     var monfuses = monsterfuseDB({left:{isnocase:card.name}});
