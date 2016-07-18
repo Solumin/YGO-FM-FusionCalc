@@ -6917,3 +6917,9 @@ textarea {
 #upload-input {
   display: none;
 }
+.result-div {
+  padding: 6px;
+  margin: 20px;
+  border: 1px dotted #337ab7;
+  border-radius: 10px;
+}

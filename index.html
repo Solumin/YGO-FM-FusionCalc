@@ -36,51 +36,56 @@
           <div class="col-xs-12">
             <div class="panel panel-default upload-font">
                         <div class="panel-body">
-                        <h4>Search by card name:</h4><br>
-                        <input type="text" id="cardname" onchange="searchByName()">
-                        <button type="button" id="searchNameBtn">Search by Name</button>
-                            <br>
-                            <br>
-                            <h4>Search by monster or card type:</h4>
-                            <br>
-                        <select id="monstertype">
-                            <option value="">Monster Type</option>
-                            <option value="Aqua">Aqua</option>
-                            <option value="Beast">Beast</option>
-                            <option value="Beast-Warrior">Beast-Warrior</option>
-                            <option value="Dinosaur">Dinosaur</option>
-                            <option value="Dragon">Dragon</option>
-                            <option value="Fairy">Fairy</option>
-                            <option value="Fiend">Fiend</option>
-                            <option value="Fish">Fish</option>
-                            <option value="Insect">Insect</option>
-                            <option value="Machine">Machine</option>
-                            <option value="Plant">Plant</option>
-                            <option value="Pyro">Pyro</option>
-                            <option value="Reptile">Reptile</option>
-                            <option value="Rock">Rock</option>
-                            <option value="Sea Serpent">Sea Serpent</option>
-                            <option value="SpellCaster">SpellCaster</option>
-                            <option value="Thunder">Thunder</option>
-                            <option value="Warrior">Warrior</option>
-                            <option value="Winged Beast">Winged Beast</option>
-                            <option value="Zombie">Zombie</option>
-                        </select>
-                        <select id="cardtype">
-                            <option value="">Card Type</option>
-                            <option value="Equip">Equip</option>
-                            <option value="Field">Field</option>
-                            <option value="Magic">Magic</option>
-                            <option value="Ritual">Ritual</option>
-                            <option value="Trap">Trap</option>
-                        </select><br>
-                        <br>
-                        <button type="button" id="searchTypeBtn">Search by Type</button>
-                        <br>
-                        <br>
-                        <button type="button" id="resetBtn">Reset All</button>
+													<div class="col-xs-6">
+		                        <h4>Search by card name:</h4><br>
+		                        <input type="text" id="cardname" onchange="searchByName()">
+		                        <button type="button" id="searchNameBtn">Search by Name</button>
+		                            <br>
+		                            <br>
+		                            <h4>Search by monster or card type:</h4>
+		                            <br>
+		                        <select id="monstertype">
+		                            <option value="">Monster Type</option>
+		                            <option value="Aqua">Aqua</option>
+		                            <option value="Beast">Beast</option>
+		                            <option value="Beast-Warrior">Beast-Warrior</option>
+		                            <option value="Dinosaur">Dinosaur</option>
+		                            <option value="Dragon">Dragon</option>
+		                            <option value="Fairy">Fairy</option>
+		                            <option value="Fiend">Fiend</option>
+		                            <option value="Fish">Fish</option>
+		                            <option value="Insect">Insect</option>
+		                            <option value="Machine">Machine</option>
+		                            <option value="Plant">Plant</option>
+		                            <option value="Pyro">Pyro</option>
+		                            <option value="Reptile">Reptile</option>
+		                            <option value="Rock">Rock</option>
+		                            <option value="Sea Serpent">Sea Serpent</option>
+		                            <option value="SpellCaster">SpellCaster</option>
+		                            <option value="Thunder">Thunder</option>
+		                            <option value="Warrior">Warrior</option>
+		                            <option value="Winged Beast">Winged Beast</option>
+		                            <option value="Zombie">Zombie</option>
+		                        </select>
+		                        <select id="cardtype">
+		                            <option value="">Card Type</option>
+		                            <option value="Equip">Equip</option>
+		                            <option value="Field">Field</option>
+		                            <option value="Magic">Magic</option>
+		                            <option value="Ritual">Ritual</option>
+		                            <option value="Trap">Trap</option>
+		                        </select><br>
+		                        <br>
+		                        <button type="button" id="searchTypeBtn">Search by Type</button>
+		                        <br>
+		                        <br>
+		                        <button type="button" id="resetBtn">Reset All</button>
 
-                        <br><br>
+		                        <br><br>
+													</div>
+													<div class="col-xs-6">
+														<div id="outputcard"></div>
+													</div>
                         </div>
                     </div>
                 </div>
@@ -90,7 +95,12 @@
             <div class="panel panel-default upload-font">
                         <div class="panel-body">
                             <h4>Results: <span id="search-msg"></span></h4>
-                            <div id="outputarea"></div>
+														<div class="col-xs-6">
+															<div id="outputarealeft"></div>
+														</div>
+														<div class="col-xs-6">
+															<div id="outputarearight"></div>
+														</div>
                         </div>
                     </div>
                 </div>
