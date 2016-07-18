@@ -66,7 +66,7 @@ var monsterfuseDB = TAFFY([
   {
     "left": "Abyss Flower",
     "right": "Crawling Dragon #2",
-    "output": "Black Dragon Jungle King",
+    "output": "B. Dragon Jungle King",
     "attack": 2100,
     "defense": 1800,
     "type": "Monster"
@@ -74,7 +74,7 @@ var monsterfuseDB = TAFFY([
   {
     "left": "Abyss Flower",
     "right": "Crawling Dragon",
-    "output": "Black Dragon Jungle King",
+    "output": "B. Dragon Jungle King",
     "attack": 2100,
     "defense": 1800,
     "type": "Monster"
@@ -402,14 +402,14 @@ var monsterfuseDB = TAFFY([
   {
     "left": "Air Marmot of Nefariousness",
     "right": "Candle of Fate",
-    "output": "Flame Cerberus",
+    "output": "Flame Cerebrus",
     "attack": 2100,
     "defense": 1800,
     "type": "Monster"
   },
   {
     "left": "Air Marmot of Nefariousness",
-    "right": "Charubin Fire Knight",
+    "right": "Charubin the Fire Knight",
     "output": "Flame Cerebrus",
     "attack": 2100,
     "defense": 1800,
@@ -1000,7 +1000,7 @@ var monsterfuseDB = TAFFY([
     "type": "Monster"
   },
   {
-    "left": "Amoeba",
+    "left": "Ameba",
     "right": "Crawling Dragon #2",
     "output": "Kairyu-Shin",
     "attack": 1800,
@@ -1008,7 +1008,7 @@ var monsterfuseDB = TAFFY([
     "type": "Monster"
   },
   {
-    "left": "Amoeba",
+    "left": "Ameba",
     "right": "Crawling Dragon",
     "output": "Kairyu-Shin",
     "attack": 1800,
@@ -1016,7 +1016,7 @@ var monsterfuseDB = TAFFY([
     "type": "Monster"
   },
   {
-    "left": "Amoeba",
+    "left": "Ameba",
     "right": "Dragon Zombie",
     "output": "Kairyu-Shin",
     "attack": 1800,
@@ -1024,7 +1024,7 @@ var monsterfuseDB = TAFFY([
     "type": "Monster"
   },
   {
-    "left": "Amoeba",
+    "left": "Ameba",
     "right": "Koumori Dragon",
     "output": "Spike Seadra",
     "attack": 1600,
@@ -1032,7 +1032,7 @@ var monsterfuseDB = TAFFY([
     "type": "Monster"
   },
   {
-    "left": "Amoeba",
+    "left": "Ameba",
     "right": "LaLa Li-oon",
     "output": "Bolt Escargot",
     "attack": 1400,
@@ -1040,7 +1040,7 @@ var monsterfuseDB = TAFFY([
     "type": "Monster"
   },
   {
-    "left": "Amoeba",
+    "left": "Ameba",
     "right": "Mega Thunderball",
     "output": "Bolt Escargot",
     "attack": 1400,
@@ -1048,7 +1048,7 @@ var monsterfuseDB = TAFFY([
     "type": "Monster"
   },
   {
-    "left": "Amoeba",
+    "left": "Ameba",
     "right": "One-eyed Shield Dragon",
     "output": "Spike Seadra",
     "attack": 1600,
@@ -1056,7 +1056,7 @@ var monsterfuseDB = TAFFY([
     "type": "Monster"
   },
   {
-    "left": "Amoeba",
+    "left": "Ameba",
     "right": "Psychic Kappa",
     "output": "Hyosube",
     "attack": 1500,
@@ -1064,7 +1064,7 @@ var monsterfuseDB = TAFFY([
     "type": "Monster"
   },
   {
-    "left": "Amoeba",
+    "left": "Ameba",
     "right": "Wicked Dragon with the Ersatz Head",
     "output": "Spike Seadra",
     "attack": 1600,
@@ -1072,7 +1072,7 @@ var monsterfuseDB = TAFFY([
     "type": "Monster"
   },
   {
-    "left": "Amoeba",
+    "left": "Ameba",
     "right": "Yamatano Dragon Scroll",
     "output": "Spike Seadra",
     "attack": 1600,
@@ -1242,14 +1242,14 @@ var monsterfuseDB = TAFFY([
   {
     "left": "Ancient Jar",
     "right": "Baby Dragon",
-    "output": "Stone Dragon",
+    "output": "Stone D.",
     "attack": 2000,
     "defense": 2300,
     "type": "Monster"
   },
   {
     "left": "Ancient Jar",
-    "right": "Beautiful Head Huntress",
+    "right": "Beautiful Headhuntress",
     "output": "Mystical Sand",
     "attack": 2100,
     "defense": 1700,
@@ -1258,7 +1258,7 @@ var monsterfuseDB = TAFFY([
   {
     "left": "Ancient Jar",
     "right": "Blackland Fire Dragon",
-    "output": "Stone Dragon",
+    "output": "Stone D.",
     "attack": 2000,
     "defense": 2300,
     "type": "Monster"
@@ -1290,7 +1290,7 @@ var monsterfuseDB = TAFFY([
   {
     "left": "Ancient Jar",
     "right": "Crawling Dragon #2",
-    "output": "Stone Dragon",
+    "output": "Stone D.",
     "attack": 2000,
     "defense": 2300,
     "type": "Monster"
@@ -1298,7 +1298,7 @@ var monsterfuseDB = TAFFY([
   {
     "left": "Ancient Jar",
     "right": "Crawling Dragon",
-    "output": "Stone Dragon",
+    "output": "Stone D.",
     "attack": 2000,
     "defense": 2300,
     "type": "Monster"
@@ -1346,7 +1346,7 @@ var monsterfuseDB = TAFFY([
   {
     "left": "Ancient Jar",
     "right": "Dragon Zombie",
-    "output": "Stone Dragon",
+    "output": "Stone D.",
     "attack": 2000,
     "defense": 2300,
     "type": "Monster"
@@ -1482,7 +1482,7 @@ var monsterfuseDB = TAFFY([
   {
     "left": "Ancient Jar",
     "right": "Koumori Dragon",
-    "output": "Stone Dragon",
+    "output": "Stone D.",
     "attack": 2000,
     "defense": 2300,
     "type": "Monster"
@@ -1498,7 +1498,7 @@ var monsterfuseDB = TAFFY([
   {
     "left": "Ancient Jar",
     "right": "Lesser Dragon",
-    "output": "Stone Dragon",
+    "output": "Stone D.",
     "attack": 2000,
     "defense": 2300,
     "type": "Monster"
@@ -1546,7 +1546,7 @@ var monsterfuseDB = TAFFY([
   {
     "left": "Ancient Jar",
     "right": "Metal Dragon",
-    "output": "Stone Dragon",
+    "output": "Stone D.",
     "attack": 2000,
     "defense": 2300,
     "type": "Monster"
@@ -1594,7 +1594,7 @@ var monsterfuseDB = TAFFY([
   {
     "left": "Ancient Jar",
     "right": "One-eyed Shield Dragon",
-    "output": "Stone Dragon",
+    "output": "Stone D.",
     "attack": 2000,
     "defense": 2300,
     "type": "Monster"
@@ -1602,7 +1602,7 @@ var monsterfuseDB = TAFFY([
   {
     "left": "Ancient Jar",
     "right": "Petit Dragon",
-    "output": "Stone Dragon",
+    "output": "Stone D.",
     "attack": 2000,
     "defense": 2300,
     "type": "Monster"
@@ -1649,7 +1649,7 @@ var monsterfuseDB = TAFFY([
   },
   {
     "left": "Ancient Jar",
-    "right": "Sealed Exodia's Left Arm",
+    "right": "Left Arm of the Forbidden One",
     "output": "Ushi Oni",
     "attack": 2150,
     "defense": 1950,
@@ -1657,7 +1657,7 @@ var monsterfuseDB = TAFFY([
   },
   {
     "left": "Ancient Jar",
-    "right": "Sealed Exodia's Right Arm",
+    "right": "Right Arm of the Forbidden One",
     "output": "Ushi Oni",
     "attack": 2150,
     "defense": 1950,
@@ -1682,7 +1682,7 @@ var monsterfuseDB = TAFFY([
   {
     "left": "Ancient Jar",
     "right": "Skelgon",
-    "output": "Stone Dragon",
+    "output": "Stone D.",
     "attack": 2000,
     "defense": 2300,
     "type": "Monster"
@@ -1698,7 +1698,7 @@ var monsterfuseDB = TAFFY([
   {
     "left": "Ancient Jar",
     "right": "Spike Seadra",
-    "output": "Stone Dragon",
+    "output": "Stone D.",
     "attack": 2000,
     "defense": 2300,
     "type": "Monster"
@@ -1786,7 +1786,7 @@ var monsterfuseDB = TAFFY([
   {
     "left": "Ancient Jar",
     "right": "Wicked Dragon with the Ersatz Head",
-    "output": "Stone Dragon",
+    "output": "Stone D.",
     "attack": 2000,
     "defense": 2300,
     "type": "Monster"
@@ -1810,7 +1810,7 @@ var monsterfuseDB = TAFFY([
   {
     "left": "Ancient Jar",
     "right": "Yamatano Dragon Scroll",
-    "output": "Stone Dragon",
+    "output": "Stone D.",
     "attack": 2000,
     "defense": 2300,
     "type": "Monster"
@@ -1906,7 +1906,7 @@ var monsterfuseDB = TAFFY([
   {
     "left": "Ancient Tree of Enlightenment",
     "right": "Kairyu-shin",
-    "output": "Black Dragon Jungle King",
+    "output": "B. Dragon Jungle King",
     "attack": 2100,
     "defense": 1800,
     "type": "Monster"
@@ -1962,7 +1962,7 @@ var monsterfuseDB = TAFFY([
   {
     "left": "Angelwitch",
     "right": "Goddess with the Third Eye",
-    "output": "Queen of Autmn Leaves",
+    "output": "Queen of Autumn Leaves",
     "attack": 1800,
     "defense": 1500,
     "type": "Monster"
@@ -2073,7 +2073,7 @@ var monsterfuseDB = TAFFY([
   },
   {
     "left": "Angelwitch",
-    "right": "Spiked Seadra",
+    "right": "Spike Seadra",
     "output": "Kaminari Attack",
     "attack": 1500,
     "defense": 1400,
@@ -2112,15 +2112,15 @@ var monsterfuseDB = TAFFY([
     "type": "Monster"
   },
   {
-    "left": "Ansastu",
+    "left": "Ansatsu",
     "right": "Blackland Fire Dragon",
-    "output": "Sword Arm of the Dragon",
+    "output": "Sword Arm of Dragon",
     "attack": 1750,
     "defense": 2030,
     "type": "Monster"
   },
   {
-    "left": "Ansastu",
+    "left": "Ansatsu",
     "right": "Candle of Fate",
     "output": "Flame Swordsman",
     "attack": 1800,
@@ -2128,7 +2128,7 @@ var monsterfuseDB = TAFFY([
     "type": "Monster"
   },
   {
-    "left": "Ansastu",
+    "left": "Ansatsu",
     "right": "Celtic Guardian",
     "output": "Dark Elf",
     "attack": 2000,
@@ -2136,15 +2136,15 @@ var monsterfuseDB = TAFFY([
     "type": "Monster"
   },
   {
-    "left": "Ansastu",
+    "left": "Ansatsu",
     "right": "Dragon Zombie",
-    "output": "Sword Arm of the Dragon",
+    "output": "Sword Arm of Dragon",
     "attack": 1750,
     "defense": 2030,
     "type": "Monster"
   },
   {
-    "left": "Ansastu",
+    "left": "Ansatsu",
     "right": "Fire Eye",
     "output": "Flame Swordsman",
     "attack": 1800,
@@ -2152,7 +2152,7 @@ var monsterfuseDB = TAFFY([
     "type": "Monster"
   },
   {
-    "left": "Ansastu",
+    "left": "Ansatsu",
     "right": "Flame Viper",
     "output": "Flame Swordsman",
     "attack": 1800,
@@ -2160,7 +2160,7 @@ var monsterfuseDB = TAFFY([
     "type": "Monster"
   },
   {
-    "left": "Ansastu",
+    "left": "Ansatsu",
     "right": "Hinotama Soul",
     "output": "Flame Swordsman",
     "attack": 1800,
@@ -2168,32 +2168,32 @@ var monsterfuseDB = TAFFY([
     "type": "Monster"
   },
   {
-    "left": "Ansastu",
+    "left": "Ansatsu",
     "right": "LaMoon",
-    "output": "Cacoon of Evolution",
+    "output": "Cocoon of Evolution",
     "attack": 0,
     "defense": 2000,
     "type": "Monster"
   },
   {
-    "left": "Ansastu",
+    "left": "Ansatsu",
     "right": "One-Eyed Shield Dragon",
-    "output": "Sword Arm of the Dragon",
+    "output": "Sword Arm of Dragon",
     "attack": 1750,
     "defense": 2030,
     "type": "Monster"
   },
   {
-    "left": "Ansastu",
+    "left": "Ansatsu",
     "right": "Petit Dragon",
-    "output": "Sword Arm of the Dragon",
+    "output": "Sword Arm of Dragon",
     "attack": 1750,
     "defense": 2030,
     "type": "Monster"
   },
   {
-    "left": "Ansastu",
-    "right": "The Judgment Hand",
+    "left": "Ansatsu",
+    "right": "The Judgement Hand",
     "output": "Judge Man",
     "attack": 2200,
     "defense": 1500,
@@ -2282,7 +2282,7 @@ var monsterfuseDB = TAFFY([
   {
     "left": "Arlownay",
     "right": "Baby Dragon",
-    "output": "Black Dragon Junglke King",
+    "output": "B. Dragon Jungle King",
     "attack": 2100,
     "defense": 1800,
     "type": "Monster"
@@ -2330,7 +2330,7 @@ var monsterfuseDB = TAFFY([
   {
     "left": "Arlownay",
     "right": "Dark Prisoner",
-    "output": "Rose Specter of Dunn",
+    "output": "Rose Spectre of Dunn",
     "attack": 2000,
     "defense": 1800,
     "type": "Monster"
@@ -2346,7 +2346,7 @@ var monsterfuseDB = TAFFY([
   {
     "left": "Arlownay",
     "right": "Embryonic Beast",
-    "output": "Rose Specter of Dunn",
+    "output": "Rose Spectre of Dunn",
     "attack": 2000,
     "defense": 1800,
     "type": "Monster"
@@ -2370,7 +2370,7 @@ var monsterfuseDB = TAFFY([
   {
     "left": "Arlownay",
     "right": "Fungi of the Musk",
-    "output": "Rose Specter of Dunn",
+    "output": "Rose Spectre of Dunn",
     "attack": 2000,
     "defense": 1800,
     "type": "Monster"
@@ -2402,7 +2402,7 @@ var monsterfuseDB = TAFFY([
   {
     "left": "Arlownay",
     "right": "Horn Imp",
-    "output": "Rose Specter of Dunn",
+    "output": "Rose Spectre of Dunn",
     "attack": 2000,
     "defense": 1800,
     "type": "Monster"
@@ -2449,7 +2449,7 @@ var monsterfuseDB = TAFFY([
   },
   {
     "left": "Arlownay",
-    "right": "M_Warrior #2",
+    "right": "M-Warrior #2",
     "output": "Bean Soldier",
     "attack": 1400,
     "defense": 1300,
@@ -2482,7 +2482,7 @@ var monsterfuseDB = TAFFY([
   {
     "left": "Arlownay",
     "right": "Mask of Darkness",
-    "output": "Rose Specter of Dunn",
+    "output": "Rose Spectre of Dunn",
     "attack": 2000,
     "defense": 1800,
     "type": "Monster"
@@ -2498,7 +2498,7 @@ var monsterfuseDB = TAFFY([
   {
     "left": "Arlownay",
     "right": "Mystery Hand",
-    "output": "Rose Specter of Dunn",
+    "output": "Rose Spectre of Dunn",
     "attack": 2000,
     "defense": 1800,
     "type": "Monster"
@@ -2506,7 +2506,7 @@ var monsterfuseDB = TAFFY([
   {
     "left": "Arlownay",
     "right": "Needle Ball",
-    "output": "Rose Specter of Dunn",
+    "output": "Rose Spectre of Dunn",
     "attack": 2000,
     "defense": 1800,
     "type": "Monster"
@@ -2514,7 +2514,7 @@ var monsterfuseDB = TAFFY([
   {
     "left": "Arlownay",
     "right": "One-eyed Shield Dragon",
-    "output": "Black Dragon Jungle King",
+    "output": "B. Dragon Jungle King",
     "attack": 2100,
     "defense": 1800,
     "type": "Monster"
@@ -2522,7 +2522,7 @@ var monsterfuseDB = TAFFY([
   {
     "left": "Arlownay",
     "right": "Petit Dragon",
-    "output": "Black Dragon Jungle King",
+    "output": "B. Dragon Jungle King",
     "attack": 2100,
     "defense": 1800,
     "type": "Monster"
@@ -2602,7 +2602,7 @@ var monsterfuseDB = TAFFY([
   {
     "left": "Arlownay",
     "right": "Versago the Destroyer",
-    "output": "Rose Specter of Dunn",
+    "output": "Rose Spectre of Dunn",
     "attack": 2000,
     "defense": 1800,
     "type": "Monster"
@@ -2642,7 +2642,7 @@ var monsterfuseDB = TAFFY([
   {
     "left": "Arlownay",
     "right": "Wretched Ghost of the Attic",
-    "output": "Rose Specter of Dunn",
+    "output": "Rose Spectre of Dunn",
     "attack": 2000,
     "defense": 1800,
     "type": "Monster"
@@ -2650,7 +2650,7 @@ var monsterfuseDB = TAFFY([
   {
     "left": "Arlownay",
     "right": "Yamatano Dragon Scroll",
-    "output": "Black Dragon Jungle King",
+    "output": "B. Dragon Jungle King",
     "attack": 2100,
     "defense": 1800,
     "type": "Monster"
@@ -2698,7 +2698,7 @@ var monsterfuseDB = TAFFY([
   {
     "left": "Armaill",
     "right": "Armed Ninja",
-    "output": "Charubin Fire Knight",
+    "output": "Charubin the Fire Knight",
     "attack": 1100,
     "defense": 800,
     "type": "Monster"
@@ -2738,7 +2738,7 @@ var monsterfuseDB = TAFFY([
   {
     "left": "Armaill",
     "right": "Candle of Fate",
-    "output": "Charubin Fire Knight",
+    "output": "Charubin the Fire Knight",
     "attack": 1100,
     "defense": 800,
     "type": "Monster"
@@ -2753,7 +2753,7 @@ var monsterfuseDB = TAFFY([
   },
   {
     "left": "Armaill",
-    "right": "Charubin Fire Knight",
+    "right": "Charubin the Fire Knight",
     "output": "Flame Swordsman",
     "attack": 1800,
     "defense": 1600,
@@ -2777,7 +2777,7 @@ var monsterfuseDB = TAFFY([
   },
   {
     "left": "Armaill",
-    "right": "D.Human",
+    "right": "D. Human",
     "output": "Flame Swordsman",
     "attack": 1800,
     "defense": 1600,
@@ -2818,7 +2818,7 @@ var monsterfuseDB = TAFFY([
   {
     "left": "Armaill",
     "right": "Dragon Piper",
-    "output": "Charubin Fire Knight",
+    "output": "Charubin the Fire Knight",
     "attack": 1100,
     "defense": 800,
     "type": "Monster"
@@ -2842,7 +2842,7 @@ var monsterfuseDB = TAFFY([
   {
     "left": "Armaill",
     "right": "Eyearmor",
-    "output": "Charubin Fire Knight",
+    "output": "Charubin the Fire Knight",
     "attack": 1100,
     "defense": 800,
     "type": "Monster"
@@ -2850,7 +2850,7 @@ var monsterfuseDB = TAFFY([
   {
     "left": "Armaill",
     "right": "Fire Eye",
-    "output": "Charubin Fire Knight",
+    "output": "Charubin the Fire Knight",
     "attack": 1100,
     "defense": 800,
     "type": "Monster"
@@ -2882,7 +2882,7 @@ var monsterfuseDB = TAFFY([
   {
     "left": "Armaill",
     "right": "Flame Viper",
-    "output": "Charubin Fire Knight",
+    "output": "Charubin the Fire Knight",
     "attack": 1100,
     "defense": 800,
     "type": "Monster"
@@ -2930,7 +2930,7 @@ var monsterfuseDB = TAFFY([
   {
     "left": "Armaill",
     "right": "M-Warrior #2",
-    "output": "Charubin Fire Knight",
+    "output": "Charubin the Fire Knight",
     "attack": 1100,
     "defense": 800,
     "type": "Monster"
@@ -2954,7 +2954,7 @@ var monsterfuseDB = TAFFY([
   {
     "left": "Armaill",
     "right": "Masked Clown",
-    "output": "Charubin Fire Knight",
+    "output": "Charubin the Fire Knight",
     "attack": 1100,
     "defense": 800,
     "type": "Monster"
@@ -3010,7 +3010,7 @@ var monsterfuseDB = TAFFY([
   {
     "left": "Armaill",
     "right": "Princess of Tsurugi",
-    "output": "Charubin Fire Knight",
+    "output": "Charubin the Fire Knight",
     "attack": 1100,
     "defense": 800,
     "type": "Monster"
@@ -3058,7 +3058,7 @@ var monsterfuseDB = TAFFY([
   {
     "left": "Armaill",
     "right": "Swordsman From A Foreign Land",
-    "output": "Charubin Fire Knight",
+    "output": "Charubin the Fire Knight",
     "attack": 1100,
     "defense": 800,
     "type": "Monster"
@@ -3066,7 +3066,7 @@ var monsterfuseDB = TAFFY([
   {
     "left": "Armaill",
     "right": "The Little Swordsman of Aile",
-    "output": "Charubin Fire Knight",
+    "output": "Charubin the Fire Knight",
     "attack": 1100,
     "defense": 800,
     "type": "Monster"
@@ -3074,7 +3074,7 @@ var monsterfuseDB = TAFFY([
   {
     "left": "Armaill",
     "right": "Vishwar Randi",
-    "output": "Charubin Fire Knight",
+    "output": "Charubin the Fire Knight",
     "attack": 1100,
     "defense": 800,
     "type": "Monster"
@@ -3114,7 +3114,7 @@ var monsterfuseDB = TAFFY([
   {
     "left": "Armed Ninja",
     "right": "Armaill",
-    "output": "Charubin Fire Knight",
+    "output": "Charubin the Fire Knight",
     "attack": 1100,
     "defense": 800,
     "type": "Monster"
@@ -3169,7 +3169,7 @@ var monsterfuseDB = TAFFY([
   },
   {
     "left": "Armed Ninja",
-    "right": "Charubin Fire Knight",
+    "right": "Charubin the Fire Knight",
     "output": "Flame Swordsman",
     "attack": 1800,
     "defense": 1600,
@@ -3258,7 +3258,7 @@ var monsterfuseDB = TAFFY([
   {
     "left": "Armed Ninja",
     "right": "Dragon Piper",
-    "output": "Charubin Fire Knight",
+    "output": "Charubin the Fire Knight",
     "attack": 1100,
     "defense": 800,
     "type": "Monster"
@@ -3290,7 +3290,7 @@ var monsterfuseDB = TAFFY([
   {
     "left": "Armed Ninja",
     "right": "Fire Eye",
-    "output": "Charubin Fire Knight",
+    "output": "Charubin the Fire Knight",
     "attack": 1100,
     "defense": 800,
     "type": "Monster"
@@ -3314,7 +3314,7 @@ var monsterfuseDB = TAFFY([
   {
     "left": "Armed Ninja",
     "right": "Flame Manipulator",
-    "output": "Charubin Fire Knight",
+    "output": "Charubin the Fire Knight",
     "attack": 1100,
     "defense": 800,
     "type": "Monster"
@@ -3498,7 +3498,7 @@ var monsterfuseDB = TAFFY([
   {
     "left": "Armed Ninja",
     "right": "Wings of Wicked Flame",
-    "output": "Charubin Fire Knight",
+    "output": "Charubin the Fire Knight",
     "attack": 1100,
     "defense": 800,
     "type": "Monster"
@@ -3905,7 +3905,7 @@ var monsterfuseDB = TAFFY([
   },
   {
     "left": "Axe Raider",
-    "right": "The Judgment Hand",
+    "right": "The Judgement Hand",
     "output": "Judge Man",
     "attack": 2200,
     "defense": 1500,
@@ -3921,7 +3921,7 @@ var monsterfuseDB = TAFFY([
   },
   {
     "left": "Axe Raider",
-    "right": "Yamatanod Dragon Scroll",
+    "right": "Yamatano Dragon Scroll",
     "output": "Sword Arm of Dragon",
     "attack": 1750,
     "defense": 2030,
@@ -3938,7 +3938,7 @@ var monsterfuseDB = TAFFY([
   {
     "left": "Baby Dragon",
     "right": "Ancient Jar",
-    "output": "Stone Dragon",
+    "output": "Stone D.",
     "attack": 2000,
     "defense": 2300,
     "type": "Monster"
@@ -3946,7 +3946,7 @@ var monsterfuseDB = TAFFY([
   {
     "left": "Baby Dragon",
     "right": "Arlownay",
-    "output": "Black Dragon Junglke King",
+    "output": "B. Dragon Jungle King",
     "attack": 2100,
     "defense": 1800,
     "type": "Monster"
@@ -3978,7 +3978,7 @@ var monsterfuseDB = TAFFY([
   {
     "left": "Baby Dragon",
     "right": "Bean Soldier",
-    "output": "Black Dragon Jungle King",
+    "output": "B. Dragon Jungle King",
     "attack": 2100,
     "defense": 1800,
     "type": "Monster"
@@ -4058,7 +4058,7 @@ var monsterfuseDB = TAFFY([
   {
     "left": "Baby Dragon",
     "right": "Firegrass",
-    "output": "Black Dragon Jungle King",
+    "output": "B. Dragon Jungle King",
     "attack": 2100,
     "defense": 1800,
     "type": "Monster"
@@ -4074,7 +4074,7 @@ var monsterfuseDB = TAFFY([
   {
     "left": "Baby Dragon",
     "right": "Haniwa",
-    "output": "Stone Dragon",
+    "output": "Stone D.",
     "attack": 2000,
     "defense": 2300,
     "type": "Monster"
@@ -4106,7 +4106,7 @@ var monsterfuseDB = TAFFY([
   {
     "left": "Baby Dragon",
     "right": "Living Vase",
-    "output": "Black Dragon Jungle King",
+    "output": "B. Dragon Jungle King",
     "attack": 2100,
     "defense": 1800,
     "type": "Monster"
@@ -4114,7 +4114,7 @@ var monsterfuseDB = TAFFY([
   {
     "left": "Baby Dragon",
     "right": "Man-eating Plant",
-    "output": "Black Dragon Jungle King",
+    "output": "B. Dragon Jungle King",
     "attack": 2100,
     "defense": 1800,
     "type": "Monster"
@@ -4138,7 +4138,7 @@ var monsterfuseDB = TAFFY([
   {
     "left": "Baby Dragon",
     "right": "Muka Muka",
-    "output": "Stone Dragon",
+    "output": "Stone D.",
     "attack": 2000,
     "defense": 2300,
     "type": "Monster"
@@ -4186,7 +4186,7 @@ var monsterfuseDB = TAFFY([
   {
     "left": "Baby Dragon",
     "right": "Pot the Trick",
-    "output": "Stone Dragon",
+    "output": "Stone D.",
     "attack": 2000,
     "defense": 2300,
     "type": "Monster"
@@ -4194,14 +4194,14 @@ var monsterfuseDB = TAFFY([
   {
     "left": "Baby Dragon",
     "right": "Rainbow Flower",
-    "output": "Black Dragon Jungle King",
+    "output": "B. Dragon Jungle King",
     "attack": 2100,
     "defense": 1800,
     "type": "Monster"
   },
   {
     "left": "Baby Dragon",
-    "right": "Sealed Exodia's Left Arm",
+    "right": "Left Arm of the Forbidden One",
     "output": "Blackland Fire Dragon",
     "attack": 1500,
     "defense": 800,
@@ -4209,7 +4209,7 @@ var monsterfuseDB = TAFFY([
   },
   {
     "left": "Baby Dragon",
-    "right": "Sealed Exodia's Left Leg",
+    "right": "Left Leg of the Forbidden One",
     "output": "Blackland Fire Dragon",
     "attack": 1500,
     "defense": 800,
@@ -4217,7 +4217,7 @@ var monsterfuseDB = TAFFY([
   },
   {
     "left": "Baby Dragon",
-    "right": "Sealed Exodia's Right Arm",
+    "right": "Right Arm of the Forbidden One",
     "output": "Blackland Fire Dragon",
     "attack": 1500,
     "defense": 800,
@@ -4225,7 +4225,7 @@ var monsterfuseDB = TAFFY([
   },
   {
     "left": "Baby Dragon",
-    "right": "Sealed Exodia's Right Leg",
+    "right": "Right Leg of the Forbidden One",
     "output": "Blackland Fire Dragon",
     "attack": 1500,
     "defense": 800,
@@ -4714,7 +4714,7 @@ var monsterfuseDB = TAFFY([
   {
     "left": "Bean Soldier",
     "right": "Baby Dragon",
-    "output": "Black Dragon Jungle King",
+    "output": "B. Dragon Jungle King",
     "attack": 2100,
     "defense": 1800,
     "type": "Monster"
@@ -4778,7 +4778,7 @@ var monsterfuseDB = TAFFY([
   {
     "left": "Bean Soldier",
     "right": "Koumori Dragon",
-    "output": "Black Dragon Jungle King",
+    "output": "B. Dragon Jungle King",
     "attack": 2100,
     "defense": 1800,
     "type": "Monster"
@@ -4826,7 +4826,7 @@ var monsterfuseDB = TAFFY([
   {
     "left": "Bean Soldier",
     "right": "One-eyed Shield Dragon",
-    "output": "Black Dragon Jungle King",
+    "output": "B. Dragon Jungle King",
     "attack": 2100,
     "defense": 1800,
     "type": "Monster"
@@ -4834,7 +4834,7 @@ var monsterfuseDB = TAFFY([
   {
     "left": "Bean Soldier",
     "right": "Petit Dragon",
-    "output": "Black Dragon Jungle King",
+    "output": "B. Dragon Jungle King",
     "attack": 2100,
     "defense": 1800,
     "type": "Monster"
@@ -4866,7 +4866,7 @@ var monsterfuseDB = TAFFY([
   {
     "left": "Bear Trap",
     "right": "Blue-Winged Crown",
-    "output": "Harpy's Feather Duster",
+    "output": "Harpie's Feather Duster",
     "attack": 0,
     "defense": 0,
     "type": "Magic"
@@ -4890,7 +4890,7 @@ var monsterfuseDB = TAFFY([
   {
     "left": "Beast Fangs",
     "right": "Elegant Egotist",
-    "output": "War Lion Ritual",
+    "output": "War-lion Ritual",
     "attack": 0,
     "defense": 0,
     "type": "Ritual"
@@ -4904,7 +4904,7 @@ var monsterfuseDB = TAFFY([
     "type": "Trap"
   },
   {
-    "left": "Beautiful Beast Tamer",
+    "left": "Beautiful Beast Trainer",
     "right": "Warrior Elimination",
     "output": "Electro-Whip",
     "attack": 0,
@@ -4912,7 +4912,7 @@ var monsterfuseDB = TAFFY([
     "type": "Equip"
   },
   {
-    "left": "Beautiful Head Huntress",
+    "left": "Beautiful Headhuntress",
     "right": "Ancient Jar",
     "output": "Mystical Sand",
     "attack": 2100,
@@ -4920,7 +4920,7 @@ var monsterfuseDB = TAFFY([
     "type": "Monster"
   },
   {
-    "left": "Beautiful Head Huntress",
+    "left": "Beautiful Headhuntress",
     "right": "Dancing Elf",
     "output": "Dark Elf",
     "attack": 2000,
@@ -4928,7 +4928,7 @@ var monsterfuseDB = TAFFY([
     "type": "Monster"
   },
   {
-    "left": "Beautiful Head Huntress",
+    "left": "Beautiful Headhuntress",
     "right": "Fire Eye",
     "output": "Flame Swordsman",
     "attack": 1800,
@@ -4936,7 +4936,7 @@ var monsterfuseDB = TAFFY([
     "type": "Monster"
   },
   {
-    "left": "Beautiful Head Huntress",
+    "left": "Beautiful Headhuntress",
     "right": "Key Mace",
     "output": "Dark Witch",
     "attack": 1800,
@@ -4944,7 +4944,7 @@ var monsterfuseDB = TAFFY([
     "type": "Monster"
   },
   {
-    "left": "Beautiful Head Huntress",
+    "left": "Beautiful Headhuntress",
     "right": "Koumori Dragon",
     "output": "Sword Arm of Dragon",
     "attack": 1750,
@@ -4968,7 +4968,7 @@ var monsterfuseDB = TAFFY([
     "type": "Monster"
   },
   {
-    "left": "Black Dragon Jungle King",
+    "left": "B. Dragon Jungle King",
     "right": "Electric Lizard",
     "output": "Twin-Headed Thunder Dragon",
     "attack": 2800,
@@ -4976,7 +4976,7 @@ var monsterfuseDB = TAFFY([
     "type": "Monster"
   },
   {
-    "left": "Black Dragon Jungle King",
+    "left": "B. Dragon Jungle King",
     "right": "Electric Snake",
     "output": "Twin-Headed Thunder Dragon",
     "attack": 2800,
@@ -4984,7 +4984,7 @@ var monsterfuseDB = TAFFY([
     "type": "Monster"
   },
   {
-    "left": "Black Dragon Jungle King",
+    "left": "B. Dragon Jungle King",
     "right": "Kaminarikozou",
     "output": "Twin-Headed Thunder Dragon",
     "attack": 2800,
@@ -4992,7 +4992,7 @@ var monsterfuseDB = TAFFY([
     "type": "Monster"
   },
   {
-    "left": "Black Dragon Jungle King",
+    "left": "B. Dragon Jungle King",
     "right": "LaLa Li-oon",
     "output": "Twin-Headed Thunder Dragon",
     "attack": 2800,
@@ -5000,7 +5000,7 @@ var monsterfuseDB = TAFFY([
     "type": "Monster"
   },
   {
-    "left": "Black Dragon Jungle King",
+    "left": "B. Dragon Jungle King",
     "right": "Oscillo Hero #2",
     "output": "Twin-Headed Thunder Dragon",
     "attack": 2800,
@@ -5008,7 +5008,7 @@ var monsterfuseDB = TAFFY([
     "type": "Monster"
   },
   {
-    "left": "Black Dragon Jungle King",
+    "left": "B. Dragon Jungle King",
     "right": "The Immortal of Thunder",
     "output": "Twin-Headed Thunder Dragon",
     "attack": 2800,
@@ -5026,14 +5026,14 @@ var monsterfuseDB = TAFFY([
   {
     "left": "Blackland Fire Dragon",
     "right": "Ancient Jar",
-    "output": "Stone Dragon",
+    "output": "Stone D.",
     "attack": 2000,
     "defense": 2300,
     "type": "Monster"
   },
   {
     "left": "Blackland Fire Dragon",
-    "right": "Ansastu",
+    "right": "Ansatsu",
     "output": "Sword Arm of Dragon",
     "attack": 1750,
     "defense": 2030,
@@ -5122,7 +5122,7 @@ var monsterfuseDB = TAFFY([
   {
     "left": "Blackland Fire Dragon",
     "right": "Dark Plant",
-    "output": "Black Dragon Jungle King",
+    "output": "B. Dragon Jungle King",
     "attack": 2100,
     "defense": 1800,
     "type": "Monster"
@@ -5170,7 +5170,7 @@ var monsterfuseDB = TAFFY([
   {
     "left": "Blackland Fire Dragon",
     "right": "Giant Soldier of Stone",
-    "output": "Stone Dragon",
+    "output": "Stone D.",
     "attack": 2000,
     "defense": 2300,
     "type": "Monster"
@@ -5178,7 +5178,7 @@ var monsterfuseDB = TAFFY([
   {
     "left": "Blackland Fire Dragon",
     "right": "Haniwa",
-    "output": "Stone Dragon",
+    "output": "Stone D.",
     "attack": 2000,
     "defense": 2300,
     "type": "Monster"
@@ -5226,7 +5226,7 @@ var monsterfuseDB = TAFFY([
   {
     "left": "Blackland Fire Dragon",
     "right": "Morphing Jar",
-    "output": "Stone Dragon",
+    "output": "Stone D.",
     "attack": 2000,
     "defense": 2300,
     "type": "Monster"
@@ -5234,7 +5234,7 @@ var monsterfuseDB = TAFFY([
   {
     "left": "Blackland Fire Dragon",
     "right": "Muka Muka",
-    "output": "Stone Dragon",
+    "output": "Stone D.",
     "attack": 2000,
     "defense": 2300,
     "type": "Monster"
@@ -5274,7 +5274,7 @@ var monsterfuseDB = TAFFY([
   {
     "left": "Blackland Fire Dragon",
     "right": "Pot the Trick",
-    "output": "Stone Dragon",
+    "output": "Stone D.",
     "attack": 2000,
     "defense": 2300,
     "type": "Monster"
@@ -5289,7 +5289,7 @@ var monsterfuseDB = TAFFY([
   },
   {
     "left": "Blackland Fire Dragon",
-    "right": "Shadow Spectre",
+    "right": "Shadow Specter",
     "output": "Dragon Zombie",
     "attack": 1600,
     "defense": 0,
@@ -5314,7 +5314,7 @@ var monsterfuseDB = TAFFY([
   {
     "left": "Blackland Fire Dragon",
     "right": "Tentacle Plant",
-    "output": "Black Dragon Jungle King",
+    "output": "B. Dragon Jungle King",
     "attack": 2100,
     "defense": 1800,
     "type": "Monster"
@@ -5338,7 +5338,7 @@ var monsterfuseDB = TAFFY([
   {
     "left": "Blackland Fire Dragon",
     "right": "Tyhone #2",
-    "output": "Red-Eyes Black Dragon",
+    "output": "Red-eyes B. Dragon",
     "attack": 2400,
     "defense": 2000,
     "type": "Monster"
@@ -5362,7 +5362,7 @@ var monsterfuseDB = TAFFY([
   {
     "left": "Blackland Fire Dragon",
     "right": "Tyhone #2",
-    "output": "Red-Eyes Black Dragon",
+    "output": "Red-eyes B. Dragon",
     "attack": 2400,
     "defense": 2000,
     "type": "Monster"
@@ -5450,7 +5450,7 @@ var monsterfuseDB = TAFFY([
   {
     "left": "Blast Juggler",
     "right": "Queen's Double",
-    "output": "Charubin Fire Knight",
+    "output": "Charubin the Fire Knight",
     "attack": 1100,
     "defense": 800,
     "type": "Monster"
@@ -5465,7 +5465,7 @@ var monsterfuseDB = TAFFY([
   },
   {
     "left": "Blast Juggler",
-    "right": "The Judgment Hand",
+    "right": "The Judgement Hand",
     "output": "Flame Swordsman",
     "attack": 1800,
     "defense": 1600,
@@ -5513,7 +5513,7 @@ var monsterfuseDB = TAFFY([
   },
   {
     "left": "Blocker",
-    "right": "Sealed Exodia's Left Arm",
+    "right": "Left Arm of the Forbidden One",
     "output": "Disk Magician",
     "attack": 1350,
     "defense": 1000,
@@ -5633,7 +5633,7 @@ var monsterfuseDB = TAFFY([
   },
   {
     "left": "Blue-Eyed Silver Zombie",
-    "right": "Hinoitama Soul",
+    "right": "Hinotama Soul",
     "output": "Flame Ghost",
     "attack": 1000,
     "defense": 800,
@@ -5697,7 +5697,7 @@ var monsterfuseDB = TAFFY([
   },
   {
     "left": "Blue-Eyed Silver Zombie",
-    "right": "Sealed Exodia's Left Arm",
+    "right": "Left Arm of the Forbidden One",
     "output": "Magical Ghost",
     "attack": 1300,
     "defense": 1400,
@@ -5746,7 +5746,7 @@ var monsterfuseDB = TAFFY([
   {
     "left": "Blue-Winged Crown",
     "right": "Bear Trap",
-    "output": "Harpy's Feather Duster",
+    "output": "Harpie's Feather Duster",
     "attack": 0,
     "defense": 0,
     "type": "Magic"
@@ -5769,7 +5769,7 @@ var monsterfuseDB = TAFFY([
   },
   {
     "left": "Blue-Winged Crown",
-    "right": "Charubin Fire Knight",
+    "right": "Charubin the Fire Knight",
     "output": "Crimson Sunbird",
     "attack": 2300,
     "defense": 1800,
@@ -5921,7 +5921,7 @@ var monsterfuseDB = TAFFY([
   },
   {
     "left": "Bolt Escargot",
-    "right": "Red-Eyes Black Dragon",
+    "right": "Red-eyes B. Dragon",
     "output": "Twin-Headed Thunder Dragon",
     "attack": 2800,
     "defense": 2100,
@@ -5961,7 +5961,7 @@ var monsterfuseDB = TAFFY([
   },
   {
     "left": "Bolt Escargot",
-    "right": "Stone Dragon",
+    "right": "Stone D.",
     "output": "Twin-Headed Thunder Dragon",
     "attack": 2800,
     "defense": 2100,
@@ -6233,7 +6233,7 @@ var monsterfuseDB = TAFFY([
   },
   {
     "left": "Bolt Penguin",
-    "right": "Red-Eyes Black Dragon",
+    "right": "Red-eyes B. Dragon",
     "output": "Twin-Headed Thunder Dragon",
     "attack": 2800,
     "defense": 2100,
@@ -6273,7 +6273,7 @@ var monsterfuseDB = TAFFY([
   },
   {
     "left": "Bolt Penguin",
-    "right": "Stone Dragon",
+    "right": "Stone D.",
     "output": "Twin-Headed Thunder Dragon",
     "attack": 2800,
     "defense": 2100,
@@ -6314,7 +6314,7 @@ var monsterfuseDB = TAFFY([
   {
     "left": "Bolt Penguin",
     "right": "Turtle Tiger",
-    "output": "Bolt Escargo",
+    "output": "Bolt Escargot",
     "attack": 1400,
     "defense": 1500,
     "type": "Monster"
@@ -7034,7 +7034,7 @@ var monsterfuseDB = TAFFY([
   {
     "left": "Candle of Fate",
     "right": "Air Marmot of Nefariousness",
-    "output": "Flame Cerberus",
+    "output": "Flame Cerebrus",
     "attack": 2100,
     "defense": 1800,
     "type": "Monster"
@@ -7049,7 +7049,7 @@ var monsterfuseDB = TAFFY([
   },
   {
     "left": "Candle of Fate",
-    "right": "Ansastu",
+    "right": "Ansatsu",
     "output": "Flame Swordsman",
     "attack": 18700,
     "defense": 1600,
@@ -7066,7 +7066,7 @@ var monsterfuseDB = TAFFY([
   {
     "left": "Candle of Fate",
     "right": "Armaill",
-    "output": "Charubin Fire Knight",
+    "output": "Charubin the Fire Knight",
     "attack": 1100,
     "defense": 800,
     "type": "Monster"
@@ -7089,7 +7089,7 @@ var monsterfuseDB = TAFFY([
   },
   {
     "left": "Candle of Fate",
-    "right": "Blue Wing Crown",
+    "right": "Blue-winged Crown",
     "output": "Crimson Sunbird",
     "attack": 2300,
     "defense": 1800,
@@ -7114,7 +7114,7 @@ var monsterfuseDB = TAFFY([
   {
     "left": "Candle of Fate",
     "right": "Doron",
-    "output": "Charubin Fire Knight",
+    "output": "Charubin the Fire Knight",
     "attack": 1100,
     "defense": 800,
     "type": "Monster"
@@ -7170,7 +7170,7 @@ var monsterfuseDB = TAFFY([
   {
     "left": "Candle of Fate",
     "right": "Kagemusha of the Blue Flame",
-    "output": "Charubin Fire Knight",
+    "output": "Charubin the Fire Knight",
     "attack": 1100,
     "defense": 800,
     "type": "Monster"
@@ -7194,7 +7194,7 @@ var monsterfuseDB = TAFFY([
   {
     "left": "Candle of Fate",
     "right": "Mystic Horseman",
-    "output": "Flame Cerberus",
+    "output": "Flame Cerebrus",
     "attack": 2100,
     "defense": 1800,
     "type": "Monster"
@@ -7202,7 +7202,7 @@ var monsterfuseDB = TAFFY([
   {
     "left": "Candle of Fate",
     "right": "Queen's Double",
-    "output": "Charubin Fire Knight",
+    "output": "Charubin the Fire Knight",
     "attack": 1100,
     "defense": 800,
     "type": "Monster"
@@ -7234,7 +7234,7 @@ var monsterfuseDB = TAFFY([
   {
     "left": "Candle of Fate",
     "right": "Swordsman From A Foreign Land",
-    "output": "Charubin Fire Knight",
+    "output": "Charubin the Fire Knight",
     "attack": 1100,
     "defense": 800,
     "type": "Monster"
@@ -7250,7 +7250,7 @@ var monsterfuseDB = TAFFY([
   {
     "left": "Candle of Fate",
     "right": "Unknown Warrior of Fiend",
-    "output": "Charubin Fire Knight",
+    "output": "Charubin the Fire Knight",
     "attack": 1100,
     "defense": 800,
     "type": "Monster"
@@ -7433,7 +7433,7 @@ var monsterfuseDB = TAFFY([
   },
   {
     "left": "Celtic Guardian",
-    "right": "Ansastu",
+    "right": "Ansatsu",
     "output": "Dark Elf",
     "attack": 2000,
     "defense": 800,
@@ -7481,7 +7481,7 @@ var monsterfuseDB = TAFFY([
   },
   {
     "left": "Celtic Guardian",
-    "right": "Charubin Fire Knight",
+    "right": "Charubin the Fire Knight",
     "output": "Flame Swordsman",
     "attack": 1800,
     "defense": 1600,
@@ -7705,7 +7705,7 @@ var monsterfuseDB = TAFFY([
   },
   {
     "left": "Celtic Guardian",
-    "right": "Sealed Exodia's Left Arm",
+    "right": "Left Arm of the Forbidden One",
     "output": "Dark Elf",
     "attack": 2000,
     "defense": 800,
@@ -7713,7 +7713,7 @@ var monsterfuseDB = TAFFY([
   },
   {
     "left": "Celtic Guardian",
-    "right": "Sealed Exodia's Left Leg",
+    "right": "Left Leg of the Forbidden One",
     "output": "Dark Elf",
     "attack": 2000,
     "defense": 800,
@@ -7721,7 +7721,7 @@ var monsterfuseDB = TAFFY([
   },
   {
     "left": "Celtic Guardian",
-    "right": "Sealed Exodia's Right Arm",
+    "right": "Right Arm of the Forbidden One",
     "output": "Dark Elf",
     "attack": 2000,
     "defense": 800,
@@ -7729,7 +7729,7 @@ var monsterfuseDB = TAFFY([
   },
   {
     "left": "Celtic Guardian",
-    "right": "Sealed Exodia's Right Leg",
+    "right": "Right Leg of the Forbidden One",
     "output": "Dark Elf",
     "attack": 2000,
     "defense": 800,
@@ -7769,7 +7769,7 @@ var monsterfuseDB = TAFFY([
   },
   {
     "left": "Celtic Guardian",
-    "right": "The Judgment Hand",
+    "right": "The Judgement Hand",
     "output": "Judge Man",
     "attack": 2200,
     "defense": 1500,
@@ -7777,7 +7777,7 @@ var monsterfuseDB = TAFFY([
   },
   {
     "left": "Celtic Guardian",
-    "right": "The Shadow that Controls the Dark",
+    "right": "The Shadow Who Controls the Dark",
     "output": "Dark Elf",
     "attack": 2000,
     "defense": 800,
@@ -7928,7 +7928,7 @@ var monsterfuseDB = TAFFY([
     "type": "Monster"
   },
   {
-    "left": "Charubin Fire Knight",
+    "left": "Charubin the Fire Knight",
     "right": "Air Marmot of Nefariousness",
     "output": "Flame Cerebrus",
     "attack": 2100,
@@ -7936,7 +7936,7 @@ var monsterfuseDB = TAFFY([
     "type": "Monster"
   },
   {
-    "left": "Charubin Fire Knight",
+    "left": "Charubin the Fire Knight",
     "right": "Armaill",
     "output": "Flame Swordsman",
     "attack": 1800,
@@ -7944,7 +7944,7 @@ var monsterfuseDB = TAFFY([
     "type": "Monster"
   },
   {
-    "left": "Charubin Fire Knight",
+    "left": "Charubin the Fire Knight",
     "right": "Armed Ninja",
     "output": "Flame Swordsman",
     "attack": 1800,
@@ -7952,7 +7952,7 @@ var monsterfuseDB = TAFFY([
     "type": "Monster"
   },
   {
-    "left": "Charubin Fire Knight",
+    "left": "Charubin the Fire Knight",
     "right": "Blue-Winged Crown",
     "output": "Crimson Sunbird",
     "attack": 2300,
@@ -7960,7 +7960,7 @@ var monsterfuseDB = TAFFY([
     "type": "Monster"
   },
   {
-    "left": "Charubin Fire Knight",
+    "left": "Charubin the Fire Knight",
     "right": "Celtic Guardian",
     "output": "Flame Swordsman",
     "attack": 1800,
@@ -7968,7 +7968,7 @@ var monsterfuseDB = TAFFY([
     "type": "Monster"
   },
   {
-    "left": "Charubin Fire Knight",
+    "left": "Charubin the Fire Knight",
     "right": "Dragoness the Wicked Knight",
     "output": "Flame Swordsman",
     "attack": 1800,
@@ -7976,7 +7976,7 @@ var monsterfuseDB = TAFFY([
     "type": "Monster"
   },
   {
-    "left": "Charubin Fire Knight",
+    "left": "Charubin the Fire Knight",
     "right": "Droll Bird",
     "output": "Mavelus",
     "attack": 1300,
@@ -7984,7 +7984,7 @@ var monsterfuseDB = TAFFY([
     "type": "Monster"
   },
   {
-    "left": "Charubin Fire Knight",
+    "left": "Charubin the Fire Knight",
     "right": "Fiend Refrection #2",
     "output": "Mavelus",
     "attack": 1300,
@@ -7992,7 +7992,7 @@ var monsterfuseDB = TAFFY([
     "type": "Monster"
   },
   {
-    "left": "Charubin Fire Knight",
+    "left": "Charubin the Fire Knight",
     "right": "Flame Swordsman",
     "output": "Vermillion Sparrow",
     "attack": 1900,
@@ -8000,7 +8000,7 @@ var monsterfuseDB = TAFFY([
     "type": "Monster"
   },
   {
-    "left": "Charubin Fire Knight",
+    "left": "Charubin the Fire Knight",
     "right": "Fusionist",
     "output": "Flame Cerebrus",
     "attack": 2100,
@@ -8008,7 +8008,7 @@ var monsterfuseDB = TAFFY([
     "type": "Monster"
   },
   {
-    "left": "Charubin Fire Knight",
+    "left": "Charubin the Fire Knight",
     "right": "Hard Armor",
     "output": "Flame Swordsman",
     "attack": 1800,
@@ -8016,7 +8016,7 @@ var monsterfuseDB = TAFFY([
     "type": "Monster"
   },
   {
-    "left": "Charubin Fire Knight",
+    "left": "Charubin the Fire Knight",
     "right": "Hibikime",
     "output": "Flame Swordsman",
     "attack": 1800,
@@ -8024,7 +8024,7 @@ var monsterfuseDB = TAFFY([
     "type": "Monster"
   },
   {
-    "left": "Charubin Fire Knight",
+    "left": "Charubin the Fire Knight",
     "right": "Hyo",
     "output": "Flame Swordsman",
     "attack": 1800,
@@ -8032,7 +8032,7 @@ var monsterfuseDB = TAFFY([
     "type": "Monster"
   },
   {
-    "left": "Charubin Fire Knight",
+    "left": "Charubin the Fire Knight",
     "right": "Kagemusha of the Blue Flame",
     "output": "Flame Swordsman",
     "attack": 1800,
@@ -8040,7 +8040,7 @@ var monsterfuseDB = TAFFY([
     "type": "Monster"
   },
   {
-    "left": "Charubin Fire Knight",
+    "left": "Charubin the Fire Knight",
     "right": "Kurama",
     "output": "Mavelus",
     "attack": 1300,
@@ -8048,15 +8048,15 @@ var monsterfuseDB = TAFFY([
     "type": "Monster"
   },
   {
-    "left": "Charubin Fire Knight",
-    "right": "Little Chiimera",
+    "left": "Charubin the Fire Knight",
+    "right": "Little Chimera",
     "output": "Flame Cerebrus",
     "attack": 2100,
     "defense": 1800,
     "type": "Monster"
   },
   {
-    "left": "Charubin Fire Knight",
+    "left": "Charubin the Fire Knight",
     "right": "M-Warrior #1",
     "output": "Flame Swordsman",
     "attack": 1800,
@@ -8064,7 +8064,7 @@ var monsterfuseDB = TAFFY([
     "type": "Monster"
   },
   {
-    "left": "Charubin Fire Knight",
+    "left": "Charubin the Fire Knight",
     "right": "M-Warrior #2",
     "output": "Flame Swordsman",
     "attack": 1800,
@@ -8072,7 +8072,7 @@ var monsterfuseDB = TAFFY([
     "type": "Monster"
   },
   {
-    "left": "Charubin Fire Knight",
+    "left": "Charubin the Fire Knight",
     "right": "Masaki the Legendary Swordsman",
     "output": "Flame Swordsman",
     "attack": 1800,
@@ -8080,7 +8080,7 @@ var monsterfuseDB = TAFFY([
     "type": "Monster"
   },
   {
-    "left": "Charubin Fire Knight",
+    "left": "Charubin the Fire Knight",
     "right": "Masked Clown",
     "output": "Flame Swordsman",
     "attack": 1800,
@@ -8088,7 +8088,7 @@ var monsterfuseDB = TAFFY([
     "type": "Monster"
   },
   {
-    "left": "Charubin Fire Knight",
+    "left": "Charubin the Fire Knight",
     "right": "Mavelus",
     "output": "Crimson Sunbird",
     "attack": 2300,
@@ -8096,7 +8096,7 @@ var monsterfuseDB = TAFFY([
     "type": "Monster"
   },
   {
-    "left": "Charubin Fire Knight",
+    "left": "Charubin the Fire Knight",
     "right": "Milus Radiant",
     "output": "Flame Cerebrus",
     "attack": 2100,
@@ -8104,7 +8104,7 @@ var monsterfuseDB = TAFFY([
     "type": "Monster"
   },
   {
-    "left": "Charubin Fire Knight",
+    "left": "Charubin the Fire Knight",
     "right": "Obese Marmot of Nefariousness",
     "output": "Flame Cerebrus",
     "attack": 2100,
@@ -8112,7 +8112,7 @@ var monsterfuseDB = TAFFY([
     "type": "Monster"
   },
   {
-    "left": "Charubin Fire Knight",
+    "left": "Charubin the Fire Knight",
     "right": "Princess of Tsurugi",
     "output": "Flame Swordsman",
     "attack": 1800,
@@ -8120,7 +8120,7 @@ var monsterfuseDB = TAFFY([
     "type": "Monster"
   },
   {
-    "left": "Charubin Fire Knight",
+    "left": "Charubin the Fire Knight",
     "right": "Swordsman From A Foreign Land",
     "output": "Flame Swordsman",
     "attack": 1800,
@@ -8128,7 +8128,7 @@ var monsterfuseDB = TAFFY([
     "type": "Monster"
   },
   {
-    "left": "Charubin Fire Knight",
+    "left": "Charubin the Fire Knight",
     "right": "The Little Swordsman of Aile",
     "output": "Flame Swordsman",
     "attack": 1800,
@@ -8136,7 +8136,7 @@ var monsterfuseDB = TAFFY([
     "type": "Monster"
   },
   {
-    "left": "Charubin Fire Knight",
+    "left": "Charubin the Fire Knight",
     "right": "Trap Master",
     "output": "Flame Swordsman",
     "attack": 1800,
@@ -8144,7 +8144,7 @@ var monsterfuseDB = TAFFY([
     "type": "Monster"
   },
   {
-    "left": "Charubin Fire Knight",
+    "left": "Charubin the Fire Knight",
     "right": "Unknown Warrior of Fiend",
     "output": "Flame Swordsman",
     "attack": 1800,
@@ -8152,15 +8152,15 @@ var monsterfuseDB = TAFFY([
     "type": "Monster"
   },
   {
-    "left": "Charubin Fire Knight",
-    "right": "Viswar Randi",
+    "left": "Charubin the Fire Knight",
+    "right": "Vishwar Randi",
     "output": "Flame Swordsman",
     "attack": 1800,
     "defense": 1600,
     "type": "Monster"
   },
   {
-    "left": "Charubin Fire Knight",
+    "left": "Charubin the Fire Knight",
     "right": "Winged Dragon #2",
     "output": "Mavelus",
     "attack": 1300,
@@ -8168,7 +8168,7 @@ var monsterfuseDB = TAFFY([
     "type": "Monster"
   },
   {
-    "left": "Charubin Fire Knight",
+    "left": "Charubin the Fire Knight",
     "right": "Wood Clown",
     "output": "Flame Swordsman",
     "attack": 1800,
@@ -8354,7 +8354,7 @@ var monsterfuseDB = TAFFY([
   {
     "left": "Clown Zombie",
     "right": "Mechaleon",
-    "output": "Soul Hunters",
+    "output": "Soul Hunter",
     "attack": 2200,
     "defense": 1800,
     "type": "Monster"
@@ -8410,7 +8410,7 @@ var monsterfuseDB = TAFFY([
   {
     "left": "Clown Zombie",
     "right": "Sinister Serpent",
-    "output": "Soul Hunters",
+    "output": "Soul Hunter",
     "attack": 2200,
     "defense": 1800,
     "type": "Monster"
@@ -8642,7 +8642,7 @@ var monsterfuseDB = TAFFY([
   {
     "left": "Crass Clown",
     "right": "Grappler",
-    "output": "Soul Hunters",
+    "output": "Soul Hunter",
     "attack": 2200,
     "defense": 1800,
     "type": "Monster"
@@ -8658,7 +8658,7 @@ var monsterfuseDB = TAFFY([
   {
     "left": "Crass Clown",
     "right": "Sinister Serpent",
-    "output": "Soul Hunters",
+    "output": "Soul Hunter",
     "attack": 2200,
     "defense": 1800,
     "type": "Monster"
@@ -8666,14 +8666,14 @@ var monsterfuseDB = TAFFY([
   {
     "left": "Crawling Dragon",
     "right": "Abyss Flower",
-    "output": "Black Dragon Jungle King",
+    "output": "B. Dragon Jungle King",
     "attack": 2100,
     "defense": 1800,
     "type": "Monster"
   },
   {
     "left": "Crawling Dragon",
-    "right": "Amoeba",
+    "right": "Ameba",
     "output": "Kairyu-Shin",
     "attack": 1800,
     "defense": 1500,
@@ -8682,7 +8682,7 @@ var monsterfuseDB = TAFFY([
   {
     "left": "Crawling Dragon",
     "right": "Ancient Jar",
-    "output": "Stone Dragon",
+    "output": "Stone D.",
     "attack": 2000,
     "defense": 2300,
     "type": "Monster"
@@ -8810,7 +8810,7 @@ var monsterfuseDB = TAFFY([
   {
     "left": "Crawling Dragon",
     "right": "Dark Plant",
-    "output": "Black Dragon Jungle King",
+    "output": "B. Dragon Jungle King",
     "attack": 2100,
     "defense": 1800,
     "type": "Monster"
@@ -8818,7 +8818,7 @@ var monsterfuseDB = TAFFY([
   {
     "left": "Crawling Dragon",
     "right": "Darkworld Thorns",
-    "output": "Black Dragon Jungle King",
+    "output": "B. Dragon Jungle King",
     "attack": 2100,
     "defense": 1800,
     "type": "Monster"
@@ -8826,7 +8826,7 @@ var monsterfuseDB = TAFFY([
   {
     "left": "Crawling Dragon",
     "right": "Dissolverock",
-    "output": "Stone Dragon",
+    "output": "Stone D.",
     "attack": 2000,
     "defense": 2300,
     "type": "Monster"
@@ -8914,7 +8914,7 @@ var monsterfuseDB = TAFFY([
   {
     "left": "Crawling Dragon",
     "right": "Muka Muka",
-    "output": "Stone Dragon",
+    "output": "Stone D.",
     "attack": 2000,
     "defense": 2300,
     "type": "Monster"
@@ -8946,7 +8946,7 @@ var monsterfuseDB = TAFFY([
   {
     "left": "Crawling Dragon",
     "right": "Rainbow Flower",
-    "output": "Black Dragon Jungle King",
+    "output": "B. Dragon Jungle King",
     "attack": 2100,
     "defense": 1800,
     "type": "Monster"
@@ -8994,14 +8994,14 @@ var monsterfuseDB = TAFFY([
   {
     "left": "Crawling Dragon #2",
     "right": "Abyss Flower",
-    "output": "Black Dragon Jungle King",
+    "output": "B. Dragon Jungle King",
     "attack": 2100,
     "defense": 1800,
     "type": "Monster"
   },
   {
     "left": "Crawling Dragon #2",
-    "right": "Amoeba",
+    "right": "Ameba",
     "output": "Kairyu-Shin",
     "attack": 1800,
     "defense": 1500,
@@ -9010,7 +9010,7 @@ var monsterfuseDB = TAFFY([
   {
     "left": "Crawling Dragon #2",
     "right": "Ancient Jar",
-    "output": "Stone Dragon",
+    "output": "Stone D.",
     "attack": 2000,
     "defense": 2300,
     "type": "Monster"
@@ -9106,7 +9106,7 @@ var monsterfuseDB = TAFFY([
   {
     "left": "Crawling Dragon #2",
     "right": "Dark Plant",
-    "output": "Black Dragon Jungle King",
+    "output": "B. Dragon Jungle King",
     "attack": 2100,
     "defense": 1800,
     "type": "Monster"
@@ -9114,7 +9114,7 @@ var monsterfuseDB = TAFFY([
   {
     "left": "Crawling Dragon #2",
     "right": "Darkworld Thorns",
-    "output": "Black Dragon Jungle King",
+    "output": "B. Dragon Jungle King",
     "attack": 2100,
     "defense": 1800,
     "type": "Monster"
@@ -9122,7 +9122,7 @@ var monsterfuseDB = TAFFY([
   {
     "left": "Crawling Dragon #2",
     "right": "Dissolverock",
-    "output": "Stone Dragon",
+    "output": "Stone D.",
     "attack": 2000,
     "defense": 2300,
     "type": "Monster"
@@ -9170,7 +9170,7 @@ var monsterfuseDB = TAFFY([
   {
     "left": "Crawling Dragon #2",
     "right": "Firegrass",
-    "output": "Black Dragon Jungle King",
+    "output": "B. Dragon Jungle King",
     "attack": 2100,
     "defense": 1800,
     "type": "Monster"
@@ -9234,7 +9234,7 @@ var monsterfuseDB = TAFFY([
   {
     "left": "Crawling Dragon #2",
     "right": "Muka Muka",
-    "output": "Stone Dragon",
+    "output": "Stone D.",
     "attack": 2000,
     "defense": 2300,
     "type": "Monster"
@@ -9242,7 +9242,7 @@ var monsterfuseDB = TAFFY([
   {
     "left": "Crawling Dragon #2",
     "right": "Mushroom Man",
-    "output": "Black Dragon Jungle King",
+    "output": "B. Dragon Jungle King",
     "attack": 2100,
     "defense": 1800,
     "type": "Monster"
@@ -9282,7 +9282,7 @@ var monsterfuseDB = TAFFY([
   {
     "left": "Crawling Dragon #2",
     "right": "Rainbow Flower",
-    "output": "Black Dragon Jungle King",
+    "output": "B. Dragon Jungle King",
     "attack": 2100,
     "defense": 1800,
     "type": "Monster"
@@ -9298,7 +9298,7 @@ var monsterfuseDB = TAFFY([
   {
     "left": "Crawling Dragon #2",
     "right": "Succubus Knight",
-    "output": "Sword Arm of the Dragon",
+    "output": "Sword Arm of Dragon",
     "attack": 1750,
     "defense": 2030,
     "type": "Monster"
@@ -9322,7 +9322,7 @@ var monsterfuseDB = TAFFY([
   {
     "left": "Crawling Dragon #2",
     "right": "Yashinoki",
-    "output": "Black Dragon Jungle King",
+    "output": "B. Dragon Jungle King",
     "attack": 2100,
     "defense": 1800,
     "type": "Monster"
@@ -9761,7 +9761,7 @@ var monsterfuseDB = TAFFY([
   },
   {
     "left": "Cyber Commander",
-    "right": "W-Warrior",
+    "right": "Wow Warrior",
     "output": "Cyber Soldier",
     "attack": 1500,
     "defense": 1700,
@@ -10058,7 +10058,7 @@ var monsterfuseDB = TAFFY([
   {
     "left": "D. Human",
     "right": "Thunder Dragon",
-    "output": "Sword Arm of the Dragon",
+    "output": "Sword Arm of Dragon",
     "attack": 1750,
     "defense": 2030,
     "type": "Monster"
@@ -10161,7 +10161,7 @@ var monsterfuseDB = TAFFY([
   },
   {
     "left": "Dancing Elf",
-    "right": "Beautiful Head Huntress",
+    "right": "Beautiful Headhuntress",
     "output": "Dark Elf",
     "attack": 2000,
     "defense": 800,
@@ -10346,7 +10346,7 @@ var monsterfuseDB = TAFFY([
   {
     "left": "Dancing Elf",
     "right": "Haniwa",
-    "output": "Magical Sand",
+    "output": "Mystical Sand",
     "attack": 2100,
     "defense": 1700,
     "type": "Monster"
@@ -10505,7 +10505,7 @@ var monsterfuseDB = TAFFY([
   },
   {
     "left": "Dancing Elf",
-    "right": "Masaki the Legendary Sword sman",
+    "right": "Masaki the Legendary Swordsman",
     "output": "Celtic Guardian",
     "attack": 1400,
     "defense": 1200,
@@ -10681,7 +10681,7 @@ var monsterfuseDB = TAFFY([
   },
   {
     "left": "Dancing Elf",
-    "right": "Sealed Exodia's Left Arm",
+    "right": "Left Arm of the Forbidden One",
     "output": "Dark Elf",
     "attack": 2000,
     "defense": 800,
@@ -10889,7 +10889,7 @@ var monsterfuseDB = TAFFY([
   },
   {
     "left": "Dark Energy",
-    "right": "Acid Trap",
+    "right": "Acid Trap Hole",
     "output": "Dark Hole",
     "attack": 0,
     "defense": 0,
@@ -10897,8 +10897,8 @@ var monsterfuseDB = TAFFY([
   },
   {
     "left": "Dark Energy",
-    "right": "Dark Piercing Light",
-    "output": "Black Luster Soldier Ritual",
+    "right": "Dark-piercing Light",
+    "output": "Black Luster Ritual",
     "attack": 0,
     "defense": 0,
     "type": "Ritual"
@@ -10906,7 +10906,7 @@ var monsterfuseDB = TAFFY([
   {
     "left": "Dark Energy",
     "right": "Dragon Treasure",
-    "output": "Revival of Serpent Knight Dragon Ritual",
+    "output": "Revived of Serpent Night Dragon",
     "attack": 0,
     "defense": 0,
     "type": "Ritual"
@@ -11010,7 +11010,7 @@ var monsterfuseDB = TAFFY([
   {
     "left": "Dark Hole",
     "right": "Umi",
-    "output": "Eternal Drought",
+    "output": "Eternal Draught",
     "attack": 0,
     "defense": 0,
     "type": "Magic"
@@ -11040,7 +11040,7 @@ var monsterfuseDB = TAFFY([
     "type": "Monster"
   },
   {
-    "left": "Dark Piercing Light",
+    "left": "Dark-piercing Light",
     "right": "Boo Koo",
     "output": "Book of Secret Arts",
     "attack": 0,
@@ -11048,7 +11048,7 @@ var monsterfuseDB = TAFFY([
     "type": "Equip"
   },
   {
-    "left": "Dark Piercing Light",
+    "left": "Dark-piercing Light",
     "right": "Castle of Dark Illusions",
     "output": "Bright Castle",
     "attack": 0,
@@ -11056,15 +11056,15 @@ var monsterfuseDB = TAFFY([
     "type": "Equip"
   },
   {
-    "left": "Dark Piercing Light",
+    "left": "Dark-piercing Light",
     "right": "Dark Energy",
-    "output": "Black Luster Soldier Ritual",
+    "output": "Black Luster Ritual",
     "attack": 0,
     "defense": 0,
     "type": "Ritual"
   },
   {
-    "left": "Dark Piercing Light",
+    "left": "Dark-piercing Light",
     "right": "Shadow Spell",
     "output": "Swords of Revealing Light",
     "attack": 0,
@@ -11122,7 +11122,7 @@ var monsterfuseDB = TAFFY([
   {
     "left": "Dark Plant",
     "right": "Blackland Fire Dragon",
-    "output": "Black Dragon Jungle King",
+    "output": "B. Dragon Jungle King",
     "attack": 2100,
     "defense": 1800,
     "type": "Monster"
@@ -11154,7 +11154,7 @@ var monsterfuseDB = TAFFY([
   {
     "left": "Dark Plant",
     "right": "Crawling Dragon #2",
-    "output": "Black Dragon Jungle King",
+    "output": "B. Dragon Jungle King",
     "attack": 2100,
     "defense": 1800,
     "type": "Monster"
@@ -11162,7 +11162,7 @@ var monsterfuseDB = TAFFY([
   {
     "left": "Dark Plant",
     "right": "Crawling Dragon",
-    "output": "Black Dragon Jungle King",
+    "output": "B. Dragon Jungle King",
     "attack": 2100,
     "defense": 1800,
     "type": "Monster"
@@ -11338,7 +11338,7 @@ var monsterfuseDB = TAFFY([
   {
     "left": "Dark Plant",
     "right": "Petit Dragon",
-    "output": "Black Dragon Jungle King",
+    "output": "B. Dragon Jungle King",
     "attack": 2100,
     "defense": 1800,
     "type": "Monster"
@@ -11474,7 +11474,7 @@ var monsterfuseDB = TAFFY([
   {
     "left": "Dark Plant",
     "right": "Yamatano Dragon Scroll",
-    "output": "Black Dragon Jungle King",
+    "output": "B. Dragon Jungle King",
     "attack": 2100,
     "defense": 1800,
     "type": "Monster"
@@ -11714,7 +11714,7 @@ var monsterfuseDB = TAFFY([
   {
     "left": "Darkfire Dragon",
     "right": "Darkworld Thorns",
-    "output": "Black Dragon Jungle King",
+    "output": "B. Dragon Jungle King",
     "attack": 2100,
     "defense": 1800,
     "type": "Monster"
@@ -11802,7 +11802,7 @@ var monsterfuseDB = TAFFY([
   {
     "left": "Darkfire Dragon",
     "right": "Giant Soldier of Stone",
-    "output": "Stone Dragon",
+    "output": "Stone D.",
     "attack": 2000,
     "defense": 2300,
     "type": "Monster"
@@ -11882,7 +11882,7 @@ var monsterfuseDB = TAFFY([
   {
     "left": "Darkfire Dragon",
     "right": "Pot the Trick",
-    "output": "Stone Dragon",
+    "output": "Stone D.",
     "attack": 2000,
     "defense": 2300,
     "type": "Monster"
@@ -11898,7 +11898,7 @@ var monsterfuseDB = TAFFY([
   {
     "left": "Darkfire Dragon",
     "right": "Stone Armadiller",
-    "output": "Stone Dragon",
+    "output": "Stone D.",
     "attack": 2000,
     "defense": 2300,
     "type": "Monster"
@@ -11922,7 +11922,7 @@ var monsterfuseDB = TAFFY([
   {
     "left": "Darkfire Dragon",
     "right": "Tiger Axe",
-    "output": "Cacoon of Evolution",
+    "output": "Cocoon of Evolution",
     "attack": 0,
     "defense": 2000,
     "type": "Monster"
@@ -11938,7 +11938,7 @@ var monsterfuseDB = TAFFY([
   {
     "left": "Darkfire Dragon",
     "right": "Water Magician",
-    "output": "Spiked Seadra",
+    "output": "Spike Seadra",
     "attack": 1600,
     "defense": 1300,
     "type": "Monster"
@@ -11994,7 +11994,7 @@ var monsterfuseDB = TAFFY([
   {
     "left": "Darkworld Thorns",
     "right": "Crawling Dragon #2",
-    "output": "Black Dragon Jungle King",
+    "output": "B. Dragon Jungle King",
     "attack": 2100,
     "defense": 1800,
     "type": "Monster"
@@ -12002,7 +12002,7 @@ var monsterfuseDB = TAFFY([
   {
     "left": "Darkworld Thorns",
     "right": "Crawling Dragon",
-    "output": "Black Dragon Jungle King",
+    "output": "B. Dragon Jungle King",
     "attack": 2100,
     "defense": 1800,
     "type": "Monster"
@@ -12018,7 +12018,7 @@ var monsterfuseDB = TAFFY([
   {
     "left": "Darkworld Thorns",
     "right": "Darkfire Dragon",
-    "output": "Black Dragon Jungle King",
+    "output": "B. Dragon Jungle King",
     "attack": 2100,
     "defense": 1800,
     "type": "Monster"
@@ -12049,7 +12049,7 @@ var monsterfuseDB = TAFFY([
   },
   {
     "left": "Darkworld Thorns",
-    "right": "Kagemushi of the Blue Flame",
+    "right": "Kagemusha of the Blue Flame",
     "output": "Bean Soldier",
     "attack": 1400,
     "defense": 1500,
@@ -12066,7 +12066,7 @@ var monsterfuseDB = TAFFY([
   {
     "left": "Darkworld Thorns",
     "right": "Koumori Dragon",
-    "output": "Black Dragon Jungle King",
+    "output": "B. Dragon Jungle King",
     "attack": 2100,
     "defense": 1800,
     "type": "Monster"
@@ -12082,7 +12082,7 @@ var monsterfuseDB = TAFFY([
   {
     "left": "Darkworld Thorns",
     "right": "Lesser Dragon",
-    "output": "Black Dragon Jungle King",
+    "output": "B. Dragon Jungle King",
     "attack": 2100,
     "defense": 1800,
     "type": "Monster"
@@ -12146,7 +12146,7 @@ var monsterfuseDB = TAFFY([
   {
     "left": "Darkworld Thorns",
     "right": "Petit Dragon",
-    "output": "Black Dragon Jungle King",
+    "output": "B. Dragon Jungle King",
     "attack": 2100,
     "defense": 1800,
     "type": "Monster"
@@ -12193,8 +12193,8 @@ var monsterfuseDB = TAFFY([
   },
   {
     "left": "Darkworld Thorns",
-    "right": "Stone Dragon",
-    "output": "Black Dragon Jungle King",
+    "right": "Stone D.",
+    "output": "B. Dragon Jungle King",
     "attack": 2100,
     "defense": 1800,
     "type": "Monster"
@@ -12233,7 +12233,7 @@ var monsterfuseDB = TAFFY([
   },
   {
     "left": "Darkworld Thorns",
-    "right": "The Shadow that Controls the Dark",
+    "right": "The Shadow Who Controls the Dark",
     "output": "Darkworld Thorns",
     "attack": 1200,
     "defense": 900,
@@ -12258,7 +12258,7 @@ var monsterfuseDB = TAFFY([
   {
     "left": "Darkworld Thorns",
     "right": "Wicked Dragon with the Ersatz Head",
-    "output": "Black Dragon Jungle King",
+    "output": "B. Dragon Jungle King",
     "attack": 2100,
     "defense": 1800,
     "type": "Monster"
@@ -12274,7 +12274,7 @@ var monsterfuseDB = TAFFY([
   {
     "left": "Darkworld Thorns",
     "right": "Yamatano Dragon Scroll",
-    "output": "Black Dragon Jungle King",
+    "output": "B. Dragon Jungle King",
     "attack": 2100,
     "defense": 1800,
     "type": "Monster"
@@ -12409,7 +12409,7 @@ var monsterfuseDB = TAFFY([
   },
   {
     "left": "Dharma Cannon",
-    "right": "Viswar Randi",
+    "right": "Vishwar Randi",
     "output": "Cyber Soldier",
     "attack": 1500,
     "defense": 1700,
@@ -12440,8 +12440,8 @@ var monsterfuseDB = TAFFY([
     "type": "Monster"
   },
   {
-    "left": "Dian Keto the Curse Master",
-    "right": "Dian Keto the Curse Master",
+    "left": "Dian Keto the Cure Master",
+    "right": "Dian Keto the Cure Master",
     "output": "Megamorph",
     "attack": 0,
     "defense": 0,
@@ -12497,7 +12497,7 @@ var monsterfuseDB = TAFFY([
   },
   {
     "left": "Dimensional Warrior",
-    "right": "The Judgment Hand",
+    "right": "The Judgement Hand",
     "output": "Judge Man",
     "attack": 2200,
     "defense": 1500,
@@ -12506,7 +12506,7 @@ var monsterfuseDB = TAFFY([
   {
     "left": "Dimensional Warrior",
     "right": "Skelgon",
-    "output": "Sword Arm of the Dragon",
+    "output": "Sword Arm of Dragon",
     "attack": 1750,
     "defense": 2030,
     "type": "Monster"
@@ -12586,7 +12586,7 @@ var monsterfuseDB = TAFFY([
   {
     "left": "Dissolverock",
     "right": "Crawling Dragon #2",
-    "output": "Stone Dragon",
+    "output": "Stone D.",
     "attack": 2000,
     "defense": 2300,
     "type": "Monster"
@@ -12594,7 +12594,7 @@ var monsterfuseDB = TAFFY([
   {
     "left": "Dissolverock",
     "right": "Crawling Dragon",
-    "output": "Stone Dragon",
+    "output": "Stone D.",
     "attack": 2000,
     "defense": 2300,
     "type": "Monster"
@@ -12610,7 +12610,7 @@ var monsterfuseDB = TAFFY([
   {
     "left": "Dissolverock",
     "right": "Dragon Zombie",
-    "output": "Stone Dragon",
+    "output": "Stone D.",
     "attack": 2000,
     "defense": 2300,
     "type": "Monster"
@@ -12642,7 +12642,7 @@ var monsterfuseDB = TAFFY([
   {
     "left": "Dissolverock",
     "right": "Lesser Dragon",
-    "output": "Stone Dragon",
+    "output": "Stone D.",
     "attack": 2000,
     "defense": 2300,
     "type": "Monster"
@@ -12722,7 +12722,7 @@ var monsterfuseDB = TAFFY([
   {
     "left": "Dissolverock",
     "right": "Sword Arm of Dragon",
-    "output": "Stone Dragon",
+    "output": "Stone D.",
     "attack": 2000,
     "defense": 2300,
     "type": "Monster"
@@ -12730,7 +12730,7 @@ var monsterfuseDB = TAFFY([
   {
     "left": "Dissolverock",
     "right": "Wicked Dragon with the Ersatz Head",
-    "output": "Stone Dragon",
+    "output": "Stone D.",
     "attack": 2000,
     "defense": 2300,
     "type": "Monster"
@@ -12777,7 +12777,7 @@ var monsterfuseDB = TAFFY([
   },
   {
     "left": "Dokurorider",
-    "right": "Sword Arm of the Dragon",
+    "right": "Sword Arm of Dragon",
     "output": "Curse of Dragon",
     "attack": 2000,
     "defense": 1500,
@@ -12802,7 +12802,7 @@ var monsterfuseDB = TAFFY([
   {
     "left": "Doron",
     "right": "Candle of Fate",
-    "output": "Charubin Fire Knight",
+    "output": "Charubin the Fire Knight",
     "attack": 1100,
     "defense": 800,
     "type": "Monster"
@@ -12866,7 +12866,7 @@ var monsterfuseDB = TAFFY([
   {
     "left": "Doron",
     "right": "Flame Viper",
-    "output": "Charubin Fire Knight",
+    "output": "Charubin the Fire Knight",
     "attack": 1100,
     "defense": 800,
     "type": "Monster"
@@ -13018,7 +13018,7 @@ var monsterfuseDB = TAFFY([
   {
     "left": "Dragon Piper",
     "right": "Armaill",
-    "output": "Charubin Fire Knight",
+    "output": "Charubin the Fire Knight",
     "attack": 1100,
     "defense": 800,
     "type": "Monster"
@@ -13026,7 +13026,7 @@ var monsterfuseDB = TAFFY([
   {
     "left": "Dragon Piper",
     "right": "Armed Ninja",
-    "output": "Charubin Fire Knight",
+    "output": "Charubin the Fire Knight",
     "attack": 1100,
     "defense": 800,
     "type": "Monster"
@@ -13098,7 +13098,7 @@ var monsterfuseDB = TAFFY([
   {
     "left": "Dragon Piper",
     "right": "Eyearmor",
-    "output": "Charubin Fire Knight",
+    "output": "Charubin the Fire Knight",
     "attack": 1100,
     "defense": 800,
     "type": "Monster"
@@ -13122,7 +13122,7 @@ var monsterfuseDB = TAFFY([
   {
     "left": "Dragon Piper",
     "right": "M-Warrior #2",
-    "output": "Charubin Fire Knight",
+    "output": "Charubin the Fire Knight",
     "attack": 1100,
     "defense": 800,
     "type": "Monster"
@@ -13138,7 +13138,7 @@ var monsterfuseDB = TAFFY([
   {
     "left": "Dragon Piper",
     "right": "Princess of Tsurugi",
-    "output": "Charubin Fire Knight",
+    "output": "Charubin the Fire Knight",
     "attack": 1100,
     "defense": 800,
     "type": "Monster"
@@ -13146,7 +13146,7 @@ var monsterfuseDB = TAFFY([
   {
     "left": "Dragon Piper",
     "right": "Swordsman From A Foreign Land",
-    "output": "Charubin Fire Knight",
+    "output": "Charubin the Fire Knight",
     "attack": 1100,
     "defense": 800,
     "type": "Monster"
@@ -13322,7 +13322,7 @@ var monsterfuseDB = TAFFY([
   {
     "left": "Dragon Statue",
     "right": "Muka Muka",
-    "output": "Stone Dragon",
+    "output": "Stone D.",
     "attack": 2000,
     "defense": 2300,
     "type": "Monster"
@@ -13346,7 +13346,7 @@ var monsterfuseDB = TAFFY([
   {
     "left": "Dragon Statue",
     "right": "Pot the Trick",
-    "output": "Stone Dragon",
+    "output": "Stone D.",
     "attack": 2000,
     "defense": 2300,
     "type": "Monster"
@@ -13354,7 +13354,7 @@ var monsterfuseDB = TAFFY([
   {
     "left": "Dragon Statue",
     "right": "Queen of Autumn Leaves",
-    "output": "Black Dragon Jungle King",
+    "output": "B. Dragon Jungle King",
     "attack": 2100,
     "defense": 1800,
     "type": "Monster"
@@ -13410,7 +13410,7 @@ var monsterfuseDB = TAFFY([
   {
     "left": "Dragon Statue",
     "right": "Zanki",
-    "output": "Sword Arm of the Dragon",
+    "output": "Sword Arm of Dragon",
     "attack": 1750,
     "defense": 2030,
     "type": "Monster"
@@ -13418,7 +13418,7 @@ var monsterfuseDB = TAFFY([
   {
     "left": "Dragon Treasure",
     "right": "Dark Energy",
-    "output": "Revival of Serpent Knight Dragon Ritual",
+    "output": "Revived of Serpent Night Dragon",
     "attack": 0,
     "defense": 0,
     "type": "Ritual"
@@ -13426,7 +13426,7 @@ var monsterfuseDB = TAFFY([
   {
     "left": "Dragon Treasure",
     "right": "Elegant Egotist",
-    "output": "Yamadrom Ritual",
+    "output": "Yamadron Ritual",
     "attack": 0,
     "defense": 0,
     "type": "Ritual"
@@ -13434,7 +13434,7 @@ var monsterfuseDB = TAFFY([
   {
     "left": "Dragon Treasure",
     "right": "Megamorph",
-    "output": "Blue-eyes Ultimate Dragon Ritual",
+    "output": "Ultimate Dragon",
     "attack": 0,
     "defense": 0,
     "type": "Ritual"
@@ -13457,7 +13457,7 @@ var monsterfuseDB = TAFFY([
   },
   {
     "left": "Dragon Zombie",
-    "right": "Amoeba",
+    "right": "Ameba",
     "output": "Kairyu-Shin",
     "attack": 1800,
     "defense": 1500,
@@ -13466,14 +13466,14 @@ var monsterfuseDB = TAFFY([
   {
     "left": "Dragon Zombie",
     "right": "Ancient Jar",
-    "output": "Stone Dragon",
+    "output": "Stone D.",
     "attack": 2000,
     "defense": 2300,
     "type": "Monster"
   },
   {
     "left": "Dragon Zombie",
-    "right": "Ansastu",
+    "right": "Ansatsu",
     "output": "Sword Arm of Dragon",
     "attack": 1750,
     "defense": 2030,
@@ -13666,7 +13666,7 @@ var monsterfuseDB = TAFFY([
   {
     "left": "Dragon Zombie",
     "right": "Dissolverock",
-    "output": "Stone Dragon",
+    "output": "Stone D.",
     "attack": 2000,
     "defense": 2300,
     "type": "Monster"
@@ -13761,8 +13761,8 @@ var monsterfuseDB = TAFFY([
   },
   {
     "left": "Dragon Zombie",
-    "right": "Kagemushi of the Blue Flame",
-    "output": "Sword Arm of the Dragon",
+    "right": "Kagemusha of the Blue Flame",
+    "output": "Sword Arm of Dragon",
     "attack": 1750,
     "defense": 2030,
     "type": "Monster"
@@ -13898,7 +13898,7 @@ var monsterfuseDB = TAFFY([
   {
     "left": "Dragon Zombie",
     "right": "Muka Muka",
-    "output": "Stone Dragon",
+    "output": "Stone D.",
     "attack": 2000,
     "defense": 2300,
     "type": "Monster"
@@ -13946,7 +13946,7 @@ var monsterfuseDB = TAFFY([
   {
     "left": "Dragon Zombie",
     "right": "Pot the Trick",
-    "output": "Stone Dragon",
+    "output": "Stone D.",
     "attack": 2000,
     "defense": 2300,
     "type": "Monster"
@@ -13954,7 +13954,7 @@ var monsterfuseDB = TAFFY([
   {
     "left": "Dragon Zombie",
     "right": "Queen of Autumn Leaves",
-    "output": "Black Dragon Jungle King",
+    "output": "B. Dragon Jungle King",
     "attack": 2100,
     "defense": 1800,
     "type": "Monster"
@@ -13962,7 +13962,7 @@ var monsterfuseDB = TAFFY([
   {
     "left": "Dragon Zombie",
     "right": "Sand Stone",
-    "output": "Stone Dragon",
+    "output": "Stone D.",
     "attack": 2000,
     "defense": 2300,
     "type": "Monster"
@@ -14105,7 +14105,7 @@ var monsterfuseDB = TAFFY([
   },
   {
     "left": "Dragoness the Wicked Knight",
-    "right": "Charubin Fire Knight",
+    "right": "Charubin the Fire Knight",
     "output": "Flame Swordsman",
     "attack": 1800,
     "defense": 1600,
@@ -14257,7 +14257,7 @@ var monsterfuseDB = TAFFY([
   },
   {
     "left": "Droll Bird",
-    "right": "Charubin Fire Knight",
+    "right": "Charubin the Fire Knight",
     "output": "Mavelus",
     "attack": 1300,
     "defense": 900,
@@ -14521,7 +14521,7 @@ var monsterfuseDB = TAFFY([
   },
   {
     "left": "Electric Lizard",
-    "right": "Black Dragon Jungle King",
+    "right": "B. Dragon Jungle King",
     "output": "Twin-Headed Thunder Dragon",
     "attack": 2800,
     "defense": 2100,
@@ -14586,7 +14586,7 @@ var monsterfuseDB = TAFFY([
   {
     "left": "Electric Lizard",
     "right": "Fiend Kraken",
-    "output": "Bolt Escargo",
+    "output": "Bolt Escargot",
     "attack": 1400,
     "defense": 1500,
     "type": "Monster"
@@ -14673,7 +14673,7 @@ var monsterfuseDB = TAFFY([
   },
   {
     "left": "Electric Lizard",
-    "right": "Red-Eyes Black Dragon",
+    "right": "Red-eyes B. Dragon",
     "output": "Twin-Headed Thunder Dragon",
     "attack": 2800,
     "defense": 2100,
@@ -14729,7 +14729,7 @@ var monsterfuseDB = TAFFY([
   },
   {
     "left": "Electric Lizard",
-    "right": "Stone Dragon",
+    "right": "Stone D.",
     "output": "Twin-Headed Thunder Dragon",
     "attack": 2800,
     "defense": 2100,
@@ -14793,7 +14793,7 @@ var monsterfuseDB = TAFFY([
   },
   {
     "left": "Electric Snake",
-    "right": "Black Dragon Jungle King",
+    "right": "B. Dragon Jungle King",
     "output": "Twin-Headed Thunder Dragon",
     "attack": 2800,
     "defense": 2100,
@@ -14953,7 +14953,7 @@ var monsterfuseDB = TAFFY([
   },
   {
     "left": "Electric Snake",
-    "right": "Red-Eyes Black Dragon",
+    "right": "Red-eyes B. Dragon",
     "output": "Twin-Headed Thunder Dragon",
     "attack": 2800,
     "defense": 2100,
@@ -15001,7 +15001,7 @@ var monsterfuseDB = TAFFY([
   },
   {
     "left": "Electric Snake",
-    "right": "Stone Dragon",
+    "right": "Stone D.",
     "output": "Twin-Headed Thunder Dragon",
     "attack": 2800,
     "defense": 2100,
@@ -15098,7 +15098,7 @@ var monsterfuseDB = TAFFY([
   {
     "left": "Elegant Egotist",
     "right": "Beast Fangs",
-    "output": "War Lion Ritual",
+    "output": "War-lion Ritual",
     "attack": 0,
     "defense": 0,
     "type": "Ritual"
@@ -15114,7 +15114,7 @@ var monsterfuseDB = TAFFY([
   {
     "left": "Elegant Egotist",
     "right": "Dragon Treasure",
-    "output": "Yamadrom Ritual",
+    "output": "Yamadron Ritual",
     "attack": 0,
     "defense": 0,
     "type": "Ritual"
@@ -15154,7 +15154,7 @@ var monsterfuseDB = TAFFY([
   {
     "left": "Elegant Egotist",
     "right": "Legendary Sword",
-    "output": "Gharma Sword Oath",
+    "output": "Garma Sword Oath",
     "attack": 0,
     "defense": 0,
     "type": "Ritual"
@@ -15178,7 +15178,7 @@ var monsterfuseDB = TAFFY([
   {
     "left": "Elf's Light",
     "right": "Malevolent Nuzzler",
-    "output": "Contruct of Mast",
+    "output": "Contruct of Mask",
     "attack": 0,
     "defense": 0,
     "type": "Ritual"
@@ -15194,7 +15194,7 @@ var monsterfuseDB = TAFFY([
   {
     "left": "Embryonic Beast",
     "right": "Arlownay",
-    "output": "Rose Specter of Dunn",
+    "output": "Rose Spectre of Dunn",
     "attack": 2000,
     "defense": 1800,
     "type": "Monster"
@@ -15410,7 +15410,7 @@ var monsterfuseDB = TAFFY([
   {
     "left": "Eyearmor",
     "right": "Armaill",
-    "output": "Charubin Fire Knight",
+    "output": "Charubin the Fire Knight",
     "attack": 1100,
     "defense": 800,
     "type": "Monster"
@@ -15466,7 +15466,7 @@ var monsterfuseDB = TAFFY([
   {
     "left": "Eyearmor",
     "right": "Dragon Piper",
-    "output": "Charubin Fire Knight",
+    "output": "Charubin the Fire Knight",
     "attack": 1100,
     "defense": 800,
     "type": "Monster"
@@ -15554,7 +15554,7 @@ var monsterfuseDB = TAFFY([
   {
     "left": "Eyearmor",
     "right": "Wings of Wicked Flame",
-    "output": "Charubin Fire Knight",
+    "output": "Charubin the Fire Knight",
     "attack": 1100,
     "defense": 800,
     "type": "Monster"
@@ -15666,7 +15666,7 @@ var monsterfuseDB = TAFFY([
   {
     "left": "Fiend Kraken",
     "right": "Electric Lizard",
-    "output": "Bolt Escargo",
+    "output": "Bolt Escargot",
     "attack": 1400,
     "defense": 1500,
     "type": "Monster"
@@ -15745,7 +15745,7 @@ var monsterfuseDB = TAFFY([
   },
   {
     "left": "Fiend Refrection #2",
-    "right": "Charubin Fire Knight",
+    "right": "Charubin the Fire Knight",
     "output": "Mavelus",
     "attack": 1300,
     "defense": 900,
@@ -16017,7 +16017,7 @@ var monsterfuseDB = TAFFY([
   },
   {
     "left": "Fiend's Hand",
-    "right": "Kagemushi of the Blue Flame",
+    "right": "Kagemusha of the Blue Flame",
     "output": "Zombie Warrior",
     "attack": 1200,
     "defense": 900,
@@ -16050,7 +16050,7 @@ var monsterfuseDB = TAFFY([
   {
     "left": "Fiend's Hand",
     "right": "Mammoth Graveyard",
-    "output": "The Great Mammoth of Goldfine",
+    "output": "Great Mammoth of Goldfine",
     "attack": 2200,
     "defense": 1800,
     "type": "Monster"
@@ -16177,7 +16177,7 @@ var monsterfuseDB = TAFFY([
   },
   {
     "left": "Fiend's Hand",
-    "right": "The Judgment Hand",
+    "right": "The Judgement Hand",
     "output": "Armored Zombie",
     "attack": 1500,
     "defense": 0,
@@ -16193,7 +16193,7 @@ var monsterfuseDB = TAFFY([
   },
   {
     "left": "Fiend's Hand",
-    "right": "W-Warrior",
+    "right": "Wow Warrior",
     "output": "Zombie Warrior",
     "attack": 1200,
     "defense": 900,
@@ -16257,7 +16257,7 @@ var monsterfuseDB = TAFFY([
   },
   {
     "left": "Fire Eye",
-    "right": "Ansastu",
+    "right": "Ansatsu",
     "output": "Flame Swordsman",
     "attack": 1800,
     "defense": 1600,
@@ -16266,7 +16266,7 @@ var monsterfuseDB = TAFFY([
   {
     "left": "Fire Eye",
     "right": "Armaill",
-    "output": "Charubin Fire Knight",
+    "output": "Charubin the Fire Knight",
     "attack": 1100,
     "defense": 800,
     "type": "Monster"
@@ -16274,7 +16274,7 @@ var monsterfuseDB = TAFFY([
   {
     "left": "Fire Eye",
     "right": "Armed Ninja",
-    "output": "Charubin Fire Knight",
+    "output": "Charubin the Fire Knight",
     "attack": 1100,
     "defense": 800,
     "type": "Monster"
@@ -16289,7 +16289,7 @@ var monsterfuseDB = TAFFY([
   },
   {
     "left": "Fire Eye",
-    "right": "Beautiful Head Huntress",
+    "right": "Beautiful Headhuntress",
     "output": "Flame Swordsman",
     "attack": 1800,
     "defense": 1600,
@@ -16297,7 +16297,7 @@ var monsterfuseDB = TAFFY([
   },
   {
     "left": "Fire Eye",
-    "right": "Blue Wing Crown",
+    "right": "Blue-winged Crown",
     "output": "Crimson Sunbird",
     "attack": 2300,
     "defense": 1800,
@@ -16370,7 +16370,7 @@ var monsterfuseDB = TAFFY([
   {
     "left": "Fire Eye",
     "right": "Hard Armor",
-    "output": "Charubin Fire Knight",
+    "output": "Charubin the Fire Knight",
     "attack": 1100,
     "defense": 800,
     "type": "Monster"
@@ -16378,7 +16378,7 @@ var monsterfuseDB = TAFFY([
   {
     "left": "Fire Eye",
     "right": "Hyo",
-    "output": "Charubin Fire Knight",
+    "output": "Charubin the Fire Knight",
     "attack": 1100,
     "defense": 800,
     "type": "Monster"
@@ -16402,7 +16402,7 @@ var monsterfuseDB = TAFFY([
   {
     "left": "Fire Eye",
     "right": "M-Warrior #2",
-    "output": "Charubin Fire Knight",
+    "output": "Charubin the Fire Knight",
     "attack": 1100,
     "defense": 800,
     "type": "Monster"
@@ -16418,7 +16418,7 @@ var monsterfuseDB = TAFFY([
   {
     "left": "Fire Eye",
     "right": "Masked Clown",
-    "output": "Charubin Fire Knight",
+    "output": "Charubin the Fire Knight",
     "attack": 1100,
     "defense": 800,
     "type": "Monster"
@@ -16466,7 +16466,7 @@ var monsterfuseDB = TAFFY([
   {
     "left": "Fire Eye",
     "right": "Mystic Horseman",
-    "output": "Flame Cerberus",
+    "output": "Flame Cerebrus",
     "attack": 2100,
     "defense": 1800,
     "type": "Monster"
@@ -16506,7 +16506,7 @@ var monsterfuseDB = TAFFY([
   {
     "left": "Fire Eye",
     "right": "Princess of Tsurugi",
-    "output": "Charubin Fire Knight",
+    "output": "Charubin the Fire Knight",
     "attack": 1100,
     "defense": 800,
     "type": "Monster"
@@ -16562,7 +16562,7 @@ var monsterfuseDB = TAFFY([
   {
     "left": "Fire Eye",
     "right": "Supporter in the Shadows",
-    "output": "Charubin Fire Knight",
+    "output": "Charubin the Fire Knight",
     "attack": 1100,
     "defense": 800,
     "type": "Monster"
@@ -16570,7 +16570,7 @@ var monsterfuseDB = TAFFY([
   {
     "left": "Fire Eye",
     "right": "Swordsman From A Foreign Land",
-    "output": "Charubin Fire Knight",
+    "output": "Charubin the Fire Knight",
     "attack": 1100,
     "defense": 800,
     "type": "Monster"
@@ -16586,7 +16586,7 @@ var monsterfuseDB = TAFFY([
   {
     "left": "Fire Eye",
     "right": "The Little Swordsman of Aile",
-    "output": "Charubin Fire Knight",
+    "output": "Charubin the Fire Knight",
     "attack": 1100,
     "defense": 800,
     "type": "Monster"
@@ -16602,7 +16602,7 @@ var monsterfuseDB = TAFFY([
   {
     "left": "Fire Eye",
     "right": "Trap Master",
-    "output": "Charubin Fire Knight",
+    "output": "Charubin the Fire Knight",
     "attack": 1100,
     "defense": 800,
     "type": "Monster"
@@ -16610,7 +16610,7 @@ var monsterfuseDB = TAFFY([
   {
     "left": "Fire Eye",
     "right": "Vishwar Randi",
-    "output": "Charubin Fire Knight",
+    "output": "Charubin the Fire Knight",
     "attack": 1100,
     "defense": 800,
     "type": "Monster"
@@ -16978,7 +16978,7 @@ var monsterfuseDB = TAFFY([
   {
     "left": "Fire Reaper",
     "right": "Monsturtle",
-    "output": "Giant Turtle Who Feeds on Flame",
+    "output": "Giant Turtle Who Feeds on Flames",
     "attack": 1400,
     "defense": 1800,
     "type": "Monster"
@@ -17009,7 +17009,7 @@ var monsterfuseDB = TAFFY([
   },
   {
     "left": "Fire Reaper",
-    "right": "Mystic Sheep #2",
+    "right": "Mystical Sheep #2",
     "output": "Flame Cerebrus",
     "attack": 2100,
     "defense": 1800,
@@ -17057,7 +17057,7 @@ var monsterfuseDB = TAFFY([
   },
   {
     "left": "Fire Reaper",
-    "right": "Sealed Exodia's Left Arm",
+    "right": "Left Arm of the Forbidden One",
     "output": "Magical Ghost",
     "attack": 1300,
     "defense": 1400,
@@ -17242,7 +17242,7 @@ var monsterfuseDB = TAFFY([
   {
     "left": "Firegrass",
     "right": "Baby Dragon",
-    "output": "Black Dragon Jungle King",
+    "output": "B. Dragon Jungle King",
     "attack": 2100,
     "defense": 1800,
     "type": "Monster"
@@ -17282,7 +17282,7 @@ var monsterfuseDB = TAFFY([
   {
     "left": "Firegrass",
     "right": "Crawling Dragon #2",
-    "output": "Black Dragon Jungle King",
+    "output": "B. Dragon Jungle King",
     "attack": 2100,
     "defense": 1800,
     "type": "Monster"
@@ -17370,7 +17370,7 @@ var monsterfuseDB = TAFFY([
   {
     "left": "Firegrass",
     "right": "Fusionist",
-    "output": "Flame Cerberus",
+    "output": "Flame Cerebrus",
     "attack": 2100,
     "defense": 1800,
     "type": "Monster"
@@ -17418,7 +17418,7 @@ var monsterfuseDB = TAFFY([
   {
     "left": "Firegrass",
     "right": "Kagemusha of the Blue Flame",
-    "output": "Charubin Fire Knight",
+    "output": "Charubin the Fire Knight",
     "attack": 1100,
     "defense": 800,
     "type": "Monster"
@@ -17450,7 +17450,7 @@ var monsterfuseDB = TAFFY([
   {
     "left": "Firegrass",
     "right": "Lesser Dragon",
-    "output": "Black Dragon Jungle King",
+    "output": "B. Dragon Jungle King",
     "attack": 2100,
     "defense": 1800,
     "type": "Monster"
@@ -17482,7 +17482,7 @@ var monsterfuseDB = TAFFY([
   {
     "left": "Firegrass",
     "right": "Metal Dragon",
-    "output": "Black Dragon Jungle King",
+    "output": "B. Dragon Jungle King",
     "attack": 2100,
     "defense": 1800,
     "type": "Monster"
@@ -17498,7 +17498,7 @@ var monsterfuseDB = TAFFY([
   {
     "left": "Firegrass",
     "right": "Mysterious Puppeteer",
-    "output": "Charubin Fire Knight",
+    "output": "Charubin the Fire Knight",
     "attack": 1100,
     "defense": 800,
     "type": "Monster"
@@ -17506,7 +17506,7 @@ var monsterfuseDB = TAFFY([
   {
     "left": "Firegrass",
     "right": "Mystic Horseman",
-    "output": "Flame Cerberus",
+    "output": "Flame Cerebrus",
     "attack": 2100,
     "defense": 1800,
     "type": "Monster"
@@ -17538,7 +17538,7 @@ var monsterfuseDB = TAFFY([
   {
     "left": "Firegrass",
     "right": "One-Eyed Shield Dragon",
-    "output": "Black Dragon Jungle King",
+    "output": "B. Dragon Jungle King",
     "attack": 2100,
     "defense": 1800,
     "type": "Monster"
@@ -17546,7 +17546,7 @@ var monsterfuseDB = TAFFY([
   {
     "left": "Firegrass",
     "right": "Petit Dragon",
-    "output": "Black Dragon Jungle King",
+    "output": "B. Dragon Jungle King",
     "attack": 2100,
     "defense": 1800,
     "type": "Monster"
@@ -17618,7 +17618,7 @@ var monsterfuseDB = TAFFY([
   {
     "left": "Firegrass",
     "right": "Sword Arm of Dragon",
-    "output": "Black Dragon Jungle King",
+    "output": "B. Dragon Jungle King",
     "attack": 2100,
     "defense": 1800,
     "type": "Monster"
@@ -17626,7 +17626,7 @@ var monsterfuseDB = TAFFY([
   {
     "left": "Firegrass",
     "right": "Swordsman From A Foreign Land",
-    "output": "Charubin Fire Knight",
+    "output": "Charubin the Fire Knight",
     "attack": 1100,
     "defense": 800,
     "type": "Monster"
@@ -17642,7 +17642,7 @@ var monsterfuseDB = TAFFY([
   {
     "left": "Firegrass",
     "right": "Thunder Dragon",
-    "output": "Black Dragon Jungle King",
+    "output": "B. Dragon Jungle King",
     "attack": 2100,
     "defense": 1800,
     "type": "Monster"
@@ -17658,7 +17658,7 @@ var monsterfuseDB = TAFFY([
   {
     "left": "Firegrass",
     "right": "Wicked Dragon with the Ersatz Head",
-    "output": "Black Dragon Jungle King",
+    "output": "B. Dragon Jungle King",
     "attack": 2100,
     "defense": 1800,
     "type": "Monster"
@@ -17705,7 +17705,7 @@ var monsterfuseDB = TAFFY([
   },
   {
     "left": "Fireyarou",
-    "right": "Fiend Refraction #1",
+    "right": "Fiend Refrection #1",
     "output": "Crimson Sunbird",
     "attack": 2300,
     "defense": 1800,
@@ -18114,7 +18114,7 @@ var monsterfuseDB = TAFFY([
   {
     "left": "Flame Manipulator",
     "right": "Armed Ninja",
-    "output": "Charubin Fire Knight",
+    "output": "Charubin the Fire Knight",
     "attack": 1100,
     "defense": 800,
     "type": "Monster"
@@ -18162,7 +18162,7 @@ var monsterfuseDB = TAFFY([
   {
     "left": "Flame Manipulator",
     "right": "M-Warrior #1",
-    "output": "Charubin Fire Knight",
+    "output": "Charubin the Fire Knight",
     "attack": 1100,
     "defense": 800,
     "type": "Monster"
@@ -18194,7 +18194,7 @@ var monsterfuseDB = TAFFY([
   {
     "left": "Flame Manipulator",
     "right": "Vishwar Randi",
-    "output": "Charubin Fire Knight",
+    "output": "Charubin the Fire Knight",
     "attack": 1100,
     "defense": 800,
     "type": "Monster"
@@ -18217,7 +18217,7 @@ var monsterfuseDB = TAFFY([
   },
   {
     "left": "Flame Swordsman",
-    "right": "Cheribum Fire Knight",
+    "right": "Charubin the Fire Knight",
     "output": "Vermillion Sparrow",
     "attack": 1900,
     "defense": 1500,
@@ -18281,7 +18281,7 @@ var monsterfuseDB = TAFFY([
   },
   {
     "left": "Flame Swordsman",
-    "right": "Giltia the D.Kinght",
+    "right": "Giltia the D. Knight",
     "output": "Vermillion Sparrow",
     "attack": 1900,
     "defense": 1500,
@@ -18330,7 +18330,7 @@ var monsterfuseDB = TAFFY([
   {
     "left": "Flame Swordsman",
     "right": "Silver Fang",
-    "output": "Flame Cerberus",
+    "output": "Flame Cerebrus",
     "attack": 2100,
     "defense": 1800,
     "type": "Monster"
@@ -18385,7 +18385,7 @@ var monsterfuseDB = TAFFY([
   },
   {
     "left": "Flame Viper",
-    "right": "Ansastu",
+    "right": "Ansatsu",
     "output": "Flame Swordsman",
     "attack": 1800,
     "defense": 1600,
@@ -18394,7 +18394,7 @@ var monsterfuseDB = TAFFY([
   {
     "left": "Flame Viper",
     "right": "Armaill",
-    "output": "Charubin Fire Knight",
+    "output": "Charubin the Fire Knight",
     "attack": 1100,
     "defense": 800,
     "type": "Monster"
@@ -18410,7 +18410,7 @@ var monsterfuseDB = TAFFY([
   {
     "left": "Flame Viper",
     "right": "Blue-Winged Crown",
-    "output": "Crimson Sunbirc",
+    "output": "Crimson Sunbird",
     "attack": 2300,
     "defense": 1800,
     "type": "Monster"
@@ -18434,7 +18434,7 @@ var monsterfuseDB = TAFFY([
   {
     "left": "Flame Viper",
     "right": "Doron",
-    "output": "Charubin Fire Knight",
+    "output": "Charubin the Fire Knight",
     "attack": 1100,
     "defense": 800,
     "type": "Monster"
@@ -18514,7 +18514,7 @@ var monsterfuseDB = TAFFY([
   {
     "left": "Flame Viper",
     "right": "Hard Armor",
-    "output": "Charubin Fire Knight",
+    "output": "Charubin the Fire Knight",
     "attack": 1100,
     "defense": 800,
     "type": "Monster"
@@ -18530,7 +18530,7 @@ var monsterfuseDB = TAFFY([
   {
     "left": "Flame Viper",
     "right": "Kagemusha of the Blue Flame",
-    "output": "Charubin Fire Knight",
+    "output": "Charubin the Fire Knight",
     "attack": 1100,
     "defense": 800,
     "type": "Monster"
@@ -18562,7 +18562,7 @@ var monsterfuseDB = TAFFY([
   {
     "left": "Flame Viper",
     "right": "M-Warrior #1",
-    "output": "Charubin Fire Knight",
+    "output": "Charubin the Fire Knight",
     "attack": 1100,
     "defense": 800,
     "type": "Monster"
@@ -18626,7 +18626,7 @@ var monsterfuseDB = TAFFY([
   {
     "left": "Flame Viper",
     "right": "Queen's Double",
-    "output": "Charubin Fire Knight",
+    "output": "Charubin the Fire Knight",
     "attack": 1100,
     "defense": 800,
     "type": "Monster"
@@ -18674,7 +18674,7 @@ var monsterfuseDB = TAFFY([
   {
     "left": "Flame Viper",
     "right": "Swordsman From A Foreign Land",
-    "output": "Charubin Fire Knight",
+    "output": "Charubin the Fire Knight",
     "attack": 1100,
     "defense": 800,
     "type": "Monster"
@@ -18730,7 +18730,7 @@ var monsterfuseDB = TAFFY([
   {
     "left": "Flower Wolf",
     "right": "Fire Reaper",
-    "output": "Flame Cerberus",
+    "output": "Flame Cerebrus",
     "attack": 2100,
     "defense": 1800,
     "type": "Monster"
@@ -18778,7 +18778,7 @@ var monsterfuseDB = TAFFY([
   {
     "left": "Flower Wolf",
     "right": "Wings of Wicked Flame",
-    "output": "Flame Cerberus",
+    "output": "Flame Cerebrus",
     "attack": 2100,
     "defense": 1800,
     "type": "Monster"
@@ -18810,7 +18810,7 @@ var monsterfuseDB = TAFFY([
   {
     "left": "Follow Wind",
     "right": "Machine Conversion Factory",
-    "output": "Harpies Feather Duster",
+    "output": "Harpie's Feather Duster",
     "attack": 0,
     "defense": 0,
     "type": "Magic"
@@ -18914,7 +18914,7 @@ var monsterfuseDB = TAFFY([
   {
     "left": "Fungi of the Musk",
     "right": "Arlownay",
-    "output": "Rose Specter of Dunn",
+    "output": "Rose Spectre of Dunn",
     "attack": 2000,
     "defense": 1800,
     "type": "Monster"
@@ -19057,7 +19057,7 @@ var monsterfuseDB = TAFFY([
   },
   {
     "left": "Fungi of the Musk",
-    "right": "That Shadow that Controls the Dark",
+    "right": "The Shadow Who Controls the Dark",
     "output": "Darkworld Thorns",
     "attack": 1200,
     "defense": 900,
@@ -19129,7 +19129,7 @@ var monsterfuseDB = TAFFY([
   },
   {
     "left": "Fusionist",
-    "right": "Charubin Fire Knight",
+    "right": "Charubin the Fire Knight",
     "output": "Flame Cerebrus",
     "attack": 2100,
     "defense": 1800,
@@ -19154,7 +19154,7 @@ var monsterfuseDB = TAFFY([
   {
     "left": "Fusionist",
     "right": "Firegrass",
-    "output": "Flame Cerberus",
+    "output": "Flame Cerebrus",
     "attack": 2100,
     "defense": 1800,
     "type": "Monster"
@@ -19393,7 +19393,7 @@ var monsterfuseDB = TAFFY([
   },
   {
     "left": "Ganigumo",
-    "right": "Kuwagata *Alpha Sign*",
+    "right": "Kuwagata alpha",
     "output": "Kwagar Hercules",
     "attack": 1900,
     "defense": 1700,
@@ -19609,7 +19609,7 @@ var monsterfuseDB = TAFFY([
   },
   {
     "left": "Giant Scorpion of the Tundra",
-    "right": "Kuwagata *Alpha Sign*",
+    "right": "Kuwagata alpha",
     "output": "Kwagar Hercules",
     "attack": 1900,
     "defense": 1700,
@@ -19618,7 +19618,7 @@ var monsterfuseDB = TAFFY([
   {
     "left": "Giant Soldier of Stone",
     "right": "Blackland Fire Dragon",
-    "output": "Stone Dragon",
+    "output": "Stone D.",
     "attack": 2000,
     "defense": 2300,
     "type": "Monster"
@@ -19626,13 +19626,13 @@ var monsterfuseDB = TAFFY([
   {
     "left": "Giant Soldier of Stone",
     "right": "Darkfire Dragon",
-    "output": "Stone Dragon",
+    "output": "Stone D.",
     "attack": 2000,
     "defense": 2300,
     "type": "Monster"
   },
   {
-    "left": "Giant Turtle Who Feeds on Flame",
+    "left": "Giant Turtle Who Feeds on Flames",
     "right": "Kairyu-Shin",
     "output": "Sea King Dragon",
     "attack": 2000,
@@ -19672,7 +19672,7 @@ var monsterfuseDB = TAFFY([
     "type": "Monster"
   },
   {
-    "left": "Giltia the D.Kinght",
+    "left": "Giltia the D. Knight",
     "right": "Flame Swordsman",
     "output": "Vermillion Sparrow",
     "attack": 1900,
@@ -19794,7 +19794,7 @@ var monsterfuseDB = TAFFY([
   {
     "left": "Goddess with the Third Eye",
     "right": "Princess of Tsurugi",
-    "output": "Dark Wtich",
+    "output": "Dark Witch",
     "attack": 1800,
     "defense": 1700,
     "type": "Monster"
@@ -19850,7 +19850,7 @@ var monsterfuseDB = TAFFY([
   {
     "left": "Grappler",
     "right": "Crass Clown",
-    "output": "Soul Hunters",
+    "output": "Soul Hunter",
     "attack": 2200,
     "defense": 1800,
     "type": "Monster"
@@ -20073,7 +20073,7 @@ var monsterfuseDB = TAFFY([
   },
   {
     "left": "Greenkappa",
-    "right": "The Judgment Hand",
+    "right": "The Judgement Hand",
     "output": "Judge Man",
     "attack": 2200,
     "defense": 1500,
@@ -20201,7 +20201,7 @@ var monsterfuseDB = TAFFY([
   },
   {
     "left": "Griggle",
-    "right": "Air Marmot of Nefariouesness",
+    "right": "Air Marmot of Nefariousness",
     "output": "Flower Wolf",
     "attack": 1800,
     "defense": 1400,
@@ -20410,7 +20410,7 @@ var monsterfuseDB = TAFFY([
   {
     "left": "Griggle",
     "right": "Petit Dragon",
-    "output": "Black Dragon Jungle King",
+    "output": "B. Dragon Jungle King",
     "attack": 2100,
     "defense": 1800,
     "type": "Monster"
@@ -20433,7 +20433,7 @@ var monsterfuseDB = TAFFY([
   },
   {
     "left": "Griggle",
-    "right": "Seprent Marauder",
+    "right": "Serpent Marauder",
     "output": "Snakeyashi",
     "attack": 1000,
     "defense": 1200,
@@ -20474,7 +20474,7 @@ var monsterfuseDB = TAFFY([
   {
     "left": "Griggle",
     "right": "Spike Seadra",
-    "output": "Black Dragon Jungle King",
+    "output": "B. Dragon Jungle King",
     "attack": 2100,
     "defense": 1800,
     "type": "Monster"
@@ -20490,7 +20490,7 @@ var monsterfuseDB = TAFFY([
   {
     "left": "Griggle",
     "right": "Sword Arm of Dragon",
-    "output": "Black Dragon Jungle King",
+    "output": "B. Dragon Jungle King",
     "attack": 2100,
     "defense": 1800,
     "type": "Monster"
@@ -20521,7 +20521,7 @@ var monsterfuseDB = TAFFY([
   },
   {
     "left": "Griggle",
-    "right": "W-Warrior",
+    "right": "Wow Warrior",
     "output": "Bean Soldier",
     "attack": 1400,
     "defense": 1300,
@@ -20562,7 +20562,7 @@ var monsterfuseDB = TAFFY([
   {
     "left": "Griggle",
     "right": "Wicked Dragon with the Ersatz Head",
-    "output": "Black Dragon Jungle King",
+    "output": "B. Dragon Jungle King",
     "attack": 2100,
     "defense": 1800,
     "type": "Monster"
@@ -20642,7 +20642,7 @@ var monsterfuseDB = TAFFY([
   {
     "left": "Guardian of the Sea",
     "right": "Bolt Penguin",
-    "output": "Bolt Escargo",
+    "output": "Bolt Escargot",
     "attack": 1400,
     "defense": 1500,
     "type": "Monster"
@@ -20666,7 +20666,7 @@ var monsterfuseDB = TAFFY([
   {
     "left": "Haniwa",
     "right": "Baby Dragon",
-    "output": "Stone Dragon",
+    "output": "Stone D.",
     "attack": 2000,
     "defense": 2300,
     "type": "Monster"
@@ -20674,7 +20674,7 @@ var monsterfuseDB = TAFFY([
   {
     "left": "Haniwa",
     "right": "Blackland Fire Dragon",
-    "output": "Stone Dragon",
+    "output": "Stone D.",
     "attack": 2000,
     "defense": 2300,
     "type": "Monster"
@@ -20754,7 +20754,7 @@ var monsterfuseDB = TAFFY([
   {
     "left": "Haniwa",
     "right": "Koumori Dragon",
-    "output": "Stone Dragon",
+    "output": "Stone D.",
     "attack": 2000,
     "defense": 2300,
     "type": "Monster"
@@ -20834,7 +20834,7 @@ var monsterfuseDB = TAFFY([
   {
     "left": "Haniwa",
     "right": "Petit Dragon",
-    "output": "Stone Dragon",
+    "output": "Stone D.",
     "attack": 2000,
     "defense": 2300,
     "type": "Monster"
@@ -20866,7 +20866,7 @@ var monsterfuseDB = TAFFY([
   {
     "left": "Haniwa",
     "right": "Thunder Dragon",
-    "output": "Stone Dragon",
+    "output": "Stone D.",
     "attack": 2000,
     "defense": 2300,
     "type": "Monster"
@@ -20898,7 +20898,7 @@ var monsterfuseDB = TAFFY([
   {
     "left": "Haniwa",
     "right": "Wicked Dragon with the Ersatz Head",
-    "output": "Stone Dragon",
+    "output": "Stone D.",
     "attack": 2000,
     "defense": 2300,
     "type": "Monster"
@@ -20914,7 +20914,7 @@ var monsterfuseDB = TAFFY([
   {
     "left": "Haniwa",
     "right": "Yamatano Dragon Scroll",
-    "output": "Stone Dragon",
+    "output": "Stone D.",
     "attack": 2000,
     "defense": 2300,
     "type": "Monster"
@@ -21089,7 +21089,7 @@ var monsterfuseDB = TAFFY([
   },
   {
     "left": "Hard Armor",
-    "right": "Charubin Fire Knight",
+    "right": "Charubin the Fire Knight",
     "output": "Flame Swordsman",
     "attack": 1800,
     "defense": 1600,
@@ -21106,7 +21106,7 @@ var monsterfuseDB = TAFFY([
   {
     "left": "Hard Armor",
     "right": "Fire Eye",
-    "output": "Charubin Fire Knight",
+    "output": "Charubin the Fire Knight",
     "attack": 1100,
     "defense": 800,
     "type": "Monster"
@@ -21122,7 +21122,7 @@ var monsterfuseDB = TAFFY([
   {
     "left": "Hard Armor",
     "right": "Flame Viper",
-    "output": "Charubin Fire Knight",
+    "output": "Charubin the Fire Knight",
     "attack": 1100,
     "defense": 800,
     "type": "Monster"
@@ -21130,7 +21130,7 @@ var monsterfuseDB = TAFFY([
   {
     "left": "Hard Armor",
     "right": "Hinotama Soul",
-    "output": "Charubin Fire Knight",
+    "output": "Charubin the Fire Knight",
     "attack": 1100,
     "defense": 800,
     "type": "Monster"
@@ -21193,7 +21193,7 @@ var monsterfuseDB = TAFFY([
   },
   {
     "left": "Harpie's Pet Dragon",
-    "right": "Bolt Escargo",
+    "right": "Bolt Escargot",
     "output": "Twin-Headed Thunder Dragon",
     "attack": 2800,
     "defense": 2100,
@@ -21289,7 +21289,7 @@ var monsterfuseDB = TAFFY([
   },
   {
     "left": "Hibikime",
-    "right": "Charubin Fire Knight",
+    "right": "Charubin the Fire Knight",
     "output": "Flame Swordsman",
     "attack": 1800,
     "defense": 1600,
@@ -21361,7 +21361,7 @@ var monsterfuseDB = TAFFY([
   },
   {
     "left": "Hibikime",
-    "right": "The Judgment Hand",
+    "right": "The Judgement Hand",
     "output": "Musician King",
     "attack": 1750,
     "defense": 1500,
@@ -21376,7 +21376,7 @@ var monsterfuseDB = TAFFY([
     "type": "Monster"
   },
   {
-    "left": "Hinotana",
+    "left": "Hinotama",
     "right": "Hinotama",
     "output": "Final Flame",
     "attack": 0,
@@ -21384,7 +21384,7 @@ var monsterfuseDB = TAFFY([
     "type": "Magic"
   },
   {
-    "left": "Hinotana",
+    "left": "Hinotama",
     "right": "Machine Conversion Factory",
     "output": "Insect Armor with Laser Cannon",
     "attack": 0,
@@ -21401,7 +21401,7 @@ var monsterfuseDB = TAFFY([
   },
   {
     "left": "Hinotama Soul",
-    "right": "Ansastu",
+    "right": "Ansatsu",
     "output": "Flame Swordsman",
     "attack": 1800,
     "defense": 1600,
@@ -21473,7 +21473,7 @@ var monsterfuseDB = TAFFY([
   },
   {
     "left": "Hinotama Soul",
-    "right": "Fiend Refraction #1",
+    "right": "Fiend Refrection #1",
     "output": "Crimson Sunbird",
     "attack": 2300,
     "defense": 1800,
@@ -21498,7 +21498,7 @@ var monsterfuseDB = TAFFY([
   {
     "left": "Hinotama Soul",
     "right": "Hard Armor",
-    "output": "Charubin Fire Knight",
+    "output": "Charubin the Fire Knight",
     "attack": 1100,
     "defense": 800,
     "type": "Monster"
@@ -21514,7 +21514,7 @@ var monsterfuseDB = TAFFY([
   {
     "left": "Hinotama Soul",
     "right": "Kagemusha of the Blue Flame",
-    "output": "Charubin Fire Knight",
+    "output": "Charubin the Fire Knight",
     "attack": 1100,
     "defense": 800,
     "type": "Monster"
@@ -21538,7 +21538,7 @@ var monsterfuseDB = TAFFY([
   {
     "left": "Hinotama Soul",
     "right": "M-Warrior #1",
-    "output": "Charubin Fire Knight",
+    "output": "Charubin the Fire Knight",
     "attack": 1100,
     "defense": 800,
     "type": "Monster"
@@ -21546,7 +21546,7 @@ var monsterfuseDB = TAFFY([
   {
     "left": "Hinotama Soul",
     "right": "M-Warrior #2",
-    "output": "Charubin Fire Knight",
+    "output": "Charubin the Fire Knight",
     "attack": 1100,
     "defense": 800,
     "type": "Monster"
@@ -21570,7 +21570,7 @@ var monsterfuseDB = TAFFY([
   {
     "left": "Hinotama Soul",
     "right": "Monster Egg",
-    "output": "Charubin Fire Knight",
+    "output": "Charubin the Fire Knight",
     "attack": 1100,
     "defense": 800,
     "type": "Monster"
@@ -21586,7 +21586,7 @@ var monsterfuseDB = TAFFY([
   {
     "left": "Hinotama Soul",
     "right": "Queen's Double",
-    "output": "Charubin Fire Knight",
+    "output": "Charubin the Fire Knight",
     "attack": 1100,
     "defense": 800,
     "type": "Monster"
@@ -21626,7 +21626,7 @@ var monsterfuseDB = TAFFY([
   {
     "left": "Hinotama Soul",
     "right": "Unknown Warrior of Fiend",
-    "output": "Charubin Fire Knight",
+    "output": "Charubin the Fire Knight",
     "attack": 1100,
     "defense": 800,
     "type": "Monster"
@@ -21642,7 +21642,7 @@ var monsterfuseDB = TAFFY([
   {
     "left": "Hinotama Soul",
     "right": "Wood Clown",
-    "output": "Charubin Fire Knight",
+    "output": "Charubin the Fire Knight",
     "attack": 1100,
     "defense": 800,
     "type": "Monster"
@@ -21794,7 +21794,7 @@ var monsterfuseDB = TAFFY([
   {
     "left": "Horn Imp",
     "right": "Arlownay",
-    "output": "Rose Specter of Dunn",
+    "output": "Rose Spectre of Dunn",
     "attack": 2000,
     "defense": 1800,
     "type": "Monster"
@@ -21850,7 +21850,7 @@ var monsterfuseDB = TAFFY([
   {
     "left": "Hoshiningen",
     "right": "Root Water",
-    "output": "7 Color Fish",
+    "output": "7 Colored Fish",
     "attack": 1800,
     "defense": 800,
     "type": "Monster"
@@ -21874,7 +21874,7 @@ var monsterfuseDB = TAFFY([
   {
     "left": "Hoshiningen",
     "right": "White Dolphin",
-    "output": "7 Color Fish",
+    "output": "7 Colored Fish",
     "attack": 1800,
     "defense": 800,
     "type": "Monster"
@@ -22097,7 +22097,7 @@ var monsterfuseDB = TAFFY([
   },
   {
     "left": "Hyo",
-    "right": "Charubin Fire Knight",
+    "right": "Charubin the Fire Knight",
     "output": "Flame Swordsman",
     "attack": 1800,
     "defense": 1600,
@@ -22130,7 +22130,7 @@ var monsterfuseDB = TAFFY([
   {
     "left": "Hyo",
     "right": "Fire Eye",
-    "output": "Charubin Fire Knight",
+    "output": "Charubin the Fire Knight",
     "attack": 1100,
     "defense": 800,
     "type": "Monster"
@@ -22226,7 +22226,7 @@ var monsterfuseDB = TAFFY([
   {
     "left": "Hyo",
     "right": "Wings of Wicked Flame",
-    "output": "Charubin Fire Knight",
+    "output": "Charubin the Fire Knight",
     "attack": 1100,
     "defense": 800,
     "type": "Monster"
@@ -22330,7 +22330,7 @@ var monsterfuseDB = TAFFY([
   {
     "left": "Ice Water",
     "right": "One-Eyed Shield Dragon",
-    "output": "Spiked Seadra",
+    "output": "Spike Seadra",
     "attack": 1600,
     "defense": 1300,
     "type": "Monster"
@@ -22721,7 +22721,7 @@ var monsterfuseDB = TAFFY([
   },
   {
     "left": "Jinzo #7",
-    "right": "Viswar Randi",
+    "right": "Vishwar Randi",
     "output": "Cyber Soldier",
     "attack": 1500,
     "defense": 1700,
@@ -22817,7 +22817,7 @@ var monsterfuseDB = TAFFY([
   },
   {
     "left": "Job-Change Mirror",
-    "right": "The Shadow that Controls the Dark",
+    "right": "The Shadow Who Controls the Dark",
     "output": "Summoned Skull",
     "attack": 2500,
     "defense": 1200,
@@ -22850,14 +22850,14 @@ var monsterfuseDB = TAFFY([
   {
     "left": "Kagemusha of the Blue Flame",
     "right": "Candle of Fate",
-    "output": "Charubin Fire Knight",
+    "output": "Charubin the Fire Knight",
     "attack": 1100,
     "defense": 800,
     "type": "Monster"
   },
   {
     "left": "Kagemusha of the Blue Flame",
-    "right": "Charubin Fire Knight",
+    "right": "Charubin the Fire Knight",
     "output": "Flame Swordsman",
     "attack": 1800,
     "defense": 1600,
@@ -22898,7 +22898,7 @@ var monsterfuseDB = TAFFY([
   {
     "left": "Kagemusha of the Blue Flame",
     "right": "Darkworld Thorns",
-    "output": "Bean Soldie",
+    "output": "Bean Soldier",
     "attack": 1400,
     "defense": 1500,
     "type": "Monster"
@@ -22922,7 +22922,7 @@ var monsterfuseDB = TAFFY([
   {
     "left": "Kagemusha of the Blue Flame",
     "right": "Dragon Zombie",
-    "output": "Sword Arm of the Dragon",
+    "output": "Sword Arm of Dragon",
     "attack": 1750,
     "defense": 2030,
     "type": "Monster"
@@ -22970,7 +22970,7 @@ var monsterfuseDB = TAFFY([
   {
     "left": "Kagemusha of the Blue Flame",
     "right": "Firegrass",
-    "output": "Charubin Fire Knight",
+    "output": "Charubin the Fire Knight",
     "attack": 1100,
     "defense": 800,
     "type": "Monster"
@@ -22986,7 +22986,7 @@ var monsterfuseDB = TAFFY([
   {
     "left": "Kagemusha of the Blue Flame",
     "right": "Flame Viper",
-    "output": "Charubin Fire Knight",
+    "output": "Charubin the Fire Knight",
     "attack": 1100,
     "defense": 800,
     "type": "Monster"
@@ -22994,7 +22994,7 @@ var monsterfuseDB = TAFFY([
   {
     "left": "Kagemusha of the Blue Flame",
     "right": "Hinotama Soul",
-    "output": "Charubin Fire Knight",
+    "output": "Charubin the Fire Knight",
     "attack": 1100,
     "defense": 800,
     "type": "Monster"
@@ -23010,7 +23010,7 @@ var monsterfuseDB = TAFFY([
   {
     "left": "Kagemusha of the Blue Flame",
     "right": "Kageningen",
-    "output": "Charubin Fire Knight",
+    "output": "Charubin the Fire Knight",
     "attack": 1100,
     "defense": 800,
     "type": "Monster"
@@ -23026,7 +23026,7 @@ var monsterfuseDB = TAFFY([
   {
     "left": "Kagemusha of the Blue Flame",
     "right": "Lesser Dragon",
-    "output": "D.Human",
+    "output": "D. Human",
     "attack": 1300,
     "defense": 1100,
     "type": "Monster"
@@ -23082,7 +23082,7 @@ var monsterfuseDB = TAFFY([
   {
     "left": "Kagemusha of the Blue Flame",
     "right": "Monsturtle",
-    "output": "Giant Turtle Who Feeds on Flame",
+    "output": "Giant Turtle Who Feeds on Flames",
     "attack": 1400,
     "defense": 1800,
     "type": "Monster"
@@ -23130,7 +23130,7 @@ var monsterfuseDB = TAFFY([
   {
     "left": "Kagemusha of the Blue Flame",
     "right": "Queen's Double",
-    "output": "Charubin Fire Knight",
+    "output": "Charubin the Fire Knight",
     "attack": 1100,
     "defense": 800,
     "type": "Monster"
@@ -23194,7 +23194,7 @@ var monsterfuseDB = TAFFY([
   {
     "left": "Kagemusha of the Blue Flame",
     "right": "Wings of Wicked Flame",
-    "output": "Charubin Fire Knight",
+    "output": "Charubin the Fire Knight",
     "attack": 1100,
     "defense": 800,
     "type": "Monster"
@@ -23210,7 +23210,7 @@ var monsterfuseDB = TAFFY([
   {
     "left": "Kagemusha of the Blue Flame",
     "right": "Wood Clown",
-    "output": "Charubin Fire Knight",
+    "output": "Charubin the Fire Knight",
     "attack": 1100,
     "defense": 800,
     "type": "Monster"
@@ -23298,7 +23298,7 @@ var monsterfuseDB = TAFFY([
   {
     "left": "Kageningen",
     "right": "Kagemusha of the Blue Flame",
-    "output": "Charubin Fire Knight",
+    "output": "Charubin the Fire Knight",
     "attack": 1100,
     "defense": 800,
     "type": "Monster"
@@ -23410,7 +23410,7 @@ var monsterfuseDB = TAFFY([
   {
     "left": "Kairyu-Shin",
     "right": "Ancient Tree of Enlightenment",
-    "output": "Black Dragon Jungle King",
+    "output": "B. Dragon Jungle King",
     "attack": 2100,
     "defense": 1800,
     "type": "Monster"
@@ -23465,7 +23465,7 @@ var monsterfuseDB = TAFFY([
   },
   {
     "left": "Kairyu-Shin",
-    "right": "Giant Turtle Who Feeds on Flame",
+    "right": "Giant Turtle Who Feeds on Flames",
     "output": "Sea King Dragon",
     "attack": 2000,
     "defense": 1700,
@@ -23721,7 +23721,7 @@ var monsterfuseDB = TAFFY([
   },
   {
     "left": "Kaminari Attack",
-    "right": "Red-Eyes Black Dragon",
+    "right": "Red-eyes B. Dragon",
     "output": "Twin-Headed Thunder Dragon",
     "attack": 2800,
     "defense": 2100,
@@ -23745,7 +23745,7 @@ var monsterfuseDB = TAFFY([
   },
   {
     "left": "Kaminari Attack",
-    "right": "Stone Dragon",
+    "right": "Stone D.",
     "output": "Twin-Headed Thunder Dragon",
     "attack": 2800,
     "defense": 2100,
@@ -23785,7 +23785,7 @@ var monsterfuseDB = TAFFY([
   },
   {
     "left": "Kaminarikozou",
-    "right": "Black Dragon Jungle King",
+    "right": "B. Dragon Jungle King",
     "output": "Twin-Headed Thunder Dragon",
     "attack": 2800,
     "defense": 2100,
@@ -23969,7 +23969,7 @@ var monsterfuseDB = TAFFY([
   },
   {
     "left": "Kaminarikozou",
-    "right": "Red-Eyes Black Dragon",
+    "right": "Red-eyes B. Dragon",
     "output": "Twin-Headed Thunder Dragon",
     "attack": 2800,
     "defense": 2100,
@@ -24017,7 +24017,7 @@ var monsterfuseDB = TAFFY([
   },
   {
     "left": "Kaminarikozou",
-    "right": "Stone Dragon",
+    "right": "Stone D.",
     "output": "Twin-Headed Thunder Dragon",
     "attack": 2800,
     "defense": 2100,
@@ -24289,7 +24289,7 @@ var monsterfuseDB = TAFFY([
   },
   {
     "left": "Key Mace",
-    "right": "Beautiful Head Huntress",
+    "right": "Beautiful Headhuntress",
     "output": "Dark Witch",
     "attack": 1800,
     "defense": 1700,
@@ -24697,7 +24697,7 @@ var monsterfuseDB = TAFFY([
   },
   {
     "left": "Koumori Dragon",
-    "right": "Amoeba",
+    "right": "Ameba",
     "output": "Spike Seadra",
     "attack": 1600,
     "defense": 1300,
@@ -24706,7 +24706,7 @@ var monsterfuseDB = TAFFY([
   {
     "left": "Koumori Dragon",
     "right": "Ancient Jar",
-    "output": "Stone Dragon",
+    "output": "Stone D.",
     "attack": 2000,
     "defense": 2300,
     "type": "Monster"
@@ -24754,14 +24754,14 @@ var monsterfuseDB = TAFFY([
   {
     "left": "Koumori Dragon",
     "right": "Bean Soldier",
-    "output": "Black Dragon Jungle King",
+    "output": "B. Dragon Jungle King",
     "attack": 2100,
     "defense": 1800,
     "type": "Monster"
   },
   {
     "left": "Koumori Dragon",
-    "right": "Beautiful Head Huntress",
+    "right": "Beautiful Headhuntress",
     "output": "Sword Arm of Dragon",
     "attack": 1750,
     "defense": 2030,
@@ -24810,7 +24810,7 @@ var monsterfuseDB = TAFFY([
   {
     "left": "Koumori Dragon",
     "right": "Darkworld Thorns",
-    "output": "Black Dragon Jungle King",
+    "output": "B. Dragon Jungle King",
     "attack": 2100,
     "defense": 1800,
     "type": "Monster"
@@ -24834,7 +24834,7 @@ var monsterfuseDB = TAFFY([
   {
     "left": "Koumori Dragon",
     "right": "Haniwa",
-    "output": "Stone Dragon",
+    "output": "Stone D.",
     "attack": 2000,
     "defense": 2300,
     "type": "Monster"
@@ -24914,7 +24914,7 @@ var monsterfuseDB = TAFFY([
   {
     "left": "Koumori Dragon",
     "right": "Pot the Trick",
-    "output": "Stone Dragon",
+    "output": "Stone D.",
     "attack": 2000,
     "defense": 2300,
     "type": "Monster"
@@ -24922,7 +24922,7 @@ var monsterfuseDB = TAFFY([
   {
     "left": "Koumori Dragon",
     "right": "Rainbow Flower",
-    "output": "Black Dragon Jungle King",
+    "output": "B. Dragon Jungle King",
     "attack": 2100,
     "defense": 1800,
     "type": "Monster"
@@ -24993,7 +24993,7 @@ var monsterfuseDB = TAFFY([
   },
   {
     "left": "Kurama",
-    "right": "Charubin Fire Knight",
+    "right": "Charubin the Fire Knight",
     "output": "Mavelus",
     "attack": 1300,
     "defense": 900,
@@ -25010,7 +25010,7 @@ var monsterfuseDB = TAFFY([
   {
     "left": "Kurama",
     "right": "Fire Reaper",
-    "output": "Maveulus",
+    "output": "Mavelus",
     "attack": 1300,
     "defense": 900,
     "type": "Monster"
@@ -25049,7 +25049,7 @@ var monsterfuseDB = TAFFY([
   },
   {
     "left": "Kurama",
-    "right": "Wings of Wicked Flames",
+    "right": "Wings of Wicked Flame",
     "output": "Mavelus",
     "attack": 1300,
     "defense": 900,
@@ -25088,7 +25088,7 @@ var monsterfuseDB = TAFFY([
     "type": "Monster"
   },
   {
-    "left": "Kuwagata *Alpha Sign*",
+    "left": "Kuwagata alpha",
     "right": "Ganigumo",
     "output": "Kwagar Hercules",
     "attack": 1900,
@@ -25096,7 +25096,7 @@ var monsterfuseDB = TAFFY([
     "type": "Monster"
   },
   {
-    "left": "Kuwagata *Alpha Sign*",
+    "left": "Kuwagata alpha",
     "right": "Giant Scorpion of the Tundra",
     "output": "Kwagar Hercules",
     "attack": 1900,
@@ -25121,7 +25121,7 @@ var monsterfuseDB = TAFFY([
   },
   {
     "left": "Labyrinth Wall",
-    "right": "Mystic Elf",
+    "right": "Mystical Elf",
     "output": "Mystical Sand",
     "attack": 2100,
     "defense": 1700,
@@ -25193,7 +25193,7 @@ var monsterfuseDB = TAFFY([
   },
   {
     "left": "Lady of Faith",
-    "right": "Goddess of the Third Eye",
+    "right": "Goddess with the Third Eye",
     "output": "Dark Witch",
     "attack": 1800,
     "defense": 1700,
@@ -25329,7 +25329,7 @@ var monsterfuseDB = TAFFY([
   },
   {
     "left": "LaLa Li-oon",
-    "right": "Amoeba",
+    "right": "Ameba",
     "output": "Bolt Escargot",
     "attack": 1400,
     "defense": 1500,
@@ -25345,7 +25345,7 @@ var monsterfuseDB = TAFFY([
   },
   {
     "left": "LaLa Li-oon",
-    "right": "Black Dragon Jungle King",
+    "right": "B. Dragon Jungle King",
     "output": "Twin-Headed Thunder Dragon",
     "attack": 2800,
     "defense": 2100,
@@ -25569,7 +25569,7 @@ var monsterfuseDB = TAFFY([
   },
   {
     "left": "LaLa Li-oon",
-    "right": "Red-Eyes Black Dragon",
+    "right": "Red-eyes B. Dragon",
     "output": "Twin-Headed Thunder Dragon",
     "attack": 2800,
     "defense": 2100,
@@ -25601,7 +25601,7 @@ var monsterfuseDB = TAFFY([
   },
   {
     "left": "LaLa Li-oon",
-    "right": "Stone Dragon",
+    "right": "Stone D.",
     "output": "Twin-Headed Thunder Dragon",
     "attack": 2800,
     "defense": 2100,
@@ -25642,7 +25642,7 @@ var monsterfuseDB = TAFFY([
   {
     "left": "LaLa Li-oon",
     "right": "Time Wizard",
-    "output": "The Immmortal of Thunder",
+    "output": "The Immortal of Thunder",
     "attack": 1500,
     "defense": 1300,
     "type": "Monster"
@@ -25705,8 +25705,8 @@ var monsterfuseDB = TAFFY([
   },
   {
     "left": "LaMoon",
-    "right": "Ansastu",
-    "output": "Cacoon of Evolution",
+    "right": "Ansatsu",
+    "output": "Cocoon of Evolution",
     "attack": 0,
     "defense": 2000,
     "type": "Monster"
@@ -25753,7 +25753,7 @@ var monsterfuseDB = TAFFY([
   },
   {
     "left": "LaMoon",
-    "right": "Spiked Seadra",
+    "right": "Spike Seadra",
     "output": "Kaminari Attack",
     "attack": 1900,
     "defense": 1400,
@@ -25962,7 +25962,7 @@ var monsterfuseDB = TAFFY([
   {
     "left": "Laughing Flower",
     "right": "Yamatano Dragon Scroll",
-    "output": "Black Dragon Jungle King",
+    "output": "B. Dragon Jungle King",
     "attack": 2100,
     "defense": 1800,
     "type": "Monster"
@@ -25978,7 +25978,7 @@ var monsterfuseDB = TAFFY([
   {
     "left": "Legendary Sword",
     "right": "Elegant Egotist",
-    "output": "Gharma Sword Oath",
+    "output": "Garma Sword Oath",
     "attack": 0,
     "defense": 0,
     "type": "Ritual"
@@ -26042,7 +26042,7 @@ var monsterfuseDB = TAFFY([
   {
     "left": "Lesser Dragon",
     "right": "Ancient Jar",
-    "output": "Stone Dragon",
+    "output": "Stone D.",
     "attack": 2000,
     "defense": 2300,
     "type": "Monster"
@@ -26114,7 +26114,7 @@ var monsterfuseDB = TAFFY([
   {
     "left": "Lesser Dragon",
     "right": "Darkworld Thorns",
-    "output": "Black Dragon Jungle King",
+    "output": "B. Dragon Jungle King",
     "attack": 2100,
     "defense": 1800,
     "type": "Monster"
@@ -26122,7 +26122,7 @@ var monsterfuseDB = TAFFY([
   {
     "left": "Lesser Dragon",
     "right": "Dissolverock",
-    "output": "Stone Dragon",
+    "output": "Stone D.",
     "attack": 2000,
     "defense": 2300,
     "type": "Monster"
@@ -26170,7 +26170,7 @@ var monsterfuseDB = TAFFY([
   {
     "left": "Lesser Dragon",
     "right": "Firegrass",
-    "output": "Black Dragon Jungle King",
+    "output": "B. Dragon Jungle King",
     "attack": 2100,
     "defense": 1800,
     "type": "Monster"
@@ -26201,8 +26201,8 @@ var monsterfuseDB = TAFFY([
   },
   {
     "left": "Lesser Dragon",
-    "right": "Kagemushi of the Blue Flame",
-    "output": "D.Human",
+    "right": "Kagemusha of the Blue Flame",
+    "output": "D. Human",
     "attack": 1300,
     "defense": 1100,
     "type": "Monster"
@@ -26218,7 +26218,7 @@ var monsterfuseDB = TAFFY([
   {
     "left": "Lesser Dragon",
     "right": "Karbonala Warrior",
-    "output": "Sword Arm of the Dragon",
+    "output": "Sword Arm of Dragon",
     "attack": 1750,
     "defense": 2030,
     "type": "Monster"
@@ -26250,7 +26250,7 @@ var monsterfuseDB = TAFFY([
   {
     "left": "Lesser Dragon",
     "right": "Muka Muka",
-    "output": "Stone Dragon",
+    "output": "Stone D.",
     "attack": 2000,
     "defense": 2300,
     "type": "Monster"
@@ -26258,7 +26258,7 @@ var monsterfuseDB = TAFFY([
   {
     "left": "Lesser Dragon",
     "right": "Mushroom Man",
-    "output": "Black Dragon Jungle King",
+    "output": "B. Dragon Jungle King",
     "attack": 2100,
     "defense": 1800,
     "type": "Monster"
@@ -26306,7 +26306,7 @@ var monsterfuseDB = TAFFY([
   {
     "left": "Lesser Dragon",
     "right": "Pot the Trick",
-    "output": "Stone Dragon",
+    "output": "Stone D.",
     "attack": 2000,
     "defense": 2300,
     "type": "Monster"
@@ -26322,7 +26322,7 @@ var monsterfuseDB = TAFFY([
   {
     "left": "Lesser Dragon",
     "right": "Rainbow Flower",
-    "output": "Black Dragon Jungle King",
+    "output": "B. Dragon Jungle King",
     "attack": 2100,
     "defense": 1800,
     "type": "Monster"
@@ -26346,7 +26346,7 @@ var monsterfuseDB = TAFFY([
   {
     "left": "Lesser Dragon",
     "right": "Snakeyashi",
-    "output": "Black Dragon Jungle King",
+    "output": "B. Dragon Jungle King",
     "attack": 2100,
     "defense": 1800,
     "type": "Monster"
@@ -26377,7 +26377,7 @@ var monsterfuseDB = TAFFY([
   },
   {
     "left": "Lesser Dragon",
-    "right": "Viswar Randi",
+    "right": "Vishwar Randi",
     "output": "D. Human",
     "attack": 1300,
     "defense": 1100,
@@ -26449,7 +26449,7 @@ var monsterfuseDB = TAFFY([
   },
   {
     "left": "Little Chimera",
-    "right": "Charubin Fire Knight",
+    "right": "Charubin the Fire Knight",
     "output": "Flame Cerebrus",
     "attack": 2100,
     "defense": 1800,
@@ -26786,7 +26786,7 @@ var monsterfuseDB = TAFFY([
   {
     "left": "Little Chimera",
     "right": "White Dolphin",
-    "output": "Tatsunootashigo",
+    "output": "Tatsunootoshigo",
     "attack": 1350,
     "defense": 1600,
     "type": "Monster"
@@ -26810,7 +26810,7 @@ var monsterfuseDB = TAFFY([
   {
     "left": "Living Vase",
     "right": "Baby Dragon",
-    "output": "Black Dragon Jungle King",
+    "output": "B. Dragon Jungle King",
     "attack": 2100,
     "defense": 1800,
     "type": "Monster"
@@ -26858,7 +26858,7 @@ var monsterfuseDB = TAFFY([
   {
     "left": "Living Vase",
     "right": "Petit Dragon",
-    "output": "Black Dragon Jungle King",
+    "output": "B. Dragon Jungle King",
     "attack": 2100,
     "defense": 1800,
     "type": "Monster"
@@ -27241,7 +27241,7 @@ var monsterfuseDB = TAFFY([
   },
   {
     "left": "Lunar Queen Elzaim",
-    "right": "Stone Dragon",
+    "right": "Stone D.",
     "output": "Mystical Sand",
     "attack": 2100,
     "defense": 1700,
@@ -27337,7 +27337,7 @@ var monsterfuseDB = TAFFY([
   },
   {
     "left": "M-Warrior #1",
-    "right": "Charubin Fire Knight",
+    "right": "Charubin the Fire Knight",
     "output": "Flame Swordsman",
     "attack": 1800,
     "defense": 1600,
@@ -27442,7 +27442,7 @@ var monsterfuseDB = TAFFY([
   {
     "left": "M-Warrior #1",
     "right": "Flame Manipulator",
-    "output": "Charubin Fire Knight",
+    "output": "Charubin the Fire Knight",
     "attack": 1100,
     "defense": 800,
     "type": "Monster"
@@ -27450,7 +27450,7 @@ var monsterfuseDB = TAFFY([
   {
     "left": "M-Warrior #1",
     "right": "Flame Viper",
-    "output": "Charubin Fire Knight",
+    "output": "Charubin the Fire Knight",
     "attack": 1100,
     "defense": 800,
     "type": "Monster"
@@ -27490,7 +27490,7 @@ var monsterfuseDB = TAFFY([
   {
     "left": "M-Warrior #1",
     "right": "Hinotama Soul",
-    "output": "Charubin Fire Knight",
+    "output": "Charubin the Fire Knight",
     "attack": 1100,
     "defense": 800,
     "type": "Monster"
@@ -27658,7 +27658,7 @@ var monsterfuseDB = TAFFY([
   {
     "left": "M-Warrior #1",
     "right": "Wings of Wicked Flame",
-    "output": "Charubin Fire Knight",
+    "output": "Charubin the Fire Knight",
     "attack": 1100,
     "defense": 800,
     "type": "Monster"
@@ -27730,7 +27730,7 @@ var monsterfuseDB = TAFFY([
   {
     "left": "M-Warrior #2",
     "right": "Armaill",
-    "output": "Charubin Fire Knight",
+    "output": "Charubin the Fire Knight",
     "attack": 1100,
     "defense": 800,
     "type": "Monster"
@@ -27761,7 +27761,7 @@ var monsterfuseDB = TAFFY([
   },
   {
     "left": "M-Warrior #2",
-    "right": "Charubin Fire Knight",
+    "right": "Charubin the Fire Knight",
     "output": "Flame Swordsman",
     "attack": 1800,
     "defense": 1600,
@@ -27826,7 +27826,7 @@ var monsterfuseDB = TAFFY([
   {
     "left": "M-Warrior #2",
     "right": "Dragon Piper",
-    "output": "Charubin Fire Knight",
+    "output": "Charubin the Fire Knight",
     "attack": 1100,
     "defense": 800,
     "type": "Monster"
@@ -27850,7 +27850,7 @@ var monsterfuseDB = TAFFY([
   {
     "left": "M-Warrior #2",
     "right": "Fire Eye",
-    "output": "Charubin Fire Knight",
+    "output": "Charubin the Fire Knight",
     "attack": 1100,
     "defense": 800,
     "type": "Monster"
@@ -27906,7 +27906,7 @@ var monsterfuseDB = TAFFY([
   {
     "left": "M-Warrior #2",
     "right": "Hinotama Soul",
-    "output": "Charubin Fire Knight",
+    "output": "Charubin the Fire Knight",
     "attack": 1100,
     "defense": 800,
     "type": "Monster"
@@ -28066,7 +28066,7 @@ var monsterfuseDB = TAFFY([
   {
     "left": "M-Warrior #2",
     "right": "Wings of Wicked Flame",
-    "output": "Charubin Fire Knight",
+    "output": "Charubin the Fire Knight",
     "attack": 1100,
     "defense": 800,
     "type": "Monster"
@@ -28122,7 +28122,7 @@ var monsterfuseDB = TAFFY([
   {
     "left": "Machine Conversion Factory",
     "right": "Follow Wind",
-    "output": "Harpies Feather Duster",
+    "output": "Harpie's Feather Duster",
     "attack": 0,
     "defense": 0,
     "type": "Magic"
@@ -28137,7 +28137,7 @@ var monsterfuseDB = TAFFY([
   },
   {
     "left": "Machine Conversion Factory",
-    "right": "Hinotoma",
+    "right": "Hinotama",
     "output": "Insect Armor with Laser Cannon",
     "attack": 0,
     "defense": 0,
@@ -28162,7 +28162,7 @@ var monsterfuseDB = TAFFY([
   {
     "left": "Machine Conversion Factory",
     "right": "Skelengel",
-    "output": "Harpy's Feather Duster",
+    "output": "Harpie's Feather Duster",
     "attack": 0,
     "defense": 0,
     "type": "Magic"
@@ -28178,7 +28178,7 @@ var monsterfuseDB = TAFFY([
   {
     "left": "Machine Conversion Factory",
     "right": "Violet Crystal",
-    "output": "Laser Cannon Arm",
+    "output": "Laser Cannon Armor",
     "attack": 0,
     "defense": 0,
     "type": "Equip"
@@ -28194,7 +28194,7 @@ var monsterfuseDB = TAFFY([
   {
     "left": "Machine Conversion Factory",
     "right": "Winged Trumpeter",
-    "output": "Harpies Feather Duster",
+    "output": "Harpie's Feather Duster",
     "attack": 0,
     "defense": 0,
     "type": "Magic"
@@ -28346,7 +28346,7 @@ var monsterfuseDB = TAFFY([
   {
     "left": "Malevolent Nuzzler",
     "right": "Elf's Light",
-    "output": "Contruct of Mast",
+    "output": "Contruct of Mask",
     "attack": 0,
     "defense": 0,
     "type": "Ritual"
@@ -28730,7 +28730,7 @@ var monsterfuseDB = TAFFY([
   {
     "left": "Man Eater",
     "right": "Petit Dragon",
-    "output": "Black Dragon Jungle King",
+    "output": "B. Dragon Jungle King",
     "attack": 2100,
     "defense": 1800,
     "type": "Monster"
@@ -28810,7 +28810,7 @@ var monsterfuseDB = TAFFY([
   {
     "left": "Man Eater",
     "right": "Yamatano Dragon Scroll",
-    "output": "Black Dragon Jungle King",
+    "output": "B. Dragon Jungle King",
     "attack": 2100,
     "defense": 1800,
     "type": "Monster"
@@ -28882,7 +28882,7 @@ var monsterfuseDB = TAFFY([
   {
     "left": "Man-Eating Plant",
     "right": "Baby Dragon",
-    "output": "Black Dragon Jungle King",
+    "output": "B. Dragon Jungle King",
     "attack": 2100,
     "defense": 1800,
     "type": "Monster"
@@ -29010,7 +29010,7 @@ var monsterfuseDB = TAFFY([
   {
     "left": "Man-Eating Plant",
     "right": "Yamatano Dragon Scroll",
-    "output": "Black Dragon Jungle King",
+    "output": "B. Dragon Jungle King",
     "attack": 2100,
     "defense": 1800,
     "type": "Monster"
@@ -29049,7 +29049,7 @@ var monsterfuseDB = TAFFY([
   },
   {
     "left": "Masaki the Legendary Swordsman",
-    "right": "Charubin Fire Knight",
+    "right": "Charubin the Fire Knight",
     "output": "Flame Swordsman",
     "attack": 1800,
     "defense": 1600,
@@ -29130,7 +29130,7 @@ var monsterfuseDB = TAFFY([
   {
     "left": "Mask of Darkness",
     "right": "Arlownay",
-    "output": "Rose Specter of Dunn",
+    "output": "Rose Spectre of Dunn",
     "attack": 2000,
     "defense": 1800,
     "type": "Monster"
@@ -29202,7 +29202,7 @@ var monsterfuseDB = TAFFY([
   {
     "left": "Masked Clown",
     "right": "Armaill",
-    "output": "Charubin Fire Knight",
+    "output": "Charubin the Fire Knight",
     "attack": 1100,
     "defense": 800,
     "type": "Monster"
@@ -29249,7 +29249,7 @@ var monsterfuseDB = TAFFY([
   },
   {
     "left": "Masked Clown",
-    "right": "Charubin Fire Knight",
+    "right": "Charubin the Fire Knight",
     "output": "Flame Swordsman",
     "attack": 1800,
     "defense": 1600,
@@ -29290,7 +29290,7 @@ var monsterfuseDB = TAFFY([
   {
     "left": "Masked Clown",
     "right": "Fire Eye",
-    "output": "Charubin Fire Knight",
+    "output": "Charubin the Fire Knight",
     "attack": 1100,
     "defense": 800,
     "type": "Monster"
@@ -29306,7 +29306,7 @@ var monsterfuseDB = TAFFY([
   {
     "left": "Masked Clown",
     "right": "Firegrass",
-    "output": "Charubin Fire Knight",
+    "output": "Charubin the Fire Knight",
     "attack": 1100,
     "defense": 800,
     "type": "Monster"
@@ -29322,7 +29322,7 @@ var monsterfuseDB = TAFFY([
   {
     "left": "Masked Clown",
     "right": "Ganigumo",
-    "output": "Cockroack Knight",
+    "output": "Cockroach Knight",
     "attack": 800,
     "defense": 900,
     "type": "Monster"
@@ -29449,7 +29449,7 @@ var monsterfuseDB = TAFFY([
   },
   {
     "left": "Masked Clown",
-    "right": "The Judgment Hand",
+    "right": "The Judgement Hand",
     "output": "Judge Man",
     "attack": 2200,
     "defense": 1500,
@@ -29569,7 +29569,7 @@ var monsterfuseDB = TAFFY([
   },
   {
     "left": "Mavelus",
-    "right": "Charubin Fire Knight",
+    "right": "Charubin the Fire Knight",
     "output": "Crimson Sunbird",
     "attack": 2300,
     "defense": 1800,
@@ -29682,16 +29682,8 @@ var monsterfuseDB = TAFFY([
   {
     "left": "Mavelus",
     "right": "Prevent Rat",
-    "output": "Flame Cerberus",
+    "output": "Flame Cerebrus",
     "attack": 2100,
-    "defense": 1800,
-    "type": "Monster"
-  },
-  {
-    "left": "Mavelus",
-    "right": "Raven",
-    "output": "Crimson Sunbird",
-    "attack": 2300,
     "defense": 1800,
     "type": "Monster"
   },
@@ -29993,7 +29985,7 @@ var monsterfuseDB = TAFFY([
   },
   {
     "left": "Mech Mole Zombie",
-    "right": "Sealed Exodia's Left Arm",
+    "right": "Left Arm of the Forbidden One",
     "output": "Magical Ghost",
     "attack": 1300,
     "defense": 1400,
@@ -30017,7 +30009,7 @@ var monsterfuseDB = TAFFY([
   },
   {
     "left": "Mech Mole Zombie",
-    "right": "The Judgment Hand",
+    "right": "The Judgement Hand",
     "output": "Armored Zombie",
     "attack": 1500,
     "defense": 0,
@@ -30058,7 +30050,7 @@ var monsterfuseDB = TAFFY([
   {
     "left": "Mechaleon",
     "right": "Clown Zombie",
-    "output": "Soul Hunters",
+    "output": "Soul Hunter",
     "attack": 2200,
     "defense": 1800,
     "type": "Monster"
@@ -30353,7 +30345,7 @@ var monsterfuseDB = TAFFY([
   },
   {
     "left": "Mega Thunderball",
-    "right": "Amoeba",
+    "right": "Ameba",
     "output": "Bolt Escargot",
     "attack": 1400,
     "defense": 1500,
@@ -30529,7 +30521,7 @@ var monsterfuseDB = TAFFY([
   },
   {
     "left": "Mega Thunderball",
-    "right": "Stone Dragon",
+    "right": "Stone D.",
     "output": "Twin-Headed Thunder Dragon",
     "attack": 2800,
     "defense": 2100,
@@ -30658,7 +30650,7 @@ var monsterfuseDB = TAFFY([
   {
     "left": "Megamorph",
     "right": "Dragon Treasure",
-    "output": "Blue-eyes Ultimate Dragon Ritual",
+    "output": "Ultimate Dragon",
     "attack": 0,
     "defense": 0,
     "type": "Ritual"
@@ -30778,7 +30770,7 @@ var monsterfuseDB = TAFFY([
   {
     "left": "MetalMorph",
     "right": "MetalMorph",
-    "output": "Curse of Millenium Shield",
+    "output": "Curse of Millennium Shield",
     "attack": 0,
     "defense": 0,
     "type": "Ritual"
@@ -30802,7 +30794,7 @@ var monsterfuseDB = TAFFY([
   {
     "left": "Metal Dragon",
     "right": "Ancient Jar",
-    "output": "Stone Dragon",
+    "output": "Stone D.",
     "attack": 2000,
     "defense": 2300,
     "type": "Monster"
@@ -30841,7 +30833,7 @@ var monsterfuseDB = TAFFY([
   },
   {
     "left": "Metal Dragon",
-    "right": "D.Human",
+    "right": "D. Human",
     "output": "Vermillion Sparrow",
     "attack": 1900,
     "defense": 1500,
@@ -30882,14 +30874,14 @@ var monsterfuseDB = TAFFY([
   {
     "left": "Metal Dragon",
     "right": "Firegrass",
-    "output": "Black Dragon Jungle King",
+    "output": "B. Dragon Jungle King",
     "attack": 2100,
     "defense": 1800,
     "type": "Monster"
   },
   {
     "left": "Metal Dragon",
-    "right": "Kaminarkozou",
+    "right": "Kaminarikozou",
     "output": "Twin-Headed Thunder Dragon",
     "attack": 2800,
     "defense": 2100,
@@ -31010,7 +31002,7 @@ var monsterfuseDB = TAFFY([
   {
     "left": "MetalMorph",
     "right": "Stain Storm",
-    "output": "Psycho Puppet Ritual",
+    "output": "Puppet Ritual",
     "attack": 0,
     "defense": 0,
     "type": "Ritual"
@@ -31097,8 +31089,8 @@ var monsterfuseDB = TAFFY([
   },
   {
     "left": "Meteor Dragon",
-    "right": "Red-Eyes Black Dragon",
-    "output": "Meteor Black Dragon",
+    "right": "Red-eyes B. Dragon",
+    "output": "Meteor B. Dragon",
     "attack": 3500,
     "defense": 2000,
     "type": "Monster"
@@ -31257,7 +31249,7 @@ var monsterfuseDB = TAFFY([
   },
   {
     "left": "Milus Radiant",
-    "right": "Charubin Fire Knight",
+    "right": "Charubin the Fire Knight",
     "output": "Flame Cerebrus",
     "attack": 2100,
     "defense": 1800,
@@ -31794,7 +31786,7 @@ var monsterfuseDB = TAFFY([
   {
     "left": "Minomushi Warrior",
     "right": "Yamatano Dragon Scroll",
-    "output": "Stone Dragon",
+    "output": "Stone D.",
     "attack": 2000,
     "defense": 2300,
     "type": "Monster"
@@ -31818,7 +31810,7 @@ var monsterfuseDB = TAFFY([
   {
     "left": "Monster Egg",
     "right": "Hinotama Soul",
-    "output": "Charubin Fire Knight",
+    "output": "Charubin the Fire Knight",
     "attack": 1100,
     "defense": 800,
     "type": "Monster"
@@ -31890,7 +31882,7 @@ var monsterfuseDB = TAFFY([
   {
     "left": "Monsturtle",
     "right": "Fire Reaper",
-    "output": "Giant Turtle Who Feeds on Flame",
+    "output": "Giant Turtle Who Feeds on Flames",
     "attack": 1400,
     "defense": 1800,
     "type": "Monster"
@@ -31906,7 +31898,7 @@ var monsterfuseDB = TAFFY([
   {
     "left": "Monsturtle",
     "right": "Kagemusha of the Blue Flame",
-    "output": "Giant Turtle Who Feeds on Flame",
+    "output": "Giant Turtle Who Feeds on Flames",
     "attack": 1400,
     "defense": 1800,
     "type": "Monster"
@@ -32090,7 +32082,7 @@ var monsterfuseDB = TAFFY([
   {
     "left": "Morphing Jar",
     "right": "Blackland Fire Dragon",
-    "output": "Stone Dragon",
+    "output": "Stone D.",
     "attack": 2000,
     "defense": 2300,
     "type": "Monster"
@@ -32242,7 +32234,7 @@ var monsterfuseDB = TAFFY([
   {
     "left": "Morphing Jar",
     "right": "Petit Dragon",
-    "output": "Stone Dragon",
+    "output": "Stone D.",
     "attack": 2000,
     "defense": 2300,
     "type": "Monster"
@@ -32265,7 +32257,7 @@ var monsterfuseDB = TAFFY([
   },
   {
     "left": "Morphing Jar",
-    "right": "Sealed Exodia's Right Arm",
+    "right": "Right Arm of the Forbidden One",
     "output": "Ushi Oni",
     "attack": 2150,
     "defense": 1950,
@@ -32305,7 +32297,7 @@ var monsterfuseDB = TAFFY([
   },
   {
     "left": "Morphing Jar",
-    "right": "W-Warrior",
+    "right": "Wow Warrior",
     "output": "Minomushi Warrior",
     "attack": 1300,
     "defense": 1200,
@@ -32330,7 +32322,7 @@ var monsterfuseDB = TAFFY([
   {
     "left": "Morphing Jar",
     "right": "Wicked Dragon with the Ersatz Head",
-    "output": "Stone Dragon",
+    "output": "Stone D.",
     "attack": 2000,
     "defense": 2300,
     "type": "Monster"
@@ -32346,7 +32338,7 @@ var monsterfuseDB = TAFFY([
   {
     "left": "Morphing Jar",
     "right": "Yamatano Dragon Scroll",
-    "output": "Stone Dragon",
+    "output": "Stone D.",
     "attack": 2000,
     "defense": 2300,
     "type": "Monster"
@@ -32378,7 +32370,7 @@ var monsterfuseDB = TAFFY([
   {
     "left": "Muka Muka",
     "right": "Baby Dragon",
-    "output": "Stone Dragon",
+    "output": "Stone D.",
     "attack": 2000,
     "defense": 2300,
     "type": "Monster"
@@ -32386,7 +32378,7 @@ var monsterfuseDB = TAFFY([
   {
     "left": "Muka Muka",
     "right": "Blackland Fire Dragon",
-    "output": "Stone Dragon",
+    "output": "Stone D.",
     "attack": 2000,
     "defense": 2300,
     "type": "Monster"
@@ -32402,7 +32394,7 @@ var monsterfuseDB = TAFFY([
   {
     "left": "Muka Muka",
     "right": "Crawling Dragon #2",
-    "output": "Stone Dragon",
+    "output": "Stone D.",
     "attack": 2000,
     "defense": 2300,
     "type": "Monster"
@@ -32410,7 +32402,7 @@ var monsterfuseDB = TAFFY([
   {
     "left": "Muka Muka",
     "right": "Crawling Dragon",
-    "output": "Stone Dragon",
+    "output": "Stone D.",
     "attack": 2000,
     "defense": 2300,
     "type": "Monster"
@@ -32442,7 +32434,7 @@ var monsterfuseDB = TAFFY([
   {
     "left": "Muka Muka",
     "right": "Dragon Statue",
-    "output": "Stone Dragon",
+    "output": "Stone D.",
     "attack": 2000,
     "defense": 2300,
     "type": "Monster"
@@ -32450,7 +32442,7 @@ var monsterfuseDB = TAFFY([
   {
     "left": "Muka Muka",
     "right": "Dragon Zombie",
-    "output": "Stone Dragon",
+    "output": "Stone D.",
     "attack": 2000,
     "defense": 2300,
     "type": "Monster"
@@ -32514,7 +32506,7 @@ var monsterfuseDB = TAFFY([
   {
     "left": "Muka Muka",
     "right": "Lesser Dragon",
-    "output": "Stone Dragon",
+    "output": "Stone D.",
     "attack": 2000,
     "defense": 2300,
     "type": "Monster"
@@ -32554,7 +32546,7 @@ var monsterfuseDB = TAFFY([
   {
     "left": "Muka Muka",
     "right": "One-eyed Shield Dragon",
-    "output": "Stone Dragon",
+    "output": "Stone D.",
     "attack": 2000,
     "defense": 2300,
     "type": "Monster"
@@ -32562,7 +32554,7 @@ var monsterfuseDB = TAFFY([
   {
     "left": "Muka Muka",
     "right": "Petit Dragon",
-    "output": "Stone Dragon",
+    "output": "Stone D.",
     "attack": 2000,
     "defense": 2300,
     "type": "Monster"
@@ -32602,7 +32594,7 @@ var monsterfuseDB = TAFFY([
   {
     "left": "Muka Muka",
     "right": "Spike Seadra",
-    "output": "Stone Dragon",
+    "output": "Stone D.",
     "attack": 2000,
     "defense": 2300,
     "type": "Monster"
@@ -32658,7 +32650,7 @@ var monsterfuseDB = TAFFY([
   {
     "left": "Muka Muka",
     "right": "Wicked Dragon with the Ersatz Head",
-    "output": "Stone Dragon",
+    "output": "Stone D.",
     "attack": 2000,
     "defense": 2300,
     "type": "Monster"
@@ -32778,7 +32770,7 @@ var monsterfuseDB = TAFFY([
   {
     "left": "Mushroom Man",
     "right": "Crawling Dragon #2",
-    "output": "Black Dragon Jungle King",
+    "output": "B. Dragon Jungle King",
     "attack": 2100,
     "defense": 1800,
     "type": "Monster"
@@ -32858,7 +32850,7 @@ var monsterfuseDB = TAFFY([
   {
     "left": "Mushroom Man",
     "right": "Lesser Dragon",
-    "output": "Black Dragon Jungle King",
+    "output": "B. Dragon Jungle King",
     "attack": 2100,
     "defense": 1800,
     "type": "Monster"
@@ -32930,7 +32922,7 @@ var monsterfuseDB = TAFFY([
   {
     "left": "Mushroom Man",
     "right": "One-Eyed Shield Dragon",
-    "output": "Black Dragon Jungle King",
+    "output": "B. Dragon Jungle King",
     "attack": 2100,
     "defense": 1800,
     "type": "Monster"
@@ -32938,7 +32930,7 @@ var monsterfuseDB = TAFFY([
   {
     "left": "Mushroom Man",
     "right": "Petit Dragon",
-    "output": "Black Dragon Jungle King",
+    "output": "B. Dragon Jungle King",
     "attack": 2100,
     "defense": 1800,
     "type": "Monster"
@@ -33042,7 +33034,7 @@ var monsterfuseDB = TAFFY([
   {
     "left": "Mushroom Man",
     "right": "Yamatano Dragon Scroll",
-    "output": "Black Dragon Jungle King",
+    "output": "B. Dragon Jungle King",
     "attack": 2100,
     "defense": 1800,
     "type": "Monster"
@@ -33154,7 +33146,7 @@ var monsterfuseDB = TAFFY([
   {
     "left": "Mysterious Puppeteer",
     "right": "Firegrass",
-    "output": "Charubin Fire Knight",
+    "output": "Charubin the Fire Knight",
     "attack": 1100,
     "defense": 800,
     "type": "Monster"
@@ -33178,7 +33170,7 @@ var monsterfuseDB = TAFFY([
   {
     "left": "Mystery Hand",
     "right": "Arlownay",
-    "output": "Rose Specter of Dunn",
+    "output": "Rose Spectre of Dunn",
     "attack": 2000,
     "defense": 1800,
     "type": "Monster"
@@ -33250,7 +33242,7 @@ var monsterfuseDB = TAFFY([
   {
     "left": "Mystic Horseman",
     "right": "Candle of Fate",
-    "output": "Flame Cerberus",
+    "output": "Flame Cerebrus",
     "attack": 2100,
     "defense": 1800,
     "type": "Monster"
@@ -33266,7 +33258,7 @@ var monsterfuseDB = TAFFY([
   {
     "left": "Mystic Horseman",
     "right": "Fire Eye",
-    "output": "Flame Cerberus",
+    "output": "Flame Cerebrus",
     "attack": 2100,
     "defense": 1800,
     "type": "Monster"
@@ -33274,7 +33266,7 @@ var monsterfuseDB = TAFFY([
   {
     "left": "Mystic Horseman",
     "right": "Firegrass",
-    "output": "Flame Cerberus",
+    "output": "Flame Cerebrus",
     "attack": 2100,
     "defense": 1800,
     "type": "Monster"
@@ -33282,7 +33274,7 @@ var monsterfuseDB = TAFFY([
   {
     "left": "Mystic Horseman",
     "right": "Metal Dragon",
-    "output": "Flame Cerberus",
+    "output": "Flame Cerebrus",
     "attack": 2100,
     "defense": 1800,
     "type": "Monster"
@@ -33298,7 +33290,7 @@ var monsterfuseDB = TAFFY([
   {
     "left": "Mystic Horseman",
     "right": "Wings of Wicked Flame",
-    "output": "Flame Cerberus",
+    "output": "Flame Cerebrus",
     "attack": 2100,
     "defense": 1800,
     "type": "Monster"
@@ -33545,7 +33537,7 @@ var monsterfuseDB = TAFFY([
   },
   {
     "left": "Mystic Lamp",
-    "right": "Sealed Exodia's Right Arm",
+    "right": "Right Arm of the Forbidden One",
     "output": "Lord of the Lamp",
     "attack": 1400,
     "defense": 1200,
@@ -33785,7 +33777,7 @@ var monsterfuseDB = TAFFY([
   },
   {
     "left": "Mystical Elf",
-    "right": "The Shadow that Controls the Dark",
+    "right": "The Shadow Who Controls the Dark",
     "output": "Dark Elf",
     "attack": 2000,
     "defense": 800,
@@ -33834,7 +33826,7 @@ var monsterfuseDB = TAFFY([
   {
     "left": "Mystical Moon",
     "right": "Elegant Egotist",
-    "output": "Revival of Sennen Ginjin",
+    "output": "Revival of Sennen Genjin",
     "attack": 0,
     "defense": 0,
     "type": "Ritual"
@@ -33842,7 +33834,7 @@ var monsterfuseDB = TAFFY([
   {
     "left": "Mystical Moon",
     "right": "Umi",
-    "output": "Eternal Drought",
+    "output": "Eternal Draught",
     "attack": 0,
     "defense": 0,
     "type": "Magic"
@@ -34185,7 +34177,7 @@ var monsterfuseDB = TAFFY([
   },
   {
     "left": "Mystical Sheep #2",
-    "right": "The Shadow that Controls the Dark",
+    "right": "The Shadow Who Controls the Dark",
     "output": "Mystical Sheep #1",
     "attack": 1150,
     "defense": 900,
@@ -34218,7 +34210,7 @@ var monsterfuseDB = TAFFY([
   {
     "left": "Needle Ball",
     "right": "Arlownay",
-    "output": "Rose Specter of Dunn",
+    "output": "Rose Spectre of Dunn",
     "attack": 2000,
     "defense": 1800,
     "type": "Monster"
@@ -34553,7 +34545,7 @@ var monsterfuseDB = TAFFY([
   },
   {
     "left": "Obese Marmot of Nefariousness",
-    "right": "Charubin Fire Knight",
+    "right": "Charubin the Fire Knight",
     "output": "Flame Cerebrus",
     "attack": 2100,
     "defense": 1800,
@@ -34753,7 +34745,7 @@ var monsterfuseDB = TAFFY([
   },
   {
     "left": "Obese Marmot of Nefariousness",
-    "right": "W-Warrior",
+    "right": "Wow Warrior",
     "output": "Tiger Axe",
     "attack": 1300,
     "defense": 1100,
@@ -34825,7 +34817,7 @@ var monsterfuseDB = TAFFY([
   },
   {
     "left": "One-Eyed Shield Dragon",
-    "right": "Amoeba",
+    "right": "Ameba",
     "output": "Spike Seadra",
     "attack": 1600,
     "defense": 1300,
@@ -34834,15 +34826,15 @@ var monsterfuseDB = TAFFY([
   {
     "left": "One-Eyed Shield Dragon",
     "right": "Ancient Jar",
-    "output": "Stone Dragon",
+    "output": "Stone D.",
     "attack": 2000,
     "defense": 2300,
     "type": "Monster"
   },
   {
     "left": "One-Eyed Shield Dragon",
-    "right": "Ansastu",
-    "output": "Sword Arm of the Dragon",
+    "right": "Ansatsu",
+    "output": "Sword Arm of Dragon",
     "attack": 1750,
     "defense": 2030,
     "type": "Monster"
@@ -34850,7 +34842,7 @@ var monsterfuseDB = TAFFY([
   {
     "left": "One-Eyed Shield Dragon",
     "right": "Arlownay",
-    "output": "Black Dragon Jungle King",
+    "output": "B. Dragon Jungle King",
     "attack": 2100,
     "defense": 1800,
     "type": "Monster"
@@ -34898,7 +34890,7 @@ var monsterfuseDB = TAFFY([
   {
     "left": "One-Eyed Shield Dragon",
     "right": "Bean Soldier",
-    "output": "Black Dragon Jungle King",
+    "output": "B. Dragon Jungle King",
     "attack": 2100,
     "defense": 1800,
     "type": "Monster"
@@ -34986,7 +34978,7 @@ var monsterfuseDB = TAFFY([
   {
     "left": "One-Eyed Shield Dragon",
     "right": "Fiend Kraken",
-    "output": "Spiked Seadra",
+    "output": "Spike Seadra",
     "attack": 1600,
     "defense": 1300,
     "type": "Monster"
@@ -35002,7 +34994,7 @@ var monsterfuseDB = TAFFY([
   {
     "left": "One-Eyed Shield Dragon",
     "right": "Firegrass",
-    "output": "Black Dragon Jungle King",
+    "output": "B. Dragon Jungle King",
     "attack": 2100,
     "defense": 1800,
     "type": "Monster"
@@ -35034,7 +35026,7 @@ var monsterfuseDB = TAFFY([
   {
     "left": "One-Eyed Shield Dragon",
     "right": "Ice Water",
-    "output": "Spiked Seadra",
+    "output": "Spike Seadra",
     "attack": 1600,
     "defense": 1300,
     "type": "Monster"
@@ -35082,7 +35074,7 @@ var monsterfuseDB = TAFFY([
   {
     "left": "One-Eyed Shield Dragon",
     "right": "Muka Muka",
-    "output": "Stone Dragon",
+    "output": "Stone D.",
     "attack": 2000,
     "defense": 2300,
     "type": "Monster"
@@ -35090,7 +35082,7 @@ var monsterfuseDB = TAFFY([
   {
     "left": "One-Eyed Shield Dragon",
     "right": "Mushroom Man",
-    "output": "Black Dragon Jungle King",
+    "output": "B. Dragon Jungle King",
     "attack": 2100,
     "defense": 1800,
     "type": "Monster"
@@ -35138,7 +35130,7 @@ var monsterfuseDB = TAFFY([
   {
     "left": "One-Eyed Shield Dragon",
     "right": "Rhaimundos of the Red Sword",
-    "output": "D.Human",
+    "output": "D. Human",
     "attack": 1300,
     "defense": 1100,
     "type": "Monster"
@@ -35306,7 +35298,7 @@ var monsterfuseDB = TAFFY([
   {
     "left": "Ooguchi",
     "right": "One-eyed Shield Dragon",
-    "output": "Spiked Seadra",
+    "output": "Spike Seadra",
     "attack": 1600,
     "defense": 1300,
     "type": "Monster"
@@ -35457,7 +35449,7 @@ var monsterfuseDB = TAFFY([
   },
   {
     "left": "Oscillo Hero #2",
-    "right": "Black Dragon Jungle King",
+    "right": "B. Dragon Jungle King",
     "output": "Twin-Headed Thunder Dragon",
     "attack": 2800,
     "defense": 2100,
@@ -35633,7 +35625,7 @@ var monsterfuseDB = TAFFY([
   },
   {
     "left": "Oscillo Hero #2",
-    "right": "Stone Dragon",
+    "right": "Stone D.",
     "output": "Twin-Headed Thunder Dragon",
     "attack": 2800,
     "defense": 2100,
@@ -36018,14 +36010,14 @@ var monsterfuseDB = TAFFY([
   {
     "left": "Petit Dragon",
     "right": "Ancient Jar",
-    "output": "Stone Dragon",
+    "output": "Stone D.",
     "attack": 2000,
     "defense": 2300,
     "type": "Monster"
   },
   {
     "left": "Petit Dragon",
-    "right": "Ansastu",
+    "right": "Ansatsu",
     "output": "Sword Arm of Dragon",
     "attack": 1750,
     "defense": 2030,
@@ -36042,7 +36034,7 @@ var monsterfuseDB = TAFFY([
   {
     "left": "Petit Dragon",
     "right": "Arlownay",
-    "output": "Black Dragon Jungle King",
+    "output": "B. Dragon Jungle King",
     "attack": 2100,
     "defense": 1800,
     "type": "Monster"
@@ -36074,7 +36066,7 @@ var monsterfuseDB = TAFFY([
   {
     "left": "Petit Dragon",
     "right": "Bean Soldier",
-    "output": "Black Dragon Jungle King",
+    "output": "B. Dragon Jungle King",
     "attack": 2100,
     "defense": 1800,
     "type": "Monster"
@@ -36178,7 +36170,7 @@ var monsterfuseDB = TAFFY([
   {
     "left": "Petit Dragon",
     "right": "Dark Plant",
-    "output": "Black Dragon Jungle King",
+    "output": "B. Dragon Jungle King",
     "attack": 2100,
     "defense": 1800,
     "type": "Monster"
@@ -36194,7 +36186,7 @@ var monsterfuseDB = TAFFY([
   {
     "left": "Petit Dragon",
     "right": "Darkworld Thorns",
-    "output": "Black Dragon Jungle King",
+    "output": "B. Dragon Jungle King",
     "attack": 2100,
     "defense": 1800,
     "type": "Monster"
@@ -36250,7 +36242,7 @@ var monsterfuseDB = TAFFY([
   {
     "left": "Petit Dragon",
     "right": "Firegrass",
-    "output": "Black Dragon Jungle King",
+    "output": "B. Dragon Jungle King",
     "attack": 2100,
     "defense": 1800,
     "type": "Monster"
@@ -36266,7 +36258,7 @@ var monsterfuseDB = TAFFY([
   {
     "left": "Petit Dragon",
     "right": "Griggle",
-    "output": "Black Dragon Jungle King",
+    "output": "B. Dragon Jungle King",
     "attack": 2100,
     "defense": 1800,
     "type": "Monster"
@@ -36274,7 +36266,7 @@ var monsterfuseDB = TAFFY([
   {
     "left": "Petit Dragon",
     "right": "Haniwa",
-    "output": "Stone Dragon",
+    "output": "Stone D.",
     "attack": 2000,
     "defense": 2300,
     "type": "Monster"
@@ -36362,7 +36354,7 @@ var monsterfuseDB = TAFFY([
   {
     "left": "Petit Dragon",
     "right": "Living Vase",
-    "output": "Black Dragon Jungle King",
+    "output": "B. Dragon Jungle King",
     "attack": 2100,
     "defense": 1800,
     "type": "Monster"
@@ -36386,7 +36378,7 @@ var monsterfuseDB = TAFFY([
   {
     "left": "Petit Dragon",
     "right": "Man Eater",
-    "output": "Black Dragon Jungle King",
+    "output": "B. Dragon Jungle King",
     "attack": 2100,
     "defense": 1800,
     "type": "Monster"
@@ -36418,7 +36410,7 @@ var monsterfuseDB = TAFFY([
   {
     "left": "Petit Dragon",
     "right": "Morphing Jar",
-    "output": "Stone Dragon",
+    "output": "Stone D.",
     "attack": 2000,
     "defense": 2300,
     "type": "Monster"
@@ -36426,7 +36418,7 @@ var monsterfuseDB = TAFFY([
   {
     "left": "Petit Dragon",
     "right": "Muka Muka",
-    "output": "Stone Dragon",
+    "output": "Stone D.",
     "attack": 2000,
     "defense": 2300,
     "type": "Monster"
@@ -36434,7 +36426,7 @@ var monsterfuseDB = TAFFY([
   {
     "left": "Petit Dragon",
     "right": "Mushroom Man",
-    "output": "Black Dragon Jungle King",
+    "output": "B. Dragon Jungle King",
     "attack": 2100,
     "defense": 1800,
     "type": "Monster"
@@ -36490,7 +36482,7 @@ var monsterfuseDB = TAFFY([
   {
     "left": "Petit Dragon",
     "right": "Pot the Trick",
-    "output": "Stone Dragon",
+    "output": "Stone D.",
     "attack": 2000,
     "defense": 2300,
     "type": "Monster"
@@ -36498,7 +36490,7 @@ var monsterfuseDB = TAFFY([
   {
     "left": "Petit Dragon",
     "right": "Prisman",
-    "output": "Stone Dragon",
+    "output": "Stone D.",
     "attack": 2000,
     "defense": 2300,
     "type": "Monster"
@@ -36530,7 +36522,7 @@ var monsterfuseDB = TAFFY([
   {
     "left": "Petit Dragon",
     "right": "Rhaimundos of the Red Sword",
-    "output": "D.Human",
+    "output": "D. Human",
     "attack": 1300,
     "defense": 1100,
     "type": "Monster"
@@ -37114,7 +37106,7 @@ var monsterfuseDB = TAFFY([
   {
     "left": "Pot the Trick",
     "right": "Baby Dragon",
-    "output": "Stone Dragon",
+    "output": "Stone D.",
     "attack": 2000,
     "defense": 2300,
     "type": "Monster"
@@ -37122,7 +37114,7 @@ var monsterfuseDB = TAFFY([
   {
     "left": "Pot the Trick",
     "right": "Blackland Fire Dragon",
-    "output": "Stone Dragon",
+    "output": "Stone D.",
     "attack": 2000,
     "defense": 2300,
     "type": "Monster"
@@ -37146,7 +37138,7 @@ var monsterfuseDB = TAFFY([
   {
     "left": "Pot the Trick",
     "right": "Darkfire Dragon",
-    "output": "Stone Dragon",
+    "output": "Stone D.",
     "attack": 2000,
     "defense": 2300,
     "type": "Monster"
@@ -37154,7 +37146,7 @@ var monsterfuseDB = TAFFY([
   {
     "left": "Pot the Trick",
     "right": "Dragon Statue",
-    "output": "Stone Dragon",
+    "output": "Stone D.",
     "attack": 2000,
     "defense": 2300,
     "type": "Monster"
@@ -37162,7 +37154,7 @@ var monsterfuseDB = TAFFY([
   {
     "left": "Pot the Trick",
     "right": "Dragon Zombie",
-    "output": "Stone Dragon",
+    "output": "Stone D.",
     "attack": 2000,
     "defense": 2300,
     "type": "Monster"
@@ -37258,7 +37250,7 @@ var monsterfuseDB = TAFFY([
   {
     "left": "Pot the Trick",
     "right": "Koumori Dragon",
-    "output": "Stone Dragon",
+    "output": "Stone D.",
     "attack": 2000,
     "defense": 2300,
     "type": "Monster"
@@ -37266,7 +37258,7 @@ var monsterfuseDB = TAFFY([
   {
     "left": "Pot the Trick",
     "right": "Lesser Dragon",
-    "output": "Stone Dragon",
+    "output": "Stone D.",
     "attack": 2000,
     "defense": 2300,
     "type": "Monster"
@@ -37322,7 +37314,7 @@ var monsterfuseDB = TAFFY([
   {
     "left": "Pot the Trick",
     "right": "Petit Dragon",
-    "output": "Stone Dragon",
+    "output": "Stone D.",
     "attack": 2000,
     "defense": 2300,
     "type": "Monster"
@@ -37378,7 +37370,7 @@ var monsterfuseDB = TAFFY([
   {
     "left": "Pot the Trick",
     "right": "Skelgon",
-    "output": "Stone Dragon",
+    "output": "Stone D.",
     "attack": 2000,
     "defense": 2300,
     "type": "Monster"
@@ -37450,7 +37442,7 @@ var monsterfuseDB = TAFFY([
   {
     "left": "Pot the Trick",
     "right": "Wicked Dragon with the Ersatz Head",
-    "output": "Stone Dragon",
+    "output": "Stone D.",
     "attack": 2000,
     "defense": 2300,
     "type": "Monster"
@@ -37474,21 +37466,21 @@ var monsterfuseDB = TAFFY([
   {
     "left": "Pot the Trick",
     "right": "Yamatano Dragon Scroll",
-    "output": "Stone Dragon",
+    "output": "Stone D.",
     "attack": 2000,
     "defense": 2300,
     "type": "Monster"
   },
   {
     "left": "Pot the Trick",
-    "right": "Zombie Dragon",
-    "output": "Stone Dragon",
+    "right": "Dragon Zombie",
+    "output": "Stone D.",
     "attack": 2000,
     "defense": 2300,
     "type": "Monster"
   },
   {
-    "left": "Power of Kaishen",
+    "left": "Power of Kaishin",
     "right": "Forest",
     "output": "Javelin Beetle Pact",
     "attack": 0,
@@ -37496,7 +37488,7 @@ var monsterfuseDB = TAFFY([
     "type": "Ritual"
   },
   {
-    "left": "Power of Kaishen",
+    "left": "Power of Kaishin",
     "right": "Umi",
     "output": "Turtle Oath",
     "attack": 0,
@@ -37506,7 +37498,7 @@ var monsterfuseDB = TAFFY([
   {
     "left": "Prevent Rat",
     "right": "Mavelus",
-    "output": "Flame Cerberus",
+    "output": "Flame Cerebrus",
     "attack": 2100,
     "defense": 1800,
     "type": "Monster"
@@ -37538,7 +37530,7 @@ var monsterfuseDB = TAFFY([
   {
     "left": "Princess of Tsurugi",
     "right": "Armaill",
-    "output": "Charubin Fire Knight",
+    "output": "Charubin the Fire Knight",
     "attack": 1100,
     "defense": 800,
     "type": "Monster"
@@ -37553,7 +37545,7 @@ var monsterfuseDB = TAFFY([
   },
   {
     "left": "Princess of Tsurugi",
-    "right": "Charubin Fire Knight",
+    "right": "Charubin the Fire Knight",
     "output": "Flame Swordsman",
     "attack": 1800,
     "defense": 1600,
@@ -37594,7 +37586,7 @@ var monsterfuseDB = TAFFY([
   {
     "left": "Princess of Tsurugi",
     "right": "Dragon Piper",
-    "output": "Charubin Fire Knight",
+    "output": "Charubin the Fire Knight",
     "attack": 1100,
     "defense": 800,
     "type": "Monster"
@@ -37602,7 +37594,7 @@ var monsterfuseDB = TAFFY([
   {
     "left": "Princess of Tsurugi",
     "right": "Fire Eye",
-    "output": "Charubin Fire Knight",
+    "output": "Charubin the Fire Knight",
     "attack": 1100,
     "defense": 800,
     "type": "Monster"
@@ -37785,7 +37777,7 @@ var monsterfuseDB = TAFFY([
   },
   {
     "left": "Princess of Tsurugi",
-    "right": "The Judgment Hand",
+    "right": "The Judgement Hand",
     "output": "Judge Man",
     "attack": 2200,
     "defense": 1500,
@@ -37802,7 +37794,7 @@ var monsterfuseDB = TAFFY([
   {
     "left": "Princess of Tsurugi",
     "right": "Wings of Wicked Flame",
-    "output": "Charubin Fire Knight",
+    "output": "Charubin the Fire Knight",
     "attack": 1100,
     "defense": 800,
     "type": "Monster"
@@ -37866,7 +37858,7 @@ var monsterfuseDB = TAFFY([
   {
     "left": "Prisman",
     "right": "Petit Dragon",
-    "output": "Stone Dragon",
+    "output": "Stone D.",
     "attack": 2000,
     "defense": 2300,
     "type": "Monster"
@@ -37953,7 +37945,7 @@ var monsterfuseDB = TAFFY([
   },
   {
     "left": "Psychic Kappa",
-    "right": "Amoeba",
+    "right": "Ameba",
     "output": "Hyosube",
     "attack": 1500,
     "defense": 900,
@@ -38146,7 +38138,7 @@ var monsterfuseDB = TAFFY([
   {
     "left": "Queen of Autumn Leaves",
     "right": "Dragon Statue",
-    "output": "Black Dragon Jungle King",
+    "output": "B. Dragon Jungle King",
     "attack": 2100,
     "defense": 1800,
     "type": "Monster"
@@ -38154,7 +38146,7 @@ var monsterfuseDB = TAFFY([
   {
     "left": "Queen of Autumn Leaves",
     "right": "Dragon Zombie",
-    "output": "Black Dragon Jungle King",
+    "output": "B. Dragon Jungle King",
     "attack": 2100,
     "defense": 1800,
     "type": "Monster"
@@ -38242,7 +38234,7 @@ var monsterfuseDB = TAFFY([
   {
     "left": "Queen's Double",
     "right": "Blast Juggler",
-    "output": "Charubin Fire Knight",
+    "output": "Charubin the Fire Knight",
     "attack": 1100,
     "defense": 800,
     "type": "Monster"
@@ -38274,7 +38266,7 @@ var monsterfuseDB = TAFFY([
   {
     "left": "Queen's Double",
     "right": "Candle of Fate",
-    "output": "Charubin Fire Knight",
+    "output": "Charubin the Fire Knight",
     "attack": 1100,
     "defense": 800,
     "type": "Monster"
@@ -38370,7 +38362,7 @@ var monsterfuseDB = TAFFY([
   {
     "left": "Queen's Double",
     "right": "Flame Viper",
-    "output": "Charubin Fire Knight",
+    "output": "Charubin the Fire Knight",
     "attack": 1100,
     "defense": 800,
     "type": "Monster"
@@ -38418,7 +38410,7 @@ var monsterfuseDB = TAFFY([
   {
     "left": "Queen's Double",
     "right": "Hinotama Soul",
-    "output": "Charubin Fire Knight",
+    "output": "Charubin the Fire Knight",
     "attack": 1100,
     "defense": 800,
     "type": "Monster"
@@ -38442,7 +38434,7 @@ var monsterfuseDB = TAFFY([
   {
     "left": "Queen's Double",
     "right": "Kagemusha of the Blue Flame",
-    "output": "Charubin Fire Knight",
+    "output": "Charubin the Fire Knight",
     "attack": 1100,
     "defense": 800,
     "type": "Monster"
@@ -38665,7 +38657,7 @@ var monsterfuseDB = TAFFY([
   },
   {
     "left": "Queen's Double",
-    "right": "The Judgment Hand",
+    "right": "The Judgement Hand",
     "output": "Judge Man",
     "attack": 2200,
     "defense": 1500,
@@ -38746,7 +38738,7 @@ var monsterfuseDB = TAFFY([
   {
     "left": "Rainbow Flower",
     "right": "Baby Dragon",
-    "output": "Black Dragon Jungle King",
+    "output": "B. Dragon Jungle King",
     "attack": 2100,
     "defense": 1800,
     "type": "Monster"
@@ -38762,7 +38754,7 @@ var monsterfuseDB = TAFFY([
   {
     "left": "Rainbow Flower",
     "right": "Crawling Dragon #2",
-    "output": "Black Dragon Jungle King",
+    "output": "B. Dragon Jungle King",
     "attack": 2100,
     "defense": 1800,
     "type": "Monster"
@@ -38770,7 +38762,7 @@ var monsterfuseDB = TAFFY([
   {
     "left": "Rainbow Flower",
     "right": "Crawling Dragon",
-    "output": "Black Dragon Jungle King",
+    "output": "B. Dragon Jungle King",
     "attack": 2100,
     "defense": 1800,
     "type": "Monster"
@@ -38850,7 +38842,7 @@ var monsterfuseDB = TAFFY([
   {
     "left": "Rainbow Flower",
     "right": "Koumori Dragon",
-    "output": "Black Dragon Jungle King",
+    "output": "B. Dragon Jungle King",
     "attack": 2100,
     "defense": 1800,
     "type": "Monster"
@@ -38858,7 +38850,7 @@ var monsterfuseDB = TAFFY([
   {
     "left": "Rainbow Flower",
     "right": "Lesser Dragon",
-    "output": "Black Dragon Jungle King",
+    "output": "B. Dragon Jungle King",
     "attack": 2100,
     "defense": 1800,
     "type": "Monster"
@@ -39026,7 +39018,7 @@ var monsterfuseDB = TAFFY([
   {
     "left": "Rainbow Flower",
     "right": "White Dolphin",
-    "output": "7 Color Fish",
+    "output": "7 Colored Fish",
     "attack": 1800,
     "defense": 800,
     "type": "Monster"
@@ -39050,7 +39042,7 @@ var monsterfuseDB = TAFFY([
   {
     "left": "Rainbow Flower",
     "right": "Yamatano Dragon Scroll",
-    "output": "Black Dragon Jungle King",
+    "output": "B. Dragon Jungle King",
     "attack": 2100,
     "defense": 1800,
     "type": "Monster"
@@ -39093,14 +39085,6 @@ var monsterfuseDB = TAFFY([
     "output": "Metal Fish",
     "attack": 1600,
     "defense": 1900,
-    "type": "Monster"
-  },
-  {
-    "left": "Raven",
-    "right": "Mavelus",
-    "output": "Crimson Subird",
-    "attack": 2300,
-    "defense": 1800,
     "type": "Monster"
   },
   {
@@ -39160,7 +39144,7 @@ var monsterfuseDB = TAFFY([
     "type": "Monster"
   },
   {
-    "left": "Red-Eyes Black Dragon",
+    "left": "Red-eyes B. Dragon",
     "right": "Bolt Escargot",
     "output": "Twin-Headed Thunder Dragon",
     "attack": 2800,
@@ -39168,7 +39152,7 @@ var monsterfuseDB = TAFFY([
     "type": "Monster"
   },
   {
-    "left": "Red-Eyes Black Dragon",
+    "left": "Red-eyes B. Dragon",
     "right": "Bolt Penguin",
     "output": "Twin-Headed Thunder Dragon",
     "attack": 2800,
@@ -39176,7 +39160,7 @@ var monsterfuseDB = TAFFY([
     "type": "Monster"
   },
   {
-    "left": "Red-Eyes Black Dragon",
+    "left": "Red-eyes B. Dragon",
     "right": "Electric Lizard",
     "output": "Twin-Headed Thunder Dragon",
     "attack": 2800,
@@ -39184,7 +39168,7 @@ var monsterfuseDB = TAFFY([
     "type": "Monster"
   },
   {
-    "left": "Red-Eyes Black Dragon",
+    "left": "Red-eyes B. Dragon",
     "right": "Electric Snake",
     "output": "Twin-Headed Thunder Dragon",
     "attack": 2800,
@@ -39192,7 +39176,7 @@ var monsterfuseDB = TAFFY([
     "type": "Monster"
   },
   {
-    "left": "Red-Eyes Black Dragon",
+    "left": "Red-eyes B. Dragon",
     "right": "Kaminari Attack",
     "output": "Twin-Headed Thunder Dragon",
     "attack": 2800,
@@ -39200,7 +39184,7 @@ var monsterfuseDB = TAFFY([
     "type": "Monster"
   },
   {
-    "left": "Red-Eyes Black Dragon",
+    "left": "Red-eyes B. Dragon",
     "right": "Kaminarikozou",
     "output": "Twin-Headed Thunder Dragon",
     "attack": 2800,
@@ -39208,7 +39192,7 @@ var monsterfuseDB = TAFFY([
     "type": "Monster"
   },
   {
-    "left": "Red-Eyes Black Dragon",
+    "left": "Red-eyes B. Dragon",
     "right": "LaLa Li-oon",
     "output": "Twin-Headed Thunder Dragon",
     "attack": 2800,
@@ -39216,15 +39200,15 @@ var monsterfuseDB = TAFFY([
     "type": "Monster"
   },
   {
-    "left": "Red-Eyes Black Dragon",
+    "left": "Red-eyes B. Dragon",
     "right": "Meteor Dragon",
-    "output": "Meteor Black Dragon",
+    "output": "Meteor B. Dragon",
     "attack": 3500,
     "defense": 2000,
     "type": "Monster"
   },
   {
-    "left": "Red-Eyes Black Dragon",
+    "left": "Red-eyes B. Dragon",
     "right": "Sanga of the Thunder",
     "output": "Twin-Headed Thunder Dragon",
     "attack": 2800,
@@ -39232,15 +39216,15 @@ var monsterfuseDB = TAFFY([
     "type": "Monster"
   },
   {
-    "left": "Red-Eyes Black Dragon",
+    "left": "Red-eyes B. Dragon",
     "right": "Summoned Skull",
-    "output": "Black Skull Dragon",
+    "output": "B. Skull Dragon",
     "attack": 3200,
     "defense": 2500,
     "type": "Monster"
   },
   {
-    "left": "Red-Eyes Black Dragon",
+    "left": "Red-eyes B. Dragon",
     "right": "The Immortal of Thunder",
     "output": "Twin-Headed Thunder Dragon",
     "attack": 2800,
@@ -39248,7 +39232,7 @@ var monsterfuseDB = TAFFY([
     "type": "Monster"
   },
   {
-    "left": "Red-Eyes Black Dragon",
+    "left": "Red-eyes B. Dragon",
     "right": "Thunder Dragon",
     "output": "Twin-Headed Thunder Dragon",
     "attack": 2800,
@@ -39256,7 +39240,7 @@ var monsterfuseDB = TAFFY([
     "type": "Monster"
   },
   {
-    "left": "Red-Eyes Black Dragon",
+    "left": "Red-eyes B. Dragon",
     "right": "Tripwire Beast",
     "output": "Twin-Headed Thunder Dragon",
     "attack": 2800,
@@ -39322,7 +39306,7 @@ var monsterfuseDB = TAFFY([
   {
     "left": "Rhaimundos of the Red Sword",
     "right": "One-Eyed Shield Dragon",
-    "output": "D.Human",
+    "output": "D. Human",
     "attack": 1300,
     "defense": 1100,
     "type": "Monster"
@@ -39330,15 +39314,15 @@ var monsterfuseDB = TAFFY([
   {
     "left": "Rhaimundos of the Red Sword",
     "right": "Petit Dragon",
-    "output": "D.Human",
+    "output": "D. Human",
     "attack": 1300,
     "defense": 1100,
     "type": "Monster"
   },
   {
     "left": "Rhaimundos of the Red Sword",
-    "right": "Wicked Dragon wit the Ersatz Head",
-    "output": "D.Human",
+    "right": "Wicked Dragon with the Ersatz Head",
+    "output": "D. Human",
     "attack": 1300,
     "defense": 1100,
     "type": "Monster"
@@ -39346,7 +39330,7 @@ var monsterfuseDB = TAFFY([
   {
     "left": "Rhaimundos of the Red Sword",
     "right": "Yamatano Dragon Scroll",
-    "output": "D.Human",
+    "output": "D. Human",
     "attack": 1300,
     "defense": 1100,
     "type": "Monster"
@@ -39418,7 +39402,7 @@ var monsterfuseDB = TAFFY([
   {
     "left": "Root Water",
     "right": "Hoshiningen",
-    "output": "7 Color Fish",
+    "output": "7 Colored Fish",
     "attack": 1800,
     "defense": 800,
     "type": "Monster"
@@ -39457,7 +39441,7 @@ var monsterfuseDB = TAFFY([
   },
   {
     "left": "Ryu-Kishin",
-    "right": "Masked Sorceror",
+    "right": "Masked Sorcerer",
     "output": "Ryu-Kishin Powered",
     "attack": 1600,
     "defense": 1200,
@@ -39506,7 +39490,7 @@ var monsterfuseDB = TAFFY([
   {
     "left": "Sand Stone",
     "right": "Dragon Zombie",
-    "output": "Stone Dragon",
+    "output": "Stone D.",
     "attack": 2000,
     "defense": 2300,
     "type": "Monster"
@@ -39569,7 +39553,7 @@ var monsterfuseDB = TAFFY([
   },
   {
     "left": "Sanga of the Thunder",
-    "right": "Red-Eyes Black Dragon",
+    "right": "Red-eyes B. Dragon",
     "output": "Twin-Headed Thunder Dragon",
     "attack": 2800,
     "defense": 2100,
@@ -39593,7 +39577,7 @@ var monsterfuseDB = TAFFY([
   },
   {
     "left": "Sanga of the Thunder",
-    "right": "Stone Dragon",
+    "right": "Stone D.",
     "output": "Twin-Headed Thunder Dragon",
     "attack": 2800,
     "defense": 2100,
@@ -39720,7 +39704,7 @@ var monsterfuseDB = TAFFY([
     "type": "Monster"
   },
   {
-    "left": "Sealed Exodia's Left Arm",
+    "left": "Left Arm of the Forbidden One",
     "right": "Ancient Jar",
     "output": "Ushi Oni",
     "attack": 2150,
@@ -39728,7 +39712,7 @@ var monsterfuseDB = TAFFY([
     "type": "Monster"
   },
   {
-    "left": "Sealed Exodia's Left Arm",
+    "left": "Left Arm of the Forbidden One",
     "right": "Baby Dragon",
     "output": "Blackland Fire Dragon",
     "attack": 1500,
@@ -39736,7 +39720,7 @@ var monsterfuseDB = TAFFY([
     "type": "Monster"
   },
   {
-    "left": "Sealed Exodia's Left Arm",
+    "left": "Left Arm of the Forbidden One",
     "right": "Blocker",
     "output": "Disk Magician",
     "attack": 1350,
@@ -39744,7 +39728,7 @@ var monsterfuseDB = TAFFY([
     "type": "Monster"
   },
   {
-    "left": "Sealed Exodia's Left Arm",
+    "left": "Left Arm of the Forbidden One",
     "right": "Blue-eyed Silver Zombie",
     "output": "Magical Ghost",
     "attack": 1300,
@@ -39752,7 +39736,7 @@ var monsterfuseDB = TAFFY([
     "type": "Monster"
   },
   {
-    "left": "Sealed Exodia's Left Arm",
+    "left": "Left Arm of the Forbidden One",
     "right": "Celtic Guardian",
     "output": "Dark Elf",
     "attack": 2000,
@@ -39760,7 +39744,7 @@ var monsterfuseDB = TAFFY([
     "type": "Monster"
   },
   {
-    "left": "Sealed Exodia's Left Arm",
+    "left": "Left Arm of the Forbidden One",
     "right": "Dancing Elf",
     "output": "Dark Elf",
     "attack": 2000,
@@ -39768,7 +39752,7 @@ var monsterfuseDB = TAFFY([
     "type": "Monster"
   },
   {
-    "left": "Sealed Exodia's Left Arm",
+    "left": "Left Arm of the Forbidden One",
     "right": "Fire Reaper",
     "output": "Magical Ghost",
     "attack": 1300,
@@ -39776,7 +39760,7 @@ var monsterfuseDB = TAFFY([
     "type": "Monster"
   },
   {
-    "left": "Sealed Exodia's Left Arm",
+    "left": "Left Arm of the Forbidden One",
     "right": "Mech Mole Zombie",
     "output": "Magical Ghost",
     "attack": 1300,
@@ -39784,7 +39768,7 @@ var monsterfuseDB = TAFFY([
     "type": "Monster"
   },
   {
-    "left": "Sealed Exodia's Left Arm",
+    "left": "Left Arm of the Forbidden One",
     "right": "Skull Servant",
     "output": "Magical Ghost",
     "attack": 1300,
@@ -39792,7 +39776,7 @@ var monsterfuseDB = TAFFY([
     "type": "Monster"
   },
   {
-    "left": "Sealed Exodia's Left Leg",
+    "left": "Left Leg of the Forbidden One",
     "right": "Baby Dragon",
     "output": "Blackland Fire Dragon",
     "attack": 1500,
@@ -39800,7 +39784,7 @@ var monsterfuseDB = TAFFY([
     "type": "Monster"
   },
   {
-    "left": "Sealed Exodia's Left Leg",
+    "left": "Left Leg of the Forbidden One",
     "right": "Celtic Guardian",
     "output": "Dark Elf",
     "attack": 2000,
@@ -39808,7 +39792,7 @@ var monsterfuseDB = TAFFY([
     "type": "Monster"
   },
   {
-    "left": "Sealed Exodia's Right Arm",
+    "left": "Right Arm of the Forbidden One",
     "right": "Ancient Jar",
     "output": "Ushi Oni",
     "attack": 2150,
@@ -39816,7 +39800,7 @@ var monsterfuseDB = TAFFY([
     "type": "Monster"
   },
   {
-    "left": "Sealed Exodia's Right Arm",
+    "left": "Right Arm of the Forbidden One",
     "right": "Baby Dragon",
     "output": "Blackland Fire Dragon",
     "attack": 1500,
@@ -39824,7 +39808,7 @@ var monsterfuseDB = TAFFY([
     "type": "Monster"
   },
   {
-    "left": "Sealed Exodia's Right Arm",
+    "left": "Right Arm of the Forbidden One",
     "right": "Celtic Guardian",
     "output": "Dark Elf",
     "attack": 2000,
@@ -39832,7 +39816,7 @@ var monsterfuseDB = TAFFY([
     "type": "Monster"
   },
   {
-    "left": "Sealed Exodia's Right Arm",
+    "left": "Right Arm of the Forbidden One",
     "right": "Morphing Jar",
     "output": "Ushi Oni",
     "attack": 2150,
@@ -39840,7 +39824,7 @@ var monsterfuseDB = TAFFY([
     "type": "Monster"
   },
   {
-    "left": "Sealed Exodia's Right Arm",
+    "left": "Right Arm of the Forbidden One",
     "right": "Mystic Lamp",
     "output": "Lord of the Lamp",
     "attack": 1400,
@@ -39848,7 +39832,7 @@ var monsterfuseDB = TAFFY([
     "type": "Monster"
   },
   {
-    "left": "Sealed Exodia's Right Leg",
+    "left": "Right Leg of the Forbidden One",
     "right": "Baby Dragon",
     "output": "Blackland Fire Dragon",
     "attack": 1500,
@@ -39856,7 +39840,7 @@ var monsterfuseDB = TAFFY([
     "type": "Monster"
   },
   {
-    "left": "Sealed Exodia's Right Leg",
+    "left": "Right Leg of the Forbidden One",
     "right": "Celtic Guardian",
     "output": "Dark Elf",
     "attack": 2000,
@@ -39864,7 +39848,7 @@ var monsterfuseDB = TAFFY([
     "type": "Monster"
   },
   {
-    "left": "Sealed Exodia's Right Leg",
+    "left": "Right Leg of the Forbidden One",
     "right": "Zombie Warrior",
     "output": "Magical Ghost",
     "attack": 1300,
@@ -39889,7 +39873,7 @@ var monsterfuseDB = TAFFY([
   },
   {
     "left": "Sectarian of Secrets",
-    "right": "Bolt Escargo",
+    "right": "Bolt Escargot",
     "output": "The Immortal of Thunder",
     "attack": 1500,
     "defense": 1300,
@@ -40625,7 +40609,7 @@ var monsterfuseDB = TAFFY([
   },
   {
     "left": "Shadow Spell",
-    "right": "Dark Piercing Light",
+    "right": "Dark-piercing Light",
     "output": "Swords of Revealing Light",
     "attack": 0,
     "defense": 0,
@@ -40786,7 +40770,7 @@ var monsterfuseDB = TAFFY([
   {
     "left": "Silver Fang",
     "right": "Flame Swordsman",
-    "output": "Flame Cerberus",
+    "output": "Flame Cerebrus",
     "attack": 2100,
     "defense": 1800,
     "type": "Monster"
@@ -40937,7 +40921,7 @@ var monsterfuseDB = TAFFY([
   },
   {
     "left": "Silver Fang",
-    "right": "Queen of Autmn Leaves",
+    "right": "Queen of Autumn Leaves",
     "output": "Nekogal #2",
     "attack": 1900,
     "defense": 2000,
@@ -41034,7 +41018,7 @@ var monsterfuseDB = TAFFY([
   {
     "left": "Sinister Serpent",
     "right": "Clown Zombie",
-    "output": "Soul Hunters",
+    "output": "Soul Hunter",
     "attack": 2200,
     "defense": 1800,
     "type": "Monster"
@@ -41042,7 +41026,7 @@ var monsterfuseDB = TAFFY([
   {
     "left": "Sinister Serpent",
     "right": "Crass Clown",
-    "output": "Soul Hunters",
+    "output": "Soul Hunter",
     "attack": 2200,
     "defense": 1800,
     "type": "Monster"
@@ -41146,7 +41130,7 @@ var monsterfuseDB = TAFFY([
   {
     "left": "Skelengel",
     "right": "Machine Conversion Factory",
-    "output": "Harpy's Feather Duster",
+    "output": "Harpie's Feather Duster",
     "attack": 0,
     "defense": 0,
     "type": "Magic"
@@ -41186,7 +41170,7 @@ var monsterfuseDB = TAFFY([
   {
     "left": "Skelgon",
     "right": "Ancient Jar",
-    "output": "Stone Dragon",
+    "output": "Stone D.",
     "attack": 2000,
     "defense": 2300,
     "type": "Monster"
@@ -41242,7 +41226,7 @@ var monsterfuseDB = TAFFY([
   {
     "left": "Skelgon",
     "right": "Dimensional Warrior",
-    "output": "Sword Arm of the Dragon",
+    "output": "Sword Arm of Dragon",
     "attack": 1750,
     "defense": 2030,
     "type": "Monster"
@@ -41330,7 +41314,7 @@ var monsterfuseDB = TAFFY([
   {
     "left": "Skelgon",
     "right": "Pot the Trick",
-    "output": "Stone Dragon",
+    "output": "Stone D.",
     "attack": 2000,
     "defense": 2300,
     "type": "Monster"
@@ -41785,7 +41769,7 @@ var monsterfuseDB = TAFFY([
   },
   {
     "left": "Skull Servant",
-    "right": "Sealed Exodia's Left Arm",
+    "right": "Left Arm of the Forbidden One",
     "output": "Magical Ghost",
     "attack": 1300,
     "defense": 1400,
@@ -41937,7 +41921,7 @@ var monsterfuseDB = TAFFY([
   },
   {
     "left": "Sky Dragon",
-    "right": "Blot Escargo",
+    "right": "Bolt Escargot",
     "output": "Twin-Headed Thunder Dragon",
     "attack": 2800,
     "defense": 2100,
@@ -42090,7 +42074,7 @@ var monsterfuseDB = TAFFY([
   {
     "left": "Snakeyashi",
     "right": "Lesser Dragon",
-    "output": "Black Dragon Jungle King",
+    "output": "B. Dragon Jungle King",
     "attack": 2100,
     "defense": 1800,
     "type": "Monster"
@@ -42161,7 +42145,7 @@ var monsterfuseDB = TAFFY([
   },
   {
     "left": "Sonic Maid",
-    "right": "The Judgment Hand",
+    "right": "The Judgement Hand",
     "output": "Musician King",
     "attack": 1750,
     "defense": 1500,
@@ -42218,7 +42202,7 @@ var monsterfuseDB = TAFFY([
   {
     "left": "Spike Seadra",
     "right": "Ancient Jar",
-    "output": "Stone Dragon",
+    "output": "Stone D.",
     "attack": 2000,
     "defense": 2300,
     "type": "Monster"
@@ -42290,7 +42274,7 @@ var monsterfuseDB = TAFFY([
   {
     "left": "Spike Seadra",
     "right": "Griggle",
-    "output": "Black Dragon Jungle King",
+    "output": "B. Dragon Jungle King",
     "attack": 2100,
     "defense": 1800,
     "type": "Monster"
@@ -42338,7 +42322,7 @@ var monsterfuseDB = TAFFY([
   {
     "left": "Spike Seadra",
     "right": "Muka Muka",
-    "output": "Stone Dragon",
+    "output": "Stone D.",
     "attack": 2000,
     "defense": 2300,
     "type": "Monster"
@@ -42410,7 +42394,7 @@ var monsterfuseDB = TAFFY([
   {
     "left": "Stain Storm",
     "right": "MetalMorph",
-    "output": "Psycho Puppet Ritual",
+    "output": "Puppet Ritual",
     "attack": 0,
     "defense": 0,
     "type": "Ritual"
@@ -42570,7 +42554,7 @@ var monsterfuseDB = TAFFY([
   {
     "left": "Stone Armadiller",
     "right": "Darkfire Dragon",
-    "output": "Stone Dragon",
+    "output": "Stone D.",
     "attack": 2000,
     "defense": 2300,
     "type": "Monster"
@@ -42625,7 +42609,7 @@ var monsterfuseDB = TAFFY([
   },
   {
     "left": "Stone Armadiller",
-    "right": "Waster Magician",
+    "right": "Water Magician",
     "output": "Mystical Sand",
     "attack": 2100,
     "defense": 1700,
@@ -42634,13 +42618,13 @@ var monsterfuseDB = TAFFY([
   {
     "left": "Stone Armadiller",
     "right": "Yamatano Dragon Scroll",
-    "output": "Stone Dragon",
+    "output": "Stone D.",
     "attack": 2000,
     "defense": 2300,
     "type": "Monster"
   },
   {
-    "left": "Stone Dragon",
+    "left": "Stone D.",
     "right": "Bolt Escargot",
     "output": "Twin-Headed Thunder Dragon",
     "attack": 2800,
@@ -42648,7 +42632,7 @@ var monsterfuseDB = TAFFY([
     "type": "Monster"
   },
   {
-    "left": "Stone Dragon",
+    "left": "Stone D.",
     "right": "Bolt Penguin",
     "output": "Twin-Headed Thunder Dragon",
     "attack": 2800,
@@ -42656,15 +42640,15 @@ var monsterfuseDB = TAFFY([
     "type": "Monster"
   },
   {
-    "left": "Stone Dragon",
+    "left": "Stone D.",
     "right": "Darkworld Thorns",
-    "output": "Black Dragon Jungle King",
+    "output": "B. Dragon Jungle King",
     "attack": 2100,
     "defense": 1800,
     "type": "Monster"
   },
   {
-    "left": "Stone Dragon",
+    "left": "Stone D.",
     "right": "Electric Lizard",
     "output": "Twin-Headed Thunder Dragon",
     "attack": 2800,
@@ -42672,7 +42656,7 @@ var monsterfuseDB = TAFFY([
     "type": "Monster"
   },
   {
-    "left": "Stone Dragon",
+    "left": "Stone D.",
     "right": "Electric Snake",
     "output": "Twin-Headed Thunder Dragon",
     "attack": 2800,
@@ -42680,7 +42664,7 @@ var monsterfuseDB = TAFFY([
     "type": "Monster"
   },
   {
-    "left": "Stone Dragon",
+    "left": "Stone D.",
     "right": "Kaminari Attack",
     "output": "Twin-Headed Thunder Dragon",
     "attack": 2800,
@@ -42688,7 +42672,7 @@ var monsterfuseDB = TAFFY([
     "type": "Monster"
   },
   {
-    "left": "Stone Dragon",
+    "left": "Stone D.",
     "right": "Kaminarikozou",
     "output": "Twin-Headed Thunder Dragon",
     "attack": 2800,
@@ -42696,7 +42680,7 @@ var monsterfuseDB = TAFFY([
     "type": "Monster"
   },
   {
-    "left": "Stone Dragon",
+    "left": "Stone D.",
     "right": "LaLa Li-oon",
     "output": "Twin-Headed Thunder Dragon",
     "attack": 2800,
@@ -42704,7 +42688,7 @@ var monsterfuseDB = TAFFY([
     "type": "Monster"
   },
   {
-    "left": "Stone Dragon",
+    "left": "Stone D.",
     "right": "Lunar Queen Elzaim",
     "output": "Mystical Sand",
     "attack": 2100,
@@ -42712,7 +42696,7 @@ var monsterfuseDB = TAFFY([
     "type": "Monster"
   },
   {
-    "left": "Stone Dragon",
+    "left": "Stone D.",
     "right": "Mega Thunderball",
     "output": "Twin-Headed Thunder Dragon",
     "attack": 2800,
@@ -42720,7 +42704,7 @@ var monsterfuseDB = TAFFY([
     "type": "Monster"
   },
   {
-    "left": "Stone Dragon",
+    "left": "Stone D.",
     "right": "Oscillo Hero #2",
     "output": "Twin-Headed Thunder Dragon",
     "attack": 2800,
@@ -42728,7 +42712,7 @@ var monsterfuseDB = TAFFY([
     "type": "Monster"
   },
   {
-    "left": "Stone Dragon",
+    "left": "Stone D.",
     "right": "Sanga of the Thunder",
     "output": "Twin-Headed Thunder Dragon",
     "attack": 2800,
@@ -42736,7 +42720,7 @@ var monsterfuseDB = TAFFY([
     "type": "Monster"
   },
   {
-    "left": "Stone Dragon",
+    "left": "Stone D.",
     "right": "The Immortal of Thunder",
     "output": "Twin-Headed Thunder Dragon",
     "attack": 2800,
@@ -42744,7 +42728,7 @@ var monsterfuseDB = TAFFY([
     "type": "Monster"
   },
   {
-    "left": "Stone Dragon",
+    "left": "Stone D.",
     "right": "Thunder Dragon",
     "output": "Twin-Headed Thunder Dragon",
     "attack": 2800,
@@ -42752,7 +42736,7 @@ var monsterfuseDB = TAFFY([
     "type": "Monster"
   },
   {
-    "left": "Stone Dragon",
+    "left": "Stone D.",
     "right": "Time Wizard",
     "output": "Thousand Dragon",
     "attack": 2400,
@@ -42760,7 +42744,7 @@ var monsterfuseDB = TAFFY([
     "type": "Monster"
   },
   {
-    "left": "Stone Dragon",
+    "left": "Stone D.",
     "right": "Tripwire Beast",
     "output": "Twin-Headed Thunder Dragon",
     "attack": 2800,
@@ -42768,7 +42752,7 @@ var monsterfuseDB = TAFFY([
     "type": "Monster"
   },
   {
-    "left": "Stone Dragon",
+    "left": "Stone D.",
     "right": "Water Magician",
     "output": "Mystical Sand",
     "attack": 2100,
@@ -42842,7 +42826,7 @@ var monsterfuseDB = TAFFY([
   {
     "left": "Succubus Knight",
     "right": "Crawling Dragon #2",
-    "output": "Sword Arm of the Dragon",
+    "output": "Sword Arm of Dragon",
     "attack": 1750,
     "defense": 2030,
     "type": "Monster"
@@ -42881,8 +42865,8 @@ var monsterfuseDB = TAFFY([
   },
   {
     "left": "Summoned Skull",
-    "right": "Red-Eyes Black Dragon",
-    "output": "Black Skull Dragon",
+    "right": "Red-eyes B. Dragon",
+    "output": "B. Skull Dragon",
     "attack": 3200,
     "defense": 2500,
     "type": "Monster"
@@ -42922,7 +42906,7 @@ var monsterfuseDB = TAFFY([
   {
     "left": "Supporter in the Shadows",
     "right": "Fire Eye",
-    "output": "Charubin Fire Knight",
+    "output": "Charubin the Fire Knight",
     "attack": 1100,
     "defense": 800,
     "type": "Monster"
@@ -42953,7 +42937,7 @@ var monsterfuseDB = TAFFY([
   },
   {
     "left": "Supporter in the Shadows",
-    "right": "The Judgment Hand",
+    "right": "The Judgement Hand",
     "output": "Judge Man",
     "attack": 2200,
     "defense": 1500,
@@ -43010,7 +42994,7 @@ var monsterfuseDB = TAFFY([
   {
     "left": "Sword Arm of Dragon",
     "right": "Dissolverock",
-    "output": "Stone Dragon",
+    "output": "Stone D.",
     "attack": 2000,
     "defense": 2300,
     "type": "Monster"
@@ -43058,7 +43042,7 @@ var monsterfuseDB = TAFFY([
   {
     "left": "Sword Arm of Dragon",
     "right": "Firegrass",
-    "output": "Black Dragon Jungle King",
+    "output": "B. Dragon Jungle King",
     "attack": 2100,
     "defense": 1800,
     "type": "Monster"
@@ -43074,7 +43058,7 @@ var monsterfuseDB = TAFFY([
   {
     "left": "Sword Arm of Dragon",
     "right": "Griggle",
-    "output": "Black Dragon Jungle King",
+    "output": "B. Dragon Jungle King",
     "attack": 2100,
     "defense": 1800,
     "type": "Monster"
@@ -43146,7 +43130,7 @@ var monsterfuseDB = TAFFY([
   {
     "left": "Sword Arm of Dragon",
     "right": "Trent",
-    "output": "Black Dragon Jungle King",
+    "output": "B. Dragon Jungle King",
     "attack": 2100,
     "defense": 1800,
     "type": "Monster"
@@ -43186,7 +43170,7 @@ var monsterfuseDB = TAFFY([
   {
     "left": "Swordsman From A Foreign Land",
     "right": "Armaill",
-    "output": "Charubin Fire Knight",
+    "output": "Charubin the Fire Knight",
     "attack": 1100,
     "defense": 800,
     "type": "Monster"
@@ -43234,14 +43218,14 @@ var monsterfuseDB = TAFFY([
   {
     "left": "Swordsman From A Foreign Land",
     "right": "Candle of Fate",
-    "output": "Charubin Fire Knight",
+    "output": "Charubin the Fire Knight",
     "attack": 1100,
     "defense": 800,
     "type": "Monster"
   },
   {
     "left": "Swordsman From A Foreign Land",
-    "right": "Charubin Fire Knight",
+    "right": "Charubin the Fire Knight",
     "output": "Flame Swordsman",
     "attack": 1800,
     "defense": 1600,
@@ -43298,7 +43282,7 @@ var monsterfuseDB = TAFFY([
   {
     "left": "Swordsman From A Foreign Land",
     "right": "Dragon Piper",
-    "output": "Charubin Fire Knight",
+    "output": "Charubin the Fire Knight",
     "attack": 1100,
     "defense": 800,
     "type": "Monster"
@@ -43314,7 +43298,7 @@ var monsterfuseDB = TAFFY([
   {
     "left": "Swordsman From A Foreign Land",
     "right": "Fire Eye",
-    "output": "Charubin Fire Knight",
+    "output": "Charubin the Fire Knight",
     "attack": 1100,
     "defense": 800,
     "type": "Monster"
@@ -43330,7 +43314,7 @@ var monsterfuseDB = TAFFY([
   {
     "left": "Swordsman From A Foreign Land",
     "right": "Firegrass",
-    "output": "Charubin Fire Knight",
+    "output": "Charubin the Fire Knight",
     "attack": 1100,
     "defense": 800,
     "type": "Monster"
@@ -43362,7 +43346,7 @@ var monsterfuseDB = TAFFY([
   {
     "left": "Swordsman From A Foreign Land",
     "right": "Flame Viper",
-    "output": "Charubin Fire Knight",
+    "output": "Charubin the Fire Knight",
     "attack": 1100,
     "defense": 800,
     "type": "Monster"
@@ -43578,7 +43562,7 @@ var monsterfuseDB = TAFFY([
   {
     "left": "Swordsman From A Foreign Land",
     "right": "Spike Seadra",
-    "output": "Sword Arm of the Dragon",
+    "output": "Sword Arm of Dragon",
     "attack": 1750,
     "defense": 2030,
     "type": "Monster"
@@ -43618,7 +43602,7 @@ var monsterfuseDB = TAFFY([
   {
     "left": "Swordsman From A Foreign Land",
     "right": "Wings of Wicked Flame",
-    "output": "Charubin Fire Knight",
+    "output": "Charubin the Fire Knight",
     "attack": 1100,
     "defense": 800,
     "type": "Monster"
@@ -43641,7 +43625,7 @@ var monsterfuseDB = TAFFY([
   },
   {
     "left": "Swordstalker",
-    "right": "The Judgment Hand",
+    "right": "The Judgement Hand",
     "output": "Judge Man",
     "attack": 2200,
     "defense": 1500,
@@ -43770,7 +43754,7 @@ var monsterfuseDB = TAFFY([
   {
     "left": "Tentacle Plant",
     "right": "Blackland Fire Dragon",
-    "output": "Black Dragon Jungle King",
+    "output": "B. Dragon Jungle King",
     "attack": 2100,
     "defense": 1800,
     "type": "Monster"
@@ -44233,7 +44217,7 @@ var monsterfuseDB = TAFFY([
   },
   {
     "left": "The Immortal of Thunder",
-    "right": "Black Dragon Jungle King",
+    "right": "B. Dragon Jungle King",
     "output": "Twin-Headed Thunder Dragon",
     "attack": 2800,
     "defense": 2100,
@@ -44401,7 +44385,7 @@ var monsterfuseDB = TAFFY([
   },
   {
     "left": "The Immortal of Thunder",
-    "right": "Red-Eyes Black Dragon",
+    "right": "Red-eyes B. Dragon",
     "output": "Twin-Headed Thunder Dragon",
     "attack": 2800,
     "defense": 2100,
@@ -44441,7 +44425,7 @@ var monsterfuseDB = TAFFY([
   },
   {
     "left": "The Immortal of Thunder",
-    "right": "Stone Dragon",
+    "right": "Stone D.",
     "output": "Twin-Headed Thunder Dragon",
     "attack": 2800,
     "defense": 2100,
@@ -44488,15 +44472,15 @@ var monsterfuseDB = TAFFY([
     "type": "Monster"
   },
   {
-    "left": "The Judgment Hand",
-    "right": "Ansastu",
+    "left": "The Judgement Hand",
+    "right": "Ansatsu",
     "output": "Judge Man",
     "attack": 2200,
     "defense": 1500,
     "type": "Monster"
   },
   {
-    "left": "The Judgment Hand",
+    "left": "The Judgement Hand",
     "right": "Axe Raider",
     "output": "Judge Man",
     "attack": 2200,
@@ -44504,7 +44488,7 @@ var monsterfuseDB = TAFFY([
     "type": "Monster"
   },
   {
-    "left": "The Judgment Hand",
+    "left": "The Judgement Hand",
     "right": "Blast Juggler",
     "output": "Flame Swordsman",
     "attack": 1800,
@@ -44512,7 +44496,7 @@ var monsterfuseDB = TAFFY([
     "type": "Monster"
   },
   {
-    "left": "The Judgment Hand",
+    "left": "The Judgement Hand",
     "right": "Celtic Guardian",
     "output": "Judge Man",
     "attack": 2200,
@@ -44520,7 +44504,7 @@ var monsterfuseDB = TAFFY([
     "type": "Monster"
   },
   {
-    "left": "The Judgment Hand",
+    "left": "The Judgement Hand",
     "right": "Dimensional Warrior",
     "output": "Judge Man",
     "attack": 2200,
@@ -44528,7 +44512,7 @@ var monsterfuseDB = TAFFY([
     "type": "Monster"
   },
   {
-    "left": "The Judgment Hand",
+    "left": "The Judgement Hand",
     "right": "Fiend's Hand",
     "output": "Armored Zombie",
     "attack": 1500,
@@ -44536,7 +44520,7 @@ var monsterfuseDB = TAFFY([
     "type": "Monster"
   },
   {
-    "left": "The Judgment Hand",
+    "left": "The Judgement Hand",
     "right": "Greenkappa",
     "output": "Judge Man",
     "attack": 2200,
@@ -44544,7 +44528,7 @@ var monsterfuseDB = TAFFY([
     "type": "Monster"
   },
   {
-    "left": "The Judgment Hand",
+    "left": "The Judgement Hand",
     "right": "Hibikime",
     "output": "Musician King",
     "attack": 1750,
@@ -44552,7 +44536,7 @@ var monsterfuseDB = TAFFY([
     "type": "Monster"
   },
   {
-    "left": "The Judgment Hand",
+    "left": "The Judgement Hand",
     "right": "Masked Clown",
     "output": "Judge Man",
     "attack": 2200,
@@ -44560,7 +44544,7 @@ var monsterfuseDB = TAFFY([
     "type": "Monster"
   },
   {
-    "left": "The Judgment Hand",
+    "left": "The Judgement Hand",
     "right": "Mech Mole Zombie",
     "output": "Armored Zombie",
     "attack": 1500,
@@ -44568,7 +44552,7 @@ var monsterfuseDB = TAFFY([
     "type": "Monster"
   },
   {
-    "left": "The Judgment Hand",
+    "left": "The Judgement Hand",
     "right": "Princess of Tsurugi",
     "output": "Judge Man",
     "attack": 2200,
@@ -44576,7 +44560,7 @@ var monsterfuseDB = TAFFY([
     "type": "Monster"
   },
   {
-    "left": "The Judgment Hand",
+    "left": "The Judgement Hand",
     "right": "Queen's Double",
     "output": "Judge Man",
     "attack": 2200,
@@ -44584,7 +44568,7 @@ var monsterfuseDB = TAFFY([
     "type": "Monster"
   },
   {
-    "left": "The Judgment Hand",
+    "left": "The Judgement Hand",
     "right": "Sonic Maid",
     "output": "Musician King",
     "attack": 1750,
@@ -44592,7 +44576,7 @@ var monsterfuseDB = TAFFY([
     "type": "Monster"
   },
   {
-    "left": "The Judgment Hand",
+    "left": "The Judgement Hand",
     "right": "Supporter in the Shadows",
     "output": "Judge Man",
     "attack": 2200,
@@ -44600,7 +44584,7 @@ var monsterfuseDB = TAFFY([
     "type": "Monster"
   },
   {
-    "left": "The Judgment Hand",
+    "left": "The Judgement Hand",
     "right": "Swordstalker",
     "output": "Judge Man",
     "attack": 2200,
@@ -44608,7 +44592,7 @@ var monsterfuseDB = TAFFY([
     "type": "Monster"
   },
   {
-    "left": "The Judgment Hand",
+    "left": "The Judgement Hand",
     "right": "Wow Warrior",
     "output": "Judge Man",
     "attack": 2200,
@@ -44616,7 +44600,7 @@ var monsterfuseDB = TAFFY([
     "type": "Monster"
   },
   {
-    "left": "The Judgment Hand",
+    "left": "The Judgement Hand",
     "right": "Yamatano Dragon Scroll",
     "output": "Sword Arm of Dragon",
     "attack": 1750,
@@ -44642,7 +44626,7 @@ var monsterfuseDB = TAFFY([
   {
     "left": "The Little Swordsman of Aile",
     "right": "Armaill",
-    "output": "Charubin Fire Knight",
+    "output": "Charubin the Fire Knight",
     "attack": 1100,
     "defense": 800,
     "type": "Monster"
@@ -44665,7 +44649,7 @@ var monsterfuseDB = TAFFY([
   },
   {
     "left": "The Little Swordsman of Aile",
-    "right": "Charubin Fire Knight",
+    "right": "Charubin the Fire Knight",
     "output": "Flame Swordsman",
     "attack": 1800,
     "defense": 1600,
@@ -44698,7 +44682,7 @@ var monsterfuseDB = TAFFY([
   {
     "left": "The Little Swordsman of Aile",
     "right": "Fire Eye",
-    "output": "Charubin Fire Knight",
+    "output": "Charubin the Fire Knight",
     "attack": 1100,
     "defense": 800,
     "type": "Monster"
@@ -44816,7 +44800,7 @@ var monsterfuseDB = TAFFY([
     "type": "Monster"
   },
   {
-    "left": "The Shadow that Controls the Dark",
+    "left": "The Shadow Who Controls the Dark",
     "right": "Celtic Guardian",
     "output": "Dark Elf",
     "attack": 2000,
@@ -44824,7 +44808,7 @@ var monsterfuseDB = TAFFY([
     "type": "Monster"
   },
   {
-    "left": "The Shadow that Controls the Dark",
+    "left": "The Shadow Who Controls the Dark",
     "right": "Fungi of the Musk",
     "output": "Darkworld Thorns",
     "attack": 1200,
@@ -44832,7 +44816,7 @@ var monsterfuseDB = TAFFY([
     "type": "Monster"
   },
   {
-    "left": "The Shadow that Controls the Dark",
+    "left": "The Shadow Who Controls the Dark",
     "right": "Job-Change Mirror",
     "output": "Summoned Skull",
     "attack": 2500,
@@ -44840,7 +44824,7 @@ var monsterfuseDB = TAFFY([
     "type": "Monster"
   },
   {
-    "left": "The Shadow that Controls the Dark",
+    "left": "The Shadow Who Controls the Dark",
     "right": "Mystical Elf",
     "output": "Dark Elf",
     "attack": 2000,
@@ -44848,7 +44832,7 @@ var monsterfuseDB = TAFFY([
     "type": "Monster"
   },
   {
-    "left": "The Shadow that Controls the Dark",
+    "left": "The Shadow Who Controls the Dark",
     "right": "Mystical Sheep #2",
     "output": "Mystical Sheep #1",
     "attack": 1150,
@@ -44856,7 +44840,7 @@ var monsterfuseDB = TAFFY([
     "type": "Monster"
   },
   {
-    "left": "The Shadow that Controls the Dark",
+    "left": "The Shadow Who Controls the Dark",
     "right": "One-eyed Shield Dragon",
     "output": "Blackland Fire Dragon",
     "attack": 1500,
@@ -44864,7 +44848,7 @@ var monsterfuseDB = TAFFY([
     "type": "Monster"
   },
   {
-    "left": "The Shadow that Controls the Dark",
+    "left": "The Shadow Who Controls the Dark",
     "right": "Yamatano Dragon Scroll",
     "output": "Blackland Fire Dragon",
     "attack": 1500,
@@ -45233,8 +45217,8 @@ var monsterfuseDB = TAFFY([
   },
   {
     "left": "Thunder Dragon",
-    "right": "D.Human",
-    "output": "Sword Arm of the Dragon",
+    "right": "D. Human",
+    "output": "Sword Arm of Dragon",
     "attack": 1750,
     "defense": 2030,
     "type": "Monster"
@@ -45274,7 +45258,7 @@ var monsterfuseDB = TAFFY([
   {
     "left": "Thunder Dragon",
     "right": "Firegrass",
-    "output": "Black Dragon Jungle King",
+    "output": "B. Dragon Jungle King",
     "attack": 2100,
     "defense": 1800,
     "type": "Monster"
@@ -45290,7 +45274,7 @@ var monsterfuseDB = TAFFY([
   {
     "left": "Thunder Dragon",
     "right": "Haniwa",
-    "output": "Stone Dragon",
+    "output": "Stone D.",
     "attack": 2000,
     "defense": 2300,
     "type": "Monster"
@@ -45401,7 +45385,7 @@ var monsterfuseDB = TAFFY([
   },
   {
     "left": "Thunder Dragon",
-    "right": "Red-Eyes Black Dragon",
+    "right": "Red-eyes B. Dragon",
     "output": "Twin-Headed Thunder Dragon",
     "attack": 2800,
     "defense": 2100,
@@ -45433,7 +45417,7 @@ var monsterfuseDB = TAFFY([
   },
   {
     "left": "Thunder Dragon",
-    "right": "Stone Dragon",
+    "right": "Stone D.",
     "output": "Twin-Headed Thunder Dragon",
     "attack": 2800,
     "defense": 2100,
@@ -45490,7 +45474,7 @@ var monsterfuseDB = TAFFY([
   {
     "left": "Tiger Axe",
     "right": "Darkfire Dragon",
-    "output": "Cacoon of Evolution",
+    "output": "Cocoon of Evolution",
     "attack": 0,
     "defense": 2000,
     "type": "Monster"
@@ -45697,7 +45681,7 @@ var monsterfuseDB = TAFFY([
   },
   {
     "left": "Time Wizard",
-    "right": "Stone Dragon",
+    "right": "Stone D.",
     "output": "Thousand Dragon",
     "attack": 2400,
     "defense": 2000,
@@ -45945,7 +45929,7 @@ var monsterfuseDB = TAFFY([
   },
   {
     "left": "Trap Master",
-    "right": "Charubin Fire Knight",
+    "right": "Charubin the Fire Knight",
     "output": "Flame Swordsman",
     "attack": 1800,
     "defense": 1600,
@@ -45962,7 +45946,7 @@ var monsterfuseDB = TAFFY([
   {
     "left": "Trap Master",
     "right": "Fire Eye",
-    "output": "Charubin Fire Knight",
+    "output": "Charubin the Fire Knight",
     "attack": 1100,
     "defense": 800,
     "type": "Monster"
@@ -46042,7 +46026,7 @@ var monsterfuseDB = TAFFY([
   {
     "left": "Trent",
     "right": "Sword Arm of Dragon",
-    "output": "Black Dragon Jungle King",
+    "output": "B. Dragon Jungle King",
     "attack": 2100,
     "defense": 1800,
     "type": "Monster"
@@ -46145,7 +46129,7 @@ var monsterfuseDB = TAFFY([
   },
   {
     "left": "Tripwire Beast",
-    "right": "Red-Eyes Black Dragon",
+    "right": "Red-eyes B. Dragon",
     "output": "Twin-Headed Thunder Dragon",
     "attack": 2800,
     "defense": 2100,
@@ -46177,7 +46161,7 @@ var monsterfuseDB = TAFFY([
   },
   {
     "left": "Tripwire Beast",
-    "right": "Stone Dragon",
+    "right": "Stone D.",
     "output": "Twin-Headed Thunder Dragon",
     "attack": 2800,
     "defense": 2100,
@@ -46193,7 +46177,7 @@ var monsterfuseDB = TAFFY([
   },
   {
     "left": "Tripwire Beast",
-    "right": "Typhone #2",
+    "right": "Tyhone #2",
     "output": "Twin-Headed Thunder Dragon",
     "attack": 2800,
     "defense": 2100,
@@ -46434,7 +46418,7 @@ var monsterfuseDB = TAFFY([
   {
     "left": "Twin Long Rods #2",
     "right": "Bolt Penguin",
-    "output": "Bolt Escargo",
+    "output": "Bolt Escargot",
     "attack": 1400,
     "defense": 1500,
     "type": "Monster"
@@ -46490,7 +46474,7 @@ var monsterfuseDB = TAFFY([
   {
     "left": "Tyhone #2",
     "right": "Blackland Fire Dragon",
-    "output": "Red-Eyes Black Dragon",
+    "output": "Red-eyes B. Dragon",
     "attack": 2400,
     "defense": 2000,
     "type": "Monster"
@@ -46522,7 +46506,7 @@ var monsterfuseDB = TAFFY([
   {
     "left": "Umi",
     "right": "Dark Hole",
-    "output": "Eternal Drought",
+    "output": "Eternal Draught",
     "attack": 0,
     "defense": 0,
     "type": "Magic"
@@ -46554,7 +46538,7 @@ var monsterfuseDB = TAFFY([
   {
     "left": "Umi",
     "right": "Mystical Moon",
-    "output": "Eternal Drought",
+    "output": "Eternal Draught",
     "attack": 0,
     "defense": 0,
     "type": "Magic"
@@ -46602,14 +46586,14 @@ var monsterfuseDB = TAFFY([
   {
     "left": "Unknown Warrior of Fiend",
     "right": "Candle of Fate",
-    "output": "Charubin Fire Knight",
+    "output": "Charubin the Fire Knight",
     "attack": 1100,
     "defense": 800,
     "type": "Monster"
   },
   {
     "left": "Unknown Warrior of Fiend",
-    "right": "Charubin Fire Knight",
+    "right": "Charubin the Fire Knight",
     "output": "Flame Swordsman",
     "attack": 1800,
     "defense": 1600,
@@ -46650,14 +46634,14 @@ var monsterfuseDB = TAFFY([
   {
     "left": "Unknown Warrior of Fiend",
     "right": "Hinotama Soul",
-    "output": "Charubin Fire Knight",
+    "output": "Charubin the Fire Knight",
     "attack": 1100,
     "defense": 800,
     "type": "Monster"
   },
   {
     "left": "Unknown Warrior of Fiend",
-    "right": "Holograph",
+    "right": "Holograh",
     "output": "Cyber Soldier",
     "attack": 1500,
     "defense": 1700,
@@ -46770,7 +46754,7 @@ var monsterfuseDB = TAFFY([
   {
     "left": "Vermillion Sparrow",
     "right": "Wolf",
-    "output": "Flame Cerberus",
+    "output": "Flame Cerebrus",
     "attack": 2100,
     "defense": 1800,
     "type": "Monster"
@@ -46778,7 +46762,7 @@ var monsterfuseDB = TAFFY([
   {
     "left": "Versago the Destroyer",
     "right": "Arlownay",
-    "output": "Rose Specter of Dunn",
+    "output": "Rose Spectre of Dunn",
     "attack": 2000,
     "defense": 1800,
     "type": "Monster"
@@ -46826,7 +46810,7 @@ var monsterfuseDB = TAFFY([
   {
     "left": "Violet Crystal",
     "right": "Machine Conversion Factory",
-    "output": "Laser Cannon Arm",
+    "output": "Laser Cannon Armor",
     "attack": 0,
     "defense": 0,
     "type": "Equip"
@@ -46842,7 +46826,7 @@ var monsterfuseDB = TAFFY([
   {
     "left": "Vishwar Randi",
     "right": "Armaill",
-    "output": "Charubin Fire Knight",
+    "output": "Charubin the Fire Knight",
     "attack": 1100,
     "defense": 800,
     "type": "Monster"
@@ -46865,7 +46849,7 @@ var monsterfuseDB = TAFFY([
   },
   {
     "left": "Vishwar Randi",
-    "right": "Charubin Fire Knight",
+    "right": "Charubin the Fire Knight",
     "output": "Flame Swordsman",
     "attack": 1800,
     "defense": 1600,
@@ -46906,7 +46890,7 @@ var monsterfuseDB = TAFFY([
   {
     "left": "Vishwar Randi",
     "right": "Fire Eye",
-    "output": "Charubin Fire Knight",
+    "output": "Charubin the Fire Knight",
     "attack": 1100,
     "defense": 800,
     "type": "Monster"
@@ -46922,7 +46906,7 @@ var monsterfuseDB = TAFFY([
   {
     "left": "Vishwar Randi",
     "right": "Flame Manipulator",
-    "output": "Charubin Fire Knight",
+    "output": "Charubin the Fire Knight",
     "attack": 1100,
     "defense": 800,
     "type": "Monster"
@@ -47018,13 +47002,13 @@ var monsterfuseDB = TAFFY([
   {
     "left": "Vishwar Randi",
     "right": "Wings of Wicked Flame",
-    "output": "Charubin Fire Knight",
+    "output": "Charubin the Fire Knight",
     "attack": 1100,
     "defense": 800,
     "type": "Monster"
   },
   {
-    "left": "W-Warrior",
+    "left": "Wow Warrior",
     "right": "Cyber Commander",
     "output": "Cyber Soldier",
     "attack": 1500,
@@ -47032,7 +47016,7 @@ var monsterfuseDB = TAFFY([
     "type": "Monster"
   },
   {
-    "left": "W-Warrior",
+    "left": "Wow Warrior",
     "right": "Fiend's Hand",
     "output": "Zombie Warrior",
     "attack": 1200,
@@ -47040,7 +47024,7 @@ var monsterfuseDB = TAFFY([
     "type": "Monster"
   },
   {
-    "left": "W-Warrior",
+    "left": "Wow Warrior",
     "right": "Griggle",
     "output": "Bean Soldier",
     "attack": 1400,
@@ -47048,15 +47032,15 @@ var monsterfuseDB = TAFFY([
     "type": "Monster"
   },
   {
-    "left": "W-Warrior",
+    "left": "Wow Warrior",
     "right": "The Judgement Hand",
-    "output": "Judgeman",
+    "output": "Judge Man",
     "attack": 2200,
     "defense": 1500,
     "type": "Monster"
   },
   {
-    "left": "W-Warrior",
+    "left": "Wow Warrior",
     "right": "Morphing Jar",
     "output": "Minomushi Warrior",
     "attack": 1300,
@@ -47064,7 +47048,7 @@ var monsterfuseDB = TAFFY([
     "type": "Monster"
   },
   {
-    "left": "W-Warrior",
+    "left": "Wow Warrior",
     "right": "Obese Marmot of Nefariousness",
     "output": "Tiger Axe",
     "attack": 1300,
@@ -47073,7 +47057,7 @@ var monsterfuseDB = TAFFY([
   },
   {
     "left": "Warrior Elimination",
-    "right": "Beautiful Beast Tamer",
+    "right": "Beautiful Beast Trainer",
     "output": "Electro-Whip",
     "attack": 0,
     "defense": 0,
@@ -47322,7 +47306,7 @@ var monsterfuseDB = TAFFY([
   {
     "left": "Water Girl",
     "right": "Mega Thunderball",
-    "output": "Bolt Escargo",
+    "output": "Bolt Escargot",
     "attack": 1400,
     "defense": 1500,
     "type": "Monster"
@@ -47465,7 +47449,7 @@ var monsterfuseDB = TAFFY([
   },
   {
     "left": "Water Magician",
-    "right": "Stone Dragon",
+    "right": "Stone D.",
     "output": "Mystical Sand",
     "attack": 2100,
     "defense": 1700,
@@ -47914,7 +47898,7 @@ var monsterfuseDB = TAFFY([
   {
     "left": "White Dolphin",
     "right": "Hoshiningen",
-    "output": "7 Color Fish",
+    "output": "7 Colored Fish",
     "attack": 1800,
     "defense": 800,
     "type": "Monster"
@@ -48018,7 +48002,7 @@ var monsterfuseDB = TAFFY([
   {
     "left": "White Dolphin",
     "right": "Rainbow Flower",
-    "output": "7 Color Fish",
+    "output": "7 Colored Fish",
     "attack": 1800,
     "defense": 800,
     "type": "Monster"
@@ -48105,7 +48089,7 @@ var monsterfuseDB = TAFFY([
   },
   {
     "left": "Wicked Dragon with the Ersatz Head",
-    "right": "Amoeba",
+    "right": "Ameba",
     "output": "Spike Seadra",
     "attack": 1600,
     "defense": 1300,
@@ -48122,7 +48106,7 @@ var monsterfuseDB = TAFFY([
   {
     "left": "Wicked Dragon with the Ersatz Head",
     "right": "Ancient Jar",
-    "output": "Stone Dragon",
+    "output": "Stone D.",
     "attack": 2000,
     "defense": 2300,
     "type": "Monster"
@@ -48234,7 +48218,7 @@ var monsterfuseDB = TAFFY([
   {
     "left": "Wicked Dragon with the Ersatz Head",
     "right": "Darkworld Thorns",
-    "output": "Black Dragon Jungle King",
+    "output": "B. Dragon Jungle King",
     "attack": 2100,
     "defense": 1800,
     "type": "Monster"
@@ -48258,7 +48242,7 @@ var monsterfuseDB = TAFFY([
   {
     "left": "Wicked Dragon with the Ersatz Head",
     "right": "Dissolverock",
-    "output": "Stone Dragon",
+    "output": "Stone D.",
     "attack": 2000,
     "defense": 2300,
     "type": "Monster"
@@ -48330,7 +48314,7 @@ var monsterfuseDB = TAFFY([
   {
     "left": "Wicked Dragon with the Ersatz Head",
     "right": "Firegrass",
-    "output": "Black Dragon Jungle King",
+    "output": "B. Dragon Jungle King",
     "attack": 2100,
     "defense": 1800,
     "type": "Monster"
@@ -48362,7 +48346,7 @@ var monsterfuseDB = TAFFY([
   {
     "left": "Wicked Dragon with the Ersatz Head",
     "right": "Griggle",
-    "output": "Black Dragon Jungle King",
+    "output": "B. Dragon Jungle King",
     "attack": 2100,
     "defense": 1800,
     "type": "Monster"
@@ -48370,7 +48354,7 @@ var monsterfuseDB = TAFFY([
   {
     "left": "Wicked Dragon with the Ersatz Head",
     "right": "Haniwa",
-    "output": "Stone Dragon",
+    "output": "Stone D.",
     "attack": 2000,
     "defense": 2300,
     "type": "Monster"
@@ -48490,7 +48474,7 @@ var monsterfuseDB = TAFFY([
   {
     "left": "Wicked Dragon with the Ersatz Head",
     "right": "Morphing Jar",
-    "output": "Stone Dragon",
+    "output": "Stone D.",
     "attack": 2000,
     "defense": 2300,
     "type": "Monster"
@@ -48498,7 +48482,7 @@ var monsterfuseDB = TAFFY([
   {
     "left": "Wicked Dragon with the Ersatz Head",
     "right": "Muka Muka",
-    "output": "Stone Dragon",
+    "output": "Stone D.",
     "attack": 2000,
     "defense": 2300,
     "type": "Monster"
@@ -48538,7 +48522,7 @@ var monsterfuseDB = TAFFY([
   {
     "left": "Wicked Dragon with the Ersatz Head",
     "right": "Pot the Trick",
-    "output": "Stone Dragon",
+    "output": "Stone D.",
     "attack": 2000,
     "defense": 2300,
     "type": "Monster"
@@ -48554,7 +48538,7 @@ var monsterfuseDB = TAFFY([
   {
     "left": "Wicked Dragon with the Ersatz Head",
     "right": "Rhaimundos of the Red Sword",
-    "output": "D.Human",
+    "output": "D. Human",
     "attack": 1300,
     "defense": 1100,
     "type": "Monster"
@@ -48721,7 +48705,7 @@ var monsterfuseDB = TAFFY([
   },
   {
     "left": "Wing Egg Elf",
-    "right": "Ancient Sorceror",
+    "right": "Ancient Sorcerer",
     "output": "Dark Elf",
     "attack": 2000,
     "defense": 800,
@@ -48897,7 +48881,7 @@ var monsterfuseDB = TAFFY([
   },
   {
     "left": "Winged Dragon #2",
-    "right": "Charubin Fire Knight",
+    "right": "Charubin the Fire Knight",
     "output": "Mavelus",
     "attack": 1300,
     "defense": 900,
@@ -48946,7 +48930,7 @@ var monsterfuseDB = TAFFY([
   {
     "left": "Winged Trumpeter",
     "right": "Machine Conversion Factory",
-    "output": "Harpies Feather Duster",
+    "output": "Harpie's Feather Duster",
     "attack": 0,
     "defense": 0,
     "type": "Magic"
@@ -48978,7 +48962,7 @@ var monsterfuseDB = TAFFY([
   {
     "left": "Wings of Wicked Flame",
     "right": "Armed Ninja",
-    "output": "Charubin Fire Knight",
+    "output": "Charubin the Fire Knight",
     "attack": 1100,
     "defense": 800,
     "type": "Monster"
@@ -49002,7 +48986,7 @@ var monsterfuseDB = TAFFY([
   {
     "left": "Wings of Wicked Flame",
     "right": "Eyearmor",
-    "output": "Charubin Fire Knight",
+    "output": "Charubin the Fire Knight",
     "attack": 1100,
     "defense": 800,
     "type": "Monster"
@@ -49042,7 +49026,7 @@ var monsterfuseDB = TAFFY([
   {
     "left": "Wings of Wicked Flame",
     "right": "Griffore",
-    "output": "Flame Cerberus",
+    "output": "Flame Cerebrus",
     "attack": 2100,
     "defense": 1800,
     "type": "Monster"
@@ -49058,7 +49042,7 @@ var monsterfuseDB = TAFFY([
   {
     "left": "Wings of Wicked Flame",
     "right": "Hyo",
-    "output": "Charubin Fire Knight",
+    "output": "Charubin the Fire Knight",
     "attack": 1100,
     "defense": 800,
     "type": "Monster"
@@ -49066,7 +49050,7 @@ var monsterfuseDB = TAFFY([
   {
     "left": "Wings of Wicked Flame",
     "right": "Kagemusha of the Blue Flame",
-    "output": "Charubin Fire Knight",
+    "output": "Charubin the Fire Knight",
     "attack": 1100,
     "defense": 800,
     "type": "Monster"
@@ -49082,7 +49066,7 @@ var monsterfuseDB = TAFFY([
   {
     "left": "Wings of Wicked Flame",
     "right": "M-Warrior #1",
-    "output": "Charubin Fire Knight",
+    "output": "Charubin the Fire Knight",
     "attack": 1100,
     "defense": 800,
     "type": "Monster"
@@ -49090,7 +49074,7 @@ var monsterfuseDB = TAFFY([
   {
     "left": "Wings of Wicked Flame",
     "right": "M-Warrior #2",
-    "output": "Charubin Fire Knight",
+    "output": "Charubin the Fire Knight",
     "attack": 1100,
     "defense": 800,
     "type": "Monster"
@@ -49138,7 +49122,7 @@ var monsterfuseDB = TAFFY([
   {
     "left": "Wings of Wicked Flame",
     "right": "Mystic Horseman",
-    "output": "Flame Cerberus",
+    "output": "Flame Cerebrus",
     "attack": 2100,
     "defense": 1800,
     "type": "Monster"
@@ -49162,7 +49146,7 @@ var monsterfuseDB = TAFFY([
   {
     "left": "Wings of Wicked Flame",
     "right": "Princess of Tsurugi",
-    "output": "Charubin Fire Knight",
+    "output": "Charubin the Fire Knight",
     "attack": 1100,
     "defense": 800,
     "type": "Monster"
@@ -49178,7 +49162,7 @@ var monsterfuseDB = TAFFY([
   {
     "left": "Wings of Wicked Flame",
     "right": "Silver Fang",
-    "output": "Flame Cerebus",
+    "output": "Flame Cerebrus",
     "attack": 2100,
     "defense": 1800,
     "type": "Monster"
@@ -49202,7 +49186,7 @@ var monsterfuseDB = TAFFY([
   {
     "left": "Wings of Wicked Flame",
     "right": "Swordsman From A Foreign Land",
-    "output": "Charubin Fire Knight",
+    "output": "Charubin the Fire Knight",
     "attack": 1100,
     "defense": 800,
     "type": "Monster"
@@ -49226,7 +49210,7 @@ var monsterfuseDB = TAFFY([
   {
     "left": "Wings of Wicked Flame",
     "right": "Vishwar Randi",
-    "output": "Charubin Fire Knight",
+    "output": "Charubin the Fire Knight",
     "attack": 1100,
     "defense": 800,
     "type": "Monster"
@@ -49242,7 +49226,7 @@ var monsterfuseDB = TAFFY([
   {
     "left": "Wings of Wicked Flame",
     "right": "Wood Clown",
-    "output": "Charubin Fire Knight",
+    "output": "Charubin the Fire Knight",
     "attack": 1100,
     "defense": 800,
     "type": "Monster"
@@ -49553,7 +49537,7 @@ var monsterfuseDB = TAFFY([
   },
   {
     "left": "Wood Clown",
-    "right": "Charubin Fire Knight",
+    "right": "Charubin the Fire Knight",
     "output": "Flame Swordsman",
     "attack": 1800,
     "defense": 1600,
@@ -49586,7 +49570,7 @@ var monsterfuseDB = TAFFY([
   {
     "left": "Wood Clown",
     "right": "Hinotama Soul",
-    "output": "Charubin Fire Knight",
+    "output": "Charubin the Fire Knight",
     "attack": 1100,
     "defense": 800,
     "type": "Monster"
@@ -49602,7 +49586,7 @@ var monsterfuseDB = TAFFY([
   {
     "left": "Wood Clown",
     "right": "Kagemusha of the Blue Flame",
-    "output": "Charubin Fire Knight",
+    "output": "Charubin the Fire Knight",
     "attack": 1100,
     "defense": 800,
     "type": "Monster"
@@ -49682,7 +49666,7 @@ var monsterfuseDB = TAFFY([
   {
     "left": "Wood Clown",
     "right": "Wings of Wicked Flame",
-    "output": "Charubin Fire Knight",
+    "output": "Charubin the Fire Knight",
     "attack": 1100,
     "defense": 800,
     "type": "Monster"
@@ -49874,7 +49858,7 @@ var monsterfuseDB = TAFFY([
   {
     "left": "Wretched Ghost of the Attic",
     "right": "Arlownay",
-    "output": "Rose Specter of Dunn",
+    "output": "Rose Spectre of Dunn",
     "attack": 2000,
     "defense": 1800,
     "type": "Monster"
@@ -49929,7 +49913,7 @@ var monsterfuseDB = TAFFY([
   },
   {
     "left": "Yamatano Dragon Scroll",
-    "right": "Amoeba",
+    "right": "Ameba",
     "output": "Spike Seadra",
     "attack": 1600,
     "defense": 1300,
@@ -49938,7 +49922,7 @@ var monsterfuseDB = TAFFY([
   {
     "left": "Yamatano Dragon Scroll",
     "right": "Ancient Jar",
-    "output": "Stone Dragon",
+    "output": "Stone D.",
     "attack": 2000,
     "defense": 2300,
     "type": "Monster"
@@ -49946,7 +49930,7 @@ var monsterfuseDB = TAFFY([
   {
     "left": "Yamatano Dragon Scroll",
     "right": "Arlownay",
-    "output": "Black Dragon Jungle King",
+    "output": "B. Dragon Jungle King",
     "attack": 2100,
     "defense": 1800,
     "type": "Monster"
@@ -50082,7 +50066,7 @@ var monsterfuseDB = TAFFY([
   {
     "left": "Yamatano Dragon Scroll",
     "right": "Dark Plant",
-    "output": "Black Dragon Jungle King",
+    "output": "B. Dragon Jungle King",
     "attack": 2100,
     "defense": 1800,
     "type": "Monster"
@@ -50098,7 +50082,7 @@ var monsterfuseDB = TAFFY([
   {
     "left": "Yamatano Dragon Scroll",
     "right": "Darkworld Thorns",
-    "output": "Black Dragon Jungle King",
+    "output": "B. Dragon Jungle King",
     "attack": 2100,
     "defense": 1800,
     "type": "Monster"
@@ -50170,7 +50154,7 @@ var monsterfuseDB = TAFFY([
   {
     "left": "Yamatano Dragon Scroll",
     "right": "Haniwa",
-    "output": "Stone Dragon",
+    "output": "Stone D.",
     "attack": 2000,
     "defense": 2300,
     "type": "Monster"
@@ -50290,7 +50274,7 @@ var monsterfuseDB = TAFFY([
   {
     "left": "Yamatano Dragon Scroll",
     "right": "Laughing Flower",
-    "output": "Black Dragon Jungle King",
+    "output": "B. Dragon Jungle King",
     "attack": 2100,
     "defense": 1800,
     "type": "Monster"
@@ -50338,7 +50322,7 @@ var monsterfuseDB = TAFFY([
   {
     "left": "Yamatano Dragon Scroll",
     "right": "Man-eating Plant",
-    "output": "Black Dragon Jungle King",
+    "output": "B. Dragon Jungle King",
     "attack": 2100,
     "defense": 1800,
     "type": "Monster"
@@ -50346,7 +50330,7 @@ var monsterfuseDB = TAFFY([
   {
     "left": "Yamatano Dragon Scroll",
     "right": "Man Eater",
-    "output": "Black Dragon Jungle King",
+    "output": "B. Dragon Jungle King",
     "attack": 2100,
     "defense": 1800,
     "type": "Monster"
@@ -50402,7 +50386,7 @@ var monsterfuseDB = TAFFY([
   {
     "left": "Yamatano Dragon Scroll",
     "right": "Minomushi Warrior",
-    "output": "Stone Dragon",
+    "output": "Stone D.",
     "attack": 2000,
     "defense": 2300,
     "type": "Monster"
@@ -50418,7 +50402,7 @@ var monsterfuseDB = TAFFY([
   {
     "left": "Yamatano Dragon Scroll",
     "right": "Morphing Jar",
-    "output": "Stone Dragon",
+    "output": "Stone D.",
     "attack": 2000,
     "defense": 2300,
     "type": "Monster"
@@ -50426,7 +50410,7 @@ var monsterfuseDB = TAFFY([
   {
     "left": "Yamatano Dragon Scroll",
     "right": "Mushroom Man",
-    "output": "Black Dragon Jungle King",
+    "output": "B. Dragon Jungle King",
     "attack": 2100,
     "defense": 1800,
     "type": "Monster"
@@ -50466,7 +50450,7 @@ var monsterfuseDB = TAFFY([
   {
     "left": "Yamatano Dragon Scroll",
     "right": "Pot the Trick",
-    "output": "Stone Dragon",
+    "output": "Stone D.",
     "attack": 2000,
     "defense": 2300,
     "type": "Monster"
@@ -50490,7 +50474,7 @@ var monsterfuseDB = TAFFY([
   {
     "left": "Yamatano Dragon Scroll",
     "right": "Rainbow Flower",
-    "output": "Black Dragon Jungle King",
+    "output": "B. Dragon Jungle King",
     "attack": 2100,
     "defense": 1800,
     "type": "Monster"
@@ -50498,7 +50482,7 @@ var monsterfuseDB = TAFFY([
   {
     "left": "Yamatano Dragon Scroll",
     "right": "Rhaimundos of the Red Sword",
-    "output": "D.Human",
+    "output": "D. Human",
     "attack": 1300,
     "defense": 1100,
     "type": "Monster"
@@ -50546,7 +50530,7 @@ var monsterfuseDB = TAFFY([
   {
     "left": "Yamatano Dragon Scroll",
     "right": "Stone Armadiller",
-    "output": "Stone Dragon",
+    "output": "Stone D.",
     "attack": 2000,
     "defense": 2300,
     "type": "Monster"
@@ -50569,7 +50553,7 @@ var monsterfuseDB = TAFFY([
   },
   {
     "left": "Yamatano Dragon Scroll",
-    "right": "The Judgment Hand",
+    "right": "The Judgement Hand",
     "output": "Sword Arm of Dragon",
     "attack": 1750,
     "defense": 2030,
@@ -50577,7 +50561,7 @@ var monsterfuseDB = TAFFY([
   },
   {
     "left": "Yamatano Dragon Scroll",
-    "right": "The Shadow that Controls the Dark",
+    "right": "The Shadow Who Controls the Dark",
     "output": "Blackland Fire Dragon",
     "attack": 1500,
     "defense": 800,
@@ -50650,7 +50634,7 @@ var monsterfuseDB = TAFFY([
   {
     "left": "Yamatano Dragon Scroll",
     "right": "Yashinoki",
-    "output": "Black Dragon Jungle King",
+    "output": "B. Dragon Jungle King",
     "attack": 2100,
     "defense": 1800,
     "type": "Monster"
@@ -50714,7 +50698,7 @@ var monsterfuseDB = TAFFY([
   {
     "left": "Yashinoki",
     "right": "Crawling Dragon #2",
-    "output": "Black Dragon Jungle King",
+    "output": "B. Dragon Jungle King",
     "attack": 2100,
     "defense": 1800,
     "type": "Monster"
@@ -50818,7 +50802,7 @@ var monsterfuseDB = TAFFY([
   {
     "left": "Yashinoki",
     "right": "Yamatano Dragon Scroll",
-    "output": "Black Dragon Jungle King",
+    "output": "B. Dragon Jungle King",
     "attack": 2100,
     "defense": 1800,
     "type": "Monster"
@@ -50826,7 +50810,7 @@ var monsterfuseDB = TAFFY([
   {
     "left": "Zanki",
     "right": "Dragon Statue",
-    "output": "Sword Arm of the Dragon",
+    "output": "Sword Arm of Dragon",
     "attack": 1750,
     "defense": 2030,
     "type": "Monster"
@@ -51025,7 +51009,7 @@ var monsterfuseDB = TAFFY([
   },
   {
     "left": "Zombie Warrior",
-    "right": "Sealed Exodia's Right Leg",
+    "right": "Right Leg of the Forbidden One",
     "output": "Magical Ghost",
     "attack": 1300,
     "defense": 1400,

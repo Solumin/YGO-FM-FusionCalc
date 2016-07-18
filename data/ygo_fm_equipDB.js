@@ -45,17 +45,17 @@ var equipDB = TAFFY([
     "type": "Equippable"
   },
   {
-    "left": "Black Dragon Jungle King",
+    "left": "B. Dragon Jungle King",
     "right": "Beast Fangs",
     "type": "Equippable"
   },
   {
-    "left": "Black Dragon Jungle King",
+    "left": "B. Dragon Jungle King",
     "right": "Dark Energy",
     "type": "Equippable"
   },
   {
-    "left": "Black Dragon Jungle King",
+    "left": "B. Dragon Jungle King",
     "right": "Dragon Treasure",
     "type": "Equippable"
   },
@@ -180,7 +180,7 @@ var equipDB = TAFFY([
     "type": "Equippable"
   },
   {
-    "left": "Deep Sea Shark",
+    "left": "Deepsea Shark",
     "right": "Dark Energy",
     "type": "Equippable"
   },
@@ -246,7 +246,7 @@ var equipDB = TAFFY([
   },
   {
     "left": "Gate Guardian",
-    "right": "Sword of Destruction",
+    "right": "Sword of Dark Destruction",
     "type": "Equippable"
   },
   {
@@ -270,7 +270,7 @@ var equipDB = TAFFY([
     "type": "Equippable"
   },
   {
-    "left": "Giltia the D.Kinght",
+    "left": "Giltia the D. Knight",
     "right": "Kunai with Chain",
     "type": "Equippable"
   },
@@ -395,7 +395,7 @@ var equipDB = TAFFY([
     "type": "Equippable"
   },
   {
-    "left": "Meteor Black Dragon",
+    "left": "Meteor B. Dragon",
     "right": "Dragon Treasure",
     "type": "Equippable"
   },
@@ -600,17 +600,17 @@ var equipDB = TAFFY([
     "type": "Equippable"
   },
   {
-    "left": "Soul Hunters",
+    "left": "Soul Hunter",
     "right": "Black Pendant",
     "type": "Equippable"
   },
   {
-    "left": "Soul Hunters",
+    "left": "Soul Hunter",
     "right": "Dark Energy",
     "type": "Equippable"
   },
   {
-    "left": "Soul Hunters",
+    "left": "Soul Hunter",
     "right": "Malevolent Nuzzler",
     "type": "Equippable"
   },
@@ -625,12 +625,12 @@ var equipDB = TAFFY([
     "type": "Equippable"
   },
   {
-    "left": "Stone Dragon",
+    "left": "Stone D.",
     "right": "Beast Fangs",
     "type": "Equippable"
   },
   {
-    "left": "Stone Dragon",
+    "left": "Stone D.",
     "right": "Dragon Treasure",
     "type": "Equippable"
   },

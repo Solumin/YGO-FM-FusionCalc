@@ -3849,7 +3849,7 @@ var cardDB = TAFFY([
   },
   {
     "number": "297",
-    "name": "Cyber Soldier of Dark World",
+    "name": "Cyber Soldier of Darkworld",
     "cardtype": "Monster",
     "type": "Machine",
     "star1": "Moon",
@@ -5928,6 +5928,7 @@ var cardDB = TAFFY([
   },
   {
     "number": "480",
+    "name": "Kuwagata alpha",
     "cardtype": "Monster",
     "type": "Insect",
     "star1": "Jupiter",
@@ -7565,7 +7566,7 @@ var cardDB = TAFFY([
   },
   {
     "number": "606",
-    "name": "Twin Long Rods 2",
+    "name": "Twin Long Rods #2",
     "cardtype": "Monster",
     "type": "Aqua",
     "star1": "Neptune",

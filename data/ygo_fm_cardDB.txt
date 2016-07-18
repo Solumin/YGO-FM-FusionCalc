@@ -294,7 +294,7 @@
 294 Dragoness the Wicked Knight Monster Warrior Saturn Mercury 3 1200 900 70681994 60
 295 Bio Plant Monster Fiend Jupiter Moon 3 600 1300 07670542 50
 296 One-eyed Shield Dragon Monster Dragon Saturn Pluto 3 700 1300 33064647 55
-297 Cyber Soldier of Dark World Monster Machine Moon Uranus 4 1400 1200 75559356 120
+297 Cyber Soldier of Darkworld Monster Machine Moon Uranus 4 1400 1200 75559356 120
 298 Wicked Dragon with the Ersatz Head Monster Dragon Moon Neptune 3 900 900 02957055 45
 299 Sonic Maid Monster Warrior Sun Pluto 3 1200 900 38942059 999,999
 300 Kurama Monster Winged Beast Saturn Neptune 3 800 800 85705804 35
@@ -353,16 +353,16 @@
 353 Takriminos Monster Sea Serpent Neptune Mercury 4 1500 1200 44073668 140
 354 Stuffed Animal Monster Warrior Moon Mars 3 1200 900 71068263 60
 355 Megasonic Eye Monster Machine Moon Jupiter 5 1500 1800 07562372 290
-356 Super War-lion Monster Beast Jupiter Venus 7 2300 2100 
+356 Super War-lion Monster Beast Jupiter Venus 7 2300 2100
 357 Yamadron Monster Dragon Mars Uranus 5 1600 1800 70345785 320
 358 Seiyaryu Monster Dragon Sun Neptune 7 2500 2300 06740720 1,700
 359 Three-legged Zombies Monster Zombie Moon Pluto 3 1100 800 33734439 50
-360 Zera the Mant Monster Fiend Moon Saturn 8 2800 2300 
+360 Zera the Mant Monster Fiend Moon Saturn 8 2800 2300
 361 Flying Penguin Monster Aqua Neptune Jupiter 4 1200 1000 05628232 70
 362 Millennium Shield Monster Warrior Uranus Mars 5 0 3000 32012841 200
 363 Fairy's Gift Monster Spellcaster Jupiter Mercury 4 1400 1000 68401546 120
-364 Black Luster Soldier Monster Warrior Moon Uranus 8 3000 2500 
-365 Fiend's Mirror Monster Fiend Venus Pluto 6 2100 1800 
+364 Black Luster Soldier Monster Warrior Moon Uranus 8 3000 2500
+365 Fiend's Mirror Monster Fiend Venus Pluto 6 2100 1800
 366 Labyrinth Wall Monster Rock Uranus Jupiter 5 0 3000 67284908 200
 367 Jirai Gumo Monster Insect Jupiter Uranus 4 2200 100 94773007 80
 368 Shadow Ghoul Monster Zombie Moon Pluto 5 1600 1300 30778711 180
@@ -371,13 +371,13 @@
 371 Sanga of the Thunder Monster Thunder Pluto Mars 7 2600 2200 25955164 999,999
 372 Kazejin Monster Spellcaster Saturn Mars 7 2400 2200 62340868 999,999
 373 Suijin Monster Aqua Neptune Saturn 7 2500 2400 98434877 999,999
-374 Gate Guardian Monster Warrior Moon Mars 11 3750 3400 
+374 Gate Guardian Monster Warrior Moon Mars 11 3750 3400
 375 Dungeon Worm Monster Insect Uranus Moon 5 1800 1500 51228280 290
 376 Monster Tamer Monster Warrior Jupiter Pluto 5 1800 1600 97612389 320
 377 Ryu-kishin Powered Monster Fiend Moon Jupiter 4 1600 1200 24611934 160
 378 Swordstalker Monster Warrior Moon Saturn 6 2000 1600 50005633 400
 379 La Jinn the Mystical Genie Monster Fiend Mercury Saturn 4 1800 1000 97590747 160
-380 Blue-eyes Ultimate Dragon Monster Dragon Sun Venus 12 4500 3800 
+380 Blue-eyes Ultimate Dragon Monster Dragon Sun Venus 12 4500 3800
 381 Toon Alligator Monster Reptile Neptune Mars 4 800 1600 59383041 120
 382 Rude Kaiser Monster Beast-Warrior Uranus Sun 5 1800 1600 26378150 320
 383 Parrot Dragon Monster Dragon Saturn Sun 5 2000 1300 62762898 290
@@ -698,25 +698,25 @@
 698 Cosmo Queen's Prayer Ritual 04561679 50
 699 Revival of Skeleton Rider Ritual 31066283 10
 700 Fortress Whale's Oath Ritual 77454922 10
-701 Performance of Sword Monster Warrior Sun Saturn 6 1950 1850 
-702 Hungry Burger Monster Warrior Moon Mars 6 2000 1800 
-703 Sengenjin Monster Beast-Warrior Jupiter Mercury 8 2750 2500 
-704 Skull Guardian Monster Warrior Sun Jupiter 7 2050 2500 
-705 Tri-horned Dragon Monster Dragon Moon Jupiter 8 2850 2350 
-706 Serpent Night Dragon Monster Dragon Mercury Pluto 7 2350 2400 
+701 Performance of Sword Monster Warrior Sun Saturn 6 1950 1850
+702 Hungry Burger Monster Warrior Moon Mars 6 2000 1800
+703 Sengenjin Monster Beast-Warrior Jupiter Mercury 8 2750 2500
+704 Skull Guardian Monster Warrior Sun Jupiter 7 2050 2500
+705 Tri-horned Dragon Monster Dragon Moon Jupiter 8 2850 2350
+706 Serpent Night Dragon Monster Dragon Mercury Pluto 7 2350 2400
 707 Skull Knight Monster Spellcaster Mercury Neptune 7 2650 2250 02504891 999,999
-708 Cosmo Queen Monster Spellcaster Venus Uranus 8 2900 2450 
-709 Chakra Monster Fiend Mercury Moon 8 2450 2000 
-710 Crab Turtle Monster Aqua Neptune Jupiter 8 2550 2500 
+708 Cosmo Queen Monster Spellcaster Venus Uranus 8 2900 2450
+709 Chakra Monster Fiend Mercury Moon 8 2450 2000
+710 Crab Turtle Monster Aqua Neptune Jupiter 8 2550 2500
 711 Mikazukinoyaiba Monster Dragon Sun Uranus 7 2200 2350 38277918 999,999
 712 Meteor Dragon Monster Dragon Uranus Neptune 6 1800 2000 64271667 999,999
-713 Meteor B. Dragon Monster Dragon Mars Sun 8 3500 2000 
+713 Meteor B. Dragon Monster Dragon Mars Sun 8 3500 2000
 714 Firewing Pegasus Monster Beast Mars Moon 6 2250 1800 27054370 999,999
-715 Psycho-Puppet Monster Fiend Moon Saturn 7 2000 2350 
-716 Garma Sword Monster Warrior Moon Uranus 7 2550 2150 
-717 Javelin Beetle Monster Insect Jupiter Uranus 8 2450 2550 
-718 Fortress Whale Monster Fish Neptune Saturn 8 2350 2150 
-719 Dokurorider Monster Zombie Uranus Mars 6 1900 1850 
-720 Mask of Shine & Dark Monster Spellcaster Venus Pluto 6 2000 1800 
-721 Dark Magic Ritual Ritual 
-722 Magician of Black Chaos Monster Spellcaster Mercury Mars 8 2800 2600 
+715 Psycho-Puppet Monster Fiend Moon Saturn 7 2000 2350
+716 Garma Sword Monster Warrior Moon Uranus 7 2550 2150
+717 Javelin Beetle Monster Insect Jupiter Uranus 8 2450 2550
+718 Fortress Whale Monster Fish Neptune Saturn 8 2350 2150
+719 Dokurorider Monster Zombie Uranus Mars 6 1900 1850
+720 Mask of Shine & Dark Monster Spellcaster Venus Pluto 6 2000 1800
+721 Dark Magic Ritual Ritual
+722 Magician of Black Chaos Monster Spellcaster Mercury Mars 8 2800 2600
