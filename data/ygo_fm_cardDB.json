@@ -1,4 +1,4 @@
-var cardDB = TAFFY([
+[
   {
     "number": "001",
     "name": "Blue-eyes White Dragon",
@@ -5928,6 +5928,7 @@ var cardDB = TAFFY([
   },
   {
     "number": "480",
+    "name": "Kuwagata alpha",
     "cardtype": "Monster",
     "type": "Insect",
     "star1": "Jupiter",
@@ -8778,4 +8779,4 @@ var cardDB = TAFFY([
     "password": null,
     "cost": null
   }
-])
+]

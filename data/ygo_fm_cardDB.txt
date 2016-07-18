@@ -477,7 +477,7 @@
 477 Alinsection Monster Insect Jupiter Moon 3 950 700 70924884 35
 478 Insect Soldiers of the Sky Monster Insect Saturn Neptune 3 1000 800 07019529 45
 479 Cockroach Knight Monster Insect Jupiter Venus 3 800 900 33413638 999,999
-480 Kuwagata α Monster Insect Jupiter Mercury 4 1250 1000 60802233 70
+480 Kuwagata alpha Monster Insect Jupiter Mercury 4 1250 1000 60802233 70
 481 Burglar Monster Beast Jupiter Uranus 3 850 800 06297941 35
 482 Pragtical Monster Dinosaur Uranus Neptune 5 1900 1500 33691040 320
 483 Garvas Monster Beast Jupiter Pluto 6 2000 1700 69780745 1,000

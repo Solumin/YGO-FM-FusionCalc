@@ -1,0 +1,722 @@
+001;Blue-eyes White Dragon;Monster;Dragon;Sun;Mars;8;3000;2500;89631139;999,999
+002;Mystical Elf;Monster;Spellcaster;Sun;Jupiter;4;800;2000;15025844;160
+003;Hitotsu-me Giant;Monster;Beast-Warrior;Moon;Mars;4;1200;1000;76184692;70
+004;Baby Dragon;Monster;Dragon;Uranus;Sun;3;1200;700;88819587;999,999
+005;Ryu-kishin;Monster;Fiend;Saturn;Sun;3;1000;500;15303296;30
+006;Feral Imp;Monster;Fiend;Moon;Jupiter;4;1300;1400;41392891;140
+007;Winged Dragon #1;Monster;Dragon;Saturn;Moon;4;1400;1200;87796900;999,999
+008;Mushroom Man;Monster;Plant;Jupiter;Sun;2;800;600;14181608;30
+009;Shadow Specter;Monster;Zombie;Moon;Saturn;1;500;200;40575313;15
+010;Blackland Fire Dragon;Monster;Dragon;Mercury;Moon;4;1500;800;87564352;80
+011;Sword Arm of Dragon;Monster;Dinosaur;Uranus;Moon;6;1750;2030;13069066;1,000
+012;Swamp Battleguard;Monster;Warrior;Mercury;Mars;5;1800;1500;40453765;290
+013;Tyhone;Monster;Winged Beast;Saturn;Venus;4;1200;1400;72842870;120
+014;Battle Steer;Monster;Beast-Warrior;Moon;Uranus;5;1800;1300;18246479;230
+015;Flame Swordsman;Monster;Warrior;Mars;Sun;5;1800;1600;45231177;320
+016;Time Wizard;Monster;Spellcaster;Venus;Sun;2;500;400;71625222;999,999
+017;Right Leg of the Forbidden One;Monster;Spellcaster;Mercury;Jupiter;1;200;300;08124921;999,999
+018;Left Leg of the Forbidden One;Monster;Spellcaster;Mercury;Saturn;1;200;300;44519536;999,999
+019;Right Arm of the Forbidden One;Monster;Spellcaster;Mercury;Uranus;1;200;300;70903634;999,999
+020;Left Arm of the Forbidden One;Monster;Spellcaster;Mercury;Pluto;1;200;300;07902349;999,999
+021;Exodia the Forbidden;Monster;Spellcaster;Mercury;Neptune;3;1000;1000;33396948;999,999
+022;Summoned Skull;Monster;Fiend;Moon;Pluto;6;2500;1200;70781052;999,999
+023;The Wicked Worm Beast;Monster;Beast;Uranus;Venus;3;1400;700;06285791;60
+024;Skull Servant;Monster;Zombie;Moon;Neptune;1;300;200;32274490;10
+025;Horn Imp;Monster;Fiend;Moon;Mercury;4;1300;1000;69669405;80
+026;Battle Ox;Monster;Beast-Warrior;Jupiter;Moon;4;1700;1000;05053103;999,999
+027;Beaver Warrior;Monster;Beast-Warrior;Jupiter;Venus;4;1200;1500;32452818;140
+028;Rock Ogre Grotto #1;Monster;Rock;Uranus;Mercury;3;800;1200;68846917;999,999
+029;Mountain Warrior;Monster;Beast-Warrior;Uranus;Mars;3;600;1000;04931562;35
+030;Zombie Warrior;Monster;Zombie;Moon;Mars;3;1200;900;31339260;60
+031;Koumori Dragon;Monster;Dragon;Moon;Jupiter;4;1500;1200;67724379;140
+032;Two-headed King Rex;Monster;Dinosaur;Uranus;Neptune;4;1600;1200;94119974;160
+033;Judge Man;Monster;Warrior;Sun;Saturn;6;2200;1500;30113682;1,000
+034;Saggi the Dark Clown;Monster;Spellcaster;Mercury;Moon;3;600;1500;66602787;60
+035;Dark Magician;Monster;Spellcaster;Mercury;Mars;7;2500;2100;46986414;999,999
+036;The Snake Hair;Monster;Zombie;Moon;Saturn;4;1500;1200;29491031;140
+037;Gaia the Dragon Champion;Monster;Dragon;Saturn;Mercury;7;2600;2100;66889139;999,999
+038;Gaia the Fierce Knight;Monster;Warrior;Mercury;Jupiter;7;2300;2100;06368038;999,999
+039;Curse of Dragon;Monster;Dragon;Saturn;Pluto;5;2000;1500;28279543;999,999
+040;Dragon Piper;Monster;Pyro;Mars;Moon;3;200;1800;55763552;55
+041;Celtic Guardian;Monster;Warrior;Sun;Uranus;4;1400;1200;91152256;120
+042;Illusionist Faceless Mage;Monster;Spellcaster;Venus;Mars;5;1200;2200;28546905;320
+043;Karbonala Warrior;Monster;Warrior;Uranus;Jupiter;4;1500;1200;54541900;140
+044;Rogue Doll;Monster;Spellcaster;Sun;Pluto;4;1600;1000;91939608;120
+045;Oscillo Hero #2;Monster;Thunder;Pluto;Sun;3;1000;500;27324313;30
+046;Griffore;Monster;;Beast;Jupiter;4;1200;1500;53829412;140
+047;Torike;Monster;Beast;Uranus;Jupiter;3;1200;600;80813021;45
+048;Sangan;Monster;Fiend;Moon;Uranus;3;1000;600;26202165;35
+049;Big Insect;Monster;Insect;Jupiter;Uranus;4;1200;1500;53606874;140
+050;Basic Insect;Monster;Insect;Jupiter;Pluto;2;500;700;89091579;25
+051;Armored Lizard;Monster;Reptile;Neptune;Sun;4;1500;1200;15480588;999,999
+052;Hercules Beetle;Monster;Insect;Jupiter;Neptune;5;1500;2000;52584282;999,999
+053;Killer Needle;Monster;Insect;Jupiter;Sun;4;1200;1000;88979991;70
+054;Gokibore;Monster;Insect;Jupiter;Moon;4;1200;1400;15367030;999,999
+055;Giant Flea;Monster;Insect;Jupiter;Venus;4;1500;1200;41762634;140
+056;Larvae Moth;Monster;Insect;Jupiter;Mercury;2;500;400;87756343;999,999
+057;Great Moth;Monster;Insect;Jupiter;Uranus;8;2600;2500;14141448;999,999
+058;Kuriboh;Monster;Fiend;Mercury;Saturn;1;300;200;40640057;10
+059;Mammoth Graveyard;Monster;Dinosaur;Mercury;Pluto;3;1200;800;40374923;55
+060;Great White;Monster;Fish;Neptune;Moon;4;1600;800;13429800;999,999
+061;Wolf;Monster;Beast;Jupiter;Pluto;3;1200;800;49417509;55
+062;Harpie Lady;Monster;Winged Beast;Saturn;Neptune;4;1300;1400;76812113;999,999
+063;Harpie Lady Sisters;Monster;Winged Beast;Saturn;Mars;6;1950;2100;12206212;999,999
+064;Tiger Axe;Monster;Beast-Warrior;Jupiter;Neptune;4;1300;1100;49791927;999,999
+065;Silver Fang;Monster;Beast;Jupiter;Sun;3;1200;800;90357090;55
+066;Kojikocy;Monster;Warrior;Uranus;Moon;4;1500;1200;01184620;140
+067;Perfectly Ultimate Great Moth;Monster;Insect;Jupiter;Moon;8;3500;3000;48579379;999,999
+068;Garoozis;Monster;Beast-Warrior;Mars;Venus;5;1800;1500;14977074;290
+069;Thousand Dragon;Monster;Dragon;Mars;Mercury;7;2400;2000;41462083;999,999
+070;Fiend Kraken;Monster;Aqua;Neptune;Venus;4;1200;1400;77456781;120
+071;Jellyfish;Monster;Aqua;Neptune;Mercury;4;1200;1500;14851496;140
+072;Cocoon of Evolution;Monster;Insect;Jupiter;Venus;3;0;2000;40240595;999,999
+073;Kairyu-Shin;Monster;Sea Serpent;Neptune;Mars;5;1800;1500;76634149;290
+074;Giant Soldier of Stone;Monster;Rock;Uranus;Venus;3;1300;2000;13039848;290
+075;Man-eating Plant;Monster;Plant;Mercury;Jupiter;2;800;600;49127943;30
+076;Krokodilus;Monster;Reptile;Neptune;Jupiter;4;1100;1200;76512652;80
+077;Grappler;Monster;Reptile;Neptune;Saturn;4;1300;1200;02906250;100
+078;Axe Raider;Monster;Warrior;Uranus;Mercury;4;1700;1150;48305365;160
+079;Megazowler;Monster;Dinosaur;Uranus;Neptune;6;1800;2000;75390004;500
+080;Uraby;Monster;Dinosaur;Uranus;Mars;4;1500;800;01784619;80
+081;Crawling Dragon #2;Monster;Dinosaur;Moon;Pluto;4;1600;1200;38289717;160
+082;Red-eyes B. Dragon;Monster;Dragon;Moon;Neptune;7;2400;2000;74677422;999,999
+083;Castle of Dark Illusions;Monster;Fiend;Mercury;Uranus;4;920;1930;00062121;160
+084;Reaper of the Cards;Monster;Fiend;Moon;Pluto;5;1380;1930;33066139;290
+085;King of Yamimakai;Monster;Fiend;Moon;Pluto;5;2000;1530;69455834;350
+086;Barox;Monster;Fiend;Jupiter;Mercury;5;1380;1530;06840573;180
+087;Dark Chimera;Monster;Fiend;Mercury;Neptune;5;1610;1460;32344688;200
+088;Metal Guardian;Monster;Fiend;Moon;Mercury;5;1150;2150;68339286;290
+089;Catapult Turtle;Monster;Aqua;Neptune;Sun;5;1000;2000;95727991;200
+090;Gyakutenno Megami;Monster;Fairy;Sun;Neptune;6;1800;2000;31122090;500
+091;Mystic Horseman;Monster;Beast;Jupiter;Uranus;4;1300;1550;68516705;999,999
+092;Rabid Horseman;Monster;Beast-Warrior;Jupiter;Pluto;6;2000;1700;94905343;999,999
+093;Zanki;Monster;Warrior;Uranus;Jupiter;5;1500;1700;30090452;260
+094;Crawling Dragon;Monster;Dragon;Uranus;Sun;5;1600;1400;67494157;200
+095;Crass Clown;Monster;Fiend;Venus;Jupiter;4;1350;1400;93889755;140
+096;Armored Zombie;Monster;Zombie;Moon;Pluto;3;1500;0;20277860;260
+097;Dragon Zombie;Monster;Zombie;Moon;Pluto;3;1600;0;66672569;200
+098;Clown Zombie;Monster;Zombie;Moon;Pluto;2;1350;0;92667214;140
+099;Pumpking the King of Ghosts;Monster;Zombie;Jupiter;Neptune;6;1800;2000;29155212;500
+100;Battle Warrior;Monster;Warrior;Uranus;Moon;3;700;1000;55550921;40
+101;Wings of Wicked Flame;Monster;Pyro;Mars;Saturn;2;700;600;92944626;30
+102;Mask of Darkness;Monster;Fiend;Mercury;Moon;2;900;400;28933734;30
+103;Job-Change Mirror;Monster;Fiend;Mercury;Mars;3;800;1300;55337339;999,999
+104;Curtain of the Dark Ones;Monster;Spellcaster;Mercury;Jupiter;2;600;500;22026707;25
+105;Tomozaurus;Monster;Dinosaur;Uranus;Venus;2;500;400;46457856;20
+106;Spirit of the Winds;Monster;Spellcaster;Saturn;Sun;5;1700;1400;54615781;230
+107;Kageningen;Monster;Warrior;Moon;Mars;2;800;600;80600490;30
+108;Graveyard and the Hand of Invitation;Monster;Zombie;Moon;Pluto;3;700;900;27094595;35
+109;Goddess with the Third Eye;Monster;Fairy;Sun;Venus;4;1200;1000;53493204;70
+110;Hero of the East;Monster;Warrior;Uranus;Mercury;3;1100;1000;89987208;60
+111;Doma The Angel of Silence;Monster;Fairy;Mercury;Saturn;5;1600;1400;16972957;200
+112;That Which Feeds on Life;Monster;Fiend;Mercury;Uranus;4;1200;1000;52367652;70
+113;Dark Gray;Monster;Beast;Jupiter;Moon;3;800;900;09159938;40
+114;White Magical Hat;Monster;Spellcaster;Sun;Mars;3;1000;700;15150365;40
+115;Kamion Wizard;Monster;Spellcaster;Mercury;Pluto;4;1300;1100;41544074;120
+116;Nightmare Scorpion;Monster;Insect;Uranus;Neptune;3;900;800;88643173;40
+117;Spirit of the Books;Monster;Winged Beast;Saturn;Moon;4;1400;1200;14037717;120
+118;Supporter in the Shadows;Monster;Warrior;Jupiter;Venus;3;1000;1000;41422426;55
+119;Trial of Nightmares;Monster;Fiend;Moon;Pluto;4;1300;900;77827521;70
+120;Dream Clown;Monster;Warrior;Venus;Saturn;3;1200;900;13215230;60
+121;Sleeping Lion;Monster;Beast;Jupiter;Sun;4;700;1700;40200834;120
+122;Yamatano Dragon Scroll;Monster;Dragon;Saturn;Venus;2;900;300;76704943;25
+123;Dark Plant;Monster;Plant;Moon;Jupiter;1;300;400;13193642;15
+124;Ancient Tool;Monster;Machine;Moon;Saturn;5;1700;1400;49587396;230
+125;Faith Bird;Monster;Winged Beast;Sun;Jupiter;4;1500;1100;75582395;120
+126;Orion the Battle King;Monster;Fairy;Sun;Saturn;5;1800;1500;02971090;290
+127;Ansatsu;Monster;Warrior;Mercury;Neptune;5;1700;1200;48365709;180
+128;LaMoon;Monster;Spellcaster;Sun;Uranus;5;1200;1700;75850803;180
+129;Nemuriko;Monster;Spellcaster;Mercury;Moon;3;800;700;90963488;30
+130;Weather Control;Monster;Fairy;Sun;Pluto;2;600;400;37243151;20
+131;Octoberser;Monster;Aqua;Neptune;Moon;5;1600;1400;74637266;200
+132;The 13th Grave;Monster;Zombie;Moon;Pluto;3;1200;900;00032864;60
+133;Charubin the Fire Knight;Monster;Pyro;Mars;Uranus;3;1100;800;37421579;50
+134;Mystical Capture Chain;Monster;Fairy;Sun;Neptune;2;700;700;63515678;30
+135;Fiend's Hand;Monster;Zombie;Moon;Pluto;2;600;600;52800428;25
+136;Witty Phantom;Monster;Fiend;Mercury;Mars;4;1400;1300;36304921;140
+137;Mystery Hand;Monster;Fiend;Moon;Uranus;2;500;500;62793020;20
+138;Dragon Statue;Monster;Warrior;Uranus;Mars;3;1100;900;09197735;55
+139;Blue-eyed Silver Zombie;Monster;Zombie;Sun;Pluto;3;900;700;35282433;25
+140;Toad Master;Monster;Aqua;Neptune;Venus;3;1000;1000;62671448;55
+141;Spiked Snail;Monster;Insect;Moon;Jupiter;3;700;1300;98075147;55
+142;Flame Manipulator;Monster;Spellcaster;Mars;Pluto;3;900;1000;34460851;50
+143;Necrolancer the Timelord;Monster;Spellcaster;Venus;Uranus;3;800;900;61454890;40
+144;Djinn the Watcher of the Wind;Monster;Spellcaster;Saturn;Mercury;3;700;900;97843505;35
+145;The Bewitching Phantom Thief;Monster;Spellcaster;Venus;Pluto;2;700;700;24348204;30
+146;Temple of Skulls;Monster;Zombie;Mercury;Pluto;4;900;1300;00732302;70
+147;Monster Egg;Monster;Warrior;Uranus;Jupiter;3;600;900;36121917;999,999
+148;The Shadow Who Controls the Dark;Monster;;Fiend;Mercury;3;800;700;63125616;30
+149;Lord of the Lamp;Monster;Fiend;Mercury;Saturn;4;1400;1200;99510761;120
+150;Akihiron;Monster;Aqua;Neptune;Jupiter;5;1700;1400;36904469;230
+151;Rhaimundos of the Red Sword;Monster;Warrior;Neptune;Mars;4;1200;1300;62403074;100
+152;The Melting Red Shadow;Monster;Aqua;Moon;Neptune;2;500;700;98898173;25
+153;Dokuroizo the Grim Reaper;Monster;Zombie;Moon;Pluto;3;900;1200;25882881;60
+154;Fire Reaper;Monster;Zombie;Mars;Sun;2;700;500;53581214;25
+155;Larvas;Monster;Beast;Jupiter;Mercury;3;800;1000;94675535;45
+156;Hard Armor;Monster;;Warrior;Uranus;0;3;300;1200;20060230
+157;Firegrass;Monster;;Plant;Mars;0;2;700;600;53293545
+158;Man Eater;Monster;Plant;Jupiter;Uranus;2;800;600;93553943;30
+159;Dig Beak;Monster;Beast;Jupiter;Pluto;2;500;800;29948642;30
+160;M-warrior #1;Monster;Warrior;Uranus;Moon;3;1000;500;56342351;30
+161;M-warrior #2;Monster;Warrior;Uranus;Venus;3;500;1000;92731455;30
+162;Tainted Wisdom;Monster;Fiend;Moon;Mercury;3;1250;800;28725004;55
+163;Lisark;Monster;Beast;Saturn;Pluto;4;1300;1300;55210709;120
+164;Lord of Zemia;Monster;Fiend;Mercury;Uranus;4;1300;1000;81618817;80
+165;The Judgement Hand;Monster;Warrior;Sun;Venus;3;1400;700;28003512;60
+166;Mysterious Puppeteer;Monster;Warrior;Uranus;Mercury;4;1000;1500;54098121;100
+167;Ancient Jar;Monster;Rock;Uranus;Neptune;1;400;200;81492226;15
+168;Darkfire Dragon;Monster;Dragon;Mars;Venus;4;1500;1250;17881964;140
+169;Dark King of the Abyss;Monster;Fiend;Mercury;Pluto;3;1200;800;53375573;55
+170;Spirit of the Harp;Monster;Fairy;Sun;Mars;4;800;2000;80770678;160
+171;Big Eye;Monster;Fiend;Venus;Neptune;4;1200;1000;16768387;70
+172;Armaill;Monster;Warrior;Mars;Mercury;3;700;1300;53153481;55
+173;Dark Prisoner;Monster;;Fiend;Mercury;0;3;600;1000;89558090
+174;Hurricail;Monster;Spellcaster;Saturn;Neptune;2;900;200;15042735;25
+175;Ancient Brain;Monster;Fiend;Mercury;Moon;3;1000;700;42431843;40
+176;Fire Eye;Monster;Pyro;Mars;Saturn;2;800;600;88435542;30
+177;Monsturtle;Monster;Aqua;Neptune;Mercury;3;800;1000;15820147;45
+178;Claw Reacher;Monster;Fiend;Mercury;Mars;3;1000;800;41218256;45
+179;Phantom Dewan;Monster;Spellcaster;Mercury;Jupiter;2;700;600;77603950;30
+180;Arlownay;Monster;Plant;Jupiter;Neptune;3;800;1000;14708569;45
+181;Dark Shade;Monster;Fiend;Saturn;Mars;3;1000;1000;40196604;55
+182;Masked Clown;Monster;Warrior;Mercury;Saturn;2;500;700;77581312;25
+183;Lucky Trinket;Monster;Spellcaster;Sun;Jupiter;2;600;800;03985011;30
+184;Genin;Monster;Spellcaster;Venus;Sun;3;600;900;49370026;30
+185;Eyearmor;Monster;Warrior;Uranus;Mars;2;600;500;64511793;25
+186;Fiend Refrection #2;Monster;Winged Beast;Venus;Mars;4;1100;1400;02863439;100
+187;Gate Deeg;Monster;Beast;Moon;Mars;3;700;800;49258578;30
+188;Synchar;Monster;Beast;Jupiter;Sun;3;800;900;75646173;40
+189;Fusionist;Monster;Beast;Jupiter;Moon;3;900;700;01641882;35
+190;Akakieisu;Monster;Spellcaster;Mercury;Uranus;3;1000;800;38035986;45
+191;LALA Li-oon;Monster;Thunder;Pluto;Moon;2;600;600;09430387;25
+192;Key Mace;Monster;Fairy;Sun;Saturn;1;400;300;01929294;15
+193;Turtle Tiger;Monster;Aqua;Neptune;Saturn;4;1000;1500;37313348;100
+194;Terra the Terrible;Monster;Fiend;Moon;Jupiter;4;1200;1300;63308047;100
+195;Doron;Monster;Warrior;Neptune;Moon;2;900;500;00756652;30
+196;Arma Knight;Monster;Aqua;Neptune;Venus;4;1000;1200;36151751;70
+197;Mech Mole Zombie;Monster;Zombie;Moon;Saturn;2;500;400;63545455;20
+198;Happy Lover;Monster;Fairy;Sun;Uranus;2;800;500;99030164;30
+199;Penguin Knight;Monster;Aqua;Uranus;Mercury;3;900;800;36039163;40
+200;Petit Dragon;Monster;Dragon;Saturn;Sun;2;600;700;75356564;30
+201;Frenzied Panda;Monster;Beast;Jupiter;Venus;4;1200;1000;98818516;70
+202;Air Marmot of Nefariousness;Monster;Beast;Mon;Uranus;2;400;600;75889523;20
+203;Phantom Ghost;Monster;;Zombie;Moon;0;2;600;800;61201220
+204;Mabarrel;Monster;Fiend;Moon;Neptune;5;1700;1400;98795934;230
+205;Dorover;Monster;Aqua;Neptune;Sun;3;900;800;24194033;40
+206;Twin Long Rods #1;Monster;Aqua;Moon;Mercury;3;900;700;60589682;35
+207;Droll Bird;Monster;Winged Beast;Saturn;Moon;2;600;500;97973387;25
+208;Petit Angel;Monster;Fairy;Sun;Pluto;3;600;900;38142739;30
+209;Winged Cleaver;Monster;Insect;Jupiter;Mercury;2;700;700;39175982;30
+210;Hinotama Soul;Monster;Pyro;Mars;Uranus;2;600;500;96851799;25
+211;Kaminarikozou;Monster;Thunder;Pluto;Venus;2;700;600;15510988;30
+212;Meotoko;Monster;Beast;Moon;Mars;2;700;600;53832650;30
+213;Aqua Madoor;Monster;Spellcaster;Neptune;Mercury;4;1200;2000;85639257;250
+214;Kagemusha of the Blue Flame;Monster;Warrior;Mars;Sun;2;800;400;15401633;25
+215;Flame Ghost;Monster;Zombie;Mars;Pluto;3;1000;800;58528964;45
+216;Dryad;Monster;Spellcaster;Jupiter;Uranus;4;1200;1400;84916669;120
+217;B. Skull Dragon;Monster;Dragon;Moon;Jupiter;9;3200;2500;11901678;999,999
+218;Two-mouth Darkruler;Monster;Dinosaur;Moon;Saturn;3;900;700;57305373;35
+219;Solitude;Monster;Beast-Warrior;Moon;Uranus;3;1050;1000;84794011;55
+220;Masked Sorcerer;Monster;Spellcaster;Mercury;Neptune;4;900;1400;10189126;80
+221;Kumootoko;Monster;Insect;Jupiter;Pluto;3;700;1400;56283725;60
+222;Midnight Fiend;Monster;Fiend;Moon;Neptune;2;800;600;83678433;30
+223;Roaring Ocean Snake;Monster;Aqua;Neptune;Mars;6;2100;1800;19066538;550
+224;Trap Master;Monster;Warrior;Mercury;Moon;3;500;1100;46461247;35
+225;Fiend Sword;Monster;Warrior;Moon;Mercury;4;1400;800;22855882;70
+226;Skull Stalker;Monster;Warrior;Moon;Mars;3;900;800;54844990;40
+227;Hitodenchak;Monster;Aqua;Neptune;Mars;2;600;700;46718686;30
+228;Wood Remains;Monster;Zombie;Jupiter;Neptune;3;1000;900;17733394;50
+229;Hourglass of Life;Monster;Fairy;Sun;Neptune;2;700;600;08783685;30
+230;Rare Fish;Monster;Fish;Neptune;Jupiter;4;1500;1200;80516007;140
+231;Wood Clown;Monster;Warrior;Mercury;Mars;3;800;1200;17511156;55
+232;Madjinn Gunn;Monster;Fiend;Moon;Jupiter;2;600;800;43905751;30
+233;Dark Titan of Terror;Monster;Fiend;Mercury;Jupiter;4;1300;1100;89494469;120
+234;Beautiful Headhuntress;Monster;Warrior;Mercury;Saturn;4;1600;800;16899564;120
+235;Wodan the Resident of the Forest;Monster;Warrior;Jupiter;Sun;3;900;1200;42883273;999,999
+236;Guardian of the Labyrinth;Monster;Warrior;Pluto;Mercury;4;1000;1200;89272878;70
+237;Haniwa;Monster;Rock;Uranus;Jupiter;2;500;500;84285623;20
+238;Yashinoki;Monster;Plant;Jupiter;Moon;2;800;600;41061625;30
+239;Vishwar Randi;Monster;Warrior;Mercury;Uranus;3;900;700;78556320;35
+240;The Drdek;Monster;Fiend;Moon;Saturn;3;700;800;08944575;30
+241;Dark Assailant;Monster;Zombie;Moon;Uranus;4;1200;1200;41949033;120
+242;Candle of Fate;Monster;;Fiend;Mars;0;2;600;600;47695416
+243;Water Element;Monster;Aqua;Neptune;Saturn;3;900;700;03732747;35
+244;Dissolverock;Monster;Rock;Mars;Venus;3;900;1000;40826495;50
+245;Meda Bat;Monster;Fiend;Moon;Neptune;2;800;400;76211194;25
+246;One Who Hunts Souls;Monster;Beast-Warrior;Moon;Mercury;4;1100;1000;03606209;60
+247;Root Water;Monster;;Fish;Neptune;0;3;900;800;39004808
+248;Master & Expert;Monster;Beast;Jupiter;Venus;4;1200;1000;75499502;70
+249;Water Omotics;Monster;Aqua;Neptune;Moon;4;1400;1200;02483611;120
+250;Hyo;Monster;Warrior;Neptune;Mercury;3;800;1200;38982356;55
+251;Enchanting Mermaid;Monster;Fish;Neptune;Venus;3;1200;900;75376965;60
+252;Nekogal #1;Monster;Beast;Jupiter;Mercury;3;1100;900;01761063;999,999
+253;Angelwitch;Monster;Spellcaster;Mercury;Neptune;3;800;1000;37160778;45
+254;Embryonic Beast;Monster;Fiend;Moon;Mars;2;500;750;64154377;25
+255;Prevent Rat;Monster;Beast;Jupiter;Uranus;4;500;2000;00549481;100
+256;Dimensional Warrior;Monster;Warrior;Venus;Mars;4;1200;1000;37043180;70
+257;Stone Armadiller;Monster;Rock;Uranus;Sun;3;800;1200;63432835;55
+258;Beastking of the Swamps;Monster;Aqua;Uranus;Mercury;4;1000;1100;99426834;60
+259;Ancient Sorcerer;Monster;Spellcaster;Moon;Mercury;4;1000;1300;36821538;80
+260;Lunar Queen Elzaim;Monster;Fairy;Moon;Venus;3;750;1100;62210247;45
+261;Wicked Mirror;Monster;Fiend;Venus;Jupiter;2;700;600;15150371;30
+262;The Little Swordsman of Aile;Monster;Warrior;Mars;Neptune;3;800;1300;25109950;60
+263;Rock Ogre Grotto #2;Monster;Rock;Uranus;Sun;3;700;1400;62193699;60
+264;Wing Egg Elf;Monster;Fairy;Sun;Mars;3;500;1300;98582704;45
+265;The Furious Sea King;Monster;Aqua;Neptune;Jupiter;3;800;700;18710707;30
+266;Princess of Tsurugi;Monster;Warrior;Saturn;Venus;3;900;700;51371017;35
+267;Unknown Warrior of Fiend;Monster;Warrior;Mercury;Mars;3;1000;500;97360116;30
+268;Sectarian of Secrets;Monster;Spellcaster;Mercury;Jupiter;2;700;500;15507080;25
+269;Versago the Destroyer;Monster;Fiend;Mercury;Saturn;3;1100;900;50259460;55
+270;Wetha;Monster;Aqua;Neptune;Saturn;3;1000;900;96643568;50
+271;Megirus Light;Monster;Fiend;Mercury;Uranus;3;900;600;23032273;30
+272;Mavelus;Monster;Winged Beast;Mars;Mercury;4;1300;900;59036972;70
+273;Ancient Tree of Enlightenment;Monster;Plant;Jupiter;Pluto;3;600;1500;86421986;60
+274;Green Phantom King;Monster;Plant;Jupiter;Neptune;3;500;1600;22910685;60
+275;Ground Attacker Bugroth;Monster;Machine;Uranus;Moon;4;1500;1000;58314394;100
+276;Ray & Temperature;Monster;Fairy;Sun;Saturn;3;1000;1000;85309439;55
+277;Gorgon Egg;Monster;Fiend;Moon;Jupiter;3;300;1300;11793047;35
+278;Petit Moth;Monster;Insect;Jupiter;Sun;1;300;200;58192742;10
+279;King Fog;Monster;Fiend;Mercury;Neptune;3;1000;900;84686841;50
+280;Protector of the Throne;Monster;Warrior;Uranus;Venus;4;800;1500;10071456;80
+281;Mystic Clown;Monster;Fiend;Mercury;Moon;4;1500;1000;47060154;100
+282;Mystical Sheep #2;Monster;Beast;Venus;Saturn;3;800;1000;83464209;45
+283;Holograh;Monster;Machine;Sun;Jupiter;3;1100;700;10859908;45
+284;Tao the Chanter;Monster;Spellcaster;Venus;Uranus;3;1200;900;46247516;999,999
+285;Serpent Marauder;Monster;Reptile;Sun;Neptune;2;700;600;82742611;30
+286;Gatekeeper;Monster;Machine;Mercury;Mars;5;1500;1800;19737320;290
+287;Ogre of the Black Shadow;Monster;Beast-Warrior;Moon;Saturn;4;1200;1400;45121025;120
+288;Dark Artist;Monster;Fiend;Mercury;Jupiter;3;600;1400;72520073;999,999
+289;Change Slime;Monster;Aqua;Neptune;Moon;1;400;300;18914778;15
+290;Moon Envoy;Monster;Warrior;Moon;Saturn;4;1100;1000;45909477;60
+291;Fireyarou;Monster;Pyro;Mars;Saturn;4;1300;1000;71407486;80
+292;Psychic Kappa;Monster;Aqua;Neptune;Venus;2;400;1000;07892180;30
+293;Masaki the Legendary Swordsman;Monster;Warrior;Sun;Uranus;4;1100;1100;44287299;70
+294;Dragoness the Wicked Knight;Monster;Warrior;Saturn;Mercury;3;1200;900;70681994;60
+295;Bio Plant;Monster;Fiend;Jupiter;Moon;3;600;1300;07670542;50
+296;One-eyed Shield Dragon;Monster;Dragon;Saturn;Pluto;3;700;1300;33064647;55
+297;Cyber Soldier of Dark World;Monster;Machine;Moon;Uranus;4;1400;1200;75559356;120
+298;Wicked Dragon with the Ersatz Head;Monster;Dragon;Moon;Neptune;3;900;900;02957055;45
+299;Sonic Maid;Monster;Warrior;Sun;Pluto;3;1200;900;38942059;999,999
+300;Kurama;Monster;Winged Beast;Saturn;Neptune;3;800;800;85705804;35
+301;Legendary Sword;Equip;61854111;800
+302;Sword of Dark Destruction;Equip;37120512;800
+303;Dark Energy;Equip;04614116;800
+304;Axe of Despair;Equip;40619825;800
+305;Laser Cannon Armor;Equip;77007920;800
+306;Insect Armor with Laser Cannon;Equip;03492538;800
+307;Elf's Light;Equip;39897277;800
+308;Beast Fangs;Equip;46009906;800
+309;Steel Shell;Equip;02370081;800
+310;Vile Germs;Equip;39774685;800
+311;Black Pendant;Equip;65169794;800
+312;Silver Bow and Arrow;Equip;01557499;800
+313;Horn of Light;Equip;38552107;800
+314;Horn of the Unicorn;Equip;64047146;800
+315;Dragon Treasure;Equip;01435851;800
+316;Electro-whip;Equip;37820550;800
+317;Cyber Shield;Equip;63224564;800
+318;Elegant Egotist;Equip;90219263;999,999
+319;Mystical Moon;Equip;36607978;800
+320;Stop Defense;Magic;63102017;800
+321;Malevolent Nuzzler;Equip;99597615;800
+322;Violet Crystal;Equip;15052462;800
+323;Book of Secret Arts;Equip;91595718;800
+324;Invigoration;Equip;98374133;800
+325;Machine Conversion Factory;Equip;25769732;999,999
+326;Raise Body Heat;Equip;51267887;800
+327;Follow Wind;Equip;98252586;800
+328;Power of Kaishin;Equip;77027445;800
+329;Dragon Capture Jar;Magic;50045299;999,999
+330;Forest;Field;87430998;55
+331;Wasteland;Field;23424603;55
+332;Mountain;Field;50913601;55
+333;Sogen;Field;86318356;55
+334;Umi;Field;22702055;55
+335;Yami;Field;59197169;55
+336;Dark Hole;Magic;53129443;20,000
+337;Raigeki;Magic;12580477;999,999
+338;Mooyan Curry;Magic;58074572;999,999
+339;Red Medicine;Magic;38199696;55
+340;Goblin's Secret Remedy;Magic;11868825;20,000
+341;Soul of the Pure;Magic;47852924;35,000
+342;Dian Keto the Cure Master;Magic;84257639;999,999
+343;Sparks;Magic;76103675;10
+344;Hinotama;Magic;46130346;55
+345;Final Flame;Magic;73134081;20,000
+346;Ookazi;Magic;19523799;35,000
+347;Tremendous Fire;Magic;46918794;999,999
+348;Swords of Revealing Light;Magic;72302403;999,999
+349;Spellbinding Circle;Magic;18807108;999,999
+350;Dark-piercing Light;Magic;45895206;999,999
+351;Yaranzo;Monster;Zombie;Moon;Mercury;4;1300;1500;71280811;160
+352;Kanan the Swordmistress;Monster;Warrior;Uranus;Neptune;4;1400;1400;12829151;160
+353;Takriminos;Monster;Sea Serpent;Neptune;Mercury;4;1500;1200;44073668;140
+354;Stuffed Animal;Monster;Warrior;Moon;Mars;3;1200;900;71068263;60
+355;Megasonic Eye;Monster;Machine;Moon;Jupiter;5;1500;1800;07562372;290
+356;Super War-lion;Monster;Beast;Jupiter;Venus;7;2300;2100;;
+357;Yamadron;Monster;Dragon;Mars;Uranus;5;1600;1800;70345785;320
+358;Seiyaryu;Monster;Dragon;Sun;Neptune;7;2500;2300;06740720;1,700
+359;Three-legged Zombies;Monster;Zombie;Moon;Pluto;3;1100;800;33734439;50
+360;Zera the Mant;Monster;Fiend;Moon;Saturn;8;2800;2300;;
+361;Flying Penguin;Monster;Aqua;Neptune;Jupiter;4;1200;1000;05628232;70
+362;Millennium Shield;Monster;Warrior;Uranus;Mars;5;0;3000;32012841;200
+363;Fairy's Gift;Monster;Spellcaster;Jupiter;Mercury;4;1400;1000;68401546;120
+364;Black Luster Soldier;Monster;Warrior;Moon;Uranus;8;3000;2500;;
+365;Fiend's Mirror;Monster;Fiend;Venus;Pluto;6;2100;1800;;
+366;Labyrinth Wall;Monster;Rock;Uranus;Jupiter;5;0;3000;67284908;200
+367;Jirai Gumo;Monster;Insect;Jupiter;Uranus;4;2200;100;94773007;80
+368;Shadow Ghoul;Monster;Zombie;Moon;Pluto;5;1600;1300;30778711;180
+369;Wall Shadow;Monster;Warrior;Moon;Neptune;7;1600;3000;63162310;999,999
+370;Labyrinth Tank;Monster;Machine;Moon;Mercury;7;2400;2400;99551425;999,999
+371;Sanga of the Thunder;Monster;Thunder;Pluto;Mars;7;2600;2200;25955164;999,999
+372;Kazejin;Monster;Spellcaster;Saturn;Mars;7;2400;2200;62340868;999,999
+373;Suijin;Monster;Aqua;Neptune;Saturn;7;2500;2400;98434877;999,999
+374;Gate Guardian;Monster;Warrior;Moon;Mars;11;3750;3400;;
+375;Dungeon Worm;Monster;Insect;Uranus;Moon;5;1800;1500;51228280;290
+376;Monster Tamer;Monster;Warrior;Jupiter;Pluto;5;1800;1600;97612389;320
+377;Ryu-kishin Powered;Monster;Fiend;Moon;Jupiter;4;1600;1200;24611934;160
+378;Swordstalker;Monster;Warrior;Moon;Saturn;6;2000;1600;50005633;400
+379;La Jinn the Mystical Genie;Monster;Fiend;Mercury;Saturn;4;1800;1000;97590747;160
+380;Blue-eyes Ultimate Dragon;Monster;Dragon;Sun;Venus;12;4500;3800;;
+381;Toon Alligator;Monster;Reptile;Neptune;Mars;4;800;1600;59383041;120
+382;Rude Kaiser;Monster;Beast-Warrior;Uranus;Sun;5;1800;1600;26378150;320
+383;Parrot Dragon;Monster;Dragon;Saturn;Sun;5;2000;1300;62762898;290
+384;Dark Rabbit;Monster;Beast;Moon;Uranus;4;1100;1500;99261403;120
+385;Bickuribox;Monster;Fiend;Moon;Neptune;7;2300;2000;25655502;900
+386;Harpie's Pet Dragon;Monster;Dragon;Saturn;Moon;7;2000;2500;52040216;999,999
+387;Mystic Lamp;Monster;Spellcaster;mercury;Uranus;1;400;300;98049915;15
+388;Pendulum Machine;Monster;Machine;Mercury;Neptune;6;1750;2000;24433920;1,000
+389;Giltia the D. Knight;Monster;Warrior;Sun;Mars;5;1850;1500;51828629;290
+390;Launcher Spider;Monster;Machine;Mars;Pluto;7;2200;2500;87322377;999,999
+391;Zoa;Monster;Fiend;Moon;Mercury;7;2600;1900;24311372;999,999
+392;Metalzoa;Monster;Machine;Moon;Mars;8;3000;2300;50705071;999,999
+393;Zone Eater;Monster;Aqua;Sun;Neptune;1;250;200;86100785;10
+394;Steel Scorpion;Monster;Machine;Jupiter;Neptune;1;250;300;13599884;10
+395;Dancing Elf;Monster;Fairy;Jupiter;Sun;1;300;200;59983499;10
+396;Ocubeam;Monster;Fairy;Saturn;Venus;5;1550;1650;86088138;260
+397;Leghul;Monster;Insect;Jupiter;Moon;1;300;350;12472242;15
+398;Ooguchi;Monster;;Aqua;Neptune;0;1;300;250;58861941
+399;Swordsman from a Foreign Land;Monster;Warrior;Uranus;Venus;1;250;250;85255550;10
+400;Emperor of the Land and Sea;Monster;Reptile;Neptune;Venus;5;1800;1500;11250655;290
+401;Ushi Oni;Monster;Fiend;Jupiter;Venus;6;2150;1950;48649353;700
+402;Monster Eye;Monster;Fiend;Moon;Jupiter;1;250;300;84133008;15
+403;Leogun;Monster;Beast;Uranus;Mercury;5;1750;1550;10538007;290
+404;Tatsunootoshigo;Monster;Beast;Neptune;Mercury;5;1350;1600;47922711;180
+405;Saber Slasher;Monster;Machine;Moon;Saturn;5;1450;1500;73911410;180
+406;Yaiba Robo;Monster;Machine;Moon;Uranus;4;1000;1300;10315429;80
+407;Machine King;Monster;Machine;Mars;Sun;6;2200;2000;46700124;800
+408;Giant Mech-soldier;Monster;Machine;Moon;Neptune;6;1750;1900;72299832;400
+409;Metal Dragon;Monster;;Machine;Mars;0;6;1850;1700;09293977
+410;Mechanical Spider;Monster;Machine;Jupiter;Mercury;2;400;500;45688586;20
+411;Bat;Monster;;Machine;Moon;0;1;300;350;72076281
+412;Giga-Tech Wolf;Monster;;Machine;Jupiter;0;4;1200;1400;08471389
+413;Cyber Soldier;Monster;Machine;Moon;Mars;5;1500;1700;44865098;260
+414;Shovel Crusher;Monster;Machine;Uranus;Neptune;3;900;1200;71950093;60
+415;Mechanicalchacer;Monster;Machine;Moon;Jupiter;4;1850;800;07359741;120
+416;Blocker;Monster;Machine;Moon;Saturn;4;850;1800;34743446;120
+417;Blast Juggler;Monster;Machine;Mars;Venus;3;800;900;70138455;40
+418;Golgoil;Monster;Machine;Venus;Neptune;4;900;1600;07526150;100
+419;Giganto;Monster;Machine;Moon;Uranus;5;1700;1800;33621868;350
+420;Cyber-Stein;Monster;Machine;Moon;Neptune;2;700;500;69015963;25
+421;Cyber Commander;Monster;;Machine;Moon;0;2;750;700;06400512
+422;Jinzo #7;Monster;;Machine;Moon;0;2;500;400;32809211
+423;Dice Armadillo;Monster;Machine;Jupiter;Pluto;5;1650;1800;69893315;320
+424;Sky Dragon;Monster;Dragon;Saturn;Uranus;6;1900;1800;95288024;1,000
+425;Thunder Dragon;Monster;Thunder;Pluto;Jupiter;5;1600;1500;31786629;230
+426;Stone D.;Monster;Rock;Uranus;Mars;7;2000;2300;68171737;900
+427;Kaiser Dragon;Monster;Dragon;Sun;Jupiter;7;2300;2000;94566432;900
+428;Magician of Faith;Monster;Spellcaster;Sun;Saturn;1;300;400;31560081;999,999
+429;Goddess of Whim;Monster;Fairy;Sun;Uranus;3;950;700;67959180;999,999
+430;Water Magician;Monster;Spellcaster;Neptune;Mercury;4;1400;1000;93343894;120
+431;Ice Water;Monster;Aqua;Neptune;Moon;3;1150;900;20848593;55
+432;Waterdragon Fairy;Monster;Aqua;Neptune;Venus;3;1100;700;66836598;45
+433;Ancient Elf;Monster;Spellcaster;Sun;Pluto;4;1450;1200;93221206;120
+434;Beautiful Beast Trainer;Monster;Warrior;Jupiter;Neptune;5;1750;1500;29616941;260
+435;Water Girl;Monster;Aqua;Neptune;Venus;4;1250;1000;55014050;70
+436;White Dolphin;Monster;Fish;Neptune;Jupiter;2;500;400;92409659;50
+437;Deepsea Shark;Monster;Fish;Neptune;Mars;5;1900;1600;28593363;350
+438;Metal Fish;Monster;Machine;Neptune;Saturn;5;1600;1900;55998462;350
+439;Bottom Dweller;Monster;;Fish;Neptune;0;5;1650;1700;81386177
+440;7 Colored Fish;Monster;Fish;Neptune;Sun;4;1800;800;23771716;120
+441;Mech Bass;Monster;Machine;Neptune;Venus;5;1800;1500;50176820;290
+442;Aqua Dragon;Monster;Sea Serpent;Neptune;Moon;6;2250;1900;86164529;700
+443;Sea King Dragon;Monster;Sea Serpent;Neptune;Mercury;6;2000;1700;23659124;1,000
+444;Turu-Purun;Monster;Aqua;Neptune;Jupiter;2;450;500;59053232;20
+445;Guardian of the Sea;Monster;Aqua;Neptune;Mars;4;1300;1000;85448931;80
+446;Aqua Snake;Monster;Aqua;Neptune;Saturn;3;1050;900;12436646;50
+447;Giant Red Seasnake;Monster;Aqua;Neptune;Sun;4;1800;800;58831685;120
+448;Spike Seadra;Monster;Sea;Serpent;Pluto;0;5;1600;1300;85326399
+449;30,000-Year White Turtle;Monster;;Aqua;Neptune;0;5;1250;2100;11714098
+450;Kappa Avenger;Monster;Aqua;Neptune;Venus;3;1200;900;48109103;60
+451;Kanikabuto;Monster;Aqua;Neptune;Saturn;3;650;900;84103702;30
+452;Zarigun;Monster;Aqua;Neptune;Mercury;2;600;700;10598400;30
+453;Millennium Golem;Monster;Rock;Uranus;Jupiter;6;2000;2200;47986555;800
+454;Destroyer Golem;Monster;Rock;Uranus;Sun;4;1500;1000;73481154;100
+455;Barrel Rock;Monster;Rock;Uranus;Moon;4;1000;1300;10476868;80
+456;Minomushi Warrior;Monster;Warrior;Uranus;Venus;4;1300;1200;46864967;100
+457;Stone Ghost;Monster;Rock;Uranus;Mercury;4;1200;1000;72269672;70
+458;Kaminari Attack;Monster;Thunder;Pluto;Venus;5;1900;1400;09653271;290
+459;Tripwire Beast;Monster;Thunder;Pluto;Saturn;4;1200;1300;45042329;100
+460;Bolt Escargot;Monster;Thunder;Pluto;Jupiter;5;1400;1500;12146024;180
+461;Bolt Penguin;Monster;Thunder;Pluto;Moon;3;1100;800;48531733;50
+462;The Immortal of Thunder;Monster;Thunder;Pluto;Sun;4;1500;1300;84926738;160
+463;Electric Snake;Monster;;Thunder;Pluto;3;800;900;11324436;40
+464;Wing Eagle;Monster;Winged;Beast;Saturn;0;5;1800;1500;47319141
+465;Punished Eagle;Monster;Winged Beast;Saturn;Pluto;6;2100;1800;74703140;550
+466;Skull Red Bird;Monster;Winged Beast;Saturn;Sun;4;1550;1200;10202894;140
+467;Crimson Sunbird;Monster;Winged Beast;Mars;Mercury;6;2300;1800;46696593;700
+468;Queen Bird;Monster;Winged Beast;Saturn;Moon;5;1200;2000;73081602;260
+469;Armed Ninja;Monster;Warrior;Neptune;Mars;1;300;300;09076207;15
+470;Magical Ghost;Monster;Zombie;Moon;Pluto;4;1300;1400;46474915;10
+471;Soul Hunter;Monster;Fiend;Moon;Jupiter;6;2200;1800;72869010;800
+472;Air Eater;Monster;Fiend;Moon;Saturn;6;2100;1600;08353769;1,000
+473;Vermillion Sparrow;Monster;Pyro;Mars;Pluto;5;1900;1500;35752363;320
+474;Sea Kamen;Monster;Aqua;Neptune;Sun;4;1100;1300;71746462;120
+475;Sinister Serpent;Monster;Reptile;Neptune;Jupiter;1;300;250;08131171;10
+476;Ganigumo;Monster;Insect;Jupiter;Sun;2;600;800;34536276;30
+477;Alinsection;Monster;Insect;Jupiter;Moon;3;950;700;70924884;35
+478;Insect Soldiers of the Sky;Monster;Insect;Saturn;Neptune;3;1000;800;07019529;45
+479;Cockroach Knight;Monster;Insect;Jupiter;Venus;3;800;900;33413638;999,999
+480;Kuwagata alpha;Monster;Insect;Jupiter;Mercury;4;1250;1000;60802233;70
+481;Burglar;Monster;Beast;Jupiter;Uranus;3;850;800;06297941;35
+482;Pragtical;Monster;Dinosaur;Uranus;Neptune;5;1900;1500;33691040;320
+483;Garvas;Monster;Beast;Jupiter;Pluto;6;2000;1700;69780745;1,000
+484;Ameba;Monster;Aqua;Neptune;Moon;1;300;350;95174353;15
+485;Korogashi;Monster;Insect;Jupiter;Neptune;2;550;400;32569498;20
+486;Boo Koo;Monster;Spellcaster;Sun;Jupiter;2;650;500;68963107;25
+487;Flower Wolf;Monster;Beast;Jupiter;Sun;5;1800;1400;95952802;260
+488;Rainbow Flower;Monster;Plant;Jupiter;Moon;2;400;500;21347810;20
+489;Barrel Lily;Monster;Plant;Jupiter;Venus;3;1100;600;67841515;40
+490;Needle Ball;Monster;Fiend;Moon;Uranus;2;750;700;94230224;30
+491;Peacock;Monster;Winged Beast;Jupiter;Mercury;5;1700;1500;20624263;260
+492;Hoshiningen;Monster;Fairy;Sun;Neptune;2;500;700;67629977;25
+493;Maha Vailo;Monster;Spellcaster;Sun;Venus;6;1550;1400;93013676;180
+494;Rainbow Marine Mermaid;Monster;Fish;Neptune;Venus;5;1550;1700;29402771;260
+495;Musician King;Monster;Spellcaster;Sun;Mars;5;1750;1500;56907389;260
+496;Wilmee;Monster;Beast;Jupiter;Uranus;4;1000;1200;92391084;70
+497;Yado Karu;Monster;Aqua;Neptune;Mercury;4;900;1700;29380133;120
+498;Morinphen;Monster;Fiend;Moon;Neptune;5;1550;1300;55784832;160
+499;Kattapillar;Monster;Insect;Jupiter;Neptune;1;250;300;81179446;999,999
+500;Dragon Seeker;Monster;Fiend;Moon;Mercury;6;2100;2000;28563545;700
+501;Man-eater Bug;Monster;Insect;Jupiter;Pluto;2;450;600;54652250;20
+502;D. Human;Monster;Warrior;Uranus;Mars;4;1300;1100;81057959;120
+503;Turtle Raccoon;Monster;Aqua;Jupiter;Sun;3;700;900;17441953;35
+504;Fungi of the Musk;Monster;Fiend;Jupiter;Moon;1;400;300;53830602;15
+505;Prisman;Monster;Rock;Uranus;Jupiter;3;800;1000;80234301;45
+506;Gale Dogra;Monster;Insect;Jupiter;Venus;2;650;600;16229315;25
+507;Crazy Fish;Monster;Fish;Neptune;Jupiter;4;1600;1200;53713014;160
+508;Cyber Saurus;Monster;Machine;Uranus;Sun;5;1800;1400;89112729;260
+509;Bracchio-raidus;Monster;Dinosaur;Uranus;Moon;6;2200;2000;16507828;800
+510;Laughing Flower;Monster;Plant;Jupiter;Mercury;2;900;500;42591472;30
+511;Bean Soldier;Monster;Plant;Jupiter;Uranus;4;1400;1300;84990171;140
+512;Cannon Soldier;Monster;;Machine;Moon;0;4;1400;1300;11384280
+513;Guardian of the Throne Room;Monster;Machine;Sun;Saturn;5;1650;1600;47879985;260
+514;Brave Scizzar;Monster;Machine;Moon;Jupiter;4;1300;1000;74277583;80
+515;The Statue of Easter Island;Monster;Rock;Uranus;Venus;4;1100;1400;10262698;100
+516;Muka Muka;Monster;Insect;Uranus;Mercury;2;600;300;46657337;20
+517;Sand Stone;Monster;Rock;Uranus;Mars;5;1300;1600;73051941;180
+518;Boulder Tortoise;Monster;Aqua;Uranus;Neptune;6;1450;2200;09540040;400
+519;Fire Kraken;Monster;Aqua;Mars;Saturn;5;1600;1500;46534755;230
+520;Turtle Bird;Monster;Aqua;Saturn;Mars;6;1900;1700;72929454;400
+521;Skullbird;Monster;Winged Beast;Saturn;Venus;6;1900;1700;08327462;400
+522;Monstrous Bird;Monster;Winged Beast;Saturn;Mercury;6;2000;1900;35712107;550
+523;The Bistro Butcher;Monster;Fiend;Moon;Saturn;4;1800;1000;71107816;160
+524;Star Boy;Monster;Aqua;Neptune;Mars;2;550;500;08201910;20
+525;Spirit of the Mountain;Monster;Spellcaster;Uranus;Jupiter;5;1300;1800;34690519;230
+526;Neck Hunter;Monster;Fiend;Moon;Uranus;6;1750;1900;70084224;400
+527;Milus Radiant;Monster;Beast;Jupiter;Neptune;1;300;250;07489323;10
+528;Togex;Monster;Beast;Uranus;Sun;5;1600;1800;33878931;320
+529;Flame Cerebrus;Monster;Pyro;Mars;Pluto;6;2100;1800;60862676;550
+530;Eldeen;Monster;Spellcaster;Mercury;Moon;3;950;1000;06367785;50
+531;Mystical Sand;Monster;;Rock;Mercury;0;6;2100;1700;32751480
+532;Gemini Elf;Monster;Spellcaster;Sun;Uranus;4;1900;900;69140098;160
+533;Kwagar Hercules;Monster;Insect;Jupiter;Sun;6;1900;1700;95144193;400
+534;Minar;Monster;Insect;Moon;Neptune;3;800;750;32539892;35
+535;Kamakiriman;Monster;Insect;Jupiter;Moon;4;1150;1400;68928540;100
+536;Mechaleon;Monster;Reptile;Neptune;Saturn;2;800;600;94412545;30
+537;Mega Thunderball;Monster;Thunder;Pluto;Mercury;2;750;600;21817254;30
+538;Niwatori;Monster;Winged Beast;Jupiter;Venus;3;900;800;07805359;40
+539;Corroding Shark;Monster;Zombie;Moon;Pluto;3;110;700;34290067;45
+540;Skelengel;Monster;Fairy;Sun;Pluto;2;900;400;60694662;30
+541;Hane-Hane;Monster;Beast;Saturn;Pluto;2;450;500;07089711;999,999
+542;Misairuzame;Monster;Fish;Neptune;Sun;5;1400;1600;33178416;200
+543;Tongyo;Monster;;Fish;Neptune;0;4;1350;800;69572024
+544;Dharma Cannon;Monster;Machine;Moon;Mercury;2;900;500;96967123;30
+545;Skelgon;Monster;Zombie;Moon;Pluto;6;1700;1900;32355828;999,999
+546;Wow Warrior;Monster;Fish;Neptune;Mars;4;1250;900;69750536;60
+547;Griggle;Monster;Plant;Jupiter;Mercury;1;350;300;95744531;15
+548;Bone Mouse;Monster;Zombie;Moon;Pluto;1;400;300;21239280;15
+549;Frog the Jam;Monster;Aqua;Neptune;Jupiter;2;700;500;68638985;25
+550;Behegon;Monster;Aqua;Neptune;Saturn;4;1350;1000;94022093;80
+551;Dark Elf;Monster;Spellcaster;Mercury;Jupiter;4;2000;800;21417692;160
+552;Winged Dragon #2;Monster;Winged Beast;Saturn;Neptune;4;1200;1000;57405307;70
+553;Mushroom Man #2;Monster;Warrior;Jupiter;Uranus;3;1250;800;93900406;55
+554;Lava Battleguard;Monster;Warrior;Mercury;Mars;5;1550;1800;20394040;999,999
+555;Tyhone #2;Monster;Dragon;Mars;Uranus;6;1700;1900;56789759;999,999
+556;The Wandering Doomed;Monster;Zombie;Moon;Pluto;2;800;600;93788854;30
+557;Steel Ogre Grotto #1;Monster;Machine;Moon;Mars;5;1400;1800;29172562;260
+558;Pot the Trick;Monster;Rock;Moon;Jupiter;2;400;400;55567161;20
+559;Oscillo Hero;Monster;Warrior;Venus;Sun;3;1250;700;82065276;50
+560;Invader from Another Dimension;Monster;Fiend;Venus;Mars;4;950;1400;28450915;80
+561;Lesser Dragon;Monster;Dragon;Moon;Saturn;4;1200;1000;55444629;70
+562;Needle Worm;Monster;Insect;Jupiter;Pluto;2;750;600;81843628;999,999
+563;Wretched Ghost of the Attic;Monster;Fiend;Mercury;Uranus;2;550;400;17238333;20
+564;Great Mammoth of Goldfine;Monster;Zombie;Moon;Pluto;6;2200;1800;54622031;800
+565;Man-eating Black Shark;Monster;Fish;Neptune;Sun;5;2100;1300;80727036;320
+566;Yormungarde;Monster;Reptile;Neptune;Moon;3;1200;900;17115745;60
+567;Darkworld Thorns;Monster;Plant;Moon;Jupiter;3;1200;900;43500484;60
+568;Anthrosaurus;Monster;Dinosaur;Uranus;Moon;3;1000;850;89904598;45
+569;Drooling Lizard;Monster;Reptile;Neptune;Venus;3;900;800;16353197;40
+570;Trakadon;Monster;Dinosaur;Uranus;Venus;3;1300;800;42348802;60
+571;B. Dragon Jungle King;Monster;Dragon;Jupiter;Neptune;6;2100;1800;89832901;999,999
+572;Empress Judge;Monster;Warrior;Uranus;Venus;6;2100;1700;15237615;500
+573;Little D;Monster;Dinosaur;Uranus;Mercury;3;1100;700;42625254;45
+574;Witch of the Black Forest;Monster;Spellcaster;Mercury;Pluto;4;1100;1200;78010363;80
+575;Ancient One of the Deep Forest;Monster;Beast;Jupiter;Sun;6;1800;1900;14015067;1,000
+576;Giant Scorpion of the Tundra;Monster;Insect;Jupiter;Moon;3;1100;1000;41403766;60
+577;Crow Goblin;Monster;Winged Beast;Saturn;Mars;5;1850;1600;77998771;320
+578;Leo Wizard;Monster;Spellcaster;Mercury;Neptune;5;1350;1200;04392470;100
+579;Abyss Flower;Monster;Plant;Jupiter;Venus;2;750;400;40387124;25
+580;Patrol Robo;Monster;Machine;Moon;Uranus;3;1100;1900;76775123;55
+581;Takuhee;Monster;Winged Beast;Saturn;Sun;4;1450;1000;03170832;120
+582;Dark Witch;Monster;Fairy;Sun;Neptune;5;1800;1700;35565537;350
+583;Weather Report;Monster;Aqua;Neptune;Mercury;4;950;1500;72053645;120
+584;Binding Chain;Monster;Fairy;Sun;Venus;3;1000;1100;08058240;60
+585;Mechanical Snail;Monster;Machine;Moon;Neptune;3;800;1000;34442949;45
+586;Greenkappa;Monster;Warrior;Moon;Mercury;3;650;900;61831093;30
+587;Mon Larvas;Monster;Beast;Jupiter;Mercury;4;1300;1400;07225792;140
+588;Living Vase;Monster;Plant;Jupiter;Uranus;3;900;1100;34320307;55
+589;Tentacle Plant;Monster;Plant;Jupiter;Pluto;2;500;600;60715406;25
+590;Beaked Snake;Monster;Reptile;Neptune;Jupiter;3;800;900;06103114;40
+591;Morphing Jar;Monster;Rock;Uranus;Neptune;2;700;600;33508719;30
+592;Muse-A;Monster;Fairy;Sun;Mars;3;850;900;69992868;40
+593;Giant Turtle Who Feeds on Flames;Monster;Aqua;Neptune;Mars;5;1400;1800;96981563;260
+594;Rose Spectre of Dunn;Monster;Plant;Moon;Jupiter;6;2000;1800;32485271;500
+595;Fiend Refrection #1;Monster;Winged Beast;Venus;Jupiter;4;1300;1400;68870276;140
+596;Ghoul with an Appetite;Monster;Zombie;Moon;Pluto;4;1600;1200;95265975;160
+597;Pale Beast;Monster;Beast;Jupiter;Neptune;4;1500;1200;21263083;140
+598;Little Chimera;Monster;Beast;Saturn;Moon;2;600;550;68658728;25
+599;Violent Rain;Monster;Aqua;Neptune;Mercury;4;1550;800;94042337;80
+600;Key Mace #2;Monster;Fiend;Mercury;Moon;4;1050;1200;20541432;70
+601;Tenderness;Monster;Fairy;Sun;Jupiter;3;700;1400;57935140;60
+602;Penguin Soldier;Monster;Aqua;Neptune;Mars;2;750;500;93920745;25
+603;Fairy Dragon;Monster;Dragon;Sun;Saturn;4;1100;1200;20315854;999,999
+604;Obese Marmot of Nefariousness;Monster;Beast;Moon;Mars;3;750;800;56713552;30
+605;Liquid Beast;Monster;Aqua;Neptune;Saturn;3;950;800;93108297;40
+606;Twin Long Rods 2;Monster;Aqua;Neptune;Sun;3;850;700;29692206;30
+607;Great Bill;Monster;Beast;Jupiter;Sun;4;1250;1300;55691901;100
+608;Shining Friendship;Monster;Fairy;Sun;Uranus;4;1300;1100;82085619;120
+609;Bladefly;Monster;Insect;Jupiter;Moon;2;600;700;28470714;30
+610;Electric Lizard;Monster;Thunder;Pluto;Sun;3;850;800;55875323;35
+611;Hiro's Shadow Scout;Monster;Fiend;Moon;Saturn;2;650;500;81863068;25
+612;Lady of Faith;Monster;Spellcaster;Sun;Pluto;3;1100;800;17358176;50
+613;Twin-headed Thunder Dragon;Monster;Thunder;Pluto;Moon;7;2800;2100;54752875;1,900
+614;Hunter Spider;Monster;Insect;Jupiter;Venus;5;1600;1400;80141480;200
+615;Armored Starfish;Monster;Aqua;Neptune;Moon;4;850;1400;17535588;70
+616;Hourglass of Courage;Monster;Fairy;Sun;Neptune;4;1100;1200;43530283;80
+617;Marine Beast;Monster;Fish;Neptune;Mercury;5;1700;1600;29929832;290
+618;Warrior of Tradition;Monster;Warrior;Mercury;Mars;6;1900;1700;56413937;400
+619;Rock Spirit;Monster;Spellcaster;Uranus;Mars;5;1650;1900;82818645;350
+620;Snakeyashi;Monster;Plant;Jupiter;Mercury;4;1000;1200;29802344;70
+621;Succubus Knight;Monster;Warrior;Mercury;Jupiter;5;1650;1300;55291359;180
+622;Ill Witch;Monster;Spellcaster;Sun;Venus;5;1600;1500;81686058;230
+623;The Thing That Hides In the Mud;Monster;Rock;Uranus;Jupiter;4;1200;1300;18180762;100
+624;High Tide Gyojin;Monster;Aqua;Neptune;Mercury;5;1650;1300;54579801;180
+625;Fairy of the Fountain;Monster;Aqua;Neptune;Venus;4;1600;1100;81563416;140
+626;Amazon of the Seas;Monster;Fish;Neptune;Mars;4;1300;1400;17968114;140
+627;Nekogal #2;Monster;Beast-Warrior;Jupiter;Uranus;6;1900;2000;43352213;550
+628;Witch's Apprentice;Monster;Spellcaster;Mercury;Saturn;2;550;500;80741828;999,999
+629;Armored Rat;Monster;Beast;Jupiter;Pluto;3;950;1100;16246527;55
+630;Ancient Lizard Warrior;Monster;Reptile;Neptune;Saturn;4;1400;1100;43230671;100
+631;Maiden of the Moonlight;Monster;Spellcaster;Moon;Venus;4;1500;1300;79629370;160
+632;Stone Ogre Grotto;Monster;Rock;Uranus;Sun;5;1600;1500;15023985;230
+633;Winged Egg of New Life;Monster;Fairy;Sun;Mars;5;1400;1700;42418084;230
+634;Night Lizard;Monster;Aqua;Neptune;Jupiter;4;1150;1300;78402798;120
+635;Queen's Double;Monster;Warrior;Uranus;Moon;1;350;300;05901497;15
+636;Blue-winged Crown;Monster;Winged Beast;Saturn;Venus;4;1600;1200;41396436;160
+637;Trent;Monster;Plant;Jupiter;Sun;6;1500;1800;78780140;290
+638;Queen of Autumn Leaves;Monster;Plant;Jupiter;Moon;5;1800;1500;04179849;290
+639;Amphibious Bugroth;Monster;Aqua;Neptune;Sun;5;1850;1300;40173854;230
+640;Acid Crawler;Monster;Insect;Jupiter;Venus;3;900;700;77568553;999,999
+641;Invader of the Throne;Monster;Warrior;Uranus;Venus;5;1350;1700;03056267;200
+642;Mystical Sheep #1;Monster;Beast;Venus;Saturn;3;1150;900;30451366;55
+643;Disk Magician;Monster;Machine;Moon;Uranus;4;1350;1000;76446915;80
+644;Flame Viper;Monster;Pyro;Mars;Pluto;2;400;450;02830619;20
+645;Royal Guard;Monster;Machine;Uranus;Mercury;6;1900;2200;39239728;700
+646;Gruesome Goo;Monster;Aqua;Neptune;Moon;3;1300;700;65623423;55
+647;Hyosube;Monster;Aqua;Neptune;Venus;4;1500;900;02118022;120
+648;Machine Attacker;Monster;Machine;Moon;Neptune;5;1600;1300;38116136;180
+649;Hibikime;Monster;Warrior;Mercury;Uranus;4;1450;1000;64501875;120
+650;Whiptail Crow;Monster;Fiend;Moon;Mercury;5;1650;1600;91996584;260
+651;Kunai with Chain;Equip;37390589;800
+652;Magical Labyrinth;Equip;64389297;10
+653;Warrior Elimination;Magic;90873992;999,999
+654;Salamandra;Equip;32268901;800
+655;Cursebreaker;Magic;19159413;10
+656;Eternal Rest;Magic;95051344;999,999
+657;Megamorph;Equip;22046459;50,000
+658;Metalmorph;Equip;68540058;999,999
+659;Winged Trumpeter;Equip;94939166;800
+660;Stain Storm;Magic;21323861;999,999
+661;Crush Card;Magic;57728570;999,999
+662;Eradicating Aerosol;Magic;94716515;999,999
+663;Breath of Light;Magic;20101223;999,999
+664;Eternal Draught;Magic;56606928;999,999
+665;Curse of Millennium Shield;Ritual;83094937;10
+666;Yamadron Ritual;Ritual;29089635;10
+667;Gate Guardian Ritual;Ritual;56483330;999,999
+668;Bright Castle;Equip;82878489;800
+669;Shadow Spell;Magic;29267084;999,999
+670;Black Luster Ritual;Ritual;55761792;100
+671;Zera Ritual;Ritual;81756897;100
+672;Harpie's Feather Duster;Magic;18144506;999,999
+673;War-lion Ritual;Ritual;54539105;100
+674;Beastry Mirror Ritual;Ritual;81933259;100
+675;Ultimate Dragon;Ritual;17928958;999,999
+676;Commencement Dance;Ritual;43417563;50
+677;Hamburger Recipe;Ritual;80811661;50
+678;Revival of Sennen Genjin;Ritual;16206366;50
+679;Novox's Prayer;Ritual;43694075;50
+680;Curse of Tri-Horned Dragon;Ritual;79699070;50
+681;House of Adhesive Tape;Trap;15083728;999,999
+682;Eatgaboon;Trap;42578427;999,999
+683;Bear Trap;Trap;78977532;999,999
+684;Invisible Wire;Trap;15361130;999,999
+685;Acid Trap Hole;Trap;41356845;999,999
+686;Widespread Ruin;Trap;77754944;999,999
+687;Goblin Fan;Trap;04149689;999,999
+688;Bad Reaction to Simochi;Trap;40633297;999,999
+689;Reverse Trap;Trap;77622396;999,999
+690;Fake Trap;Trap;03027001;999,999
+691;Revived of Serpent Night Dragon;Ritual;39411600;50
+692;Turtle Oath;Ritual;76806714;100
+693;Contruct of Mask;Ritual;02304453;100
+694;Resurrection of Chakra;Ritual;39399168;100
+695;Puppet Ritual;Ritual;05783166;50
+696;Javelin Beetle Pact;Ritual;41182875;999,999
+697;Garma Sword Oath;Ritual;78577570;50
+698;Cosmo Queen's Prayer;Ritual;04561679;50
+699;Revival of Skeleton Rider;Ritual;31066283;10
+700;Fortress Whale's Oath;Ritual;77454922;10
+701;Performance of Sword;Monster;Warrior;Sun;Saturn;6;1950;1850;;
+702;Hungry Burger;Monster;Warrior;Moon;Mars;6;2000;1800;;
+703;Sengenjin;Monster;Beast-Warrior;Jupiter;Mercury;8;2750;2500;;
+704;Skull Guardian;Monster;Warrior;Sun;Jupiter;7;2050;2500;;
+705;Tri-horned Dragon;Monster;Dragon;Moon;Jupiter;8;2850;2350;;
+706;Serpent Night Dragon;Monster;Dragon;Mercury;Pluto;7;2350;2400;;
+707;Skull Knight;Monster;Spellcaster;Mercury;Neptune;7;2650;2250;02504891;999,999
+708;Cosmo Queen;Monster;Spellcaster;Venus;Uranus;8;2900;2450;;
+709;Chakra;Monster;Fiend;Mercury;Moon;8;2450;2000;;
+710;Crab Turtle;Monster;Aqua;Neptune;Jupiter;8;2550;2500;;
+711;Mikazukinoyaiba;Monster;Dragon;Sun;Uranus;7;2200;2350;38277918;999,999
+712;Meteor Dragon;Monster;Dragon;Uranus;Neptune;6;1800;2000;64271667;999,999
+713;Meteor B. Dragon;Monster;Dragon;Mars;Sun;8;3500;2000;;
+714;Firewing Pegasus;Monster;Beast;Mars;Moon;6;2250;1800;27054370;999,999
+715;Psycho-Puppet;Monster;Fiend;Moon;Saturn;7;2000;2350;;
+716;Garma Sword;Monster;Warrior;Moon;Uranus;7;2550;2150;;
+717;Javelin Beetle;Monster;Insect;Jupiter;Uranus;8;2450;2550;;
+718;Fortress Whale;Monster;Fish;Neptune;Saturn;8;2350;2150;;
+719;Dokurorider;Monster;Zombie;Uranus;Mars;6;1900;1850;;
+720;Mask of Shine & Dark;Monster;Spellcaster;Venus;Pluto;6;2000;1800;;
+721;Dark Magic Ritual;Ritual;;
+722;Magician of Black Chaos;Monster;Spellcaster;Mercury;Mars;8;2800;2600;;
