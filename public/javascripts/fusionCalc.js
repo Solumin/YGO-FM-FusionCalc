@@ -77,7 +77,7 @@ function searchByType() {
     }
     if (genfuses.count() > 0) {
         outputGeneral.innerHTML += "<h2 class='center'>General Fuses:</h2>";
-        outputGeneral.innerHTML += genfuses.supplant(typeStr);
+        outputGeneral.innerHTML += genfuses.supplant(formatStr);
     }
 }
 
