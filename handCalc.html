@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Hand Calculator</title>
+        <link rel='stylesheet' href='public/styles/normalize.css' />
+        <link rel='stylesheet' href='public/styles/bootstrap.css' />
+        <script type="text/javascript" src="public/javascripts/jquery-2.2.1.js">
+
+        </script>
+  </head>
+    <body>
+
+        <!--  Navbar -->
+        <nav class="navbar navbar-default">
+      <div class="container-fluid">
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+          <a class="navbar-brand" href="#"> Fusion Calculator</a>
+        </div>
+        <div id="navbar" class="navbar-collapse collapse">
+          <ul class="nav navbar-nav navbar-right">
+            <li><a href="http://forums.somethingawful.com/showthread.php?threadid=3783156">Thread</a></li>
+            <!-- <li><a href="/logout/">Logout</a><li> -->
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+        <div class="container">
+        <div class="row">
+          <div class="col-xs-12">
+            <div class="panel panel-default upload-font">
+                        <div class="panel-body">
+                            <div class="col-xs-6">
+                                <h4>Enter hand:</h4><br>
+                                <input type="test" id="hand1"><span id="hand1-info"></span><br>
+                                <input type="test" id="hand2"><span id="hand2-info"></span><br>
+                                <input type="test" id="hand3"><span id="hand3-info"></span><br>
+                                <input type="test" id="hand4"><span id="hand4-info"></span><br>
+                                <input type="test" id="hand5"><span id="hand5-info"></span><br>
+                            <!-- <div class="col-xs-6"> -->
+                            <!--     <div id="outputcard"></div> -->
+                            <!-- </div> -->
+                            <br>
+                            <button type="button" id="resetBtn">Reset All</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-xs-12">
+                    <div class="panel panel-default upload-font">
+                        <div class="panel-body">
+                            <h4>Results: <span id="search-msg"></span></h4>
+                            <div class="col-xs-6">
+                                <div id="outputarealeft"></div>
+                            </div>
+                            <div class="col-xs-6">
+                                <div id="outputarearight"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+    </div>
+
+    <script type="text/javascript" src="public/javascripts/taffy.js"></script>
+    <script type="text/javascript" src="data/ygo_fm_cardDB.js"></script>
+    <script type="text/javascript" src="data/ygo_fm_secondaryDB.js"></script>
+    <script type="text/javascript" src="data/ygo_fm_genfuseDB.js"></script>
+    <script type="text/javascript" src="data/ygo_fm_monsterfuseDB.js"></script>
+    <script type="text/javascript" src="data/ygo_fm_equipDB.js"></script>
+    <script type="text/javascript" src="public/javascripts/test.js"</script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
+    </body>
+</html>
+
