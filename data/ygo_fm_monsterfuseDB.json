@@ -7681,14 +7681,6 @@
   },
   {
     "left": "Celtic Guardian",
-    "right": "Mystical Elf",
-    "output": "Dark Elf",
-    "attack": 2000,
-    "defense": 800,
-    "type": "Monster"
-  },
-  {
-    "left": "Celtic Guardian",
     "right": "One-eyed Shield Dragon",
     "output": "Sword Arm of Dragon",
     "attack": 1750,
@@ -33645,14 +33637,6 @@
     "output": "The Immortal of Thunder",
     "attack": 1500,
     "defense": 1300,
-    "type": "Monster"
-  },
-  {
-    "left": "Mystical Elf",
-    "right": "Celtic Guardian",
-    "output": "Dark Elf",
-    "attack": 2000,
-    "defense": 800,
     "type": "Monster"
   },
   {
