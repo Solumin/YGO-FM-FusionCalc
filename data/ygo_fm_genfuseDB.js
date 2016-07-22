@@ -5,7 +5,8 @@ var genfuseDB = TAFFY([
     "output": "Nekogal #2",
     "attack": 1900,
     "defense": 2000,
-    "minattack": 0
+    "minattack": 0,
+    "type": "Monster"
   },
   {
     "left": "Animal",
@@ -13,7 +14,8 @@ var genfuseDB = TAFFY([
     "output": "Giga-Tech Wolf",
     "attack": 1200,
     "defense": 1400,
-    "minattack": 0
+    "minattack": 0,
+    "type": "Monster"
   },
   {
     "left": "Animal",
@@ -21,7 +23,8 @@ var genfuseDB = TAFFY([
     "output": "Dice Armadillo",
     "attack": 1650,
     "defense": 1800,
-    "minattack": 1200
+    "minattack": 1200,
+    "type": "Monster"
   },
   {
     "left": "Animal",
@@ -29,7 +32,8 @@ var genfuseDB = TAFFY([
     "output": "Flower Wolf",
     "attack": 1800,
     "defense": 1400,
-    "minattack": 0
+    "minattack": 0,
+    "type": "Monster"
   },
   {
     "left": "Animal",
@@ -37,7 +41,8 @@ var genfuseDB = TAFFY([
     "output": "Flame Cerebrus",
     "attack": 2100,
     "defense": 1800,
-    "minattack": 0
+    "minattack": 0,
+    "type": "Monster"
   },
   {
     "left": "Animal",
@@ -45,7 +50,8 @@ var genfuseDB = TAFFY([
     "output": "Tiger Axe",
     "attack": 1300,
     "defense": 1100,
-    "minattack": 0
+    "minattack": 0,
+    "type": "Monster"
   },
   {
     "left": "Aqua",
@@ -53,7 +59,8 @@ var genfuseDB = TAFFY([
     "output": "Spike Seadra",
     "attack": 1600,
     "defense": 1300,
-    "minattack": 0
+    "minattack": 0,
+    "type": "Monster"
   },
   {
     "left": "Aqua",
@@ -61,7 +68,8 @@ var genfuseDB = TAFFY([
     "output": "Kairyu-Shin",
     "attack": 1800,
     "defense": 1500,
-    "minattack": 1600
+    "minattack": 1600,
+    "type": "Monster"
   },
   {
     "left": "Aqua",
@@ -69,7 +77,8 @@ var genfuseDB = TAFFY([
     "output": "Amphibious Bugroth",
     "attack": 1850,
     "defense": 1300,
-    "minattack": 0
+    "minattack": 0,
+    "type": "Monster"
   },
   {
     "left": "Aqua",
@@ -77,7 +86,8 @@ var genfuseDB = TAFFY([
     "output": "Hyosube",
     "attack": 1500,
     "defense": 900,
-    "minattack": 0
+    "minattack": 0,
+    "type": "Monster"
   },
   {
     "left": "Aqua",
@@ -85,7 +95,8 @@ var genfuseDB = TAFFY([
     "output": "Hyosube",
     "attack": 1500,
     "defense": 900,
-    "minattack": 0
+    "minattack": 0,
+    "type": "Monster"
   },
   {
     "left": "Aqua",
@@ -93,7 +104,8 @@ var genfuseDB = TAFFY([
     "output": "Bolt Escargot",
     "attack": 1400,
     "defense": 1500,
-    "minattack": 0
+    "minattack": 0,
+    "type": "Monster"
   },
   {
     "left": "Beast",
@@ -101,7 +113,8 @@ var genfuseDB = TAFFY([
     "output": "Tatsunootoshigo",
     "attack": 1350,
     "defense": 1600,
-    "minattack": 0
+    "minattack": 0,
+    "type": "Monster"
   },
   {
     "left": "Beast",
@@ -109,7 +122,8 @@ var genfuseDB = TAFFY([
     "output": "Rare Fish",
     "attack": 1500,
     "defense": 1200,
-    "minattack": 1350
+    "minattack": 1350,
+    "type": "Monster"
   },
   {
     "left": "Beast",
@@ -117,7 +131,8 @@ var genfuseDB = TAFFY([
     "output": "Marine Beast",
     "attack": 1700,
     "defense": 1600,
-    "minattack": 1500
+    "minattack": 1500,
+    "type": "Monster"
   },
   {
     "left": "Beast",
@@ -125,7 +140,8 @@ var genfuseDB = TAFFY([
     "output": "Mon Larvas",
     "attack": 1300,
     "defense": 1400,
-    "minattack": 0
+    "minattack": 0,
+    "type": "Monster"
   },
   {
     "left": "Beast",
@@ -133,7 +149,8 @@ var genfuseDB = TAFFY([
     "output": "Giga-Tech Wolf",
     "attack": 1200,
     "defense": 1400,
-    "minattack": 0
+    "minattack": 0,
+    "type": "Monster"
   },
   {
     "left": "Beast",
@@ -141,7 +158,8 @@ var genfuseDB = TAFFY([
     "output": "Dice Armadillo",
     "attack": 1650,
     "defense": 1800,
-    "minattack": 1200
+    "minattack": 1200,
+    "type": "Monster"
   },
   {
     "left": "Beast",
@@ -149,7 +167,8 @@ var genfuseDB = TAFFY([
     "output": "Flower Wolf",
     "attack": 1800,
     "defense": 1400,
-    "minattack": 0
+    "minattack": 0,
+    "type": "Monster"
   },
   {
     "left": "Beast",
@@ -157,7 +176,8 @@ var genfuseDB = TAFFY([
     "output": "Garvas",
     "attack": 2000,
     "defense": 1700,
-    "minattack": 0
+    "minattack": 0,
+    "type": "Monster"
   },
   {
     "left": "Beast",
@@ -165,7 +185,8 @@ var genfuseDB = TAFFY([
     "output": "Tripwire Beast",
     "attack": 1200,
     "defense": 1300,
-    "minattack": 0
+    "minattack": 0,
+    "type": "Monster"
   },
   {
     "left": "Beast",
@@ -173,7 +194,8 @@ var genfuseDB = TAFFY([
     "output": "Turtle Tiger",
     "attack": 1000,
     "defense": 1500,
-    "minattack": 0
+    "minattack": 0,
+    "type": "Monster"
   },
   {
     "left": "Beast",
@@ -181,7 +203,8 @@ var genfuseDB = TAFFY([
     "output": "Tiger Axe",
     "attack": 1300,
     "defense": 1100,
-    "minattack": 0
+    "minattack": 0,
+    "type": "Monster"
   },
   {
     "left": "Dark Magic",
@@ -189,7 +212,8 @@ var genfuseDB = TAFFY([
     "output": "Blackland Fire Dragon",
     "attack": 1500,
     "defense": 800,
-    "minattack": 0
+    "minattack": 0,
+    "type": "Monster"
   },
   {
     "left": "Dark Magic",
@@ -197,7 +221,8 @@ var genfuseDB = TAFFY([
     "output": "Dark Elf",
     "attack": 2000,
     "defense": 800,
-    "minattack": 0
+    "minattack": 0,
+    "type": "Monster"
   },
   {
     "left": "Dark Spellcaster",
@@ -205,7 +230,8 @@ var genfuseDB = TAFFY([
     "output": "Ushi Oni",
     "attack": 2150,
     "defense": 1950,
-    "minattack": 0
+    "minattack": 0,
+    "type": "Monster"
   },
   {
     "left": "Dark Spellcaster",
@@ -213,7 +239,8 @@ var genfuseDB = TAFFY([
     "output": "Disk Magician",
     "attack": 1350,
     "defense": 1000,
-    "minattack": 0
+    "minattack": 0,
+    "type": "Monster"
   },
   {
     "left": "Dark Spellcaster",
@@ -221,7 +248,8 @@ var genfuseDB = TAFFY([
     "output": "Ryu-Kishin Powered",
     "attack": 1600,
     "defense": 1200,
-    "minattack": 0
+    "minattack": 0,
+    "type": "Monster"
   },
   {
     "left": "Dinosaur",
@@ -229,7 +257,8 @@ var genfuseDB = TAFFY([
     "output": "Cyber Saurus",
     "attack": 1800,
     "defense": 1400,
-    "minattack": 0
+    "minattack": 0,
+    "type": "Monster"
   },
   {
     "left": "Dragon",
@@ -237,7 +266,8 @@ var genfuseDB = TAFFY([
     "output": "Spike Seadra",
     "attack": 1600,
     "defense": 1300,
-    "minattack": 0
+    "minattack": 0,
+    "type": "Monster"
   },
   {
     "left": "Dragon",
@@ -245,7 +275,8 @@ var genfuseDB = TAFFY([
     "output": "Kairyu-Shin",
     "attack": 1800,
     "defense": 1500,
-    "minattack": 1600
+    "minattack": 1600,
+    "type": "Monster"
   },
   {
     "left": "Dragon",
@@ -253,7 +284,8 @@ var genfuseDB = TAFFY([
     "output": "Sea King Dragon",
     "attack": 2000,
     "defense": 1700,
-    "minattack": 0
+    "minattack": 0,
+    "type": "Monster"
   },
   {
     "left": "Dragon",
@@ -261,7 +293,8 @@ var genfuseDB = TAFFY([
     "output": "Blackland Fire Dragon",
     "attack": 1500,
     "defense": 800,
-    "minattack": 0
+    "minattack": 0,
+    "type": "Monster"
   },
   {
     "left": "Dragon",
@@ -269,7 +302,8 @@ var genfuseDB = TAFFY([
     "output": "Koumori Dragon",
     "attack": 1500,
     "defense": 1200,
-    "minattack": 0
+    "minattack": 0,
+    "type": "Monster"
   },
   {
     "left": "Dragon",
@@ -277,7 +311,8 @@ var genfuseDB = TAFFY([
     "output": "Metal Dragon",
     "attack": 1850,
     "defense": 1700,
-    "minattack": 0
+    "minattack": 0,
+    "type": "Monster"
   },
   {
     "left": "Dragon",
@@ -285,7 +320,8 @@ var genfuseDB = TAFFY([
     "output": "B. Dragon Jungle King",
     "attack": 2100,
     "defense": 1800,
-    "minattack": 0
+    "minattack": 0,
+    "type": "Monster"
   },
   {
     "left": "Dragon",
@@ -293,7 +329,8 @@ var genfuseDB = TAFFY([
     "output": "Stone D.",
     "attack": 2000,
     "defense": 2300,
-    "minattack": 0
+    "minattack": 0,
+    "type": "Monster"
   },
   {
     "left": "Dragon",
@@ -301,7 +338,8 @@ var genfuseDB = TAFFY([
     "output": "Thunder Dragon",
     "attack": 1600,
     "defense": 1500,
-    "minattack": 0
+    "minattack": 0,
+    "type": "Monster"
   },
   {
     "left": "Dragon",
@@ -309,7 +347,8 @@ var genfuseDB = TAFFY([
     "output": "Twin-Headed Thunder Dragon",
     "attack": 2800,
     "defense": 2100,
-    "minattack": 1600
+    "minattack": 1600,
+    "type": "Monster"
   },
   {
     "left": "Dragon",
@@ -317,7 +356,8 @@ var genfuseDB = TAFFY([
     "output": "Thousand Dragon",
     "attack": 2400,
     "defense": 2000,
-    "minattack": 0
+    "minattack": 0,
+    "type": "Monster"
   },
   {
     "left": "Dragon",
@@ -325,7 +365,8 @@ var genfuseDB = TAFFY([
     "output": "Dragon Statue",
     "attack": 1100,
     "defense": 900,
-    "minattack": 0
+    "minattack": 0,
+    "type": "Monster"
   },
   {
     "left": "Dragon",
@@ -333,7 +374,8 @@ var genfuseDB = TAFFY([
     "output": "Dragoness the Wicked Knight",
     "attack": 1200,
     "defense": 900,
-    "minattack": 1100
+    "minattack": 1100,
+    "type": "Monster"
   },
   {
     "left": "Dragon",
@@ -341,7 +383,8 @@ var genfuseDB = TAFFY([
     "output": "D. Human",
     "attack": 1300,
     "defense": 1100,
-    "minattack": 1200
+    "minattack": 1200,
+    "type": "Monster"
   },
   {
     "left": "Dragon",
@@ -349,7 +392,8 @@ var genfuseDB = TAFFY([
     "output": "Sword Arm of Dragon",
     "attack": 1750,
     "defense": 2030,
-    "minattack": 1300
+    "minattack": 1300,
+    "type": "Monster"
   },
   {
     "left": "Dragon",
@@ -357,7 +401,8 @@ var genfuseDB = TAFFY([
     "output": "Dragon Zombie",
     "attack": 1600,
     "defense": 0,
-    "minattack": 0
+    "minattack": 0,
+    "type": "Monster"
   },
   {
     "left": "Dragon",
@@ -365,7 +410,8 @@ var genfuseDB = TAFFY([
     "output": "Skelgon",
     "attack": 1700,
     "defense": 1900,
-    "minattack": 1600
+    "minattack": 1600,
+    "type": "Monster"
   },
   {
     "left": "Dragon",
@@ -373,7 +419,8 @@ var genfuseDB = TAFFY([
     "output": "Curse of Dragon",
     "attack": 2000,
     "defense": 1500,
-    "minattack": 1700
+    "minattack": 1700,
+    "type": "Monster"
   },
   {
     "left": "Egg",
@@ -381,7 +428,8 @@ var genfuseDB = TAFFY([
     "output": "Winged Egg of New Life",
     "attack": 1400,
     "defense": 1700,
-    "minattack": 0
+    "minattack": 0,
+    "type": "Monster"
   },
   {
     "left": "Elf",
@@ -389,7 +437,8 @@ var genfuseDB = TAFFY([
     "output": "Dark Elf",
     "attack": 2000,
     "defense": 800,
-    "minattack": 0
+    "minattack": 0,
+    "type": "Monster"
   },
   {
     "left": "Elf",
@@ -397,7 +446,8 @@ var genfuseDB = TAFFY([
     "output": "Mystical Elf",
     "attack": 800,
     "defense": 2000,
-    "minattack": 0
+    "minattack": 0,
+    "type": "Monster"
   },
   {
     "left": "Elf",
@@ -405,7 +455,8 @@ var genfuseDB = TAFFY([
     "output": "Celtic Guardian",
     "attack": 1400,
     "defense": 1200,
-    "minattack": 0
+    "minattack": 0,
+    "type": "Monster"
   },
   {
     "left": "Fairy",
@@ -413,7 +464,8 @@ var genfuseDB = TAFFY([
     "output": "Dark Witch",
     "attack": 1800,
     "defense": 1700,
-    "minattack": 0
+    "minattack": 0,
+    "type": "Monster"
   },
   {
     "left": "Fairy",
@@ -421,7 +473,8 @@ var genfuseDB = TAFFY([
     "output": "Musician King",
     "attack": 1750,
     "defense": 1500,
-    "minattack": 0
+    "minattack": 0,
+    "type": "Monster"
   },
   {
     "left": "Fairy",
@@ -429,7 +482,8 @@ var genfuseDB = TAFFY([
     "output": "Musician King",
     "attack": 1750,
     "defense": 1500,
-    "minattack": 0
+    "minattack": 0,
+    "type": "Monster"
   },
   {
     "left": "Fairy",
@@ -437,7 +491,8 @@ var genfuseDB = TAFFY([
     "output": "Dark Elf",
     "attack": 2000,
     "defense": 800,
-    "minattack": 0
+    "minattack": 0,
+    "type": "Monster"
   },
   {
     "left": "Fairy",
@@ -445,7 +500,8 @@ var genfuseDB = TAFFY([
     "output": "Mystical Sand",
     "attack": 2100,
     "defense": 1700,
-    "minattack": 0
+    "minattack": 0,
+    "type": "Monster"
   },
   {
     "left": "Fairy",
@@ -453,7 +509,8 @@ var genfuseDB = TAFFY([
     "output": "Dark Elf",
     "attack": 2000,
     "defense": 800,
-    "minattack": 0
+    "minattack": 0,
+    "type": "Monster"
   },
   {
     "left": "Fairy",
@@ -461,7 +518,8 @@ var genfuseDB = TAFFY([
     "output": "Celtic Guardian",
     "attack": 1400,
     "defense": 1200,
-    "minattack": 0
+    "minattack": 0,
+    "type": "Monster"
   },
   {
     "left": "Female",
@@ -469,7 +527,8 @@ var genfuseDB = TAFFY([
     "output": "Nekogal #2",
     "attack": 1900,
     "defense": 2000,
-    "minattack": 0
+    "minattack": 0,
+    "type": "Monster"
   },
   {
     "left": "Female",
@@ -477,7 +536,8 @@ var genfuseDB = TAFFY([
     "output": "Dark Witch",
     "attack": 1800,
     "defense": 1700,
-    "minattack": 0
+    "minattack": 0,
+    "type": "Monster"
   },
   {
     "left": "Female",
@@ -485,7 +545,8 @@ var genfuseDB = TAFFY([
     "output": "Ice Water",
     "attack": 1150,
     "defense": 900,
-    "minattack": 0
+    "minattack": 0,
+    "type": "Monster"
   },
   {
     "left": "Female",
@@ -493,7 +554,8 @@ var genfuseDB = TAFFY([
     "output": "Enchanting Mermaid",
     "attack": 1200,
     "defense": 900,
-    "minattack": 1150
+    "minattack": 1150,
+    "type": "Monster"
   },
   {
     "left": "Female",
@@ -501,7 +563,8 @@ var genfuseDB = TAFFY([
     "output": "Amazon of the Seas",
     "attack": 1300,
     "defense": 1400,
-    "minattack": 1200
+    "minattack": 1200,
+    "type": "Monster"
   },
   {
     "left": "Female",
@@ -509,7 +572,8 @@ var genfuseDB = TAFFY([
     "output": "Queen of Autumn Leaves",
     "attack": 1800,
     "defense": 1500,
-    "minattack": 0
+    "minattack": 0,
+    "type": "Monster"
   },
   {
     "left": "Female",
@@ -517,7 +581,8 @@ var genfuseDB = TAFFY([
     "output": "Mystical Sand",
     "attack": 2100,
     "defense": 1700,
-    "minattack": 0
+    "minattack": 0,
+    "type": "Monster"
   },
   {
     "left": "Fiend",
@@ -525,7 +590,8 @@ var genfuseDB = TAFFY([
     "output": "Rose Spectre of Dunn",
     "attack": 2000,
     "defense": 1800,
-    "minattack": 0
+    "minattack": 0,
+    "type": "Monster"
   },
   {
     "left": "Fiend",
@@ -533,7 +599,8 @@ var genfuseDB = TAFFY([
     "output": "Darkworld Thorns",
     "attack": 1200,
     "defense": 900,
-    "minattack": 0
+    "minattack": 0,
+    "type": "Monster"
   },
   {
     "left": "Fiend",
@@ -541,7 +608,8 @@ var genfuseDB = TAFFY([
     "output": "Summoned Skull",
     "attack": 2500,
     "defense": 1200,
-    "minattack": 0
+    "minattack": 0,
+    "type": "Monster"
   },
   {
     "left": "Fiend",
@@ -549,7 +617,8 @@ var genfuseDB = TAFFY([
     "output": "Mystical Sheep #1",
     "attack": 1100,
     "defense": 900,
-    "minattack": 0
+    "minattack": 0,
+    "type": "Monster"
   },
   {
     "left": "Fiend",
@@ -557,7 +626,8 @@ var genfuseDB = TAFFY([
     "output": "Kappa Avenger",
     "attack": 1200,
     "defense": 900,
-    "minattack": 0
+    "minattack": 0,
+    "type": "Monster"
   },
   {
     "left": "Fish",
@@ -565,7 +635,8 @@ var genfuseDB = TAFFY([
     "output": "Tatsunootoshigo",
     "attack": 1350,
     "defense": 1600,
-    "minattack": 0
+    "minattack": 0,
+    "type": "Monster"
   },
   {
     "left": "Fish",
@@ -573,7 +644,8 @@ var genfuseDB = TAFFY([
     "output": "Rare Fish",
     "attack": 1500,
     "defense": 1200,
-    "minattack": 1350
+    "minattack": 1350,
+    "type": "Monster"
   },
   {
     "left": "Fish",
@@ -581,7 +653,8 @@ var genfuseDB = TAFFY([
     "output": "Marine Beast",
     "attack": 1700,
     "defense": 1600,
-    "minattack": 1500
+    "minattack": 1500,
+    "type": "Monster"
   },
   {
     "left": "Fish",
@@ -589,7 +662,8 @@ var genfuseDB = TAFFY([
     "output": "Ice Water",
     "attack": 1150,
     "defense": 900,
-    "minattack": 0
+    "minattack": 0,
+    "type": "Monster"
   },
   {
     "left": "Fish",
@@ -597,7 +671,8 @@ var genfuseDB = TAFFY([
     "output": "Enchanting Mermaid",
     "attack": 1200,
     "defense": 900,
-    "minattack": 1150
+    "minattack": 1150,
+    "type": "Monster"
   },
   {
     "left": "Fish",
@@ -605,7 +680,8 @@ var genfuseDB = TAFFY([
     "output": "Amazon of the Seas",
     "attack": 1300,
     "defense": 1400,
-    "minattack": 1200
+    "minattack": 1200,
+    "type": "Monster"
   },
   {
     "left": "Fish",
@@ -613,7 +689,8 @@ var genfuseDB = TAFFY([
     "output": "7 Colored Fish",
     "attack": 1800,
     "defense": 800,
-    "minattack": 0
+    "minattack": 0,
+    "type": "Monster"
   },
   {
     "left": "Fish",
@@ -621,7 +698,8 @@ var genfuseDB = TAFFY([
     "output": "Misairuzame",
     "attack": 1400,
     "defense": 1600,
-    "minattack": 0
+    "minattack": 0,
+    "type": "Monster"
   },
   {
     "left": "Fish",
@@ -629,7 +707,8 @@ var genfuseDB = TAFFY([
     "output": "Metal Fish",
     "attack": 1600,
     "defense": 1900,
-    "minattack": 1400
+    "minattack": 1400,
+    "type": "Monster"
   },
   {
     "left": "Fish",
@@ -637,7 +716,8 @@ var genfuseDB = TAFFY([
     "output": "7 Colored Fish",
     "attack": 1800,
     "defense": 800,
-    "minattack": 0
+    "minattack": 0,
+    "type": "Monster"
   },
   {
     "left": "Fish",
@@ -645,7 +725,8 @@ var genfuseDB = TAFFY([
     "output": "Wow Warrior",
     "attack": 1250,
     "defense": 900,
-    "minattack": 0
+    "minattack": 0,
+    "type": "Monster"
   },
   {
     "left": "Fish",
@@ -653,7 +734,8 @@ var genfuseDB = TAFFY([
     "output": "Corroding Shark",
     "attack": 1100,
     "defense": 700,
-    "minattack": 0
+    "minattack": 0,
+    "type": "Monster"
   },
   {
     "left": "Insect",
@@ -661,7 +743,8 @@ var genfuseDB = TAFFY([
     "output": "Kwagar Hercules",
     "attack": 1900,
     "defense": 1700,
-    "minattack": 0
+    "minattack": 0,
+    "type": "Monster"
   },
   {
     "left": "Insect",
@@ -669,7 +752,8 @@ var genfuseDB = TAFFY([
     "output": "Cockroach Knight",
     "attack": 800,
     "defense": 900,
-    "minattack": 0
+    "minattack": 0,
+    "type": "Monster"
   },
   {
     "left": "Jar",
@@ -677,7 +761,8 @@ var genfuseDB = TAFFY([
     "output": "Ushi Oni",
     "attack": 2150,
     "defense": 1950,
-    "minattack": 0
+    "minattack": 0,
+    "type": "Monster"
   },
   {
     "left": "Machine",
@@ -685,7 +770,8 @@ var genfuseDB = TAFFY([
     "output": "Giga-Tech Wolf",
     "attack": 1200,
     "defense": 1400,
-    "minattack": 0
+    "minattack": 0,
+    "type": "Monster"
   },
   {
     "left": "Machine",
@@ -693,7 +779,8 @@ var genfuseDB = TAFFY([
     "output": "Dice Armadillo",
     "attack": 1650,
     "defense": 1800,
-    "minattack": 1200
+    "minattack": 1200,
+    "type": "Monster"
   },
   {
     "left": "Machine",
@@ -701,7 +788,8 @@ var genfuseDB = TAFFY([
     "output": "Giga-Tech Wolf",
     "attack": 1200,
     "defense": 1400,
-    "minattack": 0
+    "minattack": 0,
+    "type": "Monster"
   },
   {
     "left": "Machine",
@@ -709,7 +797,8 @@ var genfuseDB = TAFFY([
     "output": "Dice Armadillo",
     "attack": 1650,
     "defense": 1800,
-    "minattack": 1200
+    "minattack": 1200,
+    "type": "Monster"
   },
   {
     "left": "Machine",
@@ -717,7 +806,8 @@ var genfuseDB = TAFFY([
     "output": "Disk Magician",
     "attack": 1350,
     "defense": 1000,
-    "minattack": 0
+    "minattack": 0,
+    "type": "Monster"
   },
   {
     "left": "Machine",
@@ -725,7 +815,8 @@ var genfuseDB = TAFFY([
     "output": "Cyber Saurus",
     "attack": 1800,
     "defense": 1400,
-    "minattack": 0
+    "minattack": 0,
+    "type": "Monster"
   },
   {
     "left": "Machine",
@@ -733,7 +824,8 @@ var genfuseDB = TAFFY([
     "output": "Metal Dragon",
     "attack": 1850,
     "defense": 1700,
-    "minattack": 0
+    "minattack": 0,
+    "type": "Monster"
   },
   {
     "left": "Machine",
@@ -741,7 +833,8 @@ var genfuseDB = TAFFY([
     "output": "Misairuzame",
     "attack": 1400,
     "defense": 1600,
-    "minattack": 0
+    "minattack": 0,
+    "type": "Monster"
   },
   {
     "left": "Machine",
@@ -749,7 +842,8 @@ var genfuseDB = TAFFY([
     "output": "Metal Fish",
     "attack": 1600,
     "defense": 1900,
-    "minattack": 1400
+    "minattack": 1400,
+    "type": "Monster"
   },
   {
     "left": "Machine",
@@ -757,7 +851,8 @@ var genfuseDB = TAFFY([
     "output": "Cyber Soldier",
     "attack": 1500,
     "defense": 1700,
-    "minattack": 0
+    "minattack": 0,
+    "type": "Monster"
   },
   {
     "left": "Plant",
@@ -765,7 +860,8 @@ var genfuseDB = TAFFY([
     "output": "Flower Wolf",
     "attack": 1800,
     "defense": 1400,
-    "minattack": 0
+    "minattack": 0,
+    "type": "Monster"
   },
   {
     "left": "Plant",
@@ -773,7 +869,8 @@ var genfuseDB = TAFFY([
     "output": "Flower Wolf",
     "attack": 1800,
     "defense": 1400,
-    "minattack": 0
+    "minattack": 0,
+    "type": "Monster"
   },
   {
     "left": "Plant",
@@ -781,7 +878,8 @@ var genfuseDB = TAFFY([
     "output": "B. Dragon Jungle King",
     "attack": 2100,
     "defense": 1800,
-    "minattack": 0
+    "minattack": 0,
+    "type": "Monster"
   },
   {
     "left": "Plant",
@@ -789,7 +887,8 @@ var genfuseDB = TAFFY([
     "output": "Queen of Autumn Leaves",
     "attack": 1800,
     "defense": 1500,
-    "minattack": 0
+    "minattack": 0,
+    "type": "Monster"
   },
   {
     "left": "Plant",
@@ -797,7 +896,8 @@ var genfuseDB = TAFFY([
     "output": "Firegrass",
     "attack": 700,
     "defense": 600,
-    "minattack": 0
+    "minattack": 0,
+    "type": "Monster"
   },
   {
     "left": "Plant",
@@ -805,7 +905,8 @@ var genfuseDB = TAFFY([
     "output": "Snakeyashi",
     "attack": 1000,
     "defense": 1200,
-    "minattack": 0
+    "minattack": 0,
+    "type": "Monster"
   },
   {
     "left": "Plant",
@@ -813,7 +914,8 @@ var genfuseDB = TAFFY([
     "output": "Bean Soldier",
     "attack": 1400,
     "defense": 1300,
-    "minattack": 0
+    "minattack": 0,
+    "type": "Monster"
   },
   {
     "left": "Plant",
@@ -821,7 +923,8 @@ var genfuseDB = TAFFY([
     "output": "Wood Remains",
     "attack": 1000,
     "defense": 900,
-    "minattack": 0
+    "minattack": 0,
+    "type": "Monster"
   },
   {
     "left": "Plant",
@@ -829,7 +932,8 @@ var genfuseDB = TAFFY([
     "output": "Pumpking the King of Ghosts",
     "attack": 1800,
     "defense": 2000,
-    "minattack": 1000
+    "minattack": 1000,
+    "type": "Monster"
   },
   {
     "left": "Pyro",
@@ -837,7 +941,8 @@ var genfuseDB = TAFFY([
     "output": "Flame Cerebrus",
     "attack": 2100,
     "defense": 1800,
-    "minattack": 0
+    "minattack": 0,
+    "type": "Monster"
   },
   {
     "left": "Pyro",
@@ -845,7 +950,8 @@ var genfuseDB = TAFFY([
     "output": "Fire Kraken",
     "attack": 1600,
     "defense": 1500,
-    "minattack": 0
+    "minattack": 0,
+    "type": "Monster"
   },
   {
     "left": "Pyro",
@@ -853,7 +959,8 @@ var genfuseDB = TAFFY([
     "output": "Firegrass",
     "attack": 700,
     "defense": 600,
-    "minattack": 0
+    "minattack": 0,
+    "type": "Monster"
   },
   {
     "left": "Pyro",
@@ -861,7 +968,8 @@ var genfuseDB = TAFFY([
     "output": "Dissolverock",
     "attack": 900,
     "defense": 1000,
-    "minattack": 0
+    "minattack": 0,
+    "type": "Monster"
   },
   {
     "left": "Pyro",
@@ -869,7 +977,8 @@ var genfuseDB = TAFFY([
     "output": "Giant Turtle Who Feeds on Flames",
     "attack": 1400,
     "defense": 1800,
-    "minattack": 0
+    "minattack": 0,
+    "type": "Monster"
   },
   {
     "left": "Pyro",
@@ -877,7 +986,8 @@ var genfuseDB = TAFFY([
     "output": "Charubin the Fire Knight",
     "attack": 1100,
     "defense": 800,
-    "minattack": 0
+    "minattack": 0,
+    "type": "Monster"
   },
   {
     "left": "Pyro",
@@ -885,7 +995,8 @@ var genfuseDB = TAFFY([
     "output": "Flame Swordsman",
     "attack": 1800,
     "defense": 1600,
-    "minattack": 1100
+    "minattack": 1100,
+    "type": "Monster"
   },
   {
     "left": "Pyro",
@@ -893,7 +1004,8 @@ var genfuseDB = TAFFY([
     "output": "Vermillion Sparrow",
     "attack": 1900,
     "defense": 1500,
-    "minattack": 1800
+    "minattack": 1800,
+    "type": "Monster"
   },
   {
     "left": "Pyro",
@@ -901,7 +1013,8 @@ var genfuseDB = TAFFY([
     "output": "Mavelus",
     "attack": 1300,
     "defense": 900,
-    "minattack": 0
+    "minattack": 0,
+    "type": "Monster"
   },
   {
     "left": "Pyro",
@@ -909,7 +1022,8 @@ var genfuseDB = TAFFY([
     "output": "Crimson Sunbird",
     "attack": 2300,
     "defense": 1800,
-    "minattack": 1300
+    "minattack": 1300,
+    "type": "Monster"
   },
   {
     "left": "Pyro",
@@ -917,7 +1031,8 @@ var genfuseDB = TAFFY([
     "output": "Fire Reaper",
     "attack": 700,
     "defense": 500,
-    "minattack": 0
+    "minattack": 0,
+    "type": "Monster"
   },
   {
     "left": "Pyro",
@@ -925,7 +1040,8 @@ var genfuseDB = TAFFY([
     "output": "Flame Ghost",
     "attack": 1000,
     "defense": 800,
-    "minattack": 700
+    "minattack": 700,
+    "type": "Monster"
   },
   {
     "left": "Reptile",
@@ -933,7 +1049,8 @@ var genfuseDB = TAFFY([
     "output": "Soul Hunter",
     "attack": 2200,
     "defense": 1800,
-    "minattack": 0
+    "minattack": 0,
+    "type": "Monster"
   },
   {
     "left": "Reptile",
@@ -941,7 +1058,8 @@ var genfuseDB = TAFFY([
     "output": "Soul Hunter",
     "attack": 2200,
     "defense": 1800,
-    "minattack": 0
+    "minattack": 0,
+    "type": "Monster"
   },
   {
     "left": "Reptile",
@@ -949,7 +1067,8 @@ var genfuseDB = TAFFY([
     "output": "Snakeyashi",
     "attack": 1000,
     "defense": 1200,
-    "minattack": 0
+    "minattack": 0,
+    "type": "Monster"
   },
   {
     "left": "Reptile",
@@ -957,7 +1076,8 @@ var genfuseDB = TAFFY([
     "output": "Electric Lizard",
     "attack": 850,
     "defense": 800,
-    "minattack": 0
+    "minattack": 0,
+    "type": "Monster"
   },
   {
     "left": "Rock",
@@ -965,7 +1085,8 @@ var genfuseDB = TAFFY([
     "output": "Stone D.",
     "attack": 2000,
     "defense": 2300,
-    "minattack": 0
+    "minattack": 0,
+    "type": "Monster"
   },
   {
     "left": "Rock",
@@ -973,7 +1094,8 @@ var genfuseDB = TAFFY([
     "output": "Mystical Sand",
     "attack": 2100,
     "defense": 1700,
-    "minattack": 0
+    "minattack": 0,
+    "type": "Monster"
   },
   {
     "left": "Rock",
@@ -981,7 +1103,8 @@ var genfuseDB = TAFFY([
     "output": "Mystical Sand",
     "attack": 2100,
     "defense": 1700,
-    "minattack": 0
+    "minattack": 0,
+    "type": "Monster"
   },
   {
     "left": "Rock",
@@ -989,7 +1112,8 @@ var genfuseDB = TAFFY([
     "output": "Dissolverock",
     "attack": 900,
     "defense": 1000,
-    "minattack": 0
+    "minattack": 0,
+    "type": "Monster"
   },
   {
     "left": "Rock",
@@ -997,7 +1121,8 @@ var genfuseDB = TAFFY([
     "output": "Boulder Tortoise",
     "attack": 1450,
     "defense": 2200,
-    "minattack": 0
+    "minattack": 0,
+    "type": "Monster"
   },
   {
     "left": "Rock",
@@ -1005,7 +1130,8 @@ var genfuseDB = TAFFY([
     "output": "Ushi Oni",
     "attack": 2150,
     "defense": 1950,
-    "minattack": 0
+    "minattack": 0,
+    "type": "Monster"
   },
   {
     "left": "Rock",
@@ -1013,7 +1139,8 @@ var genfuseDB = TAFFY([
     "output": "Boulder Tortoise",
     "attack": 1450,
     "defense": 2200,
-    "minattack": 0
+    "minattack": 0,
+    "type": "Monster"
   },
   {
     "left": "Rock",
@@ -1021,7 +1148,8 @@ var genfuseDB = TAFFY([
     "output": "Minomushi Warrior",
     "attack": 1300,
     "defense": 1200,
-    "minattack": 0
+    "minattack": 0,
+    "type": "Monster"
   },
   {
     "left": "Rock",
@@ -1029,7 +1157,8 @@ var genfuseDB = TAFFY([
     "output": "Stone Ghost",
     "attack": 1200,
     "defense": 1000,
-    "minattack": 0
+    "minattack": 0,
+    "type": "Monster"
   },
   {
     "left": "Spellcaster",
@@ -1037,7 +1166,8 @@ var genfuseDB = TAFFY([
     "output": "Lord of the Lamp",
     "attack": 1400,
     "defense": 1200,
-    "minattack": 0
+    "minattack": 0,
+    "type": "Monster"
   },
   {
     "left": "Spellcaster",
@@ -1045,7 +1175,8 @@ var genfuseDB = TAFFY([
     "output": "Kaminari Attack",
     "attack": 1900,
     "defense": 1400,
-    "minattack": 0
+    "minattack": 0,
+    "type": "Monster"
   },
   {
     "left": "Spellcaster",
@@ -1053,7 +1184,8 @@ var genfuseDB = TAFFY([
     "output": "Dark Elf",
     "attack": 2000,
     "defense": 800,
-    "minattack": 0
+    "minattack": 0,
+    "type": "Monster"
   },
   {
     "left": "Spellcaster",
@@ -1061,7 +1193,8 @@ var genfuseDB = TAFFY([
     "output": "30,000-Year White Turtle",
     "attack": 1250,
     "defense": 2100,
-    "minattack": 0
+    "minattack": 0,
+    "type": "Monster"
   },
   {
     "left": "Spellcaster",
@@ -1069,7 +1202,8 @@ var genfuseDB = TAFFY([
     "output": "Ushi Oni",
     "attack": 2150,
     "defense": 1950,
-    "minattack": 0
+    "minattack": 0,
+    "type": "Monster"
   },
   {
     "left": "Spellcaster",
@@ -1077,7 +1211,8 @@ var genfuseDB = TAFFY([
     "output": "The Immortal of Thunder",
     "attack": 1500,
     "defense": 1300,
-    "minattack": 0
+    "minattack": 0,
+    "type": "Monster"
   },
   {
     "left": "Spellcaster",
@@ -1085,7 +1220,8 @@ var genfuseDB = TAFFY([
     "output": "Kaminari Attack",
     "attack": 1900,
     "defense": 1400,
-    "minattack": 1500
+    "minattack": 1500,
+    "type": "Monster"
   },
   {
     "left": "Spellcaster",
@@ -1093,7 +1229,8 @@ var genfuseDB = TAFFY([
     "output": "30,000-Year White Turtle",
     "attack": 1250,
     "defense": 2100,
-    "minattack": 0
+    "minattack": 0,
+    "type": "Monster"
   },
   {
     "left": "Spellcaster",
@@ -1101,7 +1238,8 @@ var genfuseDB = TAFFY([
     "output": "Magical Ghost",
     "attack": 1300,
     "defense": 1400,
-    "minattack": 0
+    "minattack": 0,
+    "type": "Monster"
   },
   {
     "left": "Thunder",
@@ -1109,7 +1247,8 @@ var genfuseDB = TAFFY([
     "output": "Bolt Escargot",
     "attack": 1400,
     "defense": 1500,
-    "minattack": 0
+    "minattack": 0,
+    "type": "Monster"
   },
   {
     "left": "Thunder",
@@ -1117,7 +1256,8 @@ var genfuseDB = TAFFY([
     "output": "Tripwire Beast",
     "attack": 1200,
     "defense": 1300,
-    "minattack": 0
+    "minattack": 0,
+    "type": "Monster"
   },
   {
     "left": "Thunder",
@@ -1125,7 +1265,8 @@ var genfuseDB = TAFFY([
     "output": "Thunder Dragon",
     "attack": 1600,
     "defense": 1500,
-    "minattack": 0
+    "minattack": 0,
+    "type": "Monster"
   },
   {
     "left": "Thunder",
@@ -1133,7 +1274,8 @@ var genfuseDB = TAFFY([
     "output": "Twin-Headed Thunder Dragon",
     "attack": 2800,
     "defense": 2100,
-    "minattack": 1600
+    "minattack": 1600,
+    "type": "Monster"
   },
   {
     "left": "Thunder",
@@ -1141,7 +1283,8 @@ var genfuseDB = TAFFY([
     "output": "Electric Lizard",
     "attack": 850,
     "defense": 800,
-    "minattack": 0
+    "minattack": 0,
+    "type": "Monster"
   },
   {
     "left": "Thunder",
@@ -1149,7 +1292,8 @@ var genfuseDB = TAFFY([
     "output": "The Immortal of Thunder",
     "attack": 1500,
     "defense": 1300,
-    "minattack": 0
+    "minattack": 0,
+    "type": "Monster"
   },
   {
     "left": "Thunder",
@@ -1157,7 +1301,8 @@ var genfuseDB = TAFFY([
     "output": "Kaminari Attack",
     "attack": 1900,
     "defense": 1400,
-    "minattack": 1500
+    "minattack": 1500,
+    "type": "Monster"
   },
   {
     "left": "Turtle",
@@ -1165,7 +1310,8 @@ var genfuseDB = TAFFY([
     "output": "Turtle Tiger",
     "attack": 1000,
     "defense": 1500,
-    "minattack": 0
+    "minattack": 0,
+    "type": "Monster"
   },
   {
     "left": "Turtle",
@@ -1173,7 +1319,8 @@ var genfuseDB = TAFFY([
     "output": "Sea King Dragon",
     "attack": 2000,
     "defense": 1700,
-    "minattack": 0
+    "minattack": 0,
+    "type": "Monster"
   },
   {
     "left": "Turtle",
@@ -1181,7 +1328,8 @@ var genfuseDB = TAFFY([
     "output": "Giant Turtle Who Feeds on Flames",
     "attack": 1400,
     "defense": 1800,
-    "minattack": 0
+    "minattack": 0,
+    "type": "Monster"
   },
   {
     "left": "Turtle",
@@ -1189,7 +1337,8 @@ var genfuseDB = TAFFY([
     "output": "Boulder Tortoise",
     "attack": 1450,
     "defense": 2200,
-    "minattack": 0
+    "minattack": 0,
+    "type": "Monster"
   },
   {
     "left": "Turtle",
@@ -1197,7 +1346,8 @@ var genfuseDB = TAFFY([
     "output": "30,000-Year White Turtle",
     "attack": 1250,
     "defense": 2100,
-    "minattack": 0
+    "minattack": 0,
+    "type": "Monster"
   },
   {
     "left": "Turtle",
@@ -1205,7 +1355,8 @@ var genfuseDB = TAFFY([
     "output": "Turtle Bird",
     "attack": 1900,
     "defense": 1700,
-    "minattack": 0
+    "minattack": 0,
+    "type": "Monster"
   },
   {
     "left": "Warrior",
@@ -1213,7 +1364,8 @@ var genfuseDB = TAFFY([
     "output": "Tiger Axe",
     "attack": 1300,
     "defense": 1100,
-    "minattack": 0
+    "minattack": 0,
+    "type": "Monster"
   },
   {
     "left": "Warrior",
@@ -1221,7 +1373,8 @@ var genfuseDB = TAFFY([
     "output": "Dragon Statue",
     "attack": 1100,
     "defense": 900,
-    "minattack": 0
+    "minattack": 0,
+    "type": "Monster"
   },
   {
     "left": "Warrior",
@@ -1229,7 +1382,8 @@ var genfuseDB = TAFFY([
     "output": "Dragoness the Wicked Knight",
     "attack": 1200,
     "defense": 900,
-    "minattack": 1100
+    "minattack": 1100,
+    "type": "Monster"
   },
   {
     "left": "Warrior",
@@ -1237,7 +1391,8 @@ var genfuseDB = TAFFY([
     "output": "D. Human",
     "attack": 1300,
     "defense": 1100,
-    "minattack": 1200
+    "minattack": 1200,
+    "type": "Monster"
   },
   {
     "left": "Warrior",
@@ -1245,7 +1400,8 @@ var genfuseDB = TAFFY([
     "output": "Sword Arm of Dragon",
     "attack": 1750,
     "defense": 2030,
-    "minattack": 1300
+    "minattack": 1300,
+    "type": "Monster"
   },
   {
     "left": "Warrior",
@@ -1253,7 +1409,8 @@ var genfuseDB = TAFFY([
     "output": "Celtic Guardian",
     "attack": 1400,
     "defense": 1200,
-    "minattack": 0
+    "minattack": 0,
+    "type": "Monster"
   },
   {
     "left": "Warrior",
@@ -1261,7 +1418,8 @@ var genfuseDB = TAFFY([
     "output": "Wow Warrior",
     "attack": 1250,
     "defense": 900,
-    "minattack": 0
+    "minattack": 0,
+    "type": "Monster"
   },
   {
     "left": "Warrior",
@@ -1269,7 +1427,8 @@ var genfuseDB = TAFFY([
     "output": "Cockroach Knight",
     "attack": 800,
     "defense": 900,
-    "minattack": 0
+    "minattack": 0,
+    "type": "Monster"
   },
   {
     "left": "Warrior",
@@ -1277,7 +1436,8 @@ var genfuseDB = TAFFY([
     "output": "Cyber Soldier",
     "attack": 1500,
     "defense": 1700,
-    "minattack": 0
+    "minattack": 0,
+    "type": "Monster"
   },
   {
     "left": "Warrior",
@@ -1285,7 +1445,8 @@ var genfuseDB = TAFFY([
     "output": "Bean Soldier",
     "attack": 1400,
     "defense": 1300,
-    "minattack": 0
+    "minattack": 0,
+    "type": "Monster"
   },
   {
     "left": "Warrior",
@@ -1293,7 +1454,8 @@ var genfuseDB = TAFFY([
     "output": "Charubin the Fire Knight",
     "attack": 1100,
     "defense": 800,
-    "minattack": 0
+    "minattack": 0,
+    "type": "Monster"
   },
   {
     "left": "Warrior",
@@ -1301,7 +1463,8 @@ var genfuseDB = TAFFY([
     "output": "Flame Swordsman",
     "attack": 1800,
     "defense": 1600,
-    "minattack": 1100
+    "minattack": 1100,
+    "type": "Monster"
   },
   {
     "left": "Warrior",
@@ -1309,7 +1472,8 @@ var genfuseDB = TAFFY([
     "output": "Vermillion Sparrow",
     "attack": 1900,
     "defense": 1500,
-    "minattack": 1800
+    "minattack": 1800,
+    "type": "Monster"
   },
   {
     "left": "Warrior",
@@ -1317,7 +1481,8 @@ var genfuseDB = TAFFY([
     "output": "Minomushi Warrior",
     "attack": 1300,
     "defense": 1200,
-    "minattack": 0
+    "minattack": 0,
+    "type": "Monster"
   },
   {
     "left": "Warrior",
@@ -1325,7 +1490,8 @@ var genfuseDB = TAFFY([
     "output": "Judge Man",
     "attack": 2200,
     "defense": 1700,
-    "minattack": 0
+    "minattack": 0,
+    "type": "Monster"
   },
   {
     "left": "Warrior",
@@ -1333,7 +1499,8 @@ var genfuseDB = TAFFY([
     "output": "Zombie Warrior",
     "attack": 1200,
     "defense": 900,
-    "minattack": 0
+    "minattack": 0,
+    "type": "Monster"
   },
   {
     "left": "Warrior",
@@ -1341,7 +1508,8 @@ var genfuseDB = TAFFY([
     "output": "Armored Zombie",
     "attack": 1500,
     "defense": 0,
-    "minattack": 1200
+    "minattack": 1200,
+    "type": "Monster"
   },
   {
     "left": "Winged Beast",
@@ -1349,7 +1517,8 @@ var genfuseDB = TAFFY([
     "output": "Spirit of the Books",
     "attack": 1400,
     "defense": 1200,
-    "minattack": 0
+    "minattack": 0,
+    "type": "Monster"
   },
   {
     "left": "Winged Beast",
@@ -1357,7 +1526,8 @@ var genfuseDB = TAFFY([
     "output": "Fiend Refrection #1",
     "attack": 1300,
     "defense": 1400,
-    "minattack": 0
+    "minattack": 0,
+    "type": "Monster"
   },
   {
     "left": "Winged Beast",
@@ -1365,7 +1535,8 @@ var genfuseDB = TAFFY([
     "output": "Fiend Refrection #1",
     "attack": 1300,
     "defense": 1400,
-    "minattack": 0
+    "minattack": 0,
+    "type": "Monster"
   },
   {
     "left": "Winged Beast",
@@ -1373,7 +1544,8 @@ var genfuseDB = TAFFY([
     "output": "Mavelus",
     "attack": 1300,
     "defense": 900,
-    "minattack": 0
+    "minattack": 0,
+    "type": "Monster"
   },
   {
     "left": "Winged Beast",
@@ -1381,7 +1553,8 @@ var genfuseDB = TAFFY([
     "output": "Crimson Sunbird",
     "attack": 2300,
     "defense": 1800,
-    "minattack": 1300
+    "minattack": 1300,
+    "type": "Monster"
   },
   {
     "left": "Winged Beast",
@@ -1389,7 +1562,8 @@ var genfuseDB = TAFFY([
     "output": "Whiptail Crow",
     "attack": 1650,
     "defense": 1600,
-    "minattack": 0
+    "minattack": 0,
+    "type": "Monster"
   },
   {
     "left": "Winged Beast",
@@ -1397,7 +1571,8 @@ var genfuseDB = TAFFY([
     "output": "Punished Eagle",
     "attack": 2100,
     "defense": 1800,
-    "minattack": 0
+    "minattack": 0,
+    "type": "Monster"
   },
   {
     "left": "Winged Beast",
@@ -1405,7 +1580,8 @@ var genfuseDB = TAFFY([
     "output": "Turtle Bird",
     "attack": 1900,
     "defense": 1700,
-    "minattack": 0
+    "minattack": 0,
+    "type": "Monster"
   },
   {
     "left": "Winged Beast",
@@ -1413,7 +1589,8 @@ var genfuseDB = TAFFY([
     "output": "Fiend Refrection #1",
     "attack": 1300,
     "defense": 1400,
-    "minattack": 0
+    "minattack": 0,
+    "type": "Monster"
   },
   {
     "left": "Zombie",
@@ -1421,7 +1598,8 @@ var genfuseDB = TAFFY([
     "output": "Dragon Zombie",
     "attack": 1600,
     "defense": 0,
-    "minattack": 0
+    "minattack": 0,
+    "type": "Monster"
   },
   {
     "left": "Zombie",
@@ -1429,7 +1607,8 @@ var genfuseDB = TAFFY([
     "output": "Skelgon",
     "attack": 1700,
     "defense": 1900,
-    "minattack": 1600
+    "minattack": 1600,
+    "type": "Monster"
   },
   {
     "left": "Zombie",
@@ -1437,7 +1616,8 @@ var genfuseDB = TAFFY([
     "output": "Curse of Dragon",
     "attack": 2000,
     "defense": 1500,
-    "minattack": 1700
+    "minattack": 1700,
+    "type": "Monster"
   },
   {
     "left": "Zombie",
@@ -1445,7 +1625,8 @@ var genfuseDB = TAFFY([
     "output": "Corroding Shark",
     "attack": 1100,
     "defense": 700,
-    "minattack": 0
+    "minattack": 0,
+    "type": "Monster"
   },
   {
     "left": "Zombie",
@@ -1453,7 +1634,8 @@ var genfuseDB = TAFFY([
     "output": "The Snake Hair",
     "attack": 1500,
     "defense": 1200,
-    "minattack": 0
+    "minattack": 0,
+    "type": "Monster"
   },
   {
     "left": "Zombie",
@@ -1461,7 +1643,8 @@ var genfuseDB = TAFFY([
     "output": "Great Mammoth of Goldfine",
     "attack": 2200,
     "defense": 1800,
-    "minattack": 0
+    "minattack": 0,
+    "type": "Monster"
   },
   {
     "left": "Zombie",
@@ -1469,7 +1652,8 @@ var genfuseDB = TAFFY([
     "output": "Mystical Sheep #1",
     "attack": 1100,
     "defense": 900,
-    "minattack": 0
+    "minattack": 0,
+    "type": "Monster"
   },
   {
     "left": "Zombie",
@@ -1477,7 +1661,8 @@ var genfuseDB = TAFFY([
     "output": "Wood Remains",
     "attack": 1000,
     "defense": 900,
-    "minattack": 0
+    "minattack": 0,
+    "type": "Monster"
   },
   {
     "left": "Zombie",
@@ -1485,7 +1670,8 @@ var genfuseDB = TAFFY([
     "output": "Pumpking the King of Ghosts",
     "attack": 1800,
     "defense": 2000,
-    "minattack": 1000
+    "minattack": 1000,
+    "type": "Monster"
   },
   {
     "left": "Zombie",
@@ -1493,7 +1679,8 @@ var genfuseDB = TAFFY([
     "output": "Fire Reaper",
     "attack": 700,
     "defense": 500,
-    "minattack": 0
+    "minattack": 0,
+    "type": "Monster"
   },
   {
     "left": "Zombie",
@@ -1501,7 +1688,8 @@ var genfuseDB = TAFFY([
     "output": "Flame Ghost",
     "attack": 1000,
     "defense": 800,
-    "minattack": 700
+    "minattack": 700,
+    "type": "Monster"
   },
   {
     "left": "Zombie",
@@ -1509,7 +1697,8 @@ var genfuseDB = TAFFY([
     "output": "Stone Ghost",
     "attack": 1200,
     "defense": 1000,
-    "minattack": 1000
+    "minattack": 1000,
+    "type": "Monster"
   },
   {
     "left": "Zombie",
@@ -1517,7 +1706,8 @@ var genfuseDB = TAFFY([
     "output": "Magical Ghost",
     "attack": 1300,
     "defense": 1400,
-    "minattack": 0
+    "minattack": 0,
+    "type": "Monster"
   },
   {
     "left": "Zombie",
@@ -1525,7 +1715,8 @@ var genfuseDB = TAFFY([
     "output": "Zombie Warrior",
     "attack": 1200,
     "defense": 900,
-    "minattack": 0
+    "minattack": 0,
+    "type": "Monster"
   },
   {
     "left": "Zombie",
@@ -1533,7 +1724,8 @@ var genfuseDB = TAFFY([
     "output": "Armored Zombie",
     "attack": 1500,
     "defense": 0,
-    "minattack": 1200
+    "minattack": 1200,
+    "type": "Monster"
   },
   {
     "left": "Bolt Escargot",
@@ -1541,7 +1733,8 @@ var genfuseDB = TAFFY([
     "output": "Twin-Headed Thunder Dragon",
     "attack": 2800,
     "defense": 2100,
-    "minattack": 0
+    "minattack": 0,
+    "type": "Monster"
   },
   {
     "left": "Bolt Penguin",
@@ -1549,7 +1742,8 @@ var genfuseDB = TAFFY([
     "output": "Twin-Headed Thunder Dragon",
     "attack": 2800,
     "defense": 2100,
-    "minattack": 0
+    "minattack": 0,
+    "type": "Monster"
   },
   {
     "left": "Clown Zombie",
@@ -1557,7 +1751,8 @@ var genfuseDB = TAFFY([
     "output": "Soul Hunter",
     "attack": 2200,
     "defense": 1800,
-    "minattack": 0
+    "minattack": 0,
+    "type": "Monster"
   },
   {
     "left": "Fungi of the Musk",
@@ -1565,7 +1760,8 @@ var genfuseDB = TAFFY([
     "output": "Darkworld Thorns",
     "attack": 1200,
     "defense": 900,
-    "minattack": 0
+    "minattack": 0,
+    "type": "Monster"
   },
   {
     "left": "Key Mace",
@@ -1573,7 +1769,8 @@ var genfuseDB = TAFFY([
     "output": "Mystical Sand",
     "attack": 2100,
     "defense": 1700,
-    "minattack": 0
+    "minattack": 0,
+    "type": "Monster"
   },
   {
     "left": "Mammoth Graveyard",
@@ -1581,7 +1778,8 @@ var genfuseDB = TAFFY([
     "output": "Great Mammoth of Goldfine",
     "attack": 2200,
     "defense": 1800,
-    "minattack": 0
+    "minattack": 0,
+    "type": "Monster"
   },
   {
     "left": "Monsturtle",
@@ -1589,7 +1787,8 @@ var genfuseDB = TAFFY([
     "output": "Boulder Tortoise",
     "attack": 1450,
     "defense": 2200,
-    "minattack": 0
+    "minattack": 0,
+    "type": "Monster"
   },
   {
     "left": "Monsturtle",
@@ -1597,7 +1796,8 @@ var genfuseDB = TAFFY([
     "output": "30,000-Year White Turtle",
     "attack": 1250,
     "defense": 2100,
-    "minattack": 0
+    "minattack": 0,
+    "type": "Monster"
   },
   {
     "left": "Sword Arm of Dragon",
@@ -1605,7 +1805,8 @@ var genfuseDB = TAFFY([
     "output": "Curse of Dragon",
     "attack": 2000,
     "defense": 1500,
-    "minattack": 0
+    "minattack": 0,
+    "type": "Monster"
   },
   {
     "left": "Time Wizard",
@@ -1613,7 +1814,8 @@ var genfuseDB = TAFFY([
     "output": "Thousand Dragon",
     "attack": 2400,
     "defense": 2000,
-    "minattack": 0
+    "minattack": 0,
+    "type": "Monster"
   },
   {
     "left": "Fungi of the Musk",
@@ -1621,7 +1823,8 @@ var genfuseDB = TAFFY([
     "output": "Darkworld Thorns",
     "attack": 1200,
     "defense": 900,
-    "minattack": 0
+    "minattack": 0,
+    "type": "Monster"
   },
   {
     "left": "The Judgement Hand",
@@ -1629,7 +1832,8 @@ var genfuseDB = TAFFY([
     "output": "Judge Man",
     "attack": 2200,
     "defense": 1700,
-    "minattack": 0
+    "minattack": 0,
+    "type": "Monster"
   },
   {
     "left": "Mavelus",
@@ -1637,7 +1841,8 @@ var genfuseDB = TAFFY([
     "output": "Crimson Sunbird",
     "attack": 2300,
     "defense": 1800,
-    "minattack": 0
+    "minattack": 0,
+    "type": "Monster"
   },
   {
     "left": "Mavelus",
@@ -1645,6 +1850,7 @@ var genfuseDB = TAFFY([
     "output": "Crimson Sunbird",
     "attack": 2300,
     "defense": 1800,
-    "minattack": 0
+    "minattack": 0,
+    "type": "Monster"
   }
 ])

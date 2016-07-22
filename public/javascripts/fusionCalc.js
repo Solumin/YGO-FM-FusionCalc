@@ -13,7 +13,8 @@ function fusesToHTML(fuselist) {
     return fuselist.map(function(fusion) {
         var res = "<div class='result-div'>Left Input: " + fusion.left + "<br>Right Input: " + fusion.right;
         if (fusion.type === "Monster") {
-            res += ["<br>Output:", fusion.output, formatStats(fusion.attack, fusion.defense)].join(" ");
+            res += "<br>Output: " + fusion.output;
+            res += " (" + fusion.attack + "/" + fusion.defense + ")";
         } else if  (fusion.type !== "Equippable") {
             res += "<br>Output: " + fusion.output + " (" + fusion.type + ")";
         } // Equippable fusions (from equipDB) have no output, just left and right
