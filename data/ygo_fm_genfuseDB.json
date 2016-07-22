@@ -11,19 +11,19 @@
   {
     "left": "Animal",
     "right": "Machine",
-    "output": "Giga-Tech Wolf",
-    "attack": 1200,
-    "defense": 1400,
-    "minattack": 0,
+    "output": "Dice Armadillo",
+    "attack": 1650,
+    "defense": 1800,
+    "minattack": 1200,
     "type": "Monster"
   },
   {
     "left": "Animal",
     "right": "Machine",
-    "output": "Dice Armadillo",
-    "attack": 1650,
-    "defense": 1800,
-    "minattack": 1200,
+    "output": "Giga-Tech Wolf",
+    "attack": 1200,
+    "defense": 1400,
+    "minattack": 0,
     "type": "Monster"
   },
   {
@@ -55,24 +55,6 @@
   },
   {
     "left": "Aqua",
-    "right": "Dragon",
-    "output": "Spike Seadra",
-    "attack": 1600,
-    "defense": 1300,
-    "minattack": 0,
-    "type": "Monster"
-  },
-  {
-    "left": "Aqua",
-    "right": "Dragon",
-    "output": "Kairyu-Shin",
-    "attack": 1800,
-    "defense": 1500,
-    "minattack": 1600,
-    "type": "Monster"
-  },
-  {
-    "left": "Aqua",
     "right": "Ground Attacker Bugroth",
     "output": "Amphibious Bugroth",
     "attack": 1850,
@@ -100,6 +82,24 @@
   },
   {
     "left": "Aqua",
+    "right": "Dragon",
+    "output": "Kairyu-Shin",
+    "attack": 1800,
+    "defense": 1500,
+    "minattack": 1600,
+    "type": "Monster"
+  },
+  {
+    "left": "Aqua",
+    "right": "Dragon",
+    "output": "Spike Seadra",
+    "attack": 1600,
+    "defense": 1300,
+    "minattack": 0,
+    "type": "Monster"
+  },
+  {
+    "left": "Aqua",
     "right": "Thunder",
     "output": "Bolt Escargot",
     "attack": 1400,
@@ -109,11 +109,20 @@
   },
   {
     "left": "Beast",
-    "right": "Fish",
-    "output": "Tatsunootoshigo",
-    "attack": 1350,
-    "defense": 1600,
+    "right": "Larvas",
+    "output": "Mon Larvas",
+    "attack": 1300,
+    "defense": 1400,
     "minattack": 0,
+    "type": "Monster"
+  },
+  {
+    "left": "Beast",
+    "right": "Fish",
+    "output": "Marine Beast",
+    "attack": 1700,
+    "defense": 1600,
+    "minattack": 1500,
     "type": "Monster"
   },
   {
@@ -128,27 +137,9 @@
   {
     "left": "Beast",
     "right": "Fish",
-    "output": "Marine Beast",
-    "attack": 1700,
+    "output": "Tatsunootoshigo",
+    "attack": 1350,
     "defense": 1600,
-    "minattack": 1500,
-    "type": "Monster"
-  },
-  {
-    "left": "Beast",
-    "right": "Larvas",
-    "output": "Mon Larvas",
-    "attack": 1300,
-    "defense": 1400,
-    "minattack": 0,
-    "type": "Monster"
-  },
-  {
-    "left": "Beast",
-    "right": "Machine",
-    "output": "Giga-Tech Wolf",
-    "attack": 1200,
-    "defense": 1400,
     "minattack": 0,
     "type": "Monster"
   },
@@ -159,6 +150,15 @@
     "attack": 1650,
     "defense": 1800,
     "minattack": 1200,
+    "type": "Monster"
+  },
+  {
+    "left": "Beast",
+    "right": "Machine",
+    "output": "Giga-Tech Wolf",
+    "attack": 1200,
+    "defense": 1400,
+    "minattack": 0,
     "type": "Monster"
   },
   {
@@ -226,6 +226,15 @@
   },
   {
     "left": "Dark Spellcaster",
+    "right": "Ryu-Kishin",
+    "output": "Ryu-Kishin Powered",
+    "attack": 1600,
+    "defense": 1200,
+    "minattack": 0,
+    "type": "Monster"
+  },
+  {
+    "left": "Dark Spellcaster",
     "right": "Jar",
     "output": "Ushi Oni",
     "attack": 2150,
@@ -243,15 +252,6 @@
     "type": "Monster"
   },
   {
-    "left": "Dark Spellcaster",
-    "right": "Ryu-Kishin",
-    "output": "Ryu-Kishin Powered",
-    "attack": 1600,
-    "defense": 1200,
-    "minattack": 0,
-    "type": "Monster"
-  },
-  {
     "left": "Dinosaur",
     "right": "Machine",
     "output": "Cyber Saurus",
@@ -262,10 +262,28 @@
   },
   {
     "left": "Dragon",
-    "right": "Aqua",
-    "output": "Spike Seadra",
-    "attack": 1600,
-    "defense": 1300,
+    "right": "Bolt Escargot",
+    "output": "Twin-Headed Thunder Dragon",
+    "attack": 2800,
+    "defense": 2100,
+    "minattack": 0,
+    "type": "Monster"
+  },
+  {
+    "left": "Dragon",
+    "right": "Bolt Penguin",
+    "output": "Twin-Headed Thunder Dragon",
+    "attack": 2800,
+    "defense": 2100,
+    "minattack": 0,
+    "type": "Monster"
+  },
+  {
+    "left": "Dragon",
+    "right": "Time Wizard",
+    "output": "Thousand Dragon",
+    "attack": 2400,
+    "defense": 2000,
     "minattack": 0,
     "type": "Monster"
   },
@@ -280,10 +298,10 @@
   },
   {
     "left": "Dragon",
-    "right": "Turtle",
-    "output": "Sea King Dragon",
-    "attack": 2000,
-    "defense": 1700,
+    "right": "Aqua",
+    "output": "Spike Seadra",
+    "attack": 1600,
+    "defense": 1300,
     "minattack": 0,
     "type": "Monster"
   },
@@ -293,15 +311,6 @@
     "output": "Blackland Fire Dragon",
     "attack": 1500,
     "defense": 800,
-    "minattack": 0,
-    "type": "Monster"
-  },
-  {
-    "left": "Dragon",
-    "right": "Special-B",
-    "output": "Koumori Dragon",
-    "attack": 1500,
-    "defense": 1200,
     "minattack": 0,
     "type": "Monster"
   },
@@ -334,6 +343,15 @@
   },
   {
     "left": "Dragon",
+    "right": "Special-B",
+    "output": "Koumori Dragon",
+    "attack": 1500,
+    "defense": 1200,
+    "minattack": 0,
+    "type": "Monster"
+  },
+  {
+    "left": "Dragon",
     "right": "Thunder",
     "output": "Thunder Dragon",
     "attack": 1600,
@@ -352,11 +370,20 @@
   },
   {
     "left": "Dragon",
-    "right": "Time Wizard",
-    "output": "Thousand Dragon",
-    "attack": 2400,
-    "defense": 2000,
+    "right": "Turtle",
+    "output": "Sea King Dragon",
+    "attack": 2000,
+    "defense": 1700,
     "minattack": 0,
+    "type": "Monster"
+  },
+  {
+    "left": "Dragon",
+    "right": "Warrior",
+    "output": "D. Human",
+    "attack": 1300,
+    "defense": 1100,
+    "minattack": 1200,
     "type": "Monster"
   },
   {
@@ -380,19 +407,19 @@
   {
     "left": "Dragon",
     "right": "Warrior",
-    "output": "D. Human",
-    "attack": 1300,
-    "defense": 1100,
-    "minattack": 1200,
-    "type": "Monster"
-  },
-  {
-    "left": "Dragon",
-    "right": "Warrior",
     "output": "Sword Arm of Dragon",
     "attack": 1750,
     "defense": 2030,
     "minattack": 1300,
+    "type": "Monster"
+  },
+  {
+    "left": "Dragon",
+    "right": "Zombie",
+    "output": "Curse of Dragon",
+    "attack": 2000,
+    "defense": 1500,
+    "minattack": 1700,
     "type": "Monster"
   },
   {
@@ -411,15 +438,6 @@
     "attack": 1700,
     "defense": 1900,
     "minattack": 1600,
-    "type": "Monster"
-  },
-  {
-    "left": "Dragon",
-    "right": "Zombie",
-    "output": "Curse of Dragon",
-    "attack": 2000,
-    "defense": 1500,
-    "minattack": 1700,
     "type": "Monster"
   },
   {
@@ -460,15 +478,6 @@
   },
   {
     "left": "Fairy",
-    "right": "Female",
-    "output": "Dark Witch",
-    "attack": 1800,
-    "defense": 1700,
-    "minattack": 0,
-    "type": "Monster"
-  },
-  {
-    "left": "Fairy",
     "right": "Hibikime",
     "output": "Musician King",
     "attack": 1750,
@@ -482,6 +491,15 @@
     "output": "Musician King",
     "attack": 1750,
     "defense": 1500,
+    "minattack": 0,
+    "type": "Monster"
+  },
+  {
+    "left": "Fairy",
+    "right": "Female",
+    "output": "Dark Witch",
+    "attack": 1800,
+    "defense": 1700,
     "minattack": 0,
     "type": "Monster"
   },
@@ -542,10 +560,10 @@
   {
     "left": "Female",
     "right": "Fish",
-    "output": "Ice Water",
-    "attack": 1150,
-    "defense": 900,
-    "minattack": 0,
+    "output": "Amazon of the Seas",
+    "attack": 1300,
+    "defense": 1400,
+    "minattack": 1200,
     "type": "Monster"
   },
   {
@@ -560,10 +578,10 @@
   {
     "left": "Female",
     "right": "Fish",
-    "output": "Amazon of the Seas",
-    "attack": 1300,
-    "defense": 1400,
-    "minattack": 1200,
+    "output": "Ice Water",
+    "attack": 1150,
+    "defense": 900,
+    "minattack": 0,
     "type": "Monster"
   },
   {
@@ -630,12 +648,39 @@
     "type": "Monster"
   },
   {
+    "left": "Fiend",
+    "right": "Fairy",
+    "output": "Dark Elf",
+    "attack": 2000,
+    "defense": 800,
+    "minattack": 0,
+    "type": "Monster"
+  },
+  {
+    "left": "Fish",
+    "right": "Hoshiningen",
+    "output": "7 Colored Fish",
+    "attack": 1800,
+    "defense": 800,
+    "minattack": 0,
+    "type": "Monster"
+  },
+  {
+    "left": "Fish",
+    "right": "Rainbow Flower",
+    "output": "7 Colored Fish",
+    "attack": 1800,
+    "defense": 800,
+    "minattack": 0,
+    "type": "Monster"
+  },
+  {
     "left": "Fish",
     "right": "Beast",
-    "output": "Tatsunootoshigo",
-    "attack": 1350,
+    "output": "Marine Beast",
+    "attack": 1700,
     "defense": 1600,
-    "minattack": 0,
+    "minattack": 1500,
     "type": "Monster"
   },
   {
@@ -650,19 +695,19 @@
   {
     "left": "Fish",
     "right": "Beast",
-    "output": "Marine Beast",
-    "attack": 1700,
+    "output": "Tatsunootoshigo",
+    "attack": 1350,
     "defense": 1600,
-    "minattack": 1500,
+    "minattack": 0,
     "type": "Monster"
   },
   {
     "left": "Fish",
     "right": "Female",
-    "output": "Ice Water",
-    "attack": 1150,
-    "defense": 900,
-    "minattack": 0,
+    "output": "Amazon of the Seas",
+    "attack": 1300,
+    "defense": 1400,
+    "minattack": 1200,
     "type": "Monster"
   },
   {
@@ -677,27 +722,9 @@
   {
     "left": "Fish",
     "right": "Female",
-    "output": "Amazon of the Seas",
-    "attack": 1300,
-    "defense": 1400,
-    "minattack": 1200,
-    "type": "Monster"
-  },
-  {
-    "left": "Fish",
-    "right": "Hoshiningen",
-    "output": "7 Colored Fish",
-    "attack": 1800,
-    "defense": 800,
-    "minattack": 0,
-    "type": "Monster"
-  },
-  {
-    "left": "Fish",
-    "right": "Machine",
-    "output": "Misairuzame",
-    "attack": 1400,
-    "defense": 1600,
+    "output": "Ice Water",
+    "attack": 1150,
+    "defense": 900,
     "minattack": 0,
     "type": "Monster"
   },
@@ -712,10 +739,10 @@
   },
   {
     "left": "Fish",
-    "right": "Rainbow Flower",
-    "output": "7 Colored Fish",
-    "attack": 1800,
-    "defense": 800,
+    "right": "Machine",
+    "output": "Misairuzame",
+    "attack": 1400,
+    "defense": 1600,
     "minattack": 0,
     "type": "Monster"
   },
@@ -767,24 +794,15 @@
   {
     "left": "Machine",
     "right": "Animal",
-    "output": "Giga-Tech Wolf",
-    "attack": 1200,
-    "defense": 1400,
-    "minattack": 0,
+    "output": "Dice Armadillo",
+    "attack": 1650,
+    "defense": 1800,
+    "minattack": 1200,
     "type": "Monster"
   },
   {
     "left": "Machine",
     "right": "Animal",
-    "output": "Dice Armadillo",
-    "attack": 1650,
-    "defense": 1800,
-    "minattack": 1200,
-    "type": "Monster"
-  },
-  {
-    "left": "Machine",
-    "right": "Beast",
     "output": "Giga-Tech Wolf",
     "attack": 1200,
     "defense": 1400,
@@ -798,6 +816,15 @@
     "attack": 1650,
     "defense": 1800,
     "minattack": 1200,
+    "type": "Monster"
+  },
+  {
+    "left": "Machine",
+    "right": "Beast",
+    "output": "Giga-Tech Wolf",
+    "attack": 1200,
+    "defense": 1400,
+    "minattack": 0,
     "type": "Monster"
   },
   {
@@ -830,19 +857,19 @@
   {
     "left": "Machine",
     "right": "Fish",
-    "output": "Misairuzame",
-    "attack": 1400,
-    "defense": 1600,
-    "minattack": 0,
+    "output": "Metal Fish",
+    "attack": 1600,
+    "defense": 1900,
+    "minattack": 1400,
     "type": "Monster"
   },
   {
     "left": "Machine",
     "right": "Fish",
-    "output": "Metal Fish",
-    "attack": 1600,
-    "defense": 1900,
-    "minattack": 1400,
+    "output": "Misairuzame",
+    "attack": 1400,
+    "defense": 1600,
+    "minattack": 0,
     "type": "Monster"
   },
   {
@@ -920,15 +947,6 @@
   {
     "left": "Plant",
     "right": "Zombie",
-    "output": "Wood Remains",
-    "attack": 1000,
-    "defense": 900,
-    "minattack": 0,
-    "type": "Monster"
-  },
-  {
-    "left": "Plant",
-    "right": "Zombie",
     "output": "Pumpking the King of Ghosts",
     "attack": 1800,
     "defense": 2000,
@@ -936,11 +954,11 @@
     "type": "Monster"
   },
   {
-    "left": "Pyro",
-    "right": "Animal",
-    "output": "Flame Cerebrus",
-    "attack": 2100,
-    "defense": 1800,
+    "left": "Plant",
+    "right": "Zombie",
+    "output": "Wood Remains",
+    "attack": 1000,
+    "defense": 900,
     "minattack": 0,
     "type": "Monster"
   },
@@ -950,6 +968,24 @@
     "output": "Fire Kraken",
     "attack": 1600,
     "defense": 1500,
+    "minattack": 0,
+    "type": "Monster"
+  },
+  {
+    "left": "Pyro",
+    "right": "Mavelus",
+    "output": "Crimson Sunbird",
+    "attack": 2300,
+    "defense": 1800,
+    "minattack": 0,
+    "type": "Monster"
+  },
+  {
+    "left": "Pyro",
+    "right": "Animal",
+    "output": "Flame Cerebrus",
+    "attack": 2100,
+    "defense": 1800,
     "minattack": 0,
     "type": "Monster"
   },
@@ -1010,19 +1046,19 @@
   {
     "left": "Pyro",
     "right": "Winged Beast",
-    "output": "Mavelus",
-    "attack": 1300,
-    "defense": 900,
-    "minattack": 0,
+    "output": "Crimson Sunbird",
+    "attack": 2300,
+    "defense": 1800,
+    "minattack": 1300,
     "type": "Monster"
   },
   {
     "left": "Pyro",
     "right": "Winged Beast",
-    "output": "Crimson Sunbird",
-    "attack": 2300,
-    "defense": 1800,
-    "minattack": 1300,
+    "output": "Mavelus",
+    "attack": 1300,
+    "defense": 900,
+    "minattack": 0,
     "type": "Monster"
   },
   {
@@ -1081,6 +1117,24 @@
   },
   {
     "left": "Rock",
+    "right": "Key Mace",
+    "output": "Mystical Sand",
+    "attack": 2100,
+    "defense": 1700,
+    "minattack": 0,
+    "type": "Monster"
+  },
+  {
+    "left": "Rock",
+    "right": "Monsturtle",
+    "output": "Boulder Tortoise",
+    "attack": 1450,
+    "defense": 2200,
+    "minattack": 0,
+    "type": "Monster"
+  },
+  {
+    "left": "Rock",
     "right": "Dragon",
     "output": "Stone D.",
     "attack": 2000,
@@ -1112,15 +1166,6 @@
     "output": "Dissolverock",
     "attack": 900,
     "defense": 1000,
-    "minattack": 0,
-    "type": "Monster"
-  },
-  {
-    "left": "Rock",
-    "right": "Monsturtle",
-    "output": "Boulder Tortoise",
-    "attack": 1450,
-    "defense": 2200,
     "minattack": 0,
     "type": "Monster"
   },
@@ -1161,6 +1206,51 @@
     "type": "Monster"
   },
   {
+    "left": "Special-A",
+    "right": "Beast",
+    "output": "Garvas",
+    "attack": 2000,
+    "defense": 1700,
+    "minattack": 0,
+    "type": "Monster"
+  },
+  {
+    "left": "Special-A",
+    "right": "Egg",
+    "output": "Winged Egg of New Life",
+    "attack": 1400,
+    "defense": 1700,
+    "minattack": 0,
+    "type": "Monster"
+  },
+  {
+    "left": "Special-B",
+    "right": "Dragon",
+    "output": "Koumori Dragon",
+    "attack": 1500,
+    "defense": 1200,
+    "minattack": 0,
+    "type": "Monster"
+  },
+  {
+    "left": "Special-C",
+    "right": "Elf",
+    "output": "Mystical Elf",
+    "attack": 800,
+    "defense": 2000,
+    "minattack": 0,
+    "type": "Monster"
+  },
+  {
+    "left": "Spellcaster",
+    "right": "Monsturtle",
+    "output": "30,000-Year White Turtle",
+    "attack": 1250,
+    "defense": 2100,
+    "minattack": 0,
+    "type": "Monster"
+  },
+  {
     "left": "Spellcaster",
     "right": "Mystic Lamp",
     "output": "Lord of the Lamp",
@@ -1189,15 +1279,6 @@
   },
   {
     "left": "Spellcaster",
-    "right": "Monsturtle",
-    "output": "30,000-Year White Turtle",
-    "attack": 1250,
-    "defense": 2100,
-    "minattack": 0,
-    "type": "Monster"
-  },
-  {
-    "left": "Spellcaster",
     "right": "Rock",
     "output": "Ushi Oni",
     "attack": 2150,
@@ -1208,19 +1289,19 @@
   {
     "left": "Spellcaster",
     "right": "Thunder",
-    "output": "The Immortal of Thunder",
-    "attack": 1500,
-    "defense": 1300,
-    "minattack": 0,
+    "output": "Kaminari Attack",
+    "attack": 1900,
+    "defense": 1400,
+    "minattack": 1500,
     "type": "Monster"
   },
   {
     "left": "Spellcaster",
     "right": "Thunder",
-    "output": "Kaminari Attack",
-    "attack": 1900,
-    "defense": 1400,
-    "minattack": 1500,
+    "output": "The Immortal of Thunder",
+    "attack": 1500,
+    "defense": 1300,
+    "minattack": 0,
     "type": "Monster"
   },
   {
@@ -1289,19 +1370,19 @@
   {
     "left": "Thunder",
     "right": "Spellcaster",
-    "output": "The Immortal of Thunder",
-    "attack": 1500,
-    "defense": 1300,
-    "minattack": 0,
+    "output": "Kaminari Attack",
+    "attack": 1900,
+    "defense": 1400,
+    "minattack": 1500,
     "type": "Monster"
   },
   {
     "left": "Thunder",
     "right": "Spellcaster",
-    "output": "Kaminari Attack",
-    "attack": 1900,
-    "defense": 1400,
-    "minattack": 1500,
+    "output": "The Immortal of Thunder",
+    "attack": 1500,
+    "defense": 1300,
+    "minattack": 0,
     "type": "Monster"
   },
   {
@@ -1360,11 +1441,38 @@
   },
   {
     "left": "Warrior",
+    "right": "The Judgement Hand",
+    "output": "Judge Man",
+    "attack": 2200,
+    "defense": 1700,
+    "minattack": 0,
+    "type": "Monster"
+  },
+  {
+    "left": "Warrior",
     "right": "Animal",
     "output": "Tiger Axe",
     "attack": 1300,
     "defense": 1100,
     "minattack": 0,
+    "type": "Monster"
+  },
+  {
+    "left": "Warrior",
+    "right": "Beast",
+    "output": "Tiger Axe",
+    "attack": 1300,
+    "defense": 1100,
+    "minattack": 0,
+    "type": "Monster"
+  },
+  {
+    "left": "Warrior",
+    "right": "Dragon",
+    "output": "D. Human",
+    "attack": 1300,
+    "defense": 1100,
+    "minattack": 1200,
     "type": "Monster"
   },
   {
@@ -1388,19 +1496,19 @@
   {
     "left": "Warrior",
     "right": "Dragon",
-    "output": "D. Human",
-    "attack": 1300,
-    "defense": 1100,
-    "minattack": 1200,
-    "type": "Monster"
-  },
-  {
-    "left": "Warrior",
-    "right": "Dragon",
     "output": "Sword Arm of Dragon",
     "attack": 1750,
     "defense": 2030,
     "minattack": 1300,
+    "type": "Monster"
+  },
+  {
+    "left": "Warrior",
+    "right": "Elf",
+    "output": "Celtic Guardian",
+    "attack": 1400,
+    "defense": 1200,
+    "minattack": 0,
     "type": "Monster"
   },
   {
@@ -1486,11 +1594,11 @@
   },
   {
     "left": "Warrior",
-    "right": "The Judgement Hand",
-    "output": "Judge Man",
-    "attack": 2200,
-    "defense": 1700,
-    "minattack": 0,
+    "right": "Zombie",
+    "output": "Armored Zombie",
+    "attack": 1500,
+    "defense": 0,
+    "minattack": 1200,
     "type": "Monster"
   },
   {
@@ -1500,15 +1608,6 @@
     "attack": 1200,
     "defense": 900,
     "minattack": 0,
-    "type": "Monster"
-  },
-  {
-    "left": "Warrior",
-    "right": "Zombie",
-    "output": "Armored Zombie",
-    "attack": 1500,
-    "defense": 0,
-    "minattack": 1200,
     "type": "Monster"
   },
   {
@@ -1540,24 +1639,6 @@
   },
   {
     "left": "Winged Beast",
-    "right": "Pyro",
-    "output": "Mavelus",
-    "attack": 1300,
-    "defense": 900,
-    "minattack": 0,
-    "type": "Monster"
-  },
-  {
-    "left": "Winged Beast",
-    "right": "Pyro",
-    "output": "Crimson Sunbird",
-    "attack": 2300,
-    "defense": 1800,
-    "minattack": 1300,
-    "type": "Monster"
-  },
-  {
-    "left": "Winged Beast",
     "right": "Ryu-Kishin",
     "output": "Whiptail Crow",
     "attack": 1650,
@@ -1576,15 +1657,6 @@
   },
   {
     "left": "Winged Beast",
-    "right": "Turtle",
-    "output": "Turtle Bird",
-    "attack": 1900,
-    "defense": 1700,
-    "minattack": 0,
-    "type": "Monster"
-  },
-  {
-    "left": "Winged Beast",
     "right": "Wicked Mirror",
     "output": "Fiend Refrection #1",
     "attack": 1300,
@@ -1593,38 +1665,29 @@
     "type": "Monster"
   },
   {
-    "left": "Zombie",
-    "right": "Dragon",
-    "output": "Dragon Zombie",
-    "attack": 1600,
-    "defense": 0,
+    "left": "Winged Beast",
+    "right": "Pyro",
+    "output": "Crimson Sunbird",
+    "attack": 2300,
+    "defense": 1800,
+    "minattack": 1300,
+    "type": "Monster"
+  },
+  {
+    "left": "Winged Beast",
+    "right": "Pyro",
+    "output": "Mavelus",
+    "attack": 1300,
+    "defense": 900,
     "minattack": 0,
     "type": "Monster"
   },
   {
-    "left": "Zombie",
-    "right": "Dragon",
-    "output": "Skelgon",
-    "attack": 1700,
-    "defense": 1900,
-    "minattack": 1600,
-    "type": "Monster"
-  },
-  {
-    "left": "Zombie",
-    "right": "Dragon",
-    "output": "Curse of Dragon",
-    "attack": 2000,
-    "defense": 1500,
-    "minattack": 1700,
-    "type": "Monster"
-  },
-  {
-    "left": "Zombie",
-    "right": "Fish",
-    "output": "Corroding Shark",
-    "attack": 1100,
-    "defense": 700,
+    "left": "Winged Beast",
+    "right": "Turtle",
+    "output": "Turtle Bird",
+    "attack": 1900,
+    "defense": 1700,
     "minattack": 0,
     "type": "Monster"
   },
@@ -1657,10 +1720,46 @@
   },
   {
     "left": "Zombie",
-    "right": "Plant",
-    "output": "Wood Remains",
-    "attack": 1000,
-    "defense": 900,
+    "right": "Sword Arm of Dragon",
+    "output": "Curse of Dragon",
+    "attack": 2000,
+    "defense": 1500,
+    "minattack": 0,
+    "type": "Monster"
+  },
+  {
+    "left": "Zombie",
+    "right": "Dragon",
+    "output": "Curse of Dragon",
+    "attack": 2000,
+    "defense": 1500,
+    "minattack": 1700,
+    "type": "Monster"
+  },
+  {
+    "left": "Zombie",
+    "right": "Dragon",
+    "output": "Dragon Zombie",
+    "attack": 1600,
+    "defense": 0,
+    "minattack": 0,
+    "type": "Monster"
+  },
+  {
+    "left": "Zombie",
+    "right": "Dragon",
+    "output": "Skelgon",
+    "attack": 1700,
+    "defense": 1900,
+    "minattack": 1600,
+    "type": "Monster"
+  },
+  {
+    "left": "Zombie",
+    "right": "Fish",
+    "output": "Corroding Shark",
+    "attack": 1100,
+    "defense": 700,
     "minattack": 0,
     "type": "Monster"
   },
@@ -1671,6 +1770,15 @@
     "attack": 1800,
     "defense": 2000,
     "minattack": 1000,
+    "type": "Monster"
+  },
+  {
+    "left": "Zombie",
+    "right": "Plant",
+    "output": "Wood Remains",
+    "attack": 1000,
+    "defense": 900,
+    "minattack": 0,
     "type": "Monster"
   },
   {
@@ -1712,6 +1820,15 @@
   {
     "left": "Zombie",
     "right": "Warrior",
+    "output": "Armored Zombie",
+    "attack": 1500,
+    "defense": 0,
+    "minattack": 1200,
+    "type": "Monster"
+  },
+  {
+    "left": "Zombie",
+    "right": "Warrior",
     "output": "Zombie Warrior",
     "attack": 1200,
     "defense": 900,
@@ -1719,12 +1836,12 @@
     "type": "Monster"
   },
   {
-    "left": "Zombie",
-    "right": "Warrior",
-    "output": "Armored Zombie",
-    "attack": 1500,
-    "defense": 0,
-    "minattack": 1200,
+    "left": "Arlownay",
+    "right": "Fiend",
+    "output": "Rose Spectre of Dunn",
+    "attack": 2000,
+    "defense": 1800,
+    "minattack": 0,
     "type": "Monster"
   },
   {
@@ -1746,6 +1863,15 @@
     "type": "Monster"
   },
   {
+    "left": "Boo Koo",
+    "right": "Winged Beast",
+    "output": "Spirit of the Books",
+    "attack": 1400,
+    "defense": 1200,
+    "minattack": 0,
+    "type": "Monster"
+  },
+  {
     "left": "Clown Zombie",
     "right": "Reptile",
     "output": "Soul Hunter",
@@ -1755,10 +1881,109 @@
     "type": "Monster"
   },
   {
+    "left": "Crass Clown",
+    "right": "Reptile",
+    "output": "Soul Hunter",
+    "attack": 2200,
+    "defense": 1800,
+    "minattack": 0,
+    "type": "Monster"
+  },
+  {
+    "left": "Fiend Kraken",
+    "right": "Pyro",
+    "output": "Fire Kraken",
+    "attack": 1600,
+    "defense": 1500,
+    "minattack": 0,
+    "type": "Monster"
+  },
+  {
+    "left": "Fiend Refrection #2",
+    "right": "Winged Beast",
+    "output": "Fiend Refrection #1",
+    "attack": 1300,
+    "defense": 1400,
+    "minattack": 0,
+    "type": "Monster"
+  },
+  {
     "left": "Fungi of the Musk",
     "right": "Fiend",
     "output": "Darkworld Thorns",
     "attack": 1200,
+    "defense": 900,
+    "minattack": 0,
+    "type": "Monster"
+  },
+  {
+    "left": "Fungi of the Musk",
+    "right": "Fiend",
+    "output": "Darkworld Thorns",
+    "attack": 1200,
+    "defense": 900,
+    "minattack": 0,
+    "type": "Monster"
+  },
+  {
+    "left": "Graveyard and the Hand of Invitation",
+    "right": "Zombie",
+    "output": "The Snake Hair",
+    "attack": 1500,
+    "defense": 1200,
+    "minattack": 0,
+    "type": "Monster"
+  },
+  {
+    "left": "Ground Attacker Bugroth",
+    "right": "Aqua",
+    "output": "Amphibious Bugroth",
+    "attack": 1850,
+    "defense": 1300,
+    "minattack": 0,
+    "type": "Monster"
+  },
+  {
+    "left": "Hibikime",
+    "right": "Fairy",
+    "output": "Musician King",
+    "attack": 1750,
+    "defense": 1500,
+    "minattack": 0,
+    "type": "Monster"
+  },
+  {
+    "left": "Hoshiningen",
+    "right": "Fish",
+    "output": "7 Colored Fish",
+    "attack": 1800,
+    "defense": 800,
+    "minattack": 0,
+    "type": "Monster"
+  },
+  {
+    "left": "Job-change Mirror",
+    "right": "Fiend",
+    "output": "Summoned Skull",
+    "attack": 2500,
+    "defense": 1200,
+    "minattack": 0,
+    "type": "Monster"
+  },
+  {
+    "left": "Job-change Mirror",
+    "right": "Winged Beast",
+    "output": "Fiend Refrection #1",
+    "attack": 1300,
+    "defense": 1400,
+    "minattack": 0,
+    "type": "Monster"
+  },
+  {
+    "left": "Kappa Avenger",
+    "right": "Aqua",
+    "output": "Hyosube",
+    "attack": 1500,
     "defense": 900,
     "minattack": 0,
     "type": "Monster"
@@ -1773,10 +1998,55 @@
     "type": "Monster"
   },
   {
+    "left": "Kuwagata alpha",
+    "right": "Insect",
+    "output": "Kwagar Hercules",
+    "attack": 1900,
+    "defense": 1700,
+    "minattack": 0,
+    "type": "Monster"
+  },
+  {
+    "left": "Larvas",
+    "right": "Beast",
+    "output": "Mon Larvas",
+    "attack": 1300,
+    "defense": 1400,
+    "minattack": 0,
+    "type": "Monster"
+  },
+  {
     "left": "Mammoth Graveyard",
     "right": "Zombie",
     "output": "Great Mammoth of Goldfine",
     "attack": 2200,
+    "defense": 1800,
+    "minattack": 0,
+    "type": "Monster"
+  },
+  {
+    "left": "Mavelus",
+    "right": "Pyro",
+    "output": "Crimson Sunbird",
+    "attack": 2300,
+    "defense": 1800,
+    "minattack": 0,
+    "type": "Monster"
+  },
+  {
+    "left": "Mavelus",
+    "right": "Winged Beast",
+    "output": "Crimson Sunbird",
+    "attack": 2300,
+    "defense": 1800,
+    "minattack": 0,
+    "type": "Monster"
+  },
+  {
+    "left": "Mavelus",
+    "right": "Winged Beast",
+    "output": "Crimson Sunbird",
+    "attack": 2300,
     "defense": 1800,
     "minattack": 0,
     "type": "Monster"
@@ -1800,29 +2070,101 @@
     "type": "Monster"
   },
   {
-    "left": "Sword Arm of Dragon",
+    "left": "Mystic Lamp",
+    "right": "Spellcaster",
+    "output": "Lord of the Lamp",
+    "attack": 1400,
+    "defense": 1200,
+    "minattack": 0,
+    "type": "Monster"
+  },
+  {
+    "left": "Mystical Sheep #2",
+    "right": "Fiend",
+    "output": "Mystical Sheep #1",
+    "attack": 1100,
+    "defense": 900,
+    "minattack": 0,
+    "type": "Monster"
+  },
+  {
+    "left": "Mystical Sheep #2",
     "right": "Zombie",
-    "output": "Curse of Dragon",
-    "attack": 2000,
+    "output": "Mystical Sheep #1",
+    "attack": 1100,
+    "defense": 900,
+    "minattack": 0,
+    "type": "Monster"
+  },
+  {
+    "left": "Psychic Kappa",
+    "right": "Aqua",
+    "output": "Hyosube",
+    "attack": 1500,
+    "defense": 900,
+    "minattack": 0,
+    "type": "Monster"
+  },
+  {
+    "left": "Psychic Kappa",
+    "right": "Fiend",
+    "output": "Kappa Avenger",
+    "attack": 1200,
+    "defense": 900,
+    "minattack": 0,
+    "type": "Monster"
+  },
+  {
+    "left": "Rainbow Flower",
+    "right": "Fish",
+    "output": "7 Colored Fish",
+    "attack": 1800,
+    "defense": 800,
+    "minattack": 0,
+    "type": "Monster"
+  },
+  {
+    "left": "Ryu-Kishin",
+    "right": "Dark Spellcaster",
+    "output": "Ryu-Kishin Powered",
+    "attack": 1600,
+    "defense": 1200,
+    "minattack": 0,
+    "type": "Monster"
+  },
+  {
+    "left": "Ryu-Kishin",
+    "right": "Winged Beast",
+    "output": "Whiptail Crow",
+    "attack": 1650,
+    "defense": 1600,
+    "minattack": 0,
+    "type": "Monster"
+  },
+  {
+    "left": "Sonic Maid",
+    "right": "Fairy",
+    "output": "Musician King",
+    "attack": 1750,
     "defense": 1500,
     "minattack": 0,
     "type": "Monster"
   },
   {
-    "left": "Time Wizard",
-    "right": "Dragon",
-    "output": "Thousand Dragon",
-    "attack": 2400,
-    "defense": 2000,
+    "left": "Spike Seadra",
+    "right": "Spellcaster",
+    "output": "Kaminari Attack",
+    "attack": 1900,
+    "defense": 1400,
     "minattack": 0,
     "type": "Monster"
   },
   {
-    "left": "Fungi of the Musk",
-    "right": "Fiend",
-    "output": "Darkworld Thorns",
-    "attack": 1200,
-    "defense": 900,
+    "left": "Sword Arm of Dragon",
+    "right": "Zombie",
+    "output": "Curse of Dragon",
+    "attack": 2000,
+    "defense": 1500,
     "minattack": 0,
     "type": "Monster"
   },
@@ -1836,20 +2178,29 @@
     "type": "Monster"
   },
   {
-    "left": "Mavelus",
-    "right": "Pyro",
-    "output": "Crimson Sunbird",
-    "attack": 2300,
+    "left": "The Judgement Hand",
+    "right": "Winged Beast",
+    "output": "Punished Eagle",
+    "attack": 2100,
     "defense": 1800,
     "minattack": 0,
     "type": "Monster"
   },
   {
-    "left": "Mavelus",
+    "left": "Time Wizard",
+    "right": "Dragon",
+    "output": "Thousand Dragon",
+    "attack": 2400,
+    "defense": 2000,
+    "minattack": 0,
+    "type": "Monster"
+  },
+  {
+    "left": "Wicked Mirror",
     "right": "Winged Beast",
-    "output": "Crimson Sunbird",
-    "attack": 2300,
-    "defense": 1800,
+    "output": "Fiend Refrection #1",
+    "attack": 1300,
+    "defense": 1400,
     "minattack": 0,
     "type": "Monster"
   }

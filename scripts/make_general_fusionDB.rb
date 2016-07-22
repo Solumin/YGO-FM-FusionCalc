@@ -37,6 +37,10 @@ end
 
 puts "Processed #{fusions.count} fusions"
 
+File.open("data/ygo_fm_genfuseDB.json", "w") {|file|
+    file.write(JSON.pretty_generate(fusions))
+}
+
 File.open("data/ygo_fm_genfuseDB.js", "w") {|file|
     file.write("var genfuseDB = TAFFY(#{JSON.pretty_generate(fusions)})")
 }
