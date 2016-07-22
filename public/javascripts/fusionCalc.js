@@ -9,6 +9,18 @@ var outputCard = document.getElementById("outputcard");
 var formatStr = "<div class='result-div'>Left Input:  {left}<br>Right Input: {right}<br>Output: {output} ({attack}/{defense})<br><br></div>";
 var typeStr = "<div class='result-div'>Left Input:  {left}<br>Right Input: {right}<br>Output: {output} ({type})<br><br></div>";
 
+function fusesToHTML(fuselist) {
+    return fuselist.map(function(fusion) {
+        var res = "<div class='result-div'>Left Input: " + fusion.left + "<br>Right Input: " + fusion.right;
+        if (fusion.type === "Monster") {
+            res += ["<br>Output:", fusion.output, formatStats(fusion.attack, fusion.defense)].join(" ");
+        } else if  (fusion.type !== "Equippable") {
+            res += "<br>Output: " + fusion.output + " (" + fusion.type + ")";
+        } // Equippable fusions (from equipDB) have no output, just left and right
+        return res + "<br><br></div>";
+    }).join("\n");
+}
+
 function searchByName() {
     resultsClear();
 
@@ -53,11 +65,11 @@ function searchByName() {
 
     if (monfuses.count() > 0) {
         outputMonster.innerHTML = "<h2 class='center'>Monster Fuses:</h2>";
-        outputMonster.innerHTML += monfuses.supplant(formatStr);
+        outputMonster.innerHTML += fusesToHTML(monfuses.get());
     }
     if (genfuses.count() > 0) {
         outputGeneral.innerHTML += "<h2 class='center'>General Fuses:</h2>";
-        outputGeneral.innerHTML += genfuses.supplant(formatStr);
+        outputGeneral.innerHTML += fusesToHTML(genfuses.get());
     }
 }
 
