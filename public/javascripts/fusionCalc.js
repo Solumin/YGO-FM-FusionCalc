@@ -9,6 +9,14 @@ var outputCard = document.getElementById("outputcard");
 var formatStr = "<div class='result-div'>Left Input:  {left}<br>Right Input: {right}<br>Output: {output} ({attack}/{defense})<br><br></div>";
 var typeStr = "<div class='result-div'>Left Input:  {left}<br>Right Input: {right}<br>Output: {output} ({type})<br><br></div>";
 
+// Initialize awesomplete
+new Awesomplete(nameInput,
+        {
+            list: cardDB().get().map(c => c.name), // list is all the cards in the DB
+            autoFirst: true,
+            filter: Awesomplete.FILTER_STARTSWITH, // case insensitive from start of word
+        });
+
 function fusesToHTML(fuselist) {
     return fuselist.map(function(fusion) {
         var res = "<div class='result-div'>Left Input: " + fusion.left + "<br>Right Input: " + fusion.right;
