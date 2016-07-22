@@ -29,6 +29,8 @@ File.readlines("data/ygo_fm_genfuseDB.txt").each do |line|
     fuse[:attack] = fields[3].to_i
     fuse[:defense] = fields[4].to_i
     fuse[:minattack] = fields[5].to_i
+    # Every general fusion is a monster-to-monster fusion
+    fuse[:type] = "Monster"
 
     fusions << fuse
 end
