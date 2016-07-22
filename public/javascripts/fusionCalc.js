@@ -19,6 +19,7 @@ function searchByName() {
     }
 
     var card = cardDB({name:{isnocase:nameInput.value}}).first();
+    var secondaries = [];
     console.log(card);
 
     if (!card) {
@@ -26,16 +27,28 @@ function searchByName() {
         $("#search-msg").html("No card for '" + nameInput.value + "' found");
         return;
     } else {
-      // Display card beside search bar
-        outputCard.innerHTML = "<div class='result-div'>" + "Name: " + card.name + "<br>" + "ATK/DEF: " + card.attack + "/" + card.defense + "<br>" + "Type: " + card.type + "</div>"
+        if (card.cardtype === "Monster") {
+            // Display card beside search bar
+            secondaries = secondaryDB({name:{isnocase:card.name}}).select("secondarytypes");
+            // If there are any secondaries, they'll be in the first element of the
+            // array. Otherwise the array is empty and can safely be concated.
+            if (secondaries[0]) {
+                secondaries = secondaries[0];
+            }
+            outputCard.innerHTML = "<div class='result-div'>" + "Name: " +
+                card.name + "<br>" + "ATK/DEF: " + card.attack + "/" +
+                card.defense + "<br>" + "Type: " +
+                [card.type].concat(secondaries).join(", ") + "</div>";
+        } else {
+            outputCard.innerHTML = "<div class='result-div'>" + "Name: " +
+                card.name + "<br>" + "Type: " + card.cardtype + "</div>";
+        }
     }
 
     // Get the list of monster-to-monster fusions
     var monfuses = monsterfuseDB({left:{isnocase:card.name}});
 
-    // Get the list of general fusions
-    var secondaries = secondaryDB({name:{isnocase:card.name}}).select("secondarytypes");
-    var genterm = [card.name, card.type].concat(secondaries[0]);
+    var genterm = [card.name, card.type].concat(secondaries);
     var genfuses = genfuseDB({left:{isnocase:genterm}},{attack:{gt:card.attack}},{minattack:{lte:card.attack}});
 
     if (monfuses.count() > 0) {
