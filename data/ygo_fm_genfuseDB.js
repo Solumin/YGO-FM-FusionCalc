@@ -442,7 +442,7 @@ var genfuseDB = TAFFY([
   {
     "left": "Fairy",
     "right": "Rock",
-    "output": "Mystic Sand",
+    "output": "Mystical Sand",
     "attack": 2100,
     "defense": 1700,
     "minattack": 0
@@ -657,7 +657,7 @@ var genfuseDB = TAFFY([
   },
   {
     "left": "Insect",
-    "right": "Kuwagata <alpha>",
+    "right": "Kuwagata alpha",
     "output": "Kwagar Hercules",
     "attack": 1900,
     "defense": 1700,
@@ -706,7 +706,7 @@ var genfuseDB = TAFFY([
   {
     "left": "Machine",
     "right": "Beast",
-    "output": "Diced Armadillo",
+    "output": "Dice Armadillo",
     "attack": 1650,
     "defense": 1800,
     "minattack": 1200
@@ -826,7 +826,7 @@ var genfuseDB = TAFFY([
   {
     "left": "Plant",
     "right": "Zombie",
-    "output": "Pumpkin the King of Ghosts",
+    "output": "Pumpking the King of Ghosts",
     "attack": 1800,
     "defense": 2000,
     "minattack": 1000
@@ -1034,7 +1034,7 @@ var genfuseDB = TAFFY([
   {
     "left": "Spellcaster",
     "right": "Mystic Lamp",
-    "output": "Lord of Lamp",
+    "output": "Lord of the Lamp",
     "attack": 1400,
     "defense": 1200,
     "minattack": 0
@@ -1058,10 +1058,10 @@ var genfuseDB = TAFFY([
   {
     "left": "Spellcaster",
     "right": "Monsturtle",
-    "output": "30",
-    "attack": 0,
-    "defense": 1250,
-    "minattack": 2100
+    "output": "30,000-Year White Turtle",
+    "attack": 1250,
+    "defense": 2100,
+    "minattack": 0
   },
   {
     "left": "Spellcaster",
@@ -1090,10 +1090,10 @@ var genfuseDB = TAFFY([
   {
     "left": "Spellcaster",
     "right": "Turtle",
-    "output": "30",
-    "attack": 0,
-    "defense": 1250,
-    "minattack": 2100
+    "output": "30,000-Year White Turtle",
+    "attack": 1250,
+    "defense": 2100,
+    "minattack": 0
   },
   {
     "left": "Spellcaster",
@@ -1194,10 +1194,10 @@ var genfuseDB = TAFFY([
   {
     "left": "Turtle",
     "right": "Spellcaster",
-    "output": "30",
-    "attack": 0,
-    "defense": 1250,
-    "minattack": 2100
+    "output": "30,000-Year White Turtle",
+    "attack": 1250,
+    "defense": 2100,
+    "minattack": 0
   },
   {
     "left": "Turtle",
@@ -1482,7 +1482,7 @@ var genfuseDB = TAFFY([
   {
     "left": "Zombie",
     "right": "Plant",
-    "output": "Pumpkin the King of Ghosts",
+    "output": "Pumpking the King of Ghosts",
     "attack": 1800,
     "defense": 2000,
     "minattack": 1000
@@ -1578,7 +1578,7 @@ var genfuseDB = TAFFY([
   {
     "left": "Mammoth Graveyard",
     "right": "Zombie",
-    "output": "Great Mammoth of Gold Fine",
+    "output": "Great Mammoth of Goldfine",
     "attack": 2200,
     "defense": 1800,
     "minattack": 0
@@ -1594,10 +1594,10 @@ var genfuseDB = TAFFY([
   {
     "left": "Monsturtle",
     "right": "Spellcaster",
-    "output": "30",
-    "attack": 0,
-    "defense": 1250,
-    "minattack": 2100
+    "output": "30,000-Year White Turtle",
+    "attack": 1250,
+    "defense": 2100,
+    "minattack": 0
   },
   {
     "left": "Sword Arm of Dragon",

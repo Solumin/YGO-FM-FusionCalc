@@ -1,4 +1,4 @@
-var monsterfuseDB = TAFFY([
+[
   {
     "left": "30,000-year White Turtle",
     "right": "Petit Dragon",
@@ -51143,4 +51143,4 @@ var monsterfuseDB = TAFFY([
     "defense": 1300,
     "type": "Monster"
   }
-])
+]

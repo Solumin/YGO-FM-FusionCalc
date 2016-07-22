@@ -30,8 +30,6 @@ function searchByName() {
         outputCard.innerHTML = "<div class='result-div'>" + "Name: " + card.name + "<br>" + "ATK/DEF: " + card.attack + "/" + card.defense + "<br>" + "Type: " + card.type + "</div>"
     }
 
-
-
     // Get the list of monster-to-monster fusions
     var monfuses = monsterfuseDB({left:{isnocase:card.name}});
 
@@ -77,7 +75,10 @@ function searchByType() {
     }
     if (genfuses.count() > 0) {
         outputGeneral.innerHTML += "<h2 class='center'>General Fuses:</h2>";
-        outputGeneral.innerHTML += genfuses.supplant(typeStr);
+        outputGeneral.innerHTML += genfuses.supplant(formatStr);
+    }
+    if (monfuses.count() == 0 && genfuses.count() == 0) {
+        $("#search-msg").html("There are no general fusions for that type");
     }
 }
 
