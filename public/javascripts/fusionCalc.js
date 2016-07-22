@@ -10,12 +10,16 @@ var formatStr = "<div class='result-div'>Left Input:  {left}<br>Right Input: {ri
 var typeStr = "<div class='result-div'>Left Input:  {left}<br>Right Input: {right}<br>Output: {output} ({type})<br><br></div>";
 
 // Initialize awesomplete
-new Awesomplete(nameInput,
+var cardNameCompletion = new Awesomplete(nameInput,
         {
-            list: cardDB().get().map(c => c.name), // list is all the cards in the DB
-            autoFirst: true,
-            filter: Awesomplete.FILTER_STARTSWITH, // case insensitive from start of word
+            list: cardDB().get().map(c => c.name),  // list is all the cards in the DB
+            autoFirst: true,                        // The first item in the list is selected
+            filter: Awesomplete.FILTER_STARTSWITH   // case insensitive from start of word
         });
+$("#cardname").on("change", function() {
+    cardNameCompletion.select(); // select the currently highlighted item
+    searchByName();
+});
 
 function fusesToHTML(fuselist) {
     return fuselist.map(function(fusion) {
@@ -118,6 +122,7 @@ function searchByType() {
 
 document.getElementById("searchNameBtn").onclick = function() {
     $("#search-msg").html("");
+    cardNameCompletion.select(); // select the currently highlighted item
     resultsClear();
     searchByName();
 }
