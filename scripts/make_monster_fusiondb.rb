@@ -27,7 +27,7 @@ header = ""
 
 def process_entry(line, leftside)
     if line.include? "=" # it's a full fusion
-        rightside, output = line.split " = "
+        rightside, output = line.split("=").map(&:strip)
         # We only care about the name of the right input
         rpindex = rightside.rindex " "
         rname = rightside[0..(rpindex-1)]
@@ -78,12 +78,20 @@ File.open("data/ygo_fm_monsterfuseDB.js", "w") {|file|
     file.write("var monsterfuseDB = TAFFY(#{JSON.pretty_generate(fusions)})")
 }
 
+File.open("data/ygo_fm_monsterfuseDB.json", "w") {|file|
+    file.write(JSON.pretty_generate fusions)
+}
+
 puts "Wrote JSON DB js file"
 
 puts "Processed #{equips.count} equipment fusions"
 
 File.open("data/ygo_fm_equipDB.js", "w") {|file|
     file.write("var equipDB = TAFFY(#{JSON.pretty_generate(equips)})")
+}
+
+File.open("data/ygo_fm_equipDB.json", "w") {|file|
+    file.write(JSON.pretty_generate equips)
 }
 
 puts "Wrote JSON DB js file"
