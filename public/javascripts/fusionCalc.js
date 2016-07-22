@@ -9,6 +9,18 @@ var outputCard = document.getElementById("outputcard");
 var formatStr = "<div class='result-div'>Left Input:  {left}<br>Right Input: {right}<br>Output: {output} ({attack}/{defense})<br><br></div>";
 var typeStr = "<div class='result-div'>Left Input:  {left}<br>Right Input: {right}<br>Output: {output} ({type})<br><br></div>";
 
+function fusesToHTML(fuselist) {
+    return fuselist.map(function(fusion) {
+        var res = "<div class='result-div'>Left Input: " + fusion.left + "<br>Right Input: " + fusion.right;
+        if (fusion.type === "Monster") {
+            res += ["<br>Output:", fusion.output, formatStats(fusion.attack, fusion.defense)].join(" ");
+        } else if  (fusion.type !== "Equippable") {
+            res += "<br>Output: " + fusion.output + " (" + fusion.type + ")";
+        } // Equippable fusions (from equipDB) have no output, just left and right
+        return res + "<br><br></div>";
+    }).join("\n");
+}
+
 function searchByName() {
     resultsClear();
 
@@ -19,6 +31,7 @@ function searchByName() {
     }
 
     var card = cardDB({name:{isnocase:nameInput.value}}).first();
+    var secondaries = [];
     console.log(card);
 
     if (!card) {
@@ -26,25 +39,37 @@ function searchByName() {
         $("#search-msg").html("No card for '" + nameInput.value + "' found");
         return;
     } else {
-      // Display card beside search bar
-        outputCard.innerHTML = "<div class='result-div'>" + "Name: " + card.name + "<br>" + "ATK/DEF: " + card.attack + "/" + card.defense + "<br>" + "Type: " + card.type + "</div>"
+        if (card.cardtype === "Monster") {
+            // Display card beside search bar
+            secondaries = secondaryDB({name:{isnocase:card.name}}).select("secondarytypes");
+            // If there are any secondaries, they'll be in the first element of the
+            // array. Otherwise the array is empty and can safely be concated.
+            if (secondaries[0]) {
+                secondaries = secondaries[0];
+            }
+            outputCard.innerHTML = "<div class='result-div'>" + "Name: " +
+                card.name + "<br>" + "ATK/DEF: " + card.attack + "/" +
+                card.defense + "<br>" + "Type: " +
+                [card.type].concat(secondaries).join(", ") + "</div>";
+        } else {
+            outputCard.innerHTML = "<div class='result-div'>" + "Name: " +
+                card.name + "<br>" + "Type: " + card.cardtype + "</div>";
+        }
     }
 
     // Get the list of monster-to-monster fusions
     var monfuses = monsterfuseDB({left:{isnocase:card.name}});
 
-    // Get the list of general fusions
-    var secondaries = secondaryDB({name:{isnocase:card.name}}).select("secondarytypes");
-    var genterm = [card.name, card.type].concat(secondaries[0]);
+    var genterm = [card.name, card.type].concat(secondaries);
     var genfuses = genfuseDB({left:{isnocase:genterm}},{attack:{gt:card.attack}},{minattack:{lte:card.attack}});
 
     if (monfuses.count() > 0) {
         outputMonster.innerHTML = "<h2 class='center'>Monster Fuses:</h2>";
-        outputMonster.innerHTML += monfuses.supplant(formatStr);
+        outputMonster.innerHTML += fusesToHTML(monfuses.get());
     }
     if (genfuses.count() > 0) {
         outputGeneral.innerHTML += "<h2 class='center'>General Fuses:</h2>";
-        outputGeneral.innerHTML += genfuses.supplant(formatStr);
+        outputGeneral.innerHTML += fusesToHTML(genfuses.get());
     }
 }
 
