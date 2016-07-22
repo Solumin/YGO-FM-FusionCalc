@@ -17,6 +17,17 @@ function lookupCard(cardname) {
     return cardDB({name:{isnocase:cardname}}).first();
 }
 
+function lookupSecondaries(cardname) {
+    var secondaries = secondaryDB({name:{isnocase:cardname}}).select("secondarytypes");
+    // If there are any secondaries, they'll be in the first element of the
+    // array. Otherwise the array is empty and can safely be used
+    if (secondaries[0]) {
+        return secondaries[0];
+    } else {
+        return [];
+    }
+}
+
 function formatStats(attack, defense) {
     return "(" + attack + "/" + defense + ")";
 }
@@ -27,12 +38,7 @@ function checkCard(cardname, infoname) {
     if (!card) {
         info.html("Invalid card name");
     } else if (card.cardtype === "Monster") {
-        var secondaries = secondaryDB({name:{isnocase:card.name}}).select("secondarytypes");
-        // If there are any secondaries, they'll be in the first element of the
-        // array. Otherwise the array is empty and can safely be concated.
-        if (secondaries[0]) {
-            secondaries = secondaries[0];
-        }
+        var secondaries = lookupSecondaries(card.name);
         info.html(formatStats(card.attack, card.defense) + " [" + [card.type].concat(secondaries).join(", ") + "]");
     } else {
         info.html("(" + card.cardtype + ")");
@@ -61,12 +67,25 @@ function findFusions() {
     // Assumes the data is perfect, i.e. each fusion is reciprocated.
     // This does not take into account equipment
     // (So we'll get Beast Fang + Megamorph, but not Aqua Dragon + Beast Fangs)
+    // Also finds general fusions based on types
     var monsterFuses = [];
-    for (i = 0; i < cards.length - 1; i++) {
+
+    for (i = 0; i < cards.length -1; i++) {
         var curr = cards[i].name;
-        var names = cards.slice(i+1).map(c => c.name);
-        monsterFuses = monsterFuses.concat(monsterfuseDB({left:{isnocase:curr}},{right:{isnocase:names}}).get());
+        var lterm = [curr, cards[i].type].concat(lookupSecondaries(curr));
+        for (j = i+1; j < cards.length; j++) {
+            var other = cards[j].name;
+            var rterm = [other, cards[j].type].concat(lookupSecondaries(other));
+            monsterFuses = monsterFuses.concat(monsterfuseDB({left:{isnocase:curr}},{right:{isnocase:other}}).get());
+            var genfuses = genfuseDB({left:{isnocase:lterm}}, {right:{isnocase:rterm}}).get();
+            monsterFuses = monsterFuses.concat(genfuses.map(function(fusion) {
+                fusion.left = curr;
+                fusion.right = other;
+                return fusion;
+            }));
+        }
     }
+
     // Get just the monsters and their equipment fusions
     var leftTerm = {left:{isnocase:monsters.map(c => c.name)}};
     var rightTerm = {right:{isnocase:others.map(c => c.name)}};
