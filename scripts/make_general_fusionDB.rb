@@ -20,7 +20,7 @@ def getName(name)
 end
 
 File.readlines("data/ygo_fm_genfuseDB.txt").each do |line|
-    fields = line.strip.split ","
+    fields = line.strip.split ";"
 
     fuse = {}
     fuse[:left] = getName(fields[0])
