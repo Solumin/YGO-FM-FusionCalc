@@ -1,6 +1,18 @@
 var outputMonster = document.getElementById("outputarealeft");
 var outputEquips = document.getElementById("outputarearight");
 
+// Initialize Awesomplete
+var _awesompleteOpts = {
+    list: cardDB().get().map(c => c.name),  // List is all the cards in the DB
+    autoFirst: true,                        // The first item in the list is selected
+    filter: Awesomplete.FILTER_STARTSWITH   // Case insensitive from start of word
+};
+var handCompletions = {}
+for (i = 1; i <= 5; i++) {
+    var hand = document.getElementById("hand" + i);
+    handCompletions["hand"+i] = new Awesomplete(hand, _awesompleteOpts);
+}
+
 function fusesToHTML(fuselist) {
     return fuselist.map(function(fusion) {
         var res = "<div class='result-div'>Left Input: " + fusion.left + "<br>Right Input: " + fusion.right;
@@ -116,6 +128,17 @@ function inputsClear() {
 // Set up event listeners for each card input
 for (i = 1; i <= 5; i++) {
     $("#hand" + i).on("change", function() {
+        handCompletions[this.id].select(); // select the currently highlighted element
+        if (this.value === "") { // If the box is cleared, remove the card info
+            $("#" + this.id + "-info").html("");
+        } else {
+            checkCard(this.value, this.id + "-info");
+        }
+        resultsClear();
+        findFusions();
+    });
+
+    $("#hand" + i).on("awesomplete-selectcomplete", function() {
         checkCard(this.value, this.id + "-info");
         resultsClear();
         findFusions();
