@@ -1,4 +1,5 @@
-var outputMonster = document.getElementById("outputarealeft");
+// var outputMonster = document.getElementById("outputarealeft");
+var outputMonster = document.getElementById("grid");
 var outputEquips = document.getElementById("outputarearight");
 
 // Initialize Awesomplete
@@ -15,7 +16,7 @@ for (i = 1; i <= 5; i++) {
 
 function fusesToHTML(fuselist) {
     return fuselist.map(function(fusion) {
-        var res = "<div class='result-div'>Left Input: " + fusion.left + "<br>Right Input: " + fusion.right;
+        var res = "<div class='result-div card-item'>Left Input: " + fusion.left + "<br>Right Input: " + fusion.right;
         if (fusion.type === "Monster") {
             res += ["<br>Output:", fusion.output, formatStats(fusion.attack, fusion.defense)].join(" ");
         } else if  (fusion.type !== "Equippable") {
@@ -40,8 +41,9 @@ function lookupSecondaries(cardname) {
     }
 }
 
+// Format stat string with classes for isotope sorting
 function formatStats(attack, defense) {
-    return "(" + attack + "/" + defense + ")";
+    return "(<span class='attack'>" + attack + "</span>" + "/" + "<span class='defense'>" + defense + "</span>" + ")";
 }
 
 function checkCard(cardname, infoname) {
@@ -104,13 +106,14 @@ function findFusions() {
     var equipFuses = equipDB(leftTerm, rightTerm).get();
 
     if (monsterFuses.length > 0) {
-        outputMonster.innerHTML = "<h2 class='center'>Monster Fuses:</h2>";
-        outputMonster.innerHTML += fusesToHTML(monsterFuses.sort((a,b) => b.attack - a.attack));
+        // outputMonster.innerHTML = "<h2 class='center'>Monster Fuses:</h2>";
+        outputMonster.innerHTML = fusesToHTML(monsterFuses.sort((a,b) => b.attack - a.attack));
     }
     if (equipFuses.length > 0) {
-        outputEquips.innerHTML = "<h2 class='center'>Equippables:</h2>";
-        outputEquips.innerHTML += fusesToHTML(equipFuses);
+        // outputEquips.innerHTML = "<h2 class='center'>Equippables:</h2>";
+        outputEquips.innerHTML = fusesToHTML(equipFuses);
     }
+
 }
 
 function resultsClear() {
@@ -148,4 +151,5 @@ for (i = 1; i <= 5; i++) {
 $("#resetBtn").on("click", function() {
     resultsClear();
     inputsClear();
+    console.log('results cleared')
 });
