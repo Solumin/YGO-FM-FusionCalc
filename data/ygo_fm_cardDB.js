@@ -11,7 +11,7 @@ var cardDB = TAFFY([
     "level": 8,
     "attack": 3000,
     "defense": 2500,
-    "secondartypes": [
+    "secondarytypes": [
 
     ]
   },
@@ -27,7 +27,7 @@ var cardDB = TAFFY([
     "level": 4,
     "attack": 800,
     "defense": 2000,
-    "secondartypes": [
+    "secondarytypes": [
       "Elf",
       "Female"
     ]
@@ -44,7 +44,7 @@ var cardDB = TAFFY([
     "level": 4,
     "attack": 1200,
     "defense": 1000,
-    "secondartypes": [
+    "secondarytypes": [
       "Special-B"
     ]
   },
@@ -60,7 +60,7 @@ var cardDB = TAFFY([
     "level": 3,
     "attack": 1200,
     "defense": 700,
-    "secondartypes": [
+    "secondarytypes": [
 
     ]
   },
@@ -76,7 +76,7 @@ var cardDB = TAFFY([
     "level": 3,
     "attack": 1000,
     "defense": 500,
-    "secondartypes": [
+    "secondarytypes": [
 
     ]
   },
@@ -92,7 +92,7 @@ var cardDB = TAFFY([
     "level": 4,
     "attack": 1300,
     "defense": 1400,
-    "secondartypes": [
+    "secondarytypes": [
       "Special-B"
     ]
   },
@@ -108,7 +108,7 @@ var cardDB = TAFFY([
     "level": 4,
     "attack": 1400,
     "defense": 1200,
-    "secondartypes": [
+    "secondarytypes": [
 
     ]
   },
@@ -124,7 +124,7 @@ var cardDB = TAFFY([
     "level": 2,
     "attack": 800,
     "defense": 600,
-    "secondartypes": [
+    "secondarytypes": [
 
     ]
   },
@@ -140,7 +140,7 @@ var cardDB = TAFFY([
     "level": 1,
     "attack": 500,
     "defense": 200,
-    "secondartypes": [
+    "secondarytypes": [
 
     ]
   },
@@ -156,7 +156,7 @@ var cardDB = TAFFY([
     "level": 4,
     "attack": 1500,
     "defense": 800,
-    "secondartypes": [
+    "secondarytypes": [
       "Dark Magic"
     ]
   },
@@ -172,7 +172,7 @@ var cardDB = TAFFY([
     "level": 6,
     "attack": 1750,
     "defense": 2030,
-    "secondartypes": [
+    "secondarytypes": [
       "Dragon"
     ]
   },
@@ -188,7 +188,7 @@ var cardDB = TAFFY([
     "level": 5,
     "attack": 1800,
     "defense": 1500,
-    "secondartypes": [
+    "secondarytypes": [
 
     ]
   },
@@ -204,7 +204,7 @@ var cardDB = TAFFY([
     "level": 4,
     "attack": 1200,
     "defense": 1400,
-    "secondartypes": [
+    "secondarytypes": [
 
     ]
   },
@@ -220,7 +220,7 @@ var cardDB = TAFFY([
     "level": 5,
     "attack": 1800,
     "defense": 1300,
-    "secondartypes": [
+    "secondarytypes": [
 
     ]
   },
@@ -236,7 +236,7 @@ var cardDB = TAFFY([
     "level": 5,
     "attack": 1800,
     "defense": 1600,
-    "secondartypes": [
+    "secondarytypes": [
       "Pyro"
     ]
   },
@@ -252,7 +252,7 @@ var cardDB = TAFFY([
     "level": 2,
     "attack": 500,
     "defense": 400,
-    "secondartypes": [
+    "secondarytypes": [
 
     ]
   },
@@ -268,7 +268,7 @@ var cardDB = TAFFY([
     "level": 1,
     "attack": 200,
     "defense": 300,
-    "secondartypes": [
+    "secondarytypes": [
       "Dark Magic",
       "Dark Spellcaster"
     ]
@@ -285,7 +285,7 @@ var cardDB = TAFFY([
     "level": 1,
     "attack": 200,
     "defense": 300,
-    "secondartypes": [
+    "secondarytypes": [
       "Dark Magic",
       "Dark Spellcaster"
     ]
@@ -302,7 +302,7 @@ var cardDB = TAFFY([
     "level": 1,
     "attack": 200,
     "defense": 300,
-    "secondartypes": [
+    "secondarytypes": [
       "Dark Magic",
       "Dark Spellcaster"
     ]
@@ -319,7 +319,7 @@ var cardDB = TAFFY([
     "level": 1,
     "attack": 200,
     "defense": 300,
-    "secondartypes": [
+    "secondarytypes": [
       "Dark Magic",
       "Dark Spellcaster"
     ]
@@ -336,7 +336,7 @@ var cardDB = TAFFY([
     "level": 3,
     "attack": 1000,
     "defense": 1000,
-    "secondartypes": [
+    "secondarytypes": [
       "Dark Magic",
       "Dark Spellcaster"
     ]
@@ -353,7 +353,7 @@ var cardDB = TAFFY([
     "level": 6,
     "attack": 2500,
     "defense": 1200,
-    "secondartypes": [
+    "secondarytypes": [
 
     ]
   },
@@ -369,7 +369,7 @@ var cardDB = TAFFY([
     "level": 3,
     "attack": 1400,
     "defense": 700,
-    "secondartypes": [
+    "secondarytypes": [
 
     ]
   },
@@ -385,7 +385,7 @@ var cardDB = TAFFY([
     "level": 1,
     "attack": 300,
     "defense": 200,
-    "secondartypes": [
+    "secondarytypes": [
 
     ]
   },
@@ -401,7 +401,7 @@ var cardDB = TAFFY([
     "level": 4,
     "attack": 1300,
     "defense": 1000,
-    "secondartypes": [
+    "secondarytypes": [
       "Special-B"
     ]
   },
@@ -417,7 +417,7 @@ var cardDB = TAFFY([
     "level": 4,
     "attack": 1700,
     "defense": 1000,
-    "secondartypes": [
+    "secondarytypes": [
 
     ]
   },
@@ -433,7 +433,7 @@ var cardDB = TAFFY([
     "level": 4,
     "attack": 1200,
     "defense": 1500,
-    "secondartypes": [
+    "secondarytypes": [
 
     ]
   },
@@ -449,7 +449,7 @@ var cardDB = TAFFY([
     "level": 3,
     "attack": 800,
     "defense": 1200,
-    "secondartypes": [
+    "secondarytypes": [
 
     ]
   },
@@ -465,7 +465,7 @@ var cardDB = TAFFY([
     "level": 3,
     "attack": 600,
     "defense": 1000,
-    "secondartypes": [
+    "secondarytypes": [
 
     ]
   },
@@ -481,7 +481,7 @@ var cardDB = TAFFY([
     "level": 3,
     "attack": 1200,
     "defense": 900,
-    "secondartypes": [
+    "secondarytypes": [
 
     ]
   },
@@ -497,7 +497,7 @@ var cardDB = TAFFY([
     "level": 4,
     "attack": 1500,
     "defense": 1200,
-    "secondartypes": [
+    "secondarytypes": [
 
     ]
   },
@@ -513,7 +513,7 @@ var cardDB = TAFFY([
     "level": 4,
     "attack": 1600,
     "defense": 1200,
-    "secondartypes": [
+    "secondarytypes": [
 
     ]
   },
@@ -529,7 +529,7 @@ var cardDB = TAFFY([
     "level": 6,
     "attack": 2200,
     "defense": 1500,
-    "secondartypes": [
+    "secondarytypes": [
 
     ]
   },
@@ -545,7 +545,7 @@ var cardDB = TAFFY([
     "level": 3,
     "attack": 600,
     "defense": 1500,
-    "secondartypes": [
+    "secondarytypes": [
       "Dark Magic",
       "Dark Spellcaster"
     ]
@@ -562,7 +562,7 @@ var cardDB = TAFFY([
     "level": 7,
     "attack": 2500,
     "defense": 2100,
-    "secondartypes": [
+    "secondarytypes": [
       "Dark Magic",
       "Dark Spellcaster"
     ]
@@ -579,7 +579,7 @@ var cardDB = TAFFY([
     "level": 4,
     "attack": 1500,
     "defense": 1200,
-    "secondartypes": [
+    "secondarytypes": [
 
     ]
   },
@@ -595,7 +595,7 @@ var cardDB = TAFFY([
     "level": 7,
     "attack": 2600,
     "defense": 2100,
-    "secondartypes": [
+    "secondarytypes": [
 
     ]
   },
@@ -611,7 +611,7 @@ var cardDB = TAFFY([
     "level": 7,
     "attack": 2300,
     "defense": 2100,
-    "secondartypes": [
+    "secondarytypes": [
 
     ]
   },
@@ -627,7 +627,7 @@ var cardDB = TAFFY([
     "level": 5,
     "attack": 2000,
     "defense": 1500,
-    "secondartypes": [
+    "secondarytypes": [
 
     ]
   },
@@ -643,7 +643,7 @@ var cardDB = TAFFY([
     "level": 3,
     "attack": 200,
     "defense": 1800,
-    "secondartypes": [
+    "secondarytypes": [
       "Jar"
     ]
   },
@@ -659,7 +659,7 @@ var cardDB = TAFFY([
     "level": 4,
     "attack": 1400,
     "defense": 1200,
-    "secondartypes": [
+    "secondarytypes": [
       "Elf"
     ]
   },
@@ -675,7 +675,7 @@ var cardDB = TAFFY([
     "level": 5,
     "attack": 1200,
     "defense": 2200,
-    "secondartypes": [
+    "secondarytypes": [
 
     ]
   },
@@ -691,7 +691,7 @@ var cardDB = TAFFY([
     "level": 4,
     "attack": 1500,
     "defense": 1200,
-    "secondartypes": [
+    "secondarytypes": [
 
     ]
   },
@@ -707,7 +707,7 @@ var cardDB = TAFFY([
     "level": 4,
     "attack": 1600,
     "defense": 1000,
-    "secondartypes": [
+    "secondarytypes": [
 
     ]
   },
@@ -723,7 +723,7 @@ var cardDB = TAFFY([
     "level": 3,
     "attack": 1000,
     "defense": 500,
-    "secondartypes": [
+    "secondarytypes": [
 
     ]
   },
@@ -739,7 +739,7 @@ var cardDB = TAFFY([
     "level": 4,
     "attack": 1200,
     "defense": 1500,
-    "secondartypes": [
+    "secondarytypes": [
       "Animal"
     ]
   },
@@ -755,7 +755,7 @@ var cardDB = TAFFY([
     "level": 3,
     "attack": 1200,
     "defense": 600,
-    "secondartypes": [
+    "secondarytypes": [
       "Animal"
     ]
   },
@@ -771,7 +771,7 @@ var cardDB = TAFFY([
     "level": 3,
     "attack": 1000,
     "defense": 600,
-    "secondartypes": [
+    "secondarytypes": [
       "Special-B"
     ]
   },
@@ -787,7 +787,7 @@ var cardDB = TAFFY([
     "level": 4,
     "attack": 1200,
     "defense": 1500,
-    "secondartypes": [
+    "secondarytypes": [
 
     ]
   },
@@ -803,7 +803,7 @@ var cardDB = TAFFY([
     "level": 2,
     "attack": 500,
     "defense": 700,
-    "secondartypes": [
+    "secondarytypes": [
 
     ]
   },
@@ -819,7 +819,7 @@ var cardDB = TAFFY([
     "level": 4,
     "attack": 1500,
     "defense": 1200,
-    "secondartypes": [
+    "secondarytypes": [
 
     ]
   },
@@ -835,7 +835,7 @@ var cardDB = TAFFY([
     "level": 5,
     "attack": 1500,
     "defense": 2000,
-    "secondartypes": [
+    "secondarytypes": [
 
     ]
   },
@@ -851,7 +851,7 @@ var cardDB = TAFFY([
     "level": 4,
     "attack": 1200,
     "defense": 1000,
-    "secondartypes": [
+    "secondarytypes": [
 
     ]
   },
@@ -867,7 +867,7 @@ var cardDB = TAFFY([
     "level": 4,
     "attack": 1200,
     "defense": 1400,
-    "secondartypes": [
+    "secondarytypes": [
 
     ]
   },
@@ -883,7 +883,7 @@ var cardDB = TAFFY([
     "level": 4,
     "attack": 1500,
     "defense": 1200,
-    "secondartypes": [
+    "secondarytypes": [
 
     ]
   },
@@ -899,7 +899,7 @@ var cardDB = TAFFY([
     "level": 2,
     "attack": 500,
     "defense": 400,
-    "secondartypes": [
+    "secondarytypes": [
 
     ]
   },
@@ -915,7 +915,7 @@ var cardDB = TAFFY([
     "level": 8,
     "attack": 2600,
     "defense": 2500,
-    "secondartypes": [
+    "secondarytypes": [
 
     ]
   },
@@ -931,7 +931,7 @@ var cardDB = TAFFY([
     "level": 1,
     "attack": 300,
     "defense": 200,
-    "secondartypes": [
+    "secondarytypes": [
       "Special-B"
     ]
   },
@@ -947,7 +947,7 @@ var cardDB = TAFFY([
     "level": 3,
     "attack": 1200,
     "defense": 800,
-    "secondartypes": [
+    "secondarytypes": [
       "Special-B"
     ]
   },
@@ -963,7 +963,7 @@ var cardDB = TAFFY([
     "level": 4,
     "attack": 1600,
     "defense": 800,
-    "secondartypes": [
+    "secondarytypes": [
 
     ]
   },
@@ -979,7 +979,7 @@ var cardDB = TAFFY([
     "level": 3,
     "attack": 1200,
     "defense": 800,
-    "secondartypes": [
+    "secondarytypes": [
       "Animal"
     ]
   },
@@ -995,7 +995,7 @@ var cardDB = TAFFY([
     "level": 4,
     "attack": 1300,
     "defense": 1400,
-    "secondartypes": [
+    "secondarytypes": [
       "Female",
       "Special-D"
     ]
@@ -1012,7 +1012,7 @@ var cardDB = TAFFY([
     "level": 6,
     "attack": 1950,
     "defense": 2100,
-    "secondartypes": [
+    "secondarytypes": [
       "Female"
     ]
   },
@@ -1028,7 +1028,7 @@ var cardDB = TAFFY([
     "level": 4,
     "attack": 1300,
     "defense": 1100,
-    "secondartypes": [
+    "secondarytypes": [
 
     ]
   },
@@ -1044,7 +1044,7 @@ var cardDB = TAFFY([
     "level": 3,
     "attack": 1200,
     "defense": 800,
-    "secondartypes": [
+    "secondarytypes": [
       "Animal"
     ]
   },
@@ -1060,7 +1060,7 @@ var cardDB = TAFFY([
     "level": 4,
     "attack": 1500,
     "defense": 1200,
-    "secondartypes": [
+    "secondarytypes": [
 
     ]
   },
@@ -1076,7 +1076,7 @@ var cardDB = TAFFY([
     "level": 8,
     "attack": 3500,
     "defense": 3000,
-    "secondartypes": [
+    "secondarytypes": [
 
     ]
   },
@@ -1092,7 +1092,7 @@ var cardDB = TAFFY([
     "level": 5,
     "attack": 1800,
     "defense": 1500,
-    "secondartypes": [
+    "secondarytypes": [
 
     ]
   },
@@ -1108,7 +1108,7 @@ var cardDB = TAFFY([
     "level": 7,
     "attack": 2400,
     "defense": 2000,
-    "secondartypes": [
+    "secondarytypes": [
 
     ]
   },
@@ -1124,7 +1124,7 @@ var cardDB = TAFFY([
     "level": 4,
     "attack": 1200,
     "defense": 1400,
-    "secondartypes": [
+    "secondarytypes": [
 
     ]
   },
@@ -1140,7 +1140,7 @@ var cardDB = TAFFY([
     "level": 4,
     "attack": 1200,
     "defense": 1500,
-    "secondartypes": [
+    "secondarytypes": [
 
     ]
   },
@@ -1156,7 +1156,7 @@ var cardDB = TAFFY([
     "level": 3,
     "attack": 0,
     "defense": 2000,
-    "secondartypes": [
+    "secondarytypes": [
 
     ]
   },
@@ -1172,7 +1172,7 @@ var cardDB = TAFFY([
     "level": 5,
     "attack": 1800,
     "defense": 1500,
-    "secondartypes": [
+    "secondarytypes": [
 
     ]
   },
@@ -1188,7 +1188,7 @@ var cardDB = TAFFY([
     "level": 3,
     "attack": 1300,
     "defense": 2000,
-    "secondartypes": [
+    "secondarytypes": [
 
     ]
   },
@@ -1204,7 +1204,7 @@ var cardDB = TAFFY([
     "level": 2,
     "attack": 800,
     "defense": 600,
-    "secondartypes": [
+    "secondarytypes": [
 
     ]
   },
@@ -1220,7 +1220,7 @@ var cardDB = TAFFY([
     "level": 4,
     "attack": 1100,
     "defense": 1200,
-    "secondartypes": [
+    "secondarytypes": [
 
     ]
   },
@@ -1236,7 +1236,7 @@ var cardDB = TAFFY([
     "level": 4,
     "attack": 1300,
     "defense": 1200,
-    "secondartypes": [
+    "secondarytypes": [
 
     ]
   },
@@ -1252,7 +1252,7 @@ var cardDB = TAFFY([
     "level": 4,
     "attack": 1700,
     "defense": 1150,
-    "secondartypes": [
+    "secondarytypes": [
 
     ]
   },
@@ -1268,7 +1268,7 @@ var cardDB = TAFFY([
     "level": 6,
     "attack": 1800,
     "defense": 2000,
-    "secondartypes": [
+    "secondarytypes": [
 
     ]
   },
@@ -1284,7 +1284,7 @@ var cardDB = TAFFY([
     "level": 4,
     "attack": 1500,
     "defense": 800,
-    "secondartypes": [
+    "secondarytypes": [
 
     ]
   },
@@ -1300,7 +1300,7 @@ var cardDB = TAFFY([
     "level": 4,
     "attack": 1600,
     "defense": 1200,
-    "secondartypes": [
+    "secondarytypes": [
       "Dragon"
     ]
   },
@@ -1316,7 +1316,7 @@ var cardDB = TAFFY([
     "level": 7,
     "attack": 2400,
     "defense": 2000,
-    "secondartypes": [
+    "secondarytypes": [
 
     ]
   },
@@ -1332,7 +1332,7 @@ var cardDB = TAFFY([
     "level": 4,
     "attack": 920,
     "defense": 1930,
-    "secondartypes": [
+    "secondarytypes": [
       "Dark Magic"
     ]
   },
@@ -1348,7 +1348,7 @@ var cardDB = TAFFY([
     "level": 5,
     "attack": 1380,
     "defense": 1930,
-    "secondartypes": [
+    "secondarytypes": [
 
     ]
   },
@@ -1364,7 +1364,7 @@ var cardDB = TAFFY([
     "level": 5,
     "attack": 2000,
     "defense": 1530,
-    "secondartypes": [
+    "secondarytypes": [
 
     ]
   },
@@ -1380,7 +1380,7 @@ var cardDB = TAFFY([
     "level": 5,
     "attack": 1380,
     "defense": 1530,
-    "secondartypes": [
+    "secondarytypes": [
 
     ]
   },
@@ -1396,7 +1396,7 @@ var cardDB = TAFFY([
     "level": 5,
     "attack": 1610,
     "defense": 1460,
-    "secondartypes": [
+    "secondarytypes": [
 
     ]
   },
@@ -1412,7 +1412,7 @@ var cardDB = TAFFY([
     "level": 5,
     "attack": 1150,
     "defense": 2150,
-    "secondartypes": [
+    "secondarytypes": [
       "Special-B"
     ]
   },
@@ -1428,7 +1428,7 @@ var cardDB = TAFFY([
     "level": 5,
     "attack": 1000,
     "defense": 2000,
-    "secondartypes": [
+    "secondarytypes": [
       "Turtle"
     ]
   },
@@ -1444,7 +1444,7 @@ var cardDB = TAFFY([
     "level": 6,
     "attack": 1800,
     "defense": 2000,
-    "secondartypes": [
+    "secondarytypes": [
       "Female"
     ]
   },
@@ -1460,7 +1460,7 @@ var cardDB = TAFFY([
     "level": 4,
     "attack": 1300,
     "defense": 1550,
-    "secondartypes": [
+    "secondarytypes": [
 
     ]
   },
@@ -1476,7 +1476,7 @@ var cardDB = TAFFY([
     "level": 6,
     "attack": 2000,
     "defense": 1700,
-    "secondartypes": [
+    "secondarytypes": [
 
     ]
   },
@@ -1492,7 +1492,7 @@ var cardDB = TAFFY([
     "level": 5,
     "attack": 1500,
     "defense": 1700,
-    "secondartypes": [
+    "secondarytypes": [
 
     ]
   },
@@ -1508,7 +1508,7 @@ var cardDB = TAFFY([
     "level": 5,
     "attack": 1600,
     "defense": 1400,
-    "secondartypes": [
+    "secondarytypes": [
 
     ]
   },
@@ -1524,7 +1524,7 @@ var cardDB = TAFFY([
     "level": 4,
     "attack": 1350,
     "defense": 1400,
-    "secondartypes": [
+    "secondarytypes": [
 
     ]
   },
@@ -1540,7 +1540,7 @@ var cardDB = TAFFY([
     "level": 3,
     "attack": 1500,
     "defense": 0,
-    "secondartypes": [
+    "secondarytypes": [
 
     ]
   },
@@ -1556,7 +1556,7 @@ var cardDB = TAFFY([
     "level": 3,
     "attack": 1600,
     "defense": 0,
-    "secondartypes": [
+    "secondarytypes": [
       "Dragon"
     ]
   },
@@ -1572,7 +1572,7 @@ var cardDB = TAFFY([
     "level": 2,
     "attack": 1350,
     "defense": 0,
-    "secondartypes": [
+    "secondarytypes": [
 
     ]
   },
@@ -1588,7 +1588,7 @@ var cardDB = TAFFY([
     "level": 6,
     "attack": 1800,
     "defense": 2000,
-    "secondartypes": [
+    "secondarytypes": [
 
     ]
   },
@@ -1604,7 +1604,7 @@ var cardDB = TAFFY([
     "level": 3,
     "attack": 700,
     "defense": 1000,
-    "secondartypes": [
+    "secondarytypes": [
 
     ]
   },
@@ -1620,7 +1620,7 @@ var cardDB = TAFFY([
     "level": 2,
     "attack": 700,
     "defense": 600,
-    "secondartypes": [
+    "secondarytypes": [
 
     ]
   },
@@ -1636,7 +1636,7 @@ var cardDB = TAFFY([
     "level": 2,
     "attack": 900,
     "defense": 400,
-    "secondartypes": [
+    "secondarytypes": [
       "Dark Magic"
     ]
   },
@@ -1652,7 +1652,7 @@ var cardDB = TAFFY([
     "level": 3,
     "attack": 800,
     "defense": 1300,
-    "secondartypes": [
+    "secondarytypes": [
 
     ]
   },
@@ -1668,7 +1668,7 @@ var cardDB = TAFFY([
     "level": 2,
     "attack": 600,
     "defense": 500,
-    "secondartypes": [
+    "secondarytypes": [
       "Dark Magic",
       "Dark Spellcaster"
     ]
@@ -1685,7 +1685,7 @@ var cardDB = TAFFY([
     "level": 2,
     "attack": 500,
     "defense": 400,
-    "secondartypes": [
+    "secondarytypes": [
 
     ]
   },
@@ -1701,7 +1701,7 @@ var cardDB = TAFFY([
     "level": 5,
     "attack": 1700,
     "defense": 1400,
-    "secondartypes": [
+    "secondarytypes": [
 
     ]
   },
@@ -1717,7 +1717,7 @@ var cardDB = TAFFY([
     "level": 2,
     "attack": 800,
     "defense": 600,
-    "secondartypes": [
+    "secondarytypes": [
 
     ]
   },
@@ -1733,7 +1733,7 @@ var cardDB = TAFFY([
     "level": 3,
     "attack": 700,
     "defense": 900,
-    "secondartypes": [
+    "secondarytypes": [
 
     ]
   },
@@ -1749,7 +1749,7 @@ var cardDB = TAFFY([
     "level": 4,
     "attack": 1200,
     "defense": 1000,
-    "secondartypes": [
+    "secondarytypes": [
       "Female"
     ]
   },
@@ -1765,7 +1765,7 @@ var cardDB = TAFFY([
     "level": 3,
     "attack": 1100,
     "defense": 1000,
-    "secondartypes": [
+    "secondarytypes": [
 
     ]
   },
@@ -1781,7 +1781,7 @@ var cardDB = TAFFY([
     "level": 5,
     "attack": 1600,
     "defense": 1400,
-    "secondartypes": [
+    "secondarytypes": [
 
     ]
   },
@@ -1797,7 +1797,7 @@ var cardDB = TAFFY([
     "level": 4,
     "attack": 1200,
     "defense": 1000,
-    "secondartypes": [
+    "secondarytypes": [
       "Dark Magic"
     ]
   },
@@ -1813,7 +1813,7 @@ var cardDB = TAFFY([
     "level": 3,
     "attack": 800,
     "defense": 900,
-    "secondartypes": [
+    "secondarytypes": [
       "Animal"
     ]
   },
@@ -1829,7 +1829,7 @@ var cardDB = TAFFY([
     "level": 3,
     "attack": 1000,
     "defense": 700,
-    "secondartypes": [
+    "secondarytypes": [
 
     ]
   },
@@ -1845,7 +1845,7 @@ var cardDB = TAFFY([
     "level": 4,
     "attack": 1300,
     "defense": 1100,
-    "secondartypes": [
+    "secondarytypes": [
       "Dark Magic",
       "Dark Spellcaster"
     ]
@@ -1862,7 +1862,7 @@ var cardDB = TAFFY([
     "level": 3,
     "attack": 900,
     "defense": 800,
-    "secondartypes": [
+    "secondarytypes": [
 
     ]
   },
@@ -1878,7 +1878,7 @@ var cardDB = TAFFY([
     "level": 4,
     "attack": 1400,
     "defense": 1200,
-    "secondartypes": [
+    "secondarytypes": [
 
     ]
   },
@@ -1894,7 +1894,7 @@ var cardDB = TAFFY([
     "level": 3,
     "attack": 1000,
     "defense": 1000,
-    "secondartypes": [
+    "secondarytypes": [
 
     ]
   },
@@ -1910,7 +1910,7 @@ var cardDB = TAFFY([
     "level": 4,
     "attack": 1300,
     "defense": 900,
-    "secondartypes": [
+    "secondarytypes": [
       "Special-B"
     ]
   },
@@ -1926,7 +1926,7 @@ var cardDB = TAFFY([
     "level": 3,
     "attack": 1200,
     "defense": 900,
-    "secondartypes": [
+    "secondarytypes": [
 
     ]
   },
@@ -1942,7 +1942,7 @@ var cardDB = TAFFY([
     "level": 4,
     "attack": 700,
     "defense": 1700,
-    "secondartypes": [
+    "secondarytypes": [
       "Animal"
     ]
   },
@@ -1958,7 +1958,7 @@ var cardDB = TAFFY([
     "level": 2,
     "attack": 900,
     "defense": 300,
-    "secondartypes": [
+    "secondarytypes": [
 
     ]
   },
@@ -1974,7 +1974,7 @@ var cardDB = TAFFY([
     "level": 1,
     "attack": 300,
     "defense": 400,
-    "secondartypes": [
+    "secondarytypes": [
 
     ]
   },
@@ -1990,7 +1990,7 @@ var cardDB = TAFFY([
     "level": 5,
     "attack": 1700,
     "defense": 1400,
-    "secondartypes": [
+    "secondarytypes": [
 
     ]
   },
@@ -2006,7 +2006,7 @@ var cardDB = TAFFY([
     "level": 4,
     "attack": 1500,
     "defense": 1100,
-    "secondartypes": [
+    "secondarytypes": [
       "Special-D"
     ]
   },
@@ -2022,7 +2022,7 @@ var cardDB = TAFFY([
     "level": 5,
     "attack": 1800,
     "defense": 1500,
-    "secondartypes": [
+    "secondarytypes": [
 
     ]
   },
@@ -2038,7 +2038,7 @@ var cardDB = TAFFY([
     "level": 5,
     "attack": 1700,
     "defense": 1200,
-    "secondartypes": [
+    "secondarytypes": [
       "Dark Magic"
     ]
   },
@@ -2054,7 +2054,7 @@ var cardDB = TAFFY([
     "level": 5,
     "attack": 1200,
     "defense": 1700,
-    "secondartypes": [
+    "secondarytypes": [
       "Female"
     ]
   },
@@ -2070,7 +2070,7 @@ var cardDB = TAFFY([
     "level": 3,
     "attack": 800,
     "defense": 700,
-    "secondartypes": [
+    "secondarytypes": [
       "Dark Magic",
       "Dark Spellcaster",
       "Female"
@@ -2088,7 +2088,7 @@ var cardDB = TAFFY([
     "level": 2,
     "attack": 600,
     "defense": 400,
-    "secondartypes": [
+    "secondarytypes": [
       "Special-C"
     ]
   },
@@ -2104,7 +2104,7 @@ var cardDB = TAFFY([
     "level": 5,
     "attack": 1600,
     "defense": 1400,
-    "secondartypes": [
+    "secondarytypes": [
 
     ]
   },
@@ -2120,7 +2120,7 @@ var cardDB = TAFFY([
     "level": 3,
     "attack": 1200,
     "defense": 900,
-    "secondartypes": [
+    "secondarytypes": [
 
     ]
   },
@@ -2136,7 +2136,7 @@ var cardDB = TAFFY([
     "level": 3,
     "attack": 1100,
     "defense": 800,
-    "secondartypes": [
+    "secondarytypes": [
       "Warrior"
     ]
   },
@@ -2152,7 +2152,7 @@ var cardDB = TAFFY([
     "level": 2,
     "attack": 700,
     "defense": 700,
-    "secondartypes": [
+    "secondarytypes": [
       "Special-C"
     ]
   },
@@ -2168,7 +2168,7 @@ var cardDB = TAFFY([
     "level": 2,
     "attack": 600,
     "defense": 600,
-    "secondartypes": [
+    "secondarytypes": [
 
     ]
   },
@@ -2184,7 +2184,7 @@ var cardDB = TAFFY([
     "level": 4,
     "attack": 1400,
     "defense": 1300,
-    "secondartypes": [
+    "secondarytypes": [
       "Dark Magic"
     ]
   },
@@ -2200,7 +2200,7 @@ var cardDB = TAFFY([
     "level": 2,
     "attack": 500,
     "defense": 500,
-    "secondartypes": [
+    "secondarytypes": [
       "Special-B"
     ]
   },
@@ -2216,7 +2216,7 @@ var cardDB = TAFFY([
     "level": 3,
     "attack": 1100,
     "defense": 900,
-    "secondartypes": [
+    "secondarytypes": [
       "Dragon"
     ]
   },
@@ -2232,7 +2232,7 @@ var cardDB = TAFFY([
     "level": 3,
     "attack": 900,
     "defense": 700,
-    "secondartypes": [
+    "secondarytypes": [
 
     ]
   },
@@ -2248,7 +2248,7 @@ var cardDB = TAFFY([
     "level": 3,
     "attack": 1000,
     "defense": 1000,
-    "secondartypes": [
+    "secondarytypes": [
 
     ]
   },
@@ -2264,7 +2264,7 @@ var cardDB = TAFFY([
     "level": 3,
     "attack": 700,
     "defense": 1300,
-    "secondartypes": [
+    "secondarytypes": [
 
     ]
   },
@@ -2280,7 +2280,7 @@ var cardDB = TAFFY([
     "level": 3,
     "attack": 900,
     "defense": 1000,
-    "secondartypes": [
+    "secondarytypes": [
       "Pyro"
     ]
   },
@@ -2296,7 +2296,7 @@ var cardDB = TAFFY([
     "level": 3,
     "attack": 800,
     "defense": 900,
-    "secondartypes": [
+    "secondarytypes": [
 
     ]
   },
@@ -2312,7 +2312,7 @@ var cardDB = TAFFY([
     "level": 3,
     "attack": 700,
     "defense": 900,
-    "secondartypes": [
+    "secondarytypes": [
 
     ]
   },
@@ -2328,7 +2328,7 @@ var cardDB = TAFFY([
     "level": 2,
     "attack": 700,
     "defense": 700,
-    "secondartypes": [
+    "secondarytypes": [
 
     ]
   },
@@ -2344,7 +2344,7 @@ var cardDB = TAFFY([
     "level": 4,
     "attack": 900,
     "defense": 1300,
-    "secondartypes": [
+    "secondarytypes": [
 
     ]
   },
@@ -2360,7 +2360,7 @@ var cardDB = TAFFY([
     "level": 3,
     "attack": 600,
     "defense": 900,
-    "secondartypes": [
+    "secondarytypes": [
       "Egg"
     ]
   },
@@ -2376,7 +2376,7 @@ var cardDB = TAFFY([
     "level": 3,
     "attack": 800,
     "defense": 700,
-    "secondartypes": [
+    "secondarytypes": [
       "Dark Magic"
     ]
   },
@@ -2392,7 +2392,7 @@ var cardDB = TAFFY([
     "level": 4,
     "attack": 1400,
     "defense": 1200,
-    "secondartypes": [
+    "secondarytypes": [
       "Dark Magic"
     ]
   },
@@ -2408,7 +2408,7 @@ var cardDB = TAFFY([
     "level": 5,
     "attack": 1700,
     "defense": 1400,
-    "secondartypes": [
+    "secondarytypes": [
 
     ]
   },
@@ -2424,7 +2424,7 @@ var cardDB = TAFFY([
     "level": 4,
     "attack": 1200,
     "defense": 1300,
-    "secondartypes": [
+    "secondarytypes": [
 
     ]
   },
@@ -2440,7 +2440,7 @@ var cardDB = TAFFY([
     "level": 2,
     "attack": 500,
     "defense": 700,
-    "secondartypes": [
+    "secondarytypes": [
 
     ]
   },
@@ -2456,7 +2456,7 @@ var cardDB = TAFFY([
     "level": 3,
     "attack": 900,
     "defense": 1200,
-    "secondartypes": [
+    "secondarytypes": [
 
     ]
   },
@@ -2472,7 +2472,7 @@ var cardDB = TAFFY([
     "level": 2,
     "attack": 700,
     "defense": 500,
-    "secondartypes": [
+    "secondarytypes": [
       "Pyro"
     ]
   },
@@ -2488,7 +2488,7 @@ var cardDB = TAFFY([
     "level": 3,
     "attack": 800,
     "defense": 1000,
-    "secondartypes": [
+    "secondarytypes": [
 
     ]
   },
@@ -2504,7 +2504,7 @@ var cardDB = TAFFY([
     "level": 0,
     "attack": 3,
     "defense": 300,
-    "secondartypes": [
+    "secondarytypes": [
 
     ]
   },
@@ -2520,7 +2520,7 @@ var cardDB = TAFFY([
     "level": 0,
     "attack": 2,
     "defense": 700,
-    "secondartypes": [
+    "secondarytypes": [
       "Pyro"
     ]
   },
@@ -2536,7 +2536,7 @@ var cardDB = TAFFY([
     "level": 2,
     "attack": 800,
     "defense": 600,
-    "secondartypes": [
+    "secondarytypes": [
 
     ]
   },
@@ -2552,7 +2552,7 @@ var cardDB = TAFFY([
     "level": 2,
     "attack": 500,
     "defense": 800,
-    "secondartypes": [
+    "secondarytypes": [
 
     ]
   },
@@ -2568,7 +2568,7 @@ var cardDB = TAFFY([
     "level": 3,
     "attack": 1000,
     "defense": 500,
-    "secondartypes": [
+    "secondarytypes": [
 
     ]
   },
@@ -2584,7 +2584,7 @@ var cardDB = TAFFY([
     "level": 3,
     "attack": 500,
     "defense": 1000,
-    "secondartypes": [
+    "secondarytypes": [
 
     ]
   },
@@ -2600,7 +2600,7 @@ var cardDB = TAFFY([
     "level": 3,
     "attack": 1250,
     "defense": 800,
-    "secondartypes": [
+    "secondarytypes": [
       "Special-B"
     ]
   },
@@ -2616,7 +2616,7 @@ var cardDB = TAFFY([
     "level": 4,
     "attack": 1300,
     "defense": 1300,
-    "secondartypes": [
+    "secondarytypes": [
 
     ]
   },
@@ -2632,7 +2632,7 @@ var cardDB = TAFFY([
     "level": 4,
     "attack": 1300,
     "defense": 1000,
-    "secondartypes": [
+    "secondarytypes": [
       "Dark Magic"
     ]
   },
@@ -2648,7 +2648,7 @@ var cardDB = TAFFY([
     "level": 3,
     "attack": 1400,
     "defense": 700,
-    "secondartypes": [
+    "secondarytypes": [
 
     ]
   },
@@ -2664,7 +2664,7 @@ var cardDB = TAFFY([
     "level": 4,
     "attack": 1000,
     "defense": 1500,
-    "secondartypes": [
+    "secondarytypes": [
 
     ]
   },
@@ -2680,7 +2680,7 @@ var cardDB = TAFFY([
     "level": 1,
     "attack": 400,
     "defense": 200,
-    "secondartypes": [
+    "secondarytypes": [
       "Jar"
     ]
   },
@@ -2696,7 +2696,7 @@ var cardDB = TAFFY([
     "level": 4,
     "attack": 1500,
     "defense": 1250,
-    "secondartypes": [
+    "secondarytypes": [
       "Pyro"
     ]
   },
@@ -2712,7 +2712,7 @@ var cardDB = TAFFY([
     "level": 3,
     "attack": 1200,
     "defense": 800,
-    "secondartypes": [
+    "secondarytypes": [
       "Dark Magic"
     ]
   },
@@ -2728,7 +2728,7 @@ var cardDB = TAFFY([
     "level": 4,
     "attack": 800,
     "defense": 2000,
-    "secondartypes": [
+    "secondarytypes": [
 
     ]
   },
@@ -2744,7 +2744,7 @@ var cardDB = TAFFY([
     "level": 4,
     "attack": 1200,
     "defense": 1000,
-    "secondartypes": [
+    "secondarytypes": [
 
     ]
   },
@@ -2760,7 +2760,7 @@ var cardDB = TAFFY([
     "level": 3,
     "attack": 700,
     "defense": 1300,
-    "secondartypes": [
+    "secondarytypes": [
       "Pyro"
     ]
   },
@@ -2776,7 +2776,7 @@ var cardDB = TAFFY([
     "level": 0,
     "attack": 3,
     "defense": 600,
-    "secondartypes": [
+    "secondarytypes": [
       "Dark Magic"
     ]
   },
@@ -2792,7 +2792,7 @@ var cardDB = TAFFY([
     "level": 2,
     "attack": 900,
     "defense": 200,
-    "secondartypes": [
+    "secondarytypes": [
 
     ]
   },
@@ -2808,7 +2808,7 @@ var cardDB = TAFFY([
     "level": 3,
     "attack": 1000,
     "defense": 700,
-    "secondartypes": [
+    "secondarytypes": [
       "Dark Magic",
       "Special-A"
     ]
@@ -2825,7 +2825,7 @@ var cardDB = TAFFY([
     "level": 2,
     "attack": 800,
     "defense": 600,
-    "secondartypes": [
+    "secondarytypes": [
 
     ]
   },
@@ -2841,7 +2841,7 @@ var cardDB = TAFFY([
     "level": 3,
     "attack": 800,
     "defense": 1000,
-    "secondartypes": [
+    "secondarytypes": [
       "Turtle"
     ]
   },
@@ -2857,7 +2857,7 @@ var cardDB = TAFFY([
     "level": 3,
     "attack": 1000,
     "defense": 800,
-    "secondartypes": [
+    "secondarytypes": [
 
     ]
   },
@@ -2873,7 +2873,7 @@ var cardDB = TAFFY([
     "level": 2,
     "attack": 700,
     "defense": 600,
-    "secondartypes": [
+    "secondarytypes": [
       "Dark Magic",
       "Dark Spellcaster"
     ]
@@ -2890,7 +2890,7 @@ var cardDB = TAFFY([
     "level": 3,
     "attack": 800,
     "defense": 1000,
-    "secondartypes": [
+    "secondarytypes": [
       "Female"
     ]
   },
@@ -2906,7 +2906,7 @@ var cardDB = TAFFY([
     "level": 3,
     "attack": 1000,
     "defense": 1000,
-    "secondartypes": [
+    "secondarytypes": [
 
     ]
   },
@@ -2922,7 +2922,7 @@ var cardDB = TAFFY([
     "level": 2,
     "attack": 500,
     "defense": 700,
-    "secondartypes": [
+    "secondarytypes": [
       "Dark Magic"
     ]
   },
@@ -2938,7 +2938,7 @@ var cardDB = TAFFY([
     "level": 2,
     "attack": 600,
     "defense": 800,
-    "secondartypes": [
+    "secondarytypes": [
       "Special-C"
     ]
   },
@@ -2954,7 +2954,7 @@ var cardDB = TAFFY([
     "level": 3,
     "attack": 600,
     "defense": 900,
-    "secondartypes": [
+    "secondarytypes": [
 
     ]
   },
@@ -2970,7 +2970,7 @@ var cardDB = TAFFY([
     "level": 2,
     "attack": 600,
     "defense": 500,
-    "secondartypes": [
+    "secondarytypes": [
 
     ]
   },
@@ -2986,7 +2986,7 @@ var cardDB = TAFFY([
     "level": 4,
     "attack": 1100,
     "defense": 1400,
-    "secondartypes": [
+    "secondarytypes": [
 
     ]
   },
@@ -3002,7 +3002,7 @@ var cardDB = TAFFY([
     "level": 3,
     "attack": 700,
     "defense": 800,
-    "secondartypes": [
+    "secondarytypes": [
       "Special-B"
     ]
   },
@@ -3018,7 +3018,7 @@ var cardDB = TAFFY([
     "level": 3,
     "attack": 800,
     "defense": 900,
-    "secondartypes": [
+    "secondarytypes": [
       "Animal"
     ]
   },
@@ -3034,7 +3034,7 @@ var cardDB = TAFFY([
     "level": 3,
     "attack": 900,
     "defense": 700,
-    "secondartypes": [
+    "secondarytypes": [
       "Animal",
       "Special-A"
     ]
@@ -3051,7 +3051,7 @@ var cardDB = TAFFY([
     "level": 3,
     "attack": 1000,
     "defense": 800,
-    "secondartypes": [
+    "secondarytypes": [
       "Dark Magic",
       "Dark Spellcaster"
     ]
@@ -3068,7 +3068,7 @@ var cardDB = TAFFY([
     "level": 2,
     "attack": 600,
     "defense": 600,
-    "secondartypes": [
+    "secondarytypes": [
 
     ]
   },
@@ -3084,7 +3084,7 @@ var cardDB = TAFFY([
     "level": 1,
     "attack": 400,
     "defense": 300,
-    "secondartypes": [
+    "secondarytypes": [
       "Female",
       "Special-C"
     ]
@@ -3101,7 +3101,7 @@ var cardDB = TAFFY([
     "level": 4,
     "attack": 1000,
     "defense": 1500,
-    "secondartypes": [
+    "secondarytypes": [
       "Turtle"
     ]
   },
@@ -3117,7 +3117,7 @@ var cardDB = TAFFY([
     "level": 4,
     "attack": 1200,
     "defense": 1300,
-    "secondartypes": [
+    "secondarytypes": [
       "Special-B"
     ]
   },
@@ -3133,7 +3133,7 @@ var cardDB = TAFFY([
     "level": 2,
     "attack": 900,
     "defense": 500,
-    "secondartypes": [
+    "secondarytypes": [
 
     ]
   },
@@ -3149,7 +3149,7 @@ var cardDB = TAFFY([
     "level": 4,
     "attack": 1000,
     "defense": 1200,
-    "secondartypes": [
+    "secondarytypes": [
 
     ]
   },
@@ -3165,7 +3165,7 @@ var cardDB = TAFFY([
     "level": 2,
     "attack": 500,
     "defense": 400,
-    "secondartypes": [
+    "secondarytypes": [
 
     ]
   },
@@ -3181,7 +3181,7 @@ var cardDB = TAFFY([
     "level": 2,
     "attack": 800,
     "defense": 500,
-    "secondartypes": [
+    "secondarytypes": [
       "Special-A"
     ]
   },
@@ -3197,7 +3197,7 @@ var cardDB = TAFFY([
     "level": 3,
     "attack": 900,
     "defense": 800,
-    "secondartypes": [
+    "secondarytypes": [
 
     ]
   },
@@ -3213,7 +3213,7 @@ var cardDB = TAFFY([
     "level": 2,
     "attack": 600,
     "defense": 700,
-    "secondartypes": [
+    "secondarytypes": [
 
     ]
   },
@@ -3229,7 +3229,7 @@ var cardDB = TAFFY([
     "level": 4,
     "attack": 1200,
     "defense": 1000,
-    "secondartypes": [
+    "secondarytypes": [
       "Animal"
     ]
   },
@@ -3245,7 +3245,7 @@ var cardDB = TAFFY([
     "level": 2,
     "attack": 400,
     "defense": 600,
-    "secondartypes": [
+    "secondarytypes": [
       "Animal",
       "Special-B"
     ]
@@ -3262,7 +3262,7 @@ var cardDB = TAFFY([
     "level": 0,
     "attack": 2,
     "defense": 600,
-    "secondartypes": [
+    "secondarytypes": [
 
     ]
   },
@@ -3278,7 +3278,7 @@ var cardDB = TAFFY([
     "level": 5,
     "attack": 1700,
     "defense": 1400,
-    "secondartypes": [
+    "secondarytypes": [
 
     ]
   },
@@ -3294,7 +3294,7 @@ var cardDB = TAFFY([
     "level": 3,
     "attack": 900,
     "defense": 800,
-    "secondartypes": [
+    "secondarytypes": [
 
     ]
   },
@@ -3310,7 +3310,7 @@ var cardDB = TAFFY([
     "level": 3,
     "attack": 900,
     "defense": 700,
-    "secondartypes": [
+    "secondarytypes": [
 
     ]
   },
@@ -3326,7 +3326,7 @@ var cardDB = TAFFY([
     "level": 2,
     "attack": 600,
     "defense": 500,
-    "secondartypes": [
+    "secondarytypes": [
 
     ]
   },
@@ -3342,7 +3342,7 @@ var cardDB = TAFFY([
     "level": 3,
     "attack": 600,
     "defense": 900,
-    "secondartypes": [
+    "secondarytypes": [
       "Special-A"
     ]
   },
@@ -3358,7 +3358,7 @@ var cardDB = TAFFY([
     "level": 2,
     "attack": 700,
     "defense": 700,
-    "secondartypes": [
+    "secondarytypes": [
 
     ]
   },
@@ -3374,7 +3374,7 @@ var cardDB = TAFFY([
     "level": 2,
     "attack": 600,
     "defense": 500,
-    "secondartypes": [
+    "secondarytypes": [
 
     ]
   },
@@ -3390,7 +3390,7 @@ var cardDB = TAFFY([
     "level": 2,
     "attack": 700,
     "defense": 600,
-    "secondartypes": [
+    "secondarytypes": [
 
     ]
   },
@@ -3406,7 +3406,7 @@ var cardDB = TAFFY([
     "level": 2,
     "attack": 700,
     "defense": 600,
-    "secondartypes": [
+    "secondarytypes": [
       "Special-B"
     ]
   },
@@ -3422,7 +3422,7 @@ var cardDB = TAFFY([
     "level": 4,
     "attack": 1200,
     "defense": 2000,
-    "secondartypes": [
+    "secondarytypes": [
 
     ]
   },
@@ -3438,7 +3438,7 @@ var cardDB = TAFFY([
     "level": 2,
     "attack": 800,
     "defense": 400,
-    "secondartypes": [
+    "secondarytypes": [
       "Pyro"
     ]
   },
@@ -3454,7 +3454,7 @@ var cardDB = TAFFY([
     "level": 3,
     "attack": 1000,
     "defense": 800,
-    "secondartypes": [
+    "secondarytypes": [
       "Pyro"
     ]
   },
@@ -3470,7 +3470,7 @@ var cardDB = TAFFY([
     "level": 4,
     "attack": 1200,
     "defense": 1400,
-    "secondartypes": [
+    "secondarytypes": [
       "Female"
     ]
   },
@@ -3486,7 +3486,7 @@ var cardDB = TAFFY([
     "level": 9,
     "attack": 3200,
     "defense": 2500,
-    "secondartypes": [
+    "secondarytypes": [
 
     ]
   },
@@ -3502,7 +3502,7 @@ var cardDB = TAFFY([
     "level": 3,
     "attack": 900,
     "defense": 700,
-    "secondartypes": [
+    "secondarytypes": [
 
     ]
   },
@@ -3518,7 +3518,7 @@ var cardDB = TAFFY([
     "level": 3,
     "attack": 1050,
     "defense": 1000,
-    "secondartypes": [
+    "secondarytypes": [
       "Special-B"
     ]
   },
@@ -3534,7 +3534,7 @@ var cardDB = TAFFY([
     "level": 4,
     "attack": 900,
     "defense": 1400,
-    "secondartypes": [
+    "secondarytypes": [
 
     ]
   },
@@ -3550,7 +3550,7 @@ var cardDB = TAFFY([
     "level": 3,
     "attack": 700,
     "defense": 1400,
-    "secondartypes": [
+    "secondarytypes": [
 
     ]
   },
@@ -3566,7 +3566,7 @@ var cardDB = TAFFY([
     "level": 2,
     "attack": 800,
     "defense": 600,
-    "secondartypes": [
+    "secondarytypes": [
       "Special-B"
     ]
   },
@@ -3582,7 +3582,7 @@ var cardDB = TAFFY([
     "level": 6,
     "attack": 2100,
     "defense": 1800,
-    "secondartypes": [
+    "secondarytypes": [
 
     ]
   },
@@ -3598,7 +3598,7 @@ var cardDB = TAFFY([
     "level": 3,
     "attack": 500,
     "defense": 1100,
-    "secondartypes": [
+    "secondarytypes": [
 
     ]
   },
@@ -3614,7 +3614,7 @@ var cardDB = TAFFY([
     "level": 4,
     "attack": 1400,
     "defense": 800,
-    "secondartypes": [
+    "secondarytypes": [
 
     ]
   },
@@ -3630,7 +3630,7 @@ var cardDB = TAFFY([
     "level": 3,
     "attack": 900,
     "defense": 800,
-    "secondartypes": [
+    "secondarytypes": [
 
     ]
   },
@@ -3646,7 +3646,7 @@ var cardDB = TAFFY([
     "level": 2,
     "attack": 600,
     "defense": 700,
-    "secondartypes": [
+    "secondarytypes": [
 
     ]
   },
@@ -3662,7 +3662,7 @@ var cardDB = TAFFY([
     "level": 3,
     "attack": 1000,
     "defense": 900,
-    "secondartypes": [
+    "secondarytypes": [
 
     ]
   },
@@ -3678,7 +3678,7 @@ var cardDB = TAFFY([
     "level": 2,
     "attack": 700,
     "defense": 600,
-    "secondartypes": [
+    "secondarytypes": [
       "Special-C"
     ]
   },
@@ -3694,7 +3694,7 @@ var cardDB = TAFFY([
     "level": 4,
     "attack": 1500,
     "defense": 1200,
-    "secondartypes": [
+    "secondarytypes": [
 
     ]
   },
@@ -3710,7 +3710,7 @@ var cardDB = TAFFY([
     "level": 3,
     "attack": 800,
     "defense": 1200,
-    "secondartypes": [
+    "secondarytypes": [
       "Dark Magic"
     ]
   },
@@ -3726,7 +3726,7 @@ var cardDB = TAFFY([
     "level": 2,
     "attack": 600,
     "defense": 800,
-    "secondartypes": [
+    "secondarytypes": [
       "Special-B"
     ]
   },
@@ -3742,7 +3742,7 @@ var cardDB = TAFFY([
     "level": 4,
     "attack": 1300,
     "defense": 1100,
-    "secondartypes": [
+    "secondarytypes": [
       "Dark Magic"
     ]
   },
@@ -3758,7 +3758,7 @@ var cardDB = TAFFY([
     "level": 4,
     "attack": 1600,
     "defense": 800,
-    "secondartypes": [
+    "secondarytypes": [
       "Dark Magic",
       "Female"
     ]
@@ -3775,7 +3775,7 @@ var cardDB = TAFFY([
     "level": 3,
     "attack": 900,
     "defense": 1200,
-    "secondartypes": [
+    "secondarytypes": [
 
     ]
   },
@@ -3791,7 +3791,7 @@ var cardDB = TAFFY([
     "level": 4,
     "attack": 1000,
     "defense": 1200,
-    "secondartypes": [
+    "secondarytypes": [
       "Dark Magic"
     ]
   },
@@ -3807,7 +3807,7 @@ var cardDB = TAFFY([
     "level": 2,
     "attack": 500,
     "defense": 500,
-    "secondartypes": [
+    "secondarytypes": [
 
     ]
   },
@@ -3823,7 +3823,7 @@ var cardDB = TAFFY([
     "level": 2,
     "attack": 800,
     "defense": 600,
-    "secondartypes": [
+    "secondarytypes": [
 
     ]
   },
@@ -3839,7 +3839,7 @@ var cardDB = TAFFY([
     "level": 3,
     "attack": 900,
     "defense": 700,
-    "secondartypes": [
+    "secondarytypes": [
       "Dark Magic",
       "Female"
     ]
@@ -3856,7 +3856,7 @@ var cardDB = TAFFY([
     "level": 3,
     "attack": 700,
     "defense": 800,
-    "secondartypes": [
+    "secondarytypes": [
       "Special-B"
     ]
   },
@@ -3872,7 +3872,7 @@ var cardDB = TAFFY([
     "level": 4,
     "attack": 1200,
     "defense": 1200,
-    "secondartypes": [
+    "secondarytypes": [
 
     ]
   },
@@ -3888,7 +3888,7 @@ var cardDB = TAFFY([
     "level": 0,
     "attack": 2,
     "defense": 600,
-    "secondartypes": [
+    "secondarytypes": [
       "Pyro"
     ]
   },
@@ -3904,7 +3904,7 @@ var cardDB = TAFFY([
     "level": 3,
     "attack": 900,
     "defense": 700,
-    "secondartypes": [
+    "secondarytypes": [
       "Female"
     ]
   },
@@ -3920,7 +3920,7 @@ var cardDB = TAFFY([
     "level": 3,
     "attack": 900,
     "defense": 1000,
-    "secondartypes": [
+    "secondarytypes": [
       "Pyro"
     ]
   },
@@ -3936,7 +3936,7 @@ var cardDB = TAFFY([
     "level": 2,
     "attack": 800,
     "defense": 400,
-    "secondartypes": [
+    "secondarytypes": [
       "Special-B"
     ]
   },
@@ -3952,7 +3952,7 @@ var cardDB = TAFFY([
     "level": 4,
     "attack": 1100,
     "defense": 1000,
-    "secondartypes": [
+    "secondarytypes": [
 
     ]
   },
@@ -3968,7 +3968,7 @@ var cardDB = TAFFY([
     "level": 0,
     "attack": 3,
     "defense": 900,
-    "secondartypes": [
+    "secondarytypes": [
 
     ]
   },
@@ -3984,7 +3984,7 @@ var cardDB = TAFFY([
     "level": 4,
     "attack": 1200,
     "defense": 1000,
-    "secondartypes": [
+    "secondarytypes": [
       "Animal"
     ]
   },
@@ -4000,7 +4000,7 @@ var cardDB = TAFFY([
     "level": 4,
     "attack": 1400,
     "defense": 1200,
-    "secondartypes": [
+    "secondarytypes": [
       "Female"
     ]
   },
@@ -4016,7 +4016,7 @@ var cardDB = TAFFY([
     "level": 3,
     "attack": 800,
     "defense": 1200,
-    "secondartypes": [
+    "secondarytypes": [
 
     ]
   },
@@ -4032,7 +4032,7 @@ var cardDB = TAFFY([
     "level": 3,
     "attack": 1200,
     "defense": 900,
-    "secondartypes": [
+    "secondarytypes": [
       "Female"
     ]
   },
@@ -4048,7 +4048,7 @@ var cardDB = TAFFY([
     "level": 3,
     "attack": 1100,
     "defense": 900,
-    "secondartypes": [
+    "secondarytypes": [
 
     ]
   },
@@ -4064,7 +4064,7 @@ var cardDB = TAFFY([
     "level": 3,
     "attack": 800,
     "defense": 1000,
-    "secondartypes": [
+    "secondarytypes": [
       "Dark Magic",
       "Dark Spellcaster",
       "Female",
@@ -4083,7 +4083,7 @@ var cardDB = TAFFY([
     "level": 2,
     "attack": 500,
     "defense": 750,
-    "secondartypes": [
+    "secondarytypes": [
       "Special-B"
     ]
   },
@@ -4099,7 +4099,7 @@ var cardDB = TAFFY([
     "level": 4,
     "attack": 500,
     "defense": 2000,
-    "secondartypes": [
+    "secondarytypes": [
       "Animal"
     ]
   },
@@ -4115,7 +4115,7 @@ var cardDB = TAFFY([
     "level": 4,
     "attack": 1200,
     "defense": 1000,
-    "secondartypes": [
+    "secondarytypes": [
 
     ]
   },
@@ -4131,7 +4131,7 @@ var cardDB = TAFFY([
     "level": 3,
     "attack": 800,
     "defense": 1200,
-    "secondartypes": [
+    "secondarytypes": [
 
     ]
   },
@@ -4147,7 +4147,7 @@ var cardDB = TAFFY([
     "level": 4,
     "attack": 1000,
     "defense": 1100,
-    "secondartypes": [
+    "secondarytypes": [
 
     ]
   },
@@ -4163,7 +4163,7 @@ var cardDB = TAFFY([
     "level": 4,
     "attack": 1000,
     "defense": 1300,
-    "secondartypes": [
+    "secondarytypes": [
 
     ]
   },
@@ -4179,7 +4179,7 @@ var cardDB = TAFFY([
     "level": 3,
     "attack": 750,
     "defense": 1100,
-    "secondartypes": [
+    "secondarytypes": [
       "Female",
       "Special-A",
       "Special-C"
@@ -4197,7 +4197,7 @@ var cardDB = TAFFY([
     "level": 2,
     "attack": 700,
     "defense": 600,
-    "secondartypes": [
+    "secondarytypes": [
 
     ]
   },
@@ -4213,7 +4213,7 @@ var cardDB = TAFFY([
     "level": 3,
     "attack": 800,
     "defense": 1300,
-    "secondartypes": [
+    "secondarytypes": [
 
     ]
   },
@@ -4229,7 +4229,7 @@ var cardDB = TAFFY([
     "level": 3,
     "attack": 700,
     "defense": 1400,
-    "secondartypes": [
+    "secondarytypes": [
 
     ]
   },
@@ -4245,7 +4245,7 @@ var cardDB = TAFFY([
     "level": 3,
     "attack": 500,
     "defense": 1300,
-    "secondartypes": [
+    "secondarytypes": [
       "Elf",
       "Special-A",
       "Egg"
@@ -4263,7 +4263,7 @@ var cardDB = TAFFY([
     "level": 3,
     "attack": 800,
     "defense": 700,
-    "secondartypes": [
+    "secondarytypes": [
 
     ]
   },
@@ -4279,7 +4279,7 @@ var cardDB = TAFFY([
     "level": 3,
     "attack": 900,
     "defense": 700,
-    "secondartypes": [
+    "secondarytypes": [
       "Female"
     ]
   },
@@ -4295,7 +4295,7 @@ var cardDB = TAFFY([
     "level": 3,
     "attack": 1000,
     "defense": 500,
-    "secondartypes": [
+    "secondarytypes": [
       "Dark Magic"
     ]
   },
@@ -4311,7 +4311,7 @@ var cardDB = TAFFY([
     "level": 2,
     "attack": 700,
     "defense": 500,
-    "secondartypes": [
+    "secondarytypes": [
       "Dark Magic",
       "Dark Spellcaster"
     ]
@@ -4328,7 +4328,7 @@ var cardDB = TAFFY([
     "level": 3,
     "attack": 1100,
     "defense": 900,
-    "secondartypes": [
+    "secondarytypes": [
       "Dark Magic"
     ]
   },
@@ -4344,7 +4344,7 @@ var cardDB = TAFFY([
     "level": 3,
     "attack": 1000,
     "defense": 900,
-    "secondartypes": [
+    "secondarytypes": [
 
     ]
   },
@@ -4360,7 +4360,7 @@ var cardDB = TAFFY([
     "level": 3,
     "attack": 900,
     "defense": 600,
-    "secondartypes": [
+    "secondarytypes": [
       "Dark Magic"
     ]
   },
@@ -4376,7 +4376,7 @@ var cardDB = TAFFY([
     "level": 4,
     "attack": 1300,
     "defense": 900,
-    "secondartypes": [
+    "secondarytypes": [
       "Pyro",
       "Special-D"
     ]
@@ -4393,7 +4393,7 @@ var cardDB = TAFFY([
     "level": 3,
     "attack": 600,
     "defense": 1500,
-    "secondartypes": [
+    "secondarytypes": [
 
     ]
   },
@@ -4409,7 +4409,7 @@ var cardDB = TAFFY([
     "level": 3,
     "attack": 500,
     "defense": 1600,
-    "secondartypes": [
+    "secondarytypes": [
 
     ]
   },
@@ -4425,7 +4425,7 @@ var cardDB = TAFFY([
     "level": 4,
     "attack": 1500,
     "defense": 1000,
-    "secondartypes": [
+    "secondarytypes": [
 
     ]
   },
@@ -4441,7 +4441,7 @@ var cardDB = TAFFY([
     "level": 3,
     "attack": 1000,
     "defense": 1000,
-    "secondartypes": [
+    "secondarytypes": [
 
     ]
   },
@@ -4457,7 +4457,7 @@ var cardDB = TAFFY([
     "level": 3,
     "attack": 300,
     "defense": 1300,
-    "secondartypes": [
+    "secondarytypes": [
       "Special-B",
       "Egg"
     ]
@@ -4474,7 +4474,7 @@ var cardDB = TAFFY([
     "level": 1,
     "attack": 300,
     "defense": 200,
-    "secondartypes": [
+    "secondarytypes": [
 
     ]
   },
@@ -4490,7 +4490,7 @@ var cardDB = TAFFY([
     "level": 3,
     "attack": 1000,
     "defense": 900,
-    "secondartypes": [
+    "secondarytypes": [
       "Dark Magic"
     ]
   },
@@ -4506,7 +4506,7 @@ var cardDB = TAFFY([
     "level": 4,
     "attack": 800,
     "defense": 1500,
-    "secondartypes": [
+    "secondarytypes": [
       "Female"
     ]
   },
@@ -4522,7 +4522,7 @@ var cardDB = TAFFY([
     "level": 4,
     "attack": 1500,
     "defense": 1000,
-    "secondartypes": [
+    "secondarytypes": [
 
     ]
   },
@@ -4538,7 +4538,7 @@ var cardDB = TAFFY([
     "level": 3,
     "attack": 800,
     "defense": 1000,
-    "secondartypes": [
+    "secondarytypes": [
       "Animal"
     ]
   },
@@ -4554,7 +4554,7 @@ var cardDB = TAFFY([
     "level": 3,
     "attack": 1100,
     "defense": 700,
-    "secondartypes": [
+    "secondarytypes": [
 
     ]
   },
@@ -4570,7 +4570,7 @@ var cardDB = TAFFY([
     "level": 3,
     "attack": 1200,
     "defense": 900,
-    "secondartypes": [
+    "secondarytypes": [
 
     ]
   },
@@ -4586,7 +4586,7 @@ var cardDB = TAFFY([
     "level": 2,
     "attack": 700,
     "defense": 600,
-    "secondartypes": [
+    "secondarytypes": [
 
     ]
   },
@@ -4602,7 +4602,7 @@ var cardDB = TAFFY([
     "level": 5,
     "attack": 1500,
     "defense": 1800,
-    "secondartypes": [
+    "secondarytypes": [
 
     ]
   },
@@ -4618,7 +4618,7 @@ var cardDB = TAFFY([
     "level": 4,
     "attack": 1200,
     "defense": 1400,
-    "secondartypes": [
+    "secondarytypes": [
 
     ]
   },
@@ -4634,7 +4634,7 @@ var cardDB = TAFFY([
     "level": 3,
     "attack": 600,
     "defense": 1400,
-    "secondartypes": [
+    "secondarytypes": [
 
     ]
   },
@@ -4650,7 +4650,7 @@ var cardDB = TAFFY([
     "level": 1,
     "attack": 400,
     "defense": 300,
-    "secondartypes": [
+    "secondarytypes": [
 
     ]
   },
@@ -4666,7 +4666,7 @@ var cardDB = TAFFY([
     "level": 4,
     "attack": 1100,
     "defense": 1000,
-    "secondartypes": [
+    "secondarytypes": [
 
     ]
   },
@@ -4682,7 +4682,7 @@ var cardDB = TAFFY([
     "level": 4,
     "attack": 1300,
     "defense": 1000,
-    "secondartypes": [
+    "secondarytypes": [
 
     ]
   },
@@ -4698,7 +4698,7 @@ var cardDB = TAFFY([
     "level": 2,
     "attack": 400,
     "defense": 1000,
-    "secondartypes": [
+    "secondarytypes": [
 
     ]
   },
@@ -4714,7 +4714,7 @@ var cardDB = TAFFY([
     "level": 4,
     "attack": 1100,
     "defense": 1100,
-    "secondartypes": [
+    "secondarytypes": [
 
     ]
   },
@@ -4730,7 +4730,7 @@ var cardDB = TAFFY([
     "level": 3,
     "attack": 1200,
     "defense": 900,
-    "secondartypes": [
+    "secondarytypes": [
 
     ]
   },
@@ -4746,7 +4746,7 @@ var cardDB = TAFFY([
     "level": 3,
     "attack": 600,
     "defense": 1300,
-    "secondartypes": [
+    "secondarytypes": [
 
     ]
   },
@@ -4762,7 +4762,7 @@ var cardDB = TAFFY([
     "level": 3,
     "attack": 700,
     "defense": 1300,
-    "secondartypes": [
+    "secondarytypes": [
 
     ]
   },
@@ -4778,7 +4778,7 @@ var cardDB = TAFFY([
     "level": 4,
     "attack": 1400,
     "defense": 1200,
-    "secondartypes": [
+    "secondarytypes": [
 
     ]
   },
@@ -4794,7 +4794,7 @@ var cardDB = TAFFY([
     "level": 3,
     "attack": 900,
     "defense": 900,
-    "secondartypes": [
+    "secondarytypes": [
       "Special-B"
     ]
   },
@@ -4810,7 +4810,7 @@ var cardDB = TAFFY([
     "level": 3,
     "attack": 1200,
     "defense": 900,
-    "secondartypes": [
+    "secondarytypes": [
       "Female"
     ]
   },
@@ -4826,7 +4826,7 @@ var cardDB = TAFFY([
     "level": 3,
     "attack": 800,
     "defense": 800,
-    "secondartypes": [
+    "secondarytypes": [
 
     ]
   },
@@ -5192,7 +5192,7 @@ var cardDB = TAFFY([
     "level": 4,
     "attack": 1300,
     "defense": 1500,
-    "secondartypes": [
+    "secondarytypes": [
 
     ]
   },
@@ -5208,7 +5208,7 @@ var cardDB = TAFFY([
     "level": 4,
     "attack": 1400,
     "defense": 1400,
-    "secondartypes": [
+    "secondarytypes": [
       "Female"
     ]
   },
@@ -5224,7 +5224,7 @@ var cardDB = TAFFY([
     "level": 4,
     "attack": 1500,
     "defense": 1200,
-    "secondartypes": [
+    "secondarytypes": [
 
     ]
   },
@@ -5240,7 +5240,7 @@ var cardDB = TAFFY([
     "level": 3,
     "attack": 1200,
     "defense": 900,
-    "secondartypes": [
+    "secondarytypes": [
 
     ]
   },
@@ -5256,7 +5256,7 @@ var cardDB = TAFFY([
     "level": 5,
     "attack": 1500,
     "defense": 1800,
-    "secondartypes": [
+    "secondarytypes": [
 
     ]
   },
@@ -5272,7 +5272,7 @@ var cardDB = TAFFY([
     "level": 7,
     "attack": 2300,
     "defense": 2100,
-    "secondartypes": [
+    "secondarytypes": [
 
     ]
   },
@@ -5288,7 +5288,7 @@ var cardDB = TAFFY([
     "level": 5,
     "attack": 1600,
     "defense": 1800,
-    "secondartypes": [
+    "secondarytypes": [
 
     ]
   },
@@ -5304,7 +5304,7 @@ var cardDB = TAFFY([
     "level": 7,
     "attack": 2500,
     "defense": 2300,
-    "secondartypes": [
+    "secondarytypes": [
 
     ]
   },
@@ -5320,7 +5320,7 @@ var cardDB = TAFFY([
     "level": 3,
     "attack": 1100,
     "defense": 800,
-    "secondartypes": [
+    "secondarytypes": [
 
     ]
   },
@@ -5336,7 +5336,7 @@ var cardDB = TAFFY([
     "level": 8,
     "attack": 2800,
     "defense": 2300,
-    "secondartypes": [
+    "secondarytypes": [
 
     ]
   },
@@ -5352,7 +5352,7 @@ var cardDB = TAFFY([
     "level": 4,
     "attack": 1200,
     "defense": 1000,
-    "secondartypes": [
+    "secondarytypes": [
 
     ]
   },
@@ -5368,7 +5368,7 @@ var cardDB = TAFFY([
     "level": 5,
     "attack": 0,
     "defense": 3000,
-    "secondartypes": [
+    "secondarytypes": [
 
     ]
   },
@@ -5384,7 +5384,7 @@ var cardDB = TAFFY([
     "level": 4,
     "attack": 1400,
     "defense": 1000,
-    "secondartypes": [
+    "secondarytypes": [
 
     ]
   },
@@ -5400,7 +5400,7 @@ var cardDB = TAFFY([
     "level": 8,
     "attack": 3000,
     "defense": 2500,
-    "secondartypes": [
+    "secondarytypes": [
 
     ]
   },
@@ -5416,7 +5416,7 @@ var cardDB = TAFFY([
     "level": 6,
     "attack": 2100,
     "defense": 1800,
-    "secondartypes": [
+    "secondarytypes": [
 
     ]
   },
@@ -5432,7 +5432,7 @@ var cardDB = TAFFY([
     "level": 5,
     "attack": 0,
     "defense": 3000,
-    "secondartypes": [
+    "secondarytypes": [
 
     ]
   },
@@ -5448,7 +5448,7 @@ var cardDB = TAFFY([
     "level": 4,
     "attack": 2200,
     "defense": 100,
-    "secondartypes": [
+    "secondarytypes": [
 
     ]
   },
@@ -5464,7 +5464,7 @@ var cardDB = TAFFY([
     "level": 5,
     "attack": 1600,
     "defense": 1300,
-    "secondartypes": [
+    "secondarytypes": [
 
     ]
   },
@@ -5480,7 +5480,7 @@ var cardDB = TAFFY([
     "level": 7,
     "attack": 1600,
     "defense": 3000,
-    "secondartypes": [
+    "secondarytypes": [
 
     ]
   },
@@ -5496,7 +5496,7 @@ var cardDB = TAFFY([
     "level": 7,
     "attack": 2400,
     "defense": 2400,
-    "secondartypes": [
+    "secondarytypes": [
 
     ]
   },
@@ -5512,7 +5512,7 @@ var cardDB = TAFFY([
     "level": 7,
     "attack": 2600,
     "defense": 2200,
-    "secondartypes": [
+    "secondarytypes": [
 
     ]
   },
@@ -5528,7 +5528,7 @@ var cardDB = TAFFY([
     "level": 7,
     "attack": 2400,
     "defense": 2200,
-    "secondartypes": [
+    "secondarytypes": [
 
     ]
   },
@@ -5544,7 +5544,7 @@ var cardDB = TAFFY([
     "level": 7,
     "attack": 2500,
     "defense": 2400,
-    "secondartypes": [
+    "secondarytypes": [
 
     ]
   },
@@ -5560,7 +5560,7 @@ var cardDB = TAFFY([
     "level": 11,
     "attack": 3750,
     "defense": 3400,
-    "secondartypes": [
+    "secondarytypes": [
 
     ]
   },
@@ -5576,7 +5576,7 @@ var cardDB = TAFFY([
     "level": 5,
     "attack": 1800,
     "defense": 1500,
-    "secondartypes": [
+    "secondarytypes": [
 
     ]
   },
@@ -5592,7 +5592,7 @@ var cardDB = TAFFY([
     "level": 5,
     "attack": 1800,
     "defense": 1600,
-    "secondartypes": [
+    "secondarytypes": [
 
     ]
   },
@@ -5608,7 +5608,7 @@ var cardDB = TAFFY([
     "level": 4,
     "attack": 1600,
     "defense": 1200,
-    "secondartypes": [
+    "secondarytypes": [
 
     ]
   },
@@ -5624,7 +5624,7 @@ var cardDB = TAFFY([
     "level": 6,
     "attack": 2000,
     "defense": 1600,
-    "secondartypes": [
+    "secondarytypes": [
 
     ]
   },
@@ -5640,7 +5640,7 @@ var cardDB = TAFFY([
     "level": 4,
     "attack": 1800,
     "defense": 1000,
-    "secondartypes": [
+    "secondarytypes": [
 
     ]
   },
@@ -5656,7 +5656,7 @@ var cardDB = TAFFY([
     "level": 12,
     "attack": 4500,
     "defense": 3800,
-    "secondartypes": [
+    "secondarytypes": [
 
     ]
   },
@@ -5672,7 +5672,7 @@ var cardDB = TAFFY([
     "level": 4,
     "attack": 800,
     "defense": 1600,
-    "secondartypes": [
+    "secondarytypes": [
 
     ]
   },
@@ -5688,7 +5688,7 @@ var cardDB = TAFFY([
     "level": 5,
     "attack": 1800,
     "defense": 1600,
-    "secondartypes": [
+    "secondarytypes": [
 
     ]
   },
@@ -5704,7 +5704,7 @@ var cardDB = TAFFY([
     "level": 5,
     "attack": 2000,
     "defense": 1300,
-    "secondartypes": [
+    "secondarytypes": [
 
     ]
   },
@@ -5720,7 +5720,7 @@ var cardDB = TAFFY([
     "level": 4,
     "attack": 1100,
     "defense": 1500,
-    "secondartypes": [
+    "secondarytypes": [
       "Special-B"
     ]
   },
@@ -5736,7 +5736,7 @@ var cardDB = TAFFY([
     "level": 7,
     "attack": 2300,
     "defense": 2000,
-    "secondartypes": [
+    "secondarytypes": [
 
     ]
   },
@@ -5752,7 +5752,7 @@ var cardDB = TAFFY([
     "level": 7,
     "attack": 2000,
     "defense": 2500,
-    "secondartypes": [
+    "secondarytypes": [
 
     ]
   },
@@ -5768,7 +5768,7 @@ var cardDB = TAFFY([
     "level": 1,
     "attack": 400,
     "defense": 300,
-    "secondartypes": [
+    "secondarytypes": [
       "Dark Magic",
       "Dark Spellcaster"
     ]
@@ -5785,7 +5785,7 @@ var cardDB = TAFFY([
     "level": 6,
     "attack": 1750,
     "defense": 2000,
-    "secondartypes": [
+    "secondarytypes": [
 
     ]
   },
@@ -5801,7 +5801,7 @@ var cardDB = TAFFY([
     "level": 5,
     "attack": 1850,
     "defense": 1500,
-    "secondartypes": [
+    "secondarytypes": [
 
     ]
   },
@@ -5817,7 +5817,7 @@ var cardDB = TAFFY([
     "level": 7,
     "attack": 2200,
     "defense": 2500,
-    "secondartypes": [
+    "secondarytypes": [
 
     ]
   },
@@ -5833,7 +5833,7 @@ var cardDB = TAFFY([
     "level": 7,
     "attack": 2600,
     "defense": 1900,
-    "secondartypes": [
+    "secondarytypes": [
 
     ]
   },
@@ -5849,7 +5849,7 @@ var cardDB = TAFFY([
     "level": 8,
     "attack": 3000,
     "defense": 2300,
-    "secondartypes": [
+    "secondarytypes": [
 
     ]
   },
@@ -5865,7 +5865,7 @@ var cardDB = TAFFY([
     "level": 1,
     "attack": 250,
     "defense": 200,
-    "secondartypes": [
+    "secondarytypes": [
 
     ]
   },
@@ -5881,7 +5881,7 @@ var cardDB = TAFFY([
     "level": 1,
     "attack": 250,
     "defense": 300,
-    "secondartypes": [
+    "secondarytypes": [
 
     ]
   },
@@ -5897,7 +5897,7 @@ var cardDB = TAFFY([
     "level": 1,
     "attack": 300,
     "defense": 200,
-    "secondartypes": [
+    "secondarytypes": [
       "Elf",
       "Female",
       "Special-A"
@@ -5915,7 +5915,7 @@ var cardDB = TAFFY([
     "level": 5,
     "attack": 1550,
     "defense": 1650,
-    "secondartypes": [
+    "secondarytypes": [
       "Special-A"
     ]
   },
@@ -5931,7 +5931,7 @@ var cardDB = TAFFY([
     "level": 1,
     "attack": 300,
     "defense": 350,
-    "secondartypes": [
+    "secondarytypes": [
 
     ]
   },
@@ -5947,7 +5947,7 @@ var cardDB = TAFFY([
     "level": 0,
     "attack": 1,
     "defense": 300,
-    "secondartypes": [
+    "secondarytypes": [
 
     ]
   },
@@ -5963,7 +5963,7 @@ var cardDB = TAFFY([
     "level": 1,
     "attack": 250,
     "defense": 250,
-    "secondartypes": [
+    "secondarytypes": [
 
     ]
   },
@@ -5979,7 +5979,7 @@ var cardDB = TAFFY([
     "level": 5,
     "attack": 1800,
     "defense": 1500,
-    "secondartypes": [
+    "secondarytypes": [
 
     ]
   },
@@ -5995,7 +5995,7 @@ var cardDB = TAFFY([
     "level": 6,
     "attack": 2150,
     "defense": 1950,
-    "secondartypes": [
+    "secondarytypes": [
 
     ]
   },
@@ -6011,7 +6011,7 @@ var cardDB = TAFFY([
     "level": 1,
     "attack": 250,
     "defense": 300,
-    "secondartypes": [
+    "secondarytypes": [
 
     ]
   },
@@ -6027,7 +6027,7 @@ var cardDB = TAFFY([
     "level": 5,
     "attack": 1750,
     "defense": 1550,
-    "secondartypes": [
+    "secondarytypes": [
       "Animal"
     ]
   },
@@ -6043,7 +6043,7 @@ var cardDB = TAFFY([
     "level": 5,
     "attack": 1350,
     "defense": 1600,
-    "secondartypes": [
+    "secondarytypes": [
 
     ]
   },
@@ -6059,7 +6059,7 @@ var cardDB = TAFFY([
     "level": 5,
     "attack": 1450,
     "defense": 1500,
-    "secondartypes": [
+    "secondarytypes": [
 
     ]
   },
@@ -6075,7 +6075,7 @@ var cardDB = TAFFY([
     "level": 4,
     "attack": 1000,
     "defense": 1300,
-    "secondartypes": [
+    "secondarytypes": [
 
     ]
   },
@@ -6091,7 +6091,7 @@ var cardDB = TAFFY([
     "level": 6,
     "attack": 2200,
     "defense": 2000,
-    "secondartypes": [
+    "secondarytypes": [
 
     ]
   },
@@ -6107,7 +6107,7 @@ var cardDB = TAFFY([
     "level": 6,
     "attack": 1750,
     "defense": 1900,
-    "secondartypes": [
+    "secondarytypes": [
 
     ]
   },
@@ -6123,7 +6123,7 @@ var cardDB = TAFFY([
     "level": 0,
     "attack": 6,
     "defense": 1850,
-    "secondartypes": [
+    "secondarytypes": [
       "Dragon",
       "Pyro"
     ]
@@ -6140,7 +6140,7 @@ var cardDB = TAFFY([
     "level": 2,
     "attack": 400,
     "defense": 500,
-    "secondartypes": [
+    "secondarytypes": [
 
     ]
   },
@@ -6156,7 +6156,7 @@ var cardDB = TAFFY([
     "level": 0,
     "attack": 1,
     "defense": 300,
-    "secondartypes": [
+    "secondarytypes": [
 
     ]
   },
@@ -6172,7 +6172,7 @@ var cardDB = TAFFY([
     "level": 0,
     "attack": 4,
     "defense": 1200,
-    "secondartypes": [
+    "secondarytypes": [
 
     ]
   },
@@ -6188,7 +6188,7 @@ var cardDB = TAFFY([
     "level": 5,
     "attack": 1500,
     "defense": 1700,
-    "secondartypes": [
+    "secondarytypes": [
 
     ]
   },
@@ -6204,7 +6204,7 @@ var cardDB = TAFFY([
     "level": 3,
     "attack": 900,
     "defense": 1200,
-    "secondartypes": [
+    "secondarytypes": [
 
     ]
   },
@@ -6220,7 +6220,7 @@ var cardDB = TAFFY([
     "level": 4,
     "attack": 1850,
     "defense": 800,
-    "secondartypes": [
+    "secondarytypes": [
 
     ]
   },
@@ -6236,7 +6236,7 @@ var cardDB = TAFFY([
     "level": 4,
     "attack": 850,
     "defense": 1800,
-    "secondartypes": [
+    "secondarytypes": [
 
     ]
   },
@@ -6252,7 +6252,7 @@ var cardDB = TAFFY([
     "level": 3,
     "attack": 800,
     "defense": 900,
-    "secondartypes": [
+    "secondarytypes": [
       "Pyro"
     ]
   },
@@ -6268,7 +6268,7 @@ var cardDB = TAFFY([
     "level": 4,
     "attack": 900,
     "defense": 1600,
-    "secondartypes": [
+    "secondarytypes": [
 
     ]
   },
@@ -6284,7 +6284,7 @@ var cardDB = TAFFY([
     "level": 5,
     "attack": 1700,
     "defense": 1800,
-    "secondartypes": [
+    "secondarytypes": [
 
     ]
   },
@@ -6300,7 +6300,7 @@ var cardDB = TAFFY([
     "level": 2,
     "attack": 700,
     "defense": 500,
-    "secondartypes": [
+    "secondarytypes": [
 
     ]
   },
@@ -6316,7 +6316,7 @@ var cardDB = TAFFY([
     "level": 0,
     "attack": 2,
     "defense": 750,
-    "secondartypes": [
+    "secondarytypes": [
 
     ]
   },
@@ -6332,7 +6332,7 @@ var cardDB = TAFFY([
     "level": 0,
     "attack": 2,
     "defense": 500,
-    "secondartypes": [
+    "secondarytypes": [
 
     ]
   },
@@ -6348,7 +6348,7 @@ var cardDB = TAFFY([
     "level": 5,
     "attack": 1650,
     "defense": 1800,
-    "secondartypes": [
+    "secondarytypes": [
 
     ]
   },
@@ -6364,7 +6364,7 @@ var cardDB = TAFFY([
     "level": 6,
     "attack": 1900,
     "defense": 1800,
-    "secondartypes": [
+    "secondarytypes": [
 
     ]
   },
@@ -6380,7 +6380,7 @@ var cardDB = TAFFY([
     "level": 5,
     "attack": 1600,
     "defense": 1500,
-    "secondartypes": [
+    "secondarytypes": [
       "Dragon"
     ]
   },
@@ -6396,7 +6396,7 @@ var cardDB = TAFFY([
     "level": 7,
     "attack": 2000,
     "defense": 2300,
-    "secondartypes": [
+    "secondarytypes": [
       "Dragon"
     ]
   },
@@ -6412,7 +6412,7 @@ var cardDB = TAFFY([
     "level": 7,
     "attack": 2300,
     "defense": 2000,
-    "secondartypes": [
+    "secondarytypes": [
 
     ]
   },
@@ -6428,7 +6428,7 @@ var cardDB = TAFFY([
     "level": 1,
     "attack": 300,
     "defense": 400,
-    "secondartypes": [
+    "secondarytypes": [
       "Female",
       "Special-C"
     ]
@@ -6445,7 +6445,7 @@ var cardDB = TAFFY([
     "level": 3,
     "attack": 950,
     "defense": 700,
-    "secondartypes": [
+    "secondarytypes": [
       "Female"
     ]
   },
@@ -6461,7 +6461,7 @@ var cardDB = TAFFY([
     "level": 4,
     "attack": 1400,
     "defense": 1000,
-    "secondartypes": [
+    "secondarytypes": [
       "Female"
     ]
   },
@@ -6477,7 +6477,7 @@ var cardDB = TAFFY([
     "level": 3,
     "attack": 1150,
     "defense": 900,
-    "secondartypes": [
+    "secondarytypes": [
       "Female"
     ]
   },
@@ -6493,7 +6493,7 @@ var cardDB = TAFFY([
     "level": 3,
     "attack": 1100,
     "defense": 700,
-    "secondartypes": [
+    "secondarytypes": [
       "Female"
     ]
   },
@@ -6509,7 +6509,7 @@ var cardDB = TAFFY([
     "level": 4,
     "attack": 1450,
     "defense": 1200,
-    "secondartypes": [
+    "secondarytypes": [
       "Elf",
       "Female"
     ]
@@ -6526,7 +6526,7 @@ var cardDB = TAFFY([
     "level": 5,
     "attack": 1750,
     "defense": 1500,
-    "secondartypes": [
+    "secondarytypes": [
       "Female"
     ]
   },
@@ -6542,7 +6542,7 @@ var cardDB = TAFFY([
     "level": 4,
     "attack": 1250,
     "defense": 1000,
-    "secondartypes": [
+    "secondarytypes": [
       "Female"
     ]
   },
@@ -6558,7 +6558,7 @@ var cardDB = TAFFY([
     "level": 2,
     "attack": 500,
     "defense": 400,
-    "secondartypes": [
+    "secondarytypes": [
 
     ]
   },
@@ -6574,7 +6574,7 @@ var cardDB = TAFFY([
     "level": 5,
     "attack": 1900,
     "defense": 1600,
-    "secondartypes": [
+    "secondarytypes": [
 
     ]
   },
@@ -6590,7 +6590,7 @@ var cardDB = TAFFY([
     "level": 5,
     "attack": 1600,
     "defense": 1900,
-    "secondartypes": [
+    "secondarytypes": [
 
     ]
   },
@@ -6606,7 +6606,7 @@ var cardDB = TAFFY([
     "level": 0,
     "attack": 5,
     "defense": 1650,
-    "secondartypes": [
+    "secondarytypes": [
 
     ]
   },
@@ -6622,7 +6622,7 @@ var cardDB = TAFFY([
     "level": 4,
     "attack": 1800,
     "defense": 800,
-    "secondartypes": [
+    "secondarytypes": [
 
     ]
   },
@@ -6638,7 +6638,7 @@ var cardDB = TAFFY([
     "level": 5,
     "attack": 1800,
     "defense": 1500,
-    "secondartypes": [
+    "secondarytypes": [
 
     ]
   },
@@ -6654,7 +6654,7 @@ var cardDB = TAFFY([
     "level": 6,
     "attack": 2250,
     "defense": 1900,
-    "secondartypes": [
+    "secondarytypes": [
       "Dragon"
     ]
   },
@@ -6670,7 +6670,7 @@ var cardDB = TAFFY([
     "level": 6,
     "attack": 2000,
     "defense": 1700,
-    "secondartypes": [
+    "secondarytypes": [
       "Dragon",
       "Turtle"
     ]
@@ -6687,7 +6687,7 @@ var cardDB = TAFFY([
     "level": 2,
     "attack": 450,
     "defense": 500,
-    "secondartypes": [
+    "secondarytypes": [
 
     ]
   },
@@ -6703,7 +6703,7 @@ var cardDB = TAFFY([
     "level": 4,
     "attack": 1300,
     "defense": 1000,
-    "secondartypes": [
+    "secondarytypes": [
 
     ]
   },
@@ -6719,7 +6719,7 @@ var cardDB = TAFFY([
     "level": 3,
     "attack": 1050,
     "defense": 900,
-    "secondartypes": [
+    "secondarytypes": [
 
     ]
   },
@@ -6735,7 +6735,7 @@ var cardDB = TAFFY([
     "level": 4,
     "attack": 1800,
     "defense": 800,
-    "secondartypes": [
+    "secondarytypes": [
 
     ]
   },
@@ -6751,7 +6751,7 @@ var cardDB = TAFFY([
     "level": 0,
     "attack": 5,
     "defense": 1600,
-    "secondartypes": [
+    "secondarytypes": [
       "Dragon"
     ]
   },
@@ -6767,7 +6767,7 @@ var cardDB = TAFFY([
     "level": 0,
     "attack": 5,
     "defense": 1250,
-    "secondartypes": [
+    "secondarytypes": [
       "Turtle"
     ]
   },
@@ -6783,7 +6783,7 @@ var cardDB = TAFFY([
     "level": 3,
     "attack": 1200,
     "defense": 900,
-    "secondartypes": [
+    "secondarytypes": [
 
     ]
   },
@@ -6799,7 +6799,7 @@ var cardDB = TAFFY([
     "level": 3,
     "attack": 650,
     "defense": 900,
-    "secondartypes": [
+    "secondarytypes": [
 
     ]
   },
@@ -6815,7 +6815,7 @@ var cardDB = TAFFY([
     "level": 2,
     "attack": 600,
     "defense": 700,
-    "secondartypes": [
+    "secondarytypes": [
 
     ]
   },
@@ -6831,7 +6831,7 @@ var cardDB = TAFFY([
     "level": 6,
     "attack": 2000,
     "defense": 2200,
-    "secondartypes": [
+    "secondarytypes": [
 
     ]
   },
@@ -6847,7 +6847,7 @@ var cardDB = TAFFY([
     "level": 4,
     "attack": 1500,
     "defense": 1000,
-    "secondartypes": [
+    "secondarytypes": [
 
     ]
   },
@@ -6863,7 +6863,7 @@ var cardDB = TAFFY([
     "level": 4,
     "attack": 1000,
     "defense": 1300,
-    "secondartypes": [
+    "secondarytypes": [
 
     ]
   },
@@ -6879,7 +6879,7 @@ var cardDB = TAFFY([
     "level": 4,
     "attack": 1300,
     "defense": 1200,
-    "secondartypes": [
+    "secondarytypes": [
 
     ]
   },
@@ -6895,7 +6895,7 @@ var cardDB = TAFFY([
     "level": 4,
     "attack": 1200,
     "defense": 1000,
-    "secondartypes": [
+    "secondarytypes": [
 
     ]
   },
@@ -6911,7 +6911,7 @@ var cardDB = TAFFY([
     "level": 5,
     "attack": 1900,
     "defense": 1400,
-    "secondartypes": [
+    "secondarytypes": [
 
     ]
   },
@@ -6927,7 +6927,7 @@ var cardDB = TAFFY([
     "level": 4,
     "attack": 1200,
     "defense": 1300,
-    "secondartypes": [
+    "secondarytypes": [
 
     ]
   },
@@ -6943,7 +6943,7 @@ var cardDB = TAFFY([
     "level": 5,
     "attack": 1400,
     "defense": 1500,
-    "secondartypes": [
+    "secondarytypes": [
 
     ]
   },
@@ -6959,7 +6959,7 @@ var cardDB = TAFFY([
     "level": 3,
     "attack": 1100,
     "defense": 800,
-    "secondartypes": [
+    "secondarytypes": [
 
     ]
   },
@@ -6975,7 +6975,7 @@ var cardDB = TAFFY([
     "level": 4,
     "attack": 1500,
     "defense": 1300,
-    "secondartypes": [
+    "secondarytypes": [
 
     ]
   },
@@ -6991,7 +6991,7 @@ var cardDB = TAFFY([
     "level": 3,
     "attack": 800,
     "defense": 900,
-    "secondartypes": [
+    "secondarytypes": [
 
     ]
   },
@@ -7007,7 +7007,7 @@ var cardDB = TAFFY([
     "level": 0,
     "attack": 5,
     "defense": 1800,
-    "secondartypes": [
+    "secondarytypes": [
 
     ]
   },
@@ -7023,7 +7023,7 @@ var cardDB = TAFFY([
     "level": 6,
     "attack": 2100,
     "defense": 1800,
-    "secondartypes": [
+    "secondarytypes": [
       "Special-D"
     ]
   },
@@ -7039,7 +7039,7 @@ var cardDB = TAFFY([
     "level": 4,
     "attack": 1550,
     "defense": 1200,
-    "secondartypes": [
+    "secondarytypes": [
       "Special-D"
     ]
   },
@@ -7055,7 +7055,7 @@ var cardDB = TAFFY([
     "level": 6,
     "attack": 2300,
     "defense": 1800,
-    "secondartypes": [
+    "secondarytypes": [
 
     ]
   },
@@ -7071,7 +7071,7 @@ var cardDB = TAFFY([
     "level": 5,
     "attack": 1200,
     "defense": 2000,
-    "secondartypes": [
+    "secondarytypes": [
 
     ]
   },
@@ -7087,7 +7087,7 @@ var cardDB = TAFFY([
     "level": 1,
     "attack": 300,
     "defense": 300,
-    "secondartypes": [
+    "secondarytypes": [
 
     ]
   },
@@ -7103,7 +7103,7 @@ var cardDB = TAFFY([
     "level": 4,
     "attack": 1300,
     "defense": 1400,
-    "secondartypes": [
+    "secondarytypes": [
 
     ]
   },
@@ -7119,7 +7119,7 @@ var cardDB = TAFFY([
     "level": 6,
     "attack": 2200,
     "defense": 1800,
-    "secondartypes": [
+    "secondarytypes": [
 
     ]
   },
@@ -7135,7 +7135,7 @@ var cardDB = TAFFY([
     "level": 6,
     "attack": 2100,
     "defense": 1600,
-    "secondartypes": [
+    "secondarytypes": [
 
     ]
   },
@@ -7151,7 +7151,7 @@ var cardDB = TAFFY([
     "level": 5,
     "attack": 1900,
     "defense": 1500,
-    "secondartypes": [
+    "secondarytypes": [
 
     ]
   },
@@ -7167,7 +7167,7 @@ var cardDB = TAFFY([
     "level": 4,
     "attack": 1100,
     "defense": 1300,
-    "secondartypes": [
+    "secondarytypes": [
 
     ]
   },
@@ -7183,7 +7183,7 @@ var cardDB = TAFFY([
     "level": 1,
     "attack": 300,
     "defense": 250,
-    "secondartypes": [
+    "secondarytypes": [
 
     ]
   },
@@ -7199,7 +7199,7 @@ var cardDB = TAFFY([
     "level": 2,
     "attack": 600,
     "defense": 800,
-    "secondartypes": [
+    "secondarytypes": [
 
     ]
   },
@@ -7215,7 +7215,7 @@ var cardDB = TAFFY([
     "level": 3,
     "attack": 950,
     "defense": 700,
-    "secondartypes": [
+    "secondarytypes": [
 
     ]
   },
@@ -7231,7 +7231,7 @@ var cardDB = TAFFY([
     "level": 3,
     "attack": 1000,
     "defense": 800,
-    "secondartypes": [
+    "secondarytypes": [
 
     ]
   },
@@ -7247,7 +7247,7 @@ var cardDB = TAFFY([
     "level": 3,
     "attack": 800,
     "defense": 900,
-    "secondartypes": [
+    "secondarytypes": [
 
     ]
   },
@@ -7263,7 +7263,7 @@ var cardDB = TAFFY([
     "level": 4,
     "attack": 1250,
     "defense": 1000,
-    "secondartypes": [
+    "secondarytypes": [
 
     ]
   },
@@ -7279,7 +7279,7 @@ var cardDB = TAFFY([
     "level": 3,
     "attack": 850,
     "defense": 800,
-    "secondartypes": [
+    "secondarytypes": [
       "Animal"
     ]
   },
@@ -7295,7 +7295,7 @@ var cardDB = TAFFY([
     "level": 5,
     "attack": 1900,
     "defense": 1500,
-    "secondartypes": [
+    "secondarytypes": [
 
     ]
   },
@@ -7311,7 +7311,7 @@ var cardDB = TAFFY([
     "level": 6,
     "attack": 2000,
     "defense": 1700,
-    "secondartypes": [
+    "secondarytypes": [
       "Animal"
     ]
   },
@@ -7327,7 +7327,7 @@ var cardDB = TAFFY([
     "level": 1,
     "attack": 300,
     "defense": 350,
-    "secondartypes": [
+    "secondarytypes": [
 
     ]
   },
@@ -7343,7 +7343,7 @@ var cardDB = TAFFY([
     "level": 2,
     "attack": 550,
     "defense": 400,
-    "secondartypes": [
+    "secondarytypes": [
 
     ]
   },
@@ -7359,7 +7359,7 @@ var cardDB = TAFFY([
     "level": 2,
     "attack": 650,
     "defense": 500,
-    "secondartypes": [
+    "secondarytypes": [
       "Special-C"
     ]
   },
@@ -7375,7 +7375,7 @@ var cardDB = TAFFY([
     "level": 5,
     "attack": 1800,
     "defense": 1400,
-    "secondartypes": [
+    "secondarytypes": [
       "Animal"
     ]
   },
@@ -7391,7 +7391,7 @@ var cardDB = TAFFY([
     "level": 2,
     "attack": 400,
     "defense": 500,
-    "secondartypes": [
+    "secondarytypes": [
 
     ]
   },
@@ -7407,7 +7407,7 @@ var cardDB = TAFFY([
     "level": 3,
     "attack": 1100,
     "defense": 600,
-    "secondartypes": [
+    "secondarytypes": [
 
     ]
   },
@@ -7423,7 +7423,7 @@ var cardDB = TAFFY([
     "level": 2,
     "attack": 750,
     "defense": 700,
-    "secondartypes": [
+    "secondarytypes": [
       "Special-B"
     ]
   },
@@ -7439,7 +7439,7 @@ var cardDB = TAFFY([
     "level": 5,
     "attack": 1700,
     "defense": 1500,
-    "secondartypes": [
+    "secondarytypes": [
       "Special-D"
     ]
   },
@@ -7455,7 +7455,7 @@ var cardDB = TAFFY([
     "level": 2,
     "attack": 500,
     "defense": 700,
-    "secondartypes": [
+    "secondarytypes": [
       "Special-C"
     ]
   },
@@ -7471,7 +7471,7 @@ var cardDB = TAFFY([
     "level": 6,
     "attack": 1550,
     "defense": 1400,
-    "secondartypes": [
+    "secondarytypes": [
 
     ]
   },
@@ -7487,7 +7487,7 @@ var cardDB = TAFFY([
     "level": 5,
     "attack": 1550,
     "defense": 1700,
-    "secondartypes": [
+    "secondarytypes": [
 
     ]
   },
@@ -7503,7 +7503,7 @@ var cardDB = TAFFY([
     "level": 5,
     "attack": 1750,
     "defense": 1500,
-    "secondartypes": [
+    "secondarytypes": [
 
     ]
   },
@@ -7519,7 +7519,7 @@ var cardDB = TAFFY([
     "level": 4,
     "attack": 1000,
     "defense": 1200,
-    "secondartypes": [
+    "secondarytypes": [
 
     ]
   },
@@ -7535,7 +7535,7 @@ var cardDB = TAFFY([
     "level": 4,
     "attack": 900,
     "defense": 1700,
-    "secondartypes": [
+    "secondarytypes": [
 
     ]
   },
@@ -7551,7 +7551,7 @@ var cardDB = TAFFY([
     "level": 5,
     "attack": 1550,
     "defense": 1300,
-    "secondartypes": [
+    "secondarytypes": [
 
     ]
   },
@@ -7567,7 +7567,7 @@ var cardDB = TAFFY([
     "level": 1,
     "attack": 250,
     "defense": 300,
-    "secondartypes": [
+    "secondarytypes": [
 
     ]
   },
@@ -7583,7 +7583,7 @@ var cardDB = TAFFY([
     "level": 6,
     "attack": 2100,
     "defense": 2000,
-    "secondartypes": [
+    "secondarytypes": [
 
     ]
   },
@@ -7599,7 +7599,7 @@ var cardDB = TAFFY([
     "level": 2,
     "attack": 450,
     "defense": 600,
-    "secondartypes": [
+    "secondarytypes": [
 
     ]
   },
@@ -7615,7 +7615,7 @@ var cardDB = TAFFY([
     "level": 4,
     "attack": 1300,
     "defense": 1100,
-    "secondartypes": [
+    "secondarytypes": [
 
     ]
   },
@@ -7631,7 +7631,7 @@ var cardDB = TAFFY([
     "level": 3,
     "attack": 700,
     "defense": 900,
-    "secondartypes": [
+    "secondarytypes": [
       "Turtle"
     ]
   },
@@ -7647,7 +7647,7 @@ var cardDB = TAFFY([
     "level": 1,
     "attack": 400,
     "defense": 300,
-    "secondartypes": [
+    "secondarytypes": [
 
     ]
   },
@@ -7663,7 +7663,7 @@ var cardDB = TAFFY([
     "level": 3,
     "attack": 800,
     "defense": 1000,
-    "secondartypes": [
+    "secondarytypes": [
 
     ]
   },
@@ -7679,7 +7679,7 @@ var cardDB = TAFFY([
     "level": 2,
     "attack": 650,
     "defense": 600,
-    "secondartypes": [
+    "secondarytypes": [
 
     ]
   },
@@ -7695,7 +7695,7 @@ var cardDB = TAFFY([
     "level": 4,
     "attack": 1600,
     "defense": 1200,
-    "secondartypes": [
+    "secondarytypes": [
 
     ]
   },
@@ -7711,7 +7711,7 @@ var cardDB = TAFFY([
     "level": 5,
     "attack": 1800,
     "defense": 1400,
-    "secondartypes": [
+    "secondarytypes": [
 
     ]
   },
@@ -7727,7 +7727,7 @@ var cardDB = TAFFY([
     "level": 6,
     "attack": 2200,
     "defense": 2000,
-    "secondartypes": [
+    "secondarytypes": [
 
     ]
   },
@@ -7743,7 +7743,7 @@ var cardDB = TAFFY([
     "level": 2,
     "attack": 900,
     "defense": 500,
-    "secondartypes": [
+    "secondarytypes": [
 
     ]
   },
@@ -7759,7 +7759,7 @@ var cardDB = TAFFY([
     "level": 4,
     "attack": 1400,
     "defense": 1300,
-    "secondartypes": [
+    "secondarytypes": [
 
     ]
   },
@@ -7775,7 +7775,7 @@ var cardDB = TAFFY([
     "level": 0,
     "attack": 4,
     "defense": 1400,
-    "secondartypes": [
+    "secondarytypes": [
 
     ]
   },
@@ -7791,7 +7791,7 @@ var cardDB = TAFFY([
     "level": 5,
     "attack": 1650,
     "defense": 1600,
-    "secondartypes": [
+    "secondarytypes": [
 
     ]
   },
@@ -7807,7 +7807,7 @@ var cardDB = TAFFY([
     "level": 4,
     "attack": 1300,
     "defense": 1000,
-    "secondartypes": [
+    "secondarytypes": [
 
     ]
   },
@@ -7823,7 +7823,7 @@ var cardDB = TAFFY([
     "level": 4,
     "attack": 1100,
     "defense": 1400,
-    "secondartypes": [
+    "secondarytypes": [
 
     ]
   },
@@ -7839,7 +7839,7 @@ var cardDB = TAFFY([
     "level": 2,
     "attack": 600,
     "defense": 300,
-    "secondartypes": [
+    "secondarytypes": [
 
     ]
   },
@@ -7855,7 +7855,7 @@ var cardDB = TAFFY([
     "level": 5,
     "attack": 1300,
     "defense": 1600,
-    "secondartypes": [
+    "secondarytypes": [
 
     ]
   },
@@ -7871,7 +7871,7 @@ var cardDB = TAFFY([
     "level": 6,
     "attack": 1450,
     "defense": 2200,
-    "secondartypes": [
+    "secondarytypes": [
       "Turtle"
     ]
   },
@@ -7887,7 +7887,7 @@ var cardDB = TAFFY([
     "level": 5,
     "attack": 1600,
     "defense": 1500,
-    "secondartypes": [
+    "secondarytypes": [
       "Pyro"
     ]
   },
@@ -7903,7 +7903,7 @@ var cardDB = TAFFY([
     "level": 6,
     "attack": 1900,
     "defense": 1700,
-    "secondartypes": [
+    "secondarytypes": [
       "Turtle"
     ]
   },
@@ -7919,7 +7919,7 @@ var cardDB = TAFFY([
     "level": 6,
     "attack": 1900,
     "defense": 1700,
-    "secondartypes": [
+    "secondarytypes": [
 
     ]
   },
@@ -7935,7 +7935,7 @@ var cardDB = TAFFY([
     "level": 6,
     "attack": 2000,
     "defense": 1900,
-    "secondartypes": [
+    "secondarytypes": [
       "Special-D"
     ]
   },
@@ -7951,7 +7951,7 @@ var cardDB = TAFFY([
     "level": 4,
     "attack": 1800,
     "defense": 1000,
-    "secondartypes": [
+    "secondarytypes": [
 
     ]
   },
@@ -7967,7 +7967,7 @@ var cardDB = TAFFY([
     "level": 2,
     "attack": 550,
     "defense": 500,
-    "secondartypes": [
+    "secondarytypes": [
 
     ]
   },
@@ -7983,7 +7983,7 @@ var cardDB = TAFFY([
     "level": 5,
     "attack": 1300,
     "defense": 1800,
-    "secondartypes": [
+    "secondarytypes": [
 
     ]
   },
@@ -7999,7 +7999,7 @@ var cardDB = TAFFY([
     "level": 6,
     "attack": 1750,
     "defense": 1900,
-    "secondartypes": [
+    "secondarytypes": [
 
     ]
   },
@@ -8015,7 +8015,7 @@ var cardDB = TAFFY([
     "level": 1,
     "attack": 300,
     "defense": 250,
-    "secondartypes": [
+    "secondarytypes": [
       "Animal"
     ]
   },
@@ -8031,7 +8031,7 @@ var cardDB = TAFFY([
     "level": 5,
     "attack": 1600,
     "defense": 1800,
-    "secondartypes": [
+    "secondarytypes": [
 
     ]
   },
@@ -8047,7 +8047,7 @@ var cardDB = TAFFY([
     "level": 6,
     "attack": 2100,
     "defense": 1800,
-    "secondartypes": [
+    "secondarytypes": [
 
     ]
   },
@@ -8063,7 +8063,7 @@ var cardDB = TAFFY([
     "level": 3,
     "attack": 950,
     "defense": 1000,
-    "secondartypes": [
+    "secondarytypes": [
       "Dark Magic",
       "Dark Spellcaster",
       "Female"
@@ -8081,7 +8081,7 @@ var cardDB = TAFFY([
     "level": 0,
     "attack": 6,
     "defense": 2100,
-    "secondartypes": [
+    "secondarytypes": [
       "Female"
     ]
   },
@@ -8097,7 +8097,7 @@ var cardDB = TAFFY([
     "level": 4,
     "attack": 1900,
     "defense": 900,
-    "secondartypes": [
+    "secondarytypes": [
       "Elf",
       "Female"
     ]
@@ -8114,7 +8114,7 @@ var cardDB = TAFFY([
     "level": 6,
     "attack": 1900,
     "defense": 1700,
-    "secondartypes": [
+    "secondarytypes": [
 
     ]
   },
@@ -8130,7 +8130,7 @@ var cardDB = TAFFY([
     "level": 3,
     "attack": 800,
     "defense": 750,
-    "secondartypes": [
+    "secondarytypes": [
 
     ]
   },
@@ -8146,7 +8146,7 @@ var cardDB = TAFFY([
     "level": 4,
     "attack": 1150,
     "defense": 1400,
-    "secondartypes": [
+    "secondarytypes": [
 
     ]
   },
@@ -8162,7 +8162,7 @@ var cardDB = TAFFY([
     "level": 2,
     "attack": 800,
     "defense": 600,
-    "secondartypes": [
+    "secondarytypes": [
 
     ]
   },
@@ -8178,7 +8178,7 @@ var cardDB = TAFFY([
     "level": 2,
     "attack": 750,
     "defense": 600,
-    "secondartypes": [
+    "secondarytypes": [
 
     ]
   },
@@ -8194,7 +8194,7 @@ var cardDB = TAFFY([
     "level": 3,
     "attack": 900,
     "defense": 800,
-    "secondartypes": [
+    "secondarytypes": [
 
     ]
   },
@@ -8210,7 +8210,7 @@ var cardDB = TAFFY([
     "level": 3,
     "attack": 110,
     "defense": 700,
-    "secondartypes": [
+    "secondarytypes": [
 
     ]
   },
@@ -8226,7 +8226,7 @@ var cardDB = TAFFY([
     "level": 2,
     "attack": 900,
     "defense": 400,
-    "secondartypes": [
+    "secondarytypes": [
       "Special-A"
     ]
   },
@@ -8242,7 +8242,7 @@ var cardDB = TAFFY([
     "level": 2,
     "attack": 450,
     "defense": 500,
-    "secondartypes": [
+    "secondarytypes": [
 
     ]
   },
@@ -8258,7 +8258,7 @@ var cardDB = TAFFY([
     "level": 5,
     "attack": 1400,
     "defense": 1600,
-    "secondartypes": [
+    "secondarytypes": [
 
     ]
   },
@@ -8274,7 +8274,7 @@ var cardDB = TAFFY([
     "level": 0,
     "attack": 4,
     "defense": 1350,
-    "secondartypes": [
+    "secondarytypes": [
 
     ]
   },
@@ -8290,7 +8290,7 @@ var cardDB = TAFFY([
     "level": 2,
     "attack": 900,
     "defense": 500,
-    "secondartypes": [
+    "secondarytypes": [
 
     ]
   },
@@ -8306,7 +8306,7 @@ var cardDB = TAFFY([
     "level": 6,
     "attack": 1700,
     "defense": 1900,
-    "secondartypes": [
+    "secondarytypes": [
       "Dragon"
     ]
   },
@@ -8322,7 +8322,7 @@ var cardDB = TAFFY([
     "level": 4,
     "attack": 1250,
     "defense": 900,
-    "secondartypes": [
+    "secondarytypes": [
 
     ]
   },
@@ -8338,7 +8338,7 @@ var cardDB = TAFFY([
     "level": 1,
     "attack": 350,
     "defense": 300,
-    "secondartypes": [
+    "secondarytypes": [
 
     ]
   },
@@ -8354,7 +8354,7 @@ var cardDB = TAFFY([
     "level": 1,
     "attack": 400,
     "defense": 300,
-    "secondartypes": [
+    "secondarytypes": [
 
     ]
   },
@@ -8370,7 +8370,7 @@ var cardDB = TAFFY([
     "level": 2,
     "attack": 700,
     "defense": 500,
-    "secondartypes": [
+    "secondarytypes": [
 
     ]
   },
@@ -8386,7 +8386,7 @@ var cardDB = TAFFY([
     "level": 4,
     "attack": 1350,
     "defense": 1000,
-    "secondartypes": [
+    "secondarytypes": [
 
     ]
   },
@@ -8402,7 +8402,7 @@ var cardDB = TAFFY([
     "level": 4,
     "attack": 2000,
     "defense": 800,
-    "secondartypes": [
+    "secondarytypes": [
       "Dark Magic",
       "Dark Spellcaster",
       "Elf",
@@ -8421,7 +8421,7 @@ var cardDB = TAFFY([
     "level": 4,
     "attack": 1200,
     "defense": 1000,
-    "secondartypes": [
+    "secondarytypes": [
 
     ]
   },
@@ -8437,7 +8437,7 @@ var cardDB = TAFFY([
     "level": 3,
     "attack": 1250,
     "defense": 800,
-    "secondartypes": [
+    "secondarytypes": [
 
     ]
   },
@@ -8453,7 +8453,7 @@ var cardDB = TAFFY([
     "level": 5,
     "attack": 1550,
     "defense": 1800,
-    "secondartypes": [
+    "secondarytypes": [
 
     ]
   },
@@ -8469,7 +8469,7 @@ var cardDB = TAFFY([
     "level": 6,
     "attack": 1700,
     "defense": 1900,
-    "secondartypes": [
+    "secondarytypes": [
 
     ]
   },
@@ -8485,7 +8485,7 @@ var cardDB = TAFFY([
     "level": 2,
     "attack": 800,
     "defense": 600,
-    "secondartypes": [
+    "secondarytypes": [
 
     ]
   },
@@ -8501,7 +8501,7 @@ var cardDB = TAFFY([
     "level": 5,
     "attack": 1400,
     "defense": 1800,
-    "secondartypes": [
+    "secondarytypes": [
 
     ]
   },
@@ -8517,7 +8517,7 @@ var cardDB = TAFFY([
     "level": 2,
     "attack": 400,
     "defense": 400,
-    "secondartypes": [
+    "secondarytypes": [
       "Jar"
     ]
   },
@@ -8533,7 +8533,7 @@ var cardDB = TAFFY([
     "level": 3,
     "attack": 1250,
     "defense": 700,
-    "secondartypes": [
+    "secondarytypes": [
 
     ]
   },
@@ -8549,7 +8549,7 @@ var cardDB = TAFFY([
     "level": 4,
     "attack": 950,
     "defense": 1400,
-    "secondartypes": [
+    "secondarytypes": [
 
     ]
   },
@@ -8565,7 +8565,7 @@ var cardDB = TAFFY([
     "level": 4,
     "attack": 1200,
     "defense": 1000,
-    "secondartypes": [
+    "secondarytypes": [
       "Special-B"
     ]
   },
@@ -8581,7 +8581,7 @@ var cardDB = TAFFY([
     "level": 2,
     "attack": 750,
     "defense": 600,
-    "secondartypes": [
+    "secondarytypes": [
 
     ]
   },
@@ -8597,7 +8597,7 @@ var cardDB = TAFFY([
     "level": 2,
     "attack": 550,
     "defense": 400,
-    "secondartypes": [
+    "secondarytypes": [
       "Dark Magic"
     ]
   },
@@ -8613,7 +8613,7 @@ var cardDB = TAFFY([
     "level": 6,
     "attack": 2200,
     "defense": 1800,
-    "secondartypes": [
+    "secondarytypes": [
 
     ]
   },
@@ -8629,7 +8629,7 @@ var cardDB = TAFFY([
     "level": 5,
     "attack": 2100,
     "defense": 1300,
-    "secondartypes": [
+    "secondarytypes": [
 
     ]
   },
@@ -8645,7 +8645,7 @@ var cardDB = TAFFY([
     "level": 3,
     "attack": 1200,
     "defense": 900,
-    "secondartypes": [
+    "secondarytypes": [
 
     ]
   },
@@ -8661,7 +8661,7 @@ var cardDB = TAFFY([
     "level": 3,
     "attack": 1200,
     "defense": 900,
-    "secondartypes": [
+    "secondarytypes": [
 
     ]
   },
@@ -8677,7 +8677,7 @@ var cardDB = TAFFY([
     "level": 3,
     "attack": 1000,
     "defense": 850,
-    "secondartypes": [
+    "secondarytypes": [
 
     ]
   },
@@ -8693,7 +8693,7 @@ var cardDB = TAFFY([
     "level": 3,
     "attack": 900,
     "defense": 800,
-    "secondartypes": [
+    "secondarytypes": [
 
     ]
   },
@@ -8709,7 +8709,7 @@ var cardDB = TAFFY([
     "level": 3,
     "attack": 1300,
     "defense": 800,
-    "secondartypes": [
+    "secondarytypes": [
 
     ]
   },
@@ -8725,7 +8725,7 @@ var cardDB = TAFFY([
     "level": 6,
     "attack": 2100,
     "defense": 1800,
-    "secondartypes": [
+    "secondarytypes": [
 
     ]
   },
@@ -8741,7 +8741,7 @@ var cardDB = TAFFY([
     "level": 6,
     "attack": 2100,
     "defense": 1700,
-    "secondartypes": [
+    "secondarytypes": [
       "Female"
     ]
   },
@@ -8757,7 +8757,7 @@ var cardDB = TAFFY([
     "level": 3,
     "attack": 1100,
     "defense": 700,
-    "secondartypes": [
+    "secondarytypes": [
 
     ]
   },
@@ -8773,7 +8773,7 @@ var cardDB = TAFFY([
     "level": 4,
     "attack": 1100,
     "defense": 1200,
-    "secondartypes": [
+    "secondarytypes": [
       "Female"
     ]
   },
@@ -8789,7 +8789,7 @@ var cardDB = TAFFY([
     "level": 6,
     "attack": 1800,
     "defense": 1900,
-    "secondartypes": [
+    "secondarytypes": [
       "Animal"
     ]
   },
@@ -8805,7 +8805,7 @@ var cardDB = TAFFY([
     "level": 3,
     "attack": 1100,
     "defense": 1000,
-    "secondartypes": [
+    "secondarytypes": [
 
     ]
   },
@@ -8821,7 +8821,7 @@ var cardDB = TAFFY([
     "level": 5,
     "attack": 1850,
     "defense": 1600,
-    "secondartypes": [
+    "secondarytypes": [
 
     ]
   },
@@ -8837,7 +8837,7 @@ var cardDB = TAFFY([
     "level": 5,
     "attack": 1350,
     "defense": 1200,
-    "secondartypes": [
+    "secondarytypes": [
       "Dark Magic",
       "Dark Spellcaster"
     ]
@@ -8854,7 +8854,7 @@ var cardDB = TAFFY([
     "level": 2,
     "attack": 750,
     "defense": 400,
-    "secondartypes": [
+    "secondarytypes": [
 
     ]
   },
@@ -8870,7 +8870,7 @@ var cardDB = TAFFY([
     "level": 3,
     "attack": 1100,
     "defense": 1900,
-    "secondartypes": [
+    "secondarytypes": [
 
     ]
   },
@@ -8886,7 +8886,7 @@ var cardDB = TAFFY([
     "level": 4,
     "attack": 1450,
     "defense": 1000,
-    "secondartypes": [
+    "secondarytypes": [
       "Special-D"
     ]
   },
@@ -8902,7 +8902,7 @@ var cardDB = TAFFY([
     "level": 5,
     "attack": 1800,
     "defense": 1700,
-    "secondartypes": [
+    "secondarytypes": [
       "Female",
       "Special-A"
     ]
@@ -8919,7 +8919,7 @@ var cardDB = TAFFY([
     "level": 4,
     "attack": 950,
     "defense": 1500,
-    "secondartypes": [
+    "secondarytypes": [
 
     ]
   },
@@ -8935,7 +8935,7 @@ var cardDB = TAFFY([
     "level": 3,
     "attack": 1000,
     "defense": 1100,
-    "secondartypes": [
+    "secondarytypes": [
 
     ]
   },
@@ -8951,7 +8951,7 @@ var cardDB = TAFFY([
     "level": 3,
     "attack": 800,
     "defense": 1000,
-    "secondartypes": [
+    "secondarytypes": [
 
     ]
   },
@@ -8967,7 +8967,7 @@ var cardDB = TAFFY([
     "level": 3,
     "attack": 650,
     "defense": 900,
-    "secondartypes": [
+    "secondarytypes": [
 
     ]
   },
@@ -8983,7 +8983,7 @@ var cardDB = TAFFY([
     "level": 4,
     "attack": 1300,
     "defense": 1400,
-    "secondartypes": [
+    "secondarytypes": [
 
     ]
   },
@@ -8999,7 +8999,7 @@ var cardDB = TAFFY([
     "level": 3,
     "attack": 900,
     "defense": 1100,
-    "secondartypes": [
+    "secondarytypes": [
 
     ]
   },
@@ -9015,7 +9015,7 @@ var cardDB = TAFFY([
     "level": 2,
     "attack": 500,
     "defense": 600,
-    "secondartypes": [
+    "secondarytypes": [
 
     ]
   },
@@ -9031,7 +9031,7 @@ var cardDB = TAFFY([
     "level": 3,
     "attack": 800,
     "defense": 900,
-    "secondartypes": [
+    "secondarytypes": [
 
     ]
   },
@@ -9047,7 +9047,7 @@ var cardDB = TAFFY([
     "level": 2,
     "attack": 700,
     "defense": 600,
-    "secondartypes": [
+    "secondarytypes": [
       "Jar"
     ]
   },
@@ -9063,7 +9063,7 @@ var cardDB = TAFFY([
     "level": 3,
     "attack": 850,
     "defense": 900,
-    "secondartypes": [
+    "secondarytypes": [
       "Female"
     ]
   },
@@ -9079,7 +9079,7 @@ var cardDB = TAFFY([
     "level": 5,
     "attack": 1400,
     "defense": 1800,
-    "secondartypes": [
+    "secondarytypes": [
       "Turtle"
     ]
   },
@@ -9095,7 +9095,7 @@ var cardDB = TAFFY([
     "level": 6,
     "attack": 2000,
     "defense": 1800,
-    "secondartypes": [
+    "secondarytypes": [
       "Female"
     ]
   },
@@ -9111,7 +9111,7 @@ var cardDB = TAFFY([
     "level": 4,
     "attack": 1300,
     "defense": 1400,
-    "secondartypes": [
+    "secondarytypes": [
 
     ]
   },
@@ -9127,7 +9127,7 @@ var cardDB = TAFFY([
     "level": 4,
     "attack": 1600,
     "defense": 1200,
-    "secondartypes": [
+    "secondarytypes": [
 
     ]
   },
@@ -9143,7 +9143,7 @@ var cardDB = TAFFY([
     "level": 4,
     "attack": 1500,
     "defense": 1200,
-    "secondartypes": [
+    "secondarytypes": [
 
     ]
   },
@@ -9159,7 +9159,7 @@ var cardDB = TAFFY([
     "level": 2,
     "attack": 600,
     "defense": 550,
-    "secondartypes": [
+    "secondarytypes": [
       "Animal"
     ]
   },
@@ -9175,7 +9175,7 @@ var cardDB = TAFFY([
     "level": 4,
     "attack": 1550,
     "defense": 800,
-    "secondartypes": [
+    "secondarytypes": [
 
     ]
   },
@@ -9191,7 +9191,7 @@ var cardDB = TAFFY([
     "level": 4,
     "attack": 1050,
     "defense": 1200,
-    "secondartypes": [
+    "secondarytypes": [
 
     ]
   },
@@ -9207,7 +9207,7 @@ var cardDB = TAFFY([
     "level": 3,
     "attack": 700,
     "defense": 1400,
-    "secondartypes": [
+    "secondarytypes": [
       "Special-A",
       "Special-C"
     ]
@@ -9224,7 +9224,7 @@ var cardDB = TAFFY([
     "level": 2,
     "attack": 750,
     "defense": 500,
-    "secondartypes": [
+    "secondarytypes": [
 
     ]
   },
@@ -9240,7 +9240,7 @@ var cardDB = TAFFY([
     "level": 4,
     "attack": 1100,
     "defense": 1200,
-    "secondartypes": [
+    "secondarytypes": [
 
     ]
   },
@@ -9256,7 +9256,7 @@ var cardDB = TAFFY([
     "level": 3,
     "attack": 750,
     "defense": 800,
-    "secondartypes": [
+    "secondarytypes": [
       "Animal",
       "Special-B"
     ]
@@ -9273,7 +9273,7 @@ var cardDB = TAFFY([
     "level": 3,
     "attack": 950,
     "defense": 800,
-    "secondartypes": [
+    "secondarytypes": [
 
     ]
   },
@@ -9289,7 +9289,7 @@ var cardDB = TAFFY([
     "level": 3,
     "attack": 850,
     "defense": 700,
-    "secondartypes": [
+    "secondarytypes": [
 
     ]
   },
@@ -9305,7 +9305,7 @@ var cardDB = TAFFY([
     "level": 4,
     "attack": 1250,
     "defense": 1300,
-    "secondartypes": [
+    "secondarytypes": [
 
     ]
   },
@@ -9321,7 +9321,7 @@ var cardDB = TAFFY([
     "level": 4,
     "attack": 1300,
     "defense": 1100,
-    "secondartypes": [
+    "secondarytypes": [
       "Special-A"
     ]
   },
@@ -9337,7 +9337,7 @@ var cardDB = TAFFY([
     "level": 2,
     "attack": 600,
     "defense": 700,
-    "secondartypes": [
+    "secondarytypes": [
 
     ]
   },
@@ -9353,7 +9353,7 @@ var cardDB = TAFFY([
     "level": 3,
     "attack": 850,
     "defense": 800,
-    "secondartypes": [
+    "secondarytypes": [
 
     ]
   },
@@ -9369,7 +9369,7 @@ var cardDB = TAFFY([
     "level": 2,
     "attack": 650,
     "defense": 500,
-    "secondartypes": [
+    "secondarytypes": [
       "Special-B"
     ]
   },
@@ -9385,7 +9385,7 @@ var cardDB = TAFFY([
     "level": 3,
     "attack": 1100,
     "defense": 800,
-    "secondartypes": [
+    "secondarytypes": [
       "Female"
     ]
   },
@@ -9401,7 +9401,7 @@ var cardDB = TAFFY([
     "level": 7,
     "attack": 2800,
     "defense": 2100,
-    "secondartypes": [
+    "secondarytypes": [
       "Dragon"
     ]
   },
@@ -9417,7 +9417,7 @@ var cardDB = TAFFY([
     "level": 5,
     "attack": 1600,
     "defense": 1400,
-    "secondartypes": [
+    "secondarytypes": [
 
     ]
   },
@@ -9433,7 +9433,7 @@ var cardDB = TAFFY([
     "level": 4,
     "attack": 850,
     "defense": 1400,
-    "secondartypes": [
+    "secondarytypes": [
 
     ]
   },
@@ -9449,7 +9449,7 @@ var cardDB = TAFFY([
     "level": 4,
     "attack": 1100,
     "defense": 1200,
-    "secondartypes": [
+    "secondarytypes": [
 
     ]
   },
@@ -9465,7 +9465,7 @@ var cardDB = TAFFY([
     "level": 5,
     "attack": 1700,
     "defense": 1600,
-    "secondartypes": [
+    "secondarytypes": [
 
     ]
   },
@@ -9481,7 +9481,7 @@ var cardDB = TAFFY([
     "level": 6,
     "attack": 1900,
     "defense": 1700,
-    "secondartypes": [
+    "secondarytypes": [
       "Female"
     ]
   },
@@ -9497,7 +9497,7 @@ var cardDB = TAFFY([
     "level": 5,
     "attack": 1650,
     "defense": 1900,
-    "secondartypes": [
+    "secondarytypes": [
 
     ]
   },
@@ -9513,7 +9513,7 @@ var cardDB = TAFFY([
     "level": 4,
     "attack": 1000,
     "defense": 1200,
-    "secondartypes": [
+    "secondarytypes": [
 
     ]
   },
@@ -9529,7 +9529,7 @@ var cardDB = TAFFY([
     "level": 5,
     "attack": 1650,
     "defense": 1300,
-    "secondartypes": [
+    "secondarytypes": [
       "Female"
     ]
   },
@@ -9545,7 +9545,7 @@ var cardDB = TAFFY([
     "level": 5,
     "attack": 1600,
     "defense": 1500,
-    "secondartypes": [
+    "secondarytypes": [
       "Female"
     ]
   },
@@ -9561,7 +9561,7 @@ var cardDB = TAFFY([
     "level": 4,
     "attack": 1200,
     "defense": 1300,
-    "secondartypes": [
+    "secondarytypes": [
 
     ]
   },
@@ -9577,7 +9577,7 @@ var cardDB = TAFFY([
     "level": 5,
     "attack": 1650,
     "defense": 1300,
-    "secondartypes": [
+    "secondarytypes": [
 
     ]
   },
@@ -9593,7 +9593,7 @@ var cardDB = TAFFY([
     "level": 4,
     "attack": 1600,
     "defense": 1100,
-    "secondartypes": [
+    "secondarytypes": [
 
     ]
   },
@@ -9609,7 +9609,7 @@ var cardDB = TAFFY([
     "level": 4,
     "attack": 1300,
     "defense": 1400,
-    "secondartypes": [
+    "secondarytypes": [
       "Female"
     ]
   },
@@ -9625,7 +9625,7 @@ var cardDB = TAFFY([
     "level": 6,
     "attack": 1900,
     "defense": 2000,
-    "secondartypes": [
+    "secondarytypes": [
       "Female"
     ]
   },
@@ -9641,7 +9641,7 @@ var cardDB = TAFFY([
     "level": 2,
     "attack": 550,
     "defense": 500,
-    "secondartypes": [
+    "secondarytypes": [
       "Female"
     ]
   },
@@ -9657,7 +9657,7 @@ var cardDB = TAFFY([
     "level": 3,
     "attack": 950,
     "defense": 1100,
-    "secondartypes": [
+    "secondarytypes": [
       "Animal"
     ]
   },
@@ -9673,7 +9673,7 @@ var cardDB = TAFFY([
     "level": 4,
     "attack": 1400,
     "defense": 1100,
-    "secondartypes": [
+    "secondarytypes": [
 
     ]
   },
@@ -9689,7 +9689,7 @@ var cardDB = TAFFY([
     "level": 4,
     "attack": 1500,
     "defense": 1300,
-    "secondartypes": [
+    "secondarytypes": [
       "Female"
     ]
   },
@@ -9705,7 +9705,7 @@ var cardDB = TAFFY([
     "level": 5,
     "attack": 1600,
     "defense": 1500,
-    "secondartypes": [
+    "secondarytypes": [
 
     ]
   },
@@ -9721,7 +9721,7 @@ var cardDB = TAFFY([
     "level": 5,
     "attack": 1400,
     "defense": 1700,
-    "secondartypes": [
+    "secondarytypes": [
 
     ]
   },
@@ -9737,7 +9737,7 @@ var cardDB = TAFFY([
     "level": 4,
     "attack": 1150,
     "defense": 1300,
-    "secondartypes": [
+    "secondarytypes": [
 
     ]
   },
@@ -9753,7 +9753,7 @@ var cardDB = TAFFY([
     "level": 1,
     "attack": 350,
     "defense": 300,
-    "secondartypes": [
+    "secondarytypes": [
       "Female"
     ]
   },
@@ -9769,7 +9769,7 @@ var cardDB = TAFFY([
     "level": 4,
     "attack": 1600,
     "defense": 1200,
-    "secondartypes": [
+    "secondarytypes": [
       "Special-D"
     ]
   },
@@ -9785,7 +9785,7 @@ var cardDB = TAFFY([
     "level": 6,
     "attack": 1500,
     "defense": 1800,
-    "secondartypes": [
+    "secondarytypes": [
 
     ]
   },
@@ -9801,7 +9801,7 @@ var cardDB = TAFFY([
     "level": 5,
     "attack": 1800,
     "defense": 1500,
-    "secondartypes": [
+    "secondarytypes": [
       "Female"
     ]
   },
@@ -9817,7 +9817,7 @@ var cardDB = TAFFY([
     "level": 5,
     "attack": 1850,
     "defense": 1300,
-    "secondartypes": [
+    "secondarytypes": [
 
     ]
   },
@@ -9833,7 +9833,7 @@ var cardDB = TAFFY([
     "level": 3,
     "attack": 900,
     "defense": 700,
-    "secondartypes": [
+    "secondarytypes": [
 
     ]
   },
@@ -9849,7 +9849,7 @@ var cardDB = TAFFY([
     "level": 5,
     "attack": 1350,
     "defense": 1700,
-    "secondartypes": [
+    "secondarytypes": [
       "Female"
     ]
   },
@@ -9865,7 +9865,7 @@ var cardDB = TAFFY([
     "level": 3,
     "attack": 1150,
     "defense": 900,
-    "secondartypes": [
+    "secondarytypes": [
       "Animal"
     ]
   },
@@ -9881,7 +9881,7 @@ var cardDB = TAFFY([
     "level": 4,
     "attack": 1350,
     "defense": 1000,
-    "secondartypes": [
+    "secondarytypes": [
 
     ]
   },
@@ -9897,7 +9897,7 @@ var cardDB = TAFFY([
     "level": 2,
     "attack": 400,
     "defense": 450,
-    "secondartypes": [
+    "secondarytypes": [
 
     ]
   },
@@ -9913,7 +9913,7 @@ var cardDB = TAFFY([
     "level": 6,
     "attack": 1900,
     "defense": 2200,
-    "secondartypes": [
+    "secondarytypes": [
 
     ]
   },
@@ -9929,7 +9929,7 @@ var cardDB = TAFFY([
     "level": 3,
     "attack": 1300,
     "defense": 700,
-    "secondartypes": [
+    "secondarytypes": [
 
     ]
   },
@@ -9945,7 +9945,7 @@ var cardDB = TAFFY([
     "level": 4,
     "attack": 1500,
     "defense": 900,
-    "secondartypes": [
+    "secondarytypes": [
 
     ]
   },
@@ -9961,7 +9961,7 @@ var cardDB = TAFFY([
     "level": 5,
     "attack": 1600,
     "defense": 1300,
-    "secondartypes": [
+    "secondarytypes": [
 
     ]
   },
@@ -9977,7 +9977,7 @@ var cardDB = TAFFY([
     "level": 4,
     "attack": 1450,
     "defense": 1000,
-    "secondartypes": [
+    "secondarytypes": [
       "Female"
     ]
   },
@@ -9993,7 +9993,7 @@ var cardDB = TAFFY([
     "level": 5,
     "attack": 1650,
     "defense": 1600,
-    "secondartypes": [
+    "secondarytypes": [
 
     ]
   },
@@ -10359,7 +10359,7 @@ var cardDB = TAFFY([
     "level": 6,
     "attack": 1950,
     "defense": 1850,
-    "secondartypes": [
+    "secondarytypes": [
 
     ]
   },
@@ -10375,7 +10375,7 @@ var cardDB = TAFFY([
     "level": 6,
     "attack": 2000,
     "defense": 1800,
-    "secondartypes": [
+    "secondarytypes": [
 
     ]
   },
@@ -10391,7 +10391,7 @@ var cardDB = TAFFY([
     "level": 8,
     "attack": 2750,
     "defense": 2500,
-    "secondartypes": [
+    "secondarytypes": [
 
     ]
   },
@@ -10407,7 +10407,7 @@ var cardDB = TAFFY([
     "level": 7,
     "attack": 2050,
     "defense": 2500,
-    "secondartypes": [
+    "secondarytypes": [
 
     ]
   },
@@ -10423,7 +10423,7 @@ var cardDB = TAFFY([
     "level": 8,
     "attack": 2850,
     "defense": 2350,
-    "secondartypes": [
+    "secondarytypes": [
 
     ]
   },
@@ -10439,7 +10439,7 @@ var cardDB = TAFFY([
     "level": 7,
     "attack": 2350,
     "defense": 2400,
-    "secondartypes": [
+    "secondarytypes": [
 
     ]
   },
@@ -10455,7 +10455,7 @@ var cardDB = TAFFY([
     "level": 7,
     "attack": 2650,
     "defense": 2250,
-    "secondartypes": [
+    "secondarytypes": [
 
     ]
   },
@@ -10471,7 +10471,7 @@ var cardDB = TAFFY([
     "level": 8,
     "attack": 2900,
     "defense": 2450,
-    "secondartypes": [
+    "secondarytypes": [
       "Female"
     ]
   },
@@ -10487,7 +10487,7 @@ var cardDB = TAFFY([
     "level": 8,
     "attack": 2450,
     "defense": 2000,
-    "secondartypes": [
+    "secondarytypes": [
 
     ]
   },
@@ -10503,7 +10503,7 @@ var cardDB = TAFFY([
     "level": 8,
     "attack": 2550,
     "defense": 2500,
-    "secondartypes": [
+    "secondarytypes": [
       "Turtle"
     ]
   },
@@ -10519,7 +10519,7 @@ var cardDB = TAFFY([
     "level": 7,
     "attack": 2200,
     "defense": 2350,
-    "secondartypes": [
+    "secondarytypes": [
 
     ]
   },
@@ -10535,7 +10535,7 @@ var cardDB = TAFFY([
     "level": 6,
     "attack": 1800,
     "defense": 2000,
-    "secondartypes": [
+    "secondarytypes": [
 
     ]
   },
@@ -10551,7 +10551,7 @@ var cardDB = TAFFY([
     "level": 8,
     "attack": 3500,
     "defense": 2000,
-    "secondartypes": [
+    "secondarytypes": [
 
     ]
   },
@@ -10567,7 +10567,7 @@ var cardDB = TAFFY([
     "level": 6,
     "attack": 2250,
     "defense": 1800,
-    "secondartypes": [
+    "secondarytypes": [
 
     ]
   },
@@ -10583,7 +10583,7 @@ var cardDB = TAFFY([
     "level": 7,
     "attack": 2000,
     "defense": 2350,
-    "secondartypes": [
+    "secondarytypes": [
 
     ]
   },
@@ -10599,7 +10599,7 @@ var cardDB = TAFFY([
     "level": 7,
     "attack": 2550,
     "defense": 2150,
-    "secondartypes": [
+    "secondarytypes": [
 
     ]
   },
@@ -10615,7 +10615,7 @@ var cardDB = TAFFY([
     "level": 8,
     "attack": 2450,
     "defense": 2550,
-    "secondartypes": [
+    "secondarytypes": [
 
     ]
   },
@@ -10631,7 +10631,7 @@ var cardDB = TAFFY([
     "level": 8,
     "attack": 2350,
     "defense": 2150,
-    "secondartypes": [
+    "secondarytypes": [
 
     ]
   },
@@ -10647,7 +10647,7 @@ var cardDB = TAFFY([
     "level": 6,
     "attack": 1900,
     "defense": 1850,
-    "secondartypes": [
+    "secondarytypes": [
 
     ]
   },
@@ -10663,7 +10663,7 @@ var cardDB = TAFFY([
     "level": 6,
     "attack": 2000,
     "defense": 1800,
-    "secondartypes": [
+    "secondarytypes": [
 
     ]
   },
@@ -10686,7 +10686,7 @@ var cardDB = TAFFY([
     "level": 8,
     "attack": 2800,
     "defense": 2600,
-    "secondartypes": [
+    "secondarytypes": [
 
     ]
   }

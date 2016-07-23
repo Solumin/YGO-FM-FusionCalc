@@ -18,7 +18,7 @@ File.readlines("data/ygo_fm_cardDB.csv").each do |line|
         props[:level] = fields[8].to_i
         props[:attack] = fields[9].to_i
         props[:defense] = fields[10].to_i
-        props[:secondartypes] = fields[11][1..-2].split ", "
+        props[:secondarytypes] = fields[11][1..-2].split ", "
     end
     cards << props
 end
