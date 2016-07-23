@@ -10,6 +10,10 @@
         <!-- Awesomplete: -->
         <link rel='stylesheet' href='public/styles/awesomplete.css' />
         <script type="text/javascript" src="public/javascripts/awesomplete.js"></script>
+
+        <!-- Isotope: -->
+        <script type="text/javascript" src="public/javascripts/isotope.pkgd.min.js"></script>
+
     </head>
     <body>
     <!--  Navbar -->
@@ -57,15 +61,22 @@
                     </div>
                 </div>
             </div>
+            <h2>Sort</h2>
+              <div id="sorts" class="button-group">  <button class="button is-checked" data-sort-by="original-order">original order</button>
+                <button id="attack" class="button" data-sort-by="attack">attack</button>
+                <button id="defense" class="button" data-sort-by="defense">defense</button>
+              </div>
             <div class="row">
                 <div class="col-xs-12">
                     <div class="panel panel-default upload-font">
                         <div class="panel-body">
                             <h4>Results: <span id="search-msg"></span></h4>
                             <div class="col-xs-6">
-                                <div id="outputarealeft"></div>
+                                <h2 class='center'>Monster Fuses:</h2>
+                                <div id="outputarealeft"><div id="grid"></div></div>
                             </div>
                             <div class="col-xs-6">
+                                <h2 class='center'>Equippables:</h2>
                                 <div id="outputarearight"></div>
                             </div>
                         </div>
@@ -81,7 +92,8 @@
     <script type="text/javascript" src="data/ygo_fm_genfuseDB.js"></script>
     <script type="text/javascript" src="data/ygo_fm_monsterfuseDB.js"></script>
     <script type="text/javascript" src="data/ygo_fm_equipDB.js"></script>
-    <script type="text/javascript" src="public/javascripts/handCalc.js"</script>
+    <script type="text/javascript" src="public/javascripts/isotope.js"></script>
+    <script type="text/javascript" src="public/javascripts/handCalc.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
     </body>
 </html>

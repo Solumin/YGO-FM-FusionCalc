@@ -3,6 +3,7 @@
   margin: 20px;
   border: 1px dotted #337ab7;
   border-radius: 10px;
+  width: 80%;
 }
 
 .hand-input-group input {

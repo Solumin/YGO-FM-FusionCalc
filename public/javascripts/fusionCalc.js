@@ -6,6 +6,8 @@ var outputMonster = document.getElementById("outputarealeft");
 var outputGeneral = document.getElementById("outputarearight");
 var outputCard = document.getElementById("outputcard");
 
+var $grid;
+
 var formatStr = "<div class='result-div'>Left Input:  {left}<br>Right Input: {right}<br>Output: {output} ({attack}/{defense})<br><br></div>";
 var typeStr = "<div class='result-div'>Left Input:  {left}<br>Right Input: {right}<br>Output: {output} ({type})<br><br></div>";
 
@@ -28,10 +30,10 @@ $("#cardname").on("awesomplete-selectcomplete", function() {
 
 function fusesToHTML(fuselist) {
     return fuselist.map(function(fusion) {
-        var res = "<div class='result-div'>Left Input: " + fusion.left + "<br>Right Input: " + fusion.right;
+        var res = "<div class='result-div card-item'>Left Input: " + fusion.left + "<br>Right Input: " + fusion.right;
         if (fusion.type === "Monster") {
             res += "<br>Output: " + fusion.output;
-            res += " (" + fusion.attack + "/" + fusion.defense + ")";
+            res += "(<span class='attack'>" + fusion.attack + "</span>" + "/" + "<span class='defense'>" + fusion.defense + "</span>" + ")";
         } else if  (fusion.type !== "Equippable") {
             res += "<br>Output: " + fusion.output + " (" + fusion.type + ")";
         } // Equippable fusions (from equipDB) have no output, just left and right
@@ -72,6 +74,8 @@ function searchByName() {
             outputCard.innerHTML = "<div class='result-div'>" + "Name: " +
                 card.name + "<br>" + "Type: " + card.cardtype + "</div>";
         }
+
+
     }
 
     // Get the list of monster-to-monster fusions
@@ -81,12 +85,16 @@ function searchByName() {
     var genfuses = genfuseDB({left:{isnocase:genterm}},{attack:{gt:card.attack}},{minattack:{lte:card.attack}});
 
     if (monfuses.count() > 0) {
-        outputMonster.innerHTML = "<h2 class='center'>Monster Fuses:</h2>";
-        outputMonster.innerHTML += fusesToHTML(monfuses.get());
+        // outputMonster.innerHTML = "<h2 class='center'>Monster Fuses:</h2>";
+        outputMonster.innerHTML = fusesToHTML(monfuses.get());
     }
     if (genfuses.count() > 0) {
-        outputGeneral.innerHTML = "<h2 class='center'>General Fuses:</h2>";
-        outputGeneral.innerHTML += fusesToHTML(genfuses.get());
+        // outputGeneral.innerHTML = "<h2 class='center'>General Fuses:</h2>";
+        outputGeneral.innerHTML = fusesToHTML(genfuses.get());
+    }
+
+    if ($grid) {
+      gridRenew();
     }
 }
 
@@ -151,4 +159,24 @@ document.getElementById("resetBtn").onclick = function() {
 function resultsClear(){
     outputMonster.innerHTML = "";
     outputGeneral.innerHTML = "";
+}
+
+// Clears/reinitializes isotope grid for sorting after search
+function gridRenew() {
+    $grid.isotope('destroy');
+
+    $grid = $('#outputarealeft').isotope({
+      itemSelector: '.card-item',
+      layoutMode: 'fitRows',
+      getSortData: {
+        defense: function( card ) {
+          var defense = $( card).find('.defense').text();
+          return parseFloat( defense.replace( /[\(\)]/g, '') * -1 );
+        },
+        attack: function( card ) {
+          var attack = $( card).find('.attack').text();
+          return parseFloat( attack.replace( /[\(\)]/g, '') * -1 );
+        }
+      }
+    });
 }

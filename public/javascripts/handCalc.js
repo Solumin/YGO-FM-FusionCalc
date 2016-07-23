@@ -1,5 +1,6 @@
 var outputMonster = document.getElementById("outputarealeft");
 var outputEquips = document.getElementById("outputarearight");
+var $grid;
 
 // Initialize Awesomplete
 var _awesompleteOpts = {
@@ -15,7 +16,7 @@ for (i = 1; i <= 5; i++) {
 
 function fusesToHTML(fuselist) {
     return fuselist.map(function(fusion) {
-        var res = "<div class='result-div'>Left Input: " + fusion.left + "<br>Right Input: " + fusion.right;
+        var res = "<div class='result-div card-item'>Left Input: " + fusion.left + "<br>Right Input: " + fusion.right;
         if (fusion.type === "Monster") {
             res += ["<br>Output:", fusion.output, formatStats(fusion.attack, fusion.defense)].join(" ");
         } else if  (fusion.type !== "Equippable") {
@@ -40,8 +41,9 @@ function lookupSecondaries(cardname) {
     }
 }
 
+// Format stat string with classes for isotope sorting
 function formatStats(attack, defense) {
-    return "(" + attack + "/" + defense + ")";
+    return "(<span class='attack'>" + attack + "</span>" + "/" + "<span class='defense'>" + defense + "</span>" + ")";
 }
 
 function checkCard(cardname, infoname) {
@@ -104,13 +106,19 @@ function findFusions() {
     var equipFuses = equipDB(leftTerm, rightTerm).get();
 
     if (monsterFuses.length > 0) {
-        outputMonster.innerHTML = "<h2 class='center'>Monster Fuses:</h2>";
-        outputMonster.innerHTML += fusesToHTML(monsterFuses.sort((a,b) => b.attack - a.attack));
+        // outputMonster.innerHTML = "<h2 class='center'>Monster Fuses:</h2>";
+        outputMonster.innerHTML = fusesToHTML(monsterFuses.sort((a,b) => b.attack - a.attack));
     }
     if (equipFuses.length > 0) {
-        outputEquips.innerHTML = "<h2 class='center'>Equippables:</h2>";
-        outputEquips.innerHTML += fusesToHTML(equipFuses);
+        // outputEquips.innerHTML = "<h2 class='center'>Equippables:</h2>";
+        outputEquips.innerHTML = fusesToHTML(equipFuses);
     }
+    // Destroy previous (outdated) isotope grid
+    // Initialize a new isotope grid with new elements
+    if ($grid) {
+      gridRenew();
+    }
+
 }
 
 function resultsClear() {
@@ -123,6 +131,26 @@ function inputsClear() {
         $("#hand" + i).val("");
         $("#hand" + i + "-info").html("");
     }
+}
+
+// Clears/reinitializes isotope grid for sorting after search
+function gridRenew() {
+    $grid.isotope('destroy');
+
+    $grid = $('#outputarealeft').isotope({
+      itemSelector: '.card-item',
+      layoutMode: 'fitRows',
+      getSortData: {
+        defense: function( card ) {
+          var defense = $( card).find('.defense').text();
+          return parseFloat( defense.replace( /[\(\)]/g, '') * -1 );
+        },
+        attack: function( card ) {
+          var attack = $( card).find('.attack').text();
+          return parseFloat( attack.replace( /[\(\)]/g, '') * -1 );
+        }
+      }
+    });
 }
 
 // Set up event listeners for each card input
@@ -148,4 +176,5 @@ for (i = 1; i <= 5; i++) {
 $("#resetBtn").on("click", function() {
     resultsClear();
     inputsClear();
+    console.log('results cleared')
 });
