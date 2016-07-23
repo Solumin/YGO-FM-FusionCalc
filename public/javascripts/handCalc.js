@@ -29,17 +29,6 @@ function lookupCard(cardname) {
     return cardDB({name:{isnocase:cardname}}).first();
 }
 
-function lookupSecondaries(cardname) {
-    var secondaries = secondaryDB({name:{isnocase:cardname}}).select("secondarytypes");
-    // If there are any secondaries, they'll be in the first element of the
-    // array. Otherwise the array is empty and can safely be used
-    if (secondaries[0]) {
-        return secondaries[0];
-    } else {
-        return [];
-    }
-}
-
 function formatStats(attack, defense) {
     return "(" + attack + "/" + defense + ")";
 }
@@ -50,8 +39,7 @@ function checkCard(cardname, infoname) {
     if (!card) {
         info.html("Invalid card name");
     } else if (card.cardtype === "Monster") {
-        var secondaries = lookupSecondaries(card.name);
-        info.html(formatStats(card.attack, card.defense) + " [" + [card.type].concat(secondaries).join(", ") + "]");
+        info.html(formatStats(card.attack, card.defense) + " [" + [card.type].concat(card.secondarytypes).join(", ") + "]");
     } else {
         info.html("(" + card.cardtype + ")");
     }
@@ -84,10 +72,10 @@ function findFusions() {
 
     for (i = 0; i < cards.length -1; i++) {
         var curr = cards[i].name;
-        var lterm = [curr, cards[i].type].concat(lookupSecondaries(curr));
+        var lterm = [curr, cards[i].type].concat(cards[i].secondarytypes);
         for (j = i+1; j < cards.length; j++) {
             var other = cards[j].name;
-            var rterm = [other, cards[j].type].concat(lookupSecondaries(other));
+            var rterm = [other, cards[j].type].concat(cards[j].secondarytypes);
             monsterFuses = monsterFuses.concat(monsterfuseDB({left:{isnocase:curr}},{right:{isnocase:other}}).get());
             var genfuses = genfuseDB({left:{isnocase:lterm}}, {right:{isnocase:rterm}}).get();
             monsterFuses = monsterFuses.concat(genfuses.map(function(fusion) {
