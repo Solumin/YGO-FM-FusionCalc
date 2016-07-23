@@ -1,4 +1,4 @@
-var genfuseDB = TAFFY([
+[
   {
     "left": "Animal",
     "right": "Female",
@@ -2204,4 +2204,4 @@ var genfuseDB = TAFFY([
     "minattack": 0,
     "type": "Monster"
   }
-])
+]

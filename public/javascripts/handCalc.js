@@ -1,6 +1,18 @@
 var outputMonster = document.getElementById("outputarealeft");
 var outputEquips = document.getElementById("outputarearight");
 
+// Initialize Awesomplete
+var _awesompleteOpts = {
+    list: cardDB().get().map(c => c.name),  // List is all the cards in the DB
+    autoFirst: true,                        // The first item in the list is selected
+    filter: Awesomplete.FILTER_STARTSWITH   // Case insensitive from start of word
+};
+var handCompletions = {}
+for (i = 1; i <= 5; i++) {
+    var hand = document.getElementById("hand" + i);
+    handCompletions["hand"+i] = new Awesomplete(hand, _awesompleteOpts);
+}
+
 function fusesToHTML(fuselist) {
     return fuselist.map(function(fusion) {
         var res = "<div class='result-div'>Left Input: " + fusion.left + "<br>Right Input: " + fusion.right;
@@ -17,6 +29,17 @@ function lookupCard(cardname) {
     return cardDB({name:{isnocase:cardname}}).first();
 }
 
+function lookupSecondaries(cardname) {
+    var secondaries = secondaryDB({name:{isnocase:cardname}}).select("secondarytypes");
+    // If there are any secondaries, they'll be in the first element of the
+    // array. Otherwise the array is empty and can safely be used
+    if (secondaries[0]) {
+        return secondaries[0];
+    } else {
+        return [];
+    }
+}
+
 function formatStats(attack, defense) {
     return "(" + attack + "/" + defense + ")";
 }
@@ -27,12 +50,7 @@ function checkCard(cardname, infoname) {
     if (!card) {
         info.html("Invalid card name");
     } else if (card.cardtype === "Monster") {
-        var secondaries = secondaryDB({name:{isnocase:card.name}}).select("secondarytypes");
-        // If there are any secondaries, they'll be in the first element of the
-        // array. Otherwise the array is empty and can safely be concated.
-        if (secondaries[0]) {
-            secondaries = secondaries[0];
-        }
+        var secondaries = lookupSecondaries(card.name);
         info.html(formatStats(card.attack, card.defense) + " [" + [card.type].concat(secondaries).join(", ") + "]");
     } else {
         info.html("(" + card.cardtype + ")");
@@ -61,12 +79,25 @@ function findFusions() {
     // Assumes the data is perfect, i.e. each fusion is reciprocated.
     // This does not take into account equipment
     // (So we'll get Beast Fang + Megamorph, but not Aqua Dragon + Beast Fangs)
+    // Also finds general fusions based on types
     var monsterFuses = [];
-    for (i = 0; i < cards.length - 1; i++) {
+
+    for (i = 0; i < cards.length -1; i++) {
         var curr = cards[i].name;
-        var names = cards.slice(i+1).map(c => c.name);
-        monsterFuses = monsterFuses.concat(monsterfuseDB({left:{isnocase:curr}},{right:{isnocase:names}}).get());
+        var lterm = [curr, cards[i].type].concat(lookupSecondaries(curr));
+        for (j = i+1; j < cards.length; j++) {
+            var other = cards[j].name;
+            var rterm = [other, cards[j].type].concat(lookupSecondaries(other));
+            monsterFuses = monsterFuses.concat(monsterfuseDB({left:{isnocase:curr}},{right:{isnocase:other}}).get());
+            var genfuses = genfuseDB({left:{isnocase:lterm}}, {right:{isnocase:rterm}}).get();
+            monsterFuses = monsterFuses.concat(genfuses.map(function(fusion) {
+                fusion.left = curr;
+                fusion.right = other;
+                return fusion;
+            }));
+        }
     }
+
     // Get just the monsters and their equipment fusions
     var leftTerm = {left:{isnocase:monsters.map(c => c.name)}};
     var rightTerm = {right:{isnocase:others.map(c => c.name)}};
@@ -97,6 +128,17 @@ function inputsClear() {
 // Set up event listeners for each card input
 for (i = 1; i <= 5; i++) {
     $("#hand" + i).on("change", function() {
+        handCompletions[this.id].select(); // select the currently highlighted element
+        if (this.value === "") { // If the box is cleared, remove the card info
+            $("#" + this.id + "-info").html("");
+        } else {
+            checkCard(this.value, this.id + "-info");
+        }
+        resultsClear();
+        findFusions();
+    });
+
+    $("#hand" + i).on("awesomplete-selectcomplete", function() {
         checkCard(this.value, this.id + "-info");
         resultsClear();
         findFusions();

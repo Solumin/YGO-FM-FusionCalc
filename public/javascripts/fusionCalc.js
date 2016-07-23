@@ -9,6 +9,23 @@ var outputCard = document.getElementById("outputcard");
 var formatStr = "<div class='result-div'>Left Input:  {left}<br>Right Input: {right}<br>Output: {output} ({attack}/{defense})<br><br></div>";
 var typeStr = "<div class='result-div'>Left Input:  {left}<br>Right Input: {right}<br>Output: {output} ({type})<br><br></div>";
 
+// Initialize awesomplete
+var cardNameCompletion = new Awesomplete(nameInput,
+        {
+            list: cardDB().get().map(c => c.name),  // list is all the cards in the DB
+            autoFirst: true,                        // The first item in the list is selected
+            filter: Awesomplete.FILTER_STARTSWITH   // case insensitive from start of word
+        });
+$("#cardname").on("change", function() {
+    cardNameCompletion.select(); // select the currently highlighted item, e.g. if user tabs
+    resultsClear();
+    searchByName();
+});
+$("#cardname").on("awesomplete-selectcomplete", function() {
+    resultsClear();
+    searchByName();
+});
+
 function fusesToHTML(fuselist) {
     return fuselist.map(function(fusion) {
         var res = "<div class='result-div'>Left Input: " + fusion.left + "<br>Right Input: " + fusion.right;
@@ -33,7 +50,6 @@ function searchByName() {
 
     var card = cardDB({name:{isnocase:nameInput.value}}).first();
     var secondaries = [];
-    console.log(card);
 
     if (!card) {
         console.log(nameInput.value + " is an invalid name");
@@ -69,7 +85,7 @@ function searchByName() {
         outputMonster.innerHTML += fusesToHTML(monfuses.get());
     }
     if (genfuses.count() > 0) {
-        outputGeneral.innerHTML += "<h2 class='center'>General Fuses:</h2>";
+        outputGeneral.innerHTML = "<h2 class='center'>General Fuses:</h2>";
         outputGeneral.innerHTML += fusesToHTML(genfuses.get());
     }
 }
@@ -91,10 +107,8 @@ function searchByType() {
         return;
     }
 
-    console.log(term);
     var monfuses = monsterfuseDB({type:term});
     var genfuses = genfuseDB({left:term});
-    console.log(monfuses.count());
     if (monfuses.count() > 0) {
         outputMonster.innerHTML = "<h2 class='center'>Monster Fuses:</h2>";
         outputMonster.innerHTML += monfuses.supplant(typeStr);
@@ -110,6 +124,7 @@ function searchByType() {
 
 document.getElementById("searchNameBtn").onclick = function() {
     $("#search-msg").html("");
+    cardNameCompletion.select(); // select the currently highlighted item
     resultsClear();
     searchByName();
 }
