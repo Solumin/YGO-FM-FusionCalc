@@ -1,6 +1,6 @@
-// var outputMonster = document.getElementById("outputarealeft");
-var outputMonster = document.getElementById("grid");
+var outputMonster = document.getElementById("outputarealeft");
 var outputEquips = document.getElementById("outputarearight");
+var $grid;
 
 // Initialize Awesomplete
 var _awesompleteOpts = {
@@ -113,6 +113,11 @@ function findFusions() {
         // outputEquips.innerHTML = "<h2 class='center'>Equippables:</h2>";
         outputEquips.innerHTML = fusesToHTML(equipFuses);
     }
+    // Destroy previous (outdated) isotope grid
+    // Initialize a new isotope grid with new elements
+    if ($grid) {
+      gridRenew();
+    }
 
 }
 
@@ -126,6 +131,26 @@ function inputsClear() {
         $("#hand" + i).val("");
         $("#hand" + i + "-info").html("");
     }
+}
+
+// Clears/reinitializes isotope grid for sorting after search
+function gridRenew() {
+    $grid.isotope('destroy');
+
+    $grid = $('#outputarealeft').isotope({
+      itemSelector: '.card-item',
+      layoutMode: 'fitRows',
+      getSortData: {
+        defense: function( card ) {
+          var defense = $( card).find('.defense').text();
+          return parseFloat( defense.replace( /[\(\)]/g, '') * -1 );
+        },
+        attack: function( card ) {
+          var attack = $( card).find('.attack').text();
+          return parseFloat( attack.replace( /[\(\)]/g, '') * -1 );
+        }
+      }
+    });
 }
 
 // Set up event listeners for each card input

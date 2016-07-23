@@ -1,5 +1,6 @@
 // external js: isotope.pkgd.js
 
+//  initialize Isotope grid for sorting
 
 
 
@@ -27,8 +28,7 @@ $('#filters').on( 'click', 'button', function() {
 
 // bind sort button click
 $('#sorts').on( 'click', 'button', function() {
-  //  initialize Isotope grid for sorting
-  var $grid = $('#grid').isotope({
+  $grid = $('#outputarealeft').isotope({
     itemSelector: '.card-item',
     layoutMode: 'fitRows',
     getSortData: {
@@ -42,6 +42,7 @@ $('#sorts').on( 'click', 'button', function() {
       }
     }
   });
+  // $grid.isotope( 'updateSortData' )
   var sortByValue = $(this).attr('data-sort-by');
   $grid.isotope({ sortBy: sortByValue });
   console.log('sort clicked')
