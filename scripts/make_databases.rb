@@ -5,6 +5,8 @@ require 'json'
 # Equip Format: Just list of card #s
 # Result Format:
 # { :card1 => X, :card2 => Y } preferably with X < Y
+# Cards are indexed from 1, leaving a null entry at index 0 for each list. To
+# keep this as a special value, every card's index will be initialized.
 
 cards = JSON.parse(File.read("data/Cards.json"))
 
@@ -14,6 +16,9 @@ equips = []
 
 cards.each do |card|
     id = card["Id"].to_i
+    fusions[id] = [] if fusions[id].nil?
+    results[id] = [] if results[id].nil?
+    equips[id] = [] if equips[id].nil?
     if not card["Fusions"].nil?
         # Set up the card's entry in the array if necessary
         fusions[id] = [] if fusions[id].nil?
@@ -28,7 +33,6 @@ cards.each do |card|
             fusions[id] << {:card => card2, :result => result}
             fusions[card2] << {:card => id, :result => result}
 
-            results[result] = [] if results[result].nil?
             results[result] = {:card1 => id, :card2 => card2}
         end
     end
@@ -40,6 +44,7 @@ cards.each do |card|
             equips[target] = [] if equips[target].nil?
             equips[target] << id
             equips[id] << target
+            puts card["Name"] if target == 0 || id == 0
         end
     end
 end
@@ -68,5 +73,5 @@ File.open("data/equips.js", "w") { |file|
     file.write("var equipsDB = TAFFY(#{output})")
 }
 
-put "STATS: #{fusions.size} fusions, #{equips.size} equips, #{results.size} results"
-put "Wrote JS and JSON files for each"
+puts "STATS: #{fusions.size} fusions, #{equips.size} equips, #{results.size} results"
+puts "Wrote JS and JSON files for each"
