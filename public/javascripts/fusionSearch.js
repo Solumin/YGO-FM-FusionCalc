@@ -12,7 +12,7 @@ var typeStr = "<div class='result-div'>Left Input:  {left}<br>Right Input: {righ
 // Initialize awesomplete
 var cardNameCompletion = new Awesomplete(nameInput,
         {
-            list: cardDB().get().map(c => c.name),  // list is all the cards in the DB
+            list: cardDB().get().map(c => c.Name),  // list is all the cards in the DB
             autoFirst: true,                        // The first item in the list is selected
             filter: Awesomplete.FILTER_STARTSWITH   // case insensitive from start of word
         });
@@ -28,15 +28,26 @@ $("#cardname").on("awesomplete-selectcomplete", function() {
 
 function fusesToHTML(fuselist) {
     return fuselist.map(function(fusion) {
-        var res = "<div class='result-div'>Left Input: " + fusion.left + "<br>Right Input: " + fusion.right;
-        if (fusion.type === "Monster") {
-            res += "<br>Output: " + fusion.output;
-            res += " (" + fusion.attack + "/" + fusion.defense + ")";
-        } else if  (fusion.type !== "Equippable") {
-            res += "<br>Output: " + fusion.output + " (" + fusion.type + ")";
-        } // Equippable fusions (from equipDB) have no output, just left and right
+        var res = "<div class='result-div'>Input: " + fusion.card1.Name + "<br>Input: " + fusion.card2.Name;
+        if (fusion.result) { // Equips and Results don't have a result field
+            res += "<br>Result: " + fusion.result.Name;
+            res += " (" + fusion.result.Attack + "/" + fusion.result.Defense + ")";
+        }
         return res + "<br><br></div>";
     }).join("\n");
+}
+
+// Returns the card with a given ID
+function getCardById(id) {
+    var card = cardDB({Id:id}).first();
+    if (!card) {
+        return null;
+    }
+    return card;
+}
+
+function isMonster(card) {
+    return card.Type < 20;
 }
 
 function searchByName() {
@@ -48,38 +59,41 @@ function searchByName() {
         return;
     }
 
-    var card = cardDB({name:{isnocase:nameInput.value}}).first();
+    var card = cardDB({Name:{isnocase:nameInput.value}}).first();
     if (!card) {
         console.log(nameInput.value + " is an invalid name");
         $("#search-msg").html("No card for '" + nameInput.value + "' found");
         return;
     } else {
-        if (card.cardtype === "Monster") {
+        if (isMonster(card)) {
             // Display card beside search bar
             outputCard.innerHTML = "<div class='result-div'>" + "Name: " +
-                card.name + "<br>" + "ATK/DEF: " + card.attack + "/" +
-                card.defense + "<br>" + "Type: " +
-                [card.type].concat(card.secondarytypes).join(", ") + "</div>";
+                card.Name + "<br>" + "ATK/DEF: " + card.Attack + "/" +
+                card.Defense + "<br>" + "Type: " + cardTypes[card.Type] + "</div>";
         } else {
             outputCard.innerHTML = "<div class='result-div'>" + "Name: " +
-                card.name + "<br>" + "Type: " + card.cardtype + "</div>";
+                card.Name + "<br>" + "Type: " + cardTypes[card.Type] + "</div>";
         }
     }
 
-    // Get the list of monster-to-monster fusions
-    var monfuses = monsterfuseDB({left:{isnocase:card.name}});
+    // Get the list of fusions and equips
+    var fuses = fusionsList[card.Id].map(f => {
+        return {card1: card, card2: getCardById(f.card), result: getCardById(f.result)};
+    });
+    var equips = equipsList[card.Id].map(e => {
+        return {card1: card, card2: getCardById(e)};
+    });
 
-    var genterm = [card.name, card.type].concat(card.secondarytypes);
-    var genfuses = genfuseDB({left:{isnocase:genterm}},{attack:{gt:card.attack}},{minattack:{lte:card.attack}});
+    // var results = resultsList[card.Id].map(r => {
+    //     return {card1: getCardById(r.card1), card2: getCardById(r.card2)};
+    // });
 
-    if (monfuses.count() > 0) {
-        outputMonster.innerHTML = "<h2 class='center'>Monster Fuses:</h2>";
-        outputMonster.innerHTML += fusesToHTML(monfuses.get());
-    }
-    if (genfuses.count() > 0) {
-        outputGeneral.innerHTML = "<h2 class='center'>General Fuses:</h2>";
-        outputGeneral.innerHTML += fusesToHTML(genfuses.get());
-    }
+        outputMonster.innerHTML = "<h2 class='center'>Fusions:</h2>";
+        outputMonster.innerHTML += fusesToHTML(fuses);
+
+        outputGeneral.innerHTML = "<h2 class='center'>Equips:</h2>";
+        outputGeneral.innerHTML += fusesToHTML(equips);
+
 }
 
 function searchByType() {
@@ -137,6 +151,7 @@ document.getElementById("resetBtn").onclick = function() {
     cardTypeInput.value = "";
     outputMonster.innerHTML = "";
     outputGeneral.innerHTML = "";
+    outputCard.innerHTML = "";
     $("#search-msg").html("");
 }
 
