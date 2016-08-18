@@ -1,13 +1,8 @@
 var nameInput = document.getElementById("cardname");
-var typeInput = document.getElementById("monstertype");
-var cardTypeInput = document.getElementById("cardtype");
 
 var outputMonster = document.getElementById("outputarealeft");
 var outputGeneral = document.getElementById("outputarearight");
 var outputCard = document.getElementById("outputcard");
-
-var formatStr = "<div class='result-div'>Left Input:  {left}<br>Right Input: {right}<br>Output: {output} ({attack}/{defense})<br><br></div>";
-var typeStr = "<div class='result-div'>Left Input:  {left}<br>Right Input: {right}<br>Output: {output} ({type})<br><br></div>";
 
 // Initialize awesomplete
 var cardNameCompletion = new Awesomplete(nameInput,
@@ -88,44 +83,11 @@ function searchByName() {
     //     return {card1: getCardById(r.card1), card2: getCardById(r.card2)};
     // });
 
-        outputMonster.innerHTML = "<h2 class='center'>Fusions:</h2>";
-        outputMonster.innerHTML += fusesToHTML(fuses);
+    outputMonster.innerHTML = "<h2 class='center'>Fusions:</h2>";
+    outputMonster.innerHTML += fusesToHTML(fuses);
 
-        outputGeneral.innerHTML = "<h2 class='center'>Equips:</h2>";
-        outputGeneral.innerHTML += fusesToHTML(equips);
-
-}
-
-function searchByType() {
-    var term = "";
-
-    if (typeInput.value !== "") {
-        term = typeInput.value;
-    }
-
-    if (cardTypeInput.value !== "") {
-        term = cardTypeInput.value;
-    }
-
-    if (term === "") {
-        console.log("Please enter a search term");
-        $("#search-msg").html("Please enter a search term");
-        return;
-    }
-
-    var monfuses = monsterfuseDB({type:term});
-    var genfuses = genfuseDB({left:term});
-    if (monfuses.count() > 0) {
-        outputMonster.innerHTML = "<h2 class='center'>Monster Fuses:</h2>";
-        outputMonster.innerHTML += monfuses.supplant(typeStr);
-    }
-    if (genfuses.count() > 0) {
-        outputGeneral.innerHTML += "<h2 class='center'>General Fuses:</h2>";
-        outputGeneral.innerHTML += genfuses.supplant(formatStr);
-    }
-    if (monfuses.count() == 0 && genfuses.count() == 0) {
-        $("#search-msg").html("There are no general fusions for that type");
-    }
+    outputGeneral.innerHTML = "<h2 class='center'>Equips:</h2>";
+    outputGeneral.innerHTML += fusesToHTML(equips);
 }
 
 document.getElementById("searchNameBtn").onclick = function() {
@@ -133,11 +95,6 @@ document.getElementById("searchNameBtn").onclick = function() {
     cardNameCompletion.select(); // select the currently highlighted item
     resultsClear();
     searchByName();
-}
-document.getElementById("searchTypeBtn").onclick = function() {
-    $("#search-msg").html("");
-    resultsClear();
-    searchByType();
 }
 
 // runs search function on every keypress in #cardname input field
@@ -147,8 +104,6 @@ document.getElementById("searchTypeBtn").onclick = function() {
 
 document.getElementById("resetBtn").onclick = function() {
     nameInput.value = "";
-    typeInput.value = "";
-    cardTypeInput.value = "";
     outputMonster.innerHTML = "";
     outputGeneral.innerHTML = "";
     outputCard.innerHTML = "";
