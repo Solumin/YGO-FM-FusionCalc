@@ -74,5 +74,11 @@ File.open("data/equips.js", "w") { |file|
     file.write("var equipsList = #{output}")
 }
 
+# Try to match the original output by putting empty arrays together
+output = JSON.pretty_generate(cards).gsub(/\[\s*\]/, "[]")
+File.open("data/cards.js", "w") { |file|
+    file.write("var cardDB = TAFFY(#{output})")
+}
+
 puts "STATS: #{fusions.size} fusions, #{equips.size} equips, #{results.size} results"
 puts "Wrote JS and JSON files for each"
