@@ -1,154 +1,149 @@
-var nameInput = document.getElementById("cardname");
-var typeInput = document.getElementById("monstertype");
-var cardTypeInput = document.getElementById("cardtype");
+var outputLeft = document.getElementById("outputarealeft");
+var outputRight = document.getElementById("outputarearight");
 
-var outputMonster = document.getElementById("outputarealeft");
-var outputGeneral = document.getElementById("outputarearight");
-var outputCard = document.getElementById("outputcard");
+// Initialize Awesomplete
+var _awesompleteOpts = {
+    list: cardDB().get().map(c => c.Name),  // List is all the cards in the DB
+    autoFirst: true,                        // The first item in the list is selected
+    filter: Awesomplete.FILTER_STARTSWITH   // Case insensitive from start of word
+};
+var handCompletions = {}
+for (i = 1; i <= 5; i++) {
+    var hand = document.getElementById("hand" + i);
+    handCompletions["hand"+i] = new Awesomplete(hand, _awesompleteOpts);
+}
 
-var formatStr = "<div class='result-div'>Left Input:  {left}<br>Right Input: {right}<br>Output: {output} ({attack}/{defense})<br><br></div>";
-var typeStr = "<div class='result-div'>Left Input:  {left}<br>Right Input: {right}<br>Output: {output} ({type})<br><br></div>";
-
-// Initialize awesomplete
-var cardNameCompletion = new Awesomplete(nameInput,
-        {
-            list: cardDB().get().map(c => c.name),  // list is all the cards in the DB
-            autoFirst: true,                        // The first item in the list is selected
-            filter: Awesomplete.FILTER_STARTSWITH   // case insensitive from start of word
-        });
-$("#cardname").on("change", function() {
-    cardNameCompletion.select(); // select the currently highlighted item, e.g. if user tabs
-    resultsClear();
-    searchByName();
-});
-$("#cardname").on("awesomplete-selectcomplete", function() {
-    resultsClear();
-    searchByName();
-});
-
+// Creates a div for each fusion
 function fusesToHTML(fuselist) {
     return fuselist.map(function(fusion) {
-        var res = "<div class='result-div'>Left Input: " + fusion.left + "<br>Right Input: " + fusion.right;
-        if (fusion.type === "Monster") {
-            res += "<br>Output: " + fusion.output;
-            res += " (" + fusion.attack + "/" + fusion.defense + ")";
-        } else if  (fusion.type !== "Equippable") {
-            res += "<br>Output: " + fusion.output + " (" + fusion.type + ")";
-        } // Equippable fusions (from equipDB) have no output, just left and right
+        var res = "<div class='result-div'>Input: " + fusion.card1.Name + "<br>Input: " + fusion.card2.Name;
+        if (fusion.result) { // Equips and Results don't have a result field
+            res += "<br>Result: " + fusion.result.Name;
+            if (isMonster(fusion.result)) {
+                res += " " + formatStats(fusion.result.Attack, fusion.result.Defense);
+            } else {
+                res += " [" + cardTypes[fusion.result.Type] + "]";
+            }
+        }
         return res + "<br><br></div>";
     }).join("\n");
 }
 
-function searchByName() {
-    resultsClear();
+function getCardByName(cardname) {
+    return cardDB({Name:{isnocase:cardname}}).first();
+}
 
-    if (nameInput.value === "") {
-        console.log("Please enter a search term");
-        $("#search-msg").html("Please enter a search term");
-        return;
-    }
-
-    var card = cardDB({name:{isnocase:nameInput.value}}).first();
-    var secondaries = [];
-
+// Returns the card with a given ID
+function getCardById(id) {
+    var card = cardDB({Id:id}).first();
     if (!card) {
-        console.log(nameInput.value + " is an invalid name");
-        $("#search-msg").html("No card for '" + nameInput.value + "' found");
-        return;
+        return null;
+    }
+    return card;
+}
+
+function formatStats(attack, defense) {
+    return "(" + attack + "/" + defense + ")";
+}
+
+// Returns true if the given card is a monster, false if it is magic, ritual,
+// trap or equip
+function isMonster(card) {
+    return card.Type < 20;
+}
+
+function checkCard(cardname, infoname) {
+    var info = $("#" + infoname);
+    var card = getCardByName(cardname);
+    if (!card) {
+        info.html("Invalid card name");
+    } else if (isMonster(card)) {
+        info.html(formatStats(card.Attack, card.Defense) + " [" + cardTypes[card.Type] + "]");
     } else {
-        if (card.cardtype === "Monster") {
-            // Display card beside search bar
-            secondaries = secondaryDB({name:{isnocase:card.name}}).select("secondarytypes");
-            // If there are any secondaries, they'll be in the first element of the
-            // array. Otherwise the array is empty and can safely be concated.
-            if (secondaries[0]) {
-                secondaries = secondaries[0];
-            }
-            outputCard.innerHTML = "<div class='result-div'>" + "Name: " +
-                card.name + "<br>" + "ATK/DEF: " + card.attack + "/" +
-                card.defense + "<br>" + "Type: " +
-                [card.type].concat(secondaries).join(", ") + "</div>";
-        } else {
-            outputCard.innerHTML = "<div class='result-div'>" + "Name: " +
-                card.name + "<br>" + "Type: " + card.cardtype + "</div>";
+        info.html("[" + cardTypes[card.Type] + "]");
+    }
+}
+
+// Checks if the given card is in the list of fusions
+// Assumes the given card is an Object with an "Id" field
+// TODO: Generalize to take Object, Name (string) or Id (int)
+function hasFusion(fusionList, card) {
+    return fusionList.some(c => c.Id === card.Id);
+}
+
+function findFusions() {
+    var cards = [];
+    var monsters = [];
+    var others = [];
+
+    for (i = 1; i <= 5; i++) {
+        var name = $("#hand" + i).val();
+        var card = getCardByName(name);
+        if (card) {
+            cards.push(card);
         }
     }
 
-    // Get the list of monster-to-monster fusions
-    var monfuses = monsterfuseDB({left:{isnocase:card.name}});
+    var fuses = [];
+    var equips = [];
 
-    var genterm = [card.name, card.type].concat(secondaries);
-    var genfuses = genfuseDB({left:{isnocase:genterm}},{attack:{gt:card.attack}},{minattack:{lte:card.attack}});
-
-    if (monfuses.count() > 0) {
-        outputMonster.innerHTML = "<h2 class='center'>Monster Fuses:</h2>";
-        outputMonster.innerHTML += fusesToHTML(monfuses.get());
+    for (i = 0; i < cards.length - 1; i++) {
+        var card1 = cards[i];
+        var card1Fuses = fusionsList[card1.Id];
+        var card1Equips = equipsList[card1.Id];
+        for (j = i+1;  j < cards.length; j++) {
+            var card2 = cards[j];
+            var fusion = card1Fuses.find(f => f.card === card2.Id);
+            if (fusion) {
+                fuses.push({card1: card1, card2: card2, result: getCardById(fusion.result)});
+            }
+            var equip = card1Equips.find(e => e === card2.Id);
+            if (equip) {
+                equips.push({card1: card1, card2: card2});
+            }
+        }
     }
-    if (genfuses.count() > 0) {
-        outputGeneral.innerHTML = "<h2 class='center'>General Fuses:</h2>";
-        outputGeneral.innerHTML += fusesToHTML(genfuses.get());
+
+    outputLeft.innerHTML = "<h2 class='center'>Fusions:</h2>";
+    outputLeft.innerHTML += fusesToHTML(fuses.sort((a,b) => b.result.Attack - a.result.Attack));
+
+    outputRight.innerHTML = "<h2 class='center'>Equips:</h2>";
+    outputRight.innerHTML += fusesToHTML(equips);
+}
+
+function resultsClear() {
+    outputLeft.innerHTML = "";
+    outputRight.innerHTML = "";
+}
+
+function inputsClear() {
+    for(i = 1; i <= 5; i++) {
+        $("#hand" + i).val("");
+        $("#hand" + i + "-info").html("");
     }
 }
 
-function searchByType() {
-    var term = "";
+// Set up event listeners for each card input
+for (i = 1; i <= 5; i++) {
+    $("#hand" + i).on("change", function() {
+        handCompletions[this.id].select(); // select the currently highlighted element
+        if (this.value === "") { // If the box is cleared, remove the card info
+            $("#" + this.id + "-info").html("");
+        } else {
+            checkCard(this.value, this.id + "-info");
+        }
+        resultsClear();
+        findFusions();
+    });
 
-    if (typeInput.value !== "") {
-        term = typeInput.value;
-    }
-
-    if (cardTypeInput.value !== "") {
-        term = cardTypeInput.value;
-    }
-
-    if (term === "") {
-        console.log("Please enter a search term");
-        $("#search-msg").html("Please enter a search term");
-        return;
-    }
-
-    var monfuses = monsterfuseDB({type:term});
-    var genfuses = genfuseDB({left:term});
-    if (monfuses.count() > 0) {
-        outputMonster.innerHTML = "<h2 class='center'>Monster Fuses:</h2>";
-        outputMonster.innerHTML += monfuses.supplant(typeStr);
-    }
-    if (genfuses.count() > 0) {
-        outputGeneral.innerHTML += "<h2 class='center'>General Fuses:</h2>";
-        outputGeneral.innerHTML += genfuses.supplant(formatStr);
-    }
-    if (monfuses.count() == 0 && genfuses.count() == 0) {
-        $("#search-msg").html("There are no general fusions for that type");
-    }
+    $("#hand" + i).on("awesomplete-selectcomplete", function() {
+        checkCard(this.value, this.id + "-info");
+        resultsClear();
+        findFusions();
+    });
 }
 
-document.getElementById("searchNameBtn").onclick = function() {
-    $("#search-msg").html("");
-    cardNameCompletion.select(); // select the currently highlighted item
+$("#resetBtn").on("click", function() {
     resultsClear();
-    searchByName();
-}
-document.getElementById("searchTypeBtn").onclick = function() {
-    $("#search-msg").html("");
-    resultsClear();
-    searchByType();
-}
-
-// runs search function on every keypress in #cardname input field
-// $("#cardname").keyup(function (){
-//     searchDB();
-// });
-
-document.getElementById("resetBtn").onclick = function() {
-    nameInput.value = "";
-    typeInput.value = "";
-    cardTypeInput.value = "";
-    outputMonster.innerHTML = "";
-    outputGeneral.innerHTML = "";
-    $("#search-msg").html("");
-}
-
-function resultsClear(){
-    outputMonster.innerHTML = "";
-    outputGeneral.innerHTML = "";
-}
+    inputsClear();
+});
