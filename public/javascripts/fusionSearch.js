@@ -1,7 +1,7 @@
 var nameInput = document.getElementById("cardname");
 
-var outputMonster = document.getElementById("outputarealeft");
-var outputGeneral = document.getElementById("outputarearight");
+var outputLeft = document.getElementById("outputarealeft");
+var outputRight = document.getElementById("outputarearight");
 var outputCard = document.getElementById("outputcard");
 
 // Initialize awesomplete
@@ -86,11 +86,11 @@ function searchByName() {
     //     return {card1: getCardById(r.card1), card2: getCardById(r.card2)};
     // });
 
-    outputMonster.innerHTML = "<h2 class='center'>Fusions:</h2>";
-    outputMonster.innerHTML += fusesToHTML(fuses);
+    outputLeft.innerHTML = "<h2 class='center'>Fusions:</h2>";
+    outputLeft.innerHTML += fusesToHTML(fuses);
 
-    outputGeneral.innerHTML = "<h2 class='center'>Equips:</h2>";
-    outputGeneral.innerHTML += fusesToHTML(equips);
+    outputRight.innerHTML = "<h2 class='center'>Equips:</h2>";
+    outputRight.innerHTML += fusesToHTML(equips);
 }
 
 document.getElementById("searchNameBtn").onclick = function() {
@@ -107,13 +107,13 @@ document.getElementById("searchNameBtn").onclick = function() {
 
 document.getElementById("resetBtn").onclick = function() {
     nameInput.value = "";
-    outputMonster.innerHTML = "";
-    outputGeneral.innerHTML = "";
+    outputLeft.innerHTML = "";
+    outputRight.innerHTML = "";
     outputCard.innerHTML = "";
     $("#search-msg").html("");
 }
 
 function resultsClear(){
-    outputMonster.innerHTML = "";
-    outputGeneral.innerHTML = "";
+    outputLeft.innerHTML = "";
+    outputRight.innerHTML = "";
 }

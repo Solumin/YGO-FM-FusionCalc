@@ -1,5 +1,5 @@
-var outputMonster = document.getElementById("outputarealeft");
-var outputEquips = document.getElementById("outputarearight");
+var outputLeft = document.getElementById("outputarealeft");
+var outputRight = document.getElementById("outputarearight");
 
 // Initialize Awesomplete
 var _awesompleteOpts = {
@@ -104,16 +104,16 @@ function findFusions() {
         }
     }
 
-    outputMonster.innerHTML = "<h2 class='center'>Fusions:</h2>";
-    outputMonster.innerHTML += fusesToHTML(fuses.sort((a,b) => b.result.Attack - a.result.Attack));
+    outputLeft.innerHTML = "<h2 class='center'>Fusions:</h2>";
+    outputLeft.innerHTML += fusesToHTML(fuses.sort((a,b) => b.result.Attack - a.result.Attack));
 
-    outputEquips.innerHTML = "<h2 class='center'>Equips:</h2>";
-    outputEquips.innerHTML += fusesToHTML(equips);
+    outputRight.innerHTML = "<h2 class='center'>Equips:</h2>";
+    outputRight.innerHTML += fusesToHTML(equips);
 }
 
 function resultsClear() {
-    outputMonster.innerHTML = "";
-    outputEquips.innerHTML = "";
+    outputLeft.innerHTML = "";
+    outputRight.innerHTML = "";
 }
 
 function inputsClear() {
