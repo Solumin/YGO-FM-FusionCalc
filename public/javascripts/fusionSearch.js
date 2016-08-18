@@ -49,8 +49,6 @@ function isMonster(card) {
 }
 
 function searchByName() {
-    resultsClear();
-
     if (nameInput.value === "") {
         console.log("Please enter a search term");
         $("#search-msg").html("Please enter a search term");
@@ -82,10 +80,6 @@ function searchByName() {
         return {card1: card, card2: getCardById(e)};
     });
 
-    // var results = resultsList[card.Id].map(r => {
-    //     return {card1: getCardById(r.card1), card2: getCardById(r.card2)};
-    // });
-
     outputLeft.innerHTML = "<h2 class='center'>Fusions:</h2>";
     outputLeft.innerHTML += fusesToHTML(fuses);
 
@@ -93,11 +87,50 @@ function searchByName() {
     outputRight.innerHTML += fusesToHTML(equips);
 }
 
+function searchForResult() {
+    if (nameInput.value === "") {
+        console.log("Please enter a search term");
+        $("#search-msg").html("Please enter a search term");
+        return;
+    }
+
+    var card = cardDB({Name:{isnocase:nameInput.value}}).first();
+    if (!card) {
+        console.log(nameInput.value + " is an invalid name");
+        $("#search-msg").html("No card for '" + nameInput.value + "' found");
+        return;
+    } else {
+        // Display card beside search bar
+        if (isMonster(card)) {
+            outputCard.innerHTML = "<div class='result-div'>" + "Name: " +
+                card.Name + "<br>" + "ATK/DEF: " + card.Attack + "/" +
+                card.Defense + "<br>" + "Type: " + cardTypes[card.Type] + "</div>";
+        } else {
+            outputCard.innerHTML = "<div class='result-div'>" + "Name: " +
+                card.Name + "<br>" + "Type: " + cardTypes[card.Type] + "</div>";
+        }
+    }
+
+    var results = resultsList[card.Id].map(f => {
+        return {card1: getCardById(f.card1), card2: getCardById(f.card2)};
+    });
+
+    outputLeft.innerHTML = "<h2 class='center'>Fusions:</h2>";
+    outputLeft.innerHTML += fusesToHTML(results);
+}
+
 document.getElementById("searchNameBtn").onclick = function() {
     $("#search-msg").html("");
     cardNameCompletion.select(); // select the currently highlighted item
     resultsClear();
     searchByName();
+}
+
+document.getElementById("searchResultsBtn").onclick = function() {
+    $("#search-msg").html("");
+    cardNameCompletion.select(); // select the currently highlighted item
+    resultsClear();
+    searchForResult();
 }
 
 // runs search function on every keypress in #cardname input field
