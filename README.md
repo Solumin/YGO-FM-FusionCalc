@@ -1,7 +1,6 @@
 ## Yu-Gi-Oh! Forbidden Memories Fusion Calculator
 
-Version: 0.1  
-Current status: Complete card database, only supports general fusions.
+Version: 0.7  
 
 Yu-Gi-Oh! Forbidden Memories is a terrible game with a terrible mechanic called
 "fusions." Fusions allow the player to fuse two cards together to get a new,
@@ -20,27 +19,13 @@ program to find the fusions for you. Here it is!
 
 **How to Use the Calculator**
 
-Open `index.html` in your preferred web browser. It should work in Chrome,
-Firefox, and IE 10+.
-
-Currently, the calculator is basic as can be. Enter the name, monster type or
-card type that you want to look up, and the script will spit out the appropriate
-fusions. It's really ugly and unformatted, but it works.
-
-**Note:** The calculator currently only supports general fusions! So it'll tell
-you if you can combine a Dragon and a Zombie and what you'll get, but it can't
-tell you if your card can be fused with anything specific. This means the "name"
-field doesn't work that great, but I'll fix that soon.
-
-It's not case sensitive but it is punctuation sensitive, so cards like
-"30,000-Year White Turtle" need to spelled exactly as shown.
+Visit the Fusion Search and Calculator on [GitHub
+Pages!](https://solumin.github.io/YGO-FM-FusionCalc/)
 
 ### What's Next?
 
-- Better support for looking up monsters by name
-- All monster-to-monster fusions
 - Better formatting of output, I guess
-- Making all the input files CSVs (may not be possible for secondary DB)
+- Sorting of fusions, probably
 
 ### Contributing
 
@@ -49,29 +34,20 @@ project, and I know it's ugly. I'll add a license sooner or later.
 
 ### Project Notes
 
-The `data` directory contains the raw text dumps of the cards and fusions.
+All data for the project is in the `data` directory, and it is all derived from
+`Cards.json` into a series of lists, using `scripts/make_databases.rb`.
 
-- `ygo_fm_cardDB.txt` is the card database, pulled from the Yu-Gi-Oh! Wikia
-- `ygo_fm_secondaryDB.txt` is a DB containing extra notes for some of the cards.
-  (See below.)
-- `ygo_fm_genfuseDB.txt` is the general fusions list, pulled from the Fusion
-  FAQ.
-
-Each of this has an associated .js file that loads it into TaffyDB for use in
-the script.
-
-These .js scripts are generated using the scripts located in the
-appropriately-named `scripts` directory. They expect to be run from the project
-directory, e.g. `ruby scripts/make_general_fusionDB.rb`. Since the database
-files are now fairly readable JSON (instead of massive blobs of unreadable JSON)
-these scripts and their inputs should be considered deprecated.
-
-Each Monster card in Forbidden Memories has an associated Type, such as Beast,
-Dragon, Fish, Insect and so on. However, some cards count as multiple types: 
-Angelwitch, for example, counts as Dark Magic, Dark Spellcaster, Female and
-Special-A types! The card DB only has room for a single type, so the secondary
-DB handles these extra types. I'm debating folding the secondary types into the
-main card DB.
+- `cards.js` loads `Cards.json` into a [TaffyDB](http://www.taffydb.com/)
+  instance
+- `fusions.js` loads the list of fusions for each card into a list.
+- `equips.js` loads the list of equips for each card into a list. If the card
+  can _equip_ items, its entry is the list of Equip-type cards that it can be
+used with. If the card is an _Equip-type_ card, its entry is the list of cards
+it can be equipped onto.
+- `results.js` loads the list of fusions for each card that the card is the
+  result of.
+- `types_and_stars.js` has two lists that map indexes to the card types (Beast,
+  Spellcaster, Dragon, etc.) and to star names. (Neptune, Moon, etc.)
 
 ## Special Thanks:
 
@@ -79,3 +55,6 @@ main card DB.
   FAQ](https://www.gamefaqs.com/ps/561010-yu-gi-oh-forbidden-memories/faqs/16613), an invaluable resource
 - The Yu-Gi-Oh! Wikia, for the list of cards that I turned into the card
   database
+- CathodeRaymond for work with CSS and making the project actually look good
+- duke1102 for providing `Cards.json`, without which this project would be
+  _very_ innacurate.
