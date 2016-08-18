@@ -33,7 +33,8 @@ cards.each do |card|
             fusions[id] << {:card => card2, :result => result}
             fusions[card2] << {:card => id, :result => result}
 
-            results[result] = {:card1 => id, :card2 => card2}
+            results[result] = [] if results[result].nil?
+            results[result] << {:card1 => id, :card2 => card2}
         end
     end
 
@@ -54,7 +55,7 @@ File.open("data/fusions.json", "w") { |file|
     file.write(output)
 }
 File.open("data/fusions.js", "w") { |file|
-    file.write("var fusionsDB = TAFFY(#{output})")
+    file.write("var fusionsList = #{output}")
 }
 
 output = JSON.pretty_generate results
@@ -62,7 +63,7 @@ File.open("data/results.json", "w") { |file|
     file.write(output)
 }
 File.open("data/results.js", "w") { |file|
-    file.write("var resultsDB = TAFFY(#{output})")
+    file.write("var resultsList = #{output}")
 }
 
 output = JSON.pretty_generate equips
@@ -70,7 +71,7 @@ File.open("data/equips.json", "w") { |file|
     file.write(output)
 }
 File.open("data/equips.js", "w") { |file|
-    file.write("var equipsDB = TAFFY(#{output})")
+    file.write("var equipsList = #{output}")
 }
 
 puts "STATS: #{fusions.size} fusions, #{equips.size} equips, #{results.size} results"

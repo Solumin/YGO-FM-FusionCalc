@@ -1,4 +1,4 @@
-var fusionsDB = TAFFY([
+var fusionsList = [
   null,
   [
 
@@ -202572,4 +202572,4 @@ var fusionsDB = TAFFY([
   [
 
   ]
-])
+]

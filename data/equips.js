@@ -1,4 +1,4 @@
-var equipsDB = TAFFY([
+var equipsList = [
   [
     315,
     657,
@@ -9595,4 +9595,4 @@ var equipsDB = TAFFY([
   [
 
   ]
-])
+]
