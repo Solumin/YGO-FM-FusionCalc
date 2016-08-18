@@ -1,18 +1,13 @@
 var nameInput = document.getElementById("cardname");
-var typeInput = document.getElementById("monstertype");
-var cardTypeInput = document.getElementById("cardtype");
 
-var outputMonster = document.getElementById("outputarealeft");
-var outputGeneral = document.getElementById("outputarearight");
+var outputLeft = document.getElementById("outputarealeft");
+var outputRight = document.getElementById("outputarearight");
 var outputCard = document.getElementById("outputcard");
-
-var formatStr = "<div class='result-div'>Left Input:  {left}<br>Right Input: {right}<br>Output: {output} ({attack}/{defense})<br><br></div>";
-var typeStr = "<div class='result-div'>Left Input:  {left}<br>Right Input: {right}<br>Output: {output} ({type})<br><br></div>";
 
 // Initialize awesomplete
 var cardNameCompletion = new Awesomplete(nameInput,
         {
-            list: cardDB().get().map(c => c.name),  // list is all the cards in the DB
+            list: cardDB().get().map(c => c.Name),  // list is all the cards in the DB
             autoFirst: true,                        // The first item in the list is selected
             filter: Awesomplete.FILTER_STARTSWITH   // case insensitive from start of word
         });
@@ -26,92 +21,102 @@ $("#cardname").on("awesomplete-selectcomplete", function() {
     searchByName();
 });
 
+// Creates a div for each fusion
 function fusesToHTML(fuselist) {
     return fuselist.map(function(fusion) {
-        var res = "<div class='result-div'>Left Input: " + fusion.left + "<br>Right Input: " + fusion.right;
-        if (fusion.type === "Monster") {
-            res += "<br>Output: " + fusion.output;
-            res += " (" + fusion.attack + "/" + fusion.defense + ")";
-        } else if  (fusion.type !== "Equippable") {
-            res += "<br>Output: " + fusion.output + " (" + fusion.type + ")";
-        } // Equippable fusions (from equipDB) have no output, just left and right
+        var res = "<div class='result-div'>Input: " + fusion.card1.Name + "<br>Input: " + fusion.card2.Name;
+        if (fusion.result) { // Equips and Results don't have a result field
+            res += "<br>Result: " + fusion.result.Name;
+            res += " (" + fusion.result.Attack + "/" + fusion.result.Defense + ")";
+        }
         return res + "<br><br></div>";
     }).join("\n");
 }
 
-function searchByName() {
-    resultsClear();
+// Returns the card with a given ID
+function getCardById(id) {
+    var card = cardDB({Id:id}).first();
+    if (!card) {
+        return null;
+    }
+    return card;
+}
 
+// Returns true if the given card is a monster, false if it is magic, ritual,
+// trap or equip
+function isMonster(card) {
+    return card.Type < 20;
+}
+
+function searchByName() {
     if (nameInput.value === "") {
         console.log("Please enter a search term");
         $("#search-msg").html("Please enter a search term");
         return;
     }
 
-    var card = cardDB({name:{isnocase:nameInput.value}}).first();
+    var card = cardDB({Name:{isnocase:nameInput.value}}).first();
     if (!card) {
         console.log(nameInput.value + " is an invalid name");
         $("#search-msg").html("No card for '" + nameInput.value + "' found");
         return;
     } else {
-        if (card.cardtype === "Monster") {
-            // Display card beside search bar
+        // Display card beside search bar
+        if (isMonster(card)) {
             outputCard.innerHTML = "<div class='result-div'>" + "Name: " +
-                card.name + "<br>" + "ATK/DEF: " + card.attack + "/" +
-                card.defense + "<br>" + "Type: " +
-                [card.type].concat(card.secondarytypes).join(", ") + "</div>";
+                card.Name + "<br>" + "ATK/DEF: " + card.Attack + "/" +
+                card.Defense + "<br>" + "Type: " + cardTypes[card.Type] + "</div>";
         } else {
             outputCard.innerHTML = "<div class='result-div'>" + "Name: " +
-                card.name + "<br>" + "Type: " + card.cardtype + "</div>";
+                card.Name + "<br>" + "Type: " + cardTypes[card.Type] + "</div>";
         }
     }
 
-    // Get the list of monster-to-monster fusions
-    var monfuses = monsterfuseDB({left:{isnocase:card.name}});
+    // Get the list of fusions and equips
+    var fuses = fusionsList[card.Id].map(f => {
+        return {card1: card, card2: getCardById(f.card), result: getCardById(f.result)};
+    });
+    var equips = equipsList[card.Id].map(e => {
+        return {card1: card, card2: getCardById(e)};
+    });
 
-    var genterm = [card.name, card.type].concat(card.secondarytypes);
-    var genfuses = genfuseDB({left:{isnocase:genterm}},{attack:{gt:card.attack}},{minattack:{lte:card.attack}});
+    outputLeft.innerHTML = "<h2 class='center'>Fusions:</h2>";
+    outputLeft.innerHTML += fusesToHTML(fuses);
 
-    if (monfuses.count() > 0) {
-        outputMonster.innerHTML = "<h2 class='center'>Monster Fuses:</h2>";
-        outputMonster.innerHTML += fusesToHTML(monfuses.get());
-    }
-    if (genfuses.count() > 0) {
-        outputGeneral.innerHTML = "<h2 class='center'>General Fuses:</h2>";
-        outputGeneral.innerHTML += fusesToHTML(genfuses.get());
-    }
+    outputRight.innerHTML = "<h2 class='center'>Equips:</h2>";
+    outputRight.innerHTML += fusesToHTML(equips);
 }
 
-function searchByType() {
-    var term = "";
-
-    if (typeInput.value !== "") {
-        term = typeInput.value;
-    }
-
-    if (cardTypeInput.value !== "") {
-        term = cardTypeInput.value;
-    }
-
-    if (term === "") {
+function searchForResult() {
+    if (nameInput.value === "") {
         console.log("Please enter a search term");
         $("#search-msg").html("Please enter a search term");
         return;
     }
 
-    var monfuses = monsterfuseDB({type:term});
-    var genfuses = genfuseDB({left:term});
-    if (monfuses.count() > 0) {
-        outputMonster.innerHTML = "<h2 class='center'>Monster Fuses:</h2>";
-        outputMonster.innerHTML += monfuses.supplant(typeStr);
+    var card = cardDB({Name:{isnocase:nameInput.value}}).first();
+    if (!card) {
+        console.log(nameInput.value + " is an invalid name");
+        $("#search-msg").html("No card for '" + nameInput.value + "' found");
+        return;
+    } else {
+        // Display card beside search bar
+        if (isMonster(card)) {
+            outputCard.innerHTML = "<div class='result-div'>" + "Name: " +
+                card.Name + "<br>" + "ATK/DEF: " + card.Attack + "/" +
+                card.Defense + "<br>" + "Type: " + cardTypes[card.Type] + "</div>";
+        } else {
+            outputCard.innerHTML = "<div class='result-div'>" + "Name: " +
+                card.Name + "<br>" + "Type: " + cardTypes[card.Type] + "</div>";
+        }
     }
-    if (genfuses.count() > 0) {
-        outputGeneral.innerHTML += "<h2 class='center'>General Fuses:</h2>";
-        outputGeneral.innerHTML += genfuses.supplant(formatStr);
-    }
-    if (monfuses.count() == 0 && genfuses.count() == 0) {
-        $("#search-msg").html("There are no general fusions for that type");
-    }
+
+    var results = resultsList[card.Id].map(f => {
+        return {card1: getCardById(f.card1), card2: getCardById(f.card2)};
+    });
+
+    outputLeft.innerHTML = "<h2 class='center'>Fusions:</h2>";
+    outputLeft.innerHTML += fusesToHTML(results);
 }
 
 document.getElementById("searchNameBtn").onclick = function() {
@@ -120,10 +125,12 @@ document.getElementById("searchNameBtn").onclick = function() {
     resultsClear();
     searchByName();
 }
-document.getElementById("searchTypeBtn").onclick = function() {
+
+document.getElementById("searchResultsBtn").onclick = function() {
     $("#search-msg").html("");
+    cardNameCompletion.select(); // select the currently highlighted item
     resultsClear();
-    searchByType();
+    searchForResult();
 }
 
 // runs search function on every keypress in #cardname input field
@@ -133,14 +140,13 @@ document.getElementById("searchTypeBtn").onclick = function() {
 
 document.getElementById("resetBtn").onclick = function() {
     nameInput.value = "";
-    typeInput.value = "";
-    cardTypeInput.value = "";
-    outputMonster.innerHTML = "";
-    outputGeneral.innerHTML = "";
+    outputLeft.innerHTML = "";
+    outputRight.innerHTML = "";
+    outputCard.innerHTML = "";
     $("#search-msg").html("");
 }
 
 function resultsClear(){
-    outputMonster.innerHTML = "";
-    outputGeneral.innerHTML = "";
+    outputLeft.innerHTML = "";
+    outputRight.innerHTML = "";
 }

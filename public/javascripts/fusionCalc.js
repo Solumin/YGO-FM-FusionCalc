@@ -1,9 +1,9 @@
-var outputMonster = document.getElementById("outputarealeft");
-var outputEquips = document.getElementById("outputarearight");
+var outputLeft = document.getElementById("outputarealeft");
+var outputRight = document.getElementById("outputarearight");
 
 // Initialize Awesomplete
 var _awesompleteOpts = {
-    list: cardDB().get().map(c => c.name),  // List is all the cards in the DB
+    list: cardDB().get().map(c => c.Name),  // List is all the cards in the DB
     autoFirst: true,                        // The first item in the list is selected
     filter: Awesomplete.FILTER_STARTSWITH   // Case insensitive from start of word
 };
@@ -13,36 +13,62 @@ for (i = 1; i <= 5; i++) {
     handCompletions["hand"+i] = new Awesomplete(hand, _awesompleteOpts);
 }
 
+// Creates a div for each fusion
 function fusesToHTML(fuselist) {
     return fuselist.map(function(fusion) {
-        var res = "<div class='result-div'>Left Input: " + fusion.left + "<br>Right Input: " + fusion.right;
-        if (fusion.type === "Monster") {
-            res += ["<br>Output:", fusion.output, formatStats(fusion.attack, fusion.defense)].join(" ");
-        } else if  (fusion.type !== "Equippable") {
-            res += "<br>Output: " + fusion.output + " (" + fusion.type + ")";
-        } // Equippable fusions (from equipDB) have no output, just left and right
+        var res = "<div class='result-div'>Input: " + fusion.card1.Name + "<br>Input: " + fusion.card2.Name;
+        if (fusion.result) { // Equips and Results don't have a result field
+            res += "<br>Result: " + fusion.result.Name;
+            if (isMonster(fusion.result)) {
+                res += " " + formatStats(fusion.result.Attack, fusion.result.Defense);
+            } else {
+                res += " [" + cardTypes[fusion.result.Type] + "]";
+            }
+        }
         return res + "<br><br></div>";
     }).join("\n");
 }
 
-function lookupCard(cardname) {
-    return cardDB({name:{isnocase:cardname}}).first();
+function getCardByName(cardname) {
+    return cardDB({Name:{isnocase:cardname}}).first();
+}
+
+// Returns the card with a given ID
+function getCardById(id) {
+    var card = cardDB({Id:id}).first();
+    if (!card) {
+        return null;
+    }
+    return card;
 }
 
 function formatStats(attack, defense) {
     return "(" + attack + "/" + defense + ")";
 }
 
+// Returns true if the given card is a monster, false if it is magic, ritual,
+// trap or equip
+function isMonster(card) {
+    return card.Type < 20;
+}
+
 function checkCard(cardname, infoname) {
     var info = $("#" + infoname);
-    var card = lookupCard(cardname);
+    var card = getCardByName(cardname);
     if (!card) {
         info.html("Invalid card name");
-    } else if (card.cardtype === "Monster") {
-        info.html(formatStats(card.attack, card.defense) + " [" + [card.type].concat(card.secondarytypes).join(", ") + "]");
+    } else if (isMonster(card)) {
+        info.html(formatStats(card.Attack, card.Defense) + " [" + cardTypes[card.Type] + "]");
     } else {
-        info.html("(" + card.cardtype + ")");
+        info.html("[" + cardTypes[card.Type] + "]");
     }
+}
+
+// Checks if the given card is in the list of fusions
+// Assumes the given card is an Object with an "Id" field
+// TODO: Generalize to take Object, Name (string) or Id (int)
+function hasFusion(fusionList, card) {
+    return fusionList.some(c => c.Id === card.Id);
 }
 
 function findFusions() {
@@ -52,58 +78,42 @@ function findFusions() {
 
     for (i = 1; i <= 5; i++) {
         var name = $("#hand" + i).val();
-        var card = lookupCard(name);
+        var card = getCardByName(name);
         if (card) {
             cards.push(card);
-            if (card.cardtype === "Monster") {
-                monsters.push(card);
-            } else {
-                others.push(card);
+        }
+    }
+
+    var fuses = [];
+    var equips = [];
+
+    for (i = 0; i < cards.length - 1; i++) {
+        var card1 = cards[i];
+        var card1Fuses = fusionsList[card1.Id];
+        var card1Equips = equipsList[card1.Id];
+        for (j = i+1;  j < cards.length; j++) {
+            var card2 = cards[j];
+            var fusion = card1Fuses.find(f => f.card === card2.Id);
+            if (fusion) {
+                fuses.push({card1: card1, card2: card2, result: getCardById(fusion.result)});
+            }
+            var equip = card1Equips.find(e => e === card2.Id);
+            if (equip) {
+                equips.push({card1: card1, card2: card2});
             }
         }
     }
 
-    // Compare the ith card against the remaining n-i cards
-    // Assumes the data is perfect, i.e. each fusion is reciprocated.
-    // This does not take into account equipment
-    // (So we'll get Beast Fang + Megamorph, but not Aqua Dragon + Beast Fangs)
-    // Also finds general fusions based on types
-    var monsterFuses = [];
+    outputLeft.innerHTML = "<h2 class='center'>Fusions:</h2>";
+    outputLeft.innerHTML += fusesToHTML(fuses.sort((a,b) => b.result.Attack - a.result.Attack));
 
-    for (i = 0; i < cards.length -1; i++) {
-        var curr = cards[i].name;
-        var lterm = [curr, cards[i].type].concat(cards[i].secondarytypes);
-        for (j = i+1; j < cards.length; j++) {
-            var other = cards[j].name;
-            var rterm = [other, cards[j].type].concat(cards[j].secondarytypes);
-            monsterFuses = monsterFuses.concat(monsterfuseDB({left:{isnocase:curr}},{right:{isnocase:other}}).get());
-            var genfuses = genfuseDB({left:{isnocase:lterm}}, {right:{isnocase:rterm}}).get();
-            monsterFuses = monsterFuses.concat(genfuses.map(function(fusion) {
-                fusion.left = curr;
-                fusion.right = other;
-                return fusion;
-            }));
-        }
-    }
-
-    // Get just the monsters and their equipment fusions
-    var leftTerm = {left:{isnocase:monsters.map(c => c.name)}};
-    var rightTerm = {right:{isnocase:others.map(c => c.name)}};
-    var equipFuses = equipDB(leftTerm, rightTerm).get();
-
-    if (monsterFuses.length > 0) {
-        outputMonster.innerHTML = "<h2 class='center'>Monster Fuses:</h2>";
-        outputMonster.innerHTML += fusesToHTML(monsterFuses.sort((a,b) => b.attack - a.attack));
-    }
-    if (equipFuses.length > 0) {
-        outputEquips.innerHTML = "<h2 class='center'>Equippables:</h2>";
-        outputEquips.innerHTML += fusesToHTML(equipFuses);
-    }
+    outputRight.innerHTML = "<h2 class='center'>Equips:</h2>";
+    outputRight.innerHTML += fusesToHTML(equips);
 }
 
 function resultsClear() {
-    outputMonster.innerHTML = "";
-    outputEquips.innerHTML = "";
+    outputLeft.innerHTML = "";
+    outputRight.innerHTML = "";
 }
 
 function inputsClear() {
