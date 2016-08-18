@@ -21,6 +21,7 @@ $("#cardname").on("awesomplete-selectcomplete", function() {
     searchByName();
 });
 
+// Creates a div for each fusion
 function fusesToHTML(fuselist) {
     return fuselist.map(function(fusion) {
         var res = "<div class='result-div'>Input: " + fusion.card1.Name + "<br>Input: " + fusion.card2.Name;
@@ -41,6 +42,8 @@ function getCardById(id) {
     return card;
 }
 
+// Returns true if the given card is a monster, false if it is magic, ritual,
+// trap or equip
 function isMonster(card) {
     return card.Type < 20;
 }
@@ -60,8 +63,8 @@ function searchByName() {
         $("#search-msg").html("No card for '" + nameInput.value + "' found");
         return;
     } else {
+        // Display card beside search bar
         if (isMonster(card)) {
-            // Display card beside search bar
             outputCard.innerHTML = "<div class='result-div'>" + "Name: " +
                 card.Name + "<br>" + "ATK/DEF: " + card.Attack + "/" +
                 card.Defense + "<br>" + "Type: " + cardTypes[card.Type] + "</div>";
