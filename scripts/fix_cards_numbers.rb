@@ -15,7 +15,4 @@ output = JSON.pretty_generate(cards).gsub(/\[\s*\]/, "[]")
 File.open("data/Cards.json", "w") { |file|
     file.write(output)
 }
-File.open("data/cards.js", "w") { |file|
-    file.write("var cardDB = TAFFY(#{output})")
-}
 
