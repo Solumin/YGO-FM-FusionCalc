@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
     <head>
-        <title>Fusion Search</title>
+        <title>About this Project</title>
         <link rel='stylesheet' href='public/styles/normalize.css' />
         <link rel='stylesheet' href='public/styles/bootstrap.css' />
         <link rel='stylesheet' href='public/styles/fusioncustom.css' />
@@ -22,9 +22,9 @@
                     <span class="icon-bar"></span>
                     <span class="icon-bar"></span>
                 </button>
-                <a class="navbar-brand" href="#">Fusion Search</a>
+                <a class="navbar-brand" href="index.html">Fusion Search</a>
                 <a class="navbar-brand" href="fusionCalc.html">Fusion Calculator</a>
-                <a class="navbar-brand" href="about.html">About</a>
+                <a class="navbar-brand" href="#">About</a>
             </div>
             <div id="navbar" class="navbar-collapse collapse">
                 <ul class="nav navbar-nav navbar-right">
@@ -40,33 +40,41 @@
             <div class="col-xs-12">
                 <div class="panel panel-default upload-font">
                     <div class="panel-body">
-                        <div class="col-xs-6">
-                            <h4>Search by card name:</h4><br>
-                            <input type="text" id="cardname">
-                            <button type="button" id="searchNameBtn">Search by Name</button>
-                            <button type="button" id="searchResultsBtn">Search by Result</button>
-                            <br><br>
-                            <button type="button" id="resetBtn">Reset All</button>
-                            <br><br>
-                        </div>
-                        <div class="col-xs-6">
-                            <div id="outputcard"></div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <div class="row">
-            <div class="col-xs-12">
-                <div class="panel panel-default upload-font">
-                    <div class="panel-body">
-                        <h4>Results: <span id="search-msg"></span></h4>
-                        <div class="col-xs-6">
-                            <div id="outputarealeft"></div>
-                        </div>
-                        <div class="col-xs-6">
-                            <div id="outputarearight"></div>
-                        </div>
+                        <h3>About</h3>
+                        <p>Yu-Gi-Oh! Forbidden Memories is a terrible game with a terrible
+                        mechanic called "fusions." Fusions allow the player to fuse two
+                        cards together to get a new, hopefully more powerful card.</p>
+
+                        <p>But, since it's a terrible game, YGO:FM does nothing to actually
+                        <em>tell</em> you about the fusions. Your options are to either try every
+                        card against every other card (and by the way there's over 770 cards
+                        in the game) or to look it up online. Oh, and the game doesn't try
+                        to record the fusions at all. And since one card might fuse with a
+                        few hundred other cards, trying to find out which ones are worth
+                        it is tedious.</p>
+
+                        <p>The real motivation for this project is Giver336's LP of the game
+                        on Something Awful. His co-commentator, General Yeti, mused about
+                        the possibility of a program to find the fusions for you. Here it
+                        is!</p>
+
+                        <h3>Special Thanks</h3>
+
+                        <p>
+                        Steve Kalynuik, Dylan Birtolo and Miguel Balauag,
+                        authors of the
+                        <a href=https://www.gamefaqs.com/ps/561010-yu-gi-oh-forbidden-memories/faqs/16613>Fusion FAQ</a>,
+                        and the Yu-Gi-Oh! Wikia, which provided the data that I
+                        used to create the first version of this
+                        calculator.<br><br>
+
+                        CathodeRaymond for work with CSS and making the project
+                        actually look good.<br><br>
+
+                        duke1102 for providing the complete card and fusion
+                        data, without which this project would be very
+                        inaccurate.
+                        </p>
                     </div>
                 </div>
             </div>
@@ -83,3 +91,4 @@
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
     </body>
 </html>
+
