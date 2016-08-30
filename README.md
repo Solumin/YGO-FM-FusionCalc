@@ -8,7 +8,7 @@ hopefully more powerful card.
 
 But, since it's a terrible game, YGO:FM does nothing to actually _tell_ you
 about the fusions. Your options are to either try every card against every other
-card (and by the way there's over 770 cards in the game) or to look it up
+card (and by the way there's over 720 cards in the game) or to look it up
 online. Oh, and the game doesn't try to record the fusions at all. And since
 one card might fuse with a few _hundred_ other cards, trying to find out which
 ones are worth it is tedious.
