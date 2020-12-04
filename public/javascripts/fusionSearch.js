@@ -1,8 +1,10 @@
-var nameInput = document.getElementById("cardname");
-
-var outputLeft = document.getElementById("outputarealeft");
-var outputRight = document.getElementById("outputarearight");
-var outputCard = document.getElementById("outputcard");
+var nameInput = document.getElementById('cardname');
+var outputLeft = document.getElementById('outputarealeft');
+var outputRight = document.getElementById('outputarearight');
+var outputCard = document.getElementById('outputcard');
+const startCard = `<div class="card border-dark mb-3" style="max-width: 18rem;">
+<div class="card-body text-dark">`;
+const endCard = `</div></div>`;
 
 // Initialize awesomplete
 var cardNameCompletion = new Awesomplete(nameInput,
@@ -24,12 +26,16 @@ $("#cardname").on("awesomplete-selectcomplete", function() {
 // Creates a div for each fusion
 function fusesToHTML(fuselist) {
     return fuselist.map(function(fusion) {
-        var res = "<div class='result-div'>Input: " + fusion.card1.Name + "<br>Input: " + fusion.card2.Name;
-        if (fusion.result) { // Equips and Results don't have a result field
-            res += "<br>Result: " + fusion.result.Name;
-            res += " (" + fusion.result.Attack + "/" + fusion.result.Defense + ")";
-        }
-        return res + "<br><br></div>";
+        var res = `${startCard} <p class="card-text"><strong>Input:</strong> ` +
+        fusion.card1.Name +
+        `<p class="card-text"><strong>Input:</strong> ` +
+        fusion.card2.Name;
+      if (fusion.result) {
+        // Equips and Results don't have a result field
+        res += `<p class="card-text"><strong>Result:</strong> ` + fusion.result.Name;
+        res += ' (' + fusion.result.Attack + '/' + fusion.result.Defense + ')';
+      }
+      return res + endCard;
     }).join("\n");
 }
 
@@ -50,25 +56,34 @@ function isMonster(card) {
 
 function searchByName() {
     if (nameInput.value === "") {
-        console.log("Please enter a search term");
         $("#search-msg").html("Please enter a search term");
         return;
     }
 
     var card = cardDB({Name:{isnocase:nameInput.value}}).first();
     if (!card) {
-        console.log(nameInput.value + " is an invalid name");
         $("#search-msg").html("No card for '" + nameInput.value + "' found");
         return;
     } else {
         // Display card beside search bar
         if (isMonster(card)) {
-            outputCard.innerHTML = "<div class='result-div'>" + "Name: " +
-                card.Name + "<br>" + "ATK/DEF: " + card.Attack + "/" +
-                card.Defense + "<br>" + "Type: " + cardTypes[card.Type] + "</div>";
+            outputCard.innerHTML = `${startCard} 
+            <p class="card-text"><strong>Name:</strong> ` +
+            card.Name +
+            `<p class="card-text"><strong>ATK/DEF:</strong> ` +
+            card.Attack +
+            '/' +
+            card.Defense +
+            `<p class="card-text"><strong>Type:</strong> ` +
+            cardTypes[card.Type] + endCard;
         } else {
-            outputCard.innerHTML = "<div class='result-div'>" + "Name: " +
-                card.Name + "<br>" + "Type: " + cardTypes[card.Type] + "</div>";
+          outputCard.innerHTML =
+          `<div class="card border-dark my-3" style="max-width: 18rem;">
+          <div class="card-body text-dark">
+            <p class="card-text"><strong>Name:</strong> ` +
+            card.Name +
+            `<p class="card-text"><strong>Type:</strong> ` +
+            cardTypes[card.Type] + endCard;
         }
     }
 
@@ -80,34 +95,40 @@ function searchByName() {
         return {card1: card, card2: getCardById(e)};
     });
 
-    outputLeft.innerHTML = "<h2 class='center'>Fusions:</h2>";
+    outputLeft.innerHTML = "<h2 class='text-center my-4'>Fusions</h2>";
     outputLeft.innerHTML += fusesToHTML(fuses);
 
-    outputRight.innerHTML = "<h2 class='center'>Equips:</h2>";
+    outputRight.innerHTML = "<h2 class='text-center my-4'>Equips</h2>";
     outputRight.innerHTML += fusesToHTML(equips);
 }
 
 function searchForResult() {
     if (nameInput.value === "") {
-        console.log("Please enter a search term");
         $("#search-msg").html("Please enter a search term");
         return;
     }
 
     var card = cardDB({Name:{isnocase:nameInput.value}}).first();
     if (!card) {
-        console.log(nameInput.value + " is an invalid name");
         $("#search-msg").html("No card for '" + nameInput.value + "' found");
         return;
     } else {
         // Display card beside search bar
         if (isMonster(card)) {
-            outputCard.innerHTML = "<div class='result-div'>" + "Name: " +
-                card.Name + "<br>" + "ATK/DEF: " + card.Attack + "/" +
-                card.Defense + "<br>" + "Type: " + cardTypes[card.Type] + "</div>";
+            outputCard.innerHTML = `${startCard} <p class="card-text"><strong>Name:</strong> ` +
+            card.Name +
+            `<p class="card-text"><strong>ATK/DEF:</strong> ` +
+            card.Attack +
+            '/' +
+            card.Defense +
+            `<p class="card-text"><strong>Type:</strong> ` +
+            cardTypes[card.Type] + endCard;
         } else {
-            outputCard.innerHTML = "<div class='result-div'>" + "Name: " +
-                card.Name + "<br>" + "Type: " + cardTypes[card.Type] + "</div>";
+          outputCard.innerHTML =
+          `${startCard} <p class="card-text"><strong>Name:</strong> ` +
+            card.Name +
+            `<p class="card-text"><strong>Type:</strong> ` +
+            cardTypes[card.Type] + endCard;
         }
     }
 
@@ -115,7 +136,7 @@ function searchForResult() {
         return {card1: getCardById(f.card1), card2: getCardById(f.card2)};
     });
 
-    outputLeft.innerHTML = "<h2 class='center'>Fusions:</h2>";
+    outputLeft.innerHTML = "<h2 class='text-center my-4'>Fusions</h2>";
     outputLeft.innerHTML += fusesToHTML(results);
 }
 

@@ -58,3 +58,4 @@ it can be equipped onto.
 - CathodeRaymond for work with CSS and making the project actually look good
 - duke1102 for providing `Cards.json`, without which this project would be
   _very_ innacurate.
+- marcos0000 for Forbidden Memories Logo in HD [devianart profile](https://www.deviantart.com/marcos0000)
