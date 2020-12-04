@@ -1,0 +1,29 @@
+body {
+  font-family: 'Open Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+}
+
+#logo{
+  height: 2em;
+}
+
+.btn-thread {
+  color: black;
+  background-color: white;
+  border-color: black;
+
+}
+.btn-thread:hover {
+  color: white;
+  background-color: black;
+  border-color: black;
+
+}
+
+#resetBtn {
+  width: 180px;
+}
+
+
+.footer-bottom {
+  background-color: black;
+}
