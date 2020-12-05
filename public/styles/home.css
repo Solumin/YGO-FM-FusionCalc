@@ -11,7 +11,7 @@ body {
 .polymerization {
     width: 100%;
     background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
-        url("public/images/fusion_background.jpg");
+        url("../images/fusion_background.jpg");
     background-repeat: repeat-y;
     background-position: center;
     background-size: cover;
@@ -40,7 +40,7 @@ body {
 .background-vrains {
     width: 100%;
     background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
-        url("public/images/background.png");
+        url("../images/background.png");
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
