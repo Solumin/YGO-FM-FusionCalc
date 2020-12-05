@@ -1,37 +1,78 @@
+:root {
+    --varela: "Varela Round", sans-serif;
+    --jetbrains: "JetBrains Mono", monospace;
+    --black-color: black;
+}
+
 body {
-  font-family: 'Open Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+    font-family: "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
 }
 
-.polymerization{
-  width: 100%;
-  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('/public/images/fusion_background.jpg');
-  background-repeat: no-repeat;
-  background-position: center;
-  background-size: cover;
+.polymerization {
+    width: 100%;
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+        url("/public/images/fusion_background.jpg");
+    background-repeat: repeat-y;
+    background-position: center;
+    background-size: cover;
 }
 
-#logo{
-  height: 2em;
+#logo {
+    height: 2em;
+}
+
+.nav-link {
+    font-family: var(--varela);
 }
 
 .btn-thread {
-  color: black;
-  background-color: white;
-  border-color: black;
-
+    color: var(--black-color);
+    background-color: white;
+    border-color: var(--black-color);
+    font-family: var(--varela);
 }
 .btn-thread:hover {
-  color: white;
-  background-color: black;
-  border-color: black;
+    color: white;
+    background-color: var(--black-color);
+    border-color: var(--black-color);
+}
 
+.background-vrains {
+    width: 100%;
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+        url("/public/images/background.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.background-dark {
+    background: rgba(0, 0, 0, 0.5);
+    border-radius: 1%;
+}
+
+.title-main {
+    font-family: var(--jetbrains);
+}
+
+.text-hero {
+    font-family: "Roboto", sans-serif;
+}
+
+.cover-yugi:hover {
+    box-shadow: 0px 1px 0px #00a8e7, 0px 0px 5px 0px #00a8e7, 0px 0px 1px 0px #00a8e7;
 }
 
 #resetBtn {
-  width: 180px;
+    width: 180px;
 }
 
-
 .footer-bottom {
-  background-color: black;
+    background-color: var(--black-color);
+}
+
+@media (max-width: 576px) {
+    .title-logo-main {
+        font-size: 1.3rem;
+    }
 }
