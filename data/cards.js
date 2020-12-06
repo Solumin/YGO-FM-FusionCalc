@@ -1,4 +1,4 @@
-var cardDB = TAFFY([
+var card_db = TAFFY([
   {
     "Name": "Blue-eyes White Dragon",
     "Description": "An extremely rare   \r\ncard with\r\nunsurpassed attack\r\nand defense power.",

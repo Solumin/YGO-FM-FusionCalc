@@ -59,3 +59,4 @@ All data for the project is in the `data` directory, and it is all derived from
 -   duke1102 for providing `Cards.json`, without which this project would be
     _very_ innacurate.
 -   marcos0000 for Forbidden Memories Logo in HD [devianart profile](https://www.deviantart.com/marcos0000) and Carlos123321 for vrains background [devianart profile](https://www.deviantart.com/carlos123321)
+-   Giver336 for the .gifs
