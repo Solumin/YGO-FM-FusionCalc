@@ -55,6 +55,19 @@ body {
     font-family: var(--jetbrains);
 }
 
+.hero-title {
+    animation: fromlefttoright 1s 1;
+}
+
+@keyframes fromlefttoright {
+    0% {
+        transform: translateX(-50%);
+    }
+    100% {
+        transform: translateX(0%);
+    }
+}
+
 .text-hero {
     font-family: "Roboto", sans-serif;
 }
@@ -65,6 +78,37 @@ body {
 
 #resetBtn {
     width: 180px;
+}
+
+.random {
+    background: rgb(97, 132, 203);
+    background: radial-gradient(circle, rgba(97, 132, 203, 1) 0%, rgba(205, 228, 171, 1) 59%);
+}
+
+.fusion-search {
+    background-color: #6da86d;
+}
+
+.fusion-search:hover {
+    background-color: red;
+}
+
+.random-2 {
+    background: rgb(203, 97, 144);
+    background: radial-gradient(circle, rgba(203, 97, 144, 1) 0%, rgba(205, 228, 171, 1) 59%);
+}
+
+.fusion-calculator {
+    background-color: #69b0c1;
+}
+
+.random-3 {
+    background: rgb(76, 181, 77);
+    background: radial-gradient(circle, rgba(76, 181, 77, 1) 0%, rgba(205, 228, 171, 1) 59%);
+}
+
+.about-title {
+    background-color: #c16969;
 }
 
 .footer-bottom {

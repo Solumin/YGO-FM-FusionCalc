@@ -1,41 +1,72 @@
-var nameInput = document.getElementById("cardname");
-var outputLeft = document.getElementById("outputarealeft");
-var outputRight = document.getElementById("outputarearight");
-var outputCard = document.getElementById("outputcard");
-var searchMessage = document.getElementById("search-msg");
+let nameInput = document.getElementById("cardname");
+let outputLeft = document.getElementById("output-area-left");
+let outputRight = document.getElementById("output-area-right");
+let outputCard = document.getElementById("outputcard");
+let searchMessage = document.getElementById("search-msg");
+let resetBtn = document.getElementById("reset-btn");
+let searchResultsBtn = document.getElementById("search-results-btn");
+let searchNameBtn = document.getElementById("search-name-btn");
 
 // component card
-const startCard = `<div class="card border-dark mb-3" style="max-width: 18rem;">
-<div class="card-body text-dark">`;
-
-const componentCardStart = `<div class="card text-white bg-dark mb-3" style="max-width: 18rem;">
-<div class="card-header text-center">`;
-const componentCardBody = `</div><div class="card-body text-dark bg-light">`;
+let startCard = `<div class="card border-dark mb-3" style="max-width: 18rem;">
+<div class="card-body text-dark"><p class="card-text"><strong>Input:</strong> `;
 const componentCardEnd = `</div></div>`;
 
-// danger div
+// FUNCTIONS
 
-const dangerDiv = `<div class="alert alert-danger" role="alert">`;
+function resultsClear() {
+    outputLeft.innerHTML = "";
+    outputRight.innerHTML = "";
+    outputCard.innerHTML = "";
+    searchMessage.innerHTML = "";
+}
 
-// messagesForAlerts
+function createDangerMessage(input) {
+    if (!input) {
+        let firstMessage = `<div class="alert alert-danger" role="alert">Please enter a search term</div>`;
+        return firstMessage;
+    } else {
+        let secondMessage = `<div class="alert alert-danger" role="alert">No card for ${input} found</div>`;
+        return secondMessage;
+    }
+}
 
-const messageForNoValue = "Please enter a search term";
-const messageForNoCardStart = "No card for ";
-const messageForNoCardEnd = " found";
+function createSideCard(card) {
+    if (card.Type < 20) {
+        let monsterCard = `<div class="card text-white bg-dark mb-3" style="max-width: 18rem;">
+        <div class="card-header text-center">${card.Name}</div>
+        <div class="card-body text-dark bg-light">
+        <p class="card-text"><strong>Description:</strong> ${card.Description}</p>
+        <p class="card-text"><strong>ATK / DEF:</strong> ${card.Attack} / ${card.Defense}</p>
+        <p class="card-text"><strong>Type:</strong> ${cardTypes[card.Type]}</p>
+        <p class="card-text"><strong>Stars:</strong> ${card.Stars}</p>
+        <p class="card-text"><strong>Password:</strong> ${card.CardCode}</p>
+        </div>
+       </div>`;
+        return monsterCard;
+    } else {
+        let notMonsterCard = `<div class="card text-white bg-dark mb-3" style="max-width: 18rem;">
+        <div class="card-header text-center">${card.Name}</div>
+        <div class="card-body text-dark bg-light">
+        <p class="card-text"><strong>Description:</strong> ${card.Description}</p>
+        <p class="card-text"><strong>Type:</strong> ${cardTypes[card.Type]}</p>
+        <p class="card-text"><strong>Stars:</strong> ${card.Stars}</p>
+        <p class="card-text"><strong>Password:</strong> ${card.CardCode}</p>
+        </div>
+       </div>`;
+        return notMonsterCard;
+    }
+}
 
-// divs
-const descriptionDiv = `<p class="card-text"><strong>Description:</strong> `;
-const typeDiv = `</p><p class="card-text"><strong>Type:</strong> `;
-const attackAndDefenseDiv = `</p><p class="card-text"><strong>ATK / DEF:</strong> `;
-const starsDiv = `</p><p class="card-text"><strong>Stars:</strong> `;
-
-const cardCodeDiv = `</p><p class="card-text"><strong>Password:</strong> `;
-const endPTag = "</p>";
-const endDivTag = "</div>";
+// Returns true if the given card is a monster, false if it is magic, ritual,
+// trap or equip
+function isMonster(card) {
+    return card.Type < 20;
+}
 
 // Initialize awesomplete
 var cardNameCompletion = new Awesomplete(nameInput, {
-    list: cardDB()
+    list: card_db()
         .get()
         .map((c) => c.Name), // list is all the cards in the DB
     autoFirst: true, // The first item in the list is selected
@@ -56,7 +87,7 @@ function fusesToHTML(fuselist) {
     return fuselist
         .map(function (fusion) {
             var res =
-                `${startCard} <p class="card-text"><strong>Input:</strong> ` +
+                startCard +
                 fusion.card1.Name +
                 `<p class="card-text"><strong>Input:</strong> ` +
                 fusion.card2.Name;
@@ -72,156 +103,89 @@ function fusesToHTML(fuselist) {
 
 // Returns the card with a given ID
 function getCardById(id) {
-    var card = cardDB({ Id: id }).first();
+    var card = card_db({ Id: id }).first();
     if (!card) {
         return null;
     }
     return card;
 }
 
-// Returns true if the given card is a monster, false if it is magic, ritual,
-// trap or equip
-function isMonster(card) {
-    return card.Type < 20;
-}
-
 function searchByName() {
     if (nameInput.value === "") {
-        searchMessage.innerHTML = dangerDiv + messageForNoValue + endDivTag;
-        return;
-    }
-
-    var card = cardDB({ Name: { isnocase: nameInput.value } }).first();
-    if (!card) {
-        searchMessage.innerHTML =
-            dangerDiv + messageForNoCardStart + nameInput.value + messageForNoCardEnd + endDivTag;
+        searchMessage.innerHTML = createDangerMessage();
         return;
     } else {
-        // Display card beside search bar
-        if (isMonster(card)) {
-            outputCard.innerHTML =
-                componentCardStart +
-                card.Name +
-                componentCardBody +
-                descriptionDiv +
-                card.Description +
-                attackAndDefenseDiv +
-                card.Attack +
-                " / " +
-                card.Defense +
-                typeDiv +
-                cardTypes[card.Type] +
-                starsDiv +
-                card.Stars +
-                cardCodeDiv +
-                card.CardCode +
-                endPTag +
-                componentCardEnd;
+        let card = card_db({ Name: { isnocase: nameInput.value } }).first();
+        if (!card) {
+            searchMessage.innerHTML = createDangerMessage(nameInput.value);
+            return;
         } else {
-            outputCard.innerHTML =
-                componentCardStart +
-                card.Name +
-                componentCardBody +
-                descriptionDiv +
-                card.Description +
-                typeDiv +
-                cardTypes[card.Type] +
-                endPTag +
-                componentCardEnd;
+            // Display card beside search bar
+            outputCard.innerHTML = createSideCard(card);
+
+            // Get the list of fusions and equips
+            var fuses = fusionsList[card.Id].map((f) => {
+                return { card1: card, card2: getCardById(f.card), result: getCardById(f.result) };
+            });
+
+            var equips = equipsList[card.Id].map((e) => {
+                return { card1: card, card2: getCardById(e) };
+            });
+
+            outputRight.innerHTML = "<h2 class='text-center my-4'>Can be equiped</h2>";
+            outputRight.innerHTML += fusesToHTML(equips);
+
+            outputLeft.innerHTML = "<h2 class='text-center my-4'>Fusions</h2>";
+            outputLeft.innerHTML += fusesToHTML(fuses);
         }
     }
-
-    // Get the list of fusions and equips
-    var fuses = fusionsList[card.Id].map((f) => {
-        return { card1: card, card2: getCardById(f.card), result: getCardById(f.result) };
-    });
-    var equips = equipsList[card.Id].map((e) => {
-        return { card1: card, card2: getCardById(e) };
-    });
-
-    outputLeft.innerHTML = "<h2 class='text-center my-4'>Fusions</h2>";
-    outputLeft.innerHTML += fusesToHTML(fuses);
-
-    outputRight.innerHTML = "<h2 class='text-center my-4'>Equips</h2>";
-    outputRight.innerHTML += fusesToHTML(equips);
 }
 
 function searchForResult() {
     if (nameInput.value === "") {
-        searchMessage.innerHTML = dangerDiv + messageForNoValue + endDivTag;
-        return;
-    }
-
-    var card = cardDB({ Name: { isnocase: nameInput.value } }).first();
-    if (!card) {
-        searchMessage.innerHTML =
-            dangerDiv + messageForNoCardStart + nameInput.value + messageForNoCardEnd + endDivTag;
+        searchMessage.innerHTML = createDangerMessage();
         return;
     } else {
-        // Display card beside search bar
-        if (isMonster(card)) {
-            outputCard.innerHTML =
-                componentCardStart +
-                card.Name +
-                componentCardBody +
-                descriptionDiv +
-                card.Description +
-                attackAndDefenseDiv +
-                card.Attack +
-                " / " +
-                card.Defense +
-                typeDiv +
-                cardTypes[card.Type] +
-                componentCardEnd;
+        var card = card_db({ Name: { isnocase: nameInput.value } }).first();
+        if (!card) {
+            searchMessage.innerHTML = createDangerMessage(nameInput.value);
+            return;
         } else {
-            outputCard.innerHTML =
-                componentCardStart +
-                card.Name +
-                componentCardBody +
-                descriptionDiv +
-                card.Description +
-                typeDiv +
-                cardTypes[card.Type] +
-                componentCardEnd;
+            // Display card beside search bar
+            if (isMonster(card)) {
+                outputCard.innerHTML = createSideCard(card);
+            } else {
+                outputCard.innerHTML = createSideCard(card);
+            }
         }
+
+        var results = resultsList[card.Id].map((f) => {
+            return { card1: getCardById(f.card1), card2: getCardById(f.card2) };
+        });
+
+        outputLeft.innerHTML = "<h2 class='text-center my-4'>Fusions</h2>";
+        outputLeft.innerHTML += fusesToHTML(results);
     }
-
-    var results = resultsList[card.Id].map((f) => {
-        return { card1: getCardById(f.card1), card2: getCardById(f.card2) };
-    });
-
-    outputLeft.innerHTML = "<h2 class='text-center my-4'>Fusions</h2>";
-    outputLeft.innerHTML += fusesToHTML(results);
 }
 
-document.getElementById("searchNameBtn").onclick = function () {
-    $("#search-msg").html("");
+searchNameBtn.onclick = function () {
     cardNameCompletion.select(); // select the currently highlighted item
     resultsClear();
     searchByName();
 };
 
-document.getElementById("searchResultsBtn").onclick = function () {
-    $("#search-msg").html("");
+searchResultsBtn.onclick = function () {
     cardNameCompletion.select(); // select the currently highlighted item
     resultsClear();
     searchForResult();
+};
+
+resetBtn.onclick = function () {
+    resultsClear();
+    nameInput.value = "";
 };
 
 // runs search function on every keypress in #cardname input field
 // $("#cardname").keyup(function (){
 //     searchDB();
 // });
-
-document.getElementById("resetBtn").onclick = function () {
-    nameInput.value = "";
-    outputLeft.innerHTML = "";
-    outputRight.innerHTML = "";
-    outputCard.innerHTML = "";
-    $("#search-msg").html("");
-};
-
-function resultsClear() {
-    outputLeft.innerHTML = "";
-    outputRight.innerHTML = "";
-}
