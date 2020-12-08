@@ -13,17 +13,11 @@
             href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@500&display=swap"
             rel="stylesheet"
         />
-        <link
-            href="https://fonts.googleapis.com/css2?family=Varela+Round&display=swap"
-            rel="stylesheet"
-        />
-        <link
-            href="https://fonts.googleapis.com/css2?family=Roboto&display=swap"
-            rel="stylesheet"
-        />
+        <link href="https://fonts.googleapis.com/css2?family=Varela+Round&display=swap" rel="stylesheet" />
+        <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet" />
         <link rel="stylesheet" type="text/css" href="public/styles/normalize.css" />
         <link rel="stylesheet" type="text/css" href="public/styles/bootstrap.min.css" />
-        <link rel="stylesheet" href="public/styles/about.css" />
+        <link rel="stylesheet" href="public/styles/home.css" />
     </head>
     <body class="bg-light d-flex flex-column min-vh-100">
         <header class="navbar navbar-expand-lg navbar-light bg-light flex-column flex-md-row">
@@ -53,9 +47,7 @@
                         <a class="nav-link text-dark" href="fusion-search.html">Fusion Search</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link text-dark" href="fusion-calculator.html"
-                            >Fusion Calculator</a
-                        >
+                        <a class="nav-link text-dark" href="fusion-calculator.html">Fusion Calculator</a>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link text-dark" href="about.html">About</a>
@@ -65,6 +57,7 @@
                             class="btn btn-bd btn-thread"
                             href="http://forums.somethingawful.com/showthread.php?threadid=3783156"
                             rel="noopener noreferrer"
+                            target="_blank"
                             >Thread</a
                         >
                     </li>
@@ -72,53 +65,60 @@
             </div>
         </header>
 
-        <main class="container">
-            <section class="row">
-                <div class="col-sm my-4">
-                    <h2 class="text-center my-4">ABOUT</h2>
+        <main class="container-fluid">
+            <section class="row container-about">
+                <div class="col my-5 mx-5">
+                    <h2 class="text-center my-4 text-main">ABOUT</h2>
 
                     <p>
-                        Yu-Gi-Oh! Forbidden Memories is a terrible game with a terrible mechanic
-                        called "fusions." Fusions allow the player to fuse two cards together to get
-                        a new, hopefully more powerful card.
+                        Yu-Gi-Oh! Forbidden Memories is a terrible game with a terrible mechanic called
+                        "fusions." Fusions allow the player to fuse two cards together to get a new,
+                        hopefully more powerful card.
                     </p>
 
                     <p>
                         But, since it's a terrible game, YGO:FM does nothing to actually
-                        <em>tell</em> you about the fusions. Your options are to either try every
-                        card against every other card (and by the way there's over 720 cards in the
-                        game) or to look it up online. Oh, and the game doesn't try to record the
-                        fusions at all. And since one card might fuse with a few hundred other
-                        cards, trying to find out which ones are worth it is tedious.
+                        <em>tell</em> you about the fusions. Your options are to either try every card
+                        against every other card (and by the way there's over 720 cards in the game) or to
+                        look it up online. Oh, and the game doesn't try to record the fusions at all. And
+                        since one card might fuse with a few hundred other cards, trying to find out which
+                        ones are worth it is tedious.
                     </p>
 
                     <p>
-                        The real motivation for this project is Giver336's LP of the game on
-                        Something Awful. His co-commentator, General Yeti, mused about the
-                        possibility of a program to find the fusions for you. Here it is!
+                        The real motivation for this project is Giver336's LP of the game on Something Awful.
+                        His co-commentator, General Yeti, mused about the possibility of a program to find
+                        the fusions for you. Here it is!
                     </p>
-
-                    <h2 class="text-center my-4">SPECIAL THANKS</h2>
+                </div>
+            </section>
+            <section class="row" id="container-space"></section>
+            <section class="row">
+                <div class="col my-4 mx-5">
+                    <h2 class="text-center my-4 text-main">SPECIAL THANKS</h2>
 
                     <p>
-                        <strong>Steve Kalynuik, Dylan Birtolo and Miguel Balauag</strong>, authors
-                        of the
+                        <strong>Steve Kalynuik, Dylan Birtolo and Miguel Balauag</strong>, authors of the
                         <a
                             href="https://www.gamefaqs.com/ps/561010-yu-gi-oh-forbidden-memories/faqs/16613"
                             rel="noopener noreferrer"
+                            target="_blank"
                             >Fusion FAQ</a
-                        >, and the <strong>Yu-Gi-Oh! Wikia</strong>, which provided the data that I
-                        used to create the first version of this calculator.
+                        >, and the <strong>Yu-Gi-Oh! Wikia</strong>, which provided the data that I used to
+                        create the first version of this calculator.
                     </p>
                     <p>
-                        <a href="https://github.com/CathodeRaymond" rel="noopener noreferrer"
+                        <a href="https://github.com/CathodeRaymond" rel="noopener noreferrer" target="_blank"
                             >CathodeRaymond</a
                         >
                         for work with CSS and making the project actually look good.
                     </p>
                     <p>
-                        <strong>duke1102</strong> for providing the complete card and fusion data,
-                        without which this project would be very inaccurate.
+                        <a href="https://github.com/duke1102" rel="noopener noreferrer" target="_blank"
+                            >duke1102</a
+                        >
+                        for providing the complete card and fusion data, without which this project would be
+                        very inaccurate.
                     </p>
                 </div>
             </section>
@@ -126,9 +126,29 @@
         <footer class="container-fluid mt-auto">
             <div class="row footer-bottom">
                 <div class="col text-center my-3">
-                    <p class="my-3 text-white">
+                    <a
+                        class="d-inline m-0 p-0 text-decoration-none"
+                        href="index.html"
+                        rel="noopener noreferrer"
+                    >
+                        <img
+                            loading="lazy"
+                            class="millennium-pendant"
+                            src="public/images/item.png"
+                            alt="millennium-pendant"
+                        />
+                    </a>
+                    <p class="my-3 text-white d-inline">
                         Yu-Gi-Oh! Forbiden Memories Fusion Calculator © 2020
                     </p>
+                    <a
+                        class="d-inline m-0 p-0"
+                        href="https://github.com/Solumin/YGO-FM-FusionCalc"
+                        rel="noopener noreferrer"
+                        target="_blank"
+                    >
+                        <img class="gh-logo" src="https://simpleicons.org/icons/github.svg" alt="GitHub" />
+                    </a>
                 </div>
             </div>
         </footer>

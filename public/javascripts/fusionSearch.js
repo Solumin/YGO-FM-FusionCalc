@@ -7,11 +7,6 @@ let resetBtn = document.getElementById("reset-btn");
 let searchResultsBtn = document.getElementById("search-results-btn");
 let searchNameBtn = document.getElementById("search-name-btn");
 
-// component card
-let startCard = `<div class="card border-dark mb-3" style="max-width: 18rem;">
-<div class="card-body text-dark"><p class="card-text"><strong>Input:</strong> `;
-const componentCardEnd = `</div></div>`;
-
 // FUNCTIONS
 
 function resultsClear() {
@@ -32,36 +27,30 @@ function createDangerMessage(input) {
 }
 
 function createSideCard(card) {
+    let modelCard = `<div class="card ml-1" style="max-width: 540px">
+                    <div class="row no-gutters">
+                    <div class="col">
+                    <div class="card-body">
+                    <h5 class="card-title">${card.Name}</h5>
+                    <p class="card-text">${card.Description}</p>
+                    <p class="card-text"><strong>ATK / DEF:</strong> ${card.Attack} / ${card.Defense}</p>
+                    <p class="card-text"><strong>Type:</strong> ${cardTypes[card.Type]}</p>
+                    <p class="card-text"><strong>Stars:</strong> ${card.Stars}</p>
+                    <p class="card-text"><strong>Password:</strong> ${card.CardCode}</p>
+                    </div>
+                    </div>
+                    </div>
+                  </div>`;
+
     if (card.Type < 20) {
-        let monsterCard = `<div class="card text-white bg-dark mb-3" style="max-width: 18rem;">
-        <div class="card-header text-center">${card.Name}</div>
-        <div class="card-body text-dark bg-light">
-        <p class="card-text"><strong>Description:</strong> ${card.Description}</p>
-        <p class="card-text"><strong>ATK / DEF:</strong> ${card.Attack} / ${card.Defense}</p>
-        <p class="card-text"><strong>Type:</strong> ${cardTypes[card.Type]}</p>
-        <p class="card-text"><strong>Stars:</strong> ${card.Stars}</p>
-        <p class="card-text"><strong>Password:</strong> ${card.CardCode}</p>
-        </div>
-       </div>`;
-        return monsterCard;
+        return modelCard;
     } else {
-        let notMonsterCard = `<div class="card text-white bg-dark mb-3" style="max-width: 18rem;">
-        <div class="card-header text-center">${card.Name}</div>
-        <div class="card-body text-dark bg-light">
-        <p class="card-text"><strong>Description:</strong> ${card.Description}</p>
-        <p class="card-text"><strong>Type:</strong> ${cardTypes[card.Type]}</p>
-        <p class="card-text"><strong>Stars:</strong> ${card.Stars}</p>
-        <p class="card-text"><strong>Password:</strong> ${card.CardCode}</p>
-        </div>
-       </div>`;
+        let notMonsterCard = modelCard.replace(
+            `<p class="card-text"><strong>ATK / DEF:</strong> ${card.Attack} / ${card.Defense}</p>`,
+            ""
+        );
         return notMonsterCard;
     }
-}
-
-// Returns true if the given card is a monster, false if it is magic, ritual,
-// trap or equip
-function isMonster(card) {
-    return card.Type < 20;
 }
 
 // Initialize awesomplete
@@ -84,21 +73,17 @@ $("#cardname").on("awesomplete-selectcomplete", function () {
 
 // Creates a div for each fusion
 function fusesToHTML(fuselist) {
-    return fuselist
-        .map(function (fusion) {
-            var res =
-                startCard +
-                fusion.card1.Name +
-                `<p class="card-text"><strong>Input:</strong> ` +
-                fusion.card2.Name;
-            if (fusion.result) {
-                // Equips and Results don't have a result field
-                res += `<p class="card-text"><strong>Result:</strong> ` + fusion.result.Name;
-                res += " (" + fusion.result.Attack + "/" + fusion.result.Defense + ")";
-            }
-            return res + componentCardEnd;
-        })
-        .join("\n");
+    return fuselist.map(function (fusion) {
+        var res = `<div class="card border-dark mb-3" style="max-width: 18rem;">
+        <div class="card-body text-dark"><p class="card-text"><strong>Input:</strong> ${fusion.card1.Name}
+        <p class="card-text"><strong>Input:</strong> ${fusion.card2.Name}`;
+        if (fusion.result) {
+            // Equips and Results don't have a result field
+            res += `<p class="card-text"><strong>Result:</strong> ` + fusion.result.Name;
+            res += " (" + fusion.result.Attack + "/" + fusion.result.Defense + ")";
+        }
+        return res + `</div></div>`;
+    });
 }
 
 // Returns the card with a given ID
@@ -124,10 +109,10 @@ function searchByName() {
             outputCard.innerHTML = createSideCard(card);
 
             // Get the list of fusions and equips
-            var fuses = fusionsList[card.Id].map((f) => {
-                return { card1: card, card2: getCardById(f.card), result: getCardById(f.result) };
-            });
 
+            var fuses = card.Fusions.map((i) => {
+                return { card1: card, card2: getCardById(i._card2), result: getCardById(i._result) };
+            });
             var equips = equipsList[card.Id].map((e) => {
                 return { card1: card, card2: getCardById(e) };
             });
@@ -152,19 +137,16 @@ function searchForResult() {
             return;
         } else {
             // Display card beside search bar
-            if (isMonster(card)) {
-                outputCard.innerHTML = createSideCard(card);
-            } else {
-                outputCard.innerHTML = createSideCard(card);
+            outputCard.innerHTML = createSideCard(card);
+
+            if (resultsList[card.Id].length > 0) {
+                var results = resultsList[card.Id].map((f) => {
+                    return { card1: getCardById(f.card1), card2: getCardById(f.card2) };
+                });
+                outputLeft.innerHTML = "<h2 class='text-center my-4'>Fusions</h2>";
+                outputLeft.innerHTML += fusesToHTML(results);
             }
         }
-
-        var results = resultsList[card.Id].map((f) => {
-            return { card1: getCardById(f.card1), card2: getCardById(f.card2) };
-        });
-
-        outputLeft.innerHTML = "<h2 class='text-center my-4'>Fusions</h2>";
-        outputLeft.innerHTML += fusesToHTML(results);
     }
 }
 
@@ -184,8 +166,3 @@ resetBtn.onclick = function () {
     resultsClear();
     nameInput.value = "";
 };
-
-// runs search function on every keypress in #cardname input field
-// $("#cardname").keyup(function (){
-//     searchDB();
-// });

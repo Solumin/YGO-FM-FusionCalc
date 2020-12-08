@@ -12,14 +12,8 @@
             href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@500&display=swap"
             rel="stylesheet"
         />
-        <link
-            href="https://fonts.googleapis.com/css2?family=Varela+Round&display=swap"
-            rel="stylesheet"
-        />
-        <link
-            href="https://fonts.googleapis.com/css2?family=Roboto&display=swap"
-            rel="stylesheet"
-        />
+        <link href="https://fonts.googleapis.com/css2?family=Varela+Round&display=swap" rel="stylesheet" />
+        <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet" />
         <link rel="stylesheet" type="text/css" href="public/styles/normalize.css" />
         <link rel="stylesheet" type="text/css" href="public/styles/bootstrap.min.css" />
         <link rel="stylesheet" type="text/css" href="public/styles/home.css" />
@@ -29,7 +23,12 @@
     <body class="bg-dark d-flex flex-column min-vh-100 polymerization">
         <header class="navbar navbar-expand-lg navbar-light bg-light flex-column flex-md-row">
             <a class="navbar-brand text-truncate" href="index.html">
-                <img class="img-fluid" id="logo" src="./public/images/logo.png" />
+                <img
+                    class="img-fluid ml-4"
+                    id="logo"
+                    src="public/images/logo.png"
+                    alt="Yu-Gi-Oh! Forbiden Memories Logo"
+                />
             </a>
             <button
                 class="navbar-toggler"
@@ -49,9 +48,7 @@
                         <a class="nav-link text-dark" href="fusion-search.html">Fusion Search</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link text-dark" href="fusion-calculator.html"
-                            >Fusion Calculator</a
-                        >
+                        <a class="nav-link text-dark" href="fusion-calculator.html">Fusion Calculator</a>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link text-dark" href="about.html">About</a>
@@ -61,6 +58,7 @@
                             class="btn btn-bd btn-thread"
                             href="http://forums.somethingawful.com/showthread.php?threadid=3783156"
                             rel="noopener noreferrer"
+                            target="_blank"
                             >Thread</a
                         >
                     </li>
@@ -73,41 +71,22 @@
                 <div class="col">
                     <div class="row my-3">
                         <div class="col">
-                            <h3 class="my-3">Enter hand:</h3>
+                            <h3 class="my-3 text-main">ENTER HAND</h3>
 
                             <div class="hand-input-group">
-                                <input type="test" id="hand1" /><span
-                                    id="hand1-info"
-                                    class="ml-2"
-                                ></span
+                                <input type="test" id="hand1" /><span id="hand1-info" class="ml-2"></span
                                 ><br />
-                                <input type="test" id="hand2" /><span
-                                    id="hand2-info"
-                                    class="ml-2"
-                                ></span
+                                <input type="test" id="hand2" /><span id="hand2-info" class="ml-2"></span
                                 ><br />
-                                <input type="test" id="hand3" /><span
-                                    id="hand3-info"
-                                    class="ml-2"
-                                ></span
+                                <input type="test" id="hand3" /><span id="hand3-info" class="ml-2"></span
                                 ><br />
-                                <input type="test" id="hand4" /><span
-                                    id="hand4-info"
-                                    class="ml-2"
-                                ></span
+                                <input type="test" id="hand4" /><span id="hand4-info" class="ml-2"></span
                                 ><br />
-                                <input type="test" id="hand5" /><span
-                                    id="hand5-info"
-                                    class="ml-2"
-                                ></span
+                                <input type="test" id="hand5" /><span id="hand5-info" class="ml-2"></span
                                 ><br />
                             </div>
                             <br />
-                            <button
-                                type="button"
-                                class="btn btn-danger mt-4 btn-block"
-                                id="resetBtn"
-                            >
+                            <button type="button" class="btn btn-danger mt-4" id="resetBtn">
                                 Reset All
                             </button>
                         </div>
@@ -117,7 +96,7 @@
 
             <section class="row rounded-lg mt-4 bg-light">
                 <div class="col">
-                    <h4 class="text-center my-4">RESULTS<span id="search-msg"></span></h4>
+                    <h4 class="text-center my-4 text-main">RESULTS<span id="search-msg"></span></h4>
 
                     <div class="row">
                         <div class="col-sm">
@@ -132,18 +111,36 @@
             </section>
         </main>
 
-        <footer class="container-fluid mt-auto footer-bottom">
-            <div class="row">
+        <footer class="container-fluid mt-auto">
+            <div class="row footer-bottom">
                 <div class="col text-center my-3">
-                    <p class="my-3 text-white">
+                    <a
+                        class="d-inline m-0 p-0 text-decoration-none"
+                        href="index.html"
+                        rel="noopener noreferrer"
+                    >
+                        <img
+                            loading="lazy"
+                            class="millennium-pendant"
+                            src="public/images/item.png"
+                            alt="millennium-pendant"
+                        />
+                    </a>
+                    <p class="my-3 text-white d-inline">
                         Yu-Gi-Oh! Forbiden Memories Fusion Calculator © 2020
                     </p>
+                    <a
+                        class="d-inline m-0 p-0"
+                        href="https://github.com/Solumin/YGO-FM-FusionCalc"
+                        rel="noopener noreferrer"
+                        target="_blank"
+                    >
+                        <img class="gh-logo" src="https://simpleicons.org/icons/github.svg" alt="GitHub" />
+                    </a>
                 </div>
             </div>
         </footer>
-
         <script type="text/javascript" src="public/javascripts/awesomplete.min.js"></script>
-        <script src="public/javascripts/jquery-3.5.1.min.js"></script>
         <script type="text/javascript" src="public/javascripts/jquery-3.5.1.min.js"></script>
         <script type="text/javascript" src="public/javascripts/bootstrap.bundle.min.js"></script>
         <script type="text/javascript" src="public/javascripts/taffy.js"></script>
