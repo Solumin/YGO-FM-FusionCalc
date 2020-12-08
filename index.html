@@ -13,20 +13,13 @@
             href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@500&display=swap"
             rel="stylesheet"
         />
-        <link
-            href="https://fonts.googleapis.com/css2?family=Varela+Round&display=swap"
-            rel="stylesheet"
-        />
-        <link
-            href="https://fonts.googleapis.com/css2?family=Roboto&display=swap"
-            rel="stylesheet"
-        />
+        <link href="https://fonts.googleapis.com/css2?family=Varela+Round&display=swap" rel="stylesheet" />
         <link rel="stylesheet" type="text/css" href="public/styles/normalize.css" />
         <link rel="stylesheet" type="text/css" href="public/styles/bootstrap.min.css" />
         <link rel="stylesheet" type="text/css" href="public/styles/home.css" />
     </head>
 
-    <body class="bg-dark d-flex flex-column min-vh-100">
+    <body class="d-flex flex-column min-vh-100">
         <header class="navbar navbar-expand-lg navbar-light bg-light flex-column flex-md-row">
             <a class="navbar-brand text-truncate" href="index.html">
                 <img
@@ -54,9 +47,7 @@
                         <a class="nav-link text-dark" href="fusion-search.html">Fusion Search</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link text-dark" href="fusion-calculator.html"
-                            >Fusion Calculator</a
-                        >
+                        <a class="nav-link text-dark" href="fusion-calculator.html">Fusion Calculator</a>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link text-dark" href="about.html">About</a>
@@ -66,6 +57,7 @@
                             class="btn btn-bd btn-thread"
                             href="http://forums.somethingawful.com/showthread.php?threadid=3783156"
                             rel="noopener noreferrer"
+                            target="_blank"
                             >Thread</a
                         >
                     </li>
@@ -73,23 +65,20 @@
             </div>
         </header>
         <main class="container-fluid background-vrains">
-            <section class="row background-dark">
+            <section class="row container-main-fm">
                 <div
                     class="col-md-8 offset-md-1 col-lg-5 offset-lg-1 order-sm-12 order-md-1 order-lg-1 my-4"
                 >
-                    <h1 class="title-main my-4 text-white hero-title">
-                        Yu-Gi-Oh! Forbidden Memories
-                    </h1>
-                    <h2 class="title-main my-4 text-white hero-title">Fusion Calculator</h2>
-                    <p class="m-4 text-white text-hero">
-                        Yu-Gi-Oh! Forbidden Memories is a terrible game with a terrible mechanic
-                        called "fusions." Fusions allow the player to fuse two cards together to get
-                        a new, hopefully more powerful card.
+                    <h1 class="text-main my-4 text-white hero-title">Yu-Gi-Oh! Forbidden Memories</h1>
+                    <h2 class="text-main my-4 text-white hero-title">Fusion Calculator</h2>
+                    <p class="m-4 text-subtext text-white">
+                        Yu-Gi-Oh! Forbidden Memories is a terrible game with a terrible mechanic called
+                        "fusions." Fusions allow the player to fuse two cards together to get a new,
+                        hopefully more powerful card.
                     </p>
 
-                    <p class="mx-4 text-white text-hero">
-                        For this reason we bring it to you the one thousand ways to fusion your
-                        cards !
+                    <p class="mx-4 text-subtext text-white">
+                        For this reason we bring it to you the one thousand ways to fusion your cards !
                     </p>
                     <div class="d-flex flex-column flex-md-row">
                         <a href="fusion-search.html" class="btn btn-lg btn-light my-3 mx-md-4"
@@ -102,74 +91,120 @@
                 >
                     <img
                         src="public/images/cover_playstation.webp"
-                        class="img-fluid my-4 cover-yugi d-none d-sm-block"
+                        class="img-fluid my-4 cover-playstation d-none d-sm-block"
                         alt="Yu-Gi-Oh! Forbiden Memories Cover Playstation"
                     />
                 </div>
             </section>
-            <section class="row bg-light random">
-                <div
-                    class="col col-lg-5 offset-lg-1 my-4 d-flex flex-column justify-content-center"
-                >
-                    <h2 class="d-inline-flex title-main my-4">
+            <section class="row container-fusion-search">
+                <div class="col col-lg-5 offset-lg-1 my-4 d-flex flex-column">
+                    <h2 class="d-inline-flex text-main my-4">
                         <span class="fusion-search">Fusion Search</span>
                     </h2>
 
-                    <p class="h3 my-5">
-                        With fusion search, you can get information about how to obtain that
-                        impossible fusion card and also discover what type of fusion you can do with
-                        that card in your hand!
+                    <p class="h3 my-5 text-subtext">
+                        With fusion search, you can get information about how to obtain that impossible
+                        fusion card and also discover what type of fusion you can do with that card in your
+                        hand!
                     </p>
+                    <div class="d-flex flex-column flex-md-row">
+                        <a href="fusion-search.html" class="btn btn-lg btn-dark mb-3 mx-md-4"
+                            >Visit Fusion Search</a
+                        >
+                    </div>
                 </div>
                 <div class="col col-lg-5 offset-lg-1 my-4 d-none d-sm-none d-md-block">
                     <img
                         loading="lazy"
-                        src="public/images/fussion.gif"
-                        class="img-fluid my-4 cover-yugi d-none d-sm-none d-md-block"
-                        alt="Yu-Gi-Oh! Forbiden Memories Cover Playstation"
+                        src="public/images/fusion.gif"
+                        class="img-fluid my-4 d-none d-sm-none d-md-block img-group"
+                        alt="fusion cards"
                     />
                 </div>
             </section>
-            <section class="row bg-light random-2">
-                <div class="col offset-lg-1 my-4">
-                    <h2 class="title-main my-4">
+            <section class="row container-fusion-calculator">
+                <div class="col col-lg-5 offset-lg-1 my-4 d-flex flex-column">
+                    <h2 class="d-inline-flex text-main my-4">
                         <span class="fusion-calculator">Fusion Calculator</span>
                     </h2>
 
-                    <p class="h3 my-5">
-                        Package managed installs don’t include documentation or our full build
-                        scripts. You can also
-                        <a href="https://github.com/twbs/bootstrap-npm-starter"
-                            >use our npm template repo</a
-                        >
-                        to quickly generate a Bootstrap project via npm.
+                    <p class="h3 my-5 text-subtext">
+                        Let's test your whole hand, and discover what it's your next play.
                     </p>
+                    <p class="h3 mb-5 text-subtext">Like Fusion, equip or rituals !</p>
+
+                    <div class="d-flex flex-column flex-md-row">
+                        <a href="fusion-calculator.html" class="btn btn-lg btn-light mb-3 mx-md-4"
+                            >Visit Fusion Calculator</a
+                        >
+                    </div>
+                </div>
+                <div class="col col-lg-5 offset-lg-1 my-4 d-none d-sm-none d-md-block">
+                    <img
+                        loading="lazy"
+                        src="public/images/atem.png"
+                        class="img-fluid my-4 ml-auto d-none d-sm-none d-md-block d-flex img-group"
+                        alt="atem character"
+                    />
                 </div>
             </section>
-            <section class="row bg-light random-3">
+            <section class="row container-about">
                 <div class="col col-lg-5 offset-lg-1 my-4">
-                    <h2 class="title-main my-4"><span class="about-title">About</span></h2>
+                    <h2 class="text-main my-4"><span class="about-title">About</span></h2>
 
-                    <p class="h3 my-5">
+                    <p class="h3 my-5 text-subtext">
                         Learn more about the
-                        <strong>Yu-Gi-Oh! Forbiden Memories Fusion Calculator</strong> project, and
-                        how to get involved.
+                        <strong>Yu-Gi-Oh! Forbiden Memories Fusion Calculator</strong> project, and how to
+                        get involved.
                     </p>
 
                     <div class="d-flex flex-column flex-md-row">
-                        <a href="about.html" class="btn btn-lg btn-outline-dark mb-3 mx-md-4"
-                            >Read the about section</a
+                        <a href="about.html" class="btn btn-lg btn-about mb-3 mx-md-4"
+                            >READ THE ABOUT SECTION</a
                         >
                     </div>
+                </div>
+                <div class="col col-lg-5 offset-lg-1 my-4 d-none d-sm-none d-md-block">
+                    <img
+                        loading="lazy"
+                        src="public/images/kaiba.png"
+                        class="img-fluid my-4 ml-auto d-none d-sm-none d-md-block d-flex img-group"
+                        alt="kaiba character"
+                    />
                 </div>
             </section>
         </main>
         <footer class="container-fluid mt-auto">
             <div class="row footer-bottom">
                 <div class="col text-center my-3">
-                    <p class="my-3 text-white">
+                    <a
+                        class="d-inline m-0 p-0 text-decoration-none"
+                        href="index.html"
+                        rel="noopener noreferrer"
+                    >
+                        <img
+                            loading="lazy"
+                            class="millennium-pendant"
+                            src="public/images/item.png"
+                            alt="millennium-pendant"
+                        />
+                    </a>
+                    <p class="my-3 text-white d-inline">
                         Yu-Gi-Oh! Forbiden Memories Fusion Calculator © 2020
                     </p>
+                    <a
+                        class="d-inline m-0 p-0"
+                        href="https://github.com/Solumin/YGO-FM-FusionCalc"
+                        rel="noopener noreferrer"
+                        target="_blank"
+                    >
+                        <img
+                            loading="lazy"
+                            class="gh-logo"
+                            src="https://simpleicons.org/icons/github.svg"
+                            alt="GitHub Repo"
+                        />
+                    </a>
                 </div>
             </div>
         </footer>

@@ -13,14 +13,8 @@
             href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@500&display=swap"
             rel="stylesheet"
         />
-        <link
-            href="https://fonts.googleapis.com/css2?family=Varela+Round&display=swap"
-            rel="stylesheet"
-        />
-        <link
-            href="https://fonts.googleapis.com/css2?family=Roboto&display=swap"
-            rel="stylesheet"
-        />
+        <link href="https://fonts.googleapis.com/css2?family=Varela+Round&display=swap" rel="stylesheet" />
+        <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet" />
         <link rel="stylesheet" type="text/css" href="public/styles/normalize.css" />
         <link rel="stylesheet" type="text/css" href="public/styles/bootstrap.min.css" />
         <link rel="stylesheet" type="text/css" href="public/styles/home.css" />
@@ -55,9 +49,7 @@
                         <a class="nav-link text-dark" href="fusion-search.html">Fusion Search</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link text-dark" href="fusion-calculator.html"
-                            >Fusion Calculator</a
-                        >
+                        <a class="nav-link text-dark" href="fusion-calculator.html">Fusion Calculator</a>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link text-dark" href="about.html">About</a>
@@ -67,6 +59,7 @@
                             class="btn btn-bd btn-thread"
                             href="http://forums.somethingawful.com/showthread.php?threadid=3783156"
                             rel="noopener noreferrer"
+                            target="_blank"
                             >Thread</a
                         >
                     </li>
@@ -76,18 +69,14 @@
         <main class="container">
             <section class="row mt-3 rounded-lg bg-light">
                 <div class="col">
+                    <h2 class="text-main my-5 text-center">SEARCH</h2>
                     <div class="row my-3">
-                        <div class="col-sm">
-                            <h2 class="title-main m-2">Search</h2>
+                        <div class="col-sm-8 offset-sm-1 col-md-5 offset-md-1 d-flex flex-column">
+                            <p>Type the card name</p>
+                            <input class="w-100" type="text" id="cardname" />
 
-                            <input type="text" id="cardname" />
-
-                            <div class="btn-group" role="group" aria-label="Basic example">
-                                <button
-                                    type="button"
-                                    class="btn btn-outline-success"
-                                    id="search-name-btn"
-                                >
+                            <div class="btn-group my-5" role="group">
+                                <button type="button" class="btn btn-outline-success" id="search-name-btn">
                                     Search by Name
                                 </button>
 
@@ -98,17 +87,15 @@
                                 >
                                     Search by Result
                                 </button>
-                            </div>
 
-                            <button
-                                type="button"
-                                class="btn btn-danger mt-4 btn-block"
-                                id="reset-btn"
-                            >
-                                Reset All
-                            </button>
+                                <button type="button" class="btn btn-danger" id="reset-btn">
+                                    Reset All
+                                </button>
+                            </div>
                         </div>
-                        <div class="col-sm d-flex justify-content-center mt-4">
+                        <div
+                            class="col-sm-10 offset-sm-1 col-md-4 offset-md-1 d-flex justify-content-center"
+                        >
                             <div id="outputcard"></div>
                         </div>
                     </div>
@@ -117,7 +104,7 @@
 
             <section class="row rounded-lg my-4 bg-light">
                 <div class="col text-center my-4">
-                    <h3 class="title-main my-4">RESULTS</h3>
+                    <h3 class="text-main my-4">RESULTS</h3>
                     <span id="search-msg"></span>
 
                     <div class="row">
@@ -135,9 +122,29 @@
         <footer class="container-fluid mt-auto">
             <div class="row footer-bottom">
                 <div class="col text-center my-3">
-                    <p class="my-3 text-white">
+                    <a
+                        class="d-inline m-0 p-0 text-decoration-none"
+                        href="index.html"
+                        rel="noopener noreferrer"
+                    >
+                        <img
+                            loading="lazy"
+                            class="millennium-pendant"
+                            src="public/images/item.png"
+                            alt="millennium-pendant"
+                        />
+                    </a>
+                    <p class="my-3 text-white d-inline">
                         Yu-Gi-Oh! Forbiden Memories Fusion Calculator © 2020
                     </p>
+                    <a
+                        class="d-inline m-0 p-0"
+                        href="https://github.com/Solumin/YGO-FM-FusionCalc"
+                        rel="noopener noreferrer"
+                        target="_blank"
+                    >
+                        <img class="gh-logo" src="https://simpleicons.org/icons/github.svg" alt="GitHub" />
+                    </a>
                 </div>
             </div>
         </footer>
