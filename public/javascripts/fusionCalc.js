@@ -1,5 +1,5 @@
-var outputLeft = document.getElementById("outputarealeft");
-var outputRight = document.getElementById("outputarearight");
+var outputLeft = document.getElementById("output-area-left");
+var outputRight = document.getElementById("output-area-right");
 
 // Initialize Awesomplete
 var _awesompleteOpts = {
@@ -20,10 +20,7 @@ function fusesToHTML(fuselist) {
     return fuselist
         .map(function (fusion) {
             var res =
-                "<div class='result-div'>Input: " +
-                fusion.card1.Name +
-                "<br>Input: " +
-                fusion.card2.Name;
+                "<div class='result-div'>Input: " + fusion.card1.Name + "<br>Input: " + fusion.card2.Name;
             if (fusion.result) {
                 // Equips and Results don't have a result field
                 res += "<br>Result: " + fusion.result.Name;
@@ -36,19 +33,6 @@ function fusesToHTML(fuselist) {
             return res + "<br><br></div>";
         })
         .join("\n");
-}
-
-function getCardByName(cardname) {
-    return card_db({ Name: { isnocase: cardname } }).first();
-}
-
-// Returns the card with a given ID
-function getCardById(id) {
-    var card = card_db({ Id: id }).first();
-    if (!card) {
-        return null;
-    }
-    return card;
 }
 
 function formatStats(attack, defense) {
@@ -113,10 +97,10 @@ function findFusions() {
         }
     }
 
-    outputLeft.innerHTML = "<h2 class='center'>Fusions:</h2>";
+    outputLeft.innerHTML = "<h2 class='text-center my-4'>Fusions</h2>";
     outputLeft.innerHTML += fusesToHTML(fuses.sort((a, b) => b.result.Attack - a.result.Attack));
 
-    outputRight.innerHTML = "<h2 class='center'>Equips:</h2>";
+    outputRight.innerHTML = "<h2 class='text-center my-4'>Equips</h2>";
     outputRight.innerHTML += fusesToHTML(equips);
 }
 
@@ -153,7 +137,7 @@ for (i = 1; i <= 5; i++) {
     });
 }
 
-$("#resetBtn").on("click", function () {
+$("#reset-btn").on("click", function () {
     resultsClear();
     inputsClear();
 });

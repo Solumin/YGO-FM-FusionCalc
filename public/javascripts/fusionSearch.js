@@ -1,4 +1,4 @@
-let nameInput = document.getElementById("cardname");
+let inputCard = document.getElementById("cardname");
 let outputLeft = document.getElementById("output-area-left");
 let outputRight = document.getElementById("output-area-right");
 let outputCard = document.getElementById("outputcard");
@@ -26,6 +26,7 @@ function createDangerMessage(input) {
     }
 }
 
+// Display card beside search bar
 function createSideCard(card) {
     let modelCard = `<div class="card ml-1" style="max-width: 540px">
                     <div class="row no-gutters">
@@ -54,7 +55,7 @@ function createSideCard(card) {
 }
 
 // Initialize awesomplete
-var cardNameCompletion = new Awesomplete(nameInput, {
+var cardNameCompletion = new Awesomplete(inputCard, {
     list: card_db()
         .get()
         .map((c) => c.Name), // list is all the cards in the DB
@@ -80,89 +81,75 @@ function fusesToHTML(fuselist) {
         if (fusion.result) {
             // Equips and Results don't have a result field
             res += `<p class="card-text"><strong>Result:</strong> ` + fusion.result.Name;
-            res += " (" + fusion.result.Attack + "/" + fusion.result.Defense + ")";
         }
         return res + `</div></div>`;
     });
 }
 
-// Returns the card with a given ID
-function getCardById(id) {
-    var card = card_db({ Id: id }).first();
-    if (!card) {
-        return null;
-    }
-    return card;
-}
-
 function searchByName() {
-    if (nameInput.value === "") {
-        searchMessage.innerHTML = createDangerMessage();
+    let card = getCardByName(inputCard.value);
+    if (!card) {
+        searchMessage.innerHTML = createDangerMessage(inputCard.value);
         return;
     } else {
-        let card = card_db({ Name: { isnocase: nameInput.value } }).first();
-        if (!card) {
-            searchMessage.innerHTML = createDangerMessage(nameInput.value);
-            return;
-        } else {
-            // Display card beside search bar
-            outputCard.innerHTML = createSideCard(card);
+        outputCard.innerHTML = createSideCard(card);
 
-            // Get the list of fusions and equips
+        // Get the list of fusions and equips
 
-            var fuses = card.Fusions.map((i) => {
-                return { card1: card, card2: getCardById(i._card2), result: getCardById(i._result) };
-            });
-            var equips = equipsList[card.Id].map((e) => {
-                return { card1: card, card2: getCardById(e) };
-            });
+        var fuses = card.Fusions.map((i) => {
+            return { card1: card, card2: getCardById(i._card2), result: getCardById(i._result) };
+        });
+        var equips = equipsList[card.Id].map((e) => {
+            return { card1: card, card2: getCardById(e) };
+        });
 
-            outputRight.innerHTML = "<h2 class='text-center my-4'>Can be equiped</h2>";
-            outputRight.innerHTML += fusesToHTML(equips);
+        outputRight.innerHTML = "<h2 class='text-center my-4'>Can be equiped</h2>";
+        outputRight.innerHTML += fusesToHTML(equips);
 
-            outputLeft.innerHTML = "<h2 class='text-center my-4'>Fusions</h2>";
-            outputLeft.innerHTML += fusesToHTML(fuses);
-        }
+        outputLeft.innerHTML = "<h2 class='text-center my-4'>Fusions</h2>";
+        outputLeft.innerHTML += fusesToHTML(fuses);
     }
 }
 
 function searchForResult() {
-    if (nameInput.value === "") {
-        searchMessage.innerHTML = createDangerMessage();
+    let card = getCardByName(inputCard.value);
+    if (!card) {
+        searchMessage.innerHTML = createDangerMessage(inputCard.value);
         return;
     } else {
-        var card = card_db({ Name: { isnocase: nameInput.value } }).first();
-        if (!card) {
-            searchMessage.innerHTML = createDangerMessage(nameInput.value);
-            return;
-        } else {
-            // Display card beside search bar
-            outputCard.innerHTML = createSideCard(card);
+        outputCard.innerHTML = createSideCard(card);
 
-            if (resultsList[card.Id].length > 0) {
-                var results = resultsList[card.Id].map((f) => {
-                    return { card1: getCardById(f.card1), card2: getCardById(f.card2) };
-                });
-                outputLeft.innerHTML = "<h2 class='text-center my-4'>Fusions</h2>";
-                outputLeft.innerHTML += fusesToHTML(results);
-            }
+        if (resultsList[card.Id].length > 0) {
+            var results = resultsList[card.Id].map((f) => {
+                return { card1: getCardById(f.card1), card2: getCardById(f.card2) };
+            });
+            outputLeft.innerHTML = "<h2 class='text-center my-4'>Fusions</h2>";
+            outputLeft.innerHTML += fusesToHTML(results);
         }
     }
 }
 
 searchNameBtn.onclick = function () {
-    cardNameCompletion.select(); // select the currently highlighted item
-    resultsClear();
-    searchByName();
+    if (checkInput() === true) {
+        searchMessage.innerHTML = createDangerMessage();
+        return;
+    } else {
+        resultsClear();
+        searchByName();
+    }
 };
 
 searchResultsBtn.onclick = function () {
-    cardNameCompletion.select(); // select the currently highlighted item
-    resultsClear();
-    searchForResult();
+    if (checkInput() === true) {
+        searchMessage.innerHTML = createDangerMessage();
+        return;
+    } else {
+        resultsClear();
+        searchForResult();
+    }
 };
 
 resetBtn.onclick = function () {
     resultsClear();
-    nameInput.value = "";
+    inputCard.value = "";
 };

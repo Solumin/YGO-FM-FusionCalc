@@ -69,24 +69,18 @@
         <main class="container">
             <section class="row mt-3 rounded-lg bg-light">
                 <div class="col">
+                    <h3 class="my-3 text-main text-center">ENTER HAND</h3>
+
                     <div class="row my-3">
                         <div class="col">
-                            <h3 class="my-3 text-main">ENTER HAND</h3>
-
                             <div class="hand-input-group">
-                                <input type="test" id="hand1" /><span id="hand1-info" class="ml-2"></span
-                                ><br />
-                                <input type="test" id="hand2" /><span id="hand2-info" class="ml-2"></span
-                                ><br />
-                                <input type="test" id="hand3" /><span id="hand3-info" class="ml-2"></span
-                                ><br />
-                                <input type="test" id="hand4" /><span id="hand4-info" class="ml-2"></span
-                                ><br />
-                                <input type="test" id="hand5" /><span id="hand5-info" class="ml-2"></span
-                                ><br />
+                                <input type="text" id="hand1" /><span id="hand1-info" class="ml-2"></span>
+                                <input type="text" id="hand2" /><span id="hand2-info" class="ml-2"></span>
+                                <input type="text" id="hand3" /><span id="hand3-info" class="ml-2"></span>
+                                <input type="text" id="hand4" /><span id="hand4-info" class="ml-2"></span>
+                                <input type="text" id="hand5" /><span id="hand5-info" class="ml-2"></span>
                             </div>
-                            <br />
-                            <button type="button" class="btn btn-danger mt-4" id="resetBtn">
+                            <button type="button" class="btn btn-danger mt-4" id="reset-btn">
                                 Reset All
                             </button>
                         </div>
@@ -94,17 +88,17 @@
                 </div>
             </section>
 
-            <section class="row rounded-lg mt-4 bg-light">
+            <section class="row rounded-lg my-4 bg-light">
                 <div class="col">
-                    <h4 class="text-center my-4 text-main">RESULTS<span id="search-msg"></span></h4>
+                    <h3 class="text-center my-4 text-main">RESULTS</h3>
 
                     <div class="row">
                         <div class="col-sm">
-                            <div id="outputarealeft"></div>
+                            <div id="output-area-left"></div>
                         </div>
 
                         <div class="col-sm">
-                            <div id="outputarearight"></div>
+                            <div id="output-area-right"></div>
                         </div>
                     </div>
                 </div>
@@ -148,6 +142,7 @@
         <script type="text/javascript" src="data/fusions.js"></script>
         <script type="text/javascript" src="data/equips.js"></script>
         <script type="text/javascript" src="data/types_and_stars.js"></script>
+        <script type="text/javascript" src="public/javascripts/functions.js"></script>
         <script type="text/javascript" src="public/javascripts/fusionCalc.js"></script>
     </body>
 </html>
