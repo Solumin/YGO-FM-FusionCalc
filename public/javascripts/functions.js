@@ -1,13 +1,14 @@
-function checkInput() {
-    if (inputCard.value === "") {
-        return true;
-    } else {
-        return null;
-    }
+// Returns true if the input is empty
+function checkInput(input) {
+    return input.value === "";
+}
+
+// Returns true if the given card is a monster, false if it is magic, ritual, trap or equip
+function isMonster(card) {
+    return card.Type < 20;
 }
 
 // Returns the card info from database
-
 function getCardByName(cardname) {
     return card_db({ Name: { isnocase: cardname } }).first();
 }
@@ -19,4 +20,9 @@ function getCardById(id) {
         return null;
     }
     return card;
+}
+
+// Returns true if the given card can be equiped
+function equipCard() {
+    return equipsList[card.Id].length > 0;
 }

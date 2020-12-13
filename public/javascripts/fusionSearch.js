@@ -18,10 +18,10 @@ function resultsClear() {
 
 function createDangerMessage(input) {
     if (!input) {
-        let firstMessage = `<div class="alert alert-danger" role="alert">Please enter a search term</div>`;
+        let firstMessage = `<div class="alert alert-danger">Please enter a search term</div>`;
         return firstMessage;
     } else {
-        let secondMessage = `<div class="alert alert-danger" role="alert">No card for ${input} found</div>`;
+        let secondMessage = `<div class="alert alert-danger">No card for ${input} found</div>`;
         return secondMessage;
     }
 }
@@ -42,8 +42,7 @@ function createSideCard(card) {
                     </div>
                     </div>
                   </div>`;
-
-    if (card.Type < 20) {
+    if (isMonster(card) === true) {
         return modelCard;
     } else {
         let notMonsterCard = modelCard.replace(
@@ -74,16 +73,18 @@ $("#cardname").on("awesomplete-selectcomplete", function () {
 
 // Creates a div for each fusion
 function fusesToHTML(fuselist) {
-    return fuselist.map(function (fusion) {
-        var res = `<div class="card border-dark mb-3" style="max-width: 18rem;">
-        <div class="card-body text-dark"><p class="card-text"><strong>Input:</strong> ${fusion.card1.Name}
-        <p class="card-text"><strong>Input:</strong> ${fusion.card2.Name}`;
-        if (fusion.result) {
-            // Equips and Results don't have a result field
-            res += `<p class="card-text"><strong>Result:</strong> ` + fusion.result.Name;
-        }
-        return res + `</div></div>`;
-    });
+    return fuselist
+        .map(function (fusion) {
+            var res = `<div class="card border-dark mb-3" style="max-width: 18rem;">
+        <div class="card-body text-dark">
+        <p class="card-text">${fusion.card1.Name}<strong> + </strong>${fusion.card2.Name}</p>`;
+            if (fusion.result) {
+                // Equips and Results don't have a result field
+                res += `<p class="card-text"><strong>Result:</strong> ${fusion.result.Name}</p>`;
+            }
+            return res + `</div></div>`;
+        })
+        .join("\n");
 }
 
 function searchByName() {
@@ -94,20 +95,19 @@ function searchByName() {
     } else {
         outputCard.innerHTML = createSideCard(card);
 
-        // Get the list of fusions and equips
+        if (card.Fusions.length > 0 || equipsList[card.Id].length > 0) {
+            let fuses = card.Fusions.map((i) => {
+                return { card1: card, card2: getCardById(i._card2), result: getCardById(i._result) };
+            });
+            let equips = equipsList[card.Id].map((e) => {
+                return { card1: card, card2: getCardById(e) };
+            });
 
-        var fuses = card.Fusions.map((i) => {
-            return { card1: card, card2: getCardById(i._card2), result: getCardById(i._result) };
-        });
-        var equips = equipsList[card.Id].map((e) => {
-            return { card1: card, card2: getCardById(e) };
-        });
-
-        outputRight.innerHTML = "<h2 class='text-center my-4'>Can be equiped</h2>";
-        outputRight.innerHTML += fusesToHTML(equips);
-
-        outputLeft.innerHTML = "<h2 class='text-center my-4'>Fusions</h2>";
-        outputLeft.innerHTML += fusesToHTML(fuses);
+            outputLeft.innerHTML = "<h2 class='text-center mb-4'>Fusions</h2>";
+            outputLeft.innerHTML += fusesToHTML(fuses);
+            outputRight.innerHTML = "<h2 class='text-center mb-4'>Fusions</h2>";
+            outputRight.innerHTML += fusesToHTML(equips);
+        }
     }
 }
 
@@ -120,17 +120,17 @@ function searchForResult() {
         outputCard.innerHTML = createSideCard(card);
 
         if (resultsList[card.Id].length > 0) {
-            var results = resultsList[card.Id].map((f) => {
+            let results = resultsList[card.Id].map((f) => {
                 return { card1: getCardById(f.card1), card2: getCardById(f.card2) };
             });
-            outputLeft.innerHTML = "<h2 class='text-center my-4'>Fusions</h2>";
+            outputLeft.innerHTML = "<h2 class='text-center mb-4'>Fusions</h2>";
             outputLeft.innerHTML += fusesToHTML(results);
         }
     }
 }
 
 searchNameBtn.onclick = function () {
-    if (checkInput() === true) {
+    if (checkInput(inputCard) === true) {
         searchMessage.innerHTML = createDangerMessage();
         return;
     } else {
@@ -140,7 +140,7 @@ searchNameBtn.onclick = function () {
 };
 
 searchResultsBtn.onclick = function () {
-    if (checkInput() === true) {
+    if (checkInput(inputCard) === true) {
         searchMessage.innerHTML = createDangerMessage();
         return;
     } else {
