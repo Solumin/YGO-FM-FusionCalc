@@ -15,8 +15,6 @@ var card_db = TAFFY([
     "Fusions": [],
     "Ritual": null,
     "Attribute": 0,
-    "NameColor": 0,
-    "DescColor": 0
   },
   {
     "Name": "Mystical Elf",
@@ -1150,8 +1148,6 @@ var card_db = TAFFY([
     ],
     "Ritual": null,
     "Attribute": 0,
-    "NameColor": 0,
-    "DescColor": 0
   },
   {
     "Name": "Hitotsu-me Giant",
@@ -1220,8 +1216,6 @@ var card_db = TAFFY([
     ],
     "Ritual": null,
     "Attribute": 2,
-    "NameColor": 0,
-    "DescColor": 0
   },
   {
     "Name": "Baby Dragon",
@@ -2790,8 +2784,6 @@ var card_db = TAFFY([
     ],
     "Ritual": null,
     "Attribute": 5,
-    "NameColor": 0,
-    "DescColor": 0
   },
   {
     "Name": "Ryu-kishin",
@@ -3015,8 +3007,6 @@ var card_db = TAFFY([
     ],
     "Ritual": null,
     "Attribute": 1,
-    "NameColor": 0,
-    "DescColor": 0
   },
   {
     "Name": "Feral Imp",
@@ -3090,8 +3080,6 @@ var card_db = TAFFY([
     ],
     "Ritual": null,
     "Attribute": 1,
-    "NameColor": 0,
-    "DescColor": 0
   },
   {
     "Name": "Winged Dragon #1",
@@ -4650,8 +4638,6 @@ var card_db = TAFFY([
     ],
     "Ritual": null,
     "Attribute": 5,
-    "NameColor": 0,
-    "DescColor": 0
   },
   {
     "Name": "Mushroom Man",
@@ -5490,8 +5476,6 @@ var card_db = TAFFY([
     ],
     "Ritual": null,
     "Attribute": 2,
-    "NameColor": 0,
-    "DescColor": 0
   },
   {
     "Name": "Shadow Specter",
@@ -6270,8 +6254,6 @@ var card_db = TAFFY([
     ],
     "Ritual": null,
     "Attribute": 1,
-    "NameColor": 0,
-    "DescColor": 0
   },
   {
     "Name": "Blackland Fire Dragon",
@@ -7490,8 +7472,6 @@ var card_db = TAFFY([
     ],
     "Ritual": null,
     "Attribute": 1,
-    "NameColor": 0,
-    "DescColor": 0
   },
   {
     "Name": "Sword Arm of Dragon",
@@ -8400,8 +8380,6 @@ var card_db = TAFFY([
     ],
     "Ritual": null,
     "Attribute": 2,
-    "NameColor": 0,
-    "DescColor": 0
   },
   {
     "Name": "Swamp Battleguard",
@@ -8570,8 +8548,6 @@ var card_db = TAFFY([
     ],
     "Ritual": null,
     "Attribute": 2,
-    "NameColor": 0,
-    "DescColor": 0
   },
   {
     "Name": "Tyhone",
@@ -8790,8 +8766,6 @@ var card_db = TAFFY([
     ],
     "Ritual": null,
     "Attribute": 5,
-    "NameColor": 0,
-    "DescColor": 0
   },
   {
     "Name": "Battle Steer",
@@ -8809,8 +8783,6 @@ var card_db = TAFFY([
     "Fusions": [],
     "Ritual": null,
     "Attribute": 2,
-    "NameColor": 0,
-    "DescColor": 0
   },
   {
     "Name": "Flame Swordsman",
@@ -9474,8 +9446,6 @@ var card_db = TAFFY([
     ],
     "Ritual": null,
     "Attribute": 4,
-    "NameColor": 0,
-    "DescColor": 0
   },
   {
     "Name": "Time Wizard",
@@ -9824,8 +9794,6 @@ var card_db = TAFFY([
     ],
     "Ritual": null,
     "Attribute": 0,
-    "NameColor": 0,
-    "DescColor": 0
   },
   {
     "Name": "Right Leg of the Forbidden One",
@@ -10184,8 +10152,6 @@ var card_db = TAFFY([
     ],
     "Ritual": null,
     "Attribute": 1,
-    "NameColor": 0,
-    "DescColor": 0
   },
   {
     "Name": "Left Leg of the Forbidden One",
@@ -10544,8 +10510,6 @@ var card_db = TAFFY([
     ],
     "Ritual": null,
     "Attribute": 1,
-    "NameColor": 0,
-    "DescColor": 0
   },
   {
     "Name": "Right Arm of the Forbidden One",
@@ -10904,8 +10868,6 @@ var card_db = TAFFY([
     ],
     "Ritual": null,
     "Attribute": 1,
-    "NameColor": 0,
-    "DescColor": 0
   },
   {
     "Name": "Left Arm of the Forbidden One",
@@ -11264,8 +11226,6 @@ var card_db = TAFFY([
     ],
     "Ritual": null,
     "Attribute": 1,
-    "NameColor": 0,
-    "DescColor": 0
   },
   {
     "Name": "Exodia the Forbidden",
@@ -11624,8 +11584,6 @@ var card_db = TAFFY([
     ],
     "Ritual": null,
     "Attribute": 1,
-    "NameColor": 0,
-    "DescColor": 0
   },
   {
     "Name": "Summoned Skull",
@@ -11649,8 +11607,6 @@ var card_db = TAFFY([
     ],
     "Ritual": null,
     "Attribute": 1,
-    "NameColor": 0,
-    "DescColor": 0
   },
   {
     "Name": "The Wicked Worm Beast",
@@ -11824,8 +11780,6 @@ var card_db = TAFFY([
     ],
     "Ritual": null,
     "Attribute": 2,
-    "NameColor": 0,
-    "DescColor": 0
   },
   {
     "Name": "Skull Servant",
@@ -12579,8 +12533,6 @@ var card_db = TAFFY([
     ],
     "Ritual": null,
     "Attribute": 1,
-    "NameColor": 0,
-    "DescColor": 0
   },
   {
     "Name": "Horn Imp",
@@ -12649,8 +12601,6 @@ var card_db = TAFFY([
     ],
     "Ritual": null,
     "Attribute": 1,
-    "NameColor": 0,
-    "DescColor": 0
   },
   {
     "Name": "Battle Ox",
@@ -12674,8 +12624,6 @@ var card_db = TAFFY([
     ],
     "Ritual": null,
     "Attribute": 2,
-    "NameColor": 0,
-    "DescColor": 0
   },
   {
     "Name": "Beaver Warrior",
@@ -12693,8 +12641,6 @@ var card_db = TAFFY([
     "Fusions": [],
     "Ritual": null,
     "Attribute": 2,
-    "NameColor": 0,
-    "DescColor": 0
   },
   {
     "Name": "Rock Ogre Grotto #1",
@@ -13403,8 +13349,6 @@ var card_db = TAFFY([
     ],
     "Ritual": null,
     "Attribute": 2,
-    "NameColor": 0,
-    "DescColor": 0
   },
   {
     "Name": "Mountain Warrior",
@@ -13422,8 +13366,6 @@ var card_db = TAFFY([
     "Fusions": [],
     "Ritual": null,
     "Attribute": 2,
-    "NameColor": 0,
-    "DescColor": 0
   },
   {
     "Name": "Zombie Warrior",
@@ -14037,8 +13979,6 @@ var card_db = TAFFY([
     ],
     "Ritual": null,
     "Attribute": 1,
-    "NameColor": 0,
-    "DescColor": 0
   },
   {
     "Name": "Koumori Dragon",
@@ -15212,8 +15152,6 @@ var card_db = TAFFY([
     ],
     "Ritual": null,
     "Attribute": 1,
-    "NameColor": 0,
-    "DescColor": 0
   },
   {
     "Name": "Two-headed King Rex",
@@ -15402,8 +15340,6 @@ var card_db = TAFFY([
     ],
     "Ritual": null,
     "Attribute": 2,
-    "NameColor": 0,
-    "DescColor": 0
   },
   {
     "Name": "Judge Man",
@@ -15421,8 +15357,6 @@ var card_db = TAFFY([
     "Fusions": [],
     "Ritual": null,
     "Attribute": 2,
-    "NameColor": 0,
-    "DescColor": 0
   },
   {
     "Name": "Saggi the Dark Clown",
@@ -15771,8 +15705,6 @@ var card_db = TAFFY([
     ],
     "Ritual": null,
     "Attribute": 1,
-    "NameColor": 0,
-    "DescColor": 0
   },
   {
     "Name": "Dark Magician",
@@ -15790,8 +15722,6 @@ var card_db = TAFFY([
     "Fusions": [],
     "Ritual": null,
     "Attribute": 1,
-    "NameColor": 0,
-    "DescColor": 0
   },
   {
     "Name": "The Snake Hair",
@@ -16015,8 +15945,6 @@ var card_db = TAFFY([
     ],
     "Ritual": null,
     "Attribute": 1,
-    "NameColor": 0,
-    "DescColor": 0
   },
   {
     "Name": "Gaia the Dragon Champion",
@@ -16100,8 +16028,6 @@ var card_db = TAFFY([
     ],
     "Ritual": null,
     "Attribute": 5,
-    "NameColor": 0,
-    "DescColor": 0
   },
   {
     "Name": "Gaia the Fierce Knight",
@@ -16125,8 +16051,6 @@ var card_db = TAFFY([
     ],
     "Ritual": null,
     "Attribute": 2,
-    "NameColor": 0,
-    "DescColor": 0
   },
   {
     "Name": "Curse of Dragon",
@@ -16315,8 +16239,6 @@ var card_db = TAFFY([
     ],
     "Ritual": null,
     "Attribute": 1,
-    "NameColor": 0,
-    "DescColor": 0
   },
   {
     "Name": "Dragon Piper",
@@ -17100,8 +17022,6 @@ var card_db = TAFFY([
     ],
     "Ritual": null,
     "Attribute": 4,
-    "NameColor": 0,
-    "DescColor": 0
   },
   {
     "Name": "Celtic Guardian",
@@ -17750,8 +17670,6 @@ var card_db = TAFFY([
     ],
     "Ritual": null,
     "Attribute": 2,
-    "NameColor": 0,
-    "DescColor": 0
   },
   {
     "Name": "Illusionist Faceless Mage",
@@ -17935,8 +17853,6 @@ var card_db = TAFFY([
     ],
     "Ritual": null,
     "Attribute": 1,
-    "NameColor": 0,
-    "DescColor": 0
   },
   {
     "Name": "Karbonala Warrior",
@@ -18140,8 +18056,6 @@ var card_db = TAFFY([
     ],
     "Ritual": null,
     "Attribute": 2,
-    "NameColor": 0,
-    "DescColor": 0
   },
   {
     "Name": "Rogue Doll",
@@ -18230,8 +18144,6 @@ var card_db = TAFFY([
     ],
     "Ritual": null,
     "Attribute": 0,
-    "NameColor": 0,
-    "DescColor": 0
   },
   {
     "Name": "Oscillo Hero #2",
@@ -18935,8 +18847,6 @@ var card_db = TAFFY([
     ],
     "Ritual": null,
     "Attribute": 0,
-    "NameColor": 0,
-    "DescColor": 0
   },
   {
     "Name": "Griffore",
@@ -19805,8 +19715,6 @@ var card_db = TAFFY([
     ],
     "Ritual": null,
     "Attribute": 2,
-    "NameColor": 0,
-    "DescColor": 0
   },
   {
     "Name": "Torike",
@@ -20675,8 +20583,6 @@ var card_db = TAFFY([
     ],
     "Ritual": null,
     "Attribute": 2,
-    "NameColor": 0,
-    "DescColor": 0
   },
   {
     "Name": "Sangan",
@@ -20760,8 +20666,6 @@ var card_db = TAFFY([
     ],
     "Ritual": null,
     "Attribute": 1,
-    "NameColor": 0,
-    "DescColor": 0
   },
   {
     "Name": "Big Insect",
@@ -20785,8 +20689,6 @@ var card_db = TAFFY([
     ],
     "Ritual": null,
     "Attribute": 2,
-    "NameColor": 0,
-    "DescColor": 0
   },
   {
     "Name": "Basic Insect",
@@ -20875,8 +20777,6 @@ var card_db = TAFFY([
     ],
     "Ritual": null,
     "Attribute": 2,
-    "NameColor": 0,
-    "DescColor": 0
   },
   {
     "Name": "Armored Lizard",
@@ -20910,8 +20810,6 @@ var card_db = TAFFY([
     ],
     "Ritual": null,
     "Attribute": 2,
-    "NameColor": 0,
-    "DescColor": 0
   },
   {
     "Name": "Hercules Beetle",
@@ -20935,8 +20833,6 @@ var card_db = TAFFY([
     ],
     "Ritual": null,
     "Attribute": 2,
-    "NameColor": 0,
-    "DescColor": 0
   },
   {
     "Name": "Killer Needle",
@@ -20960,8 +20856,6 @@ var card_db = TAFFY([
     ],
     "Ritual": null,
     "Attribute": 5,
-    "NameColor": 0,
-    "DescColor": 0
   },
   {
     "Name": "Gokibore",
@@ -20985,8 +20879,6 @@ var card_db = TAFFY([
     ],
     "Ritual": null,
     "Attribute": 2,
-    "NameColor": 0,
-    "DescColor": 0
   },
   {
     "Name": "Giant Flea",
@@ -21010,8 +20902,6 @@ var card_db = TAFFY([
     ],
     "Ritual": null,
     "Attribute": 2,
-    "NameColor": 0,
-    "DescColor": 0
   },
   {
     "Name": "Larvae Moth",
@@ -21100,8 +20990,6 @@ var card_db = TAFFY([
     ],
     "Ritual": null,
     "Attribute": 2,
-    "NameColor": 0,
-    "DescColor": 0
   },
   {
     "Name": "Great Moth",
@@ -21119,8 +21007,6 @@ var card_db = TAFFY([
     "Fusions": [],
     "Ritual": null,
     "Attribute": 2,
-    "NameColor": 0,
-    "DescColor": 0
   },
   {
     "Name": "Kuriboh",
@@ -21209,8 +21095,6 @@ var card_db = TAFFY([
     ],
     "Ritual": null,
     "Attribute": 1,
-    "NameColor": 0,
-    "DescColor": 0
   },
   {
     "Name": "Mammoth Graveyard",
@@ -21569,8 +21453,6 @@ var card_db = TAFFY([
     ],
     "Ritual": null,
     "Attribute": 2,
-    "NameColor": 0,
-    "DescColor": 0
   },
   {
     "Name": "Great White",
@@ -21769,8 +21651,6 @@ var card_db = TAFFY([
     ],
     "Ritual": null,
     "Attribute": 3,
-    "NameColor": 0,
-    "DescColor": 0
   },
   {
     "Name": "Wolf",
@@ -22634,8 +22514,6 @@ var card_db = TAFFY([
     ],
     "Ritual": null,
     "Attribute": 2,
-    "NameColor": 0,
-    "DescColor": 0
   },
   {
     "Name": "Harpie Lady",
@@ -23374,8 +23252,6 @@ var card_db = TAFFY([
     ],
     "Ritual": null,
     "Attribute": 5,
-    "NameColor": 0,
-    "DescColor": 0
   },
   {
     "Name": "Harpie Lady Sisters",
@@ -23664,8 +23540,6 @@ var card_db = TAFFY([
     ],
     "Ritual": null,
     "Attribute": 5,
-    "NameColor": 0,
-    "DescColor": 0
   },
   {
     "Name": "Tiger Axe",
@@ -23689,8 +23563,6 @@ var card_db = TAFFY([
     ],
     "Ritual": null,
     "Attribute": 2,
-    "NameColor": 0,
-    "DescColor": 0
   },
   {
     "Name": "Silver Fang",
@@ -24549,8 +24421,6 @@ var card_db = TAFFY([
     ],
     "Ritual": null,
     "Attribute": 2,
-    "NameColor": 0,
-    "DescColor": 0
   },
   {
     "Name": "Kojikocy",
@@ -24754,8 +24624,6 @@ var card_db = TAFFY([
     ],
     "Ritual": null,
     "Attribute": 2,
-    "NameColor": 0,
-    "DescColor": 0
   },
   {
     "Name": "Perfectly Ultimate Great Moth",
@@ -24773,8 +24641,6 @@ var card_db = TAFFY([
     "Fusions": [],
     "Ritual": null,
     "Attribute": 2,
-    "NameColor": 0,
-    "DescColor": 0
   },
   {
     "Name": "Garoozis",
@@ -25283,8 +25149,6 @@ var card_db = TAFFY([
     ],
     "Ritual": null,
     "Attribute": 4,
-    "NameColor": 0,
-    "DescColor": 0
   },
   {
     "Name": "Thousand Dragon",
@@ -25363,8 +25227,6 @@ var card_db = TAFFY([
     ],
     "Ritual": null,
     "Attribute": 5,
-    "NameColor": 0,
-    "DescColor": 0
   },
   {
     "Name": "Fiend Kraken",
@@ -25598,8 +25460,6 @@ var card_db = TAFFY([
     ],
     "Ritual": null,
     "Attribute": 3,
-    "NameColor": 0,
-    "DescColor": 0
   },
   {
     "Name": "Jellyfish",
@@ -25753,8 +25613,6 @@ var card_db = TAFFY([
     ],
     "Ritual": null,
     "Attribute": 3,
-    "NameColor": 0,
-    "DescColor": 0
   },
   {
     "Name": "Cocoon of Evolution",
@@ -25843,8 +25701,6 @@ var card_db = TAFFY([
     ],
     "Ritual": null,
     "Attribute": 2,
-    "NameColor": 0,
-    "DescColor": 0
   },
   {
     "Name": "Kairyu-shin",
@@ -26473,8 +26329,6 @@ var card_db = TAFFY([
     ],
     "Ritual": null,
     "Attribute": 3,
-    "NameColor": 0,
-    "DescColor": 0
   },
   {
     "Name": "Giant Soldier of Stone",
@@ -26878,8 +26732,6 @@ var card_db = TAFFY([
     ],
     "Ritual": null,
     "Attribute": 2,
-    "NameColor": 0,
-    "DescColor": 0
   },
   {
     "Name": "Man-eating Plant",
@@ -27648,8 +27500,6 @@ var card_db = TAFFY([
     ],
     "Ritual": null,
     "Attribute": 2,
-    "NameColor": 0,
-    "DescColor": 0
   },
   {
     "Name": "Krokodilus",
@@ -27683,8 +27533,6 @@ var card_db = TAFFY([
     ],
     "Ritual": null,
     "Attribute": 3,
-    "NameColor": 0,
-    "DescColor": 0
   },
   {
     "Name": "Grappler",
@@ -27718,8 +27566,6 @@ var card_db = TAFFY([
     ],
     "Ritual": null,
     "Attribute": 3,
-    "NameColor": 0,
-    "DescColor": 0
   },
   {
     "Name": "Axe Raider",
@@ -27918,8 +27764,6 @@ var card_db = TAFFY([
     ],
     "Ritual": null,
     "Attribute": 2,
-    "NameColor": 0,
-    "DescColor": 0
   },
   {
     "Name": "Megazowler",
@@ -27937,8 +27781,6 @@ var card_db = TAFFY([
     "Fusions": [],
     "Ritual": null,
     "Attribute": 2,
-    "NameColor": 0,
-    "DescColor": 0
   },
   {
     "Name": "Uraby",
@@ -28127,8 +27969,6 @@ var card_db = TAFFY([
     ],
     "Ritual": null,
     "Attribute": 2,
-    "NameColor": 0,
-    "DescColor": 0
   },
   {
     "Name": "Crawling Dragon #2",
@@ -29247,8 +29087,6 @@ var card_db = TAFFY([
     ],
     "Ritual": null,
     "Attribute": 2,
-    "NameColor": 0,
-    "DescColor": 0
   },
   {
     "Name": "Red-eyes B. Dragon",
@@ -29332,8 +29170,6 @@ var card_db = TAFFY([
     ],
     "Ritual": null,
     "Attribute": 1,
-    "NameColor": 0,
-    "DescColor": 0
   },
   {
     "Name": "Castle of Dark Illusions",
@@ -29442,8 +29278,6 @@ var card_db = TAFFY([
     ],
     "Ritual": null,
     "Attribute": 1,
-    "NameColor": 0,
-    "DescColor": 0
   },
   {
     "Name": "Reaper of the Cards",
@@ -29507,8 +29341,6 @@ var card_db = TAFFY([
     ],
     "Ritual": null,
     "Attribute": 1,
-    "NameColor": 0,
-    "DescColor": 0
   },
   {
     "Name": "King of Yamimakai",
@@ -29532,8 +29364,6 @@ var card_db = TAFFY([
     ],
     "Ritual": null,
     "Attribute": 1,
-    "NameColor": 0,
-    "DescColor": 0
   },
   {
     "Name": "Barox",
@@ -29562,8 +29392,6 @@ var card_db = TAFFY([
     ],
     "Ritual": null,
     "Attribute": 1,
-    "NameColor": 0,
-    "DescColor": 0
   },
   {
     "Name": "Dark Chimera",
@@ -29592,8 +29420,6 @@ var card_db = TAFFY([
     ],
     "Ritual": null,
     "Attribute": 1,
-    "NameColor": 0,
-    "DescColor": 0
   },
   {
     "Name": "Metal Guardian",
@@ -29682,8 +29508,6 @@ var card_db = TAFFY([
     ],
     "Ritual": null,
     "Attribute": 1,
-    "NameColor": 0,
-    "DescColor": 0
   },
   {
     "Name": "Catapult Turtle",
@@ -30207,8 +30031,6 @@ var card_db = TAFFY([
     ],
     "Ritual": null,
     "Attribute": 3,
-    "NameColor": 0,
-    "DescColor": 0
   },
   {
     "Name": "Gyakutenno Megami",
@@ -30432,8 +30254,6 @@ var card_db = TAFFY([
     ],
     "Ritual": null,
     "Attribute": 0,
-    "NameColor": 0,
-    "DescColor": 0
   },
   {
     "Name": "Mystic Horseman",
@@ -31102,8 +30922,6 @@ var card_db = TAFFY([
     ],
     "Ritual": null,
     "Attribute": 2,
-    "NameColor": 0,
-    "DescColor": 0
   },
   {
     "Name": "Rabid Horseman",
@@ -31121,8 +30939,6 @@ var card_db = TAFFY([
     "Fusions": [],
     "Ritual": null,
     "Attribute": 2,
-    "NameColor": 0,
-    "DescColor": 0
   },
   {
     "Name": "Zanki",
@@ -31321,8 +31137,6 @@ var card_db = TAFFY([
     ],
     "Ritual": null,
     "Attribute": 2,
-    "NameColor": 0,
-    "DescColor": 0
   },
   {
     "Name": "Crawling Dragon",
@@ -32436,8 +32250,6 @@ var card_db = TAFFY([
     ],
     "Ritual": null,
     "Attribute": 2,
-    "NameColor": 0,
-    "DescColor": 0
   },
   {
     "Name": "Crass Clown",
@@ -32516,8 +32328,6 @@ var card_db = TAFFY([
     ],
     "Ritual": null,
     "Attribute": 1,
-    "NameColor": 0,
-    "DescColor": 0
   },
   {
     "Name": "Armored Zombie",
@@ -32721,8 +32531,6 @@ var card_db = TAFFY([
     ],
     "Ritual": null,
     "Attribute": 1,
-    "NameColor": 0,
-    "DescColor": 0
   },
   {
     "Name": "Dragon Zombie",
@@ -33896,8 +33704,6 @@ var card_db = TAFFY([
     ],
     "Ritual": null,
     "Attribute": 1,
-    "NameColor": 0,
-    "DescColor": 0
   },
   {
     "Name": "Clown Zombie",
@@ -34371,8 +34177,6 @@ var card_db = TAFFY([
     ],
     "Ritual": null,
     "Attribute": 1,
-    "NameColor": 0,
-    "DescColor": 0
   },
   {
     "Name": "Pumpking the King of Ghosts",
@@ -34476,8 +34280,6 @@ var card_db = TAFFY([
     ],
     "Ritual": null,
     "Attribute": 1,
-    "NameColor": 0,
-    "DescColor": 0
   },
   {
     "Name": "Battle Warrior",
@@ -35146,8 +34948,6 @@ var card_db = TAFFY([
     ],
     "Ritual": null,
     "Attribute": 2,
-    "NameColor": 0,
-    "DescColor": 0
   },
   {
     "Name": "Wings of Wicked Flame",
@@ -35751,8 +35551,6 @@ var card_db = TAFFY([
     ],
     "Ritual": null,
     "Attribute": 4,
-    "NameColor": 0,
-    "DescColor": 0
   },
   {
     "Name": "Mask of Darkness",
@@ -35856,8 +35654,6 @@ var card_db = TAFFY([
     ],
     "Ritual": null,
     "Attribute": 1,
-    "NameColor": 0,
-    "DescColor": 0
   },
   {
     "Name": "Job-change Mirror",
@@ -36251,8 +36047,6 @@ var card_db = TAFFY([
     ],
     "Ritual": null,
     "Attribute": 1,
-    "NameColor": 0,
-    "DescColor": 0
   },
   {
     "Name": "Curtain of the Dark Ones",
@@ -36581,8 +36375,6 @@ var card_db = TAFFY([
     ],
     "Ritual": null,
     "Attribute": 1,
-    "NameColor": 0,
-    "DescColor": 0
   },
   {
     "Name": "Tomozaurus",
@@ -36771,8 +36563,6 @@ var card_db = TAFFY([
     ],
     "Ritual": null,
     "Attribute": 2,
-    "NameColor": 0,
-    "DescColor": 0
   },
   {
     "Name": "Spirit of the Winds",
@@ -36846,8 +36636,6 @@ var card_db = TAFFY([
     ],
     "Ritual": null,
     "Attribute": 5,
-    "NameColor": 0,
-    "DescColor": 0
   },
   {
     "Name": "Kageningen",
@@ -37456,8 +37244,6 @@ var card_db = TAFFY([
     ],
     "Ritual": null,
     "Attribute": 1,
-    "NameColor": 0,
-    "DescColor": 0
   },
   {
     "Name": "Graveyard and the Hand of Invitation",
@@ -38196,8 +37982,6 @@ var card_db = TAFFY([
     ],
     "Ritual": null,
     "Attribute": 1,
-    "NameColor": 0,
-    "DescColor": 0
   },
   {
     "Name": "Goddess with the Third Eye",
@@ -38816,8 +38600,6 @@ var card_db = TAFFY([
     ],
     "Ritual": null,
     "Attribute": 0,
-    "NameColor": 0,
-    "DescColor": 0
   },
   {
     "Name": "Hero of the East",
@@ -39416,8 +39198,6 @@ var card_db = TAFFY([
     ],
     "Ritual": null,
     "Attribute": 2,
-    "NameColor": 0,
-    "DescColor": 0
   },
   {
     "Name": "Doma The Angel of Silence",
@@ -39656,8 +39436,6 @@ var card_db = TAFFY([
     ],
     "Ritual": null,
     "Attribute": 1,
-    "NameColor": 0,
-    "DescColor": 0
   },
   {
     "Name": "That Which Feeds on Life",
@@ -39741,8 +39519,6 @@ var card_db = TAFFY([
     ],
     "Ritual": null,
     "Attribute": 1,
-    "NameColor": 0,
-    "DescColor": 0
   },
   {
     "Name": "Dark Gray",
@@ -40601,8 +40377,6 @@ var card_db = TAFFY([
     ],
     "Ritual": null,
     "Attribute": 2,
-    "NameColor": 0,
-    "DescColor": 0
   },
   {
     "Name": "White Magical Hat",
@@ -40781,8 +40555,6 @@ var card_db = TAFFY([
     ],
     "Ritual": null,
     "Attribute": 0,
-    "NameColor": 0,
-    "DescColor": 0
   },
   {
     "Name": "Kamion Wizard",
@@ -41016,8 +40788,6 @@ var card_db = TAFFY([
     ],
     "Ritual": null,
     "Attribute": 1,
-    "NameColor": 0,
-    "DescColor": 0
   },
   {
     "Name": "Nightmare Scorpion",
@@ -41041,8 +40811,6 @@ var card_db = TAFFY([
     ],
     "Ritual": null,
     "Attribute": 2,
-    "NameColor": 0,
-    "DescColor": 0
   },
   {
     "Name": "Spirit of the Books",
@@ -41216,8 +40984,6 @@ var card_db = TAFFY([
     ],
     "Ritual": null,
     "Attribute": 5,
-    "NameColor": 0,
-    "DescColor": 0
   },
   {
     "Name": "Supporter in the Shadows",
@@ -41811,8 +41577,6 @@ var card_db = TAFFY([
     ],
     "Ritual": null,
     "Attribute": 2,
-    "NameColor": 0,
-    "DescColor": 0
   },
   {
     "Name": "Trial of Nightmares",
@@ -41876,8 +41640,6 @@ var card_db = TAFFY([
     ],
     "Ritual": null,
     "Attribute": 1,
-    "NameColor": 0,
-    "DescColor": 0
   },
   {
     "Name": "Dream Clown",
@@ -42471,8 +42233,6 @@ var card_db = TAFFY([
     ],
     "Ritual": null,
     "Attribute": 2,
-    "NameColor": 0,
-    "DescColor": 0
   },
   {
     "Name": "Sleeping Lion",
@@ -43321,8 +43081,6 @@ var card_db = TAFFY([
     ],
     "Ritual": null,
     "Attribute": 2,
-    "NameColor": 0,
-    "DescColor": 0
   },
   {
     "Name": "Yamatano Dragon Scroll",
@@ -44641,8 +44399,6 @@ var card_db = TAFFY([
     ],
     "Ritual": null,
     "Attribute": 5,
-    "NameColor": 0,
-    "DescColor": 0
   },
   {
     "Name": "Dark Plant",
@@ -45346,8 +45102,6 @@ var card_db = TAFFY([
     ],
     "Ritual": null,
     "Attribute": 1,
-    "NameColor": 0,
-    "DescColor": 0
   },
   {
     "Name": "Ancient Tool",
@@ -45456,8 +45210,6 @@ var card_db = TAFFY([
     ],
     "Ritual": null,
     "Attribute": 1,
-    "NameColor": 0,
-    "DescColor": 0
   },
   {
     "Name": "Faith Bird",
@@ -45651,8 +45403,6 @@ var card_db = TAFFY([
     ],
     "Ritual": null,
     "Attribute": 5,
-    "NameColor": 0,
-    "DescColor": 0
   },
   {
     "Name": "Orion the Battle King",
@@ -45670,8 +45420,6 @@ var card_db = TAFFY([
     "Fusions": [],
     "Ritual": null,
     "Attribute": 0,
-    "NameColor": 0,
-    "DescColor": 0
   },
   {
     "Name": "Ansatsu",
@@ -45865,8 +45613,6 @@ var card_db = TAFFY([
     ],
     "Ritual": null,
     "Attribute": 2,
-    "NameColor": 0,
-    "DescColor": 0
   },
   {
     "Name": "LaMoon",
@@ -46525,8 +46271,6 @@ var card_db = TAFFY([
     ],
     "Ritual": null,
     "Attribute": 0,
-    "NameColor": 0,
-    "DescColor": 0
   },
   {
     "Name": "Nemuriko",
@@ -47220,8 +46964,6 @@ var card_db = TAFFY([
     ],
     "Ritual": null,
     "Attribute": 1,
-    "NameColor": 0,
-    "DescColor": 0
   },
   {
     "Name": "Weather Control",
@@ -47445,8 +47187,6 @@ var card_db = TAFFY([
     ],
     "Ritual": null,
     "Attribute": 0,
-    "NameColor": 0,
-    "DescColor": 0
   },
   {
     "Name": "Octoberser",
@@ -47535,8 +47275,6 @@ var card_db = TAFFY([
     ],
     "Ritual": null,
     "Attribute": 3,
-    "NameColor": 0,
-    "DescColor": 0
   },
   {
     "Name": "The 13th Grave",
@@ -48040,8 +47778,6 @@ var card_db = TAFFY([
     ],
     "Ritual": null,
     "Attribute": 1,
-    "NameColor": 0,
-    "DescColor": 0
   },
   {
     "Name": "Charubin the Fire Knight",
@@ -48505,8 +48241,6 @@ var card_db = TAFFY([
     ],
     "Ritual": null,
     "Attribute": 4,
-    "NameColor": 0,
-    "DescColor": 0
   },
   {
     "Name": "Mystical Capture Chain",
@@ -48730,8 +48464,6 @@ var card_db = TAFFY([
     ],
     "Ritual": null,
     "Attribute": 0,
-    "NameColor": 0,
-    "DescColor": 0
   },
   {
     "Name": "Fiend's Hand",
@@ -49340,8 +49072,6 @@ var card_db = TAFFY([
     ],
     "Ritual": null,
     "Attribute": 1,
-    "NameColor": 0,
-    "DescColor": 0
   },
   {
     "Name": "Witty Phantom",
@@ -49415,8 +49145,6 @@ var card_db = TAFFY([
     ],
     "Ritual": null,
     "Attribute": 1,
-    "NameColor": 0,
-    "DescColor": 0
   },
   {
     "Name": "Mystery Hand",
@@ -49495,8 +49223,6 @@ var card_db = TAFFY([
     ],
     "Ritual": null,
     "Attribute": 1,
-    "NameColor": 0,
-    "DescColor": 0
   },
   {
     "Name": "Dragon Statue",
@@ -50930,8 +50656,6 @@ var card_db = TAFFY([
     ],
     "Ritual": null,
     "Attribute": 2,
-    "NameColor": 0,
-    "DescColor": 0
   },
   {
     "Name": "Blue-eyed Silver Zombie",
@@ -51535,8 +51259,6 @@ var card_db = TAFFY([
     ],
     "Ritual": null,
     "Attribute": 1,
-    "NameColor": 0,
-    "DescColor": 0
   },
   {
     "Name": "Toad Master",
@@ -51665,8 +51387,6 @@ var card_db = TAFFY([
     ],
     "Ritual": null,
     "Attribute": 3,
-    "NameColor": 0,
-    "DescColor": 0
   },
   {
     "Name": "Spiked Snail",
@@ -51785,8 +51505,6 @@ var card_db = TAFFY([
     ],
     "Ritual": null,
     "Attribute": 1,
-    "NameColor": 0,
-    "DescColor": 0
   },
   {
     "Name": "Flame Manipulator",
@@ -52365,8 +52083,6 @@ var card_db = TAFFY([
     ],
     "Ritual": null,
     "Attribute": 4,
-    "NameColor": 0,
-    "DescColor": 0
   },
   {
     "Name": "Necrolancer the Timelord",
@@ -52520,8 +52236,6 @@ var card_db = TAFFY([
     ],
     "Ritual": null,
     "Attribute": 1,
-    "NameColor": 0,
-    "DescColor": 0
   },
   {
     "Name": "Djinn the Watcher of the Wind",
@@ -52675,8 +52389,6 @@ var card_db = TAFFY([
     ],
     "Ritual": null,
     "Attribute": 5,
-    "NameColor": 0,
-    "DescColor": 0
   },
   {
     "Name": "The Bewitching Phantom Thief",
@@ -52830,8 +52542,6 @@ var card_db = TAFFY([
     ],
     "Ritual": null,
     "Attribute": 1,
-    "NameColor": 0,
-    "DescColor": 0
   },
   {
     "Name": "Temple of Skulls",
@@ -53430,8 +53140,6 @@ var card_db = TAFFY([
     ],
     "Ritual": null,
     "Attribute": 1,
-    "NameColor": 0,
-    "DescColor": 0
   },
   {
     "Name": "Monster Egg",
@@ -54085,8 +53793,6 @@ var card_db = TAFFY([
     ],
     "Ritual": null,
     "Attribute": 2,
-    "NameColor": 0,
-    "DescColor": 0
   },
   {
     "Name": "The Shadow Who Controls the Dark",
@@ -54175,8 +53881,6 @@ var card_db = TAFFY([
     ],
     "Ritual": null,
     "Attribute": 1,
-    "NameColor": 0,
-    "DescColor": 0
   },
   {
     "Name": "Lord of the Lamp",
@@ -54245,8 +53949,6 @@ var card_db = TAFFY([
     ],
     "Ritual": null,
     "Attribute": 1,
-    "NameColor": 0,
-    "DescColor": 0
   },
   {
     "Name": "Akihiron",
@@ -54330,8 +54032,6 @@ var card_db = TAFFY([
     ],
     "Ritual": null,
     "Attribute": 3,
-    "NameColor": 0,
-    "DescColor": 0
   },
   {
     "Name": "Rhaimundos of the Red Sword",
@@ -54880,8 +54580,6 @@ var card_db = TAFFY([
     ],
     "Ritual": null,
     "Attribute": 2,
-    "NameColor": 0,
-    "DescColor": 0
   },
   {
     "Name": "The Melting Red Shadow",
@@ -55020,8 +54718,6 @@ var card_db = TAFFY([
     ],
     "Ritual": null,
     "Attribute": 3,
-    "NameColor": 0,
-    "DescColor": 0
   },
   {
     "Name": "Dokuroizo the Grim Reaper",
@@ -55595,8 +55291,6 @@ var card_db = TAFFY([
     ],
     "Ritual": null,
     "Attribute": 1,
-    "NameColor": 0,
-    "DescColor": 0
   },
   {
     "Name": "Fire Reaper",
@@ -56420,8 +56114,6 @@ var card_db = TAFFY([
     ],
     "Ritual": null,
     "Attribute": 1,
-    "NameColor": 0,
-    "DescColor": 0
   },
   {
     "Name": "Larvas",
@@ -56730,8 +56422,6 @@ var card_db = TAFFY([
     ],
     "Ritual": null,
     "Attribute": 2,
-    "NameColor": 0,
-    "DescColor": 0
   },
   {
     "Name": "Hard Armor",
@@ -57320,8 +57010,6 @@ var card_db = TAFFY([
     ],
     "Ritual": null,
     "Attribute": 2,
-    "NameColor": 0,
-    "DescColor": 0
   },
   {
     "Name": "Firegrass",
@@ -58145,8 +57833,6 @@ var card_db = TAFFY([
     ],
     "Ritual": null,
     "Attribute": 2,
-    "NameColor": 0,
-    "DescColor": 0
   },
   {
     "Name": "Man Eater",
@@ -58775,8 +58461,6 @@ var card_db = TAFFY([
     ],
     "Ritual": null,
     "Attribute": 2,
-    "NameColor": 0,
-    "DescColor": 0
   },
   {
     "Name": "Dig Beak",
@@ -58980,8 +58664,6 @@ var card_db = TAFFY([
     ],
     "Ritual": null,
     "Attribute": 2,
-    "NameColor": 0,
-    "DescColor": 0
   },
   {
     "Name": "M-warrior #1",
@@ -59505,8 +59187,6 @@ var card_db = TAFFY([
     ],
     "Ritual": null,
     "Attribute": 2,
-    "NameColor": 0,
-    "DescColor": 0
   },
   {
     "Name": "M-warrior #2",
@@ -60085,8 +59765,6 @@ var card_db = TAFFY([
     ],
     "Ritual": null,
     "Attribute": 2,
-    "NameColor": 0,
-    "DescColor": 0
   },
   {
     "Name": "Tainted Wisdom",
@@ -60140,8 +59818,6 @@ var card_db = TAFFY([
     ],
     "Ritual": null,
     "Attribute": 1,
-    "NameColor": 0,
-    "DescColor": 0
   },
   {
     "Name": "Lisark",
@@ -60315,8 +59991,6 @@ var card_db = TAFFY([
     ],
     "Ritual": null,
     "Attribute": 2,
-    "NameColor": 0,
-    "DescColor": 0
   },
   {
     "Name": "Lord of Zemia",
@@ -60390,8 +60064,6 @@ var card_db = TAFFY([
     ],
     "Ritual": null,
     "Attribute": 1,
-    "NameColor": 0,
-    "DescColor": 0
   },
   {
     "Name": "The Judgement Hand",
@@ -61000,8 +60672,6 @@ var card_db = TAFFY([
     ],
     "Ritual": null,
     "Attribute": 2,
-    "NameColor": 0,
-    "DescColor": 0
   },
   {
     "Name": "Mysterious Puppeteer",
@@ -61520,8 +61190,6 @@ var card_db = TAFFY([
     ],
     "Ritual": null,
     "Attribute": 2,
-    "NameColor": 0,
-    "DescColor": 0
   },
   {
     "Name": "Ancient Jar",
@@ -62095,8 +61763,6 @@ var card_db = TAFFY([
     ],
     "Ritual": null,
     "Attribute": 2,
-    "NameColor": 0,
-    "DescColor": 0
   },
   {
     "Name": "Darkfire Dragon",
@@ -63240,8 +62906,6 @@ var card_db = TAFFY([
     ],
     "Ritual": null,
     "Attribute": 1,
-    "NameColor": 0,
-    "DescColor": 0
   },
   {
     "Name": "Dark King of the Abyss",
@@ -63315,8 +62979,6 @@ var card_db = TAFFY([
     ],
     "Ritual": null,
     "Attribute": 1,
-    "NameColor": 0,
-    "DescColor": 0
   },
   {
     "Name": "Spirit of the Harp",
@@ -63535,8 +63197,6 @@ var card_db = TAFFY([
     ],
     "Ritual": null,
     "Attribute": 0,
-    "NameColor": 0,
-    "DescColor": 0
   },
   {
     "Name": "Big Eye",
@@ -63565,8 +63225,6 @@ var card_db = TAFFY([
     ],
     "Ritual": null,
     "Attribute": 1,
-    "NameColor": 0,
-    "DescColor": 0
   },
   {
     "Name": "Armaill",
@@ -64455,8 +64113,6 @@ var card_db = TAFFY([
     ],
     "Ritual": null,
     "Attribute": 2,
-    "NameColor": 0,
-    "DescColor": 0
   },
   {
     "Name": "Dark Prisoner",
@@ -64545,8 +64201,6 @@ var card_db = TAFFY([
     ],
     "Ritual": null,
     "Attribute": 1,
-    "NameColor": 0,
-    "DescColor": 0
   },
   {
     "Name": "Hurricail",
@@ -64685,8 +64339,6 @@ var card_db = TAFFY([
     ],
     "Ritual": null,
     "Attribute": 5,
-    "NameColor": 0,
-    "DescColor": 0
   },
   {
     "Name": "Ancient Brain",
@@ -64915,8 +64567,6 @@ var card_db = TAFFY([
     ],
     "Ritual": null,
     "Attribute": 1,
-    "NameColor": 0,
-    "DescColor": 0
   },
   {
     "Name": "Fire Eye",
@@ -65395,8 +65045,6 @@ var card_db = TAFFY([
     ],
     "Ritual": null,
     "Attribute": 4,
-    "NameColor": 0,
-    "DescColor": 0
   },
   {
     "Name": "Monsturtle",
@@ -65875,8 +65523,6 @@ var card_db = TAFFY([
     ],
     "Ritual": null,
     "Attribute": 3,
-    "NameColor": 0,
-    "DescColor": 0
   },
   {
     "Name": "Claw Reacher",
@@ -65965,8 +65611,6 @@ var card_db = TAFFY([
     ],
     "Ritual": null,
     "Attribute": 1,
-    "NameColor": 0,
-    "DescColor": 0
   },
   {
     "Name": "Phantom Dewan",
@@ -66240,8 +65884,6 @@ var card_db = TAFFY([
     ],
     "Ritual": null,
     "Attribute": 1,
-    "NameColor": 0,
-    "DescColor": 0
   },
   {
     "Name": "Arlownay",
@@ -67245,8 +66887,6 @@ var card_db = TAFFY([
     ],
     "Ritual": null,
     "Attribute": 2,
-    "NameColor": 0,
-    "DescColor": 0
   },
   {
     "Name": "Dark Shade",
@@ -67285,8 +66925,6 @@ var card_db = TAFFY([
     ],
     "Ritual": null,
     "Attribute": 5,
-    "NameColor": 0,
-    "DescColor": 0
   },
   {
     "Name": "Masked Clown",
@@ -67845,8 +67483,6 @@ var card_db = TAFFY([
     ],
     "Ritual": null,
     "Attribute": 1,
-    "NameColor": 0,
-    "DescColor": 0
   },
   {
     "Name": "Lucky Trinket",
@@ -68000,8 +67636,6 @@ var card_db = TAFFY([
     ],
     "Ritual": null,
     "Attribute": 0,
-    "NameColor": 0,
-    "DescColor": 0
   },
   {
     "Name": "Genin",
@@ -68135,8 +67769,6 @@ var card_db = TAFFY([
     ],
     "Ritual": null,
     "Attribute": 0,
-    "NameColor": 0,
-    "DescColor": 0
   },
   {
     "Name": "Eyearmor",
@@ -68685,8 +68317,6 @@ var card_db = TAFFY([
     ],
     "Ritual": null,
     "Attribute": 2,
-    "NameColor": 0,
-    "DescColor": 0
   },
   {
     "Name": "Fiend Refrection #2",
@@ -68860,8 +68490,6 @@ var card_db = TAFFY([
     ],
     "Ritual": null,
     "Attribute": 0,
-    "NameColor": 0,
-    "DescColor": 0
   },
   {
     "Name": "Gate Deeg",
@@ -69090,8 +68718,6 @@ var card_db = TAFFY([
     ],
     "Ritual": null,
     "Attribute": 1,
-    "NameColor": 0,
-    "DescColor": 0
   },
   {
     "Name": "Synchar",
@@ -69820,8 +69446,6 @@ var card_db = TAFFY([
     ],
     "Ritual": null,
     "Attribute": 2,
-    "NameColor": 0,
-    "DescColor": 0
   },
   {
     "Name": "Fusionist",
@@ -70680,8 +70304,6 @@ var card_db = TAFFY([
     ],
     "Ritual": null,
     "Attribute": 2,
-    "NameColor": 0,
-    "DescColor": 0
   },
   {
     "Name": "Akakieisu",
@@ -70955,8 +70577,6 @@ var card_db = TAFFY([
     ],
     "Ritual": null,
     "Attribute": 1,
-    "NameColor": 0,
-    "DescColor": 0
   },
   {
     "Name": "LaLa Li-oon",
@@ -71500,8 +71120,6 @@ var card_db = TAFFY([
     ],
     "Ritual": null,
     "Attribute": 5,
-    "NameColor": 0,
-    "DescColor": 0
   },
   {
     "Name": "Key Mace",
@@ -72045,8 +71663,6 @@ var card_db = TAFFY([
     ],
     "Ritual": null,
     "Attribute": 0,
-    "NameColor": 0,
-    "DescColor": 0
   },
   {
     "Name": "Turtle Tiger",
@@ -72425,8 +72041,6 @@ var card_db = TAFFY([
     ],
     "Ritual": null,
     "Attribute": 3,
-    "NameColor": 0,
-    "DescColor": 0
   },
   {
     "Name": "Terra the Terrible",
@@ -72475,8 +72089,6 @@ var card_db = TAFFY([
     ],
     "Ritual": null,
     "Attribute": 1,
-    "NameColor": 0,
-    "DescColor": 0
   },
   {
     "Name": "Doron",
@@ -72965,8 +72577,6 @@ var card_db = TAFFY([
     ],
     "Ritual": null,
     "Attribute": 2,
-    "NameColor": 0,
-    "DescColor": 0
   },
   {
     "Name": "Arma Knight",
@@ -73085,8 +72695,6 @@ var card_db = TAFFY([
     ],
     "Ritual": null,
     "Attribute": 3,
-    "NameColor": 0,
-    "DescColor": 0
   },
   {
     "Name": "Mech Mole Zombie",
@@ -73555,8 +73163,6 @@ var card_db = TAFFY([
     ],
     "Ritual": null,
     "Attribute": 1,
-    "NameColor": 0,
-    "DescColor": 0
   },
   {
     "Name": "Happy Lover",
@@ -73900,8 +73506,6 @@ var card_db = TAFFY([
     ],
     "Ritual": null,
     "Attribute": 0,
-    "NameColor": 0,
-    "DescColor": 0
   },
   {
     "Name": "Penguin Knight",
@@ -74020,8 +73624,6 @@ var card_db = TAFFY([
     ],
     "Ritual": null,
     "Attribute": 3,
-    "NameColor": 0,
-    "DescColor": 0
   },
   {
     "Name": "Petit Dragon",
@@ -75090,8 +74692,6 @@ var card_db = TAFFY([
     ],
     "Ritual": null,
     "Attribute": 5,
-    "NameColor": 0,
-    "DescColor": 0
   },
   {
     "Name": "Frenzied Panda",
@@ -75765,8 +75365,6 @@ var card_db = TAFFY([
     ],
     "Ritual": null,
     "Attribute": 2,
-    "NameColor": 0,
-    "DescColor": 0
   },
   {
     "Name": "Air Marmot of Nefariousness",
@@ -76500,8 +76098,6 @@ var card_db = TAFFY([
     ],
     "Ritual": null,
     "Attribute": 2,
-    "NameColor": 0,
-    "DescColor": 0
   },
   {
     "Name": "Phantom Ghost",
@@ -76965,8 +76561,6 @@ var card_db = TAFFY([
     ],
     "Ritual": null,
     "Attribute": 1,
-    "NameColor": 0,
-    "DescColor": 0
   },
   {
     "Name": "Mabarrel",
@@ -76984,8 +76578,6 @@ var card_db = TAFFY([
     "Fusions": [],
     "Ritual": null,
     "Attribute": 1,
-    "NameColor": 0,
-    "DescColor": 0
   },
   {
     "Name": "Dorover",
@@ -77099,8 +76691,6 @@ var card_db = TAFFY([
     ],
     "Ritual": null,
     "Attribute": 3,
-    "NameColor": 0,
-    "DescColor": 0
   },
   {
     "Name": "Twin Long Rods #1",
@@ -77224,8 +76814,6 @@ var card_db = TAFFY([
     ],
     "Ritual": null,
     "Attribute": 3,
-    "NameColor": 0,
-    "DescColor": 0
   },
   {
     "Name": "Droll Bird",
@@ -77359,8 +76947,6 @@ var card_db = TAFFY([
     ],
     "Ritual": null,
     "Attribute": 5,
-    "NameColor": 0,
-    "DescColor": 0
   },
   {
     "Name": "Petit Angel",
@@ -77684,8 +77270,6 @@ var card_db = TAFFY([
     ],
     "Ritual": null,
     "Attribute": 0,
-    "NameColor": 0,
-    "DescColor": 0
   },
   {
     "Name": "Winged Cleaver",
@@ -77739,8 +77323,6 @@ var card_db = TAFFY([
     ],
     "Ritual": null,
     "Attribute": 2,
-    "NameColor": 0,
-    "DescColor": 0
   },
   {
     "Name": "Hinotama Soul",
@@ -78179,8 +77761,6 @@ var card_db = TAFFY([
     ],
     "Ritual": null,
     "Attribute": 4,
-    "NameColor": 0,
-    "DescColor": 0
   },
   {
     "Name": "Kaminarikozou",
@@ -78689,8 +78269,6 @@ var card_db = TAFFY([
     ],
     "Ritual": null,
     "Attribute": 5,
-    "NameColor": 0,
-    "DescColor": 0
   },
   {
     "Name": "Meotoko",
@@ -78889,8 +78467,6 @@ var card_db = TAFFY([
     ],
     "Ritual": null,
     "Attribute": 2,
-    "NameColor": 0,
-    "DescColor": 0
   },
   {
     "Name": "Aqua Madoor",
@@ -79004,8 +78580,6 @@ var card_db = TAFFY([
     ],
     "Ritual": null,
     "Attribute": 3,
-    "NameColor": 0,
-    "DescColor": 0
   },
   {
     "Name": "Kagemusha of the Blue Flame",
@@ -79749,8 +79323,6 @@ var card_db = TAFFY([
     ],
     "Ritual": null,
     "Attribute": 2,
-    "NameColor": 0,
-    "DescColor": 0
   },
   {
     "Name": "Flame Ghost",
@@ -80374,8 +79946,6 @@ var card_db = TAFFY([
     ],
     "Ritual": null,
     "Attribute": 1,
-    "NameColor": 0,
-    "DescColor": 0
   },
   {
     "Name": "Dryad",
@@ -80809,8 +80379,6 @@ var card_db = TAFFY([
     ],
     "Ritual": null,
     "Attribute": 2,
-    "NameColor": 0,
-    "DescColor": 0
   },
   {
     "Name": "B. Skull Dragon",
@@ -80828,8 +80396,6 @@ var card_db = TAFFY([
     "Fusions": [],
     "Ritual": null,
     "Attribute": 1,
-    "NameColor": 0,
-    "DescColor": 0
   },
   {
     "Name": "Two-mouth Darkruler",
@@ -81043,8 +80609,6 @@ var card_db = TAFFY([
     ],
     "Ritual": null,
     "Attribute": 2,
-    "NameColor": 0,
-    "DescColor": 0
   },
   {
     "Name": "Solitude",
@@ -81093,8 +80657,6 @@ var card_db = TAFFY([
     ],
     "Ritual": null,
     "Attribute": 2,
-    "NameColor": 0,
-    "DescColor": 0
   },
   {
     "Name": "Masked Sorcerer",
@@ -81333,8 +80895,6 @@ var card_db = TAFFY([
     ],
     "Ritual": null,
     "Attribute": 1,
-    "NameColor": 0,
-    "DescColor": 0
   },
   {
     "Name": "Kumootoko",
@@ -81388,8 +80948,6 @@ var card_db = TAFFY([
     ],
     "Ritual": null,
     "Attribute": 2,
-    "NameColor": 0,
-    "DescColor": 0
   },
   {
     "Name": "Midnight Fiend",
@@ -81448,8 +81006,6 @@ var card_db = TAFFY([
     ],
     "Ritual": null,
     "Attribute": 1,
-    "NameColor": 0,
-    "DescColor": 0
   },
   {
     "Name": "Roaring Ocean Snake",
@@ -81467,8 +81023,6 @@ var card_db = TAFFY([
     "Fusions": [],
     "Ritual": null,
     "Attribute": 3,
-    "NameColor": 0,
-    "DescColor": 0
   },
   {
     "Name": "Trap Master",
@@ -81967,8 +81521,6 @@ var card_db = TAFFY([
     ],
     "Ritual": null,
     "Attribute": 2,
-    "NameColor": 0,
-    "DescColor": 0
   },
   {
     "Name": "Fiend Sword",
@@ -82222,8 +81774,6 @@ var card_db = TAFFY([
     ],
     "Ritual": null,
     "Attribute": 1,
-    "NameColor": 0,
-    "DescColor": 0
   },
   {
     "Name": "Skull Stalker",
@@ -82672,8 +82222,6 @@ var card_db = TAFFY([
     ],
     "Ritual": null,
     "Attribute": 1,
-    "NameColor": 0,
-    "DescColor": 0
   },
   {
     "Name": "Hitodenchak",
@@ -82782,8 +82330,6 @@ var card_db = TAFFY([
     ],
     "Ritual": null,
     "Attribute": 3,
-    "NameColor": 0,
-    "DescColor": 0
   },
   {
     "Name": "Wood Remains",
@@ -83187,8 +82733,6 @@ var card_db = TAFFY([
     ],
     "Ritual": null,
     "Attribute": 1,
-    "NameColor": 0,
-    "DescColor": 0
   },
   {
     "Name": "Hourglass of Life",
@@ -83512,8 +83056,6 @@ var card_db = TAFFY([
     ],
     "Ritual": null,
     "Attribute": 0,
-    "NameColor": 0,
-    "DescColor": 0
   },
   {
     "Name": "Rare Fish",
@@ -83767,8 +83309,6 @@ var card_db = TAFFY([
     ],
     "Ritual": null,
     "Attribute": 3,
-    "NameColor": 0,
-    "DescColor": 0
   },
   {
     "Name": "Wood Clown",
@@ -84217,8 +83757,6 @@ var card_db = TAFFY([
     ],
     "Ritual": null,
     "Attribute": 2,
-    "NameColor": 0,
-    "DescColor": 0
   },
   {
     "Name": "Madjinn Gunn",
@@ -84277,8 +83815,6 @@ var card_db = TAFFY([
     ],
     "Ritual": null,
     "Attribute": 1,
-    "NameColor": 0,
-    "DescColor": 0
   },
   {
     "Name": "Dark Titan of Terror",
@@ -84342,8 +83878,6 @@ var card_db = TAFFY([
     ],
     "Ritual": null,
     "Attribute": 1,
-    "NameColor": 0,
-    "DescColor": 0
   },
   {
     "Name": "Beautiful Headhuntress",
@@ -84762,8 +84296,6 @@ var card_db = TAFFY([
     ],
     "Ritual": null,
     "Attribute": 2,
-    "NameColor": 0,
-    "DescColor": 0
   },
   {
     "Name": "Wodan the Resident of the Forest",
@@ -85202,8 +84734,6 @@ var card_db = TAFFY([
     ],
     "Ritual": null,
     "Attribute": 2,
-    "NameColor": 0,
-    "DescColor": 0
   },
   {
     "Name": "Guardian of the Labyrinth",
@@ -85652,8 +85182,6 @@ var card_db = TAFFY([
     ],
     "Ritual": null,
     "Attribute": 2,
-    "NameColor": 0,
-    "DescColor": 0
   },
   {
     "Name": "Haniwa",
@@ -86072,8 +85600,6 @@ var card_db = TAFFY([
     ],
     "Ritual": null,
     "Attribute": 2,
-    "NameColor": 0,
-    "DescColor": 0
   },
   {
     "Name": "Yashinoki",
@@ -86567,8 +86093,6 @@ var card_db = TAFFY([
     ],
     "Ritual": null,
     "Attribute": 2,
-    "NameColor": 0,
-    "DescColor": 0
   },
   {
     "Name": "Vishwar Randi",
@@ -87137,8 +86661,6 @@ var card_db = TAFFY([
     ],
     "Ritual": null,
     "Attribute": 1,
-    "NameColor": 0,
-    "DescColor": 0
   },
   {
     "Name": "The Drdek",
@@ -87197,8 +86719,6 @@ var card_db = TAFFY([
     ],
     "Ritual": null,
     "Attribute": 1,
-    "NameColor": 0,
-    "DescColor": 0
   },
   {
     "Name": "Dark Assailant",
@@ -87512,8 +87032,6 @@ var card_db = TAFFY([
     ],
     "Ritual": null,
     "Attribute": 1,
-    "NameColor": 0,
-    "DescColor": 0
   },
   {
     "Name": "Candle of Fate",
@@ -87912,8 +87430,6 @@ var card_db = TAFFY([
     ],
     "Ritual": null,
     "Attribute": 1,
-    "NameColor": 0,
-    "DescColor": 0
   },
   {
     "Name": "Water Element",
@@ -88337,8 +87853,6 @@ var card_db = TAFFY([
     ],
     "Ritual": null,
     "Attribute": 3,
-    "NameColor": 0,
-    "DescColor": 0
   },
   {
     "Name": "Dissolverock",
@@ -88907,8 +88421,6 @@ var card_db = TAFFY([
     ],
     "Ritual": null,
     "Attribute": 2,
-    "NameColor": 0,
-    "DescColor": 0
   },
   {
     "Name": "Meda Bat",
@@ -88967,8 +88479,6 @@ var card_db = TAFFY([
     ],
     "Ritual": null,
     "Attribute": 1,
-    "NameColor": 0,
-    "DescColor": 0
   },
   {
     "Name": "One Who Hunts Souls",
@@ -89017,8 +88527,6 @@ var card_db = TAFFY([
     ],
     "Ritual": null,
     "Attribute": 2,
-    "NameColor": 0,
-    "DescColor": 0
   },
   {
     "Name": "Root Water",
@@ -89437,8 +88945,6 @@ var card_db = TAFFY([
     ],
     "Ritual": null,
     "Attribute": 3,
-    "NameColor": 0,
-    "DescColor": 0
   },
   {
     "Name": "Master & Expert",
@@ -90017,8 +89523,6 @@ var card_db = TAFFY([
     ],
     "Ritual": null,
     "Attribute": 2,
-    "NameColor": 0,
-    "DescColor": 0
   },
   {
     "Name": "Water Omotics",
@@ -90387,8 +89891,6 @@ var card_db = TAFFY([
     ],
     "Ritual": null,
     "Attribute": 3,
-    "NameColor": 0,
-    "DescColor": 0
   },
   {
     "Name": "Hyo",
@@ -90797,8 +90299,6 @@ var card_db = TAFFY([
     ],
     "Ritual": null,
     "Attribute": 3,
-    "NameColor": 0,
-    "DescColor": 0
   },
   {
     "Name": "Enchanting Mermaid",
@@ -91412,8 +90912,6 @@ var card_db = TAFFY([
     ],
     "Ritual": null,
     "Attribute": 3,
-    "NameColor": 0,
-    "DescColor": 0
   },
   {
     "Name": "Nekogal #1",
@@ -91797,8 +91295,6 @@ var card_db = TAFFY([
     ],
     "Ritual": null,
     "Attribute": 2,
-    "NameColor": 0,
-    "DescColor": 0
   },
   {
     "Name": "Angelwitch",
@@ -92347,8 +91843,6 @@ var card_db = TAFFY([
     ],
     "Ritual": null,
     "Attribute": 1,
-    "NameColor": 0,
-    "DescColor": 0
   },
   {
     "Name": "Embryonic Beast",
@@ -92407,8 +91901,6 @@ var card_db = TAFFY([
     ],
     "Ritual": null,
     "Attribute": 1,
-    "NameColor": 0,
-    "DescColor": 0
   },
   {
     "Name": "Prevent Rat",
@@ -92987,8 +92479,6 @@ var card_db = TAFFY([
     ],
     "Ritual": null,
     "Attribute": 2,
-    "NameColor": 0,
-    "DescColor": 0
   },
   {
     "Name": "Dimensional Warrior",
@@ -93382,8 +92872,6 @@ var card_db = TAFFY([
     ],
     "Ritual": null,
     "Attribute": 2,
-    "NameColor": 0,
-    "DescColor": 0
   },
   {
     "Name": "Stone Armadiller",
@@ -93757,8 +93245,6 @@ var card_db = TAFFY([
     ],
     "Ritual": null,
     "Attribute": 2,
-    "NameColor": 0,
-    "DescColor": 0
   },
   {
     "Name": "Beastking of the Swamps",
@@ -93867,8 +93353,6 @@ var card_db = TAFFY([
     ],
     "Ritual": null,
     "Attribute": 3,
-    "NameColor": 0,
-    "DescColor": 0
   },
   {
     "Name": "Ancient Sorcerer",
@@ -94097,8 +93581,6 @@ var card_db = TAFFY([
     ],
     "Ritual": null,
     "Attribute": 1,
-    "NameColor": 0,
-    "DescColor": 0
   },
   {
     "Name": "Lunar Queen Elzaim",
@@ -94567,8 +94049,6 @@ var card_db = TAFFY([
     ],
     "Ritual": null,
     "Attribute": 0,
-    "NameColor": 0,
-    "DescColor": 0
   },
   {
     "Name": "Wicked Mirror",
@@ -94632,8 +94112,6 @@ var card_db = TAFFY([
     ],
     "Ritual": null,
     "Attribute": 1,
-    "NameColor": 0,
-    "DescColor": 0
   },
   {
     "Name": "The Little Swordsman of Aile",
@@ -95027,8 +94505,6 @@ var card_db = TAFFY([
     ],
     "Ritual": null,
     "Attribute": 3,
-    "NameColor": 0,
-    "DescColor": 0
   },
   {
     "Name": "Rock Ogre Grotto #2",
@@ -95392,8 +94868,6 @@ var card_db = TAFFY([
     ],
     "Ritual": null,
     "Attribute": 2,
-    "NameColor": 0,
-    "DescColor": 0
   },
   {
     "Name": "Wing Egg Elf",
@@ -95827,8 +95301,6 @@ var card_db = TAFFY([
     ],
     "Ritual": null,
     "Attribute": 0,
-    "NameColor": 0,
-    "DescColor": 0
   },
   {
     "Name": "The Furious Sea King",
@@ -95937,8 +95409,6 @@ var card_db = TAFFY([
     ],
     "Ritual": null,
     "Attribute": 3,
-    "NameColor": 0,
-    "DescColor": 0
   },
   {
     "Name": "Princess of Tsurugi",
@@ -96442,8 +95912,6 @@ var card_db = TAFFY([
     ],
     "Ritual": null,
     "Attribute": 5,
-    "NameColor": 0,
-    "DescColor": 0
   },
   {
     "Name": "Unknown Warrior of Fiend",
@@ -96832,8 +96300,6 @@ var card_db = TAFFY([
     ],
     "Ritual": null,
     "Attribute": 1,
-    "NameColor": 0,
-    "DescColor": 0
   },
   {
     "Name": "Sectarian of Secrets",
@@ -97057,8 +96523,6 @@ var card_db = TAFFY([
     ],
     "Ritual": null,
     "Attribute": 1,
-    "NameColor": 0,
-    "DescColor": 0
   },
   {
     "Name": "Versago the Destroyer",
@@ -97132,8 +96596,6 @@ var card_db = TAFFY([
     ],
     "Ritual": null,
     "Attribute": 1,
-    "NameColor": 0,
-    "DescColor": 0
   },
   {
     "Name": "Wetha",
@@ -97242,8 +96704,6 @@ var card_db = TAFFY([
     ],
     "Ritual": null,
     "Attribute": 3,
-    "NameColor": 0,
-    "DescColor": 0
   },
   {
     "Name": "Megirus Light",
@@ -97317,8 +96777,6 @@ var card_db = TAFFY([
     ],
     "Ritual": null,
     "Attribute": 1,
-    "NameColor": 0,
-    "DescColor": 0
   },
   {
     "Name": "Mavelus",
@@ -97682,8 +97140,6 @@ var card_db = TAFFY([
     ],
     "Ritual": null,
     "Attribute": 5,
-    "NameColor": 0,
-    "DescColor": 0
   },
   {
     "Name": "Ancient Tree of Enlightenment",
@@ -98107,8 +97563,6 @@ var card_db = TAFFY([
     ],
     "Ritual": null,
     "Attribute": 2,
-    "NameColor": 0,
-    "DescColor": 0
   },
   {
     "Name": "Green Phantom King",
@@ -98532,8 +97986,6 @@ var card_db = TAFFY([
     ],
     "Ritual": null,
     "Attribute": 2,
-    "NameColor": 0,
-    "DescColor": 0
   },
   {
     "Name": "Ground Attacker Bugroth",
@@ -98972,8 +98424,6 @@ var card_db = TAFFY([
     ],
     "Ritual": null,
     "Attribute": 2,
-    "NameColor": 0,
-    "DescColor": 0
   },
   {
     "Name": "Ray & Temperature",
@@ -99132,8 +98582,6 @@ var card_db = TAFFY([
     ],
     "Ritual": null,
     "Attribute": 0,
-    "NameColor": 0,
-    "DescColor": 0
   },
   {
     "Name": "Gorgon Egg",
@@ -99222,8 +98670,6 @@ var card_db = TAFFY([
     ],
     "Ritual": null,
     "Attribute": 1,
-    "NameColor": 0,
-    "DescColor": 0
   },
   {
     "Name": "Petit Moth",
@@ -99272,8 +98718,6 @@ var card_db = TAFFY([
     ],
     "Ritual": null,
     "Attribute": 2,
-    "NameColor": 0,
-    "DescColor": 0
   },
   {
     "Name": "King Fog",
@@ -99347,8 +98791,6 @@ var card_db = TAFFY([
     ],
     "Ritual": null,
     "Attribute": 1,
-    "NameColor": 0,
-    "DescColor": 0
   },
   {
     "Name": "Protector of the Throne",
@@ -99902,8 +99344,6 @@ var card_db = TAFFY([
     ],
     "Ritual": null,
     "Attribute": 2,
-    "NameColor": 0,
-    "DescColor": 0
   },
   {
     "Name": "Mystic Clown",
@@ -99937,8 +99377,6 @@ var card_db = TAFFY([
     ],
     "Ritual": null,
     "Attribute": 1,
-    "NameColor": 0,
-    "DescColor": 0
   },
   {
     "Name": "Mystical Sheep #2",
@@ -100547,8 +99985,6 @@ var card_db = TAFFY([
     ],
     "Ritual": null,
     "Attribute": 2,
-    "NameColor": 0,
-    "DescColor": 0
   },
   {
     "Name": "Holograh",
@@ -100807,8 +100243,6 @@ var card_db = TAFFY([
     ],
     "Ritual": null,
     "Attribute": 2,
-    "NameColor": 0,
-    "DescColor": 0
   },
   {
     "Name": "Tao the Chanter",
@@ -100902,8 +100336,6 @@ var card_db = TAFFY([
     ],
     "Ritual": null,
     "Attribute": 2,
-    "NameColor": 0,
-    "DescColor": 0
   },
   {
     "Name": "Serpent Marauder",
@@ -100962,8 +100394,6 @@ var card_db = TAFFY([
     ],
     "Ritual": null,
     "Attribute": 2,
-    "NameColor": 0,
-    "DescColor": 0
   },
   {
     "Name": "Gatekeeper",
@@ -101137,8 +100567,6 @@ var card_db = TAFFY([
     ],
     "Ritual": null,
     "Attribute": 1,
-    "NameColor": 0,
-    "DescColor": 0
   },
   {
     "Name": "Ogre of the Black Shadow",
@@ -101177,8 +100605,6 @@ var card_db = TAFFY([
     ],
     "Ritual": null,
     "Attribute": 2,
-    "NameColor": 0,
-    "DescColor": 0
   },
   {
     "Name": "Dark Artist",
@@ -101242,8 +100668,6 @@ var card_db = TAFFY([
     ],
     "Ritual": null,
     "Attribute": 1,
-    "NameColor": 0,
-    "DescColor": 0
   },
   {
     "Name": "Change Slime",
@@ -101347,8 +100771,6 @@ var card_db = TAFFY([
     ],
     "Ritual": null,
     "Attribute": 3,
-    "NameColor": 0,
-    "DescColor": 0
   },
   {
     "Name": "Moon Envoy",
@@ -101712,8 +101134,6 @@ var card_db = TAFFY([
     ],
     "Ritual": null,
     "Attribute": 0,
-    "NameColor": 0,
-    "DescColor": 0
   },
   {
     "Name": "Fireyarou",
@@ -101977,8 +101397,6 @@ var card_db = TAFFY([
     ],
     "Ritual": null,
     "Attribute": 4,
-    "NameColor": 0,
-    "DescColor": 0
   },
   {
     "Name": "Psychic Kappa",
@@ -102267,8 +101685,6 @@ var card_db = TAFFY([
     ],
     "Ritual": null,
     "Attribute": 3,
-    "NameColor": 0,
-    "DescColor": 0
   },
   {
     "Name": "Masaki the Legendary Swordsman",
@@ -102627,8 +102043,6 @@ var card_db = TAFFY([
     ],
     "Ritual": null,
     "Attribute": 2,
-    "NameColor": 0,
-    "DescColor": 0
   },
   {
     "Name": "Dragoness the Wicked Knight",
@@ -102977,8 +102391,6 @@ var card_db = TAFFY([
     ],
     "Ritual": null,
     "Attribute": 5,
-    "NameColor": 0,
-    "DescColor": 0
   },
   {
     "Name": "Bio Plant",
@@ -103002,8 +102414,6 @@ var card_db = TAFFY([
     ],
     "Ritual": null,
     "Attribute": 1,
-    "NameColor": 0,
-    "DescColor": 0
   },
   {
     "Name": "One-eyed Shield Dragon",
@@ -103747,8 +103157,6 @@ var card_db = TAFFY([
     ],
     "Ritual": null,
     "Attribute": 5,
-    "NameColor": 0,
-    "DescColor": 0
   },
   {
     "Name": "Cyber Soldier of Darkworld",
@@ -103967,8 +103375,6 @@ var card_db = TAFFY([
     ],
     "Ritual": null,
     "Attribute": 1,
-    "NameColor": 0,
-    "DescColor": 0
   },
   {
     "Name": "Wicked Dragon with the Ersatz Head",
@@ -104717,8 +104123,6 @@ var card_db = TAFFY([
     ],
     "Ritual": null,
     "Attribute": 5,
-    "NameColor": 0,
-    "DescColor": 0
   },
   {
     "Name": "Sonic Maid",
@@ -105217,8 +104621,6 @@ var card_db = TAFFY([
     ],
     "Ritual": null,
     "Attribute": 2,
-    "NameColor": 0,
-    "DescColor": 0
   },
   {
     "Name": "Kurama",
@@ -105312,8 +104714,6 @@ var card_db = TAFFY([
     ],
     "Ritual": null,
     "Attribute": 5,
-    "NameColor": 0,
-    "DescColor": 0
   },
   {
     "Name": "Legendary Sword",
@@ -105411,8 +104811,6 @@ var card_db = TAFFY([
     ],
     "Ritual": null,
     "Attribute": 6,
-    "NameColor": 0,
-    "DescColor": 0
   },
   {
     "Name": "Sword of Dark Destruction",
@@ -105491,8 +104889,6 @@ var card_db = TAFFY([
     "Fusions": [],
     "Ritual": null,
     "Attribute": 6,
-    "NameColor": 0,
-    "DescColor": 0
   },
   {
     "Name": "Dark Energy",
@@ -105834,8 +105230,6 @@ var card_db = TAFFY([
     ],
     "Ritual": null,
     "Attribute": 6,
-    "NameColor": 0,
-    "DescColor": 0
   },
   {
     "Name": "Axe of Despair",
@@ -105936,8 +105330,6 @@ var card_db = TAFFY([
     "Fusions": [],
     "Ritual": null,
     "Attribute": 6,
-    "NameColor": 0,
-    "DescColor": 0
   },
   {
     "Name": "Laser Cannon Armor",
@@ -106105,8 +105497,6 @@ var card_db = TAFFY([
     "Fusions": [],
     "Ritual": null,
     "Attribute": 6,
-    "NameColor": 0,
-    "DescColor": 0
   },
   {
     "Name": "Insect Armor with Laser Cannon",
@@ -106239,8 +105629,6 @@ var card_db = TAFFY([
     "Fusions": [],
     "Ritual": null,
     "Attribute": 6,
-    "NameColor": 0,
-    "DescColor": 0
   },
   {
     "Name": "Elf's Light",
@@ -106349,8 +105737,6 @@ var card_db = TAFFY([
     ],
     "Ritual": null,
     "Attribute": 6,
-    "NameColor": 0,
-    "DescColor": 0
   },
   {
     "Name": "Beast Fangs",
@@ -106611,8 +105997,6 @@ var card_db = TAFFY([
     ],
     "Ritual": null,
     "Attribute": 6,
-    "NameColor": 0,
-    "DescColor": 0
   },
   {
     "Name": "Steel Shell",
@@ -106653,8 +106037,6 @@ var card_db = TAFFY([
     ],
     "Ritual": null,
     "Attribute": 6,
-    "NameColor": 0,
-    "DescColor": 0
   },
   {
     "Name": "Vile Germs",
@@ -106714,8 +106096,6 @@ var card_db = TAFFY([
     ],
     "Ritual": null,
     "Attribute": 6,
-    "NameColor": 0,
-    "DescColor": 0
   },
   {
     "Name": "Black Pendant",
@@ -106860,8 +106240,6 @@ var card_db = TAFFY([
     ],
     "Ritual": null,
     "Attribute": 6,
-    "NameColor": 0,
-    "DescColor": 0
   },
   {
     "Name": "Silver Bow and Arrow",
@@ -106950,8 +106328,6 @@ var card_db = TAFFY([
     ],
     "Ritual": null,
     "Attribute": 6,
-    "NameColor": 0,
-    "DescColor": 0
   },
   {
     "Name": "Horn of Light",
@@ -107035,8 +106411,6 @@ var card_db = TAFFY([
     ],
     "Ritual": null,
     "Attribute": 6,
-    "NameColor": 0,
-    "DescColor": 0
   },
   {
     "Name": "Horn of the Unicorn",
@@ -107153,8 +106527,6 @@ var card_db = TAFFY([
     ],
     "Ritual": null,
     "Attribute": 6,
-    "NameColor": 0,
-    "DescColor": 0
   },
   {
     "Name": "Dragon Treasure",
@@ -107265,8 +106637,6 @@ var card_db = TAFFY([
     ],
     "Ritual": null,
     "Attribute": 6,
-    "NameColor": 0,
-    "DescColor": 0
   },
   {
     "Name": "Electro-whip",
@@ -107406,8 +106776,6 @@ var card_db = TAFFY([
     ],
     "Ritual": null,
     "Attribute": 6,
-    "NameColor": 0,
-    "DescColor": 0
   },
   {
     "Name": "Cyber Shield",
@@ -107499,8 +106867,6 @@ var card_db = TAFFY([
     ],
     "Ritual": null,
     "Attribute": 6,
-    "NameColor": 0,
-    "DescColor": 0
   },
   {
     "Name": "Elegant Egotist",
@@ -107531,8 +106897,6 @@ var card_db = TAFFY([
     ],
     "Ritual": null,
     "Attribute": 6,
-    "NameColor": 0,
-    "DescColor": 0
   },
   {
     "Name": "Mystical Moon",
@@ -107654,8 +107018,6 @@ var card_db = TAFFY([
     ],
     "Ritual": null,
     "Attribute": 6,
-    "NameColor": 0,
-    "DescColor": 0
   },
   {
     "Name": "Stop Defense",
@@ -107673,8 +107035,6 @@ var card_db = TAFFY([
     "Fusions": [],
     "Ritual": null,
     "Attribute": 6,
-    "NameColor": 0,
-    "DescColor": 0
   },
   {
     "Name": "Malevolent Nuzzler",
@@ -107840,8 +107200,6 @@ var card_db = TAFFY([
     ],
     "Ritual": null,
     "Attribute": 6,
-    "NameColor": 0,
-    "DescColor": 0
   },
   {
     "Name": "Violet Crystal",
@@ -107944,8 +107302,6 @@ var card_db = TAFFY([
     ],
     "Ritual": null,
     "Attribute": 6,
-    "NameColor": 0,
-    "DescColor": 0
   },
   {
     "Name": "Book of Secret Arts",
@@ -108061,8 +107417,6 @@ var card_db = TAFFY([
     ],
     "Ritual": null,
     "Attribute": 6,
-    "NameColor": 0,
-    "DescColor": 0
   },
   {
     "Name": "Invigoration",
@@ -108202,8 +107556,6 @@ var card_db = TAFFY([
     "Fusions": [],
     "Ritual": null,
     "Attribute": 6,
-    "NameColor": 0,
-    "DescColor": 0
   },
   {
     "Name": "Machine Conversion Factory",
@@ -108410,8 +107762,6 @@ var card_db = TAFFY([
     ],
     "Ritual": null,
     "Attribute": 6,
-    "NameColor": 0,
-    "DescColor": 0
   },
   {
     "Name": "Raise Body Heat",
@@ -108547,8 +107897,6 @@ var card_db = TAFFY([
     ],
     "Ritual": null,
     "Attribute": 6,
-    "NameColor": 0,
-    "DescColor": 0
   },
   {
     "Name": "Follow Wind",
@@ -108726,8 +108074,6 @@ var card_db = TAFFY([
     ],
     "Ritual": null,
     "Attribute": 6,
-    "NameColor": 0,
-    "DescColor": 0
   },
   {
     "Name": "Power of Kaishin",
@@ -108871,8 +108217,6 @@ var card_db = TAFFY([
     ],
     "Ritual": null,
     "Attribute": 6,
-    "NameColor": 0,
-    "DescColor": 0
   },
   {
     "Name": "Dragon Capture Jar",
@@ -108896,8 +108240,6 @@ var card_db = TAFFY([
     ],
     "Ritual": null,
     "Attribute": 7,
-    "NameColor": 0,
-    "DescColor": 0
   },
   {
     "Name": "Forest",
@@ -108926,8 +108268,6 @@ var card_db = TAFFY([
     ],
     "Ritual": null,
     "Attribute": 6,
-    "NameColor": 0,
-    "DescColor": 0
   },
   {
     "Name": "Wasteland",
@@ -108945,8 +108285,6 @@ var card_db = TAFFY([
     "Fusions": [],
     "Ritual": null,
     "Attribute": 6,
-    "NameColor": 0,
-    "DescColor": 0
   },
   {
     "Name": "Mountain",
@@ -108964,8 +108302,6 @@ var card_db = TAFFY([
     "Fusions": [],
     "Ritual": null,
     "Attribute": 6,
-    "NameColor": 0,
-    "DescColor": 0
   },
   {
     "Name": "Sogen",
@@ -108983,8 +108319,6 @@ var card_db = TAFFY([
     "Fusions": [],
     "Ritual": null,
     "Attribute": 6,
-    "NameColor": 0,
-    "DescColor": 0
   },
   {
     "Name": "Umi",
@@ -109018,8 +108352,6 @@ var card_db = TAFFY([
     ],
     "Ritual": null,
     "Attribute": 6,
-    "NameColor": 0,
-    "DescColor": 0
   },
   {
     "Name": "Yami",
@@ -109043,8 +108375,6 @@ var card_db = TAFFY([
     ],
     "Ritual": null,
     "Attribute": 6,
-    "NameColor": 0,
-    "DescColor": 0
   },
   {
     "Name": "Dark Hole",
@@ -109068,8 +108398,6 @@ var card_db = TAFFY([
     ],
     "Ritual": null,
     "Attribute": 6,
-    "NameColor": 0,
-    "DescColor": 0
   },
   {
     "Name": "Raigeki",
@@ -109087,8 +108415,6 @@ var card_db = TAFFY([
     "Fusions": [],
     "Ritual": null,
     "Attribute": 6,
-    "NameColor": 0,
-    "DescColor": 0
   },
   {
     "Name": "Mooyan Curry",
@@ -109122,8 +108448,6 @@ var card_db = TAFFY([
     ],
     "Ritual": null,
     "Attribute": 6,
-    "NameColor": 0,
-    "DescColor": 0
   },
   {
     "Name": "Red Medicine",
@@ -109147,8 +108471,6 @@ var card_db = TAFFY([
     ],
     "Ritual": null,
     "Attribute": 6,
-    "NameColor": 0,
-    "DescColor": 0
   },
   {
     "Name": "Goblin's Secret Remedy",
@@ -109172,8 +108494,6 @@ var card_db = TAFFY([
     ],
     "Ritual": null,
     "Attribute": 6,
-    "NameColor": 0,
-    "DescColor": 0
   },
   {
     "Name": "Soul of the Pure",
@@ -109197,8 +108517,6 @@ var card_db = TAFFY([
     ],
     "Ritual": null,
     "Attribute": 6,
-    "NameColor": 0,
-    "DescColor": 0
   },
   {
     "Name": "Dian Keto the Cure Master",
@@ -109222,8 +108540,6 @@ var card_db = TAFFY([
     ],
     "Ritual": null,
     "Attribute": 6,
-    "NameColor": 0,
-    "DescColor": 0
   },
   {
     "Name": "Sparks",
@@ -109247,8 +108563,6 @@ var card_db = TAFFY([
     ],
     "Ritual": null,
     "Attribute": 6,
-    "NameColor": 0,
-    "DescColor": 0
   },
   {
     "Name": "Hinotama",
@@ -109272,8 +108586,6 @@ var card_db = TAFFY([
     ],
     "Ritual": null,
     "Attribute": 6,
-    "NameColor": 0,
-    "DescColor": 0
   },
   {
     "Name": "Final Flame",
@@ -109307,8 +108619,6 @@ var card_db = TAFFY([
     ],
     "Ritual": null,
     "Attribute": 6,
-    "NameColor": 0,
-    "DescColor": 0
   },
   {
     "Name": "Ookazi",
@@ -109332,8 +108642,6 @@ var card_db = TAFFY([
     ],
     "Ritual": null,
     "Attribute": 6,
-    "NameColor": 0,
-    "DescColor": 0
   },
   {
     "Name": "Tremendous Fire",
@@ -109351,8 +108659,6 @@ var card_db = TAFFY([
     "Fusions": [],
     "Ritual": null,
     "Attribute": 6,
-    "NameColor": 0,
-    "DescColor": 0
   },
   {
     "Name": "Swords of Revealing Light",
@@ -109370,8 +108676,6 @@ var card_db = TAFFY([
     "Fusions": [],
     "Ritual": null,
     "Attribute": 6,
-    "NameColor": 0,
-    "DescColor": 0
   },
   {
     "Name": "Spellbinding Circle",
@@ -109400,8 +108704,6 @@ var card_db = TAFFY([
     ],
     "Ritual": null,
     "Attribute": 6,
-    "NameColor": 0,
-    "DescColor": 0
   },
   {
     "Name": "Dark-piercing Light",
@@ -109430,8 +108732,6 @@ var card_db = TAFFY([
     ],
     "Ritual": null,
     "Attribute": 6,
-    "NameColor": 0,
-    "DescColor": 0
   },
   {
     "Name": "Yaranzo",
@@ -109620,8 +108920,6 @@ var card_db = TAFFY([
     ],
     "Ritual": null,
     "Attribute": 1,
-    "NameColor": 0,
-    "DescColor": 0
   },
   {
     "Name": "Kanan the Swordmistress",
@@ -110060,8 +109358,6 @@ var card_db = TAFFY([
     ],
     "Ritual": null,
     "Attribute": 2,
-    "NameColor": 0,
-    "DescColor": 0
   },
   {
     "Name": "Takriminos",
@@ -110710,8 +110006,6 @@ var card_db = TAFFY([
     ],
     "Ritual": null,
     "Attribute": 3,
-    "NameColor": 0,
-    "DescColor": 0
   },
   {
     "Name": "Stuffed Animal",
@@ -111035,8 +110329,6 @@ var card_db = TAFFY([
     ],
     "Ritual": null,
     "Attribute": 2,
-    "NameColor": 0,
-    "DescColor": 0
   },
   {
     "Name": "Megasonic Eye",
@@ -111180,8 +110472,6 @@ var card_db = TAFFY([
     ],
     "Ritual": null,
     "Attribute": 1,
-    "NameColor": 0,
-    "DescColor": 0
   },
   {
     "Name": "Super War-lion",
@@ -111199,8 +110489,6 @@ var card_db = TAFFY([
     "Fusions": [],
     "Ritual": null,
     "Attribute": 2,
-    "NameColor": 0,
-    "DescColor": 0
   },
   {
     "Name": "Yamadron",
@@ -111979,8 +111267,6 @@ var card_db = TAFFY([
     ],
     "Ritual": null,
     "Attribute": 4,
-    "NameColor": 0,
-    "DescColor": 0
   },
   {
     "Name": "Seiyaryu",
@@ -112049,8 +111335,6 @@ var card_db = TAFFY([
     ],
     "Ritual": null,
     "Attribute": 0,
-    "NameColor": 0,
-    "DescColor": 0
   },
   {
     "Name": "Three-legged Zombies",
@@ -112289,8 +111573,6 @@ var card_db = TAFFY([
     ],
     "Ritual": null,
     "Attribute": 1,
-    "NameColor": 0,
-    "DescColor": 0
   },
   {
     "Name": "Zera The Mant",
@@ -112308,8 +111590,6 @@ var card_db = TAFFY([
     "Fusions": [],
     "Ritual": null,
     "Attribute": 1,
-    "NameColor": 0,
-    "DescColor": 0
   },
   {
     "Name": "Flying Penguin",
@@ -112393,8 +111673,6 @@ var card_db = TAFFY([
     ],
     "Ritual": null,
     "Attribute": 3,
-    "NameColor": 0,
-    "DescColor": 0
   },
   {
     "Name": "Millennium Shield",
@@ -112753,8 +112031,6 @@ var card_db = TAFFY([
     ],
     "Ritual": null,
     "Attribute": 2,
-    "NameColor": 0,
-    "DescColor": 0
   },
   {
     "Name": "Fairy's Gift",
@@ -113058,8 +112334,6 @@ var card_db = TAFFY([
     ],
     "Ritual": null,
     "Attribute": 0,
-    "NameColor": 0,
-    "DescColor": 0
   },
   {
     "Name": "Black Luster Soldier",
@@ -113077,8 +112351,6 @@ var card_db = TAFFY([
     "Fusions": [],
     "Ritual": null,
     "Attribute": 1,
-    "NameColor": 0,
-    "DescColor": 0
   },
   {
     "Name": "Fiend's Mirror",
@@ -113096,8 +112368,6 @@ var card_db = TAFFY([
     "Fusions": [],
     "Ritual": null,
     "Attribute": 1,
-    "NameColor": 0,
-    "DescColor": 0
   },
   {
     "Name": "Labyrinth Wall",
@@ -113386,8 +112656,6 @@ var card_db = TAFFY([
     ],
     "Ritual": null,
     "Attribute": 2,
-    "NameColor": 0,
-    "DescColor": 0
   },
   {
     "Name": "Jirai Gumo",
@@ -113411,8 +112679,6 @@ var card_db = TAFFY([
     ],
     "Ritual": null,
     "Attribute": 2,
-    "NameColor": 0,
-    "DescColor": 0
   },
   {
     "Name": "Shadow Ghoul",
@@ -113531,8 +112797,6 @@ var card_db = TAFFY([
     ],
     "Ritual": null,
     "Attribute": 1,
-    "NameColor": 0,
-    "DescColor": 0
   },
   {
     "Name": "Wall Shadow",
@@ -113601,8 +112865,6 @@ var card_db = TAFFY([
     ],
     "Ritual": null,
     "Attribute": 1,
-    "NameColor": 0,
-    "DescColor": 0
   },
   {
     "Name": "Labyrinth Tank",
@@ -113620,8 +112882,6 @@ var card_db = TAFFY([
     "Fusions": [],
     "Ritual": null,
     "Attribute": 1,
-    "NameColor": 0,
-    "DescColor": 0
   },
   {
     "Name": "Sanga of the Thunder",
@@ -113730,8 +112990,6 @@ var card_db = TAFFY([
     ],
     "Ritual": null,
     "Attribute": 0,
-    "NameColor": 0,
-    "DescColor": 0
   },
   {
     "Name": "Kazejin",
@@ -113749,8 +113007,6 @@ var card_db = TAFFY([
     "Fusions": [],
     "Ritual": null,
     "Attribute": 5,
-    "NameColor": 0,
-    "DescColor": 0
   },
   {
     "Name": "Suijin",
@@ -113768,8 +113024,6 @@ var card_db = TAFFY([
     "Fusions": [],
     "Ritual": null,
     "Attribute": 3,
-    "NameColor": 0,
-    "DescColor": 0
   },
   {
     "Name": "Gate Guardian",
@@ -113787,8 +113041,6 @@ var card_db = TAFFY([
     "Fusions": [],
     "Ritual": null,
     "Attribute": 1,
-    "NameColor": 0,
-    "DescColor": 0
   },
   {
     "Name": "Dungeon Worm",
@@ -113812,8 +113064,6 @@ var card_db = TAFFY([
     ],
     "Ritual": null,
     "Attribute": 2,
-    "NameColor": 0,
-    "DescColor": 0
   },
   {
     "Name": "Monster Tamer",
@@ -113862,8 +113112,6 @@ var card_db = TAFFY([
     ],
     "Ritual": null,
     "Attribute": 2,
-    "NameColor": 0,
-    "DescColor": 0
   },
   {
     "Name": "Ryu-kishin Powered",
@@ -113881,8 +113129,6 @@ var card_db = TAFFY([
     "Fusions": [],
     "Ritual": null,
     "Attribute": 1,
-    "NameColor": 0,
-    "DescColor": 0
   },
   {
     "Name": "Swordstalker",
@@ -113900,8 +113146,6 @@ var card_db = TAFFY([
     "Fusions": [],
     "Ritual": null,
     "Attribute": 1,
-    "NameColor": 0,
-    "DescColor": 0
   },
   {
     "Name": "La Jinn the Mystical Genie",
@@ -113935,8 +113179,6 @@ var card_db = TAFFY([
     ],
     "Ritual": null,
     "Attribute": 1,
-    "NameColor": 0,
-    "DescColor": 0
   },
   {
     "Name": "Blue-eyes Ultimate Dragon",
@@ -113954,8 +113196,6 @@ var card_db = TAFFY([
     "Fusions": [],
     "Ritual": null,
     "Attribute": 0,
-    "NameColor": 0,
-    "DescColor": 0
   },
   {
     "Name": "Toon Alligator",
@@ -114014,8 +113254,6 @@ var card_db = TAFFY([
     ],
     "Ritual": null,
     "Attribute": 3,
-    "NameColor": 0,
-    "DescColor": 0
   },
   {
     "Name": "Rude Kaiser",
@@ -114033,8 +113271,6 @@ var card_db = TAFFY([
     "Fusions": [],
     "Ritual": null,
     "Attribute": 2,
-    "NameColor": 0,
-    "DescColor": 0
   },
   {
     "Name": "Parrot Dragon",
@@ -114163,8 +113399,6 @@ var card_db = TAFFY([
     ],
     "Ritual": null,
     "Attribute": 5,
-    "NameColor": 0,
-    "DescColor": 0
   },
   {
     "Name": "Dark Rabbit",
@@ -114303,8 +113537,6 @@ var card_db = TAFFY([
     ],
     "Ritual": null,
     "Attribute": 1,
-    "NameColor": 0,
-    "DescColor": 0
   },
   {
     "Name": "Bickuribox",
@@ -114322,8 +113554,6 @@ var card_db = TAFFY([
     "Fusions": [],
     "Ritual": null,
     "Attribute": 1,
-    "NameColor": 0,
-    "DescColor": 0
   },
   {
     "Name": "Harpie's Pet Dragon",
@@ -114452,8 +113682,6 @@ var card_db = TAFFY([
     ],
     "Ritual": null,
     "Attribute": 5,
-    "NameColor": 0,
-    "DescColor": 0
   },
   {
     "Name": "Mystic Lamp",
@@ -114697,8 +113925,6 @@ var card_db = TAFFY([
     ],
     "Ritual": null,
     "Attribute": 1,
-    "NameColor": 0,
-    "DescColor": 0
   },
   {
     "Name": "Pendulum Machine",
@@ -114782,8 +114008,6 @@ var card_db = TAFFY([
     ],
     "Ritual": null,
     "Attribute": 1,
-    "NameColor": 0,
-    "DescColor": 0
   },
   {
     "Name": "Giltia the D. Knight",
@@ -114827,8 +114051,6 @@ var card_db = TAFFY([
     ],
     "Ritual": null,
     "Attribute": 0,
-    "NameColor": 0,
-    "DescColor": 0
   },
   {
     "Name": "Launcher Spider",
@@ -114912,8 +114134,6 @@ var card_db = TAFFY([
     ],
     "Ritual": null,
     "Attribute": 4,
-    "NameColor": 0,
-    "DescColor": 0
   },
   {
     "Name": "Zoa",
@@ -114937,8 +114157,6 @@ var card_db = TAFFY([
     ],
     "Ritual": null,
     "Attribute": 1,
-    "NameColor": 0,
-    "DescColor": 0
   },
   {
     "Name": "Metalzoa",
@@ -114956,8 +114174,6 @@ var card_db = TAFFY([
     "Fusions": [],
     "Ritual": null,
     "Attribute": 1,
-    "NameColor": 0,
-    "DescColor": 0
   },
   {
     "Name": "Zone Eater",
@@ -115041,8 +114257,6 @@ var card_db = TAFFY([
     ],
     "Ritual": null,
     "Attribute": 3,
-    "NameColor": 0,
-    "DescColor": 0
   },
   {
     "Name": "Steel Scorpion",
@@ -115241,8 +114455,6 @@ var card_db = TAFFY([
     ],
     "Ritual": null,
     "Attribute": 2,
-    "NameColor": 0,
-    "DescColor": 0
   },
   {
     "Name": "Dancing Elf",
@@ -115691,8 +114903,6 @@ var card_db = TAFFY([
     ],
     "Ritual": null,
     "Attribute": 5,
-    "NameColor": 0,
-    "DescColor": 0
   },
   {
     "Name": "Ocubeam",
@@ -115906,8 +115116,6 @@ var card_db = TAFFY([
     ],
     "Ritual": null,
     "Attribute": 0,
-    "NameColor": 0,
-    "DescColor": 0
   },
   {
     "Name": "Leghul",
@@ -115951,8 +115159,6 @@ var card_db = TAFFY([
     ],
     "Ritual": null,
     "Attribute": 2,
-    "NameColor": 0,
-    "DescColor": 0
   },
   {
     "Name": "Ooguchi",
@@ -116031,8 +115237,6 @@ var card_db = TAFFY([
     ],
     "Ritual": null,
     "Attribute": 3,
-    "NameColor": 0,
-    "DescColor": 0
   },
   {
     "Name": "Swordsman from a Foreign Land",
@@ -116366,8 +115570,6 @@ var card_db = TAFFY([
     ],
     "Ritual": null,
     "Attribute": 2,
-    "NameColor": 0,
-    "DescColor": 0
   },
   {
     "Name": "Emperor of the Land and Sea",
@@ -116385,8 +115587,6 @@ var card_db = TAFFY([
     "Fusions": [],
     "Ritual": null,
     "Attribute": 3,
-    "NameColor": 0,
-    "DescColor": 0
   },
   {
     "Name": "Ushi Oni",
@@ -116404,8 +115604,6 @@ var card_db = TAFFY([
     "Fusions": [],
     "Ritual": null,
     "Attribute": 1,
-    "NameColor": 0,
-    "DescColor": 0
   },
   {
     "Name": "Monster Eye",
@@ -116444,8 +115642,6 @@ var card_db = TAFFY([
     ],
     "Ritual": null,
     "Attribute": 1,
-    "NameColor": 0,
-    "DescColor": 0
   },
   {
     "Name": "Leogun",
@@ -116699,8 +115895,6 @@ var card_db = TAFFY([
     ],
     "Ritual": null,
     "Attribute": 2,
-    "NameColor": 0,
-    "DescColor": 0
   },
   {
     "Name": "Tatsunootoshigo",
@@ -116799,8 +115993,6 @@ var card_db = TAFFY([
     ],
     "Ritual": null,
     "Attribute": 2,
-    "NameColor": 0,
-    "DescColor": 0
   },
   {
     "Name": "Saber Slasher",
@@ -116979,8 +116171,6 @@ var card_db = TAFFY([
     ],
     "Ritual": null,
     "Attribute": 1,
-    "NameColor": 0,
-    "DescColor": 0
   },
   {
     "Name": "Yaiba Robo",
@@ -117174,8 +116364,6 @@ var card_db = TAFFY([
     ],
     "Ritual": null,
     "Attribute": 1,
-    "NameColor": 0,
-    "DescColor": 0
   },
   {
     "Name": "Machine King",
@@ -117259,8 +116447,6 @@ var card_db = TAFFY([
     ],
     "Ritual": null,
     "Attribute": 2,
-    "NameColor": 0,
-    "DescColor": 0
   },
   {
     "Name": "Giant Mech-soldier",
@@ -117329,8 +116515,6 @@ var card_db = TAFFY([
     ],
     "Ritual": null,
     "Attribute": 2,
-    "NameColor": 0,
-    "DescColor": 0
   },
   {
     "Name": "Metal Dragon",
@@ -117754,8 +116938,6 @@ var card_db = TAFFY([
     ],
     "Ritual": null,
     "Attribute": 5,
-    "NameColor": 0,
-    "DescColor": 0
   },
   {
     "Name": "Mechanical Spider",
@@ -117949,8 +117131,6 @@ var card_db = TAFFY([
     ],
     "Ritual": null,
     "Attribute": 2,
-    "NameColor": 0,
-    "DescColor": 0
   },
   {
     "Name": "Bat",
@@ -118144,8 +117324,6 @@ var card_db = TAFFY([
     ],
     "Ritual": null,
     "Attribute": 5,
-    "NameColor": 0,
-    "DescColor": 0
   },
   {
     "Name": "Giga-tech Wolf",
@@ -118339,8 +117517,6 @@ var card_db = TAFFY([
     ],
     "Ritual": null,
     "Attribute": 2,
-    "NameColor": 0,
-    "DescColor": 0
   },
   {
     "Name": "Cyber Soldier",
@@ -118479,8 +117655,6 @@ var card_db = TAFFY([
     ],
     "Ritual": null,
     "Attribute": 1,
-    "NameColor": 0,
-    "DescColor": 0
   },
   {
     "Name": "Shovel Crusher",
@@ -118674,8 +117848,6 @@ var card_db = TAFFY([
     ],
     "Ritual": null,
     "Attribute": 2,
-    "NameColor": 0,
-    "DescColor": 0
   },
   {
     "Name": "Mechanicalchacer",
@@ -118693,8 +117865,6 @@ var card_db = TAFFY([
     "Fusions": [],
     "Ritual": null,
     "Attribute": 1,
-    "NameColor": 0,
-    "DescColor": 0
   },
   {
     "Name": "Blocker",
@@ -118888,8 +118058,6 @@ var card_db = TAFFY([
     ],
     "Ritual": null,
     "Attribute": 1,
-    "NameColor": 0,
-    "DescColor": 0
   },
   {
     "Name": "Blast Juggler",
@@ -119218,8 +118386,6 @@ var card_db = TAFFY([
     ],
     "Ritual": null,
     "Attribute": 4,
-    "NameColor": 0,
-    "DescColor": 0
   },
   {
     "Name": "Golgoil",
@@ -119413,8 +118579,6 @@ var card_db = TAFFY([
     ],
     "Ritual": null,
     "Attribute": 2,
-    "NameColor": 0,
-    "DescColor": 0
   },
   {
     "Name": "Giganto",
@@ -119483,8 +118647,6 @@ var card_db = TAFFY([
     ],
     "Ritual": null,
     "Attribute": 1,
-    "NameColor": 0,
-    "DescColor": 0
   },
   {
     "Name": "Cyber-Stein",
@@ -119678,8 +118840,6 @@ var card_db = TAFFY([
     ],
     "Ritual": null,
     "Attribute": 1,
-    "NameColor": 0,
-    "DescColor": 0
   },
   {
     "Name": "Cyber Commander",
@@ -119873,8 +119033,6 @@ var card_db = TAFFY([
     ],
     "Ritual": null,
     "Attribute": 1,
-    "NameColor": 0,
-    "DescColor": 0
   },
   {
     "Name": "Jinzo #7",
@@ -120068,8 +119226,6 @@ var card_db = TAFFY([
     ],
     "Ritual": null,
     "Attribute": 1,
-    "NameColor": 0,
-    "DescColor": 0
   },
   {
     "Name": "Dice Armadillo",
@@ -120138,8 +119294,6 @@ var card_db = TAFFY([
     ],
     "Ritual": null,
     "Attribute": 2,
-    "NameColor": 0,
-    "DescColor": 0
   },
   {
     "Name": "Sky Dragon",
@@ -120388,8 +119542,6 @@ var card_db = TAFFY([
     ],
     "Ritual": null,
     "Attribute": 5,
-    "NameColor": 0,
-    "DescColor": 0
   },
   {
     "Name": "Thunder Dragon",
@@ -121018,8 +120170,6 @@ var card_db = TAFFY([
     ],
     "Ritual": null,
     "Attribute": 0,
-    "NameColor": 0,
-    "DescColor": 0
   },
   {
     "Name": "Stone D.",
@@ -121283,8 +120433,6 @@ var card_db = TAFFY([
     ],
     "Ritual": null,
     "Attribute": 2,
-    "NameColor": 0,
-    "DescColor": 0
   },
   {
     "Name": "Kaiser Dragon",
@@ -121343,8 +120491,6 @@ var card_db = TAFFY([
     ],
     "Ritual": null,
     "Attribute": 0,
-    "NameColor": 0,
-    "DescColor": 0
   },
   {
     "Name": "Magician of Faith",
@@ -121658,8 +120804,6 @@ var card_db = TAFFY([
     ],
     "Ritual": null,
     "Attribute": 0,
-    "NameColor": 0,
-    "DescColor": 0
   },
   {
     "Name": "Goddess of Whim",
@@ -122003,8 +121147,6 @@ var card_db = TAFFY([
     ],
     "Ritual": null,
     "Attribute": 0,
-    "NameColor": 0,
-    "DescColor": 0
   },
   {
     "Name": "Water Magician",
@@ -122263,8 +121405,6 @@ var card_db = TAFFY([
     ],
     "Ritual": null,
     "Attribute": 3,
-    "NameColor": 0,
-    "DescColor": 0
   },
   {
     "Name": "Ice Water",
@@ -122558,8 +121698,6 @@ var card_db = TAFFY([
     ],
     "Ritual": null,
     "Attribute": 3,
-    "NameColor": 0,
-    "DescColor": 0
   },
   {
     "Name": "Waterdragon Fairy",
@@ -122858,8 +121996,6 @@ var card_db = TAFFY([
     ],
     "Ritual": null,
     "Attribute": 3,
-    "NameColor": 0,
-    "DescColor": 0
   },
   {
     "Name": "Ancient Elf",
@@ -123183,8 +122319,6 @@ var card_db = TAFFY([
     ],
     "Ritual": null,
     "Attribute": 0,
-    "NameColor": 0,
-    "DescColor": 0
   },
   {
     "Name": "Beautiful Beast Trainer",
@@ -123433,8 +122567,6 @@ var card_db = TAFFY([
     ],
     "Ritual": null,
     "Attribute": 2,
-    "NameColor": 0,
-    "DescColor": 0
   },
   {
     "Name": "Water Girl",
@@ -123728,8 +122860,6 @@ var card_db = TAFFY([
     ],
     "Ritual": null,
     "Attribute": 3,
-    "NameColor": 0,
-    "DescColor": 0
   },
   {
     "Name": "White Dolphin",
@@ -123913,8 +123043,6 @@ var card_db = TAFFY([
     ],
     "Ritual": null,
     "Attribute": 3,
-    "NameColor": 0,
-    "DescColor": 0
   },
   {
     "Name": "Deepsea Shark",
@@ -123932,8 +123060,6 @@ var card_db = TAFFY([
     "Fusions": [],
     "Ritual": null,
     "Attribute": 3,
-    "NameColor": 0,
-    "DescColor": 0
   },
   {
     "Name": "Metal Fish",
@@ -124037,8 +123163,6 @@ var card_db = TAFFY([
     ],
     "Ritual": null,
     "Attribute": 3,
-    "NameColor": 0,
-    "DescColor": 0
   },
   {
     "Name": "Bottom Dweller",
@@ -124132,8 +123256,6 @@ var card_db = TAFFY([
     ],
     "Ritual": null,
     "Attribute": 3,
-    "NameColor": 0,
-    "DescColor": 0
   },
   {
     "Name": "7 Colored Fish",
@@ -124151,8 +123273,6 @@ var card_db = TAFFY([
     "Fusions": [],
     "Ritual": null,
     "Attribute": 3,
-    "NameColor": 0,
-    "DescColor": 0
   },
   {
     "Name": "Mech Bass",
@@ -124201,8 +123321,6 @@ var card_db = TAFFY([
     ],
     "Ritual": null,
     "Attribute": 3,
-    "NameColor": 0,
-    "DescColor": 0
   },
   {
     "Name": "Aqua Dragon",
@@ -124261,8 +123379,6 @@ var card_db = TAFFY([
     ],
     "Ritual": null,
     "Attribute": 3,
-    "NameColor": 0,
-    "DescColor": 0
   },
   {
     "Name": "Sea King Dragon",
@@ -124386,8 +123502,6 @@ var card_db = TAFFY([
     ],
     "Ritual": null,
     "Attribute": 3,
-    "NameColor": 0,
-    "DescColor": 0
   },
   {
     "Name": "Turu-Purun",
@@ -124461,8 +123575,6 @@ var card_db = TAFFY([
     ],
     "Ritual": null,
     "Attribute": 3,
-    "NameColor": 0,
-    "DescColor": 0
   },
   {
     "Name": "Guardian of the Sea",
@@ -124536,8 +123648,6 @@ var card_db = TAFFY([
     ],
     "Ritual": null,
     "Attribute": 3,
-    "NameColor": 0,
-    "DescColor": 0
   },
   {
     "Name": "Aqua Snake",
@@ -124611,8 +123721,6 @@ var card_db = TAFFY([
     ],
     "Ritual": null,
     "Attribute": 3,
-    "NameColor": 0,
-    "DescColor": 0
   },
   {
     "Name": "Giant Red Seasnake",
@@ -124630,8 +123738,6 @@ var card_db = TAFFY([
     "Fusions": [],
     "Ritual": null,
     "Attribute": 3,
-    "NameColor": 0,
-    "DescColor": 0
   },
   {
     "Name": "Spike Seadra",
@@ -125140,8 +124246,6 @@ var card_db = TAFFY([
     ],
     "Ritual": null,
     "Attribute": 3,
-    "NameColor": 0,
-    "DescColor": 0
   },
   {
     "Name": "30,000-Year White Turtle",
@@ -125320,8 +124424,6 @@ var card_db = TAFFY([
     ],
     "Ritual": null,
     "Attribute": 3,
-    "NameColor": 0,
-    "DescColor": 0
   },
   {
     "Name": "Kappa Avenger",
@@ -125480,8 +124582,6 @@ var card_db = TAFFY([
     ],
     "Ritual": null,
     "Attribute": 3,
-    "NameColor": 0,
-    "DescColor": 0
   },
   {
     "Name": "Kanikabuto",
@@ -125545,8 +124645,6 @@ var card_db = TAFFY([
     ],
     "Ritual": null,
     "Attribute": 3,
-    "NameColor": 0,
-    "DescColor": 0
   },
   {
     "Name": "Zarigun",
@@ -125610,8 +124708,6 @@ var card_db = TAFFY([
     ],
     "Ritual": null,
     "Attribute": 3,
-    "NameColor": 0,
-    "DescColor": 0
   },
   {
     "Name": "Millennium Golem",
@@ -125740,8 +124836,6 @@ var card_db = TAFFY([
     ],
     "Ritual": null,
     "Attribute": 2,
-    "NameColor": 0,
-    "DescColor": 0
   },
   {
     "Name": "Destroyer Golem",
@@ -125895,8 +124989,6 @@ var card_db = TAFFY([
     ],
     "Ritual": null,
     "Attribute": 2,
-    "NameColor": 0,
-    "DescColor": 0
   },
   {
     "Name": "Barrel Rock",
@@ -126095,8 +125187,6 @@ var card_db = TAFFY([
     ],
     "Ritual": null,
     "Attribute": 2,
-    "NameColor": 0,
-    "DescColor": 0
   },
   {
     "Name": "Minomushi Warrior",
@@ -126260,8 +125350,6 @@ var card_db = TAFFY([
     ],
     "Ritual": null,
     "Attribute": 2,
-    "NameColor": 0,
-    "DescColor": 0
   },
   {
     "Name": "Stone Ghost",
@@ -126445,8 +125533,6 @@ var card_db = TAFFY([
     ],
     "Ritual": null,
     "Attribute": 2,
-    "NameColor": 0,
-    "DescColor": 0
   },
   {
     "Name": "Kaminari Attack",
@@ -126505,8 +125591,6 @@ var card_db = TAFFY([
     ],
     "Ritual": null,
     "Attribute": 5,
-    "NameColor": 0,
-    "DescColor": 0
   },
   {
     "Name": "Tripwire Beast",
@@ -126695,8 +125779,6 @@ var card_db = TAFFY([
     ],
     "Ritual": null,
     "Attribute": 2,
-    "NameColor": 0,
-    "DescColor": 0
   },
   {
     "Name": "Bolt Escargot",
@@ -126815,8 +125897,6 @@ var card_db = TAFFY([
     ],
     "Ritual": null,
     "Attribute": 3,
-    "NameColor": 0,
-    "DescColor": 0
   },
   {
     "Name": "Bolt Penguin",
@@ -127045,8 +126125,6 @@ var card_db = TAFFY([
     ],
     "Ritual": null,
     "Attribute": 3,
-    "NameColor": 0,
-    "DescColor": 0
   },
   {
     "Name": "The Immortal of Thunder",
@@ -127165,8 +126243,6 @@ var card_db = TAFFY([
     ],
     "Ritual": null,
     "Attribute": 0,
-    "NameColor": 0,
-    "DescColor": 0
   },
   {
     "Name": "Electric Snake",
@@ -127410,8 +126486,6 @@ var card_db = TAFFY([
     ],
     "Ritual": null,
     "Attribute": 0,
-    "NameColor": 0,
-    "DescColor": 0
   },
   {
     "Name": "Wing Eagle",
@@ -127475,8 +126549,6 @@ var card_db = TAFFY([
     ],
     "Ritual": null,
     "Attribute": 5,
-    "NameColor": 0,
-    "DescColor": 0
   },
   {
     "Name": "Punished Eagle",
@@ -127525,8 +126597,6 @@ var card_db = TAFFY([
     ],
     "Ritual": null,
     "Attribute": 5,
-    "NameColor": 0,
-    "DescColor": 0
   },
   {
     "Name": "Skull Red Bird",
@@ -127590,8 +126660,6 @@ var card_db = TAFFY([
     ],
     "Ritual": null,
     "Attribute": 5,
-    "NameColor": 0,
-    "DescColor": 0
   },
   {
     "Name": "Crimson Sunbird",
@@ -127609,8 +126677,6 @@ var card_db = TAFFY([
     "Fusions": [],
     "Ritual": null,
     "Attribute": 4,
-    "NameColor": 0,
-    "DescColor": 0
   },
   {
     "Name": "Queen Bird",
@@ -127679,8 +126745,6 @@ var card_db = TAFFY([
     ],
     "Ritual": null,
     "Attribute": 5,
-    "NameColor": 0,
-    "DescColor": 0
   },
   {
     "Name": "Armed Ninja",
@@ -127929,8 +126993,6 @@ var card_db = TAFFY([
     ],
     "Ritual": null,
     "Attribute": 2,
-    "NameColor": 0,
-    "DescColor": 0
   },
   {
     "Name": "Magical Ghost",
@@ -128064,8 +127126,6 @@ var card_db = TAFFY([
     ],
     "Ritual": null,
     "Attribute": 1,
-    "NameColor": 0,
-    "DescColor": 0
   },
   {
     "Name": "Soul Hunter",
@@ -128083,8 +127143,6 @@ var card_db = TAFFY([
     "Fusions": [],
     "Ritual": null,
     "Attribute": 1,
-    "NameColor": 0,
-    "DescColor": 0
   },
   {
     "Name": "Air Eater",
@@ -128102,8 +127160,6 @@ var card_db = TAFFY([
     "Fusions": [],
     "Ritual": null,
     "Attribute": 5,
-    "NameColor": 0,
-    "DescColor": 0
   },
   {
     "Name": "Vermillion Sparrow",
@@ -128222,8 +127278,6 @@ var card_db = TAFFY([
     ],
     "Ritual": null,
     "Attribute": 4,
-    "NameColor": 0,
-    "DescColor": 0
   },
   {
     "Name": "Sea Kamen",
@@ -128272,8 +127326,6 @@ var card_db = TAFFY([
     ],
     "Ritual": null,
     "Attribute": 3,
-    "NameColor": 0,
-    "DescColor": 0
   },
   {
     "Name": "Sinister Serpent",
@@ -128327,8 +127379,6 @@ var card_db = TAFFY([
     ],
     "Ritual": null,
     "Attribute": 3,
-    "NameColor": 0,
-    "DescColor": 0
   },
   {
     "Name": "Ganigumo",
@@ -128362,8 +127412,6 @@ var card_db = TAFFY([
     ],
     "Ritual": null,
     "Attribute": 2,
-    "NameColor": 0,
-    "DescColor": 0
   },
   {
     "Name": "Alinsection",
@@ -128387,8 +127435,6 @@ var card_db = TAFFY([
     ],
     "Ritual": null,
     "Attribute": 2,
-    "NameColor": 0,
-    "DescColor": 0
   },
   {
     "Name": "Insect Soldiers of the Sky",
@@ -128412,8 +127458,6 @@ var card_db = TAFFY([
     ],
     "Ritual": null,
     "Attribute": 5,
-    "NameColor": 0,
-    "DescColor": 0
   },
   {
     "Name": "Cockroach Knight",
@@ -128437,8 +127481,6 @@ var card_db = TAFFY([
     ],
     "Ritual": null,
     "Attribute": 2,
-    "NameColor": 0,
-    "DescColor": 0
   },
   {
     "Name": "Kuwagata a",
@@ -128517,8 +127559,6 @@ var card_db = TAFFY([
     ],
     "Ritual": null,
     "Attribute": 2,
-    "NameColor": 0,
-    "DescColor": 0
   },
   {
     "Name": "Burglar",
@@ -128807,8 +127847,6 @@ var card_db = TAFFY([
     ],
     "Ritual": null,
     "Attribute": 2,
-    "NameColor": 0,
-    "DescColor": 0
   },
   {
     "Name": "Pragtical",
@@ -128826,8 +127864,6 @@ var card_db = TAFFY([
     "Fusions": [],
     "Ritual": null,
     "Attribute": 2,
-    "NameColor": 0,
-    "DescColor": 0
   },
   {
     "Name": "Garvas",
@@ -128861,8 +127897,6 @@ var card_db = TAFFY([
     ],
     "Ritual": null,
     "Attribute": 2,
-    "NameColor": 0,
-    "DescColor": 0
   },
   {
     "Name": "Ameba",
@@ -128911,8 +127945,6 @@ var card_db = TAFFY([
     ],
     "Ritual": null,
     "Attribute": 3,
-    "NameColor": 0,
-    "DescColor": 0
   },
   {
     "Name": "Korogashi",
@@ -128941,8 +127973,6 @@ var card_db = TAFFY([
     ],
     "Ritual": null,
     "Attribute": 2,
-    "NameColor": 0,
-    "DescColor": 0
   },
   {
     "Name": "Boo Koo",
@@ -129011,8 +128041,6 @@ var card_db = TAFFY([
     ],
     "Ritual": null,
     "Attribute": 1,
-    "NameColor": 0,
-    "DescColor": 0
   },
   {
     "Name": "Flower Wolf",
@@ -129156,8 +128184,6 @@ var card_db = TAFFY([
     ],
     "Ritual": null,
     "Attribute": 2,
-    "NameColor": 0,
-    "DescColor": 0
   },
   {
     "Name": "Rainbow Flower",
@@ -129396,8 +128422,6 @@ var card_db = TAFFY([
     ],
     "Ritual": null,
     "Attribute": 2,
-    "NameColor": 0,
-    "DescColor": 0
   },
   {
     "Name": "Barrel Lily",
@@ -129591,8 +128615,6 @@ var card_db = TAFFY([
     ],
     "Ritual": null,
     "Attribute": 2,
-    "NameColor": 0,
-    "DescColor": 0
   },
   {
     "Name": "Needle Ball",
@@ -129626,8 +128648,6 @@ var card_db = TAFFY([
     ],
     "Ritual": null,
     "Attribute": 1,
-    "NameColor": 0,
-    "DescColor": 0
   },
   {
     "Name": "Peacock",
@@ -129686,8 +128706,6 @@ var card_db = TAFFY([
     ],
     "Ritual": null,
     "Attribute": 5,
-    "NameColor": 0,
-    "DescColor": 0
   },
   {
     "Name": "Hoshiningen",
@@ -129806,8 +128824,6 @@ var card_db = TAFFY([
     ],
     "Ritual": null,
     "Attribute": 0,
-    "NameColor": 0,
-    "DescColor": 0
   },
   {
     "Name": "Maha Vailo",
@@ -129841,8 +128857,6 @@ var card_db = TAFFY([
     ],
     "Ritual": null,
     "Attribute": 0,
-    "NameColor": 0,
-    "DescColor": 0
   },
   {
     "Name": "Rainbow Marine Mermaid",
@@ -130111,8 +129125,6 @@ var card_db = TAFFY([
     ],
     "Ritual": null,
     "Attribute": 3,
-    "NameColor": 0,
-    "DescColor": 0
   },
   {
     "Name": "Musician King",
@@ -130141,8 +129153,6 @@ var card_db = TAFFY([
     ],
     "Ritual": null,
     "Attribute": 0,
-    "NameColor": 0,
-    "DescColor": 0
   },
   {
     "Name": "Wilmee",
@@ -130236,8 +129246,6 @@ var card_db = TAFFY([
     ],
     "Ritual": null,
     "Attribute": 2,
-    "NameColor": 0,
-    "DescColor": 0
   },
   {
     "Name": "Yado Karu",
@@ -130286,8 +129294,6 @@ var card_db = TAFFY([
     ],
     "Ritual": null,
     "Attribute": 3,
-    "NameColor": 0,
-    "DescColor": 0
   },
   {
     "Name": "Morinphen",
@@ -130305,8 +129311,6 @@ var card_db = TAFFY([
     "Fusions": [],
     "Ritual": null,
     "Attribute": 1,
-    "NameColor": 0,
-    "DescColor": 0
   },
   {
     "Name": "Kattapillar",
@@ -130335,8 +129339,6 @@ var card_db = TAFFY([
     ],
     "Ritual": null,
     "Attribute": 2,
-    "NameColor": 0,
-    "DescColor": 0
   },
   {
     "Name": "Dragon Seeker",
@@ -130354,8 +129356,6 @@ var card_db = TAFFY([
     "Fusions": [],
     "Ritual": null,
     "Attribute": 1,
-    "NameColor": 0,
-    "DescColor": 0
   },
   {
     "Name": "Man-eater Bug",
@@ -130384,8 +129384,6 @@ var card_db = TAFFY([
     ],
     "Ritual": null,
     "Attribute": 2,
-    "NameColor": 0,
-    "DescColor": 0
   },
   {
     "Name": "D. Human",
@@ -130519,8 +129517,6 @@ var card_db = TAFFY([
     ],
     "Ritual": null,
     "Attribute": 2,
-    "NameColor": 0,
-    "DescColor": 0
   },
   {
     "Name": "Turtle Raccoon",
@@ -130689,8 +129685,6 @@ var card_db = TAFFY([
     ],
     "Ritual": null,
     "Attribute": 3,
-    "NameColor": 0,
-    "DescColor": 0
   },
   {
     "Name": "Fungi of the Musk",
@@ -130734,8 +129728,6 @@ var card_db = TAFFY([
     ],
     "Ritual": null,
     "Attribute": 1,
-    "NameColor": 0,
-    "DescColor": 0
   },
   {
     "Name": "Prisman",
@@ -130929,8 +129921,6 @@ var card_db = TAFFY([
     ],
     "Ritual": null,
     "Attribute": 0,
-    "NameColor": 0,
-    "DescColor": 0
   },
   {
     "Name": "Gale Dogra",
@@ -130959,8 +129949,6 @@ var card_db = TAFFY([
     ],
     "Ritual": null,
     "Attribute": 2,
-    "NameColor": 0,
-    "DescColor": 0
   },
   {
     "Name": "Crazy Fish",
@@ -131029,8 +130017,6 @@ var card_db = TAFFY([
     ],
     "Ritual": null,
     "Attribute": 3,
-    "NameColor": 0,
-    "DescColor": 0
   },
   {
     "Name": "Cyber Saurus",
@@ -131074,8 +130060,6 @@ var card_db = TAFFY([
     ],
     "Ritual": null,
     "Attribute": 2,
-    "NameColor": 0,
-    "DescColor": 0
   },
   {
     "Name": "Bracchio-raidus",
@@ -131093,8 +130077,6 @@ var card_db = TAFFY([
     "Fusions": [],
     "Ritual": null,
     "Attribute": 3,
-    "NameColor": 0,
-    "DescColor": 0
   },
   {
     "Name": "Laughing Flower",
@@ -131293,8 +130275,6 @@ var card_db = TAFFY([
     ],
     "Ritual": null,
     "Attribute": 2,
-    "NameColor": 0,
-    "DescColor": 0
   },
   {
     "Name": "Bean Soldier",
@@ -131463,8 +130443,6 @@ var card_db = TAFFY([
     ],
     "Ritual": null,
     "Attribute": 2,
-    "NameColor": 0,
-    "DescColor": 0
   },
   {
     "Name": "Cannon Soldier",
@@ -131608,8 +130586,6 @@ var card_db = TAFFY([
     ],
     "Ritual": null,
     "Attribute": 1,
-    "NameColor": 0,
-    "DescColor": 0
   },
   {
     "Name": "Guardian of the Throne Room",
@@ -131673,8 +130649,6 @@ var card_db = TAFFY([
     ],
     "Ritual": null,
     "Attribute": 0,
-    "NameColor": 0,
-    "DescColor": 0
   },
   {
     "Name": "Brave Scizzar",
@@ -131833,8 +130807,6 @@ var card_db = TAFFY([
     ],
     "Ritual": null,
     "Attribute": 1,
-    "NameColor": 0,
-    "DescColor": 0
   },
   {
     "Name": "The Statue of Easter Island",
@@ -132018,8 +130990,6 @@ var card_db = TAFFY([
     ],
     "Ritual": null,
     "Attribute": 2,
-    "NameColor": 0,
-    "DescColor": 0
   },
   {
     "Name": "Muka Muka",
@@ -132208,8 +131178,6 @@ var card_db = TAFFY([
     ],
     "Ritual": null,
     "Attribute": 2,
-    "NameColor": 0,
-    "DescColor": 0
   },
   {
     "Name": "Sand Stone",
@@ -132363,8 +131331,6 @@ var card_db = TAFFY([
     ],
     "Ritual": null,
     "Attribute": 2,
-    "NameColor": 0,
-    "DescColor": 0
   },
   {
     "Name": "Boulder Tortoise",
@@ -132438,8 +131404,6 @@ var card_db = TAFFY([
     ],
     "Ritual": null,
     "Attribute": 2,
-    "NameColor": 0,
-    "DescColor": 0
   },
   {
     "Name": "Fire Kraken",
@@ -132598,8 +131562,6 @@ var card_db = TAFFY([
     ],
     "Ritual": null,
     "Attribute": 4,
-    "NameColor": 0,
-    "DescColor": 0
   },
   {
     "Name": "Turtle Bird",
@@ -132643,8 +131605,6 @@ var card_db = TAFFY([
     ],
     "Ritual": null,
     "Attribute": 3,
-    "NameColor": 0,
-    "DescColor": 0
   },
   {
     "Name": "Skullbird",
@@ -132678,8 +131638,6 @@ var card_db = TAFFY([
     ],
     "Ritual": null,
     "Attribute": 5,
-    "NameColor": 0,
-    "DescColor": 0
   },
   {
     "Name": "Monstrous Bird",
@@ -132718,8 +131676,6 @@ var card_db = TAFFY([
     ],
     "Ritual": null,
     "Attribute": 5,
-    "NameColor": 0,
-    "DescColor": 0
   },
   {
     "Name": "The Bistro Butcher",
@@ -132737,8 +131693,6 @@ var card_db = TAFFY([
     "Fusions": [],
     "Ritual": null,
     "Attribute": 1,
-    "NameColor": 0,
-    "DescColor": 0
   },
   {
     "Name": "Star Boy",
@@ -132787,8 +131741,6 @@ var card_db = TAFFY([
     ],
     "Ritual": null,
     "Attribute": 3,
-    "NameColor": 0,
-    "DescColor": 0
   },
   {
     "Name": "Spirit of the Mountain",
@@ -132817,8 +131769,6 @@ var card_db = TAFFY([
     ],
     "Ritual": null,
     "Attribute": 2,
-    "NameColor": 0,
-    "DescColor": 0
   },
   {
     "Name": "Neck Hunter",
@@ -132836,8 +131786,6 @@ var card_db = TAFFY([
     "Fusions": [],
     "Ritual": null,
     "Attribute": 1,
-    "NameColor": 0,
-    "DescColor": 0
   },
   {
     "Name": "Milus Radiant",
@@ -133081,8 +132029,6 @@ var card_db = TAFFY([
     ],
     "Ritual": null,
     "Attribute": 2,
-    "NameColor": 0,
-    "DescColor": 0
   },
   {
     "Name": "Togex",
@@ -133296,8 +132242,6 @@ var card_db = TAFFY([
     ],
     "Ritual": null,
     "Attribute": 2,
-    "NameColor": 0,
-    "DescColor": 0
   },
   {
     "Name": "Flame Cerebrus",
@@ -133315,8 +132259,6 @@ var card_db = TAFFY([
     "Fusions": [],
     "Ritual": null,
     "Attribute": 4,
-    "NameColor": 0,
-    "DescColor": 0
   },
   {
     "Name": "Eldeen",
@@ -133515,8 +132457,6 @@ var card_db = TAFFY([
     ],
     "Ritual": null,
     "Attribute": 0,
-    "NameColor": 0,
-    "DescColor": 0
   },
   {
     "Name": "Mystical Sand",
@@ -133534,8 +132474,6 @@ var card_db = TAFFY([
     "Fusions": [],
     "Ritual": null,
     "Attribute": 2,
-    "NameColor": 0,
-    "DescColor": 0
   },
   {
     "Name": "Gemini Elf",
@@ -133619,8 +132557,6 @@ var card_db = TAFFY([
     ],
     "Ritual": null,
     "Attribute": 2,
-    "NameColor": 0,
-    "DescColor": 0
   },
   {
     "Name": "Kwagar Hercules",
@@ -133638,8 +132574,6 @@ var card_db = TAFFY([
     "Fusions": [],
     "Ritual": null,
     "Attribute": 2,
-    "NameColor": 0,
-    "DescColor": 0
   },
   {
     "Name": "Minar",
@@ -133668,8 +132602,6 @@ var card_db = TAFFY([
     ],
     "Ritual": null,
     "Attribute": 2,
-    "NameColor": 0,
-    "DescColor": 0
   },
   {
     "Name": "Kamakiriman",
@@ -133687,8 +132619,6 @@ var card_db = TAFFY([
     "Fusions": [],
     "Ritual": null,
     "Attribute": 2,
-    "NameColor": 0,
-    "DescColor": 0
   },
   {
     "Name": "Mechaleon",
@@ -133732,8 +132662,6 @@ var card_db = TAFFY([
     ],
     "Ritual": null,
     "Attribute": 3,
-    "NameColor": 0,
-    "DescColor": 0
   },
   {
     "Name": "Mega Thunderball",
@@ -133902,8 +132830,6 @@ var card_db = TAFFY([
     ],
     "Ritual": null,
     "Attribute": 5,
-    "NameColor": 0,
-    "DescColor": 0
   },
   {
     "Name": "Niwatori",
@@ -133942,8 +132868,6 @@ var card_db = TAFFY([
     ],
     "Ritual": null,
     "Attribute": 2,
-    "NameColor": 0,
-    "DescColor": 0
   },
   {
     "Name": "Corroding Shark",
@@ -134077,8 +133001,6 @@ var card_db = TAFFY([
     ],
     "Ritual": null,
     "Attribute": 1,
-    "NameColor": 0,
-    "DescColor": 0
   },
   {
     "Name": "Skelengel",
@@ -134207,8 +133129,6 @@ var card_db = TAFFY([
     ],
     "Ritual": null,
     "Attribute": 0,
-    "NameColor": 0,
-    "DescColor": 0
   },
   {
     "Name": "Hane-Hane",
@@ -134292,8 +133212,6 @@ var card_db = TAFFY([
     ],
     "Ritual": null,
     "Attribute": 2,
-    "NameColor": 0,
-    "DescColor": 0
   },
   {
     "Name": "Misairuzame",
@@ -134372,8 +133290,6 @@ var card_db = TAFFY([
     ],
     "Ritual": null,
     "Attribute": 3,
-    "NameColor": 0,
-    "DescColor": 0
   },
   {
     "Name": "Tongyo",
@@ -134457,8 +133373,6 @@ var card_db = TAFFY([
     ],
     "Ritual": null,
     "Attribute": 3,
-    "NameColor": 0,
-    "DescColor": 0
   },
   {
     "Name": "Dharma Cannon",
@@ -134592,8 +133506,6 @@ var card_db = TAFFY([
     ],
     "Ritual": null,
     "Attribute": 1,
-    "NameColor": 0,
-    "DescColor": 0
   },
   {
     "Name": "Skelgon",
@@ -134862,8 +133774,6 @@ var card_db = TAFFY([
     ],
     "Ritual": null,
     "Attribute": 1,
-    "NameColor": 0,
-    "DescColor": 0
   },
   {
     "Name": "Wow Warrior",
@@ -134967,8 +133877,6 @@ var card_db = TAFFY([
     ],
     "Ritual": null,
     "Attribute": 3,
-    "NameColor": 0,
-    "DescColor": 0
   },
   {
     "Name": "Griggle",
@@ -135142,8 +134050,6 @@ var card_db = TAFFY([
     ],
     "Ritual": null,
     "Attribute": 2,
-    "NameColor": 0,
-    "DescColor": 0
   },
   {
     "Name": "Bone Mouse",
@@ -135272,8 +134178,6 @@ var card_db = TAFFY([
     ],
     "Ritual": null,
     "Attribute": 1,
-    "NameColor": 0,
-    "DescColor": 0
   },
   {
     "Name": "Frog The Jam",
@@ -135312,8 +134216,6 @@ var card_db = TAFFY([
     ],
     "Ritual": null,
     "Attribute": 3,
-    "NameColor": 0,
-    "DescColor": 0
   },
   {
     "Name": "Behegon",
@@ -135352,8 +134254,6 @@ var card_db = TAFFY([
     ],
     "Ritual": null,
     "Attribute": 3,
-    "NameColor": 0,
-    "DescColor": 0
   },
   {
     "Name": "Dark Elf",
@@ -135392,8 +134292,6 @@ var card_db = TAFFY([
     ],
     "Ritual": null,
     "Attribute": 1,
-    "NameColor": 0,
-    "DescColor": 0
   },
   {
     "Name": "Winged Dragon #2",
@@ -135432,8 +134330,6 @@ var card_db = TAFFY([
     ],
     "Ritual": null,
     "Attribute": 5,
-    "NameColor": 0,
-    "DescColor": 0
   },
   {
     "Name": "Mushroom Man #2",
@@ -135557,8 +134453,6 @@ var card_db = TAFFY([
     ],
     "Ritual": null,
     "Attribute": 2,
-    "NameColor": 0,
-    "DescColor": 0
   },
   {
     "Name": "Lava Battleguard",
@@ -135597,8 +134491,6 @@ var card_db = TAFFY([
     ],
     "Ritual": null,
     "Attribute": 2,
-    "NameColor": 0,
-    "DescColor": 0
   },
   {
     "Name": "Tyhone #2",
@@ -135867,8 +134759,6 @@ var card_db = TAFFY([
     ],
     "Ritual": null,
     "Attribute": 4,
-    "NameColor": 0,
-    "DescColor": 0
   },
   {
     "Name": "The Wandering Doomed",
@@ -135987,8 +134877,6 @@ var card_db = TAFFY([
     ],
     "Ritual": null,
     "Attribute": 1,
-    "NameColor": 0,
-    "DescColor": 0
   },
   {
     "Name": "Steel Ogre Grotto #1",
@@ -136092,8 +134980,6 @@ var card_db = TAFFY([
     ],
     "Ritual": null,
     "Attribute": 2,
-    "NameColor": 0,
-    "DescColor": 0
   },
   {
     "Name": "Pot the Trick",
@@ -136242,8 +135128,6 @@ var card_db = TAFFY([
     ],
     "Ritual": null,
     "Attribute": 2,
-    "NameColor": 0,
-    "DescColor": 0
   },
   {
     "Name": "Oscillo Hero",
@@ -136347,8 +135231,6 @@ var card_db = TAFFY([
     ],
     "Ritual": null,
     "Attribute": 2,
-    "NameColor": 0,
-    "DescColor": 0
   },
   {
     "Name": "Invader from Another Dimension",
@@ -136366,8 +135248,6 @@ var card_db = TAFFY([
     "Fusions": [],
     "Ritual": null,
     "Attribute": 1,
-    "NameColor": 0,
-    "DescColor": 0
   },
   {
     "Name": "Lesser Dragon",
@@ -136606,8 +135486,6 @@ var card_db = TAFFY([
     ],
     "Ritual": null,
     "Attribute": 5,
-    "NameColor": 0,
-    "DescColor": 0
   },
   {
     "Name": "Needle Worm",
@@ -136636,8 +135514,6 @@ var card_db = TAFFY([
     ],
     "Ritual": null,
     "Attribute": 2,
-    "NameColor": 0,
-    "DescColor": 0
   },
   {
     "Name": "Wretched Ghost of the Attic",
@@ -136661,8 +135537,6 @@ var card_db = TAFFY([
     ],
     "Ritual": null,
     "Attribute": 1,
-    "NameColor": 0,
-    "DescColor": 0
   },
   {
     "Name": "Great Mammoth of Goldfine",
@@ -136680,8 +135554,6 @@ var card_db = TAFFY([
     "Fusions": [],
     "Ritual": null,
     "Attribute": 1,
-    "NameColor": 0,
-    "DescColor": 0
   },
   {
     "Name": "Man-eating Black Shark",
@@ -136699,8 +135571,6 @@ var card_db = TAFFY([
     "Fusions": [],
     "Ritual": null,
     "Attribute": 3,
-    "NameColor": 0,
-    "DescColor": 0
   },
   {
     "Name": "Yormungarde",
@@ -136718,8 +135588,6 @@ var card_db = TAFFY([
     "Fusions": [],
     "Ritual": null,
     "Attribute": 2,
-    "NameColor": 0,
-    "DescColor": 0
   },
   {
     "Name": "Darkworld Thorns",
@@ -136848,8 +135716,6 @@ var card_db = TAFFY([
     ],
     "Ritual": null,
     "Attribute": 2,
-    "NameColor": 0,
-    "DescColor": 0
   },
   {
     "Name": "Anthrosaurus",
@@ -136888,8 +135754,6 @@ var card_db = TAFFY([
     ],
     "Ritual": null,
     "Attribute": 2,
-    "NameColor": 0,
-    "DescColor": 0
   },
   {
     "Name": "Drooling Lizard",
@@ -136923,8 +135787,6 @@ var card_db = TAFFY([
     ],
     "Ritual": null,
     "Attribute": 2,
-    "NameColor": 0,
-    "DescColor": 0
   },
   {
     "Name": "Trakadon",
@@ -136963,8 +135825,6 @@ var card_db = TAFFY([
     ],
     "Ritual": null,
     "Attribute": 2,
-    "NameColor": 0,
-    "DescColor": 0
   },
   {
     "Name": "B. Dragon Jungle King",
@@ -136988,8 +135848,6 @@ var card_db = TAFFY([
     ],
     "Ritual": null,
     "Attribute": 2,
-    "NameColor": 0,
-    "DescColor": 0
   },
   {
     "Name": "Empress Judge",
@@ -137007,8 +135865,6 @@ var card_db = TAFFY([
     "Fusions": [],
     "Ritual": null,
     "Attribute": 2,
-    "NameColor": 0,
-    "DescColor": 0
   },
   {
     "Name": "Little D",
@@ -137047,8 +135903,6 @@ var card_db = TAFFY([
     ],
     "Ritual": null,
     "Attribute": 2,
-    "NameColor": 0,
-    "DescColor": 0
   },
   {
     "Name": "Witch of the Black Forest",
@@ -137187,8 +136041,6 @@ var card_db = TAFFY([
     ],
     "Ritual": null,
     "Attribute": 1,
-    "NameColor": 0,
-    "DescColor": 0
   },
   {
     "Name": "Ancient One of the Deep Forest",
@@ -137302,8 +136154,6 @@ var card_db = TAFFY([
     ],
     "Ritual": null,
     "Attribute": 2,
-    "NameColor": 0,
-    "DescColor": 0
   },
   {
     "Name": "Giant Scorpion of the Tundra",
@@ -137321,8 +136171,6 @@ var card_db = TAFFY([
     "Fusions": [],
     "Ritual": null,
     "Attribute": 2,
-    "NameColor": 0,
-    "DescColor": 0
   },
   {
     "Name": "Crow Goblin",
@@ -137356,8 +136204,6 @@ var card_db = TAFFY([
     ],
     "Ritual": null,
     "Attribute": 5,
-    "NameColor": 0,
-    "DescColor": 0
   },
   {
     "Name": "Leo Wizard",
@@ -137391,8 +136237,6 @@ var card_db = TAFFY([
     ],
     "Ritual": null,
     "Attribute": 2,
-    "NameColor": 0,
-    "DescColor": 0
   },
   {
     "Name": "Abyss Flower",
@@ -137521,8 +136365,6 @@ var card_db = TAFFY([
     ],
     "Ritual": null,
     "Attribute": 2,
-    "NameColor": 0,
-    "DescColor": 0
   },
   {
     "Name": "Patrol Robo",
@@ -137606,8 +136448,6 @@ var card_db = TAFFY([
     ],
     "Ritual": null,
     "Attribute": 2,
-    "NameColor": 0,
-    "DescColor": 0
   },
   {
     "Name": "Takuhee",
@@ -137646,8 +136486,6 @@ var card_db = TAFFY([
     ],
     "Ritual": null,
     "Attribute": 5,
-    "NameColor": 0,
-    "DescColor": 0
   },
   {
     "Name": "Dark Witch",
@@ -137716,8 +136554,6 @@ var card_db = TAFFY([
     ],
     "Ritual": null,
     "Attribute": 0,
-    "NameColor": 0,
-    "DescColor": 0
   },
   {
     "Name": "Weather Report",
@@ -137746,8 +136582,6 @@ var card_db = TAFFY([
     ],
     "Ritual": null,
     "Attribute": 3,
-    "NameColor": 0,
-    "DescColor": 0
   },
   {
     "Name": "Binding Chain",
@@ -137826,8 +136660,6 @@ var card_db = TAFFY([
     ],
     "Ritual": null,
     "Attribute": 0,
-    "NameColor": 0,
-    "DescColor": 0
   },
   {
     "Name": "Mechanical Snail",
@@ -137911,8 +136743,6 @@ var card_db = TAFFY([
     ],
     "Ritual": null,
     "Attribute": 1,
-    "NameColor": 0,
-    "DescColor": 0
   },
   {
     "Name": "Greenkappa",
@@ -137996,8 +136826,6 @@ var card_db = TAFFY([
     ],
     "Ritual": null,
     "Attribute": 1,
-    "NameColor": 0,
-    "DescColor": 0
   },
   {
     "Name": "Mon Larvas",
@@ -138051,8 +136879,6 @@ var card_db = TAFFY([
     ],
     "Ritual": null,
     "Attribute": 2,
-    "NameColor": 0,
-    "DescColor": 0
   },
   {
     "Name": "Living Vase",
@@ -138176,8 +137002,6 @@ var card_db = TAFFY([
     ],
     "Ritual": null,
     "Attribute": 2,
-    "NameColor": 0,
-    "DescColor": 0
   },
   {
     "Name": "Tentacle Plant",
@@ -138306,8 +137130,6 @@ var card_db = TAFFY([
     ],
     "Ritual": null,
     "Attribute": 3,
-    "NameColor": 0,
-    "DescColor": 0
   },
   {
     "Name": "Beaked Snake",
@@ -138325,8 +137147,6 @@ var card_db = TAFFY([
     "Fusions": [],
     "Ritual": null,
     "Attribute": 2,
-    "NameColor": 0,
-    "DescColor": 0
   },
   {
     "Name": "Morphing Jar",
@@ -138445,8 +137265,6 @@ var card_db = TAFFY([
     ],
     "Ritual": null,
     "Attribute": 2,
-    "NameColor": 0,
-    "DescColor": 0
   },
   {
     "Name": "Muse-A",
@@ -138590,8 +137408,6 @@ var card_db = TAFFY([
     ],
     "Ritual": null,
     "Attribute": 0,
-    "NameColor": 0,
-    "DescColor": 0
   },
   {
     "Name": "Giant Turtle Who Feeds on Flames",
@@ -138635,8 +137451,6 @@ var card_db = TAFFY([
     ],
     "Ritual": null,
     "Attribute": 3,
-    "NameColor": 0,
-    "DescColor": 0
   },
   {
     "Name": "Rose Spectre of Dunn",
@@ -138675,8 +137489,6 @@ var card_db = TAFFY([
     ],
     "Ritual": null,
     "Attribute": 1,
-    "NameColor": 0,
-    "DescColor": 0
   },
   {
     "Name": "Fiend Refrection #1",
@@ -138705,8 +137517,6 @@ var card_db = TAFFY([
     ],
     "Ritual": null,
     "Attribute": 5,
-    "NameColor": 0,
-    "DescColor": 0
   },
   {
     "Name": "Ghoul with an Appetite",
@@ -138745,8 +137555,6 @@ var card_db = TAFFY([
     ],
     "Ritual": null,
     "Attribute": 1,
-    "NameColor": 0,
-    "DescColor": 0
   },
   {
     "Name": "Pale Beast",
@@ -138870,8 +137678,6 @@ var card_db = TAFFY([
     ],
     "Ritual": null,
     "Attribute": 2,
-    "NameColor": 0,
-    "DescColor": 0
   },
   {
     "Name": "Little Chimera",
@@ -139000,8 +137806,6 @@ var card_db = TAFFY([
     ],
     "Ritual": null,
     "Attribute": 4,
-    "NameColor": 0,
-    "DescColor": 0
   },
   {
     "Name": "Violent Rain",
@@ -139025,8 +137829,6 @@ var card_db = TAFFY([
     ],
     "Ritual": null,
     "Attribute": 3,
-    "NameColor": 0,
-    "DescColor": 0
   },
   {
     "Name": "Key Mace #2",
@@ -139105,8 +137907,6 @@ var card_db = TAFFY([
     ],
     "Ritual": null,
     "Attribute": 1,
-    "NameColor": 0,
-    "DescColor": 0
   },
   {
     "Name": "Tenderness",
@@ -139195,8 +137995,6 @@ var card_db = TAFFY([
     ],
     "Ritual": null,
     "Attribute": 0,
-    "NameColor": 0,
-    "DescColor": 0
   },
   {
     "Name": "Penguin Soldier",
@@ -139225,8 +138023,6 @@ var card_db = TAFFY([
     ],
     "Ritual": null,
     "Attribute": 3,
-    "NameColor": 0,
-    "DescColor": 0
   },
   {
     "Name": "Fairy Dragon",
@@ -139365,8 +138161,6 @@ var card_db = TAFFY([
     ],
     "Ritual": null,
     "Attribute": 5,
-    "NameColor": 0,
-    "DescColor": 0
   },
   {
     "Name": "Obese Marmot of Nefariousness",
@@ -139485,8 +138279,6 @@ var card_db = TAFFY([
     ],
     "Ritual": null,
     "Attribute": 2,
-    "NameColor": 0,
-    "DescColor": 0
   },
   {
     "Name": "Liquid Beast",
@@ -139510,8 +138302,6 @@ var card_db = TAFFY([
     ],
     "Ritual": null,
     "Attribute": 3,
-    "NameColor": 0,
-    "DescColor": 0
   },
   {
     "Name": "Twin Long Rods #2",
@@ -139535,8 +138325,6 @@ var card_db = TAFFY([
     ],
     "Ritual": null,
     "Attribute": 3,
-    "NameColor": 0,
-    "DescColor": 0
   },
   {
     "Name": "Great Bill",
@@ -139585,8 +138373,6 @@ var card_db = TAFFY([
     ],
     "Ritual": null,
     "Attribute": 2,
-    "NameColor": 0,
-    "DescColor": 0
   },
   {
     "Name": "Shining Friendship",
@@ -139665,8 +138451,6 @@ var card_db = TAFFY([
     ],
     "Ritual": null,
     "Attribute": 0,
-    "NameColor": 0,
-    "DescColor": 0
   },
   {
     "Name": "Bladefly",
@@ -139690,8 +138474,6 @@ var card_db = TAFFY([
     ],
     "Ritual": null,
     "Attribute": 5,
-    "NameColor": 0,
-    "DescColor": 0
   },
   {
     "Name": "Electric Lizard",
@@ -139775,8 +138557,6 @@ var card_db = TAFFY([
     ],
     "Ritual": null,
     "Attribute": 2,
-    "NameColor": 0,
-    "DescColor": 0
   },
   {
     "Name": "Hiro's Shadow Scout",
@@ -139794,8 +138574,6 @@ var card_db = TAFFY([
     "Fusions": [],
     "Ritual": null,
     "Attribute": 1,
-    "NameColor": 0,
-    "DescColor": 0
   },
   {
     "Name": "Lady of Faith",
@@ -139859,8 +138637,6 @@ var card_db = TAFFY([
     ],
     "Ritual": null,
     "Attribute": 0,
-    "NameColor": 0,
-    "DescColor": 0
   },
   {
     "Name": "Twin-headed Thunder Dragon",
@@ -139878,8 +138654,6 @@ var card_db = TAFFY([
     "Fusions": [],
     "Ritual": null,
     "Attribute": 0,
-    "NameColor": 0,
-    "DescColor": 0
   },
   {
     "Name": "Hunter Spider",
@@ -139897,8 +138671,6 @@ var card_db = TAFFY([
     "Fusions": [],
     "Ritual": null,
     "Attribute": 2,
-    "NameColor": 0,
-    "DescColor": 0
   },
   {
     "Name": "Armored Starfish",
@@ -139916,8 +138688,6 @@ var card_db = TAFFY([
     "Fusions": [],
     "Ritual": null,
     "Attribute": 3,
-    "NameColor": 0,
-    "DescColor": 0
   },
   {
     "Name": "Hourglass of Courage",
@@ -139991,8 +138761,6 @@ var card_db = TAFFY([
     ],
     "Ritual": null,
     "Attribute": 0,
-    "NameColor": 0,
-    "DescColor": 0
   },
   {
     "Name": "Marine Beast",
@@ -140010,8 +138778,6 @@ var card_db = TAFFY([
     "Fusions": [],
     "Ritual": null,
     "Attribute": 3,
-    "NameColor": 0,
-    "DescColor": 0
   },
   {
     "Name": "Warrior of Tradition",
@@ -140040,8 +138806,6 @@ var card_db = TAFFY([
     ],
     "Ritual": null,
     "Attribute": 2,
-    "NameColor": 0,
-    "DescColor": 0
   },
   {
     "Name": "Rock Spirit",
@@ -140059,8 +138823,6 @@ var card_db = TAFFY([
     "Fusions": [],
     "Ritual": null,
     "Attribute": 2,
-    "NameColor": 0,
-    "DescColor": 0
   },
   {
     "Name": "Snakeyashi",
@@ -140139,8 +138901,6 @@ var card_db = TAFFY([
     ],
     "Ritual": null,
     "Attribute": 2,
-    "NameColor": 0,
-    "DescColor": 0
   },
   {
     "Name": "Succubus Knight",
@@ -140194,8 +138954,6 @@ var card_db = TAFFY([
     ],
     "Ritual": null,
     "Attribute": 1,
-    "NameColor": 0,
-    "DescColor": 0
   },
   {
     "Name": "Ill Witch",
@@ -140249,8 +139007,6 @@ var card_db = TAFFY([
     ],
     "Ritual": null,
     "Attribute": 0,
-    "NameColor": 0,
-    "DescColor": 0
   },
   {
     "Name": "The Thing That Hides in the Mud",
@@ -140319,8 +139075,6 @@ var card_db = TAFFY([
     ],
     "Ritual": null,
     "Attribute": 2,
-    "NameColor": 0,
-    "DescColor": 0
   },
   {
     "Name": "High Tide Gyojin",
@@ -140338,8 +139092,6 @@ var card_db = TAFFY([
     "Fusions": [],
     "Ritual": null,
     "Attribute": 3,
-    "NameColor": 0,
-    "DescColor": 0
   },
   {
     "Name": "Fairy of the Fountain",
@@ -140383,8 +139135,6 @@ var card_db = TAFFY([
     ],
     "Ritual": null,
     "Attribute": 3,
-    "NameColor": 0,
-    "DescColor": 0
   },
   {
     "Name": "Amazon of the Seas",
@@ -140433,8 +139183,6 @@ var card_db = TAFFY([
     ],
     "Ritual": null,
     "Attribute": 3,
-    "NameColor": 0,
-    "DescColor": 0
   },
   {
     "Name": "Nekogal #2",
@@ -140458,8 +139206,6 @@ var card_db = TAFFY([
     ],
     "Ritual": null,
     "Attribute": 2,
-    "NameColor": 0,
-    "DescColor": 0
   },
   {
     "Name": "Witch's Apprentice",
@@ -140503,8 +139249,6 @@ var card_db = TAFFY([
     ],
     "Ritual": null,
     "Attribute": 1,
-    "NameColor": 0,
-    "DescColor": 0
   },
   {
     "Name": "Armored Rat",
@@ -140573,8 +139317,6 @@ var card_db = TAFFY([
     ],
     "Ritual": null,
     "Attribute": 2,
-    "NameColor": 0,
-    "DescColor": 0
   },
   {
     "Name": "Ancient Lizard Warrior",
@@ -140592,8 +139334,6 @@ var card_db = TAFFY([
     "Fusions": [],
     "Ritual": null,
     "Attribute": 2,
-    "NameColor": 0,
-    "DescColor": 0
   },
   {
     "Name": "Maiden of the Moonlight",
@@ -140632,8 +139372,6 @@ var card_db = TAFFY([
     ],
     "Ritual": null,
     "Attribute": 0,
-    "NameColor": 0,
-    "DescColor": 0
   },
   {
     "Name": "Stone Ogre Grotto",
@@ -140677,8 +139415,6 @@ var card_db = TAFFY([
     ],
     "Ritual": null,
     "Attribute": 2,
-    "NameColor": 0,
-    "DescColor": 0
   },
   {
     "Name": "Winged Egg of New Life",
@@ -140717,8 +139453,6 @@ var card_db = TAFFY([
     ],
     "Ritual": null,
     "Attribute": 0,
-    "NameColor": 0,
-    "DescColor": 0
   },
   {
     "Name": "Night Lizard",
@@ -140736,8 +139470,6 @@ var card_db = TAFFY([
     "Fusions": [],
     "Ritual": null,
     "Attribute": 3,
-    "NameColor": 0,
-    "DescColor": 0
   },
   {
     "Name": "Queen's Double",
@@ -140776,8 +139508,6 @@ var card_db = TAFFY([
     ],
     "Ritual": null,
     "Attribute": 2,
-    "NameColor": 0,
-    "DescColor": 0
   },
   {
     "Name": "Blue-winged Crown",
@@ -140811,8 +139541,6 @@ var card_db = TAFFY([
     ],
     "Ritual": null,
     "Attribute": 5,
-    "NameColor": 0,
-    "DescColor": 0
   },
   {
     "Name": "Trent",
@@ -140851,8 +139579,6 @@ var card_db = TAFFY([
     ],
     "Ritual": null,
     "Attribute": 2,
-    "NameColor": 0,
-    "DescColor": 0
   },
   {
     "Name": "Queen of Autumn Leaves",
@@ -140881,8 +139607,6 @@ var card_db = TAFFY([
     ],
     "Ritual": null,
     "Attribute": 2,
-    "NameColor": 0,
-    "DescColor": 0
   },
   {
     "Name": "Amphibious Bugroth",
@@ -140900,8 +139624,6 @@ var card_db = TAFFY([
     "Fusions": [],
     "Ritual": null,
     "Attribute": 3,
-    "NameColor": 0,
-    "DescColor": 0
   },
   {
     "Name": "Acid Crawler",
@@ -140919,8 +139641,6 @@ var card_db = TAFFY([
     "Fusions": [],
     "Ritual": null,
     "Attribute": 2,
-    "NameColor": 0,
-    "DescColor": 0
   },
   {
     "Name": "Invader of the Throne",
@@ -140954,8 +139674,6 @@ var card_db = TAFFY([
     ],
     "Ritual": null,
     "Attribute": 2,
-    "NameColor": 0,
-    "DescColor": 0
   },
   {
     "Name": "Mystical Sheep #1",
@@ -140994,8 +139712,6 @@ var card_db = TAFFY([
     ],
     "Ritual": null,
     "Attribute": 2,
-    "NameColor": 0,
-    "DescColor": 0
   },
   {
     "Name": "Disk Magician",
@@ -141024,8 +139740,6 @@ var card_db = TAFFY([
     ],
     "Ritual": null,
     "Attribute": 1,
-    "NameColor": 0,
-    "DescColor": 0
   },
   {
     "Name": "Flame Viper",
@@ -141049,8 +139763,6 @@ var card_db = TAFFY([
     ],
     "Ritual": null,
     "Attribute": 2,
-    "NameColor": 0,
-    "DescColor": 0
   },
   {
     "Name": "Royal Guard",
@@ -141068,8 +139780,6 @@ var card_db = TAFFY([
     "Fusions": [],
     "Ritual": null,
     "Attribute": 2,
-    "NameColor": 0,
-    "DescColor": 0
   },
   {
     "Name": "Gruesome Goo",
@@ -141087,8 +139797,6 @@ var card_db = TAFFY([
     "Fusions": [],
     "Ritual": null,
     "Attribute": 3,
-    "NameColor": 0,
-    "DescColor": 0
   },
   {
     "Name": "Hyosube",
@@ -141106,8 +139814,6 @@ var card_db = TAFFY([
     "Fusions": [],
     "Ritual": null,
     "Attribute": 3,
-    "NameColor": 0,
-    "DescColor": 0
   },
   {
     "Name": "Machine Attacker",
@@ -141131,8 +139837,6 @@ var card_db = TAFFY([
     ],
     "Ritual": null,
     "Attribute": 2,
-    "NameColor": 0,
-    "DescColor": 0
   },
   {
     "Name": "Hibikime",
@@ -141150,8 +139854,6 @@ var card_db = TAFFY([
     "Fusions": [],
     "Ritual": null,
     "Attribute": 2,
-    "NameColor": 0,
-    "DescColor": 0
   },
   {
     "Name": "Whiptail Crow",
@@ -141169,8 +139871,6 @@ var card_db = TAFFY([
     "Fusions": [],
     "Ritual": null,
     "Attribute": 1,
-    "NameColor": 0,
-    "DescColor": 0
   },
   {
     "Name": "Kunai with Chain",
@@ -141297,8 +139997,6 @@ var card_db = TAFFY([
     ],
     "Ritual": null,
     "Attribute": 6,
-    "NameColor": 0,
-    "DescColor": 0
   },
   {
     "Name": "Magical Labyrinth",
@@ -141329,8 +140027,6 @@ var card_db = TAFFY([
     ],
     "Ritual": null,
     "Attribute": 6,
-    "NameColor": 0,
-    "DescColor": 0
   },
   {
     "Name": "Warrior Elimination",
@@ -141348,8 +140044,6 @@ var card_db = TAFFY([
     "Fusions": [],
     "Ritual": null,
     "Attribute": 6,
-    "NameColor": 0,
-    "DescColor": 0
   },
   {
     "Name": "Salamandra",
@@ -141399,8 +140093,6 @@ var card_db = TAFFY([
     "Fusions": [],
     "Ritual": null,
     "Attribute": 6,
-    "NameColor": 0,
-    "DescColor": 0
   },
   {
     "Name": "Cursebreaker",
@@ -141424,8 +140116,6 @@ var card_db = TAFFY([
     ],
     "Ritual": null,
     "Attribute": 6,
-    "NameColor": 0,
-    "DescColor": 0
   },
   {
     "Name": "Eternal Rest",
@@ -141443,8 +140133,6 @@ var card_db = TAFFY([
     "Fusions": [],
     "Ritual": null,
     "Attribute": 6,
-    "NameColor": 0,
-    "DescColor": 0
   },
   {
     "Name": "Megamorph",
@@ -142090,8 +140778,6 @@ var card_db = TAFFY([
     ],
     "Ritual": null,
     "Attribute": 6,
-    "NameColor": 0,
-    "DescColor": 0
   },
   {
     "Name": "Metalmorph",
@@ -142127,8 +140813,6 @@ var card_db = TAFFY([
     ],
     "Ritual": null,
     "Attribute": 6,
-    "NameColor": 0,
-    "DescColor": 0
   },
   {
     "Name": "Winged Trumpeter",
@@ -142179,8 +140863,6 @@ var card_db = TAFFY([
     ],
     "Ritual": null,
     "Attribute": 6,
-    "NameColor": 0,
-    "DescColor": 0
   },
   {
     "Name": "Stain Storm",
@@ -142198,8 +140880,6 @@ var card_db = TAFFY([
     "Fusions": [],
     "Ritual": null,
     "Attribute": 6,
-    "NameColor": 0,
-    "DescColor": 0
   },
   {
     "Name": "Crush Card",
@@ -142217,8 +140897,6 @@ var card_db = TAFFY([
     "Fusions": [],
     "Ritual": null,
     "Attribute": 6,
-    "NameColor": 0,
-    "DescColor": 0
   },
   {
     "Name": "Eradicating Aerosol",
@@ -142236,8 +140914,6 @@ var card_db = TAFFY([
     "Fusions": [],
     "Ritual": null,
     "Attribute": 6,
-    "NameColor": 0,
-    "DescColor": 0
   },
   {
     "Name": "Breath of Light",
@@ -142255,8 +140931,6 @@ var card_db = TAFFY([
     "Fusions": [],
     "Ritual": null,
     "Attribute": 6,
-    "NameColor": 0,
-    "DescColor": 0
   },
   {
     "Name": "Eternal Draught",
@@ -142274,8 +140948,6 @@ var card_db = TAFFY([
     "Fusions": [],
     "Ritual": null,
     "Attribute": 6,
-    "NameColor": 0,
-    "DescColor": 0
   },
   {
     "Name": "Curse of Millennium Shield",
@@ -142297,16 +140969,16 @@ var card_db = TAFFY([
         "_result": 678
       }
     ],
-    "Ritual": {
-      "RitualCard": 665,
-      "Card1": 255,
-      "Card2": 296,
-      "Card3": 629,
-      "Result": 362
-    },
+    "Ritual": [
+      {
+        "RitualCard": 665,
+        "Card1": 255,
+        "Card2": 296,
+        "Card3": 629,
+        "Result": 362
+      }
+    ],
     "Attribute": 6,
-    "NameColor": 0,
-    "DescColor": 0
   },
   {
     "Name": "Yamadron Ritual",
@@ -142322,16 +140994,16 @@ var card_db = TAFFY([
     "CardCode": "29089635",
     "Equip": null,
     "Fusions": [],
-    "Ritual": {
-      "RitualCard": 666,
-      "Card1": 29,
-      "Card2": 31,
-      "Card3": 101,
-      "Result": 357
-    },
+    "Ritual": [
+      {
+        "RitualCard": 666,
+        "Card1": 29,
+        "Card2": 31,
+        "Card3": 101,
+        "Result": 357
+      }
+    ],
     "Attribute": 6,
-    "NameColor": 0,
-    "DescColor": 0
   },
   {
     "Name": "Gate Guardian Ritual",
@@ -142347,16 +141019,16 @@ var card_db = TAFFY([
     "CardCode": "56483330",
     "Equip": null,
     "Fusions": [],
-    "Ritual": {
-      "RitualCard": 667,
-      "Card1": 371,
-      "Card2": 372,
-      "Card3": 373,
-      "Result": 374
-    },
+    "Ritual": [
+      { 
+        "RitualCard": 667,
+        "Card1": 371,
+        "Card2": 372,
+        "Card3": 373,
+        "Result": 374
+      }
+    ],
     "Attribute": 6,
-    "NameColor": 0,
-    "DescColor": 0
   },
   {
     "Name": "Bright Castle",
@@ -142996,8 +141668,6 @@ var card_db = TAFFY([
     "Fusions": [],
     "Ritual": null,
     "Attribute": 6,
-    "NameColor": 0,
-    "DescColor": 0
   },
   {
     "Name": "Shadow Spell",
@@ -143015,8 +141685,6 @@ var card_db = TAFFY([
     "Fusions": [],
     "Ritual": null,
     "Attribute": 6,
-    "NameColor": 0,
-    "DescColor": 0
   },
   {
     "Name": "Black Luster Ritual",
@@ -143032,16 +141700,16 @@ var card_db = TAFFY([
     "CardCode": "55761792",
     "Equip": null,
     "Fusions": [],
-    "Ritual": {
-      "RitualCard": 670,
-      "Card1": 27,
-      "Card2": 38,
-      "Card3": 58,
-      "Result": 364
-    },
+    "Ritual": [
+      {
+        "RitualCard": 670,
+        "Card1": 27,
+        "Card2": 38,
+        "Card3": 58,
+        "Result": 364
+      }
+    ],
     "Attribute": 6,
-    "NameColor": 0,
-    "DescColor": 0
   },
   {
     "Name": "Zera Ritual",
@@ -143057,16 +141725,16 @@ var card_db = TAFFY([
     "CardCode": "81756897",
     "Equip": null,
     "Fusions": [],
-    "Ritual": {
-      "RitualCard": 671,
-      "Card1": 85,
-      "Card2": 298,
-      "Card3": 377,
-      "Result": 360
-    },
+    "Ritual": [
+      {
+        "RitualCard": 671,
+        "Card1": 85,
+        "Card2": 298,
+        "Card3": 377,
+        "Result": 360
+      }
+    ],
     "Attribute": 6,
-    "NameColor": 0,
-    "DescColor": 0
   },
   {
     "Name": "Harpie's Feather Duster",
@@ -143084,8 +141752,6 @@ var card_db = TAFFY([
     "Fusions": [],
     "Ritual": null,
     "Attribute": 6,
-    "NameColor": 0,
-    "DescColor": 0
   },
   {
     "Name": "War-lion Ritual",
@@ -143101,16 +141767,16 @@ var card_db = TAFFY([
     "CardCode": "54539105",
     "Equip": null,
     "Fusions": [],
-    "Ritual": {
-      "RitualCard": 673,
-      "Card1": 201,
-      "Card2": 403,
-      "Card3": 483,
-      "Result": 356
-    },
+    "Ritual": [
+      {
+        "RitualCard": 673,
+        "Card1": 201,
+        "Card2": 403,
+        "Card3": 483,
+        "Result": 356
+      }
+    ],
     "Attribute": 6,
-    "NameColor": 0,
-    "DescColor": 0
   },
   {
     "Name": "Beastry Mirror Ritual",
@@ -143126,16 +141792,16 @@ var card_db = TAFFY([
     "CardCode": "81933259",
     "Equip": null,
     "Fusions": [],
-    "Ritual": {
-      "RitualCard": 674,
-      "Card1": 186,
-      "Card2": 261,
-      "Card3": 595,
-      "Result": 365
-    },
+    "Ritual": [
+      {
+        "RitualCard": 674,
+        "Card1": 186,
+        "Card2": 261,
+        "Card3": 595,
+        "Result": 365
+      }
+    ],
     "Attribute": 6,
-    "NameColor": 0,
-    "DescColor": 0
   },
   {
     "Name": "Ultimate Dragon",
@@ -143151,16 +141817,16 @@ var card_db = TAFFY([
     "CardCode": "17928958",
     "Equip": null,
     "Fusions": [],
-    "Ritual": {
-      "RitualCard": 675,
-      "Card1": 1,
-      "Card2": 1,
-      "Card3": 1,
-      "Result": 380
-    },
+    "Ritual": [
+      {
+        "RitualCard": 675,
+        "Card1": 1,
+        "Card2": 1,
+        "Card3": 1,
+        "Result": 380
+      }
+    ],
     "Attribute": 6,
-    "NameColor": 0,
-    "DescColor": 0
   },
   {
     "Name": "Commencement Dance",
@@ -143176,16 +141842,16 @@ var card_db = TAFFY([
     "CardCode": "43417563",
     "Equip": null,
     "Fusions": [],
-    "Ritual": {
-      "RitualCard": 676,
-      "Card1": 249,
-      "Card2": 395,
-      "Card3": 511,
-      "Result": 701
-    },
+    "Ritual": [
+      {
+        "RitualCard": 676,
+        "Card1": 249,
+        "Card2": 395,
+        "Card3": 511,
+        "Result": 701
+      }
+    ],
     "Attribute": 6,
-    "NameColor": 0,
-    "DescColor": 0
   },
   {
     "Name": "Hamburger Recipe",
@@ -143201,16 +141867,16 @@ var card_db = TAFFY([
     "CardCode": "80811661",
     "Equip": null,
     "Fusions": [],
-    "Ritual": {
-      "RitualCard": 677,
-      "Card1": 14,
-      "Card2": 295,
-      "Card3": 547,
-      "Result": 702
-    },
+    "Ritual": [
+      {
+        "RitualCard": 677,
+        "Card1": 14,
+        "Card2": 295,
+        "Card3": 547,
+        "Result": 702
+      }
+    ],
     "Attribute": 6,
-    "NameColor": 0,
-    "DescColor": 0
   },
   {
     "Name": "Revival of Sennen Genjin",
@@ -143226,16 +141892,16 @@ var card_db = TAFFY([
     "CardCode": "16206366",
     "Equip": null,
     "Fusions": [],
-    "Ritual": {
-      "RitualCard": 678,
-      "Card1": 3,
-      "Card2": 64,
-      "Card3": 453,
-      "Result": 703
-    },
+    "Ritual": [
+      {
+        "RitualCard": 678,
+        "Card1": 3,
+        "Card2": 64,
+        "Card3": 453,
+        "Result": 703
+      }
+    ],
     "Attribute": 6,
-    "NameColor": 0,
-    "DescColor": 0
   },
   {
     "Name": "Novox's Prayer",
@@ -143251,16 +141917,16 @@ var card_db = TAFFY([
     "CardCode": "43694075",
     "Equip": null,
     "Fusions": [],
-    "Ritual": {
-      "RitualCard": 679,
-      "Card1": 160,
-      "Card2": 161,
-      "Card3": 535,
-      "Result": 704
-    },
+    "Ritual": [
+      {
+        "RitualCard": 679,
+        "Card1": 160,
+        "Card2": 161,
+        "Card3": 535,
+        "Result": 704
+      }
+    ],
     "Attribute": 6,
-    "NameColor": 0,
-    "DescColor": 0
   },
   {
     "Name": "Curse of Tri-Horned Dragon",
@@ -143276,16 +141942,16 @@ var card_db = TAFFY([
     "CardCode": "79699070",
     "Equip": null,
     "Fusions": [],
-    "Ritual": {
-      "RitualCard": 680,
-      "Card1": 6,
-      "Card2": 47,
-      "Card3": 571,
-      "Result": 705
-    },
+    "Ritual": [
+      {
+        "RitualCard": 680,
+        "Card1": 6,
+        "Card2": 47,
+        "Card3": 571,
+        "Result": 705
+      }
+    ],
     "Attribute": 6,
-    "NameColor": 0,
-    "DescColor": 0
   },
   {
     "Name": "House of Adhesive Tape",
@@ -143303,8 +141969,6 @@ var card_db = TAFFY([
     "Fusions": [],
     "Ritual": null,
     "Attribute": 7,
-    "NameColor": 0,
-    "DescColor": 0
   },
   {
     "Name": "Eatgaboon",
@@ -143322,8 +141986,6 @@ var card_db = TAFFY([
     "Fusions": [],
     "Ritual": null,
     "Attribute": 7,
-    "NameColor": 0,
-    "DescColor": 0
   },
   {
     "Name": "Bear Trap",
@@ -143341,8 +142003,6 @@ var card_db = TAFFY([
     "Fusions": [],
     "Ritual": null,
     "Attribute": 7,
-    "NameColor": 0,
-    "DescColor": 0
   },
   {
     "Name": "Invisible Wire",
@@ -143360,8 +142020,6 @@ var card_db = TAFFY([
     "Fusions": [],
     "Ritual": null,
     "Attribute": 7,
-    "NameColor": 0,
-    "DescColor": 0
   },
   {
     "Name": "Acid Trap Hole",
@@ -143379,8 +142037,6 @@ var card_db = TAFFY([
     "Fusions": [],
     "Ritual": null,
     "Attribute": 7,
-    "NameColor": 0,
-    "DescColor": 0
   },
   {
     "Name": "Widespread Ruin",
@@ -143404,8 +142060,6 @@ var card_db = TAFFY([
     ],
     "Ritual": null,
     "Attribute": 7,
-    "NameColor": 0,
-    "DescColor": 0
   },
   {
     "Name": "Goblin Fan",
@@ -143429,8 +142083,6 @@ var card_db = TAFFY([
     ],
     "Ritual": null,
     "Attribute": 7,
-    "NameColor": 0,
-    "DescColor": 0
   },
   {
     "Name": "Bad Reaction to Simochi",
@@ -143448,8 +142100,6 @@ var card_db = TAFFY([
     "Fusions": [],
     "Ritual": null,
     "Attribute": 7,
-    "NameColor": 0,
-    "DescColor": 0
   },
   {
     "Name": "Reverse Trap",
@@ -143467,8 +142117,6 @@ var card_db = TAFFY([
     "Fusions": [],
     "Ritual": null,
     "Attribute": 7,
-    "NameColor": 0,
-    "DescColor": 0
   },
   {
     "Name": "Fake Trap",
@@ -143486,8 +142134,6 @@ var card_db = TAFFY([
     "Fusions": [],
     "Ritual": null,
     "Attribute": 7,
-    "NameColor": 0,
-    "DescColor": 0
   },
   {
     "Name": "Revived of Serpent Night Dragon",
@@ -143503,16 +142149,16 @@ var card_db = TAFFY([
     "CardCode": "39411600",
     "Equip": null,
     "Fusions": [],
-    "Ritual": {
-      "RitualCard": 691,
-      "Card1": 168,
-      "Card2": 294,
-      "Card3": 604,
-      "Result": 706
-    },
+    "Ritual": [
+      {
+        "RitualCard": 691,
+        "Card1": 168,
+        "Card2": 294,
+        "Card3": 604,
+        "Result": 706
+      }
+    ],
     "Attribute": 6,
-    "NameColor": 0,
-    "DescColor": 0
   },
   {
     "Name": "Turtle Oath",
@@ -143528,16 +142174,16 @@ var card_db = TAFFY([
     "CardCode": "76806714",
     "Equip": null,
     "Fusions": [],
-    "Ritual": {
-      "RitualCard": 692,
-      "Card1": 89,
-      "Card2": 449,
-      "Card3": 451,
-      "Result": 710
-    },
+    "Ritual": [
+      {
+        "RitualCard": 692,
+        "Card1": 89,
+        "Card2": 449,
+        "Card3": 451,
+        "Result": 710
+      }
+    ],
     "Attribute": 6,
-    "NameColor": 0,
-    "DescColor": 0
   },
   {
     "Name": "Contruct of Mask",
@@ -143553,16 +142199,16 @@ var card_db = TAFFY([
     "CardCode": "02304453",
     "Equip": null,
     "Fusions": [],
-    "Ritual": {
-      "RitualCard": 693,
-      "Card1": 102,
-      "Card2": 182,
-      "Card3": 220,
-      "Result": 720
-    },
+    "Ritual": [
+      {
+        "RitualCard": 693,
+        "Card1": 102,
+        "Card2": 182,
+        "Card3": 220,
+        "Result": 720
+      }
+    ],
     "Attribute": 6,
-    "NameColor": 0,
-    "DescColor": 0
   },
   {
     "Name": "Resurrection of Chakra",
@@ -143578,16 +142224,16 @@ var card_db = TAFFY([
     "CardCode": "39399168",
     "Equip": null,
     "Fusions": [],
-    "Ritual": {
-      "RitualCard": 694,
-      "Card1": 178,
-      "Card2": 269,
-      "Card3": 288,
-      "Result": 709
-    },
+    "Ritual": [
+      {
+        "RitualCard": 694,
+        "Card1": 178,
+        "Card2": 269,
+        "Card3": 288,
+        "Result": 709
+      }
+    ],
     "Attribute": 6,
-    "NameColor": 0,
-    "DescColor": 0
   },
   {
     "Name": "Puppet Ritual",
@@ -143603,16 +142249,16 @@ var card_db = TAFFY([
     "CardCode": "05783166",
     "Equip": null,
     "Fusions": [],
-    "Ritual": {
-      "RitualCard": 695,
-      "Card1": 166,
-      "Card2": 405,
-      "Card3": 416,
-      "Result": 715
-    },
+    "Ritual": [
+      {
+        "RitualCard": 695,
+        "Card1": 166,
+        "Card2": 405,
+        "Card3": 416,
+        "Result": 715
+      }
+    ],
     "Attribute": 6,
-    "NameColor": 0,
-    "DescColor": 0
   },
   {
     "Name": "Javelin Beetle Pact",
@@ -143628,16 +142274,16 @@ var card_db = TAFFY([
     "CardCode": "41182875",
     "Equip": null,
     "Fusions": [],
-    "Ritual": {
-      "RitualCard": 696,
-      "Card1": 52,
-      "Card2": 480,
-      "Card3": 533,
-      "Result": 717
-    },
+    "Ritual": [
+      {
+        "RitualCard": 696,
+        "Card1": 52,
+        "Card2": 480,
+        "Card3": 533,
+        "Result": 717
+      }
+    ],
     "Attribute": 6,
-    "NameColor": 0,
-    "DescColor": 0
   },
   {
     "Name": "Garma Sword Oath",
@@ -143653,16 +142299,16 @@ var card_db = TAFFY([
     "CardCode": "78577570",
     "Equip": null,
     "Fusions": [],
-    "Ritual": {
-      "RitualCard": 697,
-      "Card1": 239,
-      "Card2": 378,
-      "Card3": 621,
-      "Result": 716
-    },
+    "Ritual": [
+      {
+        "RitualCard": 697,
+        "Card1": 239,
+        "Card2": 378,
+        "Card3": 621,
+        "Result": 716
+      }
+    ],
     "Attribute": 6,
-    "NameColor": 0,
-    "DescColor": 0
   },
   {
     "Name": "Cosmo Queen's Prayer",
@@ -143678,16 +142324,16 @@ var card_db = TAFFY([
     "CardCode": "04561679",
     "Equip": null,
     "Fusions": [],
-    "Ritual": {
-      "RitualCard": 698,
-      "Card1": 266,
-      "Card2": 635,
-      "Card3": 638,
-      "Result": 708
-    },
+    "Ritual": [
+      {
+        "RitualCard": 698,
+        "Card1": 266,
+        "Card2": 635,
+        "Card3": 638,
+        "Result": 708
+      }
+    ],
     "Attribute": 6,
-    "NameColor": 0,
-    "DescColor": 0
   },
   {
     "Name": "Revival of Skeleton Rider",
@@ -143703,16 +142349,16 @@ var card_db = TAFFY([
     "CardCode": "31066283",
     "Equip": null,
     "Fusions": [],
-    "Ritual": {
-      "RitualCard": 699,
-      "Card1": 146,
-      "Card2": 479,
-      "Card3": 485,
-      "Result": 719
-    },
+    "Ritual": [
+      {
+        "RitualCard": 699,
+        "Card1": 146,
+        "Card2": 479,
+        "Card3": 485,
+        "Result": 719
+      }
+    ],
     "Attribute": 6,
-    "NameColor": 0,
-    "DescColor": 0
   },
   {
     "Name": "Fortress Whale's Oath",
@@ -143728,16 +142374,16 @@ var card_db = TAFFY([
     "CardCode": "77454922",
     "Equip": null,
     "Fusions": [],
-    "Ritual": {
-      "RitualCard": 700,
-      "Card1": 436,
-      "Card2": 441,
-      "Card3": 542,
-      "Result": 718
-    },
+    "Ritual": [
+      {
+        "RitualCard": 700,
+        "Card1": 436,
+        "Card2": 441,
+        "Card3": 542,
+        "Result": 718
+      }
+    ],
     "Attribute": 6,
-    "NameColor": 0,
-    "DescColor": 0
   },
   {
     "Name": "Performance of Sword",
@@ -143755,8 +142401,6 @@ var card_db = TAFFY([
     "Fusions": [],
     "Ritual": null,
     "Attribute": 2,
-    "NameColor": 0,
-    "DescColor": 0
   },
   {
     "Name": "Hungry Burger",
@@ -143774,8 +142418,6 @@ var card_db = TAFFY([
     "Fusions": [],
     "Ritual": null,
     "Attribute": 1,
-    "NameColor": 0,
-    "DescColor": 0
   },
   {
     "Name": "Sengenjin",
@@ -143793,8 +142435,6 @@ var card_db = TAFFY([
     "Fusions": [],
     "Ritual": null,
     "Attribute": 2,
-    "NameColor": 0,
-    "DescColor": 0
   },
   {
     "Name": "Skull Guardian",
@@ -143812,8 +142452,6 @@ var card_db = TAFFY([
     "Fusions": [],
     "Ritual": null,
     "Attribute": 0,
-    "NameColor": 0,
-    "DescColor": 0
   },
   {
     "Name": "Tri-horned Dragon",
@@ -143831,8 +142469,6 @@ var card_db = TAFFY([
     "Fusions": [],
     "Ritual": null,
     "Attribute": 1,
-    "NameColor": 0,
-    "DescColor": 0
   },
   {
     "Name": "Serpent Night Dragon",
@@ -143850,8 +142486,6 @@ var card_db = TAFFY([
     "Fusions": [],
     "Ritual": null,
     "Attribute": 1,
-    "NameColor": 0,
-    "DescColor": 0
   },
   {
     "Name": "Skull Knight",
@@ -143869,8 +142503,6 @@ var card_db = TAFFY([
     "Fusions": [],
     "Ritual": null,
     "Attribute": 1,
-    "NameColor": 0,
-    "DescColor": 0
   },
   {
     "Name": "Cosmo Queen",
@@ -143888,8 +142520,6 @@ var card_db = TAFFY([
     "Fusions": [],
     "Ritual": null,
     "Attribute": 1,
-    "NameColor": 0,
-    "DescColor": 0
   },
   {
     "Name": "Chakra",
@@ -143907,8 +142537,6 @@ var card_db = TAFFY([
     "Fusions": [],
     "Ritual": null,
     "Attribute": 1,
-    "NameColor": 0,
-    "DescColor": 0
   },
   {
     "Name": "Crab Turtle",
@@ -143926,8 +142554,6 @@ var card_db = TAFFY([
     "Fusions": [],
     "Ritual": null,
     "Attribute": 3,
-    "NameColor": 0,
-    "DescColor": 0
   },
   {
     "Name": "Mikazukinoyaiba",
@@ -143945,8 +142571,6 @@ var card_db = TAFFY([
     "Fusions": [],
     "Ritual": null,
     "Attribute": 1,
-    "NameColor": 0,
-    "DescColor": 0
   },
   {
     "Name": "Meteor Dragon",
@@ -143970,8 +142594,6 @@ var card_db = TAFFY([
     ],
     "Ritual": null,
     "Attribute": 2,
-    "NameColor": 0,
-    "DescColor": 0
   },
   {
     "Name": "Meteor B. Dragon",
@@ -143989,8 +142611,6 @@ var card_db = TAFFY([
     "Fusions": [],
     "Ritual": null,
     "Attribute": 4,
-    "NameColor": 0,
-    "DescColor": 0
   },
   {
     "Name": "Firewing Pegasus",
@@ -144008,8 +142628,6 @@ var card_db = TAFFY([
     "Fusions": [],
     "Ritual": null,
     "Attribute": 4,
-    "NameColor": 0,
-    "DescColor": 0
   },
   {
     "Name": "Psycho-Puppet",
@@ -144027,8 +142645,6 @@ var card_db = TAFFY([
     "Fusions": [],
     "Ritual": null,
     "Attribute": 1,
-    "NameColor": 0,
-    "DescColor": 0
   },
   {
     "Name": "Garma Sword",
@@ -144046,8 +142662,6 @@ var card_db = TAFFY([
     "Fusions": [],
     "Ritual": null,
     "Attribute": 1,
-    "NameColor": 0,
-    "DescColor": 0
   },
   {
     "Name": "Javelin Beetle",
@@ -144065,8 +142679,6 @@ var card_db = TAFFY([
     "Fusions": [],
     "Ritual": null,
     "Attribute": 2,
-    "NameColor": 0,
-    "DescColor": 0
   },
   {
     "Name": "Fortress Whale",
@@ -144084,8 +142696,6 @@ var card_db = TAFFY([
     "Fusions": [],
     "Ritual": null,
     "Attribute": 3,
-    "NameColor": 0,
-    "DescColor": 0
   },
   {
     "Name": "Dokurorider",
@@ -144103,8 +142713,6 @@ var card_db = TAFFY([
     "Fusions": [],
     "Ritual": null,
     "Attribute": 1,
-    "NameColor": 0,
-    "DescColor": 0
   },
   {
     "Name": "Mask of Shine & Dark",
@@ -144122,8 +142730,6 @@ var card_db = TAFFY([
     "Fusions": [],
     "Ritual": null,
     "Attribute": 1,
-    "NameColor": 0,
-    "DescColor": 0
   },
   {
     "Name": "Dark Magic Ritual",
@@ -144139,16 +142745,16 @@ var card_db = TAFFY([
     "CardCode": "00000000",
     "Equip": null,
     "Fusions": [],
-    "Ritual": {
-      "RitualCard": 721,
-      "Card1": 7,
-      "Card2": 35,
-      "Card3": 417,
-      "Result": 722
-    },
+    "Ritual": [
+      {
+        "RitualCard": 721,
+        "Card1": 7,
+        "Card2": 35,
+        "Card3": 417,
+        "Result": 722
+      }
+    ],
     "Attribute": 6,
-    "NameColor": 0,
-    "DescColor": 0
   },
   {
     "Name": "Magician of Black Chaos",
@@ -144166,7 +142772,5 @@ var card_db = TAFFY([
     "Fusions": [],
     "Ritual": null,
     "Attribute": 1,
-    "NameColor": 0,
-    "DescColor": 0
   }
 ])
