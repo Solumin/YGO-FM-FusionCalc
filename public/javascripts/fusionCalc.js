@@ -1,5 +1,5 @@
-var outputLeft = document.getElementById("outputarealeft");
-var outputRight = document.getElementById("outputarearight");
+var outputLeft = document.getElementById("output-area-left");
+var outputRight = document.getElementById("output-area-right");
 
 // Initialize Awesomplete
 var _awesompleteOpts = {
@@ -14,51 +14,30 @@ for (i = 1; i <= 5; i++) {
     var hand = document.getElementById("hand" + i);
     handCompletions["hand" + i] = new Awesomplete(hand, _awesompleteOpts);
 }
-
 // Creates a div for each fusion
 function fusesToHTML(fuselist) {
     return fuselist
         .map(function (fusion) {
-            var res =
-                "<div class='result-div'>Input: " +
-                fusion.card1.Name +
-                "<br>Input: " +
-                fusion.card2.Name;
+            var res = `<div class="card border-dark mb-3" style="max-width: 18rem;">
+            <div class="card-body text-dark">
+            <p class="card-text"><strong>Input:</strong> ${fusion.card1.Name}</p>
+            <p class="card-text"><strong>Input:</strong> ${fusion.card2.Name}</p>`;
             if (fusion.result) {
                 // Equips and Results don't have a result field
-                res += "<br>Result: " + fusion.result.Name;
+                res += `<p class="card-text"><strong>Result:</strong> ${fusion.result.Name}</p>`;
                 if (isMonster(fusion.result)) {
                     res += " " + formatStats(fusion.result.Attack, fusion.result.Defense);
                 } else {
                     res += " [" + cardTypes[fusion.result.Type] + "]";
                 }
             }
-            return res + "<br><br></div>";
+            return res + "</div></div>";
         })
         .join("\n");
 }
 
-function getCardByName(cardname) {
-    return card_db({ Name: { isnocase: cardname } }).first();
-}
-
-// Returns the card with a given ID
-function getCardById(id) {
-    var card = card_db({ Id: id }).first();
-    if (!card) {
-        return null;
-    }
-    return card;
-}
-
 function formatStats(attack, defense) {
     return "(" + attack + "/" + defense + ")";
-}
-
-// Returns true if the given card is a monster, false if it is magic, ritual,
-// trap or equip
-function isMonster(card) {
-    return card.Type < 20;
 }
 
 function checkCard(cardname, infoname) {
@@ -113,10 +92,10 @@ function findFusions() {
         }
     }
 
-    outputLeft.innerHTML = "<h2 class='center'>Fusions:</h2>";
+    outputLeft.innerHTML = "<h2 class='text-center my-4'>Fusions</h2>";
     outputLeft.innerHTML += fusesToHTML(fuses.sort((a, b) => b.result.Attack - a.result.Attack));
 
-    outputRight.innerHTML = "<h2 class='center'>Equips:</h2>";
+    outputRight.innerHTML = "<h2 class='text-center my-4'>Equips</h2>";
     outputRight.innerHTML += fusesToHTML(equips);
 }
 
@@ -153,7 +132,7 @@ for (i = 1; i <= 5; i++) {
     });
 }
 
-$("#resetBtn").on("click", function () {
+$("#reset-btn").on("click", function () {
     resultsClear();
     inputsClear();
 });

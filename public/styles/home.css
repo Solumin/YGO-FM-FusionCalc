@@ -13,10 +13,9 @@ body {
 .polymerization {
     width: 100%;
     background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
-        url("../images/fusion_background.jpg");
-    background-repeat: repeat-y;
-    background-position: center;
+        url("../images/fusion_background.jpg") no-repeat center center fixed;
     background-size: cover;
+    height: 100%;
 }
 
 #logo {
@@ -58,6 +57,13 @@ body {
     background-position: center;
     background-size: cover;
     text-shadow: 2px 2px 6px black;
+}
+
+#container-contribution {
+    height: 400px;
+    font-size: 20px;
+    color: white;
+    background-color: black;
 }
 
 .text-main {
@@ -173,5 +179,8 @@ body {
     }
     .footer-bottom {
         font-size: 12px;
+    }
+    #container-contribution {
+        font-size: 15px;
     }
 }
